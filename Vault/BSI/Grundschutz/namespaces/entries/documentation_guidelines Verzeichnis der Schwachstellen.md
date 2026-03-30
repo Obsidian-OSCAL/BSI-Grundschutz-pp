@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8095838'
+created: '2026-03-31T00:21:30.6427754'
 ---
 
 
@@ -24,6 +24,6 @@ Enthält alle Schwachstellen, die in der Entwicklung, Nutzung oder beim Pentest 
 | ** bisher im IT-Grundschutz ** | Schwachstellenregister |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

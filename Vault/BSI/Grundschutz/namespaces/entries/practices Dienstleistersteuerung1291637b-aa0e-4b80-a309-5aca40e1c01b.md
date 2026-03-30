@@ -1,7 +1,7 @@
 ---
 aliases:
 - 1291637b-aa0e-4b80-a309-5aca40e1c01b
-created: '2026-03-31T00:00:50.9307568'
+created: '2026-03-31T00:21:30.7667989'
 ---
 
 
@@ -30,6 +30,6 @@ Während das Beschaffungsmanagement also die Grundlage für die Zusammenarbeit m
 | ** auch bekannt als ** | Management bestehender Dienstleisterbeziehungen |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

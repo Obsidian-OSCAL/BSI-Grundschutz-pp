@@ -1,7 +1,7 @@
 ---
 aliases:
 - 837781a4-7b47-4695-9545-a3310eac7a66
-created: '2026-03-31T00:00:51.0560019'
+created: '2026-03-31T00:21:30.8949887'
 ---
 
 
@@ -35,6 +35,6 @@ IT-Systeme, welche mit dem Netzabschluss eines Daten- oder Telekommunikationsnet
 | ** UUID ** | 837781a4-7b47-4695-9545-a3310eac7a66 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

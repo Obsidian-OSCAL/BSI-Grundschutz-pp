@@ -1,7 +1,7 @@
 ---
 aliases:
 - 7b79ab25-2173-4657-8ed3-c4b17a664931
-created: '2026-03-31T00:00:51.1923865'
+created: '2026-03-31T00:21:31.0331247'
 ---
 
 
@@ -24,6 +24,6 @@ Physische Sicherheit beschreibt Verfahren und Regelungen zum Thema "Physische Si
 | ** UUID ** | 7b79ab25-2173-4657-8ed3-c4b17a664931 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

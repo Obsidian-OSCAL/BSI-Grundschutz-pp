@@ -1,7 +1,7 @@
 ---
 aliases:
 - fec950b7-8c2d-4060-b4ff-d7276f0f9a56
-created: '2026-03-31T00:00:50.7662052'
+created: '2026-03-31T00:21:30.6052485'
 ---
 
 
@@ -30,6 +30,6 @@ Der Betrachtungsgegenstand positioniert einen anderen Betrachtungsgegenstand an 
 | ** UUID ** | fec950b7-8c2d-4060-b4ff-d7276f0f9a56 |
 
 
-_ created from [[action_words]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[action_words]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

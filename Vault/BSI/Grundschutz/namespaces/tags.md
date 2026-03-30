@@ -4,7 +4,7 @@ tags:
 - Namespace
 - auto_generated
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\namespaces\input\tags.csv
-created: '2026-03-31T00:00:51.034858'
+created: '2026-03-31T00:21:30.8735232'
 ---
 
 
@@ -76,7 +76,7 @@ hide-configuration: true
 | [[tags Produktbeschreibung\|Produktbeschreibung]]|Anforderungen mit diesem Tag sind sinnvolle Bestandteile einer dokumentierten Beschreibung eines IT-Produktes. Die vom Produkt implementierten Anforderungen können (durch Hersteller, Dienstleister oder Lieferanten) als OSCAL component-definition bereitgestellt werden um einen schnellen Abgleich zwischen Grundschutz++ und der Implementierung zu ermöglichen.|
 
 
-_ imported from [tags.csv](tags.csv.md) at Tue Mar 31 00:00:51 CEST 2026 _
+_ imported from [tags.csv](tags.csv.md) at Tue Mar 31 00:21:30 CEST 2026 _
 
 _ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/tags.csv _
 

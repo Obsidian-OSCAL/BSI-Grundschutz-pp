@@ -1,7 +1,7 @@
 ---
 aliases:
 - 17b37cff-5445-4487-acec-ef18d91cfec2
-created: '2026-03-31T00:00:50.933757'
+created: '2026-03-31T00:21:30.7702038'
 ---
 
 
@@ -30,6 +30,6 @@ Diese Praktik fokussiert sich auf den Schutz der physischen Umgebung (z.B. Gebä
 | ** auch bekannt als ** | Gebäudemanagement |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

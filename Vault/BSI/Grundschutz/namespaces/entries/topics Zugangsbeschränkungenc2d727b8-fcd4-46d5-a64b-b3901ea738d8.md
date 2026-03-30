@@ -1,7 +1,7 @@
 ---
 aliases:
 - c2d727b8-fcd4-46d5-a64b-b3901ea738d8
-created: '2026-03-31T00:00:51.100682'
+created: '2026-03-31T00:21:30.9440784'
 ---
 
 
@@ -24,6 +24,6 @@ Zugangsbeschränkungen beschreibt Verfahren und Regelungen zum Thema "Zugangsbes
 | ** UUID ** | c2d727b8-fcd4-46d5-a64b-b3901ea738d8 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

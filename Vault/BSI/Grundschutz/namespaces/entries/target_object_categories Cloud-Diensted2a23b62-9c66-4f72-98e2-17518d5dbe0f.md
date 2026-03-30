@@ -1,7 +1,7 @@
 ---
 aliases:
 - d2a23b62-9c66-4f72-98e2-17518d5dbe0f
-created: '2026-03-31T00:00:51.0388602'
+created: '2026-03-31T00:21:30.8775231'
 ---
 
 
@@ -29,6 +29,6 @@ Eine Unterart des Outsourcing, bei der nicht der Geschäftsprozess selbst, sonde
 | ** UUID ** | d2a23b62-9c66-4f72-98e2-17518d5dbe0f |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

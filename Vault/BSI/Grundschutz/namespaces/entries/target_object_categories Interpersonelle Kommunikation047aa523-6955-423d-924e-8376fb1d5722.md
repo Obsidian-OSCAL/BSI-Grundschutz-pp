@@ -1,7 +1,7 @@
 ---
 aliases:
 - 047aa523-6955-423d-924e-8376fb1d5722
-created: '2026-03-31T00:00:51.0671534'
+created: '2026-03-31T00:21:30.9082354'
 ---
 
 
@@ -34,6 +34,6 @@ Anwendung, die für die Kommunikation zwischen Menschen (Interpersonelle Kommuni
 | ** UUID ** | 047aa523-6955-423d-924e-8376fb1d5722 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9790841'
+created: '2026-03-31T00:21:30.8223672'
 ---
 
 
@@ -21,6 +21,6 @@ Die Fähigkeit, Wissen und Fertigkeiten effektiv einzusetzen, um bestimmte Aufga
 | ** Bedeutung ** | Die Fähigkeit, Wissen und Fertigkeiten effektiv einzusetzen, um bestimmte Aufgaben zu erfüllen, oft mit einer nachweisbaren Befähigung verbunden. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

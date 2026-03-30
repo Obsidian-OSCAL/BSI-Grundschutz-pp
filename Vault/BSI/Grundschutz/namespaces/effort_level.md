@@ -4,7 +4,7 @@ tags:
 - Namespace
 - auto_generated
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\namespaces\input\effort_level.csv
-created: '2026-03-31T00:00:50.9020986'
+created: '2026-03-31T00:21:30.7355785'
 ---
 
 
@@ -25,7 +25,7 @@ Definitionen zu Aufwandsstufen
 | [[effort_level 5\|5]]|In der Regel sind für die Umsetzung aufwändige, komplexe Maßnahmen oder eine individuelle Abwägung und Behandlung damit verbundener sekundärer Risiken erforderlich. Hierzu ist häufig tiefgehendes Expertenwissen oder der Einsatz entsprechender externer Dienstleister, sowie eine sorgfältige Planung  und Aufrechterhaltung notwendig. Beispiel: Aufbau georedundanter Rechenzentren.|
 
 
-_ imported from [effort_level.csv](effort_level.csv.md) at Tue Mar 31 00:00:50 CEST 2026 _
+_ imported from [effort_level.csv](effort_level.csv.md) at Tue Mar 31 00:21:30 CEST 2026 _
 
 _ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/effort_level.csv _
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 427da6dd-d744-4b2b-88b7-f0a695f21e14
-created: '2026-03-31T00:00:51.0721745'
+created: '2026-03-31T00:21:30.9132347'
 ---
 
 
@@ -34,6 +34,6 @@ Eigenständige informationstechnische Systeme zur elektronischen Datenverarbeitu
 | ** UUID ** | 427da6dd-d744-4b2b-88b7-f0a695f21e14 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

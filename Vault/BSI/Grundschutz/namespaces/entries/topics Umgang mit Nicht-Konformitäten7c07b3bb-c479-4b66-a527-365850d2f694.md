@@ -1,7 +1,7 @@
 ---
 aliases:
 - 7c07b3bb-c479-4b66-a527-365850d2f694
-created: '2026-03-31T00:00:51.1465754'
+created: '2026-03-31T00:21:30.9846872'
 ---
 
 
@@ -24,6 +24,6 @@ Der systematische Umgang mit Nicht-Konformitäten ist ein zentraler Bestandteil 
 | ** UUID ** | 7c07b3bb-c479-4b66-a527-365850d2f694 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

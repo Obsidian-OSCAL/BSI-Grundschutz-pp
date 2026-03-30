@@ -1,7 +1,7 @@
 ---
 aliases:
 - 05df1662-903f-41ff-ba88-0fbe86050550
-created: '2026-03-31T00:00:51.0651571'
+created: '2026-03-31T00:21:30.9072223'
 ---
 
 
@@ -29,6 +29,6 @@ Anwendungen, die es ermöglichen Faxe über ein Netz zu empfangen oder zu versen
 | ** UUID ** | 05df1662-903f-41ff-ba88-0fbe86050550 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

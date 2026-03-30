@@ -1,7 +1,7 @@
 ---
 aliases:
 - 02088622-573d-4225-883c-9afe0c7dc69b
-created: '2026-03-31T00:00:50.915015'
+created: '2026-03-31T00:21:30.7498679'
 ---
 
 
@@ -29,6 +29,6 @@ Während die Praktik "Konfiguration" die Parameter einer IT-Komponenten betracht
 | ** auch bekannt als ** | Management von Informationen und Assets |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

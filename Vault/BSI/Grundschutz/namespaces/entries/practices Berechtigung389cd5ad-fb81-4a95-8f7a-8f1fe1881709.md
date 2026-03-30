@@ -1,7 +1,7 @@
 ---
 aliases:
 - 389cd5ad-fb81-4a95-8f7a-8f1fe1881709
-created: '2026-03-31T00:00:50.927163'
+created: '2026-03-31T00:21:30.7637967'
 ---
 
 
@@ -30,6 +30,6 @@ Dabei bildet die Praktik Berechtigung eine zentrale Schnittstelle zwischen den P
 | ** auch bekannt als ** | Identitäts- und Berechtigungsmanagement |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

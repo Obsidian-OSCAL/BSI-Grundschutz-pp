@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8511352'
+created: '2026-03-31T00:21:30.680815'
 ---
 
 
@@ -24,6 +24,6 @@ Konzept zur Datenverfügbarkeit und -wiederherstellung: Legt verbindlich fest, w
 | ** bisher im IT-Grundschutz ** |   |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

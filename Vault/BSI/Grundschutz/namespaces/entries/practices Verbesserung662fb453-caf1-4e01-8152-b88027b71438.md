@@ -1,7 +1,7 @@
 ---
 aliases:
 - 662fb453-caf1-4e01-8152-b88027b71438
-created: '2026-03-31T00:00:50.9199534'
+created: '2026-03-31T00:21:30.7539086'
 ---
 
 
@@ -31,6 +31,6 @@ Die Verbesserung schließt den PDCA-Zyklus ab und leitet gleichzeitig einen neue
 | ** auch bekannt als ** | Kontinuierliche Verbesserung |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - dd48b96e-3f92-40fe-b776-39e97d17bb23
-created: '2026-03-31T00:00:51.1635857'
+created: '2026-03-31T00:21:31.0043442'
 ---
 
 
@@ -24,6 +24,6 @@ Bevor mit der Umsetzung des Anforderungspakets begonnen wird, gilt es zentrale G
 | ** UUID ** | dd48b96e-3f92-40fe-b776-39e97d17bb23 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - b843af63-e2a3-4dcd-ab8e-fe66dde9b138
-created: '2026-03-31T00:00:50.9179543'
+created: '2026-03-31T00:21:30.7519095'
 ---
 
 
@@ -32,6 +32,6 @@ Während Governance und Compliance die strategische Ausrichtung und die Anforder
 | ** auch bekannt als ** | Corporate/Mission Governance und Compliance |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8481719'
+created: '2026-03-31T00:21:30.6784509'
 ---
 
 
@@ -24,6 +24,6 @@ Die Konfigurationshistorie dokumentiert lückenlos die Änderungen an der Konfig
 | ** bisher im IT-Grundschutz ** |   |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

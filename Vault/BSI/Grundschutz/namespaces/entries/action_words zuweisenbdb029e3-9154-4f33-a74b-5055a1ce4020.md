@@ -1,7 +1,7 @@
 ---
 aliases:
 - bdb029e3-9154-4f33-a74b-5055a1ce4020
-created: '2026-03-31T00:00:50.7075033'
+created: '2026-03-31T00:21:30.5436158'
 ---
 
 
@@ -30,6 +30,6 @@ Einer Entität wird eine bestimmte Aufgabe, Verantwortung oder Ressource gezielt
 | ** UUID ** | bdb029e3-9154-4f33-a74b-5055a1ce4020 |
 
 
-_ created from [[action_words]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[action_words]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

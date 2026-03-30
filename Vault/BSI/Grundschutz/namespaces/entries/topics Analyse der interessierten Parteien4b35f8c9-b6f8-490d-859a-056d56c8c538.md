@@ -1,7 +1,7 @@
 ---
 aliases:
 - 4b35f8c9-b6f8-490d-859a-056d56c8c538
-created: '2026-03-31T00:00:51.0964925'
+created: '2026-03-31T00:21:30.9410787'
 ---
 
 
@@ -24,6 +24,6 @@ Die Analyse der interessierten Parteien (Stakeholder) identifiziert systematisch
 | ** UUID ** | 4b35f8c9-b6f8-490d-859a-056d56c8c538 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

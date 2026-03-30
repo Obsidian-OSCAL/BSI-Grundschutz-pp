@@ -4,7 +4,7 @@ tags:
 - Namespace
 - auto_generated
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\namespaces\input\practices.csv
-created: '2026-03-31T00:00:50.9350931'
+created: '2026-03-31T00:21:30.7722047'
 ---
 
 
@@ -76,7 +76,7 @@ hide-configuration: true
 | [[practices Beispiel9d330062-5c39-4bb0-bef2-62ab66414aa5\|EXMP]]|Beispiel|Beispiel für Tests.|[[practices Beispiel9d330062-5c39-4bb0-bef2-62ab66414aa5\|9d330062-5c39-4bb0-bef2-62ab66414aa5]]| | | |
 
 
-_ imported from [practices.csv](practices.csv.md) at Tue Mar 31 00:00:50 CEST 2026 _
+_ imported from [practices.csv](practices.csv.md) at Tue Mar 31 00:21:30 CEST 2026 _
 
 _ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/practices.csv _
 

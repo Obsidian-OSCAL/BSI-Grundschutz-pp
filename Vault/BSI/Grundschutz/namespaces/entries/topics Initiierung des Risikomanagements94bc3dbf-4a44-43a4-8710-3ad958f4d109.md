@@ -1,7 +1,7 @@
 ---
 aliases:
 - 94bc3dbf-4a44-43a4-8710-3ad958f4d109
-created: '2026-03-31T00:00:51.1993864'
+created: '2026-03-31T00:21:31.0400836'
 ---
 
 
@@ -24,6 +24,6 @@ Das Risikomanagement stellt sicher, dass Risiken systematisch identifiziert, ein
 | ** UUID ** | 94bc3dbf-4a44-43a4-8710-3ad958f4d109 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

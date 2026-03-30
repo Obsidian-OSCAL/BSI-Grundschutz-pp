@@ -1,7 +1,7 @@
 ---
 aliases:
 - a4083c4c-2ba7-4444-be07-6171b5d83f28
-created: '2026-03-31T00:00:51.1687428'
+created: '2026-03-31T00:21:31.0093453'
 ---
 
 
@@ -24,6 +24,6 @@ Berechtigungsmanagement beschreibt Verfahren und Regelungen zur Vergabe, Änderu
 | ** UUID ** | a4083c4c-2ba7-4444-be07-6171b5d83f28 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

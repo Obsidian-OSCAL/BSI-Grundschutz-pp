@@ -1,7 +1,7 @@
 ---
 aliases:
 - 9f9c827a-1933-46fd-a0c6-f990990745df
-created: '2026-03-31T00:00:51.0496999'
+created: '2026-03-31T00:21:30.8894802'
 ---
 
 
@@ -29,6 +29,6 @@ Tragbares Endgerät, das zur drahtlosen Telekommunikation bestimmt ist. Es ermö
 | ** UUID ** | 9f9c827a-1933-46fd-a0c6-f990990745df |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

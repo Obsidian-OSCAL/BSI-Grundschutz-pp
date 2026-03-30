@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8167527'
+created: '2026-03-31T00:21:30.6493044'
 ---
 
 
@@ -24,6 +24,6 @@ Die Schutzbedarfsfestellung beinhaltet die prozessorientierte Zuordnung von Schu
 | ** bisher im IT-Grundschutz ** |   |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

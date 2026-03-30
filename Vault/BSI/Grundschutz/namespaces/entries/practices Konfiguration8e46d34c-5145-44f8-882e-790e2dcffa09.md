@@ -1,7 +1,7 @@
 ---
 aliases:
 - 8e46d34c-5145-44f8-882e-790e2dcffa09
-created: '2026-03-31T00:00:50.9259537'
+created: '2026-03-31T00:21:30.7625186'
 ---
 
 
@@ -28,6 +28,6 @@ Die Praktik Konfiguration stellt sicher, dass IT-Komponenten – wie Anwendungen
 | ** auch bekannt als ** | Konfigurationsmanagement |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

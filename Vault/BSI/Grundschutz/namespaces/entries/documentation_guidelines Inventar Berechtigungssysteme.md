@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8363668'
+created: '2026-03-31T00:21:30.6659406'
 ---
 
 
@@ -24,6 +24,6 @@ Das Inventar der Berechtigungssysteme gibt einen Überblick über die eingesetzt
 | ** bisher im IT-Grundschutz ** |   |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

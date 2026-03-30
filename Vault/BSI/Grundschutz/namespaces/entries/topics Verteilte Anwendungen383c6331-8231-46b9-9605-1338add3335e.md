@@ -1,7 +1,7 @@
 ---
 aliases:
 - 383c6331-8231-46b9-9605-1338add3335e
-created: '2026-03-31T00:00:51.1325744'
+created: '2026-03-31T00:21:30.9724133'
 ---
 
 
@@ -24,6 +24,6 @@ Verteilte Anwendungen beschreibt Verfahren und Regelungen zum Thema "Verteilte A
 | ** UUID ** | 383c6331-8231-46b9-9605-1338add3335e |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 788c2014-fff2-45f3-97c4-46f56ece2a1b
-created: '2026-03-31T00:00:51.1172596'
+created: '2026-03-31T00:21:30.9589066'
 ---
 
 
@@ -24,6 +24,6 @@ Softwareentwicklung - Code beschreibt Verfahren und Regelungen zum Thema "Softwa
 | ** UUID ** | 788c2014-fff2-45f3-97c4-46f56ece2a1b |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

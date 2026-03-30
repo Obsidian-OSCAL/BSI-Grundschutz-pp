@@ -1,7 +1,7 @@
 ---
 aliases:
 - 67f74abf-162d-4e47-a24a-6ff53e9b124d
-created: '2026-03-31T00:00:51.0507125'
+created: '2026-03-31T00:21:30.8904895'
 ---
 
 
@@ -34,6 +34,6 @@ Anwendung, die der Telekommunikation von Endstellen über Netze dient. Beispiele
 | ** UUID ** | 67f74abf-162d-4e47-a24a-6ff53e9b124d |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

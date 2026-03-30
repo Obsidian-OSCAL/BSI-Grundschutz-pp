@@ -1,7 +1,7 @@
 ---
 aliases:
 - 1a4fb57d-1648-4111-979d-6a5f4f848620
-created: '2026-03-31T00:00:51.0520014'
+created: '2026-03-31T00:21:30.8916181'
 ---
 
 
@@ -34,6 +34,6 @@ Verbindungen eines oder mehrerer IT-Systeme, über die ein Datenaustausch stattf
 | ** UUID ** | 1a4fb57d-1648-4111-979d-6a5f4f848620 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - e0f11cba-1d72-4c30-a1e9-e33f794cdfb6
-created: '2026-03-31T00:00:51.055001'
+created: '2026-03-31T00:21:30.8939895'
 ---
 
 
@@ -29,6 +29,6 @@ Anwendung, die eine Telekommunikation mit Bild und Ton ermöglicht. Bitte beacht
 | ** UUID ** | e0f11cba-1d72-4c30-a1e9-e33f794cdfb6 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

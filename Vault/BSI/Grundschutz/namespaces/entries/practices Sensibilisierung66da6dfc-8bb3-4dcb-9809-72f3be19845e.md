@@ -1,7 +1,7 @@
 ---
 aliases:
 - 66da6dfc-8bb3-4dcb-9809-72f3be19845e
-created: '2026-03-31T00:00:50.9209543'
+created: '2026-03-31T00:21:30.7551853'
 ---
 
 
@@ -32,6 +32,6 @@ Die Praktik Personalmanagement stellt sicher, dass Informationssicherheitsaspekt
 | ** auch bekannt als ** | Schulung und Sensibilisierung |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

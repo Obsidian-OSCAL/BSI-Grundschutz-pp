@@ -1,7 +1,7 @@
 ---
 aliases:
 - cf85fe4e-56dc-4942-9564-aa80aa13a626
-created: '2026-03-31T00:00:50.9317574'
+created: '2026-03-31T00:21:30.7682043'
 ---
 
 
@@ -32,6 +32,6 @@ Während die Praktik Compliance sich explizit auf Anforderungen auf die Informat
 | ** auch bekannt als ** | Beschaffungswesen |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

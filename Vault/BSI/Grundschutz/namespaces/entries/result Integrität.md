@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9625403'
+created: '2026-03-31T00:21:30.8049716'
 ---
 
 
@@ -26,6 +26,6 @@ Eigenschaft, dass Informationen nur genau dann geändert oder gelöscht werden, 
 | ** UUID ** |   |
 
 
-_ created from [[result]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[result]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

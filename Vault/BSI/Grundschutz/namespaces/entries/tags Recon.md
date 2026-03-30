@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:51.0338574'
+created: '2026-03-31T00:21:30.871526'
 ---
 
 
@@ -21,6 +21,6 @@ Abkürzung für Reconnaissance, die Phase eines Cyberangriffs, in der Informatio
 | ** Bedeutung ** | Abkürzung für Reconnaissance, die Phase eines Cyberangriffs, in der Informationen über potenzielle Ziele gesammelt werden, um Schwachstellen zu identifizieren. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

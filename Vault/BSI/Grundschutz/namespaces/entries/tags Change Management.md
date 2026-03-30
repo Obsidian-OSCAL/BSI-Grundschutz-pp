@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:51.0065841'
+created: '2026-03-31T00:21:30.8552751'
 ---
 
 
@@ -21,6 +21,6 @@ Strukturierter Ansatz zur Durchführung von Änderungen an IT-Systemen, der die 
 | ** Bedeutung ** | Strukturierter Ansatz zur Durchführung von Änderungen an IT-Systemen, der die Auswirkungen auf den Betrieb und die Sicherheit minimiert und dokumentiert. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

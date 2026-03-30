@@ -1,7 +1,7 @@
 ---
 aliases:
 - 82a399a2-2fa7-4dd2-9850-89a7ee0505ea
-created: '2026-03-31T00:00:51.0631572'
+created: '2026-03-31T00:21:30.9038442'
 ---
 
 
@@ -29,6 +29,6 @@ Drahtlos angebundene, örtlich begrenzte Netze innerhalb des Informationsverbund
 | ** UUID ** | 82a399a2-2fa7-4dd2-9850-89a7ee0505ea |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

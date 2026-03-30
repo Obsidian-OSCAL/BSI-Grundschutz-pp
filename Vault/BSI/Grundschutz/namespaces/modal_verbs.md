@@ -4,7 +4,7 @@ tags:
 - Namespace
 - auto_generated
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\namespaces\input\modal_verbs.csv
-created: '2026-03-31T00:00:50.9093208'
+created: '2026-03-31T00:21:30.7425803'
 ---
 
 
@@ -28,7 +28,7 @@ hide-configuration: true
 | [[modal_verbs SOLLTEa04a4855-3a63-4f06-b2f4-fc4d94aee2cf\|SOLLTE]]|Dieser Ausdruck bedeutet, dass eine Anforderung normalerweise erfüllt werden muss, es aber Gründe geben kann, dies doch nicht zu tun. Dies muss aber sorgfältig abgewogen und stichhaltig begründet werden. Die hier genutzte Definition basiert auf [RFC2119] sowie DIN 820-2:2022, Anhang H [820-2].|[[modal_verbs SOLLTEa04a4855-3a63-4f06-b2f4-fc4d94aee2cf\|a04a4855-3a63-4f06-b2f4-fc4d94aee2cf]]|
 
 
-_ imported from [modal_verbs.csv](modal_verbs.csv.md) at Tue Mar 31 00:00:50 CEST 2026 _
+_ imported from [modal_verbs.csv](modal_verbs.csv.md) at Tue Mar 31 00:21:30 CEST 2026 _
 
 _ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/modal_verbs.csv _
 

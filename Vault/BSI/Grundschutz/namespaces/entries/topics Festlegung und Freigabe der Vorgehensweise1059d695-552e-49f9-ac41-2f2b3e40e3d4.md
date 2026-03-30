@@ -1,7 +1,7 @@
 ---
 aliases:
 - 1059d695-552e-49f9-ac41-2f2b3e40e3d4
-created: '2026-03-31T00:00:51.1801146'
+created: '2026-03-31T00:21:31.0193459'
 ---
 
 
@@ -24,6 +24,6 @@ Die Verfahren des ISMS müssen klar dokumentiert und auf die Größe sowie Kompl
 | ** UUID ** | 1059d695-552e-49f9-ac41-2f2b3e40e3d4 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

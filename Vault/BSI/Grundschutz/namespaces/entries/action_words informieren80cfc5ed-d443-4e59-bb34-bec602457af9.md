@@ -1,7 +1,7 @@
 ---
 aliases:
 - 80cfc5ed-d443-4e59-bb34-bec602457af9
-created: '2026-03-31T00:00:50.7609901'
+created: '2026-03-31T00:21:30.6012479'
 ---
 
 
@@ -30,6 +30,6 @@ Der Betrachtungsgegenstand liefert Informationen um dem Empfänger eine selbstbe
 | ** UUID ** | 80cfc5ed-d443-4e59-bb34-bec602457af9 |
 
 
-_ created from [[action_words]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[action_words]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

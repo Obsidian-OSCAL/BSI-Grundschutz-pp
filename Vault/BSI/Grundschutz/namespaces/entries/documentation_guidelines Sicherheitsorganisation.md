@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8305401'
+created: '2026-03-31T00:21:30.6604567'
 ---
 
 
@@ -24,6 +24,6 @@ Dieses Dokument verankert die offizielle Governance-Struktur für das Informatio
 | ** bisher im IT-Grundschutz ** | (todo) |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

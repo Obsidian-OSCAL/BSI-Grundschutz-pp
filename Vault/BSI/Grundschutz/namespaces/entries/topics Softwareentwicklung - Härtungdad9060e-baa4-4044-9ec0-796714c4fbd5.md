@@ -1,7 +1,7 @@
 ---
 aliases:
 - dad9060e-baa4-4044-9ec0-796714c4fbd5
-created: '2026-03-31T00:00:51.1953893'
+created: '2026-03-31T00:21:31.035639'
 ---
 
 
@@ -24,6 +24,6 @@ Softwareentwicklung - Härtung beschreibt Verfahren und Regelungen zum Thema "So
 | ** UUID ** | dad9060e-baa4-4044-9ec0-796714c4fbd5 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 39147c55-a952-4c34-8e2e-b8ac02a2eae7
-created: '2026-03-31T00:00:51.0827488'
+created: '2026-03-31T00:21:30.9250573'
 ---
 
 
@@ -29,6 +29,6 @@ Fahrzeuge (z.B. PKW, LKW, Züge oder Drohnen) im Sinne des Kompendiums sind Hard
 | ** UUID ** | 39147c55-a952-4c34-8e2e-b8ac02a2eae7 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

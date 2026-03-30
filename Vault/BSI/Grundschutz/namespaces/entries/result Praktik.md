@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9473668'
+created: '2026-03-31T00:21:30.7861593'
 ---
 
 
@@ -26,6 +26,6 @@ Praktiken bündeln Tätigkeiten nach (Teil-)Prozessen, deren Zuständigkeit best
 | ** UUID ** |   |
 
 
-_ created from [[result]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[result]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

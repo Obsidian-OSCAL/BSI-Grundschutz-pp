@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8980954'
+created: '2026-03-31T00:21:30.7318247'
 ---
 
 
@@ -21,6 +21,6 @@ In der Regel sind diese Anforderungen mit einer längerfristigen Umsetzung oder 
 | ** Definition ** | In der Regel sind diese Anforderungen mit einer längerfristigen Umsetzung oder Beibehaltung verbunden. Es wird Expertenwissen und oftmals auch eine Unterstützung von Dritten benötigt. Für die Aufrechterhaltung ist häufig ein größeres Team von Betriebspersonal erforderlich. Beispiel: Initiierung und Umsetzung von Baumaßnahmen. |
 
 
-_ created from [[effort_level]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[effort_level]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 38167a3c-ee3e-4261-9c44-994c15a31d2c
-created: '2026-03-31T00:00:51.0437003'
+created: '2026-03-31T00:21:30.8833308'
 ---
 
 
@@ -29,6 +29,6 @@ Anwendung zur zentralisierten Bereitstellung von abstrahierten Rechenressourcen.
 | ** UUID ** | 38167a3c-ee3e-4261-9c44-994c15a31d2c |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

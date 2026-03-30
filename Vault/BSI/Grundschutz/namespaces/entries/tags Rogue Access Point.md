@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9875999'
+created: '2026-03-31T00:21:30.8326952'
 ---
 
 
@@ -21,6 +21,6 @@ Ein nicht autorisierter WLAN-Zugangspunkt, der an ein Unternehmensnetzwerk anges
 | ** Bedeutung ** | Ein nicht autorisierter WLAN-Zugangspunkt, der an ein Unternehmensnetzwerk angeschlossen ist und ein Sicherheitsrisiko darstellt, da er den Umgehung von Sicherheitsmaßnahmen ermöglichen kann. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 8b64663c-8388-40bc-a68b-473e753ae4d0
-created: '2026-03-31T00:00:51.0530017'
+created: '2026-03-31T00:21:30.8916181'
 ---
 
 
@@ -29,6 +29,6 @@ Client-Anwendungen, die zum Abruf und zur Anzeige von Webseiten und Webanwendung
 | ** UUID ** | 8b64663c-8388-40bc-a68b-473e753ae4d0 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

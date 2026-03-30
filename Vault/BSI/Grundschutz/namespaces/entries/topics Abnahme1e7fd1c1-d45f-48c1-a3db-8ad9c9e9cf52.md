@@ -1,7 +1,7 @@
 ---
 aliases:
 - 1e7fd1c1-d45f-48c1-a3db-8ad9c9e9cf52
-created: '2026-03-31T00:00:51.112056'
+created: '2026-03-31T00:21:30.9540778'
 ---
 
 
@@ -24,6 +24,6 @@ Abnahme beschreibt die formale Prüfung und Bestätigung, dass gelieferte Produk
 | ** UUID ** | 1e7fd1c1-d45f-48c1-a3db-8ad9c9e9cf52 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

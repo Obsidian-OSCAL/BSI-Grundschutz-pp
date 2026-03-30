@@ -1,7 +1,7 @@
 ---
 aliases:
 - af61e9e7-80ee-4630-b603-c615c6a966ec
-created: '2026-03-31T00:00:50.9126534'
+created: '2026-03-31T00:21:30.7477413'
 ---
 
 
@@ -31,6 +31,6 @@ Während die Praktik Strukturmodellierung die notwendigen Anforderungen identifi
 | ** auch bekannt als ** | Realisierung von Sicherheitsmaßnahmen |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

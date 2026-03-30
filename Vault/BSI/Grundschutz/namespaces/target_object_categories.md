@@ -4,7 +4,7 @@ tags:
 - Namespace
 - auto_generated
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\namespaces\input\target_object_categories.csv
-created: '2026-03-31T00:00:51.0862397'
+created: '2026-03-31T00:21:30.928308'
 ---
 
 
@@ -106,7 +106,7 @@ filters:
 | [[target_object_categories WLANs82a399a2-2fa7-4dd2-9850-89a7ee0505ea\|WLANs]]|Drahtlos angebundene, örtlich begrenzte Netze innerhalb des Informationsverbundes|Netze|Technisch|WiFi, Wireless LAN|[[target_object_categories Interne Netzsegmente8ef347e7-ea3f-4624-b0f3-2af728443301\|8ef347e7-ea3f-4624-b0f3-2af728443301]]|[[target_object_categories WLANs82a399a2-2fa7-4dd2-9850-89a7ee0505ea\|82a399a2-2fa7-4dd2-9850-89a7ee0505ea]]|
 
 
-_ imported from [target_object_categories.csv](target_object_categories.csv.md) at Tue Mar 31 00:00:51 CEST 2026 _
+_ imported from [target_object_categories.csv](target_object_categories.csv.md) at Tue Mar 31 00:21:30 CEST 2026 _
 
 _ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/target_object_categories.csv _
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 0ff0f2da-afe5-49eb-825b-59c101cb39c0
-created: '2026-03-31T00:00:51.1983861'
+created: '2026-03-31T00:21:31.0390831'
 ---
 
 
@@ -24,6 +24,6 @@ Umgang mit Informationen enthält Verfahren und Regelungen die bei der Verarbeit
 | ** UUID ** | 0ff0f2da-afe5-49eb-825b-59c101cb39c0 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

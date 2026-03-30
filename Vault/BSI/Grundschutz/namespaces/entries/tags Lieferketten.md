@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:51.0237135'
+created: '2026-03-31T00:21:30.8635265'
 ---
 
 
@@ -21,6 +21,6 @@ Netzwerk von Organisationen, Menschen und Prozessen, die an der Produktion und B
 | ** Bedeutung ** | Netzwerk von Organisationen, Menschen und Prozessen, die an der Produktion und Bereitstellung von Produkten oder Dienstleistungen beteiligt sind, einschließlich der damit verbundenen Sicherheitsrisiken. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

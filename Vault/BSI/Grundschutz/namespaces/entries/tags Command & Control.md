@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9841827'
+created: '2026-03-31T00:21:30.8276224'
 ---
 
 
@@ -21,6 +21,6 @@ Die Infrastruktur und Kommunikationskanäle, die von Angreifern verwendet werden
 | ** Bedeutung ** | Die Infrastruktur und Kommunikationskanäle, die von Angreifern verwendet werden, um mit kompromittierten Systemen zu kommunizieren und diese fernzusteuern. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

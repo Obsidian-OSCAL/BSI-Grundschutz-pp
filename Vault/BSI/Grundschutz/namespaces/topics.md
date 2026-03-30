@@ -4,7 +4,7 @@ tags:
 - Namespace
 - auto_generated
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\namespaces\input\topics.csv
-created: '2026-03-31T00:00:51.2074645'
+created: '2026-03-31T00:21:31.0459829'
 ---
 
 
@@ -166,7 +166,7 @@ hide-configuration: true
 | [[topics Überwachung von Aktivitätend1295ff6-7958-42f2-9e5e-987b0ed117dc\|Überwachung von Aktivitäten]]|Überwachung von Aktivitäten beschreibt Verfahren und Regelungen zum Thema "Überwachung von Aktivitäten" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Protokollierung und nachgelagerten Aspekten wie Management von Schwachstellen. Schwerpunkte sind u. a.: Überwachung der Protokollierung; Automatische Angriffserkennung; Überwachung der Angriffserkennung.|[[topics Überwachung von Aktivitätend1295ff6-7958-42f2-9e5e-987b0ed117dc\|d1295ff6-7958-42f2-9e5e-987b0ed117dc]]|
 
 
-_ imported from [topics.csv](topics.csv.md) at Tue Mar 31 00:00:51 CEST 2026 _
+_ imported from [topics.csv](topics.csv.md) at Tue Mar 31 00:21:31 CEST 2026 _
 
 _ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/topics.csv _
 

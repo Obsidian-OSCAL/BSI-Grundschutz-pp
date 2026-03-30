@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:51.0035849'
+created: '2026-03-31T00:21:30.8521821'
 ---
 
 
@@ -21,6 +21,6 @@ Wissenschaft der Verschlüsselung von Informationen, um sie vor unbefugtem Zugri
 | ** Bedeutung ** | Wissenschaft der Verschlüsselung von Informationen, um sie vor unbefugtem Zugriff zu schützen und sichere Kommunikation zu ermöglichen. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

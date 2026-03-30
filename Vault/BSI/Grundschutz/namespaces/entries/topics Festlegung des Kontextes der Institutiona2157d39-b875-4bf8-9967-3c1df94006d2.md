@@ -1,7 +1,7 @@
 ---
 aliases:
 - a2157d39-b875-4bf8-9967-3c1df94006d2
-created: '2026-03-31T00:00:51.1529735'
+created: '2026-03-31T00:21:30.9866876'
 ---
 
 
@@ -24,6 +24,6 @@ Die systematische Analyse und Dokumentation des Kontextes umfasst alle internen 
 | ** UUID ** | a2157d39-b875-4bf8-9967-3c1df94006d2 |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 4b1393ff-95df-4296-8420-c3555becc9ed
-created: '2026-03-31T00:00:51.1613909'
+created: '2026-03-31T00:21:31.0003445'
 ---
 
 
@@ -24,6 +24,6 @@ Alle Anforderungen der ISMS-Praktiken werden ohne weitere Selektion auf den Info
 | ** UUID ** | 4b1393ff-95df-4296-8420-c3555becc9ed |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

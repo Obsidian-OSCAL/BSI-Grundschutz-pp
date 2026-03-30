@@ -1,7 +1,7 @@
 ---
 aliases:
 - b5f9e5ce-d90e-4da5-8ee7-32eae4829e55
-created: '2026-03-31T00:00:51.0447003'
+created: '2026-03-31T00:21:30.884342'
 ---
 
 
@@ -29,6 +29,6 @@ Anwendungen, die für typische Datenverarbeitungen im Büro genutzt werden, etwa
 | ** UUID ** | b5f9e5ce-d90e-4da5-8ee7-32eae4829e55 |
 
 
-_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[target_object_categories]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

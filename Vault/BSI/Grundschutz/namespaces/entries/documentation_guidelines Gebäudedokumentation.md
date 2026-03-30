@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.8755985'
+created: '2026-03-31T00:21:30.7086434'
 ---
 
 
@@ -24,6 +24,6 @@ Die Gebäudedokumentation bietet einen detaillierten und aktuellen Überblick ü
 | ** bisher im IT-Grundschutz ** |   |
 
 
-_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

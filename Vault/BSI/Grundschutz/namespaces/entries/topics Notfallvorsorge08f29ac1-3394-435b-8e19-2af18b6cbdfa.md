@@ -1,7 +1,7 @@
 ---
 aliases:
 - 08f29ac1-3394-435b-8e19-2af18b6cbdfa
-created: '2026-03-31T00:00:51.118259'
+created: '2026-03-31T00:21:30.959966'
 ---
 
 
@@ -24,6 +24,6 @@ Notfallvorsorge beschreibt Verfahren und Regelungen zum Thema "Notfallvorsorge" 
 | ** UUID ** | 08f29ac1-3394-435b-8e19-2af18b6cbdfa |
 
 
-_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[topics]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

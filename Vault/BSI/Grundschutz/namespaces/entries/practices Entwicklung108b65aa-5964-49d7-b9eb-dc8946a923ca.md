@@ -1,7 +1,7 @@
 ---
 aliases:
 - 108b65aa-5964-49d7-b9eb-dc8946a923ca
-created: '2026-03-31T00:00:50.921954'
+created: '2026-03-31T00:21:30.7565179'
 ---
 
 
@@ -32,6 +32,6 @@ Durch die enge Zusammenarbeit mit anderen Praktiken wie IT-Betrieb, Asset Manage
 | ** auch bekannt als ** | Entwicklungsmanagement |
 
 
-_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[practices]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

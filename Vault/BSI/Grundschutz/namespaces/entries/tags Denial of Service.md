@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9932668'
+created: '2026-03-31T00:21:30.8391494'
 ---
 
 
@@ -21,6 +21,6 @@ Angriff, der darauf abzielt, ein System, einen Dienst oder eine Ressource für l
 | ** Bedeutung ** | Angriff, der darauf abzielt, ein System, einen Dienst oder eine Ressource für legitime Benutzer unzugänglich zu machen, indem Ressourcen erschöpft oder Kommunikationswege blockiert werden. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

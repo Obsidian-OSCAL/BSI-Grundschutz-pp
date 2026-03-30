@@ -1,5 +1,5 @@
 ---
-created: '2026-03-31T00:00:50.9821211'
+created: '2026-03-31T00:21:30.8256196'
 ---
 
 
@@ -21,6 +21,6 @@ Mechanismen, die Sicherheitsregeln und -richtlinien automatisch durchsetzen, ohn
 | ** Bedeutung ** | Mechanismen, die Sicherheitsregeln und -richtlinien automatisch durchsetzen, ohne menschliches Eingreifen, um konsistente Sicherheitsstandards zu gewährleisten. |
 
 
-_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+_ created from [[tags]] at Tue Mar 31 00:21:30 CEST 2026 _
 
 

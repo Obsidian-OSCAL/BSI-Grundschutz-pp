@@ -1,0 +1,34 @@
+---
+aliases:
+- 8b64663c-8388-40bc-a68b-473e753ae4d0
+created: '2026-03-30T22:33:03.5663484'
+---
+
+
+# [[target_object_categories]] &rarr; Webbrowser
+
+| | |
+| --- | --- |
+| ** UUID ** | 8b64663c-8388-40bc-a68b-473e753ae4d0 | 
+| ** Parent ** | [[target_object_categories Anwendungen7e41ecf5-1831-4691-ad0c-4fc7bbc1b871\|7e41ecf5-1831-4691-ad0c-4fc7bbc1b871]] |
+
+
+Client-Anwendungen, die zum Abruf und zur Anzeige von Webseiten und Webanwendungen dienen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Webbrowser |
+| ** Definition ** | Client-Anwendungen, die zum Abruf und zur Anzeige von Webseiten und Webanwendungen dienen. |
+| ** Typ ** | Anwendungen |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** |   |
+| ** ChildOfUUID ** | [[target_object_categories Anwendungen7e41ecf5-1831-4691-ad0c-4fc7bbc1b871\|7e41ecf5-1831-4691-ad0c-4fc7bbc1b871]] |
+| ** UUID ** | 8b64663c-8388-40bc-a68b-473e753ae4d0 |
+
+
+_ created from [[target_object_categories]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

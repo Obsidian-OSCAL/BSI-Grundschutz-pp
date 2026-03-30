@@ -1,0 +1,31 @@
+---
+tags:
+- BIS
+- Namespace
+- auto_generated
+source: C:\developement\oscal-obsidian\BSI-Grundschutz\Vault\BSI\namespaces\input\effort_level.csv
+created: '2026-03-30T22:33:03.3879213'
+---
+
+
+** Namespace: effort_level **
+
+Definitionen zu Aufwandsstufen
+
+### Tabellenansicht
+
+
+| Aufwand |Definition |
+| --- |--- |
+| [[effort_level 0\|0]]|Der Aufwand der Anforderung wird nicht bewertet, da ihre Implementierung in jedem Fall zwingend erforderlich ist. Beispiel: Benennung eines Informationssicherheitsbeauftragten.|
+| [[effort_level 1\|1]]|In der Regel ist die Umsetzung noch am selben Tag und mit wenig Aufwand erreichbar. Zur Aufrechterhaltung sind keine regelmäßigen Aufwände erforderlich (Sogenannte Quick Wins / low hanging fruit). Beispiel: Aktivierung einer typischerweise vorhandenen Systemfunktion.|
+| [[effort_level 2\|2]]|In der Regel ist die Umsetzung innerhalb einer Woche mit eigenen Mitteln möglich. Zur Aufrechterhaltung sind nur geringe Aufwände erforderlich. Beispiel: Erstellung einer Kontaktübersicht, die mit mehreren Fachbereichen abgestimmt werden muss.|
+| [[effort_level 3\|3]]|In der Regel ist für die Umsetzung ein Zeitraum über mehrere Wochen bis einige Monate erforderlich. Je nach Ressourcen der Institution kann hierzu auch eine Beteiligung externer Dienstleister erforderlich sein. Die Aufrechterhaltung kann von einem kleinen Team an Betriebspersonal gewährleistet werden. Beispiel: Unterbringung von Geräten im Serverraum.|
+| [[effort_level 4\|4]]|In der Regel sind diese Anforderungen mit einer längerfristigen Umsetzung oder Beibehaltung verbunden. Es wird Expertenwissen und oftmals auch eine Unterstützung von Dritten benötigt. Für die Aufrechterhaltung ist häufig ein größeres Team von Betriebspersonal erforderlich. Beispiel: Initiierung und Umsetzung von Baumaßnahmen.|
+| [[effort_level 5\|5]]|In der Regel sind für die Umsetzung aufwändige, komplexe Maßnahmen oder eine individuelle Abwägung und Behandlung damit verbundener sekundärer Risiken erforderlich. Hierzu ist häufig tiefgehendes Expertenwissen oder der Einsatz entsprechender externer Dienstleister, sowie eine sorgfältige Planung  und Aufrechterhaltung notwendig. Beispiel: Aufbau georedundanter Rechenzentren.|
+
+
+_ imported from [effort_level.csv](effort_level.csv.md) at Mon Mar 30 22:33:03 CEST 2026 _
+
+_ https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/effort_level.csv _
+

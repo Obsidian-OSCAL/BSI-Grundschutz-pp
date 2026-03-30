@@ -1,0 +1,35 @@
+---
+aliases:
+- 17b37cff-5445-4487-acec-ef18d91cfec2
+created: '2026-03-30T22:33:03.4271316'
+---
+
+
+# [[practices]] &rarr; Gebäudemanagement
+
+| | |
+| --- | --- |
+| ** UUID ** | 17b37cff-5445-4487-acec-ef18d91cfec2 | 
+
+
+Das Gebäudemanagement sorgt für die Implementierung von physischen Sicherheitsmaßnahmen in und um das Gebäude. Dazu gehören insbesondere Zutrittskontrollen, Überwachungsmechanismen und die Sicherstellung geeigneter Umgebungsbedingungen, um sensible IT-Systeme und Informationen vor physischen Bedrohungen zu schützen.
+
+Diese Praktik fokussiert sich auf den Schutz der physischen Umgebung (z.B. Gebäude, Räume), während andere Praktiken wie IT-Betrieb oder Berechtigungen sich mit systemseitigen und personellen Sicherheitsmaßnahmen beschäftigen. Das Gebäudemanagement stellt sicher, dass die physische Infrastruktur so gestaltet ist, dass sie IT-Systeme und sensible Daten bestmöglich schützt.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Kürzel ** | GEB |
+| ** Begriff ** | Gebäudemanagement |
+| ** Definition ** | Das Gebäudemanagement sorgt für die Implementierung von physischen Sicherheitsmaßnahmen in und um das Gebäude. Dazu gehören insbesondere Zutrittskontrollen, Überwachungsmechanismen und die Sicherstellung geeigneter Umgebungsbedingungen, um sensible IT-Systeme und Informationen vor physischen Bedrohungen zu schützen.<br><br>Diese Praktik fokussiert sich auf den Schutz der physischen Umgebung (z.B. Gebäude, Räume), während andere Praktiken wie IT-Betrieb oder Berechtigungen sich mit systemseitigen und personellen Sicherheitsmaßnahmen beschäftigen. Das Gebäudemanagement stellt sicher, dass die physische Infrastruktur so gestaltet ist, dass sie IT-Systeme und sensible Daten bestmöglich schützt. |
+| ** UUID ** | 17b37cff-5445-4487-acec-ef18d91cfec2 |
+| ** Schwerpunkt ** | Organisatorisch |
+| ** Nummerierung ** | 11 |
+| ** auch bekannt als ** | Gebäudemanagement |
+
+
+_ created from [[practices]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

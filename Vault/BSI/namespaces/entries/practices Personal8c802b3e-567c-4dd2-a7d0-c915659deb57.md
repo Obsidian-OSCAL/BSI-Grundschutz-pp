@@ -1,0 +1,35 @@
+---
+aliases:
+- 8c802b3e-567c-4dd2-a7d0-c915659deb57
+created: '2026-03-30T22:33:03.4087598'
+---
+
+
+# [[practices]] &rarr; Personal
+
+| | |
+| --- | --- |
+| ** UUID ** | 8c802b3e-567c-4dd2-a7d0-c915659deb57 | 
+
+
+Die Praktik Personal fokussiert sich auf die Integration von Sicherheitsanforderungen über den gesamten Beschäftigungs- oder Vertragszyklus von Mitarbeitenden sowie externen Partnern hinweg. Ziel ist es, einen sicheren Umgang mit Informationen während der gesamten Dauer der Beschäftigung oder Zusammenarbeit zu gewährleisten.
+
+Diese Praktik fokussiert auf den sicheren Umgang mit Personen, während Praktiken, wie Berechtigungen, den systemseitigen Zugriff regeln.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Kürzel ** | PERS |
+| ** Begriff ** | Personal |
+| ** Definition ** | Die Praktik Personal fokussiert sich auf die Integration von Sicherheitsanforderungen über den gesamten Beschäftigungs- oder Vertragszyklus von Mitarbeitenden sowie externen Partnern hinweg. Ziel ist es, einen sicheren Umgang mit Informationen während der gesamten Dauer der Beschäftigung oder Zusammenarbeit zu gewährleisten.<br><br>Diese Praktik fokussiert auf den sicheren Umgang mit Personen, während Praktiken, wie Berechtigungen, den systemseitigen Zugriff regeln. |
+| ** UUID ** | 8c802b3e-567c-4dd2-a7d0-c915659deb57 |
+| ** Schwerpunkt ** | Organisatorisch |
+| ** Nummerierung ** | 7 |
+| ** auch bekannt als ** | Personalmanagement |
+
+
+_ created from [[practices]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

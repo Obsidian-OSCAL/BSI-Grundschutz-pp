@@ -1,0 +1,31 @@
+---
+created: '2026-03-30T22:33:03.4602999'
+---
+
+
+# [[result]] &rarr; Elementare Gefährdungen
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Elementare Gefährdungen sind grundlegende, häufig auftretende Bedrohungslagen, die als standardisierte Basis für Risikoanalysen dienen. Diese Gefährdungen sind bewusst produkt- und technologie?neutral formuliert und sollen universell anwendbar sein; nur dort, wo bestimmte Technologien den Markt so stark prägen, kann eine Abstrahierung beeinflusst sein. Sie dienen als Ausgangspunkt, um typische Risiken wie Feuer, Wasserschäden, Einbruch, Schadsoftware oder Hardware?Defekte zu erkennen, zu klassifizieren und geeignete Schutzmaßnahmen abzuleiten.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Elementare Gefährdungen |
+| ** Definition ** | Elementare Gefährdungen sind grundlegende, häufig auftretende Bedrohungslagen, die als standardisierte Basis für Risikoanalysen dienen. Diese Gefährdungen sind bewusst produkt- und technologie?neutral formuliert und sollen universell anwendbar sein; nur dort, wo bestimmte Technologien den Markt so stark prägen, kann eine Abstrahierung beeinflusst sein. Sie dienen als Ausgangspunkt, um typische Risiken wie Feuer, Wasserschäden, Einbruch, Schadsoftware oder Hardware?Defekte zu erkennen, zu klassifizieren und geeignete Schutzmaßnahmen abzuleiten. |
+| ** Kategorie ** |   |
+| ** Synonyme ** |   |
+| ** Variationen ** |   |
+| ** ChildOfUUID ** |  |
+| ** UUID ** |   |
+
+
+_ created from [[result]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

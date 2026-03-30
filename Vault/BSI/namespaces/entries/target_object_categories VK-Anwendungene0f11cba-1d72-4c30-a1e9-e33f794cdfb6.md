@@ -1,0 +1,34 @@
+---
+aliases:
+- e0f11cba-1d72-4c30-a1e9-e33f794cdfb6
+created: '2026-03-30T22:33:03.5684927'
+---
+
+
+# [[target_object_categories]] &rarr; VK-Anwendungen
+
+| | |
+| --- | --- |
+| ** UUID ** | e0f11cba-1d72-4c30-a1e9-e33f794cdfb6 | 
+| ** Parent ** | [[target_object_categories TK-Anwendungen67f74abf-162d-4e47-a24a-6ff53e9b124d\|67f74abf-162d-4e47-a24a-6ff53e9b124d]] |
+
+
+Anwendung, die eine Telekommunikation mit Bild und Ton ermöglicht. Bitte beachten Sie, dass viele VK-Anwendungen auch die Konferenz über eine Webschnittstelle ermöglichen. In diesem Fall sind für das Zielobjekt ebenfalls die Anforderungen für Webserver und Webanwendungen mit zu berücksichtigen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | VK-Anwendungen |
+| ** Definition ** | Anwendung, die eine Telekommunikation mit Bild und Ton ermöglicht. Bitte beachten Sie, dass viele VK-Anwendungen auch die Konferenz über eine Webschnittstelle ermöglichen. In diesem Fall sind für das Zielobjekt ebenfalls die Anforderungen für Webserver und Webanwendungen mit zu berücksichtigen. |
+| ** Typ ** | Anwendungen |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | Videotelefonie |
+| ** ChildOfUUID ** | [[target_object_categories TK-Anwendungen67f74abf-162d-4e47-a24a-6ff53e9b124d\|67f74abf-162d-4e47-a24a-6ff53e9b124d]] |
+| ** UUID ** | e0f11cba-1d72-4c30-a1e9-e33f794cdfb6 |
+
+
+_ created from [[target_object_categories]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

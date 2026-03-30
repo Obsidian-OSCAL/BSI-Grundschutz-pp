@@ -1,0 +1,32 @@
+---
+created: '2026-03-30T22:33:03.4524723'
+---
+
+
+# [[result]] &rarr; Sicherheitsrelevantes Ereignis
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Ein sicherheitsrelevantes Ereignis ist ein in einem IT-System oder einer Anwendung erfasstes Vorkommnis, das im Zusammenhang mit den Schutzzielen der Informationssicherheit steht und nach Maßgabe des institutionsspezifischen Risikoprofils geeignet ist, eine Gefährdung oder Verletzung von Vertraulichkeit, Integrität, Verfügbarkeit oder Nachvollziehbarkeit zu bewirken oder anzuzeigen. Hierzu zählen insbesondere Zugriffs- und Authentifizierungsversuche, die Nutzung privilegierter Konten oder Rollen, Veränderungen von System-, Sicherheits- oder Anwendungsparametern, Störungen oder Ausfälle, Zugriff auf besonders schutzbedürftige Daten, sowie Ereignisse, die auf einen möglichen Missbrauch, Angriff oder sonstige Verletzung der Sicherheitsvorgaben hindeuten. Die Protokollierung dieser Ereignisse dient der Nachvollziehbarkeit, Beweisführung und Erkennung von Sicherheitsvorfällen. Eine besondere Herausforderung ist es, die relevanten Meldungen aus der großen Menge der verschiedenen Protokollereignisse herauszufiltern. Denn viele protokollierte Meldungen haben nur informativen Charakter und lenken von den wirklich wichtigen Meldungen ab. Werden zu viele Protokollmeldungen ausgewählt, lässt sich die Fülle an Informationen nur schwer und mit hohem
+Zeitaufwand auswerten. Des Weiteren könnten Protokollierungsdaten verworfen oder überschrieben werden, wenn der Arbeitsspeicher oder die Festplattenkapazität des IT-Systems bzw. der Protokollierungsinfrastruktur nicht ausreichen. Werden dadurch zu wenige oder nicht ausreichend relevante Protokollmeldungen aufgezeichnet, könnten sicherheitskritische Vorfälle unerkannt bleiben.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Sicherheitsrelevantes Ereignis |
+| ** Definition ** | Ein sicherheitsrelevantes Ereignis ist ein in einem IT-System oder einer Anwendung erfasstes Vorkommnis, das im Zusammenhang mit den Schutzzielen der Informationssicherheit steht und nach Maßgabe des institutionsspezifischen Risikoprofils geeignet ist, eine Gefährdung oder Verletzung von Vertraulichkeit, Integrität, Verfügbarkeit oder Nachvollziehbarkeit zu bewirken oder anzuzeigen. Hierzu zählen insbesondere Zugriffs- und Authentifizierungsversuche, die Nutzung privilegierter Konten oder Rollen, Veränderungen von System-, Sicherheits- oder Anwendungsparametern, Störungen oder Ausfälle, Zugriff auf besonders schutzbedürftige Daten, sowie Ereignisse, die auf einen möglichen Missbrauch, Angriff oder sonstige Verletzung der Sicherheitsvorgaben hindeuten. Die Protokollierung dieser Ereignisse dient der Nachvollziehbarkeit, Beweisführung und Erkennung von Sicherheitsvorfällen. Eine besondere Herausforderung ist es, die relevanten Meldungen aus der großen Menge der verschiedenen Protokollereignisse herauszufiltern. Denn viele protokollierte Meldungen haben nur informativen Charakter und lenken von den wirklich wichtigen Meldungen ab. Werden zu viele Protokollmeldungen ausgewählt, lässt sich die Fülle an Informationen nur schwer und mit hohem<br>Zeitaufwand auswerten. Des Weiteren könnten Protokollierungsdaten verworfen oder überschrieben werden, wenn der Arbeitsspeicher oder die Festplattenkapazität des IT-Systems bzw. der Protokollierungsinfrastruktur nicht ausreichen. Werden dadurch zu wenige oder nicht ausreichend relevante Protokollmeldungen aufgezeichnet, könnten sicherheitskritische Vorfälle unerkannt bleiben. |
+| ** Kategorie ** |   |
+| ** Synonyme ** |   |
+| ** Variationen ** | Sicherheitsrelevante Ereignisse|sicherheitsrelevanten Ereignissen |
+| ** ChildOfUUID ** |  |
+| ** UUID ** |   |
+
+
+_ created from [[result]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

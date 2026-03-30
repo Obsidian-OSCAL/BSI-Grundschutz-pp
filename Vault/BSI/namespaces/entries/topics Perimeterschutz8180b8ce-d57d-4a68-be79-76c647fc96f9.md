@@ -1,0 +1,29 @@
+---
+aliases:
+- 8180b8ce-d57d-4a68-be79-76c647fc96f9
+created: '2026-03-30T22:33:03.609953'
+---
+
+
+# [[topics]] &rarr; Perimeterschutz
+
+| | |
+| --- | --- |
+| ** UUID ** | 8180b8ce-d57d-4a68-be79-76c647fc96f9 | 
+
+
+Perimeterschutz beschreibt Verfahren und Regelungen zum Thema "Perimeterschutz" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Zugangsbeschränkungen und nachgelagerten Aspekten wie Vertraulichkeit und Integrität im Weitverkehrsnetz. Schwerpunkte sind u. a.: Einschränkung und Inspektion von Verbindungen; Produktdiversität; Blockieren direkter öffentlicher Verbindungen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Perimeterschutz |
+| ** Definition ** | Perimeterschutz beschreibt Verfahren und Regelungen zum Thema "Perimeterschutz" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Zugangsbeschränkungen und nachgelagerten Aspekten wie Vertraulichkeit und Integrität im Weitverkehrsnetz. Schwerpunkte sind u. a.: Einschränkung und Inspektion von Verbindungen; Produktdiversität; Blockieren direkter öffentlicher Verbindungen. |
+| ** UUID ** | 8180b8ce-d57d-4a68-be79-76c647fc96f9 |
+
+
+_ created from [[topics]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

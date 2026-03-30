@@ -1,0 +1,35 @@
+---
+aliases:
+- 7e32a8ee-3b6b-45c2-a788-d4223d7920ad
+created: '2026-03-30T22:33:03.2505088'
+---
+
+
+# [[action_words]] &rarr; autorisieren
+
+| | |
+| --- | --- |
+| ** UUID ** | 7e32a8ee-3b6b-45c2-a788-d4223d7920ad | 
+
+
+Die (weitere) Verwendung eines Zielobjektes oder eine bestimmte Handlung wird von der Institution freigegeben. "Freigabe" bedeutet hier die formale Erlaubnis nach einer sachlichen und fachlichen Prüfung, typischerweise durch Rollen wie (1) Netzwerkarchitekt, (2) IT-Sicherheitsbeauftragter oder (3) Leiter IT-Betrieb. Für die Beurteilung, ob eine Freigabe erteilt wird oder nicht, sind folgende Fragen relevant: (a) Steht die Autorisierung im Widerspruch zu den festgelegten Verfahren und Regelungen für das betreffende Zielobjekt oder den betreffenden Prozess? (b) Risikoabschätzung: Stehen die mit der Freigabe verbundenen Risiken für die Informationssicherheit im Verhältnis zu der damit verbundenen Schutzwirkung und dem Geschäftsinteresse?
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Infinitiv ** | autorisieren |
+| ** Partizip Perfekt ** | autorisiert |
+| ** Passivform ** | autorisiert wird |
+| ** Zu-Infinitiv ** | zu autorisieren |
+| ** Nominalisierung ** | Autorisierung |
+| ** Typ ** | policy |
+| ** Definition ** | Die (weitere) Verwendung eines Zielobjektes oder eine bestimmte Handlung wird von der Institution freigegeben. "Freigabe" bedeutet hier die formale Erlaubnis nach einer sachlichen und fachlichen Prüfung, typischerweise durch Rollen wie (1) Netzwerkarchitekt, (2) IT-Sicherheitsbeauftragter oder (3) Leiter IT-Betrieb. Für die Beurteilung, ob eine Freigabe erteilt wird oder nicht, sind folgende Fragen relevant: (a) Steht die Autorisierung im Widerspruch zu den festgelegten Verfahren und Regelungen für das betreffende Zielobjekt oder den betreffenden Prozess? (b) Risikoabschätzung: Stehen die mit der Freigabe verbundenen Risiken für die Informationssicherheit im Verhältnis zu der damit verbundenen Schutzwirkung und dem Geschäftsinteresse? |
+| ** Synonyme ** | befuge, erteile, freigebe, berechtige, bestätige, stattgebe, gewähre |
+| ** UUID ** | 7e32a8ee-3b6b-45c2-a788-d4223d7920ad |
+
+
+_ created from [[action_words]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

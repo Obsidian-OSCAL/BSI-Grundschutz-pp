@@ -1,0 +1,34 @@
+---
+aliases:
+- eb65007a-2247-4346-a258-c242e066a10f
+created: '2026-03-30T22:33:03.5526609'
+---
+
+
+# [[target_object_categories]] &rarr; Dateiserver
+
+| | |
+| --- | --- |
+| ** UUID ** | eb65007a-2247-4346-a258-c242e066a10f | 
+| ** Parent ** | [[target_object_categories Anwendungen7e41ecf5-1831-4691-ad0c-4fc7bbc1b871\|7e41ecf5-1831-4691-ad0c-4fc7bbc1b871]] |
+
+
+Server-Anwendungen in einem Netz, die Dateien von Speichermedien für alle zugriffsberechtigten Benutzer bzw. Clients zentral bereitstellen. Die Datenbestände können von zugriffsberechtigten Benutzern genutzt werden, ohne sie z. B. auf Wechseldatenträgern zu transportieren oder per E-Mail zu verteilen. Dadurch, dass die Daten zentral vorgehalten werden, können sie strukturiert und in verschiedenen Verzeichnissen und Dateien bereitgestellt werden. Bei Fileservern können Zugriffsrechte auf die Dateien zentral vergeben werden. Auch die Datensicherung kann vereinfacht werden, wenn sich alle Informationen an einer zentralen Stelle befinden. Ein Fileserver verwaltet meistens Massenspeicher, die mit ihm über Schnittstellen wie SCSI (Small Computer System Interface) oder SAS (Serial Attached SCSI) verbunden sind. Die Speicher befinden sich entweder direkt im Gehäuse des Fileservers oder sind extern angeschlossen. Letzteres wird oft als Directly Attached Storage (DAS) bezeichnet. Ein Fileserver kann auf herkömmlicher Server-Hardware oder einer dedizierten Appliance betrieben werden. Oft können bei großen Datenmengen auch zentrale Storage-Area-Network (SAN)-Speicher über Host-Bus-Adapter (HBA) im Server und an SAN-Switches angebunden werden.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Dateiserver |
+| ** Definition ** | Server-Anwendungen in einem Netz, die Dateien von Speichermedien für alle zugriffsberechtigten Benutzer bzw. Clients zentral bereitstellen. Die Datenbestände können von zugriffsberechtigten Benutzern genutzt werden, ohne sie z. B. auf Wechseldatenträgern zu transportieren oder per E-Mail zu verteilen. Dadurch, dass die Daten zentral vorgehalten werden, können sie strukturiert und in verschiedenen Verzeichnissen und Dateien bereitgestellt werden. Bei Fileservern können Zugriffsrechte auf die Dateien zentral vergeben werden. Auch die Datensicherung kann vereinfacht werden, wenn sich alle Informationen an einer zentralen Stelle befinden. Ein Fileserver verwaltet meistens Massenspeicher, die mit ihm über Schnittstellen wie SCSI (Small Computer System Interface) oder SAS (Serial Attached SCSI) verbunden sind. Die Speicher befinden sich entweder direkt im Gehäuse des Fileservers oder sind extern angeschlossen. Letzteres wird oft als Directly Attached Storage (DAS) bezeichnet. Ein Fileserver kann auf herkömmlicher Server-Hardware oder einer dedizierten Appliance betrieben werden. Oft können bei großen Datenmengen auch zentrale Storage-Area-Network (SAN)-Speicher über Host-Bus-Adapter (HBA) im Server und an SAN-Switches angebunden werden. |
+| ** Typ ** | Anwendungen |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | Fileserver, NAS |
+| ** ChildOfUUID ** | [[target_object_categories Anwendungen7e41ecf5-1831-4691-ad0c-4fc7bbc1b871\|7e41ecf5-1831-4691-ad0c-4fc7bbc1b871]] |
+| ** UUID ** | eb65007a-2247-4346-a258-c242e066a10f |
+
+
+_ created from [[target_object_categories]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

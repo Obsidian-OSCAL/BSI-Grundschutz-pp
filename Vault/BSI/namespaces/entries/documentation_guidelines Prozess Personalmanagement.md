@@ -1,0 +1,29 @@
+---
+created: '2026-03-30T22:33:03.3180174'
+---
+
+
+# [[documentation_guidelines]] &rarr; Prozess Personalmanagement
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Dieser Prozess stellt sicher, dass die Informationssicherheit über den gesamten Lebenszyklus von Mitarbeitenden im Unternehmen fest verankert ist. Er definiert die sicherheitsrelevanten Maßnahmen und Verantwortlichkeiten, beginnend bei der sorgfältigen Überprüfung von Bewerbern, über die Verpflichtung zur Vertraulichkeit bei der Einstellung, die regelmäßigen Sensibilisierungs- und Schulungsmaßnahmen während des Anstellungsverhältnisses bis hin zu einem geordneten Austrittsprozess, der die Rückgabe aller Werte und den Entzug von Berechtigungen regelt. Ziel ist es, die Risiken, die von Personen ausgehen können – ob unbeabsichtigt oder böswillig – systematisch zu minimieren.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Prozess Personalmanagement |
+| ** Definition ** | Dieser Prozess stellt sicher, dass die Informationssicherheit über den gesamten Lebenszyklus von Mitarbeitenden im Unternehmen fest verankert ist. Er definiert die sicherheitsrelevanten Maßnahmen und Verantwortlichkeiten, beginnend bei der sorgfältigen Überprüfung von Bewerbern, über die Verpflichtung zur Vertraulichkeit bei der Einstellung, die regelmäßigen Sensibilisierungs- und Schulungsmaßnahmen während des Anstellungsverhältnisses bis hin zu einem geordneten Austrittsprozess, der die Rückgabe aller Werte und den Entzug von Berechtigungen regelt. Ziel ist es, die Risiken, die von Personen ausgehen können – ob unbeabsichtigt oder böswillig – systematisch zu minimieren. |
+| ** Kategorie ** | Betrieb & Prozesse |
+| ** Zielgruppe ** | Prozessverantwortliche |
+| ** bisher im IT-Grundschutz ** |   |
+
+
+_ created from [[documentation_guidelines]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

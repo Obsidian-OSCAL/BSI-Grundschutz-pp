@@ -1,0 +1,34 @@
+---
+aliases:
+- 82a399a2-2fa7-4dd2-9850-89a7ee0505ea
+created: '2026-03-30T22:33:03.5748502'
+---
+
+
+# [[target_object_categories]] &rarr; WLANs
+
+| | |
+| --- | --- |
+| ** UUID ** | 82a399a2-2fa7-4dd2-9850-89a7ee0505ea | 
+| ** Parent ** | [[target_object_categories Interne Netzsegmente8ef347e7-ea3f-4624-b0f3-2af728443301\|8ef347e7-ea3f-4624-b0f3-2af728443301]] |
+
+
+Drahtlos angebundene, örtlich begrenzte Netze innerhalb des Informationsverbundes
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | WLANs |
+| ** Definition ** | Drahtlos angebundene, örtlich begrenzte Netze innerhalb des Informationsverbundes |
+| ** Typ ** | Netze |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | WiFi, Wireless LAN |
+| ** ChildOfUUID ** | [[target_object_categories Interne Netzsegmente8ef347e7-ea3f-4624-b0f3-2af728443301\|8ef347e7-ea3f-4624-b0f3-2af728443301]] |
+| ** UUID ** | 82a399a2-2fa7-4dd2-9850-89a7ee0505ea |
+
+
+_ created from [[target_object_categories]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

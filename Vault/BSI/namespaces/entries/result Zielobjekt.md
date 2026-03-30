@@ -1,0 +1,31 @@
+---
+created: '2026-03-30T22:33:03.4700817'
+---
+
+
+# [[result]] &rarr; Zielobjekt
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Zielobjekte sind alle Werte des Informationsverbunds, denen im Rahmen der Modellierung auf der Grundlage der Zielobjektkategorien ein oder mehrere Anforderungen zugeordnet werden. Zielobjekte können dabei physische Objekte sein, z. B. Notebook als Instanz eines IT-Systems. Häufig sind Zielobjekte jedoch logische Objekte, wie beispielsweise Organisationseinheiten, Anwendungen oder der gesamte Informationsverbund. Auch Personen (z.B. Nutzende) können Zielobjekte sein, obwohl sie im sonstigen Sprachgebrauch als Subjekte bezeichnet werden.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Zielobjekt |
+| ** Definition ** | Zielobjekte sind alle Werte des Informationsverbunds, denen im Rahmen der Modellierung auf der Grundlage der Zielobjektkategorien ein oder mehrere Anforderungen zugeordnet werden. Zielobjekte können dabei physische Objekte sein, z. B. Notebook als Instanz eines IT-Systems. Häufig sind Zielobjekte jedoch logische Objekte, wie beispielsweise Organisationseinheiten, Anwendungen oder der gesamte Informationsverbund. Auch Personen (z.B. Nutzende) können Zielobjekte sein, obwohl sie im sonstigen Sprachgebrauch als Subjekte bezeichnet werden. |
+| ** Kategorie ** |   |
+| ** Synonyme ** |   |
+| ** Variationen ** |   |
+| ** ChildOfUUID ** |  |
+| ** UUID ** |   |
+
+
+_ created from [[result]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

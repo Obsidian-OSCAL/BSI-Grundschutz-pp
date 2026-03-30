@@ -1,0 +1,29 @@
+---
+aliases:
+- 568e9756-10ae-439c-9a20-61c443181f2c
+created: '2026-03-30T22:33:03.6394042'
+---
+
+
+# [[topics]] &rarr; Gemeinsame Arbeitsbereiche
+
+| | |
+| --- | --- |
+| ** UUID ** | 568e9756-10ae-439c-9a20-61c443181f2c | 
+
+
+Gemeinsame Arbeitsbereiche beschreibt Verfahren und Regelungen zur sicheren kollaborativen Nutzung von Plattformen und geteilten Ressourcen bei klaren Verantwortlichkeiten, Datenklassifizierung und Zugriffskontrollen. Es grenzt sich von dedizierten Systemen ab, die isolierte Umgebungen für erhöhte Schutzbedarfe bereitstellen. Beispiel: geteilte Projektbereiche mit definierten Rollen, Freigaben und Löschkonzept.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Gemeinsame Arbeitsbereiche |
+| ** Definition ** | Gemeinsame Arbeitsbereiche beschreibt Verfahren und Regelungen zur sicheren kollaborativen Nutzung von Plattformen und geteilten Ressourcen bei klaren Verantwortlichkeiten, Datenklassifizierung und Zugriffskontrollen. Es grenzt sich von dedizierten Systemen ab, die isolierte Umgebungen für erhöhte Schutzbedarfe bereitstellen. Beispiel: geteilte Projektbereiche mit definierten Rollen, Freigaben und Löschkonzept. |
+| ** UUID ** | 568e9756-10ae-439c-9a20-61c443181f2c |
+
+
+_ created from [[topics]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

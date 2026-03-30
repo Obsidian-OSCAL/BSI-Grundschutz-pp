@@ -1,0 +1,29 @@
+---
+aliases:
+- 32b3abbe-7d9a-466f-afe5-4a42be1cc24a
+created: '2026-03-30T22:33:03.6890802'
+---
+
+
+# [[topics]] &rarr; Grundlegende Sensibilisierung
+
+| | |
+| --- | --- |
+| ** UUID ** | 32b3abbe-7d9a-466f-afe5-4a42be1cc24a | 
+
+
+Grundlegende Sensibilisierung beschreibt Verfahren und Regelungen zum Thema "Grundlegende Sensibilisierung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Schutz vor Schadprogrammen. Schwerpunkte sind u. a.: Schutzziele; Meldewege; Verschlüsselung und Signatur.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Grundlegende Sensibilisierung |
+| ** Definition ** | Grundlegende Sensibilisierung beschreibt Verfahren und Regelungen zum Thema "Grundlegende Sensibilisierung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Schutz vor Schadprogrammen. Schwerpunkte sind u. a.: Schutzziele; Meldewege; Verschlüsselung und Signatur. |
+| ** UUID ** | 32b3abbe-7d9a-466f-afe5-4a42be1cc24a |
+
+
+_ created from [[topics]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

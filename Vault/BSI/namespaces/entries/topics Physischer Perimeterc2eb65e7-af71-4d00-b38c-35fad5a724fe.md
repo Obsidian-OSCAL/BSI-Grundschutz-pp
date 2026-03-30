@@ -1,0 +1,29 @@
+---
+aliases:
+- c2eb65e7-af71-4d00-b38c-35fad5a724fe
+created: '2026-03-30T22:33:03.6840788'
+---
+
+
+# [[topics]] &rarr; Physischer Perimeter
+
+| | |
+| --- | --- |
+| ** UUID ** | c2eb65e7-af71-4d00-b38c-35fad5a724fe | 
+
+
+Physischer Perimeter beschreibt Verfahren und Regelungen zum Thema "Physischer Perimeter" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Physischer Zutritt. Schwerpunkte sind u. a.: Installation von Perimetern; Dokumentation öffentlicher Bereiche; Erkundung aus dem öffentlichen Raum.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Physischer Perimeter |
+| ** Definition ** | Physischer Perimeter beschreibt Verfahren und Regelungen zum Thema "Physischer Perimeter" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Physischer Zutritt. Schwerpunkte sind u. a.: Installation von Perimetern; Dokumentation öffentlicher Bereiche; Erkundung aus dem öffentlichen Raum. |
+| ** UUID ** | c2eb65e7-af71-4d00-b38c-35fad5a724fe |
+
+
+_ created from [[topics]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

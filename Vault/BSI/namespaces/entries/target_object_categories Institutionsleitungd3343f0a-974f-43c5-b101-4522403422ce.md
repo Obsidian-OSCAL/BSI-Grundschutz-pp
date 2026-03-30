@@ -1,0 +1,34 @@
+---
+aliases:
+- d3343f0a-974f-43c5-b101-4522403422ce
+created: '2026-03-30T22:33:03.5872825'
+---
+
+
+# [[target_object_categories]] &rarr; Institutionsleitung
+
+| | |
+| --- | --- |
+| ** UUID ** | d3343f0a-974f-43c5-b101-4522403422ce | 
+| ** Parent ** | [[target_object_categories Führungskräfte4779a07f-e7fd-4837-a920-7ab9254b0dd5\|4779a07f-e7fd-4837-a920-7ab9254b0dd5]] |
+
+
+Personen oder Personengruppen, welche die Verantwortung für die Umsetzung von Strategien und Richtlinien haben, um die Ziele der Institution zu erreichen. Umfasst sowohl die leitende Person selbst, ihre Stellvertretung als auch alle Personen, die Gesamtentscheidungen für die Institution tragen, z.B. Präsidentin einer Behörde, Vize-CEO. Sie sind in der Regel gleichzeitig Mitarbeitende.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Institutionsleitung |
+| ** Definition ** | Personen oder Personengruppen, welche die Verantwortung für die Umsetzung von Strategien und Richtlinien haben, um die Ziele der Institution zu erreichen. Umfasst sowohl die leitende Person selbst, ihre Stellvertretung als auch alle Personen, die Gesamtentscheidungen für die Institution tragen, z.B. Präsidentin einer Behörde, Vize-CEO. Sie sind in der Regel gleichzeitig Mitarbeitende. |
+| ** Typ ** | Nutzende |
+| ** Kategorie ** | Organisatorisch |
+| ** Synonyme ** | CEO, Leitungsebene |
+| ** ChildOfUUID ** | [[target_object_categories Führungskräfte4779a07f-e7fd-4837-a920-7ab9254b0dd5\|4779a07f-e7fd-4837-a920-7ab9254b0dd5]] |
+| ** UUID ** | d3343f0a-974f-43c5-b101-4522403422ce |
+
+
+_ created from [[target_object_categories]] at Mon Mar 30 22:33:02 CEST 2026 _
+
+

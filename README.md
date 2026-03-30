@@ -1,6 +1,6 @@
-# BSI Grundschutz++
+# BSI Grundschutz++ für Obsidian
 
-Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für Obsidian bereit.
+Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für [Obsidian](https://obsidian.md/) bereit.
 
 ## Hinweise zur Nutzung
 Die Inhalte befinden sich im Unterordner, kopiert die Inhalte in einen eigenen Obsidian Vault um dies zu nutzen.
@@ -15,13 +15,13 @@ Originalquelle: [https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek](https
 
 Verwendete Bestandteile:
 - Anwendungskatalog (OSCAL)
-- [zugehörige Namespace-Definitionen](Namespaces)
+- zugehörige Namespace-Definitionen
 Die konkret verwendeten Dateien sind innerhalb dieses Vaults enthalten.  
 Zu jeder Datei sind – soweit verfügbar – die jeweilige Originalquelle (Pfad im Repository) sowie das Downloaddatum dokumentiert.
 
 Die Originalinhalte stehen unter der Lizenz **CC BY-SA 4.0**:  
 - im Repository: https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek?tab=readme-ov-file#
-- Original:[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+- Original: [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ### Bearbeitungshinweis
 

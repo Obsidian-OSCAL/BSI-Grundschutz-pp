@@ -1,0 +1,39 @@
+---
+aliases:
+- 1a4fb57d-1648-4111-979d-6a5f4f848620
+created: '2026-03-31T00:00:51.0520014'
+---
+
+
+# [[target_object_categories]] &rarr; Netze
+
+| | |
+| --- | --- |
+| ** UUID ** | 1a4fb57d-1648-4111-979d-6a5f4f848620 | 
+
+
+Verbindungen eines oder mehrerer IT-Systeme, über die ein Datenaustausch stattfinden kann, z.B. Ethernet LAN, SAN, Wireless LAN, Mobilfunkanschluss.
+
+> [!info]- abgleitete Begriffe (Kinder):
+> 
+> | UUID | Begriff |
+> |-----|-------|
+> | [[target_object_categories Externe Netzanschlüssea9521914-ccf9-4c20-8eef-2dd912fb815d\|a9521914-ccf9-4c20-8eef-2dd912fb815d]] | Externe Netzanschlüsse |
+> | [[target_object_categories Interne Netzsegmente8ef347e7-ea3f-4624-b0f3-2af728443301\|8ef347e7-ea3f-4624-b0f3-2af728443301]] | Interne Netzsegmente |
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Netze |
+| ** Definition ** | Verbindungen eines oder mehrerer IT-Systeme, über die ein Datenaustausch stattfinden kann, z.B. Ethernet LAN, SAN, Wireless LAN, Mobilfunkanschluss. |
+| ** Typ ** | Netze |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | Netzwerk |
+| ** ChildOfUUID ** |  |
+| ** UUID ** | 1a4fb57d-1648-4111-979d-6a5f4f848620 |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

@@ -1,0 +1,29 @@
+---
+aliases:
+- 47a13147-f7c8-47cf-ab97-1ba09b52a759
+created: '2026-03-31T00:00:51.1038902'
+---
+
+
+# [[topics]] &rarr; Bedarfserfassung
+
+| | |
+| --- | --- |
+| ** UUID ** | 47a13147-f7c8-47cf-ab97-1ba09b52a759 | 
+
+
+Bedarfserfassung beschreibt Verfahren und Regelungen zum Thema "Bedarfserfassung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Auswahl von Lieferanten. Schwerpunkte sind u. a.: Erfassung des Bedarfes; Dokumentation des Rechtsraums und der Datenlokation; Vereinbarung des Rechtsraums und der Datenlokation.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Bedarfserfassung |
+| ** Definition ** | Bedarfserfassung beschreibt Verfahren und Regelungen zum Thema "Bedarfserfassung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Auswahl von Lieferanten. Schwerpunkte sind u. a.: Erfassung des Bedarfes; Dokumentation des Rechtsraums und der Datenlokation; Vereinbarung des Rechtsraums und der Datenlokation. |
+| ** UUID ** | 47a13147-f7c8-47cf-ab97-1ba09b52a759 |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

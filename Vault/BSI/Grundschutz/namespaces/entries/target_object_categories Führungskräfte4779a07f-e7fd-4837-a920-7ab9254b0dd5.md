@@ -1,0 +1,39 @@
+---
+aliases:
+- 4779a07f-e7fd-4837-a920-7ab9254b0dd5
+created: '2026-03-31T00:00:51.0766594'
+---
+
+
+# [[target_object_categories]] &rarr; Führungskräfte
+
+| | |
+| --- | --- |
+| ** UUID ** | 4779a07f-e7fd-4837-a920-7ab9254b0dd5 | 
+| ** Parent ** | [[target_object_categories Mitarbeitende9d0465aa-a31f-465f-99c8-7a383322b2a4\|9d0465aa-a31f-465f-99c8-7a383322b2a4]] |
+
+
+Nutzende, die Führungsaufgaben d.h. Personalverantwortung tragen. Sie sind in der Regel gleichzeitig Mitarbeitende.
+
+> [!info]- abgleitete Begriffe (Kinder):
+> 
+> | UUID | Begriff |
+> |-----|-------|
+> | [[target_object_categories Institutionsleitungd3343f0a-974f-43c5-b101-4522403422ce\|d3343f0a-974f-43c5-b101-4522403422ce]] | Institutionsleitung |
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Führungskräfte |
+| ** Definition ** | Nutzende, die Führungsaufgaben d.h. Personalverantwortung tragen. Sie sind in der Regel gleichzeitig Mitarbeitende. |
+| ** Typ ** | Nutzende |
+| ** Kategorie ** | Organisatorisch |
+| ** Synonyme ** | Vorgesetzte |
+| ** ChildOfUUID ** | [[target_object_categories Mitarbeitende9d0465aa-a31f-465f-99c8-7a383322b2a4\|9d0465aa-a31f-465f-99c8-7a383322b2a4]] |
+| ** UUID ** | 4779a07f-e7fd-4837-a920-7ab9254b0dd5 |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

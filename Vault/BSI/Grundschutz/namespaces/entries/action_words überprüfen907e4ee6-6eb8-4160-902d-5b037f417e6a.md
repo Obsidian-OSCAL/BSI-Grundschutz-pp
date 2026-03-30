@@ -1,0 +1,35 @@
+---
+aliases:
+- 907e4ee6-6eb8-4160-902d-5b037f417e6a
+created: '2026-03-31T00:00:50.7443891'
+---
+
+
+# [[action_words]] &rarr; überprüfen
+
+| | |
+| --- | --- |
+| ** UUID ** | 907e4ee6-6eb8-4160-902d-5b037f417e6a | 
+
+
+Tätigkeit, die durchgeführt wird, um die Eignung, Angemessenheit und Wirksamkeit eines Gegenstands (z.?B. einer Anlage, Maschine oder eines Verfahrens) zu bestimmen, um die Einhaltung der Anforderung (Konformität) eindeutig festzustellen oder im Falle von Abweichungen wiederherzustellen. Sichergestellt sein muss dabei insbesondere, dass die Regelmäßigkeit der Überprüfung gewährleistet wird, z.B. durch einen Kalendereintrag oder ein automatisiertes System zur Überprüfung und Alarmierung. Eine Überprüfung gilt erst dann als abgeschlossen, wenn die Konformität positiv bestätigt oder erneut hergestellt wurde; sollte die Wiederherstellung der Konformität nicht durch andere Maßnahmen möglich sein, muss der betrachtete Gegenstand außer Betrieb genommen werden, bis die erforderliche Konformität gewährleistet ist. In der Präzisierung ist benannt, wie oft die Überprüfung mindestens vorgenommen werden muss, um die Anforderung zu erfüllen. Steht hier nur "regelmäßig", so wird der Zeitabstand von der Institution selbst festgelegt. Dabei ist die Auftrittswahrscheinlichkeit und das Schadensausmaß der im Hinweis benannten Gefährdung zu berücksichtigen. Im Unterschied zum Handlungswort "überwachen" ist hier keine kontinuierliche Überprüfung erforderlich, sondern lediglich eine regelmäßig wiederkehrende, z.B. einmal wöchentlich.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Infinitiv ** | überprüfen |
+| ** Partizip Perfekt ** | überprüft |
+| ** Passivform ** | überprüft wird |
+| ** Zu-Infinitiv ** | zu überprüfen |
+| ** Nominalisierung ** | Überprüfung |
+| ** Typ ** | policy |
+| ** Definition ** | Tätigkeit, die durchgeführt wird, um die Eignung, Angemessenheit und Wirksamkeit eines Gegenstands (z.?B. einer Anlage, Maschine oder eines Verfahrens) zu bestimmen, um die Einhaltung der Anforderung (Konformität) eindeutig festzustellen oder im Falle von Abweichungen wiederherzustellen. Sichergestellt sein muss dabei insbesondere, dass die Regelmäßigkeit der Überprüfung gewährleistet wird, z.B. durch einen Kalendereintrag oder ein automatisiertes System zur Überprüfung und Alarmierung. Eine Überprüfung gilt erst dann als abgeschlossen, wenn die Konformität positiv bestätigt oder erneut hergestellt wurde; sollte die Wiederherstellung der Konformität nicht durch andere Maßnahmen möglich sein, muss der betrachtete Gegenstand außer Betrieb genommen werden, bis die erforderliche Konformität gewährleistet ist. In der Präzisierung ist benannt, wie oft die Überprüfung mindestens vorgenommen werden muss, um die Anforderung zu erfüllen. Steht hier nur "regelmäßig", so wird der Zeitabstand von der Institution selbst festgelegt. Dabei ist die Auftrittswahrscheinlichkeit und das Schadensausmaß der im Hinweis benannten Gefährdung zu berücksichtigen. Im Unterschied zum Handlungswort "überwachen" ist hier keine kontinuierliche Überprüfung erforderlich, sondern lediglich eine regelmäßig wiederkehrende, z.B. einmal wöchentlich. |
+| ** Synonyme ** |   |
+| ** UUID ** | 907e4ee6-6eb8-4160-902d-5b037f417e6a |
+
+
+_ created from [[action_words]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

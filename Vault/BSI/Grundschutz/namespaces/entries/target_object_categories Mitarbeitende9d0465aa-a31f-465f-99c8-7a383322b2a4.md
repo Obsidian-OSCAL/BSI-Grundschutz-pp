@@ -1,0 +1,40 @@
+---
+aliases:
+- 9d0465aa-a31f-465f-99c8-7a383322b2a4
+created: '2026-03-31T00:00:51.0786788'
+---
+
+
+# [[target_object_categories]] &rarr; Mitarbeitende
+
+| | |
+| --- | --- |
+| ** UUID ** | 9d0465aa-a31f-465f-99c8-7a383322b2a4 | 
+| ** Parent ** | [[target_object_categories Nutzende38125c38-8895-493c-ba73-77ac1029d02d\|38125c38-8895-493c-ba73-77ac1029d02d]] |
+
+
+Nutzende, die für die Institution Informationsverarbeitungen im Informationsverbund vornehmen und von ihr beschäftigt werden. Beschäftigte sind dabei alle Personen, die von der Institution in die internen Betriebsabläufe zur Informationsverarbeitung eingebunden werden. Der Begriff umfasst sowohl Arbeitnehmer als auch andere Personen, die in einer Institution tätig sind, wie zum Beispiel Auszubildende, Praktikanten, Leiharbeiter oder Beamte. Auch Dienstleistende mit unmitellbarem, regelmäßigen Zugang zu internen Standorten, Daten oder Systemen sind als Mitarbeitende zu behandeln.
+
+> [!info]- abgleitete Begriffe (Kinder):
+> 
+> | UUID | Begriff |
+> |-----|-------|
+> | [[target_object_categories Führungskräfte4779a07f-e7fd-4837-a920-7ab9254b0dd5\|4779a07f-e7fd-4837-a920-7ab9254b0dd5]] | Führungskräfte |
+> | [[target_object_categories Administrierendeefd76832-f5a1-432a-836d-c8d5c6d212cc\|efd76832-f5a1-432a-836d-c8d5c6d212cc]] | Administrierende |
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Mitarbeitende |
+| ** Definition ** | Nutzende, die für die Institution Informationsverarbeitungen im Informationsverbund vornehmen und von ihr beschäftigt werden. Beschäftigte sind dabei alle Personen, die von der Institution in die internen Betriebsabläufe zur Informationsverarbeitung eingebunden werden. Der Begriff umfasst sowohl Arbeitnehmer als auch andere Personen, die in einer Institution tätig sind, wie zum Beispiel Auszubildende, Praktikanten, Leiharbeiter oder Beamte. Auch Dienstleistende mit unmitellbarem, regelmäßigen Zugang zu internen Standorten, Daten oder Systemen sind als Mitarbeitende zu behandeln. |
+| ** Typ ** | Nutzende |
+| ** Kategorie ** | Organisatorisch |
+| ** Synonyme ** | Bedienstete |
+| ** ChildOfUUID ** | [[target_object_categories Nutzende38125c38-8895-493c-ba73-77ac1029d02d\|38125c38-8895-493c-ba73-77ac1029d02d]] |
+| ** UUID ** | 9d0465aa-a31f-465f-99c8-7a383322b2a4 |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

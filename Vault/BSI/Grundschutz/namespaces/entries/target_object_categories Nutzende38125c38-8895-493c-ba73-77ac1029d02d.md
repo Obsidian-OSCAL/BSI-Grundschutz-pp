@@ -1,0 +1,38 @@
+---
+aliases:
+- 38125c38-8895-493c-ba73-77ac1029d02d
+created: '2026-03-31T00:00:51.0796825'
+---
+
+
+# [[target_object_categories]] &rarr; Nutzende
+
+| | |
+| --- | --- |
+| ** UUID ** | 38125c38-8895-493c-ba73-77ac1029d02d | 
+
+
+Alle natürlichen Personen, die Zielobjekte im Informationsverbund benutzen können, unabhängig davon ob sie aus Sicht der Institution intern oder extern sind.
+
+> [!info]- abgleitete Begriffe (Kinder):
+> 
+> | UUID | Begriff |
+> |-----|-------|
+> | [[target_object_categories Mitarbeitende9d0465aa-a31f-465f-99c8-7a383322b2a4\|9d0465aa-a31f-465f-99c8-7a383322b2a4]] | Mitarbeitende |
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Nutzende |
+| ** Definition ** | Alle natürlichen Personen, die Zielobjekte im Informationsverbund benutzen können, unabhängig davon ob sie aus Sicht der Institution intern oder extern sind. |
+| ** Typ ** | Nutzende |
+| ** Kategorie ** | Organisatorisch |
+| ** Synonyme ** | Nutzer, User |
+| ** ChildOfUUID ** |  |
+| ** UUID ** | 38125c38-8895-493c-ba73-77ac1029d02d |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

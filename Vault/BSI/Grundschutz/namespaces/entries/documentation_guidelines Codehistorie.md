@@ -1,0 +1,29 @@
+---
+created: '2026-03-31T00:00:50.8790128'
+---
+
+
+# [[documentation_guidelines]] &rarr; Codehistorie
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Die Codehistorie dokumentiert die Entwicklung und Änderungen von Quellcode über den gesamten Lebenszyklus einer Anwendung hinweg. Sie ermöglicht die Nachvollziehbarkeit von Versionen, erleichtert die Rückverfolgung von Fehlern und stellt sicher, dass alle Anpassungen revisionssicher dokumentiert werden. Damit trägt sie maßgeblich zur Integrität und Qualität von Software bei. Nicht betrachtet werden dabei begleitende Projektdokumentationen oder organisatorische Abläufe der Entwicklung. Der Schwerpunkt liegt ausschließlich auf der strukturierten Nachverfolgung technischer Änderungen am Code selbst. Durch diese Abgrenzung wird gewährleistet, dass die Codebasis zuverlässig verwaltet und jederzeit in einen definierten Zustand zurückgesetzt werden kann.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Codehistorie |
+| ** Definition ** | Die Codehistorie dokumentiert die Entwicklung und Änderungen von Quellcode über den gesamten Lebenszyklus einer Anwendung hinweg. Sie ermöglicht die Nachvollziehbarkeit von Versionen, erleichtert die Rückverfolgung von Fehlern und stellt sicher, dass alle Anpassungen revisionssicher dokumentiert werden. Damit trägt sie maßgeblich zur Integrität und Qualität von Software bei. Nicht betrachtet werden dabei begleitende Projektdokumentationen oder organisatorische Abläufe der Entwicklung. Der Schwerpunkt liegt ausschließlich auf der strukturierten Nachverfolgung technischer Änderungen am Code selbst. Durch diese Abgrenzung wird gewährleistet, dass die Codebasis zuverlässig verwaltet und jederzeit in einen definierten Zustand zurückgesetzt werden kann. |
+| ** Kategorie ** | Betrieb & Prozesse |
+| ** Zielgruppe ** | Prozessverantwortliche |
+| ** bisher im IT-Grundschutz ** |   |
+
+
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

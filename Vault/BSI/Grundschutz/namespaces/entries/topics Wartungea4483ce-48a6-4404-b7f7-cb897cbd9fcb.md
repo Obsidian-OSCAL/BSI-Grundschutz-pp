@@ -1,0 +1,29 @@
+---
+aliases:
+- ea4483ce-48a6-4404-b7f7-cb897cbd9fcb
+created: '2026-03-31T00:00:51.155481'
+---
+
+
+# [[topics]] &rarr; Wartung
+
+| | |
+| --- | --- |
+| ** UUID ** | ea4483ce-48a6-4404-b7f7-cb897cbd9fcb | 
+
+
+Wartung beschreibt Verfahren und Regelungen zum Thema "Wartung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Regelungen zum Transfer und nachgelagerten Aspekten wie Rücknahme von Assets. Schwerpunkte sind u. a.: Geregelte Wartungen; Präventive Wartung; Autorisierung von Wartungen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Wartung |
+| ** Definition ** | Wartung beschreibt Verfahren und Regelungen zum Thema "Wartung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Regelungen zum Transfer und nachgelagerten Aspekten wie Rücknahme von Assets. Schwerpunkte sind u. a.: Geregelte Wartungen; Präventive Wartung; Autorisierung von Wartungen. |
+| ** UUID ** | ea4483ce-48a6-4404-b7f7-cb897cbd9fcb |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

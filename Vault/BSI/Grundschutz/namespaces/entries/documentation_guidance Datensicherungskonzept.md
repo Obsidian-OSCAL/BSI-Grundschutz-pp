@@ -1,0 +1,26 @@
+---
+created: '2026-03-29T22:05:49.1053659'
+---
+
+
+# documentation_guidance &rarr; Datensicherungskonzept
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Konzept zur Datenverfügbarkeit und -wiederherstellung: Legt verbindlich fest, welche Daten wie oft (Backup-Frequenz), mit welcher Methode (z.B. voll, differentiell, inkrementell) und wohin gesichert werden. Es definiert zudem die Aufbewahrungsfristen und die Prozesse für die Datenwiederherstellung. Wichtige Kennzahlen sind hier das Recovery Time Objective (RTO – maximale Ausfallzeit) und das Recovery Point Objective (RPO – maximaler Datenverlust).
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Datensicherungskonzept |
+| ** Definition ** | Konzept zur Datenverfügbarkeit und -wiederherstellung: Legt verbindlich fest, welche Daten wie oft (Backup-Frequenz), mit welcher Methode (z.B. voll, differentiell, inkrementell) und wohin gesichert werden. Es definiert zudem die Aufbewahrungsfristen und die Prozesse für die Datenwiederherstellung. Wichtige Kennzahlen sind hier das Recovery Time Objective (RTO – maximale Ausfallzeit) und das Recovery Point Objective (RPO – maximaler Datenverlust). |
+| ** Kategorie ** | Betrieb & Prozesse |
+| ** Zielgruppe ** | Prozessverantwortliche |
+| ** bisher im IT-Grundschutz ** |   |
+
+

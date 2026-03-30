@@ -1,0 +1,34 @@
+---
+aliases:
+- efd76832-f5a1-432a-836d-c8d5c6d212cc
+created: '2026-03-31T00:00:51.0570016'
+---
+
+
+# [[target_object_categories]] &rarr; Administrierende
+
+| | |
+| --- | --- |
+| ** UUID ** | efd76832-f5a1-432a-836d-c8d5c6d212cc | 
+| ** Parent ** | [[target_object_categories Mitarbeitende9d0465aa-a31f-465f-99c8-7a383322b2a4\|9d0465aa-a31f-465f-99c8-7a383322b2a4]] |
+
+
+Nutzende, die mit der Administration von IT-Systemen oder Software im Informationsverbund von der Institution direkt oder mittelbar beauftragt sind. Ihnen sind typischerweise auch besondere Zugriffsrechte zugeordnet, z.B. Admin-Konten oder Zugangskarten für den Datensicherungsraum.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Administrierende |
+| ** Definition ** | Nutzende, die mit der Administration von IT-Systemen oder Software im Informationsverbund von der Institution direkt oder mittelbar beauftragt sind. Ihnen sind typischerweise auch besondere Zugriffsrechte zugeordnet, z.B. Admin-Konten oder Zugangskarten für den Datensicherungsraum. |
+| ** Typ ** | Nutzende |
+| ** Kategorie ** | Organisatorisch |
+| ** Synonyme ** | Admin |
+| ** ChildOfUUID ** | [[target_object_categories Mitarbeitende9d0465aa-a31f-465f-99c8-7a383322b2a4\|9d0465aa-a31f-465f-99c8-7a383322b2a4]] |
+| ** UUID ** | efd76832-f5a1-432a-836d-c8d5c6d212cc |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

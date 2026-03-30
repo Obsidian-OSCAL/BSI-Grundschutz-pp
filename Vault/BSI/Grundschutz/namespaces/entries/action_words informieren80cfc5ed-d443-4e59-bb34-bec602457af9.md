@@ -1,0 +1,35 @@
+---
+aliases:
+- 80cfc5ed-d443-4e59-bb34-bec602457af9
+created: '2026-03-31T00:00:50.7609901'
+---
+
+
+# [[action_words]] &rarr; informieren
+
+| | |
+| --- | --- |
+| ** UUID ** | 80cfc5ed-d443-4e59-bb34-bec602457af9 | 
+
+
+Der Betrachtungsgegenstand liefert Informationen um dem Empfänger eine selbstbestimmte Entscheidung über das weitere Vorgehen zu ermöglichen, z.B. indem Nutzende bei sicherheitskritischen Ereignissen in ihrem Benutzerkonto Informationen über Zeitpunkt und Quelle von fehlgeschlagenen Anmeldeversuchen informiert werden.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Infinitiv ** | informieren |
+| ** Partizip Perfekt ** | informiert |
+| ** Passivform ** | informiert werden |
+| ** Zu-Infinitiv ** | zu informieren |
+| ** Nominalisierung ** | Informierung |
+| ** Typ ** | policy |
+| ** Definition ** | Der Betrachtungsgegenstand liefert Informationen um dem Empfänger eine selbstbestimmte Entscheidung über das weitere Vorgehen zu ermöglichen, z.B. indem Nutzende bei sicherheitskritischen Ereignissen in ihrem Benutzerkonto Informationen über Zeitpunkt und Quelle von fehlgeschlagenen Anmeldeversuchen informiert werden. |
+| ** Synonyme ** | aufkläre, Auskunft, benachrichtige, Bescheid gebe, mitteile, einweihe, unterrichte, kundgebe, kundtu, offenbare, verkünde, kommuniziere, in Kenntnis setze, vermelde |
+| ** UUID ** | 80cfc5ed-d443-4e59-bb34-bec602457af9 |
+
+
+_ created from [[action_words]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

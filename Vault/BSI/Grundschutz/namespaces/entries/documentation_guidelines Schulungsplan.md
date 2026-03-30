@@ -1,0 +1,29 @@
+---
+created: '2026-03-31T00:00:50.8635586'
+---
+
+
+# [[documentation_guidelines]] &rarr; Schulungsplan
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Das Bewusstsein und die Kompetenz der Mitarbeitenden sind entscheidende Faktoren für die Wirksamkeit von Informationssicherheitsmaßnahmen, denn der Mensch ist oft die erste Verteidigungslinie. Eine systematische Planung von Schulungs- und Sensibilisierungsmaßnahmen ist daher unerlässlich, um sicherzustellen, dass alle Mitarbeitenden über das notwendige Wissen verfügen, um ihre Aufgaben sicher zu erfüllen und Sicherheitsrisiken zu erkennen und zu vermeiden. Der Plan definiert die Ziele, Inhalte und Zielgruppen für alle Schulungsaktivitäten im Bereich der Informationssicherheit. Er legt fest, welche Themen (z.B. Phishing, Passwortsicherheit, Datenschutz) in welchen Formaten (z.B. Online-Training, Präsenzschulung) und in welchen Intervallen vermittelt werden. Zudem werden Verantwortlichkeiten für die Durchführung und Methoden zur Messung des Schulungserfolgs festgelegt, um die Wirksamkeit der Maßnahmen kontinuierlich zu überprüfen und zu verbessern.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Schulungsplan |
+| ** Definition ** | Das Bewusstsein und die Kompetenz der Mitarbeitenden sind entscheidende Faktoren für die Wirksamkeit von Informationssicherheitsmaßnahmen, denn der Mensch ist oft die erste Verteidigungslinie. Eine systematische Planung von Schulungs- und Sensibilisierungsmaßnahmen ist daher unerlässlich, um sicherzustellen, dass alle Mitarbeitenden über das notwendige Wissen verfügen, um ihre Aufgaben sicher zu erfüllen und Sicherheitsrisiken zu erkennen und zu vermeiden. Der Plan definiert die Ziele, Inhalte und Zielgruppen für alle Schulungsaktivitäten im Bereich der Informationssicherheit. Er legt fest, welche Themen (z.B. Phishing, Passwortsicherheit, Datenschutz) in welchen Formaten (z.B. Online-Training, Präsenzschulung) und in welchen Intervallen vermittelt werden. Zudem werden Verantwortlichkeiten für die Durchführung und Methoden zur Messung des Schulungserfolgs festgelegt, um die Wirksamkeit der Maßnahmen kontinuierlich zu überprüfen und zu verbessern. |
+| ** Kategorie ** | Information & Sensibilisierung |
+| ** Zielgruppe ** | Prozessverantwortliche |
+| ** bisher im IT-Grundschutz ** |   |
+
+
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

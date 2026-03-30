@@ -1,0 +1,34 @@
+---
+aliases:
+- 02088622-573d-4225-883c-9afe0c7dc69b
+created: '2026-03-31T00:00:50.915015'
+---
+
+
+# [[practices]] &rarr; Informationen und Assets
+
+| | |
+| --- | --- |
+| ** UUID ** | 02088622-573d-4225-883c-9afe0c7dc69b | 
+
+
+Im Rahmen der IT-Komponenten stellt das Asset Management sicher, dass die IT-Komponenten erfasst und inventarisiert werden. Hierbei geht es darum eine Übersicht, über relevante "Assets", wie Server, Clients, Netzwerkkomponenten sowie auch Datenträger sowie deren Verantwortlichkeiten, Besitzer oder auch Produktlebenszyklus zu haben. Des Weiteren soll im Rahmen des Asset Management auch die Ist-Dokumentation der Komponenten (z.B. Konfiguration, Patch-Level, Kritikalitätsstufen) erfasst werden.
+Während die Praktik "Konfiguration" die Parameter einer IT-Komponenten betrachtet und IT-Betrieb die Vorgehensweisen zu Wartung und Pflege von IT-Komponenten, betrachtet Asset Management die Übersicht und Dokumentation aller IT-Komponenten.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Kürzel ** | ASST |
+| ** Begriff ** | Informationen und Assets |
+| ** Definition ** | Im Rahmen der IT-Komponenten stellt das Asset Management sicher, dass die IT-Komponenten erfasst und inventarisiert werden. Hierbei geht es darum eine Übersicht, über relevante "Assets", wie Server, Clients, Netzwerkkomponenten sowie auch Datenträger sowie deren Verantwortlichkeiten, Besitzer oder auch Produktlebenszyklus zu haben. Des Weiteren soll im Rahmen des Asset Management auch die Ist-Dokumentation der Komponenten (z.B. Konfiguration, Patch-Level, Kritikalitätsstufen) erfasst werden. <br>Während die Praktik "Konfiguration" die Parameter einer IT-Komponenten betrachtet und IT-Betrieb die Vorgehensweisen zu Wartung und Pflege von IT-Komponenten, betrachtet Asset Management die Übersicht und Dokumentation aller IT-Komponenten. |
+| ** UUID ** | 02088622-573d-4225-883c-9afe0c7dc69b |
+| ** Schwerpunkt ** | Organisatorisch |
+| ** Nummerierung ** | 6 |
+| ** auch bekannt als ** | Management von Informationen und Assets |
+
+
+_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

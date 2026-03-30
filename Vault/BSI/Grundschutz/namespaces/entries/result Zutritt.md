@@ -1,0 +1,31 @@
+---
+created: '2026-03-31T00:00:50.9565423'
+---
+
+
+# [[result]] &rarr; Zutritt
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Mit Zutritt wird das Betreten von abgegrenzten Bereichen wie z. B. Räumen oder geschützten Arealen in einem Gelände bezeichnet. Zutrittsberechtigungen erlauben somit Personen, bestimmte Umgebungen zu betreten, also beispielsweise ein Gelände, ein Gebäude oder definierte Räume eines Gebäudes.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Zutritt |
+| ** Definition ** | Mit Zutritt wird das Betreten von abgegrenzten Bereichen wie z. B. Räumen oder geschützten Arealen in einem Gelände bezeichnet. Zutrittsberechtigungen erlauben somit Personen, bestimmte Umgebungen zu betreten, also beispielsweise ein Gelände, ein Gebäude oder definierte Räume eines Gebäudes. |
+| ** Kategorie ** |   |
+| ** Synonyme ** |   |
+| ** Variationen ** |   |
+| ** ChildOfUUID ** |  |
+| ** UUID ** |   |
+
+
+_ created from [[result]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

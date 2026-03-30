@@ -1,0 +1,29 @@
+---
+aliases:
+- e930a1bb-35b2-4038-9193-34554c2cfa9a
+created: '2026-03-31T00:00:51.1603924'
+---
+
+
+# [[topics]] &rarr; Bewertungsschema und Auditberichte
+
+| | |
+| --- | --- |
+| ** UUID ** | e930a1bb-35b2-4038-9193-34554c2cfa9a | 
+
+
+Auditergebnisse müssen in strukturierten Berichten dokumentiert werden, die eine klare und nachvollziehbare Darstellung der Feststellungen, ihrer Bewertung und der empfohlenen Maßnahmen enthalten. Die Berichte sollten sowohl für das Management als auch für die fachlich Verantwortlichen verständlich sein. Ein einheitliches Bewertungsschema für Feststellungen in Audits sollte verankert werden, um die konsistente Bewertung und Vergleichbarkeit von Auditergebnissen sicherzustellen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Bewertungsschema und Auditberichte |
+| ** Definition ** | Auditergebnisse müssen in strukturierten Berichten dokumentiert werden, die eine klare und nachvollziehbare Darstellung der Feststellungen, ihrer Bewertung und der empfohlenen Maßnahmen enthalten. Die Berichte sollten sowohl für das Management als auch für die fachlich Verantwortlichen verständlich sein. Ein einheitliches Bewertungsschema für Feststellungen in Audits sollte verankert werden, um die konsistente Bewertung und Vergleichbarkeit von Auditergebnissen sicherzustellen. |
+| ** UUID ** | e930a1bb-35b2-4038-9193-34554c2cfa9a |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

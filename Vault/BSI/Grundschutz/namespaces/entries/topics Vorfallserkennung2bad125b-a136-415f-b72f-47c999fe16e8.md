@@ -1,0 +1,29 @@
+---
+aliases:
+- 2bad125b-a136-415f-b72f-47c999fe16e8
+created: '2026-03-31T00:00:51.1963862'
+---
+
+
+# [[topics]] &rarr; Vorfallserkennung
+
+| | |
+| --- | --- |
+| ** UUID ** | 2bad125b-a136-415f-b72f-47c999fe16e8 | 
+
+
+Vorfallserkennung beschreibt Verfahren und Regelungen zum Thema "Vorfallserkennung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Management von Schwachstellen. Schwerpunkte sind u. a.: Beurteilung von Ereignissen; Beurteilung  von Eingängen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Vorfallserkennung |
+| ** Definition ** | Vorfallserkennung beschreibt Verfahren und Regelungen zum Thema "Vorfallserkennung" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Management von Schwachstellen. Schwerpunkte sind u. a.: Beurteilung von Ereignissen; Beurteilung  von Eingängen. |
+| ** UUID ** | 2bad125b-a136-415f-b72f-47c999fe16e8 |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

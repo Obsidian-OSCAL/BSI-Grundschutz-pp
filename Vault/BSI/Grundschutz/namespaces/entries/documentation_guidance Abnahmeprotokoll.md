@@ -1,0 +1,26 @@
+---
+created: '2026-03-29T22:05:49.1076225'
+---
+
+
+# documentation_guidance &rarr; Abnahmeprotokoll
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Die Integration von externen Dienstleistungen oder Produkten birgt spezifische Risiken, die sorgfältig gesteuert werden müssen, bevor eine produktive Nutzung erfolgt. Eine formale Abnahme ist daher ein entscheidender Schritt, um zu überprüfen und zu bestätigen, dass die von einem externen Lieferanten erbrachte Leistung den vertraglich vereinbarten Anforderungen, insbesondere den Informationssicherheitsanforderungen, vollumfänglich entspricht. So wird ein qualitätsgesicherter und sicherer Übergang der externen Leistung in die eigene Organisation gewährleistet. Dieses Protokoll dokumentiert die Ergebnisse der Abnahmeprüfung und dient als formaler Nachweis für die Erfüllung der vertraglichen Pflichten durch den Lieferanten. Es listet die durchgeführten Tests, die erzielten Ergebnisse sowie eventuell festgestellte Mängel oder Abweichungen von der Beauftragung auf. Mit der Unterzeichnung durch die verantwortlichen Parteien wird die Leistung des externen Partners formell angenommen und die damit verbundene Verantwortung geht auf die eigene Institution über.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Abnahmeprotokoll |
+| ** Definition ** | Die Integration von externen Dienstleistungen oder Produkten birgt spezifische Risiken, die sorgfältig gesteuert werden müssen, bevor eine produktive Nutzung erfolgt. Eine formale Abnahme ist daher ein entscheidender Schritt, um zu überprüfen und zu bestätigen, dass die von einem externen Lieferanten erbrachte Leistung den vertraglich vereinbarten Anforderungen, insbesondere den Informationssicherheitsanforderungen, vollumfänglich entspricht. So wird ein qualitätsgesicherter und sicherer Übergang der externen Leistung in die eigene Organisation gewährleistet. Dieses Protokoll dokumentiert die Ergebnisse der Abnahmeprüfung und dient als formaler Nachweis für die Erfüllung der vertraglichen Pflichten durch den Lieferanten. Es listet die durchgeführten Tests, die erzielten Ergebnisse sowie eventuell festgestellte Mängel oder Abweichungen von der Beauftragung auf. Mit der Unterzeichnung durch die verantwortlichen Parteien wird die Leistung des externen Partners formell angenommen und die damit verbundene Verantwortung geht auf die eigene Institution über. |
+| ** Kategorie ** | Entwicklung & Beschaffung |
+| ** Zielgruppe ** | Prozessverantwortliche |
+| ** bisher im IT-Grundschutz ** |   |
+
+

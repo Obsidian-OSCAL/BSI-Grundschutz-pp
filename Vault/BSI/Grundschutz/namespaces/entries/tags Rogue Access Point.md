@@ -1,0 +1,26 @@
+---
+created: '2026-03-31T00:00:50.9875999'
+---
+
+
+# [[tags]] &rarr; Rogue Access Point
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Ein nicht autorisierter WLAN-Zugangspunkt, der an ein Unternehmensnetzwerk angeschlossen ist und ein Sicherheitsrisiko darstellt, da er den Umgehung von Sicherheitsmaßnahmen ermöglichen kann.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Tag ** | Rogue Access Point |
+| ** Bedeutung ** | Ein nicht autorisierter WLAN-Zugangspunkt, der an ein Unternehmensnetzwerk angeschlossen ist und ein Sicherheitsrisiko darstellt, da er den Umgehung von Sicherheitsmaßnahmen ermöglichen kann. |
+
+
+_ created from [[tags]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

@@ -1,0 +1,29 @@
+---
+created: '2026-03-31T00:00:50.8735964'
+---
+
+
+# [[documentation_guidelines]] &rarr; Betriebshandbuch
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Das Betriebshandbuch enthät die produktspezifische Dokumentation eines bestimmten IT-Systems oder einer Anwendung. Sie kann vom Hersteller bereitgestellt oder für eine spezifische Eigenentwicklung von der Institution selbst erstellte sein. Zum Inhalt gehören technische Details zur Installation, Konfiguration und den Funktionalitäten. Das Betriebshandbuch ist eine wichtige Informationsquelle für das IT-Betriebskonzept und das Notfallhandbuch.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Betriebshandbuch |
+| ** Definition ** | Das Betriebshandbuch enthät die produktspezifische Dokumentation eines bestimmten IT-Systems oder einer Anwendung. Sie kann vom Hersteller bereitgestellt oder für eine spezifische Eigenentwicklung von der Institution selbst erstellte sein. Zum Inhalt gehören technische Details zur Installation, Konfiguration und den Funktionalitäten. Das Betriebshandbuch ist eine wichtige Informationsquelle für das IT-Betriebskonzept und das Notfallhandbuch. |
+| ** Kategorie ** | Betrieb & Prozesse |
+| ** Zielgruppe ** | Administrierende |
+| ** bisher im IT-Grundschutz ** |   |
+
+
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

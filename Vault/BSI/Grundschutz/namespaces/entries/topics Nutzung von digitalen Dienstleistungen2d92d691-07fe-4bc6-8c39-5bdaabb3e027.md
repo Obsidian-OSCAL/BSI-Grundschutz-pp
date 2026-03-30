@@ -1,0 +1,29 @@
+---
+aliases:
+- 2d92d691-07fe-4bc6-8c39-5bdaabb3e027
+created: '2026-03-31T00:00:51.1335717'
+---
+
+
+# [[topics]] &rarr; Nutzung von digitalen Dienstleistungen
+
+| | |
+| --- | --- |
+| ** UUID ** | 2d92d691-07fe-4bc6-8c39-5bdaabb3e027 | 
+
+
+Nutzung von digitalen Dienstleistungen beschreibt Verfahren und Regelungen zum Thema "Nutzung von digitalen Dienstleistungen" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Kontrolle von Dienstleistern. Schwerpunkte sind u. a.: Mehr-Faktor-Authentifizierung; Transportverschlüsselung; Vollverschlüsselung.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Nutzung von digitalen Dienstleistungen |
+| ** Definition ** | Nutzung von digitalen Dienstleistungen beschreibt Verfahren und Regelungen zum Thema "Nutzung von digitalen Dienstleistungen" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Grundlagen und nachgelagerten Aspekten wie Kontrolle von Dienstleistern. Schwerpunkte sind u. a.: Mehr-Faktor-Authentifizierung; Transportverschlüsselung; Vollverschlüsselung. |
+| ** UUID ** | 2d92d691-07fe-4bc6-8c39-5bdaabb3e027 |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

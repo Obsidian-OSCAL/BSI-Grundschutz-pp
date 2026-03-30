@@ -1,0 +1,39 @@
+---
+aliases:
+- 8ef347e7-ea3f-4624-b0f3-2af728443301
+created: '2026-03-31T00:00:51.080679'
+---
+
+
+# [[target_object_categories]] &rarr; Interne Netzsegmente
+
+| | |
+| --- | --- |
+| ** UUID ** | 8ef347e7-ea3f-4624-b0f3-2af728443301 | 
+| ** Parent ** | [[target_object_categories Netze1a4fb57d-1648-4111-979d-6a5f4f848620\|1a4fb57d-1648-4111-979d-6a5f4f848620]] |
+
+
+Netze innerhalb des Informationsverbundes.
+
+> [!info]- abgleitete Begriffe (Kinder):
+> 
+> | UUID | Begriff |
+> |-----|-------|
+> | [[target_object_categories WLANs82a399a2-2fa7-4dd2-9850-89a7ee0505ea\|82a399a2-2fa7-4dd2-9850-89a7ee0505ea]] | WLANs |
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Interne Netzsegmente |
+| ** Definition ** | Netze innerhalb des Informationsverbundes. |
+| ** Typ ** | Netze |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | LAN, Local Area Network |
+| ** ChildOfUUID ** | [[target_object_categories Netze1a4fb57d-1648-4111-979d-6a5f4f848620\|1a4fb57d-1648-4111-979d-6a5f4f848620]] |
+| ** UUID ** | 8ef347e7-ea3f-4624-b0f3-2af728443301 |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

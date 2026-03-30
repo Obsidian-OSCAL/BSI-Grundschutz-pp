@@ -1,0 +1,29 @@
+---
+created: '2026-03-31T00:00:50.8008679'
+---
+
+
+# [[documentation_guidelines]] &rarr; Geschäftsverteilungsplan
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Organigramm mit Aufgaben, Befugnissen und Verantwortlichkeiten (ABV): Definiert und visualisiert die Aufbauorganisation des Unternehmens. Es wird klar geregelt, welche Organisationseinheit und welche Rolle für welche Aufgabenbereiche (insbesondere sicherheitsrelevante) zuständig ist und welche Befugnisse damit verbunden sind. Dies ist die Basis für das Berechtigungsmanagement.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Geschäftsverteilungsplan |
+| ** Definition ** | Organigramm mit Aufgaben, Befugnissen und Verantwortlichkeiten (ABV): Definiert und visualisiert die Aufbauorganisation des Unternehmens. Es wird klar geregelt, welche Organisationseinheit und welche Rolle für welche Aufgabenbereiche (insbesondere sicherheitsrelevante) zuständig ist und welche Befugnisse damit verbunden sind. Dies ist die Basis für das Berechtigungsmanagement. |
+| ** Kategorie ** | Betrieb & Prozesse |
+| ** Zielgruppe ** | Mitarbeitende |
+| ** bisher im IT-Grundschutz ** |   |
+
+
+_ created from [[documentation_guidelines]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

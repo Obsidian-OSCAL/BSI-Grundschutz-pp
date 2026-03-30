@@ -1,0 +1,34 @@
+---
+aliases:
+- a9521914-ccf9-4c20-8eef-2dd912fb815d
+created: '2026-03-31T00:00:51.0426653'
+---
+
+
+# [[target_object_categories]] &rarr; Externe Netzanschlüsse
+
+| | |
+| --- | --- |
+| ** UUID ** | a9521914-ccf9-4c20-8eef-2dd912fb815d | 
+| ** Parent ** | [[target_object_categories Netze1a4fb57d-1648-4111-979d-6a5f4f848620\|1a4fb57d-1648-4111-979d-6a5f4f848620]] |
+
+
+Übergänge in Netze außerhalb des Informationsverbundes (z. B. Internet-Uplinks, Leitungen zu Partnern/Dienstleistern, Cloud-Peering, VoIP-Anbindung, öffentliche Mobilfunk-/5G-Router).
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Externe Netzanschlüsse |
+| ** Definition ** | Übergänge in Netze außerhalb des Informationsverbundes (z. B. Internet-Uplinks, Leitungen zu Partnern/Dienstleistern, Cloud-Peering, VoIP-Anbindung, öffentliche Mobilfunk-/5G-Router). |
+| ** Typ ** |   |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | Internetanschluss |
+| ** ChildOfUUID ** | [[target_object_categories Netze1a4fb57d-1648-4111-979d-6a5f4f848620\|1a4fb57d-1648-4111-979d-6a5f4f848620]] |
+| ** UUID ** | a9521914-ccf9-4c20-8eef-2dd912fb815d |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

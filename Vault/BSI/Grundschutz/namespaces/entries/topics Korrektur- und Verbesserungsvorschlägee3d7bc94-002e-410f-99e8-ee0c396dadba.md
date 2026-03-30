@@ -1,0 +1,29 @@
+---
+aliases:
+- e3d7bc94-002e-410f-99e8-ee0c396dadba
+created: '2026-03-31T00:00:51.2008595'
+---
+
+
+# [[topics]] &rarr; Korrektur- und Verbesserungsvorschläge
+
+| | |
+| --- | --- |
+| ** UUID ** | e3d7bc94-002e-410f-99e8-ee0c396dadba | 
+
+
+Korrekturvorschlägen dienen der Beseitigung von Fehlerursachen im bestehenden ISMS. Verbesserungsvorschläge dienen der  proaktive Weiterentwicklung des ISMS. Die Vorschläge bilden den aktiven Teil des kontinuierlichen Verbesserungsprozesses und überführen die gewonnenen Erkenntnisse in konkrete Handlungen in den anstehenden Durchführungszyklen (PDCA-Zyklus).
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Korrektur- und Verbesserungsvorschläge |
+| ** Definition ** | Korrekturvorschlägen dienen der Beseitigung von Fehlerursachen im bestehenden ISMS. Verbesserungsvorschläge dienen der  proaktive Weiterentwicklung des ISMS. Die Vorschläge bilden den aktiven Teil des kontinuierlichen Verbesserungsprozesses und überführen die gewonnenen Erkenntnisse in konkrete Handlungen in den anstehenden Durchführungszyklen (PDCA-Zyklus). |
+| ** UUID ** | e3d7bc94-002e-410f-99e8-ee0c396dadba |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

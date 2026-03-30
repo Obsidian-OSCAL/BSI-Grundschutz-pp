@@ -1,0 +1,34 @@
+---
+aliases:
+- 38167a3c-ee3e-4261-9c44-994c15a31d2c
+created: '2026-03-31T00:00:51.0437003'
+---
+
+
+# [[target_object_categories]] &rarr; Virtualisierungslösungen
+
+| | |
+| --- | --- |
+| ** UUID ** | 38167a3c-ee3e-4261-9c44-994c15a31d2c | 
+| ** Parent ** | [[target_object_categories Anwendungen7e41ecf5-1831-4691-ad0c-4fc7bbc1b871\|7e41ecf5-1831-4691-ad0c-4fc7bbc1b871]] |
+
+
+Anwendung zur zentralisierten Bereitstellung von abstrahierten Rechenressourcen. Über ein Netzwerk werden den Nutzenden oder anderen IT-Systemen virtuelle Umgebungen (wie Anwendungen, Betriebssystemumgebungen oder ganze virtuelle IT-Systeme) zur Verfügung gestellt, die auf einem oder mehreren zentral verwalteten Serversystemen ausgeführt werden. Die Verwaltung der zugrundeliegenden physikalischen Hardware wird dabei von der Konfiguration der virtuellen Umgebungen getrennt. Beachten Sie hierbei auch die Anforderungen an das Hostsystem, sowie die virtualisierten IT-Systeme.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Zielobjekt ** | Virtualisierungslösungen |
+| ** Definition ** | Anwendung zur zentralisierten Bereitstellung von abstrahierten Rechenressourcen. Über ein Netzwerk werden den Nutzenden oder anderen IT-Systemen virtuelle Umgebungen (wie Anwendungen, Betriebssystemumgebungen oder ganze virtuelle IT-Systeme) zur Verfügung gestellt, die auf einem oder mehreren zentral verwalteten Serversystemen ausgeführt werden. Die Verwaltung der zugrundeliegenden physikalischen Hardware wird dabei von der Konfiguration der virtuellen Umgebungen getrennt. Beachten Sie hierbei auch die Anforderungen an das Hostsystem, sowie die virtualisierten IT-Systeme. |
+| ** Typ ** | Anwendungen |
+| ** Kategorie ** | Technisch |
+| ** Synonyme ** | VM-Hosts, Virtual Desktop Infrastructure, Terminalserver |
+| ** ChildOfUUID ** | [[target_object_categories Anwendungen7e41ecf5-1831-4691-ad0c-4fc7bbc1b871\|7e41ecf5-1831-4691-ad0c-4fc7bbc1b871]] |
+| ** UUID ** | 38167a3c-ee3e-4261-9c44-994c15a31d2c |
+
+
+_ created from [[target_object_categories]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

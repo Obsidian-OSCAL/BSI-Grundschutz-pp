@@ -1,0 +1,33 @@
+---
+aliases:
+- 8e46d34c-5145-44f8-882e-790e2dcffa09
+created: '2026-03-31T00:00:50.9259537'
+---
+
+
+# [[practices]] &rarr; Konfiguration
+
+| | |
+| --- | --- |
+| ** UUID ** | 8e46d34c-5145-44f8-882e-790e2dcffa09 | 
+
+
+Die Praktik Konfiguration stellt sicher, dass IT-Komponenten – wie Anwendungen und IT-Systeme – gemäß den festgelegten Informationssicherheitsrichtlinien eingerichtet und kontinuierlich gepflegt werden, um Sicherheitslücken durch fehlerhafte oder unsichere Einstellungen zu vermeiden. Dies umfasst auch die nachvollziehbare Erstellung und Fortführung der Dokumentation.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Kürzel ** | KONF |
+| ** Begriff ** | Konfiguration |
+| ** Definition ** | Die Praktik Konfiguration stellt sicher, dass IT-Komponenten – wie Anwendungen und IT-Systeme – gemäß den festgelegten Informationssicherheitsrichtlinien eingerichtet und kontinuierlich gepflegt werden, um Sicherheitslücken durch fehlerhafte oder unsichere Einstellungen zu vermeiden. Dies umfasst auch die nachvollziehbare Erstellung und Fortführung der Dokumentation. |
+| ** UUID ** | 8e46d34c-5145-44f8-882e-790e2dcffa09 |
+| ** Schwerpunkt ** | Technisch |
+| ** Nummerierung ** | 18 |
+| ** auch bekannt als ** | Konfigurationsmanagement |
+
+
+_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

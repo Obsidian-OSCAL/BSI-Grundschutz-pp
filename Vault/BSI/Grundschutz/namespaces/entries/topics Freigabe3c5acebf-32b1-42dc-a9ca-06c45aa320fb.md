@@ -1,0 +1,29 @@
+---
+aliases:
+- 3c5acebf-32b1-42dc-a9ca-06c45aa320fb
+created: '2026-03-31T00:00:51.1282834'
+---
+
+
+# [[topics]] &rarr; Freigabe
+
+| | |
+| --- | --- |
+| ** UUID ** | 3c5acebf-32b1-42dc-a9ca-06c45aa320fb | 
+
+
+Freigabe bezeichnet den dokumentierten Entscheidungsakt im Change-Management, mit dem die Inbetriebnahme, Änderung oder Rücknahme eines Elements genehmigt wird. Sie grenzt sich von der Abnahme (Lieferprüfung vor Übergabe) ab und vom Freigabeverfahren, das die Verfahren und Regelungen zum Genehmigungsprozess im Managementsystem beschreibt. Beispiel: CAB-Entscheidung mit Begründung, Risikobewertung und Rückfallplan.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Freigabe |
+| ** Definition ** | Freigabe bezeichnet den dokumentierten Entscheidungsakt im Change-Management, mit dem die Inbetriebnahme, Änderung oder Rücknahme eines Elements genehmigt wird. Sie grenzt sich von der Abnahme (Lieferprüfung vor Übergabe) ab und vom Freigabeverfahren, das die Verfahren und Regelungen zum Genehmigungsprozess im Managementsystem beschreibt. Beispiel: CAB-Entscheidung mit Begründung, Risikobewertung und Rückfallplan. |
+| ** UUID ** | 3c5acebf-32b1-42dc-a9ca-06c45aa320fb |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

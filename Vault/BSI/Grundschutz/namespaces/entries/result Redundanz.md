@@ -1,0 +1,31 @@
+---
+created: '2026-03-31T00:00:50.9426552'
+---
+
+
+# [[result]] &rarr; Redundanz
+
+| | |
+| --- | --- |
+| ** UUID ** |  | 
+
+
+Redundanz ist das Vorhandensein mehrfacher, funktional gleichwertiger Komponenten oder Systeme mit dem Ziel, die Verfügbarkeit und Zuverlässigkeit von Informationen und IT-Diensten sicherzustellen, indem einzelne Fehlerpunkte (Single Points of Failure) eliminiert werden. Ein Single Point of Failure ist eine Komponente oder ein Teil eines Systems, dessen Ausfall das gesamte System funktionsunfähig machen würde. Redundanz eliminiert SPOFs durch alternative Pfade oder Komponenten.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Redundanz |
+| ** Definition ** | Redundanz ist das Vorhandensein mehrfacher, funktional gleichwertiger Komponenten oder Systeme mit dem Ziel, die Verfügbarkeit und Zuverlässigkeit von Informationen und IT-Diensten sicherzustellen, indem einzelne Fehlerpunkte (Single Points of Failure) eliminiert werden. Ein Single Point of Failure ist eine Komponente oder ein Teil eines Systems, dessen Ausfall das gesamte System funktionsunfähig machen würde. Redundanz eliminiert SPOFs durch alternative Pfade oder Komponenten. |
+| ** Kategorie ** |   |
+| ** Synonyme ** |   |
+| ** Variationen ** |   |
+| ** ChildOfUUID ** |  |
+| ** UUID ** |   |
+
+
+_ created from [[result]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

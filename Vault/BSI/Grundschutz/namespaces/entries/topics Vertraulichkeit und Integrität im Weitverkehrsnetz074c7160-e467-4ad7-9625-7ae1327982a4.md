@@ -1,0 +1,29 @@
+---
+aliases:
+- 074c7160-e467-4ad7-9625-7ae1327982a4
+created: '2026-03-31T00:00:51.1202569'
+---
+
+
+# [[topics]] &rarr; Vertraulichkeit und Integrität im Weitverkehrsnetz
+
+| | |
+| --- | --- |
+| ** UUID ** | 074c7160-e467-4ad7-9625-7ae1327982a4 | 
+
+
+Vertraulichkeit und Integrität im Weitverkehrsnetz beschreibt Verfahren und Regelungen zum Thema "Vertraulichkeit und Integrität im Weitverkehrsnetz" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Perimeterschutz und nachgelagerten Aspekten wie Dedizierte Systeme. Schwerpunkte sind u. a.: Kontrollierte Verbindungsführung; Verschlüsselung von Weiterverkehrsverbindungen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Vertraulichkeit und Integrität im Weitverkehrsnetz |
+| ** Definition ** | Vertraulichkeit und Integrität im Weitverkehrsnetz beschreibt Verfahren und Regelungen zum Thema "Vertraulichkeit und Integrität im Weitverkehrsnetz" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Perimeterschutz und nachgelagerten Aspekten wie Dedizierte Systeme. Schwerpunkte sind u. a.: Kontrollierte Verbindungsführung; Verschlüsselung von Weiterverkehrsverbindungen. |
+| ** UUID ** | 074c7160-e467-4ad7-9625-7ae1327982a4 |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

@@ -1,0 +1,29 @@
+---
+aliases:
+- c2d727b8-fcd4-46d5-a64b-b3901ea738d8
+created: '2026-03-31T00:00:51.100682'
+---
+
+
+# [[topics]] &rarr; Zugangsbeschränkungen
+
+| | |
+| --- | --- |
+| ** UUID ** | c2d727b8-fcd4-46d5-a64b-b3901ea738d8 | 
+
+
+Zugangsbeschränkungen beschreibt Verfahren und Regelungen zum Thema "Zugangsbeschränkungen" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Wireless LAN und nachgelagerten Aspekten wie Perimeterschutz. Schwerpunkte sind u. a.: Netzzugangskontrolle; Autorisiertes Routing; Authentifizierung von Routingprotokollen.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Begriff ** | Zugangsbeschränkungen |
+| ** Definition ** | Zugangsbeschränkungen beschreibt Verfahren und Regelungen zum Thema "Zugangsbeschränkungen" im Rahmen der jeweiligen Praktik, um die Informationssicherheit der Institution nachvollziehbar und wirksam zu gestalten. Es grenzt sich ab von vorgelagerten Aspekten wie Wireless LAN und nachgelagerten Aspekten wie Perimeterschutz. Schwerpunkte sind u. a.: Netzzugangskontrolle; Autorisiertes Routing; Authentifizierung von Routingprotokollen. |
+| ** UUID ** | c2d727b8-fcd4-46d5-a64b-b3901ea738d8 |
+
+
+_ created from [[topics]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

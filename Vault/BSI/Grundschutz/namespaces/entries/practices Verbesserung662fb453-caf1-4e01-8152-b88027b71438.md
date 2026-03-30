@@ -1,0 +1,36 @@
+---
+aliases:
+- 662fb453-caf1-4e01-8152-b88027b71438
+created: '2026-03-31T00:00:50.9199534'
+---
+
+
+# [[practices]] &rarr; Verbesserung
+
+| | |
+| --- | --- |
+| ** UUID ** | 662fb453-caf1-4e01-8152-b88027b71438 | 
+
+
+Die Praktik Verbesserung gewährleistet die kontinuierliche Weiterentwicklung und Optimierung des Informationssicherheitsmanagementsystems. Sie nutzt die Erkenntnisse aus dem Monitoring und der Evaluation, um die Wirksamkeit der Sicherheitsmaßnahmen zu erhöhen.
+
+Diese Praktik umfasst die Planung und Umsetzung von Korrektur- und Vorbeugungsmaßnahmen. Ziel ist es, einen Prozess der kontinuierlichen Verbesserung zu etablieren, der flexibel auf neue Bedrohungen und veränderte Rahmenbedingungen reagieren kann.
+Die Verbesserung schließt den PDCA-Zyklus ab und leitet gleichzeitig einen neuen Zyklus ein, indem sie Impulse für Anpassungen in den Praktiken Governance und Compliance, Strukturmodellierung und Umsetzung gibt. Sie stellt sicher, dass das ISMS dynamisch bleibt und sich an veränderte Anforderungen und Bedrohungen anpasst.
+
+
+
+
+| Spalte | Wert |
+|-----|-------|
+| ** Kürzel ** | VRB |
+| ** Begriff ** | Verbesserung |
+| ** Definition ** | Die Praktik Verbesserung gewährleistet die kontinuierliche Weiterentwicklung und Optimierung des Informationssicherheitsmanagementsystems. Sie nutzt die Erkenntnisse aus dem Monitoring und der Evaluation, um die Wirksamkeit der Sicherheitsmaßnahmen zu erhöhen.<br><br>Diese Praktik umfasst die Planung und Umsetzung von Korrektur- und Vorbeugungsmaßnahmen. Ziel ist es, einen Prozess der kontinuierlichen Verbesserung zu etablieren, der flexibel auf neue Bedrohungen und veränderte Rahmenbedingungen reagieren kann.<br>Die Verbesserung schließt den PDCA-Zyklus ab und leitet gleichzeitig einen neuen Zyklus ein, indem sie Impulse für Anpassungen in den Praktiken Governance und Compliance, Strukturmodellierung und Umsetzung gibt. Sie stellt sicher, dass das ISMS dynamisch bleibt und sich an veränderte Anforderungen und Bedrohungen anpasst. |
+| ** UUID ** | 662fb453-caf1-4e01-8152-b88027b71438 |
+| ** Schwerpunkt ** | Methodik |
+| ** Nummerierung ** | 4 |
+| ** auch bekannt als ** | Kontinuierliche Verbesserung |
+
+
+_ created from [[practices]] at Tue Mar 31 00:00:50 CEST 2026 _
+
+

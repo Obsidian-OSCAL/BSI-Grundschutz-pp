@@ -1,5 +1,5 @@
 ---
-created: '2026-03-30T15:07:11.6722543'
+created: '2026-03-31T10:08:52.8353813'
 ---
 
 
@@ -7,6 +7,6 @@ created: '2026-03-30T15:07:11.6722543'
 | ---  | --- |
 | Source | https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Dokumentation/namespaces/modal_verbs.csv |
 | local file | [[modal_verbs.csv]]
-| downloaded at | Mon Mar 30 15:07:11 CEST 2026 |
+| downloaded at | Tue Mar 31 10:08:52 CEST 2026 |
 
 

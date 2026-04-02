@@ -5,11 +5,11 @@ tags:
 - Namespace
 - oscal_catalog
 - Anwenderkatalog_Grundschutz
-created: Thu Apr 02 16:30:42 CEST 2026
-source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Katalog\input\Grundschutz++-catalog.json
+created: Thu Apr 02 16:51:17 CEST 2026
+source: C:\developement\obsidian-oscal\BSI-Grundschutz\Vault\BSI\Grundschutz\Katalog\input\Grundschutz++-catalog.json
 oscal_version: 1.1.3
-catalog_version: '2026-03-12T04:13:55.762859+00:00'
-lastmodified: '2026-03-12T04:14:03.393232863Z'
+catalog_version: '2026-04-02T05:14:24.460785+00:00'
+lastmodified: '2026-04-02T05:14:32.900005269Z'
 ---
 
 
@@ -20,8 +20,8 @@ lastmodified: '2026-03-12T04:14:03.393232863Z'
 > [!info]- Metadaten
 > | | |
 > | - | - |
-> | Version | 2026-03-12T04:13:55.762859+00:00 |
-> | zuletzt geändert | 2026-03-12T04:14:03.393232863Z |
+> | Version | 2026-04-02T05:14:24.460785+00:00 |
+> | zuletzt geändert | 2026-04-02T05:14:32.900005269Z |
 > | implementiert Norm | § 44 Abs. 1 BSIG |
 > | Keywords | Information Security Management System |
 > ## Rollen
@@ -31,7 +31,7 @@ lastmodified: '2026-03-12T04:14:03.393232863Z'
 > ## Referenzen
 > | Relation | Label | Link | 
 > | - | - | - |
-> | reference | BSI IT-Grundschutz Edition 2023 | [[6a598493-8f3b-4ad3-ad73-9fb1495916e6]] |
+> | reference | BSI IT-Grundschutz Edition 2023 | [[34a23422-f90b-4149-a05e-bf482e01da5c]] |
 ## Gruppen
 
 > [!info]+ [[Architektur]]
@@ -161,6 +161,9 @@ lastmodified: '2026-03-12T04:14:03.393232863Z'
 >  - [[Personalbetreuung]]
 >  - [[Weggang von Mitarbeitenden]]
 
+> [!info]+ [[Risikomanagement]]
+>  - [[Risiko]]
+
 > [!info]+ [[Sensibilisierung]]
 >  - [[Grundlagen]]
 >  - [[Grundlegende Sensibilisierung]]
@@ -216,4 +219,4 @@ lastmodified: '2026-03-12T04:14:03.393232863Z'
 >  - [[Tests]]
 >  - [[Freigabe]]
 >  - [[Bereitstellung]]
-_ created at Thu Apr 02 16:30:39 CEST 2026 _
+_ created at Thu Apr 02 16:51:13 CEST 2026 _

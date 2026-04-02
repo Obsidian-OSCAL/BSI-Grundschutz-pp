@@ -2,14 +2,15 @@
 
 Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für Obsidian bereit.
 > [!info]+ Einstiegspunkte:
->- Anwendungskatalog
+>- [[Anwenderkatalog Grundschutz++]]
 >- [[Namespaces]]
 >	- [[UUID Verzeichnis|Verzeichnis der verwendeten UUIDs in den Namespaces]]
 
 ## Hinweise zur Nutzung
 Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste.
 
-### Plugins
+### Notwendige Plugins
+* [Dataview](https://obsidian.md/plugins?id=dataview)
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 
 ## Lizenzinformationen

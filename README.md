@@ -1,8 +1,12 @@
 # BSI Grundschutz++ für Obsidian
 
+<img src="obsidian_net.png" align="right" width="200" />
+
 Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für [Obsidian](https://obsidian.md/) bereit.
 
-## Hinweise zur Nutzung
+<br clear="right"/>
+
+  ## Hinweise zur Nutzung
 Die Inhalte befinden sich im Unterordner, kopiert die Inhalte in einen eigenen Obsidian Vault um dies zu nutzen.
 Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste.
 
@@ -38,3 +42,4 @@ Abweichungen hiervon sind explizit gekennzeichnet.
 ### Lizenz der abgeleiteten Inhalte
 
 Die in diesem Vault bereitgestellte aufbereitete Version stellt eine Bearbeitung im Sinne der Lizenz dar und wird daher ebenfalls unter der **Creative Commons Attribution-ShareAlike 4.0 International License** veröffentlicht.
+</div>

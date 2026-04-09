@@ -24,6 +24,7 @@ Verwendete Bestandteile:
 - Anwendungskatalog (OSCAL)
 - zugehörige Namespace-Definitionen
 - Quellkataloge
+
 Die konkret verwendeten Dateien sind innerhalb dieses Vaults enthalten.  
 Zu jeder Datei sind – soweit verfügbar – die jeweilige Originalquelle (Pfad im Repository) sowie das Downloaddatum dokumentiert.
 

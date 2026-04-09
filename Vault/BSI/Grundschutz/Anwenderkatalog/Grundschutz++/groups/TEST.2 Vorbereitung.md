@@ -1,0 +1,18 @@
+---
+group: Vorbereitung
+group_id: TEST.2
+---
+
+
+** Group **
+# TEST.2 - Vorbereitung 
+** Übergeordnete Gruppe: **
+ [TEST Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)
+## Controls
+
+> [!info]+ [[TEST.2.1 Versionshistorie.md|TEST.2.1 Versionshistorie]]
+
+> [!info]+ [[TEST.2.2 Folgenabschätzung.md|TEST.2.2 Folgenabschätzung]]
+>  - [[TEST.2.2.1 Kategorisierung von Änderungen.md|TEST.2.2.1 Kategorisierung von Änderungen]]
+>  - [[TEST.2.2.2 Anpassung der Dokumentation.md|TEST.2.2.2 Anpassung der Dokumentation]]
+>  - [[TEST.2.2.3 Dokumentation der Abhängigkeiten.md|TEST.2.2.3 Dokumentation der Abhängigkeiten]]

@@ -1,0 +1,23 @@
+---
+group: Konfiguration von Anwendungen
+group_id: KONF.10
+---
+
+
+** Group **
+# KONF.10 - Konfiguration von Anwendungen 
+** Übergeordnete Gruppe: **
+ [KONF Konfiguration](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)
+## Controls
+
+> [!info]+ [[KONF.10.1 Grundkonfiguration für Anwendungen.md|KONF.10.1 Grundkonfiguration für Anwendungen]]
+>  - [[KONF.10.1.1 Versionierung der Anwendungskonfiguration.md|KONF.10.1.1 Versionierung der Anwendungskonfiguration]]
+
+> [!info]+ [[KONF.10.2 Kryptographische Verfahren in Anwendungen.md|KONF.10.2 Kryptographische Verfahren in Anwendungen]]
+
+> [!info]+ [[KONF.10.3 Änderung von Default-Zugangsdaten.md|KONF.10.3 Änderung von Default-Zugangsdaten]]
+
+> [!info]+ [[KONF.10.4 Deaktivierung nicht benötigter Anwendungsfunktionen.md|KONF.10.4 Deaktivierung nicht benötigter Anwendungsfunktionen]]
+
+> [!info]+ [[KONF.10.5 Überprüfung der Konfiguration.md|KONF.10.5 Überprüfung der Konfiguration]]
+>  - [[KONF.10.5.1 Automatisierte Überprüfung der Konfiguration.md|KONF.10.5.1 Automatisierte Überprüfung der Konfiguration]]

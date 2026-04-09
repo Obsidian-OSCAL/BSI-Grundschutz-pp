@@ -1,0 +1,26 @@
+---
+class: BSI-Methodik-Grundschutz-plus-plus
+type: control
+control: PERF.1.1.1 Auswertung der Gefährdungslage
+parent_control: PERF.1.1 Verfahren und Regelungen
+---
+
+
+** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
+# PERF.1.1.1 - Auswertung der Gefährdungslage
+Gruppe: [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md)
+---
+
+** Übergeordnetes Control: ** [PERF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1%20Verfahren%20und%20Regelungen.md)
+### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *** |  | SOLLTE | die Gefährdungslage | in Bezug auf geänderte Rahmenbedingungen | überprüfen |  | >Monitoring-Evaluation SOLLTE die Gefährdungslage in Bezug auf geänderte Rahmenbedingungen überprüfen.
+
+> [!info]- Guidance
+>Die Auswertung der Gefährdungslage im Hinblick auf Veränderungen stellt sicher, dass neue oder veränderte Rahmenbedingungen (organisatorischer, technischer oder rechtlicher Art) potenziell zusätzliche Gefährdungen erzeugen und deshalb im ISMS berücksichtigt werden; konkrete Prüfpunkte umfassen technische Veränderungen wie die Einführung neuer IT-Systeme, Software, Netzwerktechnologien oder Cloud-Dienste, organisatorische Veränderungen wie Outsourcing, neue Standorte, Umstrukturierungen sowie veränderte Schnittstellen oder Verantwortlichkeiten, rechtliche und regulatorische Änderungen wie neue Gesetze (z. B. NIS2, Anpassungen der DSGVO) und Branchenvorgaben, die zusätzliche Compliance-Risiken begründen, sowie eine veränderte Bedrohungslage durch neue Angriffsarten, aktuelle Sicherheitsvorfälle und CERT-Warnungen, was eine Aktualisierung der Gefährdungskataloge erforderlich machen kann; daraus folgen eine regelmäßige Überprüfung der Gefährdungslage (z. B. halbjährlich oder anlassbezogen), die Anpassung der Risikobetrachtung bei identifizierten neuen Gefährdungen, die Ableitung neuer Schutzmaßnahmen bzw. die Nachbesserung bestehender sowie die nachvollziehbare Dokumentation von Prüfungen und Ergebnissen im ISMS.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7797cd44-8cc3-4b75-a4b8-9faefe2c16d7 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [2](effort_level_2) |> | ** Alternate Identifier ** | 7797cd44-8cc3-4b75-a4b8-9faefe2c16d7 |

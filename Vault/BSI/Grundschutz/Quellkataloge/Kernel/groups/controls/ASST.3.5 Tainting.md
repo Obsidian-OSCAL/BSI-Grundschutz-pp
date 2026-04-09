@@ -1,0 +1,24 @@
+---
+class: BSI-Stand-der-Technik-Kernel
+type: control
+control: ASST.3.5 Tainting
+---
+
+
+** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
+# ASST.3.5 - Tainting
+Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md)
+---
+
+### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** | Daten | KANN | eine Markierung durch eingebettete Daten oder Funktionen zur Wiedererkennung |  | zuweisen | Arbeitsanweisung | >Informationen und Assets für Daten KANN eine Markierung durch eingebettete Daten oder Funktionen zur Wiedererkennung zuweisen.
+
+> [!info]- Guidance
+>Zielt darauf ab, die Nachverfolgbarkeit und Kontextbindung von Daten zu ermöglichen, insbesondere in komplexen IT-Systemen, in denen Daten über viele Verarbeitungsschritte hinweg genutzt, kombiniert oder verteilt werden. Durch die Einbettung spezifischer, erkenntlicher Merkmale (z.B. Metadaten, Marker oder Funktionsventhalten) kann ein Datensatz identifizierbar gemacht werden, ohne dass seine Funktion oder Nutzbarkeit wesentlich eingeschränkt wird. Dies kann bei der Erkennung unerlaubter Datenweitergaben, der Nachverfolgung von Datenflüssen oder bei Sicherheitsanalysen hilfreich sein, insbesondere wenn potenziell sensible oder schützenswerte Daten im Spiel sind. Für welche Daten Tainting gezielt eingesetzt wird kann sich nach deren Klassifizierung oder einer spezifischen Risikoanalyse richten. Beispiele für Tainting-Mechanismen können sein: das Einfügen eines unsichtbaren Wasserzeichens in ein Dokument, das Anhängen kryptografisch prüfbarer Metadaten an Datensätze, Dummy-Datensätze oder das Verwenden von Datencontainern, die sich beim Zugriff oder bei der Weitergabe protokollierend venthalten. Auch das Markieren von Datenbankeinträgen mit zusätzlichen Attributen, die Rückschlüsse auf Herkunft, Vertrauensstufe oder Kontext erlauben, kann eine Form des Taintings darstellen. Ebenso kann bei Programmcode eine Markierung durch sogenannte Taint-Tracking-Systeme erfolgen, die überwachen, welche Eingaben in sicherheitskritische Operationen einfließen. Für die Umsetzung kann der Einsatz strukturierter Datenformate (wie XML oder JSON mit Markierungsfeldern), der Aufbau kontrollierter Datenflüsse mit Protokollierung oder das Nutzen von Middleware-Komponenten mit Tainting-Funktionalität in Betracht gezogen werden. Wichtig ist dabei, dass die Tainting-Informationen robust, interpretierbar und möglichst schwer entfernbar gestaltet werden, um ihre Wirksamkeit zu sichern. Die Wahl geeigneter Methoden hängt stark vom Anwendungskontext, den Schutzbedarfen und den bestehenden Systemarchitekturen ab.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 11c6919e-1dac-4816-9b42-88218c04c62b |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 11c6919e-1dac-4816-9b42-88218c04c62b |

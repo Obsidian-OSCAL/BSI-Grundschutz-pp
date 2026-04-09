@@ -1,0 +1,28 @@
+---
+tags: Lieferketten
+class: BSI-Stand-der-Technik-Kernel
+type: control
+control: BES.7.2 Prozesse vor Netzanbindung
+---
+
+
+** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
+# BES.7.2 - Prozesse vor Netzanbindung
+Tags: "[Lieferketten](tags_Lieferketten)"
+Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md)
+---
+
+### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md) *** | Outsourcing | SOLLTE | vor Anbindung des Datennetzes der Nutzenden an das Datennetz der Anbietenden alle sicherheitsrelevanten Maßnahmen | im Einklang mit den Regelungen und Verfahren des Managementsystems | verankern | Abnahmeprotokoll | >Beschaffungsmanagement für Outsourcing SOLLTE vor Anbindung des Datennetzes der Nutzenden an das Datennetz der Anbietenden alle sicherheitsrelevanten Maßnahmen im Einklang mit den Regelungen und Verfahren des Managementsystems verankern.
+
+> [!info]- Guidance
+>Der Sinn der Vorschrift liegt darin, Risiken durch unkontrollierte Netzwerkanbindungen zu minimieren, die bei Outsourcing deutlich höher sind als bei Standard-Dienstleistungsverträgen. Ohne vorherige Verankerung von Prozessen und technischen Lösungen, die für die sichere Anbindung zum Outsourcing-Dienstleiser erforderlich sind, könnte etwa Schadsoftware aus dem Anbietenden-Netz ungehindert in das Netz der Institution gelangen oder unbefugte Zugriffe könnten entstehen, wenn Authentifizierungsverfahren nicht abgestimmt sind. Umgekehrt kann eine klare Festlegung vorab bewirken, dass nur geprüfte, verschlüsselte und überwachte Schnittstellen genutzt werden, was eine vertrauenswürdige Zusammenarbeit ermöglicht. Da Outsourcing regelmäßig mit tiefen technischen Integrationen verbunden ist, unterscheidet es sich von herkömmlichen Lieferantenbeziehungen, bei denen keine direkte Netzwerkkopplung erfolgt. Eine Institution kann diese Anforderung praktisch umsetzen, indem sie vor der Anbindung (1) eine technische Schnittstellenbeschreibung einfordert, die Protokolle, Ports und Authentifizierungsmechanismen dokumentiert, (2) die Kommunikation auf gesicherte Kanäle wie VPN oder verschlüsselte Direktleitungen beschränkt, und (3) Verfahren zur Netzsegmentierung etabliert, sodass der Zugriff nur auf explizit freigegebene Systeme möglich ist. Ergänzend kann eine Checkliste für Dienstleisterprüfung genutzt werden, in der Sicherheitszertifikate, Protokolle zur Patch-Pflege oder geplante Monitoring-Mechanismen abgefragt werden. Ein prozessualer Tipp kann darin bestehen, die Netzfreigabe erst nach einem gemeinsamen Test der Sicherheitsmechanismen freizuschalten und dies in einem Freigabeprotokoll zu dokumentieren. So kann eine Institution sicherstellen, dass Outsourcing-Verbindungen kontrolliert, nachvollziehbar und mit einem definierten Sicherheitsniveau umgesetzt werden.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 1421e376-1f13-4381-a30f-597ec113d205 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [3](effort_level_3) |> | ** Alternate Identifier ** | 1421e376-1f13-4381-a30f-597ec113d205 |
+
+> [!info]- Links> > related: [TEST.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.1%20Verfahren%20und%20Regelungen.md)

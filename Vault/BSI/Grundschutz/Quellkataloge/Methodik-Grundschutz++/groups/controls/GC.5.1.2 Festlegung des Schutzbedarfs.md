@@ -1,0 +1,28 @@
+---
+class: BSI-Methodik-Grundschutz-plus-plus
+type: control
+control: GC.5.1.2 Festlegung des Schutzbedarfs
+parent_control: GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung
+---
+
+
+** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
+# GC.5.1.2 - Festlegung des Schutzbedarfs
+Gruppe: [GC.5 Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md)
+---
+
+** Übergeordnetes Control: ** [GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1%20Vorgehen%20bei%20der%20Infomationssicherheitseinstufung.md)
+### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md) *** |  | MUSS | eine Einstufung des Schutzbedarfs der relevanten Geschäftsprozesse und Informationsarten | unter Berücksichtigung der Geschäftsziele und in Absprache mit der Institutionsleitung | festlegen | Schutzbedarfsfeststellung | >Governance und Compliance MUSS eine Einstufung des Schutzbedarfs der relevanten Geschäftsprozesse und Informationsarten unter Berücksichtigung der Geschäftsziele und in Absprache mit der Institutionsleitung festlegen.
+
+> [!info]- Guidance
+>Das Ergebnis der  Schutzbedarfsfeststellung ist eine Übersicht des Schutzbedarfs der zu verarbeitenden Informationen,  sowie der Relevanz der Geschäftsprozesse. Die Einstufung erfolgt dabei in den Stufen „normal“ oder „hoch“. Die Einstufung richtet sich nach der Bedeutung des Geschäftsprozess für die Geschäftsziele oder den gesetzlichen Auftrag der Institution. Priorität für die weitere Abarbeitung hat zunächst der wichtigste Geschäftsprozess, d.h. derjenige Geschäftsprozess, dessen Informationsschutz für den Fortbestand der Institution von essentieller Bedeutung ist. Die Entscheidung darüber, welcher Geschäftsprozess am wichtigsten ist, obliegt der Institutionsleitung. Droht bei einer Verletzung der Vertraulichkeit, Integrität oder Verfügbarkeit von Informationen in diesem Geschäftsprozess ein existenzbedrohender finanzieller oder existenzbedrohender Reputationsschaden, so ist der Schutzbedarf des Prozesses als hoch einzustufen. Das gleiche gilt, wenn ein Geschäftsprozess oder eine Information, als (VS-)Vertraulich eingestuft wird.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7a951196-bf44-463f-91b6-8cf140c97e4c |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [0](effort_level_0) |> | ** Alternate Identifier ** | 7a951196-bf44-463f-91b6-8cf140c97e4c |
+
+> [!info]- Links> > required: [GC.5.1.1 Festlegung der Geschäftsprozesse](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1.1%20Festlegung%20der%20Geschäftsprozesse.md)

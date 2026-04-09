@@ -1,0 +1,31 @@
+---
+group: Perimeterschutz
+group_id: ARCH.5
+---
+
+
+** Group **
+# ARCH.5 - Perimeterschutz 
+** Übergeordnete Gruppe: **
+ [ARCH Architektur](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)
+## Controls
+
+> [!info]+ [[ARCH.5.1 Einschränkung und Inspektion von Verbindungen.md|ARCH.5.1 Einschränkung und Inspektion von Verbindungen]]
+>  - [[ARCH.5.1.1 Blockieren anfälliger Netzprotokolle.md|ARCH.5.1.1 Blockieren anfälliger Netzprotokolle]]
+>  - [[ARCH.5.1.2 Netzbasierte Angriffe.md|ARCH.5.1.2 Netzbasierte Angriffe]]
+>  - [[ARCH.5.1.3 TCP-basierte Angriffe.md|ARCH.5.1.3 TCP-basierte Angriffe]]
+>  - [[ARCH.5.1.4 UDP-basierte Angriffe.md|ARCH.5.1.4 UDP-basierte Angriffe]]
+>  - [[ARCH.5.1.5 Deaktivierung von Split Tunneling.md|ARCH.5.1.5 Deaktivierung von Split Tunneling]]
+>  - [[ARCH.5.1.6 Blockieren direkter Management-Verbindungen.md|ARCH.5.1.6 Blockieren direkter Management-Verbindungen]]
+>  - [[ARCH.5.1.7 Edge-Routing.md|ARCH.5.1.7 Edge-Routing]]
+>  - [[ARCH.5.1.8 Inspektion verschlüsselter Verbindungen.md|ARCH.5.1.8 Inspektion verschlüsselter Verbindungen]]
+>  - [[ARCH.5.1.9 Filterung von DNS.md|ARCH.5.1.9 Filterung von DNS]]
+>  - [[ARCH.5.1.10 Webfilterung.md|ARCH.5.1.10 Webfilterung]]
+>    - [[ARCH.5.1.10.1 Bekannte schädliche Inhalte.md|ARCH.5.1.10.1 Bekannte schädliche Inhalte]]
+>    - [[ARCH.5.1.10.2 Bekannte illegale Inhalte.md|ARCH.5.1.10.2 Bekannte illegale Inhalte]]
+>    - [[ARCH.5.1.10.3 Speicherdienste.md|ARCH.5.1.10.3 Speicherdienste]]
+>  - [[ARCH.5.1.11 P-A-P-Struktur.md|ARCH.5.1.11 P-A-P-Struktur]]
+>  - [[ARCH.5.1.12 Software-definierte Verbindungen.md|ARCH.5.1.12 Software-definierte Verbindungen]]
+>  - [[ARCH.5.1.13 Produktdiversität.md|ARCH.5.1.13 Produktdiversität]]
+
+> [!info]+ [[ARCH.5.2 Blockieren direkter öffentlicher Verbindungen.md|ARCH.5.2 Blockieren direkter öffentlicher Verbindungen]]

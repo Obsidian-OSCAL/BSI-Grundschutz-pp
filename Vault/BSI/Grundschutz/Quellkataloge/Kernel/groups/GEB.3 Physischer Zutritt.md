@@ -1,0 +1,30 @@
+---
+group: Physischer Zutritt
+group_id: GEB.3
+---
+
+
+** Group **
+# GEB.3 - Physischer Zutritt 
+** Übergeordnete Gruppe: **
+ [GEB Gebäudemanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)
+## Controls
+
+> [!info]+ [[GEB.3.1 Überwachung von Zutrittspunkten.md|GEB.3.1 Überwachung von Zutrittspunkten]]
+>  - [[GEB.3.1.1 Videoüberwachung.md|GEB.3.1.1 Videoüberwachung]]
+>  - [[GEB.3.1.2 Überprüfung mitgeführter Gegenstände.md|GEB.3.1.2 Überprüfung mitgeführter Gegenstände]]
+
+> [!info]+ [[GEB.3.2 Anmelde- und Empfangsbereiche.md|GEB.3.2 Anmelde- und Empfangsbereiche]]
+
+> [!info]+ [[GEB.3.3 Authentifizierung vor Zutritt.md|GEB.3.3 Authentifizierung vor Zutritt]]
+>  - [[GEB.3.3.1 Zugangskontrollanlage.md|GEB.3.3.1 Zugangskontrollanlage]]
+>  - [[GEB.3.3.2 Dokumentation von Zutritten.md|GEB.3.3.2 Dokumentation von Zutritten]]
+>  - [[GEB.3.3.3 Besucheranmeldung.md|GEB.3.3.3 Besucheranmeldung]]
+
+> [!info]+ [[GEB.3.4 Berechtigungsmarkierung.md|GEB.3.4 Berechtigungsmarkierung]]
+
+> [!info]+ [[GEB.3.5 Einbruchhemmung.md|GEB.3.5 Einbruchhemmung]]
+
+> [!info]+ [[GEB.3.6 Einbruchmeldeanlagen.md|GEB.3.6 Einbruchmeldeanlagen]]
+
+> [!info]+ [[GEB.3.7 Kontrolle der Zutrittskontrolle.md|GEB.3.7 Kontrolle der Zutrittskontrolle]]

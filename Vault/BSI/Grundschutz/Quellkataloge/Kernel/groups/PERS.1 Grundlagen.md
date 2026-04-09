@@ -1,0 +1,18 @@
+---
+group: Grundlagen
+group_id: PERS.1
+---
+
+
+** Group **
+# PERS.1 - Grundlagen 
+** Übergeordnete Gruppe: **
+ [PERS Personal](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)
+## Controls
+
+> [!info]+ [[PERS.1.1 Verfahren und Regelungen.md|PERS.1.1 Verfahren und Regelungen]]
+>  - [[PERS.1.1.1 Dokumentation.md|PERS.1.1.1 Dokumentation]]
+>  - [[PERS.1.1.2 Zuweisung der Aufgaben.md|PERS.1.1.2 Zuweisung der Aufgaben]]
+>  - [[PERS.1.1.3 Bekanntgabe.md|PERS.1.1.3 Bekanntgabe]]
+
+> [!info]+ [[PERS.1.2 Regelmäßige Überprüfung.md|PERS.1.2 Regelmäßige Überprüfung]]

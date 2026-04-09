@@ -1,0 +1,35 @@
+---
+group: Schutz vor Elementarschäden
+group_id: GEB.10
+---
+
+
+** Group **
+# GEB.10 - Schutz vor Elementarschäden 
+** Übergeordnete Gruppe: **
+ [GEB Gebäudemanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)
+## Controls
+
+> [!info]+ [[GEB.10.1 Klimatisierung.md|GEB.10.1 Klimatisierung]]
+>  - [[GEB.10.1.1 Luftstrom-Analyse.md|GEB.10.1.1 Luftstrom-Analyse]]
+>  - [[GEB.10.1.2 Klimamessung.md|GEB.10.1.2 Klimamessung]]
+>  - [[GEB.10.1.3 Redundante Klimatisierung.md|GEB.10.1.3 Redundante Klimatisierung]]
+
+> [!info]+ [[GEB.10.2 Brandschutz.md|GEB.10.2 Brandschutz]]
+>  - [[GEB.10.2.1 Baulicher Brandschutz.md|GEB.10.2.1 Baulicher Brandschutz]]
+>  - [[GEB.10.2.2 Brandabschnitte.md|GEB.10.2.2 Brandabschnitte]]
+>  - [[GEB.10.2.3 Rauchdichtheit.md|GEB.10.2.3 Rauchdichtheit]]
+>  - [[GEB.10.2.4 Brandwiderstandsklassen.md|GEB.10.2.4 Brandwiderstandsklassen]]
+>  - [[GEB.10.2.5 Vermeidung von Brandlasten.md|GEB.10.2.5 Vermeidung von Brandlasten]]
+>  - [[GEB.10.2.6 Brandmeldeanlagen.md|GEB.10.2.6 Brandmeldeanlagen]]
+>  - [[GEB.10.2.7 Brandunterdrückung.md|GEB.10.2.7 Brandunterdrückung]]
+>  - [[GEB.10.2.8 Brandschutzprüfung.md|GEB.10.2.8 Brandschutzprüfung]]
+
+> [!info]+ [[GEB.10.3 Wasserschutz.md|GEB.10.3 Wasserschutz]]
+>  - [[GEB.10.3.1 Doppelter baulicher Wasserschutz.md|GEB.10.3.1 Doppelter baulicher Wasserschutz]]
+>  - [[GEB.10.3.2 Leckagesensor.md|GEB.10.3.2 Leckagesensor]]
+
+> [!info]+ [[GEB.10.4 Blitzschutzeinrichtungen.md|GEB.10.4 Blitzschutzeinrichtungen]]
+>  - [[GEB.10.4.1 Niederohmigkeit.md|GEB.10.4.1 Niederohmigkeit]]
+
+> [!info]+ [[GEB.10.5 Ableitfähiger Fußbodenbelag.md|GEB.10.5 Ableitfähiger Fußbodenbelag]]

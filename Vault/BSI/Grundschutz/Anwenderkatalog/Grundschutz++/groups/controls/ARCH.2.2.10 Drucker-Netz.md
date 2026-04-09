@@ -1,0 +1,28 @@
+---
+tags: Lateral_Movement_Separation_of_Concerns
+class: BSI-Stand-der-Technik-Kernel
+type: control
+control: ARCH.2.2.10 Drucker-Netz
+parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
+---
+
+
+** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
+# ARCH.2.2.10 - Drucker-Netz
+Tags: "[Lateral Movement](tags_Lateral Movement)" "[Separation of Concerns](tags_Separation of Concerns)"
+Gruppe: [ARCH.2 Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md)
+---
+
+** Übergeordnetes Control: ** [ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2%20Einschränkung%20von%20Verbindungen%20zwischen%20Segmenten.md)
+### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md) *** | Netze | SOLLTE | Verbindungen zwischen Druckern und anderen Systemen |  | einschränken | Netzplan | >Architektur für Netze SOLLTE Verbindungen zwischen Druckern und anderen Systemen einschränken.
+
+> [!info]- Guidance
+>Drucker können Schwachstellen aufweisen, die Angreifer ausnutzen, z.B. veraltete Firmware oder ungesicherte Netzprotokolle. Durch die Segmentierung wird die Angriffsoberfläche reduziert und die Netzüberwachung erleichtert. Die Umsetzung kann physisch oder durch VLANs erfolgen.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 48013e9f-7f90-495c-8cbd-aaf33f5060fb |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [4](effort_level_4) |> | ** Alternate Identifier ** | 48013e9f-7f90-495c-8cbd-aaf33f5060fb |

@@ -1,0 +1,17 @@
+---
+group: Auditprogramm und -durchführung
+group_id: PERF.3
+---
+
+
+** Group **
+# PERF.3 - Auditprogramm und -durchführung 
+** Übergeordnete Gruppe: **
+ [PERF Monitoring-Evaluation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)
+## Controls
+
+> [!info]+ [[PERF.3.1 Aufbau und Pflege eines Auditprogramms.md|PERF.3.1 Aufbau und Pflege eines Auditprogramms]]
+>  - [[PERF.3.1.1 Erstellen eines Auditsplans.md|PERF.3.1.1 Erstellen eines Auditsplans]]
+>  - [[PERF.3.1.2 Planen von internen Audits.md|PERF.3.1.2 Planen von internen Audits]]
+>  - [[PERF.3.1.3 Auswahl des Auditteams.md|PERF.3.1.3 Auswahl des Auditteams]]
+>  - [[PERF.3.1.4 Umfang von Audits.md|PERF.3.1.4 Umfang von Audits]]

@@ -1,8 +1,14 @@
+<img src="obsidian_net.png" style="float: right; margin: 0 0 10px 15px; width: 200px;">
+
 # BSI Grundschutz++
 
 Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für Obsidian bereit.
 > [!info]+ Einstiegspunkte:
 >- [[Anwenderkatalog Grundschutz++]]
+>- Quellkataloge
+>	- [[BSI Stand der Technik Kernel]]
+>	- [[BSI Methodik Grundschutz++]]
+>	- [[BSI Anforderungen zum Risikomanagement]]
 >- [[Namespaces]]
 >	- [[UUID Verzeichnis|Verzeichnis der verwendeten UUIDs in den Namespaces]]
 
@@ -42,3 +48,4 @@ Abweichungen hiervon sind explizit gekennzeichnet.
 ### Lizenz der abgeleiteten Inhalte
 
 Die in diesem Vault bereitgestellte aufbereitete Version stellt eine Bearbeitung im Sinne der Lizenz dar und wird daher ebenfalls unter der **Creative Commons Attribution-ShareAlike 4.0 International License** veröffentlicht.
+

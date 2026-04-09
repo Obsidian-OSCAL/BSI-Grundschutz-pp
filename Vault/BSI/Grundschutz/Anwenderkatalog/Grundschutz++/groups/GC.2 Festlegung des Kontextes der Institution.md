@@ -1,0 +1,15 @@
+---
+group: Festlegung des Kontextes der Institution
+group_id: GC.2
+---
+
+
+** Group **
+# GC.2 - Festlegung des Kontextes der Institution 
+** Übergeordnete Gruppe: **
+ [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
+## Controls
+
+> [!info]+ [[GC.2.1 Festlegung des externen Kontextes der Institution.md|GC.2.1 Festlegung des externen Kontextes der Institution]]
+
+> [!info]+ [[GC.2.2 Festlegung des internen Kontextes der Institution.md|GC.2.2 Festlegung des internen Kontextes der Institution]]

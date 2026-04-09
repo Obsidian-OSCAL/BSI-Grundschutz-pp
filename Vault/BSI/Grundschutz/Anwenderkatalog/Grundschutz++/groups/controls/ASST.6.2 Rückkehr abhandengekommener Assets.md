@@ -1,0 +1,24 @@
+---
+class: BSI-Stand-der-Technik-Kernel
+type: control
+control: ASST.6.2 Rückkehr abhandengekommener Assets
+---
+
+
+** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
+# ASST.6.2 - Rückkehr abhandengekommener Assets
+Gruppe: [ASST.6 Rücknahme von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.6%20Rücknahme%20von%20Assets.md)
+---
+
+### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Rücknahme von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.6%20Rücknahme%20von%20Assets.md) *** |  | SOLLTE | eine Vorgehensweise bei Rückkehr von abhandengekommenen Assets |  | verankern | Arbeitsanweisung | >Informationen und Assets SOLLTE eine Vorgehensweise bei Rückkehr von abhandengekommenen Assets verankern.
+
+> [!info]- Guidance
+>"Abhandengekommene Assets" bezeichnen Informationswerte, die ungewollt oder ungeplant außerhalb der direkten Kontrolle der Institution geraten sind - beispielsweise durch Verlust, Diebstahl, vergessene Mitnahme oder andere unbeabsichtigte Ereignisse. Eine "Vorgehensweise bei Rückkehr" meint einen strukturierten Prozess zur systematischen Wiederaufnahme und sicherheitstechnischen Bewertung solcher Assets nach ihrer Wiederbeschaffung oder ihrem Wiederauffinden. Diese Anforderung zielt auf die Risikominimierung bei der Wiederintegration potenziell kompromittierter Assets ab, da während der unkontrollierten Abwesenheit Manipulationen, unautorisierten Zugriffe oder Datenabflüsse aufgetreten sein könnten. Ohne strukturierte Rückkehrprozesse kann die unkontrollierte Wiederverwendung zurückgekehrter Assets zu Sicherheitslücken, Malware-Infektionen oder Datenschutzverletzungen führen. Umsetzungen können bei der Asset-Rückkehr (1) eine vollständige Identitätsprüfung anhand eindeutiger Kennzeichnungen wie Seriennummern oder Asset-Tags, (2) eine technische Integritätsprüfung durch Malware-Scans, Firmware-Vergleiche und Hardwareanalysen sowie (3) eine Datenintegrität-Bewertung mittels kryptografischer Prüfsummen oder forensischer Analysen umfassen. Als Alternative zur tiefergehenden Analyse von Systemen und Daten bietet sich auch die Löschung oder Entsorgung an. Prozessual kann die Einrichtung einer zentralen Asset-Return-Stelle mit definierten Eskalationswegen bei Auffälligkeiten, die Dokumentation aller Rückkehrfälle in einem Asset-Management-System und die Implementierung von Quarantäne-Verfahren für verdächtige Assets erfolgen.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 74259c1e-dc72-42dc-b2b7-b93d700616e7 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [4](effort_level_4) |> | ** Alternate Identifier ** | 74259c1e-dc72-42dc-b2b7-b93d700616e7 |

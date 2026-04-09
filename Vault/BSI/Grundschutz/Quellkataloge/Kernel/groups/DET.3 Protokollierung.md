@@ -1,0 +1,34 @@
+---
+group: Protokollierung
+group_id: DET.3
+---
+
+
+** Group **
+# DET.3 - Protokollierung 
+** Übergeordnete Gruppe: **
+ [DET Detektion](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)
+## Controls
+
+> [!info]+ [[DET.3.1 Protokollierung sicherheitsrelevanter Ereignisse.md|DET.3.1 Protokollierung sicherheitsrelevanter Ereignisse]]
+>  - [[DET.3.1.1 Authentifizierungen.md|DET.3.1.1 Authentifizierungen]]
+>  - [[DET.3.1.2 Ausgeführte Kommandozeilenbefehle.md|DET.3.1.2 Ausgeführte Kommandozeilenbefehle]]
+>  - [[DET.3.1.3 Anbindung von Peripheriegeräten.md|DET.3.1.3 Anbindung von Peripheriegeräten]]
+>  - [[DET.3.1.4 Systemfehler.md|DET.3.1.4 Systemfehler]]
+>  - [[DET.3.1.5 Störungen der Netzerreichbarkeit.md|DET.3.1.5 Störungen der Netzerreichbarkeit]]
+>  - [[DET.3.1.6 Systemspezifische Ereignisse.md|DET.3.1.6 Systemspezifische Ereignisse]]
+>  - [[DET.3.1.7 Was, Wann, Wo.md|DET.3.1.7 Was, Wann, Wo]]
+>  - [[DET.3.1.8 Privilegierte Ereignisse.md|DET.3.1.8 Privilegierte Ereignisse]]
+>  - [[DET.3.1.9 Fehler der Anwendung.md|DET.3.1.9 Fehler der Anwendung]]
+>  - [[DET.3.1.10 Nutzungsstatistik.md|DET.3.1.10 Nutzungsstatistik]]
+>  - [[DET.3.1.11 Anwendungsspezifische Ereignisse.md|DET.3.1.11 Anwendungsspezifische Ereignisse]]
+>  - [[DET.3.1.12 Datenverarbeitungen.md|DET.3.1.12 Datenverarbeitungen]]
+>  - [[DET.3.1.13 Integration von Cloud-Diensten.md|DET.3.1.13 Integration von Cloud-Diensten]]
+
+> [!info]+ [[DET.3.2 Filterung nicht benötigter Inhalte.md|DET.3.2 Filterung nicht benötigter Inhalte]]
+
+> [!info]+ [[DET.3.3 Speicherkapazität.md|DET.3.3 Speicherkapazität]]
+
+> [!info]+ [[DET.3.4 Revisionssicherheit.md|DET.3.4 Revisionssicherheit]]
+
+> [!info]+ [[DET.3.5 Unbestreitbarkeit.md|DET.3.5 Unbestreitbarkeit]]

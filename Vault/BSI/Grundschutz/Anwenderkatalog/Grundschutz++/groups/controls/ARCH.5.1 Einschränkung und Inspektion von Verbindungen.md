@@ -1,0 +1,25 @@
+---
+class: BSI-Stand-der-Technik-Kernel
+type: control
+control: ARCH.5.1 Einschränkung und Inspektion von Verbindungen
+---
+
+
+** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
+# ARCH.5.1 - Einschränkung und Inspektion von Verbindungen
+Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md)
+---
+
+> [!info]- Untergeordnete Controls
+> [ARCH.5.1.1 Blockieren anfälliger Netzprotokolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.1%20Blockieren%20anfälliger%20Netzprotokolle.md)> [ARCH.5.1.2 Netzbasierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.2%20Netzbasierte%20Angriffe.md)> [ARCH.5.1.3 TCP-basierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.3%20TCP-basierte%20Angriffe.md)> [ARCH.5.1.4 UDP-basierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.4%20UDP-basierte%20Angriffe.md)> [ARCH.5.1.5 Deaktivierung von Split Tunneling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.5%20Deaktivierung%20von%20Split%20Tunneling.md)> [ARCH.5.1.6 Blockieren direkter Management-Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.6%20Blockieren%20direkter%20Management-Verbindungen.md)> [ARCH.5.1.7 Edge-Routing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.7%20Edge-Routing.md)> [ARCH.5.1.8 Inspektion verschlüsselter Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.8%20Inspektion%20verschlüsselter%20Verbindungen.md)> [ARCH.5.1.9 Filterung von DNS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.9%20Filterung%20von%20DNS.md)> [ARCH.5.1.10 Webfilterung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.10%20Webfilterung.md)> [ARCH.5.1.11 P-A-P-Struktur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.11%20P-A-P-Struktur.md)> [ARCH.5.1.12 Software-definierte Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.12%20Software-definierte%20Verbindungen.md)> [ARCH.5.1.13 Produktdiversität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.13%20Produktdiversität.md)### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *** | Netze | SOLLTE | Verbindungen zwischen IT-Systemen |  | einschränken | Firewallregeln | >Architektur für Netze SOLLTE Verbindungen zwischen IT-Systemen einschränken.
+
+> [!info]- Guidance
+>Über Netverbindungen können unbeabsichtigte Verbindungen aufgebaut werden oder netzbasierte Angriffe über das Internet gegen die Institution erfolgen. Unerwünschter Datenverkehr nach außen können z.B. private IP-Adressen (RFC 1918 leakage), Multicasting, TCP/UDP Ports für veraltete, angreifbare Protokolle oder ICMP-Verkehr sein. Die Beschränkung der Verbindung zwischen IT-Systemen kann sowohl durch zustandsbehaftete Paketfilter, als auch mit Application Layer Gateways umgesetzt werden. Empfehlenswert ist eine Kombination aus Allowlisting, IP-Reputationslisten, Deep Packet Inspection und Durchsatzratenbegrenzung. Hierbei können Verbindungen auch nach Kategorien autorisiert werden (z.B. anhand von IP-Subnetzen oder Voraussetzungen wie per Zertifikat authentifzierten IT-Systemen). Damit dabei keine unnötigen Verbindungen zugelassen werden, ist es wichtig, die Kategorisierung möglich genau zu wählen (z.B. möglichst einzelne Subnetze statt des ganzen Netzes oder nur bestimmte Ports oder Anwendungen zuzulassen).
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 025c298a-7c8d-441d-b9d5-a1422556c6e1 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [2](effort_level_2) |> | ** Alternate Identifier ** | 025c298a-7c8d-441d-b9d5-a1422556c6e1 |

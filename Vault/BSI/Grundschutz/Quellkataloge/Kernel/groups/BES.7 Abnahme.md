@@ -1,0 +1,34 @@
+---
+group: Abnahme
+group_id: BES.7
+---
+
+
+** Group **
+# BES.7 - Abnahme 
+** Übergeordnete Gruppe: **
+ [BES Beschaffungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)
+## Controls
+
+> [!info]+ [[BES.7.1 Eingangskontrolle.md|BES.7.1 Eingangskontrolle]]
+>  - [[BES.7.1.1 Test der Kompatibilität.md|BES.7.1.1 Test der Kompatibilität]]
+>  - [[BES.7.1.2 Netzcheck.md|BES.7.1.2 Netzcheck]]
+
+> [!info]+ [[BES.7.2 Prozesse vor Netzanbindung.md|BES.7.2 Prozesse vor Netzanbindung]]
+
+> [!info]+ [[BES.7.3 Anhörung Prozessbeteiligter.md|BES.7.3 Anhörung Prozessbeteiligter]]
+
+> [!info]+ [[BES.7.4 Vollständigkeit der Unterlagen.md|BES.7.4 Vollständigkeit der Unterlagen]]
+>  - [[BES.7.4.1 Beschreibung der Sicherheitsarchitektur.md|BES.7.4.1 Beschreibung der Sicherheitsarchitektur]]
+>  - [[BES.7.4.2 Beschreibung von Sicherheitsmechanismen.md|BES.7.4.2 Beschreibung von Sicherheitsmechanismen]]
+>  - [[BES.7.4.3 Empfohlene Konfiguration.md|BES.7.4.3 Empfohlene Konfiguration]]
+>  - [[BES.7.4.4 Dokumentation der Komponenten.md|BES.7.4.4 Dokumentation der Komponenten]]
+>    - [[BES.7.4.4.1 Software Bill of Materials (SBOM).md|BES.7.4.4.1 Software Bill of Materials (SBOM)]]
+>  - [[BES.7.4.5 Netzverbindungen ab Werk.md|BES.7.4.5 Netzverbindungen ab Werk]]
+>  - [[BES.7.4.6 Shared Responsibility.md|BES.7.4.6 Shared Responsibility]]
+>  - [[BES.7.4.7 Organisatorische Schnittstellen.md|BES.7.4.7 Organisatorische Schnittstellen]]
+>  - [[BES.7.4.8 Technische Schnittstellen.md|BES.7.4.8 Technische Schnittstellen]]
+>  - [[BES.7.4.9 Auslagerungsregister.md|BES.7.4.9 Auslagerungsregister]]
+>  - [[BES.7.4.10 Serviceprofil.md|BES.7.4.10 Serviceprofil]]
+>  - [[BES.7.4.11 Dokumentierte Mandantentrennung.md|BES.7.4.11 Dokumentierte Mandantentrennung]]
+>  - [[BES.7.4.12 Software Bill of Materials (SBOM) - Cloud.md|BES.7.4.12 Software Bill of Materials (SBOM) - Cloud]]

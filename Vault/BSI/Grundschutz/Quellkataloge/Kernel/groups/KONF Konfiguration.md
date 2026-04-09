@@ -1,0 +1,23 @@
+---
+group: Konfiguration
+group_id: KONF
+---
+
+
+** Group **
+# KONF - Konfiguration 
+> [!info]+ Untergeordnete Gruppen> [KONF.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.1%20Grundlagen.md)
+> [KONF.2 Konfiguration von Systemen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.2%20Konfiguration%20von%20Systemen.md)
+> [KONF.3 Physischer Schutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.3%20Physischer%20Schutz.md)
+> [KONF.4 Vertrauenswürdige Basisdienste](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.4%20Vertrauenswürdige%20Basisdienste.md)
+> [KONF.5 Authentifizierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.5%20Authentifizierung.md)
+> [KONF.6 Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md)
+> [KONF.7 Schutz vor Schadcode](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.7%20Schutz%20vor%20Schadcode.md)
+> [KONF.8 Sicherheitsupdates](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.8%20Sicherheitsupdates.md)
+> [KONF.9 Verfügbarkeit von Ressourcen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.9%20Verfügbarkeit%20von%20Ressourcen.md)
+> [KONF.10 Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md)
+> [KONF.11 Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md)
+> [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
+> [KONF.13 Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
+> [KONF.14 Verteilte Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.14%20Verteilte%20Anwendungen.md)
+> [KONF.15 Ressourcenauslastung](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.15%20Ressourcenauslastung.md)

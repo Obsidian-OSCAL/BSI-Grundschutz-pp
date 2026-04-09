@@ -1,0 +1,25 @@
+---
+group: Grundlagen
+group_id: GEB.1
+---
+
+
+** Group **
+# GEB.1 - Grundlagen 
+** Übergeordnete Gruppe: **
+ [GEB Gebäudemanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)
+## Controls
+
+> [!info]+ [[GEB.1.1 Verfahren und Regelungen.md|GEB.1.1 Verfahren und Regelungen]]
+>  - [[GEB.1.1.1 Dokumentation.md|GEB.1.1.1 Dokumentation]]
+>  - [[GEB.1.1.2 Zuweisung der Aufgaben.md|GEB.1.1.2 Zuweisung der Aufgaben]]
+>  - [[GEB.1.1.3 Bekanntgabe.md|GEB.1.1.3 Bekanntgabe]]
+
+> [!info]+ [[GEB.1.2 Regelmäßige Überprüfung.md|GEB.1.2 Regelmäßige Überprüfung]]
+
+> [!info]+ [[GEB.1.3 Autorisierung von Standorten.md|GEB.1.3 Autorisierung von Standorten]]
+>  - [[GEB.1.3.1 Abnahme von Standorten.md|GEB.1.3.1 Abnahme von Standorten]]
+
+> [!info]+ [[GEB.1.4 Exponierte Bereiche.md|GEB.1.4 Exponierte Bereiche]]
+
+> [!info]+ [[GEB.1.5 Strukturpläne.md|GEB.1.5 Strukturpläne]]

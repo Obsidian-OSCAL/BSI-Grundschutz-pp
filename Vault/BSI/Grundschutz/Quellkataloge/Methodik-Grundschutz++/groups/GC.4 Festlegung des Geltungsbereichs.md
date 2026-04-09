@@ -1,0 +1,13 @@
+---
+group: Festlegung des Geltungsbereichs
+group_id: GC.4
+---
+
+
+** Group **
+# GC.4 - Festlegung des Geltungsbereichs 
+** Übergeordnete Gruppe: **
+ [GC Governance und Compliance](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
+## Controls
+
+> [!info]+ [[GC.4.1 Festlegung des Geltungsbereichs.md|GC.4.1 Festlegung des Geltungsbereichs]]

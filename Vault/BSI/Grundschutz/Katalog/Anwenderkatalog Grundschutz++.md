@@ -5,7 +5,7 @@ tags:
 - Namespace
 - oscal_catalog
 - Anwenderkatalog_Grundschutz
-created: Thu Apr 02 17:32:13 CEST 2026
+created: Thu Apr 02 17:37:46 CEST 2026
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Katalog\input\Grundschutz++-catalog.json
 oscal_version: 1.1.3
 catalog_version: '2026-04-02T05:14:24.460785+00:00'
@@ -219,4 +219,4 @@ lastmodified: '2026-04-02T05:14:32.900005269Z'
 >  - [[Tests]]
 >  - [[Freigabe]]
 >  - [[Bereitstellung]]
-_ created at Thu Apr 02 17:32:10 CEST 2026 _
+_ created at Thu Apr 02 17:37:44 CEST 2026 _

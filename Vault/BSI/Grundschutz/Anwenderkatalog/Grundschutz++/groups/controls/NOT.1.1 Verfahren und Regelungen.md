@@ -1,0 +1,25 @@
+---
+class: BSI-Stand-der-Technik-Kernel
+type: control
+control: NOT.1.1 Verfahren und Regelungen
+---
+
+
+** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
+# NOT.1.1 - Verfahren und Regelungen
+Gruppe: [NOT.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md)
+---
+
+> [!info]- Untergeordnete Controls
+> [NOT.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.1%20Dokumentation.md)> [NOT.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [NOT.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.3%20Bekanntgabe.md)> [NOT.1.1.4 Business Continuity Management System](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.4%20Business%20Continuity%20Management%20System.md)### Statement
+|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - |
+| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zur Vorsorge für Notfälle der Informationssicherheit |  | verankern | BC-Leitlinie | >Notfallplanung MUSS Verfahren und Regelungen zur Vorsorge für Notfälle der Informationssicherheit verankern.
+
+> [!info]- Guidance
+>Für ein Managementsystem der Informationssicherheit ist es erforderlich, dass auch für Notfälle vorgesorgt wird, z.B. durch eine Datensicherung, so dass bei einer Naturkatastrophe wichtige Daten wiederhergestellt werden können. Dies kann durch den Aufbau eines dafür vorgesehenen Managementsystems (BCMS) oder die Umsetzung der einzelnen Anforderungen dieser Praktik geschehen. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte, die bei der Festlegung des Verfahrens zu berücksichtigen sind, ergeben sich aus den Anforderungen dieser Praktik. Es empfiehlt sich ebenfalls Wiederherstellungsmöglichkeiten und Alternativen für administrative Zugänge zu betrachten.
+
+### Weitere Informationen
+
+
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4ae6245b-7608-4c82-94ca-6d8c4678d41f |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [0](effort_level_0) |> | ** Alternate Identifier ** | 4ae6245b-7608-4c82-94ca-6d8c4678d41f |

@@ -1,0 +1,17 @@
+---
+group: Dedizierte Systeme
+group_id: ARCH.7
+---
+
+
+** Group **
+# ARCH.7 - Dedizierte Systeme 
+** Übergeordnete Gruppe: **
+ [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)
+## Controls
+
+> [!info]+ [[ARCH.7.1 Dedizierte Hostsysteme für Server.md|ARCH.7.1 Dedizierte Hostsysteme für Server]]
+
+> [!info]+ [[ARCH.7.2 Dedizierte Hardware.md|ARCH.7.2 Dedizierte Hardware]]
+
+> [!info]+ [[ARCH.7.3 Entwicklungs- und Testumgebungen.md|ARCH.7.3 Entwicklungs- und Testumgebungen]]

@@ -1,0 +1,17 @@
+---
+group: Architektur
+group_id: ARCH
+---
+
+
+** Group **
+# ARCH - Architektur 
+> [!info]+ Untergeordnete Gruppen> [ARCH.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md)
+> [ARCH.2 Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md)
+> [ARCH.3 Wireless LAN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.3%20Wireless%20LAN.md)
+> [ARCH.4 Zugangsbeschränkungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.4%20Zugangsbeschränkungen.md)
+> [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md)
+> [ARCH.6 Vertraulichkeit und Integrität im Weitverkehrsnetz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.6%20Vertraulichkeit%20und%20Integrität%20im%20Weitverkehrsnetz.md)
+> [ARCH.7 Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.7%20Dedizierte%20Systeme.md)
+> [ARCH.8 Ausfallsicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.8%20Ausfallsicherheit.md)
+> [ARCH.9 Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md)

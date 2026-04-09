@@ -4,13 +4,15 @@
 
 Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für [Obsidian](https://obsidian.md/) bereit.
 
+Obsidian ist eine Software für Wissensmanagement basierend auf Notizen, vergleichbar mit einem privaten Wiki mit Zusatzfunktionen. Ich nutze diese Software privat seit mehreren Jahren zur persönlichen Dokumentation von regulatorischen Anforderungen, daher wollte ich auch den neuen BSI Grundschutz++ einbinden. Da dieser netterweise ein OSCAL Format hat, kann man dies auch automatisieren ... was hier geschehen ist.
+
+**Status (9.4.2026)** : Ein erster veröffentlicher Stand, der bereits die grundlegende Struktur der Kataloge/Gruppen/Controls abbildet.
+
 <br clear="right"/>
 
-  ## Hinweise zur Nutzung
-Die Inhalte befinden sich im Unterordner, kopiert die Inhalte in einen eigenen Obsidian Vault um dies zu nutzen.
-Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste.
-
-### Notwendige Obsidian Plugins
+## Hinweise zur Nutzung
+Die Inhalte befinden sich im Unterordner "Vault", um diese zu nutzen: einfach die Inhalte des Ordners in einen eigenen Obsidian Vault kopieren.
+Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste:
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 
@@ -21,6 +23,7 @@ Originalquelle: [https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek](https
 Verwendete Bestandteile:
 - Anwendungskatalog (OSCAL)
 - zugehörige Namespace-Definitionen
+- Quellkataloge
 Die konkret verwendeten Dateien sind innerhalb dieses Vaults enthalten.  
 Zu jeder Datei sind – soweit verfügbar – die jeweilige Originalquelle (Pfad im Repository) sowie das Downloaddatum dokumentiert.
 

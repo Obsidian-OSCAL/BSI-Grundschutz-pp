@@ -47,4 +47,14 @@ Abweichungen hiervon sind explizit gekennzeichnet.
 ### Lizenz der abgeleiteten Inhalte
 
 Die in diesem Vault bereitgestellte aufbereitete Version stellt eine Bearbeitung im Sinne der Lizenz dar und wird daher ebenfalls unter der **Creative Commons Attribution-ShareAlike 4.0 International License** veröffentlicht.
+
+### Screenshots 
+**Einstieg über Katalog und Gruppen**
+<img src="obsidian_window.png"/>
+
+**Darstellung eines Control**
+<img src="obsidian_control.png"/>
+
+**Darstellung der Verlinkung der Notizen im Vault**
+<img src="obsidian_graph.png"/>
 </div>

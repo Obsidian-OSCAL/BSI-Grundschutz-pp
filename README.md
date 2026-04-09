@@ -10,7 +10,8 @@ Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi
 Die Inhalte befinden sich im Unterordner, kopiert die Inhalte in einen eigenen Obsidian Vault um dies zu nutzen.
 Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste.
 
-### Plugins
+### Notwendige Obsidian Plugins
+* [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 
 ## Lizenzinformationen

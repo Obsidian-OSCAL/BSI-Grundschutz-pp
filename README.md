@@ -13,7 +13,7 @@ Obsidian ist eine Software für Wissensmanagement basierend auf Notizen, verglei
 ## Hinweise zur Nutzung
 Die Inhalte befinden sich im Unterordner "Vault", um diese zu nutzen: einfach die Inhalte des Ordners in einen eigenen Obsidian Vault kopieren.
 Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste:
-* [Dataview](https://obsidian.md/plugins?id=dataview) <br> Zusätzlich muss in der Konfiguration des Plugins Javascript aktiviert sein (dataviesjs)
+* [Dataview](https://obsidian.md/plugins?id=dataview) <br> Zusätzlich muss in der Konfiguration des Plugins Javascript aktiviert sein (dataviewjs)
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 
 ## Lizenzinformationen

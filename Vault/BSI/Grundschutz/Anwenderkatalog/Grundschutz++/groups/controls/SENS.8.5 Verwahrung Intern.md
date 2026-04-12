@@ -14,7 +14,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.5 - Verwahrung Intern
-Tag: [[tags_Physical Access Control|Physical Access Control]]
+Tag: [[tags_Physical_Access_Control|Physical Access Control]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 

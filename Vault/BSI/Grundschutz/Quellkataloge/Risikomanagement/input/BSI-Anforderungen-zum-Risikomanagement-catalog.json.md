@@ -7,7 +7,7 @@ tags:
 - oscal_catalog
 - Anwenderkatalog_Grundschutz
 - BSI_Stand_der_Technik_Kernel
-created: Sun Apr 12 21:28:06 CEST 2026
+created: Sun Apr 12 22:01:16 CEST 2026
 ---
 
 
@@ -15,4 +15,4 @@ created: Sun Apr 12 21:28:06 CEST 2026
 | ---  | --- |
 | Source | https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/raw/refs/heads/main/Quellkataloge/Risikomanagement/BSI-Anforderungen-zum-Risikomanagement-catalog.json |
 | local file | [[BSI-Anforderungen-zum-Risikomanagement-catalog.json]]
-| downloaded at | Sun Apr 12 21:28:06 CEST 2026 |
+| downloaded at | Sun Apr 12 22:01:16 CEST 2026 |

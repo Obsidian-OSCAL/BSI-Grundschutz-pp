@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.4.6 - Compileroptionen
-Tag: [[tags_Secure Compiling Practices|Secure Compiling Practices]]
+Tag: [[tags_Secure_Compiling_Practices|Secure Compiling Practices]]
 Gruppe: [DEV.4 Softwareentwicklung - Code](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.4%20Softwareentwicklung%20-%20Code.md)
 ---
 

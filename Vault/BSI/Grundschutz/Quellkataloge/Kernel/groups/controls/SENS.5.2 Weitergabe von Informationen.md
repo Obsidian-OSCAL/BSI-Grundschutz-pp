@@ -14,7 +14,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.5.2 - Weitergabe von Informationen
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.5 Umgang mit Informationen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.5%20Umgang%20mit%20Informationen.md)
 ---
 

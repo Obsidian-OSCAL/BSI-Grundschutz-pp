@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.6 - Blockieren von Passwort Recycling
-> [!example]- Tags:> [[tags_Credential Stuffing|Credential Stuffing]]> [[tags_Privilege Escalation|Privilege Escalation]]> [[tags_Password Policy|Password Policy]]
+> [!example]- Tags:> [[tags_Credential_Stuffing|Credential Stuffing]]> [[tags_Privilege_Escalation|Privilege Escalation]]> [[tags_Password_Policy|Password Policy]]
 Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.6%20Passwortgebrauch.md)
 ---
 

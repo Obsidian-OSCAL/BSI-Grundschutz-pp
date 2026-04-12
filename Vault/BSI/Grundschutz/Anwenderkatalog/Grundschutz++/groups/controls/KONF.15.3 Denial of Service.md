@@ -14,7 +14,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.15.3 - Denial of Service
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Denial of Service|Denial of Service]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Denial_of_Service|Denial of Service]]
 Gruppe: [KONF.15 Ressourcenauslastung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.15%20Ressourcenauslastung.md)
 ---
 

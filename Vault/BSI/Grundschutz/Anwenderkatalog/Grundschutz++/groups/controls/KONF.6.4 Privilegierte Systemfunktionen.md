@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.4 - Privilegierte Systemfunktionen
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Living off the land|Living off the land]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Living_off_the_land|Living off the land]]
 Gruppe: [KONF.6 Rollen und Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 

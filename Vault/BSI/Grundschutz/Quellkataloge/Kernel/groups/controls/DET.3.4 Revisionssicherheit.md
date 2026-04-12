@@ -13,7 +13,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.3.4 - Revisionssicherheit
-Tag: [[tags_Insider Threat|Insider Threat]]
+Tag: [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [DET.3 Protokollierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.3%20Protokollierung.md)
 ---
 

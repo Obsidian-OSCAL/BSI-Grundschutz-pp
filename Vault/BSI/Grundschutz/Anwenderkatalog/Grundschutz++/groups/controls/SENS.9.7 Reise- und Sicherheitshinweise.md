@@ -15,7 +15,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.7 - Reise- und Sicherheitshinweise
-> [!example]- Tags:> [[tags_Auslandsreisen|Auslandsreisen]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Auslandsreisen|Auslandsreisen]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 

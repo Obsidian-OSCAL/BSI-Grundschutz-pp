@@ -14,7 +14,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.2.3 - Rollentrennung
-Tag: [[tags_Insider Threat|Insider Threat]]
+Tag: [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md)
 ---
 

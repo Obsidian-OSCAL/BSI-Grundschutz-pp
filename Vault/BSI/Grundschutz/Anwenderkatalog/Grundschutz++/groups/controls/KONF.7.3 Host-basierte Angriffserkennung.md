@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.7.3 - Host-basierte Angriffserkennung
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Lateral Movement|Lateral Movement]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Lateral_Movement|Lateral Movement]]
 Gruppe: [KONF.7 Schutz vor Schadcode](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.7%20Schutz%20vor%20Schadcode.md)
 ---
 

@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.5.1.7 - Edge-Routing
-Tag: [[tags_Internet Exposure|Internet Exposure]]
+Tag: [[tags_Internet_Exposure|Internet Exposure]]
 Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md)
 ---
 
@@ -24,7 +24,7 @@ Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/g
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Externe Netzanschlüsse](target_object_categories_Externe Netzanschlüsse_a9521914-ccf9-4c20-8eef-2dd912fb815d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | dynamische Routingprotokolle |  | [blockieren](action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67) | [Firewallregeln](documentation_guidelines_Firewallregeln) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Externe Netzanschlüsse SOLLTE dynamische Routingprotokolle blockieren.</span>
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Externe Netzanschlüsse](target_object_categories_Externe_Netzanschlüsse_a9521914-ccf9-4c20-8eef-2dd912fb815d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | dynamische Routingprotokolle |  | [blockieren](action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67) | [Firewallregeln](documentation_guidelines_Firewallregeln) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Externe Netzanschlüsse SOLLTE dynamische Routingprotokolle blockieren.</span>
 
 > [!info]- Guidance
 >Dynamische Routingprotokolle könnten versehentlich oder durch Angriffe unerwünschte Verbindungen ermöglichen. An den Übergangen zu externen Netzen sind statische Default-Routen deshalb die bessere Alternative.

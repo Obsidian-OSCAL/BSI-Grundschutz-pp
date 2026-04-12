@@ -15,7 +15,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.4.9 - Voreinstellungen nach dem Prinzip "Security by Default"
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Security by Default|Security by Default]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Security_by_Default|Security by Default]]
 Gruppe: [DEV.4 Softwareentwicklung - Code](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.4%20Softwareentwicklung%20-%20Code.md)
 ---
 

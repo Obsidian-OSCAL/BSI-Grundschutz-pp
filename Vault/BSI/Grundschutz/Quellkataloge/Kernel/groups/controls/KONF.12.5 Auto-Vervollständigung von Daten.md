@@ -15,7 +15,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.5 - Auto-Vervollständigung von Daten
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Data Leak|Data Leak]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Data_Leak|Data Leak]]
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 

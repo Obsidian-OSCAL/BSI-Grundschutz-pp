@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.2.1 - Mehr-Faktor-Authentifizierung
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [DLS.2 Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md)
 ---
 

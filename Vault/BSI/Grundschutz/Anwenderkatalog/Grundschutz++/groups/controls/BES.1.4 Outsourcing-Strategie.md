@@ -14,7 +14,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.4 - Outsourcing-Strategie
-> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Shared Responsibility Model|Shared Responsibility Model]]
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Shared_Responsibility_Model|Shared Responsibility Model]]
 Gruppe: [BES.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.1%20Grundlagen.md)
 ---
 

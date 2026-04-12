@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.3.5 - Unbestreitbarkeit
-Tag: [[tags_Insider Threat|Insider Threat]]
+Tag: [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [DET.3 Protokollierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.3%20Protokollierung.md)
 ---
 

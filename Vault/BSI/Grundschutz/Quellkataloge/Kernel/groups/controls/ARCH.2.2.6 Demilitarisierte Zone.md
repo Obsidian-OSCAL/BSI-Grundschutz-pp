@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.6 - Demilitarisierte Zone
-Tag: [[tags_Lateral Movement|Lateral Movement]]
+Tag: [[tags_Lateral_Movement|Lateral Movement]]
 Gruppe: [ARCH.2 Netzdesign](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.2%20Netzdesign.md)
 ---
 

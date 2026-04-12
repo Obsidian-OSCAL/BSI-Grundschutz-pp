@@ -16,7 +16,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.2.4.2 - Externe Cloud-Anbindungen
-Tag: [[tags_Data Leak|Data Leak]]
+Tag: [[tags_Data_Leak|Data Leak]]
 Gruppe: [KONF.2 Konfiguration von Systemen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.2%20Konfiguration%20von%20Systemen.md)
 ---
 

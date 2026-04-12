@@ -14,7 +14,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.9 - Anlassbezogene Passwortwechsel
-Tag: [[tags_Password Policy|Password Policy]]
+Tag: [[tags_Password_Policy|Password Policy]]
 Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.6%20Passwortgebrauch.md)
 ---
 

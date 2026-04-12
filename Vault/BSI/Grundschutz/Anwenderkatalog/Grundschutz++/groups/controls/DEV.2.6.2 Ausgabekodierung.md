@@ -16,7 +16,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.6.2 - Ausgabekodierung
-> [!example]- Tags:> [[tags_Security by Design|Security by Design]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
+> [!example]- Tags:> [[tags_Security_by_Design|Security by Design]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 

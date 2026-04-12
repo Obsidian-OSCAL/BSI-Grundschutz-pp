@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.2.4.1 - Verbindung unautorisierter IT-Systeme
-> [!example]- Tags:> [[tags_Bring Your Own Device|Bring Your Own Device]]> [[tags_Insider Threat|Insider Threat]]
+> [!example]- Tags:> [[tags_Bring_Your_Own_Device|Bring Your Own Device]]> [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md)
 ---
 

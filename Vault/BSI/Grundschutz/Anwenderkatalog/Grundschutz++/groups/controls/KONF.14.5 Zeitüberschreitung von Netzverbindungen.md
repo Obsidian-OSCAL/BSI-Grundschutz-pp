@@ -15,7 +15,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.14.5 - Zeitüberschreitung von Netzverbindungen
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Replay Attacks|Replay Attacks]]> [[tags_Session Hijacking|Session Hijacking]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Replay_Attacks|Replay Attacks]]> [[tags_Session_Hijacking|Session Hijacking]]
 Gruppe: [KONF.14 Verteilte Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.14%20Verteilte%20Anwendungen.md)
 ---
 

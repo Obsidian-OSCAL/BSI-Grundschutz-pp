@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.10.5 - Systemadministration - Internetnutzung
-> [!example]- Tags:> [[tags_Privilege Escalation|Privilege Escalation]]> [[tags_Insider Threat|Insider Threat]]> [[tags_Privilegierte Rechte|Privilegierte Rechte]]
+> [!example]- Tags:> [[tags_Privilege_Escalation|Privilege Escalation]]> [[tags_Insider_Threat|Insider Threat]]> [[tags_Privilegierte_Rechte|Privilegierte Rechte]]
 Gruppe: [SENS.10 Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md)
 ---
 

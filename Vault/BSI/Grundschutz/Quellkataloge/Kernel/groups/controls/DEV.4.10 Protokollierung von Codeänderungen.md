@@ -15,7 +15,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.4.10 - Protokollierung von Codeänderungen
-Tag: [[tags_Change Management|Change Management]]
+Tag: [[tags_Change_Management|Change Management]]
 Gruppe: [DEV.4 Softwareentwicklung - Code](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.4%20Softwareentwicklung%20-%20Code.md)
 ---
 

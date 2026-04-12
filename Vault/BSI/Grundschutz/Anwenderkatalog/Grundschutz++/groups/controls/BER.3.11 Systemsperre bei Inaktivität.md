@@ -16,7 +16,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.11 - Systemsperre bei Inaktivität
-> [!example]- Tags:> [[tags_Automatic Session Locking|Automatic Session Locking]]> [[tags_Zero Trust|Zero Trust]]
+> [!example]- Tags:> [[tags_Automatic_Session_Locking|Automatic Session Locking]]> [[tags_Zero_Trust|Zero Trust]]
 Gruppe: [BER.3 Zugangskonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.3%20Zugangskonten.md)
 ---
 

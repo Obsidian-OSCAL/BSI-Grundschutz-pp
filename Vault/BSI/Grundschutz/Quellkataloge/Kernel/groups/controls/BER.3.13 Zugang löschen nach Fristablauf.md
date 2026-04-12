@@ -15,7 +15,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.13 - Zugang löschen nach Fristablauf
-> [!example]- Tags:> [[tags_Credential Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]
+> [!example]- Tags:> [[tags_Credential_Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]
 Gruppe: [BER.3 Zugangskonten](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.3%20Zugangskonten.md)
 ---
 

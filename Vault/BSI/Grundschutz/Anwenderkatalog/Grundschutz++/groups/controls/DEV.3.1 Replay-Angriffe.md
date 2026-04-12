@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.3.1 - Replay-Angriffe
-> [!example]- Tags:> [[tags_Authentication and Authorization|Authentication and Authorization]]> [[tags_Replay Attacks|Replay Attacks]]> [[tags_Session Hijacking|Session Hijacking]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
+> [!example]- Tags:> [[tags_Authentication_and_Authorization|Authentication and Authorization]]> [[tags_Replay_Attacks|Replay Attacks]]> [[tags_Session_Hijacking|Session Hijacking]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [DEV.3 Softwareentwicklung - Härtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md)
 ---
 

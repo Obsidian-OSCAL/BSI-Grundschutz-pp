@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11.2 - Netzwerk-Honeypots
-> [!example]- Tags:> [[tags_Zero Trust|Zero Trust]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]> [[tags_Honeypot|Honeypot]]
+> [!example]- Tags:> [[tags_Zero_Trust|Zero Trust]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]> [[tags_Honeypot|Honeypot]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 

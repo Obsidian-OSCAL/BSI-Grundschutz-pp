@@ -16,7 +16,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.6.1 - Verhaltensanalyse von Zugangskonten
-> [!example]- Tags:> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]> [[tags_Command & Control|Command & Control]]> [[tags_Data Exfiltration|Data Exfiltration]]> [[tags_Insider Threat|Insider Threat]]> [[tags_Living off the land|Living off the land]]
+> [!example]- Tags:> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]> [[tags_Command_&_Control|Command & Control]]> [[tags_Data_Exfiltration|Data Exfiltration]]> [[tags_Insider_Threat|Insider Threat]]> [[tags_Living_off_the_land|Living off the land]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 

@@ -14,7 +14,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.3.2 - Auswahlkriterien
-> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [BES.3 Auswahl von Lieferanten](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.3%20Auswahl%20von%20Lieferanten.md)
 ---
 

@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.1 - Passwortmanager
-Tag: [[tags_Password Policy|Password Policy]]
+Tag: [[tags_Password_Policy|Password Policy]]
 Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.6%20Passwortgebrauch.md)
 ---
 

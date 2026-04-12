@@ -14,7 +14,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.7.4 - SPAM - Löschen oder Melden
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md)
 ---
 

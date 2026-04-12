@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.4 - Passwörter nur im Passwortmanager
-Tag: [[tags_Password Policy|Password Policy]]
+Tag: [[tags_Password_Policy|Password Policy]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md)
 ---
 

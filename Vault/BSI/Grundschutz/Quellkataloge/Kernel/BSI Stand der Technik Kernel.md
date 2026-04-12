@@ -7,7 +7,7 @@ tags:
 - oscal_catalog
 - Anwenderkatalog_Grundschutz
 - BSI_Stand_der_Technik_Kernel
-created: Sun Apr 12 21:37:46 CEST 2026
+created: Sun Apr 12 22:01:16 CEST 2026
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Quellkataloge\Kernel\input\BSI-Stand-der-Technik-Kernel-catalog.json
 oscal_version: 1.1.3
 catalog_version: '0.9'
@@ -165,4 +165,4 @@ lastmodified: '2026-04-02T05:13:57.008416Z'
 >  - [[BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4 Freigabe.md|TEST.4 Freigabe]]
 >  - [[BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.5 Bereitstellung.md|TEST.5 Bereitstellung]]
 <!-- creation time -->
-_ created at Sun Apr 12 21:37:40 CEST 2026 _
+_ created at Sun Apr 12 22:01:05 CEST 2026 _

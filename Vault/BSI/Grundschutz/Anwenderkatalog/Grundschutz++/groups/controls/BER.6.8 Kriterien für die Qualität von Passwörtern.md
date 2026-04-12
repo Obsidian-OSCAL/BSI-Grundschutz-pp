@@ -14,7 +14,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.8 - Kriterien für die Qualität von Passwörtern
-> [!example]- Tags:> [[tags_Privilege Escalation|Privilege Escalation]]> [[tags_Credential Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]> [[tags_Password Policy|Password Policy]]> [[tags_Cryptography|Cryptography]]
+> [!example]- Tags:> [[tags_Privilege_Escalation|Privilege Escalation]]> [[tags_Credential_Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]> [[tags_Password_Policy|Password Policy]]> [[tags_Cryptography|Cryptography]]
 Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.6%20Passwortgebrauch.md)
 ---
 

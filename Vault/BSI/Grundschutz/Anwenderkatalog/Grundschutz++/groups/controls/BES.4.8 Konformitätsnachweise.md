@@ -14,7 +14,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.8 - Konformitätsnachweise
-> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 

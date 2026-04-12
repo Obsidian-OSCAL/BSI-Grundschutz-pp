@@ -14,7 +14,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.16 - Gruppenkonten - MFA
-Tag: [[tags_Insider Threat|Insider Threat]]
+Tag: [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [BER.3 Zugangskonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.3%20Zugangskonten.md)
 ---
 

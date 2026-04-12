@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.7.25 - Zugang zum Fahrzeug
-Tag: [[tags_Physical Access Control|Physical Access Control]]
+Tag: [[tags_Physical_Access_Control|Physical Access Control]]
 Gruppe: [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md)
 ---
 

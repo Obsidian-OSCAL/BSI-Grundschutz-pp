@@ -13,7 +13,7 @@ control_effort_level: '0'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.1.1 - Verfahren und Regelungen
-Tag: [[tags_Security by Design|Security by Design]]
+Tag: [[tags_Security_by_Design|Security by Design]]
 Gruppe: [DEV.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.1%20Grundlagen.md)
 ---
 

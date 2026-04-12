@@ -8,7 +8,7 @@ tags:
 - Anwenderkatalog_Grundschutz
 - BSI_Stand_der_Technik_Kernel
 - BSI_Anforderungen_zum_Risikomanagement
-created: Sun Apr 12 21:37:46 CEST 2026
+created: Sun Apr 12 22:01:16 CEST 2026
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Quellkataloge\Risikomanagement\input\BSI-Anforderungen-zum-Risikomanagement-catalog.json
 oscal_version: 1.1.3
 catalog_version: '0.9'
@@ -38,4 +38,4 @@ lastmodified: '2026-04-02T05:14:21.040558Z'
 > [!info]+ [[BSI/Grundschutz/Quellkataloge/Risikomanagement/groups/RISK Risikomanagement.md|RISK Risikomanagement]]
 >  - [[BSI/Grundschutz/Quellkataloge/Risikomanagement/groups/RISK.1 Risiko.md|RISK.1 Risiko]]
 <!-- creation time -->
-_ created at Sun Apr 12 21:37:40 CEST 2026 _
+_ created at Sun Apr 12 22:01:05 CEST 2026 _

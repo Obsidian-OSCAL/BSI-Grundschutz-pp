@@ -16,7 +16,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.5 - Dynamische Zugriffskontrolle im System
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Zero Trust|Zero Trust]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Zero_Trust|Zero Trust]]
 Gruppe: [KONF.6 Rollen und Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 

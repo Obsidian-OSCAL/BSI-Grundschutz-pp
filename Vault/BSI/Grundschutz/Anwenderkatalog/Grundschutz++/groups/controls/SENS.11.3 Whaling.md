@@ -15,7 +15,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.11.3 - Whaling
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.11 Sensibilisierung der Leitungsebene](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.11%20Sensibilisierung%20der%20Leitungsebene.md)
 ---
 

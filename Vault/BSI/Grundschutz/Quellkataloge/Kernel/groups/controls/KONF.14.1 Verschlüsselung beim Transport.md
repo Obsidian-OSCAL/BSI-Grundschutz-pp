@@ -16,7 +16,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.14.1 - Verschlüsselung beim Transport
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Cryptography|Cryptography]]> [[tags_Zero Trust|Zero Trust]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Cryptography|Cryptography]]> [[tags_Zero_Trust|Zero Trust]]
 Gruppe: [KONF.14 Verteilte Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.14%20Verteilte%20Anwendungen.md)
 ---
 

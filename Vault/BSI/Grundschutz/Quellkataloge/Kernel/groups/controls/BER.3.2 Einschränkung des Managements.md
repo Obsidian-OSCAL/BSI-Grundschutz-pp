@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.2 - Einschränkung des Managements
-Tag: [[tags_Change Management|Change Management]]
+Tag: [[tags_Change_Management|Change Management]]
 Gruppe: [BER.3 Zugangskonten](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.3%20Zugangskonten.md)
 ---
 

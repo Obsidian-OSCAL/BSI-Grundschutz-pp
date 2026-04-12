@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.7.2 - Regelmäßige Scans
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Lateral Movement|Lateral Movement]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Lateral_Movement|Lateral Movement]]
 Gruppe: [KONF.7 Schutz vor Schadcode](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.7%20Schutz%20vor%20Schadcode.md)
 ---
 

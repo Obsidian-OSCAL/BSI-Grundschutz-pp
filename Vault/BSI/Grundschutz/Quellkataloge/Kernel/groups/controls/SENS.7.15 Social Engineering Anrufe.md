@@ -14,7 +14,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.7.15 - Social Engineering Anrufe
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md)
 ---
 

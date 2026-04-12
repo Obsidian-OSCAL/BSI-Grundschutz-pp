@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.3.1 - Schadprogramme
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.3 Schutz vor Schadprogrammen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md)
 ---
 

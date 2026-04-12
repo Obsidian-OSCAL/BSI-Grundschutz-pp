@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.3.3 - Betriebs- und Geschäftsgeheimnisse
-Tag: [[tags_Insider Threat|Insider Threat]]
+Tag: [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [PERS.3 Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md)
 ---
 

@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.3 - Verwahrung außer Haus
-Tag: [[tags_Physical Access Control|Physical Access Control]]
+Tag: [[tags_Physical_Access_Control|Physical Access Control]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 

@@ -15,7 +15,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.5 - Red Teaming
-> [!example]- Tags:> [[tags_Pentest|Pentest]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Pentest|Pentest]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 

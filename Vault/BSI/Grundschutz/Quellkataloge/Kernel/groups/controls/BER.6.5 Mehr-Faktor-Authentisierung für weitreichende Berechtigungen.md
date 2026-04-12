@@ -14,7 +14,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.5 - Mehr-Faktor-Authentisierung für weitreichende Berechtigungen
-> [!example]- Tags:> [[tags_MFA|MFA]]> [[tags_Living off the land|Living off the land]]> [[tags_Privilege Escalation|Privilege Escalation]]> [[tags_Credential Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]
+> [!example]- Tags:> [[tags_MFA|MFA]]> [[tags_Living_off_the_land|Living off the land]]> [[tags_Privilege_Escalation|Privilege Escalation]]> [[tags_Credential_Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]
 Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.6%20Passwortgebrauch.md)
 ---
 

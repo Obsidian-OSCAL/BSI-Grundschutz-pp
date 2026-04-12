@@ -15,7 +15,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.3 - Mitbringen von IT-Systemen
-Tag: [[tags_Bring Your Own Device|Bring Your Own Device]]
+Tag: [[tags_Bring_Your_Own_Device|Bring Your Own Device]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 

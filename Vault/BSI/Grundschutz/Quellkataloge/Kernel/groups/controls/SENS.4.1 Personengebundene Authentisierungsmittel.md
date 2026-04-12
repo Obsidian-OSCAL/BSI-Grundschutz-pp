@@ -15,7 +15,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1 - Personengebundene Authentisierungsmittel
-> [!example]- Tags:> [[tags_Authentication and Authorization|Authentication and Authorization]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Authentication_and_Authorization|Authentication and Authorization]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md)
 ---
 

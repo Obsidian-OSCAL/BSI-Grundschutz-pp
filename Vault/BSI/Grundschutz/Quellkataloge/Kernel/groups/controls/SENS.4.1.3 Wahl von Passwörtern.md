@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.3 - Wahl von Passwörtern
-> [!example]- Tags:> [[tags_Authentication and Authorization|Authentication and Authorization]]> [[tags_Password Policy|Password Policy]]
+> [!example]- Tags:> [[tags_Authentication_and_Authorization|Authentication and Authorization]]> [[tags_Password_Policy|Password Policy]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md)
 ---
 

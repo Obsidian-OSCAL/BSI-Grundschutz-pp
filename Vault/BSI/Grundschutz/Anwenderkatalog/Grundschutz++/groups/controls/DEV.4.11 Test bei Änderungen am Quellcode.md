@@ -15,7 +15,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.4.11 - Test bei Änderungen am Quellcode
-Tag: [[tags_Change Management|Change Management]]
+Tag: [[tags_Change_Management|Change Management]]
 Gruppe: [DEV.4 Softwareentwicklung - Code](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.4%20Softwareentwicklung%20-%20Code.md)
 ---
 

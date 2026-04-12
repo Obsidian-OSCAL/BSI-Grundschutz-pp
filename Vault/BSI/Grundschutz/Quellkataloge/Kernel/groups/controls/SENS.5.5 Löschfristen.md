@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.5.5 - Löschfristen
-Tag: [[tags_Password Policy|Password Policy]]
+Tag: [[tags_Password_Policy|Password Policy]]
 Gruppe: [SENS.5 Umgang mit Informationen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.5%20Umgang%20mit%20Informationen.md)
 ---
 

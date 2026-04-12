@@ -17,7 +17,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.5.1.2 - JIT‑/JEA‑Berechtigungen
-Tag: [[tags_Zero Trust|Zero Trust]]
+Tag: [[tags_Zero_Trust|Zero Trust]]
 Gruppe: [BER.5 Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md)
 ---
 
@@ -25,7 +25,7 @@ Gruppe: [BER.5 Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/gro
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Berechtigung zum Zeitpunkt des Zugriffs | für {{besonders kritische Ressourcen oder Zugänge}} | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung KANN die Berechtigung zum Zeitpunkt des Zugriffs für {{ insert: param, ber.5.1.2-prm1 }} aktivieren.</span>
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Berechtigung zum Zeitpunkt des Zugriffs | für {{besonders kritische Ressourcen oder Zugänge}} | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Inventar Berechtigungen](documentation_guidelines_Inventar_Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung KANN die Berechtigung zum Zeitpunkt des Zugriffs für {{ insert: param, ber.5.1.2-prm1 }} aktivieren.</span>
 > > [!example]- im Ergebnis referenzierte Begriffe
 > > | Begriff | Definition |> > | - | - |> > | [Zugriff](result_Zugriff_00000000-0000-0000-0000-000000000000) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 

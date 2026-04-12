@@ -14,7 +14,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.2 - Schließen von Türen und Fenstern
-Tag: [[tags_Physical Access Control|Physical Access Control]]
+Tag: [[tags_Physical_Access_Control|Physical Access Control]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 

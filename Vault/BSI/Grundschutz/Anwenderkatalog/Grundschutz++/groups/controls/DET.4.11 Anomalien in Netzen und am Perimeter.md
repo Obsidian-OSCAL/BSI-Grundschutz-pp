@@ -14,7 +14,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11 - Anomalien in Netzen und am Perimeter
-> [!example]- Tags:> [[tags_Command & Control|Command & Control]]> [[tags_Lateral Movement|Lateral Movement]]> [[tags_Data Exfiltration|Data Exfiltration]]
+> [!example]- Tags:> [[tags_Command_&_Control|Command & Control]]> [[tags_Lateral_Movement|Lateral Movement]]> [[tags_Data_Exfiltration|Data Exfiltration]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 

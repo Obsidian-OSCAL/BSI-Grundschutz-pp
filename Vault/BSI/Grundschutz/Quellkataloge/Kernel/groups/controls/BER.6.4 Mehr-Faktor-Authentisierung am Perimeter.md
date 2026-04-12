@@ -14,7 +14,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.4 - Mehr-Faktor-Authentisierung am Perimeter
-> [!example]- Tags:> [[tags_MFA|MFA]]> [[tags_Credential Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]
+> [!example]- Tags:> [[tags_MFA|MFA]]> [[tags_Credential_Stuffing|Credential Stuffing]]> [[tags_Brute-Force-Attacke|Brute-Force-Attacke]]
 Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.6%20Passwortgebrauch.md)
 ---
 

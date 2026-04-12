@@ -14,7 +14,7 @@ control_effort_level: '0'
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # UMS.7.1 - Wahrung von Compliance in der Umsetzung
-Tag: [[tags_Compliance Management|Compliance Management]]
+Tag: [[tags_Compliance_Management|Compliance Management]]
 Gruppe: [UMS.7 Wahrung von Compliance in der Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.7%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
 ---
 

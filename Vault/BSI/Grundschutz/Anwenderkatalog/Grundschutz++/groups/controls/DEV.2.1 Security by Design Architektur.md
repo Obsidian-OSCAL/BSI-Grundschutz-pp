@@ -14,7 +14,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.1 - Security by Design Architektur
-Tag: [[tags_Security by Design|Security by Design]]
+Tag: [[tags_Security_by_Design|Security by Design]]
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 

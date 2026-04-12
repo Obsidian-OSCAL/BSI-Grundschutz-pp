@@ -15,7 +15,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.12 - Sprungserver
-> [!example]- Tags:> [[tags_Lateral Movement|Lateral Movement]]> [[tags_Separation of Concerns|Separation of Concerns]]
+> [!example]- Tags:> [[tags_Lateral_Movement|Lateral Movement]]> [[tags_Separation_of_Concerns|Separation of Concerns]]
 Gruppe: [ARCH.2 Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md)
 ---
 

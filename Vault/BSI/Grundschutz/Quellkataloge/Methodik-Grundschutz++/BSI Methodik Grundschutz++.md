@@ -9,7 +9,7 @@ tags:
 - BSI_Stand_der_Technik_Kernel
 - BSI_Anforderungen_zum_Risikomanagement
 - BSI_Methodik_Grundschutz
-created: Sun Apr 12 21:37:47 CEST 2026
+created: Sun Apr 12 22:01:17 CEST 2026
 source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Quellkataloge\Methodik-Grundschutz++\input\BSI-Methodik-Grundschutz++-catalog.json
 oscal_version: 1.1.3
 catalog_version: '0.9'
@@ -88,4 +88,4 @@ lastmodified: '2026-04-02T05:14:09.819199Z'
 >  - [[BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.7 Bewertung der erreichten Verbesserung.md|VRB.7 Bewertung der erreichten Verbesserung]]
 >  - [[BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.8 Behandlung von Compliance-Verstößen.md|VRB.8 Behandlung von Compliance-Verstößen]]
 <!-- creation time -->
-_ created at Sun Apr 12 21:37:40 CEST 2026 _
+_ created at Sun Apr 12 22:01:05 CEST 2026 _

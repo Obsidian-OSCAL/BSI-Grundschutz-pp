@@ -19,7 +19,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.15.1 - Begrenzung des Speicherplatzes
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Denial of Service|Denial of Service]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Denial_of_Service|Denial of Service]]
 Gruppe: [KONF.15 Ressourcenauslastung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.15%20Ressourcenauslastung.md)
 ---
 

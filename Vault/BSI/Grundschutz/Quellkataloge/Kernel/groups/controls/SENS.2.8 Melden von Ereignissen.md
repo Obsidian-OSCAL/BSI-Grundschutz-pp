@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.2.8 - Melden von Ereignissen
-Tag: [[tags_Insider Threat|Insider Threat]]
+Tag: [[tags_Insider_Threat|Insider Threat]]
 Gruppe: [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.2%20Grundlegende%20Sensibilisierung.md)
 ---
 

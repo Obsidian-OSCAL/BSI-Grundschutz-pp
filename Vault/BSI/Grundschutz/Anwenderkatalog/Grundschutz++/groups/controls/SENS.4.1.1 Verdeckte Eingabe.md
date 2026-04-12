@@ -17,7 +17,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.1 - Verdeckte Eingabe
-Tag: [[tags_Shoulder Surfing|Shoulder Surfing]]
+Tag: [[tags_Shoulder_Surfing|Shoulder Surfing]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.4%20Authentisierung.md)
 ---
 

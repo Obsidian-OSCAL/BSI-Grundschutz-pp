@@ -13,7 +13,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.5 - Unerwünschte Datenabflüsse
-Tag: [[tags_Data Leak|Data Leak]]
+Tag: [[tags_Data_Leak|Data Leak]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 

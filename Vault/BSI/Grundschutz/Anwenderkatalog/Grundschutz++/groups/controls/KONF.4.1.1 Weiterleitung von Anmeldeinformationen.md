@@ -16,7 +16,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.4.1.1 - Weiterleitung von Anmeldeinformationen
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Lateral Movement|Lateral Movement]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Lateral_Movement|Lateral Movement]]
 Gruppe: [KONF.4 Vertrauenswürdige Basisdienste](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.4%20Vertrauenswürdige%20Basisdienste.md)
 ---
 

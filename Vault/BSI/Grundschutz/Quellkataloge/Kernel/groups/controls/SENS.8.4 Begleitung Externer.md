@@ -14,7 +14,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.4 - Begleitung Externer
-> [!example]- Tags:> [[tags_Physical Access Control|Physical Access Control]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Physical_Access_Control|Physical Access Control]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 

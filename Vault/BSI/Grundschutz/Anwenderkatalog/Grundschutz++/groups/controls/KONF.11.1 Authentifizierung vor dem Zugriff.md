@@ -16,7 +16,7 @@ control_effort_level: '1'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.1 - Authentifizierung vor dem Zugriff
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Zero Trust|Zero Trust]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Zero_Trust|Zero Trust]]
 Gruppe: [KONF.11 Vertrauensbeziehungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.11%20Vertrauensbeziehungen.md)
 ---
 

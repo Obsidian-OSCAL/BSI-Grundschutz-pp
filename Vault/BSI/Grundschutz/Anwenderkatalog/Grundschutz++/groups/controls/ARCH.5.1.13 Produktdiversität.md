@@ -16,7 +16,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.5.1.13 - Produktdiversität
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md)
 ---
 
@@ -24,7 +24,7 @@ Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/g
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Externe Netzanschlüsse](target_object_categories_Externe Netzanschlüsse_a9521914-ccf9-4c20-8eef-2dd912fb815d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | für die Filterung diverse Produkte unterschiedlicher Hersteller | für eingehende und ausgehende Verbindungen | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Externe Netzanschlüsse KANN für die Filterung diverse Produkte unterschiedlicher Hersteller für eingehende und ausgehende Verbindungen installieren.</span>
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Externe Netzanschlüsse](target_object_categories_Externe_Netzanschlüsse_a9521914-ccf9-4c20-8eef-2dd912fb815d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | für die Filterung diverse Produkte unterschiedlicher Hersteller | für eingehende und ausgehende Verbindungen | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Externe Netzanschlüsse KANN für die Filterung diverse Produkte unterschiedlicher Hersteller für eingehende und ausgehende Verbindungen installieren.</span>
 
 > [!info]- Guidance
 >Wenn nur gleichartige Filtersysteme verwendet werden, könnten Angreifer eine Schwachstelle zweimal hintereinander ausnutzen, um Netzzugang zu erhalten. Der Einsatz verschiedener, voneinander unabhängiger Hersteller hintereinander verringert die Wahrscheinlichkeit, dass beide Systeme gleichzeitig anfällig sind.

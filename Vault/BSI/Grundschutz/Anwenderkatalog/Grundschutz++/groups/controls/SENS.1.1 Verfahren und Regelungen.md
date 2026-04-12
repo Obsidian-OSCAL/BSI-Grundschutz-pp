@@ -13,7 +13,7 @@ control_effort_level: '0'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.1.1 - Verfahren und Regelungen
-Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.1%20Grundlagen.md)
 ---
 

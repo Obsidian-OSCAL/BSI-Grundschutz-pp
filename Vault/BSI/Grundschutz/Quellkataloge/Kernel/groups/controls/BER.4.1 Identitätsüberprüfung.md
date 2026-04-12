@@ -14,7 +14,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.4.1 - Identitätsüberprüfung
-Tag: [[tags_Password Policy|Password Policy]]
+Tag: [[tags_Password_Policy|Password Policy]]
 Gruppe: [BER.4 Authentifizierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.4%20Authentifizierung.md)
 ---
 

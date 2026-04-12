@@ -16,7 +16,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.2.8.1 - Melden von Fehler- und Warnmeldungen
-Tag: [[tags_Error Handling|Error Handling]]
+Tag: [[tags_Error_Handling|Error Handling]]
 Gruppe: [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md)
 ---
 

@@ -15,7 +15,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.6.3 - Manipulationsschutz
-> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Cryptography|Cryptography]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Cryptography|Cryptography]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 

@@ -16,7 +16,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.2 - Untersagung von Passwort Recycling
-> [!example]- Tags:> [[tags_Credential Stuffing|Credential Stuffing]]> [[tags_Privilege Escalation|Privilege Escalation]]> [[tags_Password Policy|Password Policy]]
+> [!example]- Tags:> [[tags_Credential_Stuffing|Credential Stuffing]]> [[tags_Privilege_Escalation|Privilege Escalation]]> [[tags_Password_Policy|Password Policy]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.4%20Authentisierung.md)
 ---
 

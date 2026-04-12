@@ -17,7 +17,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.4 - Identität-Zugangskonto
-Tag: [[tags_Zero Trust|Zero Trust]]
+Tag: [[tags_Zero_Trust|Zero Trust]]
 Gruppe: [BER.3 Zugangskonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.3%20Zugangskonten.md)
 ---
 

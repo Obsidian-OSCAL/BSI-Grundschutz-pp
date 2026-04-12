@@ -15,7 +15,7 @@ control_effort_level: '4'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.7.10 - Einschränkung der Ausführung
-> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Living off the land|Living off the land]]
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Living_off_the_land|Living off the land]]
 Gruppe: [KONF.7 Schutz vor Schadcode](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.7%20Schutz%20vor%20Schadcode.md)
 ---
 

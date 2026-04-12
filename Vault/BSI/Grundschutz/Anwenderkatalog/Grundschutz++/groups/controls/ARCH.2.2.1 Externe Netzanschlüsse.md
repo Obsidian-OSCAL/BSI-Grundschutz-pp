@@ -16,7 +16,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.1 - Externe Netzanschlüsse
-> [!example]- Tags:> [[tags_Internet Exposure|Internet Exposure]]> [[tags_Command & Control|Command & Control]]
+> [!example]- Tags:> [[tags_Internet_Exposure|Internet Exposure]]> [[tags_Command_&_Control|Command & Control]]
 Gruppe: [ARCH.2 Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md)
 ---
 

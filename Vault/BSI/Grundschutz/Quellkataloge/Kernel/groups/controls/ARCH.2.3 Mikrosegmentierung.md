@@ -15,7 +15,7 @@ control_effort_level: '5'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.3 - Mikrosegmentierung
-> [!example]- Tags:> [[tags_Zero Trust|Zero Trust]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]> [[tags_Lateral Movement|Lateral Movement]]
+> [!example]- Tags:> [[tags_Zero_Trust|Zero Trust]]> [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]> [[tags_Lateral_Movement|Lateral Movement]]
 Gruppe: [ARCH.2 Netzdesign](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.2%20Netzdesign.md)
 ---
 

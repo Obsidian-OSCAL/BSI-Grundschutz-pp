@@ -14,7 +14,7 @@ control_effort_level: '3'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.8.1.1 - Unautorisierte Publikation
-Tag: [[tags_Data Leak|Data Leak]]
+Tag: [[tags_Data_Leak|Data Leak]]
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 

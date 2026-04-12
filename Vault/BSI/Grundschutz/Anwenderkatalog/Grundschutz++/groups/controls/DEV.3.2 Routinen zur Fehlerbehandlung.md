@@ -15,7 +15,7 @@ control_effort_level: '2'
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.3.2 - Routinen zur Fehlerbehandlung
-> [!example]- Tags:> [[tags_Security by Design|Security by Design]]> [[tags_Error Handling|Error Handling]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
+> [!example]- Tags:> [[tags_Security_by_Design|Security by Design]]> [[tags_Error_Handling|Error Handling]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [DEV.3 Softwareentwicklung - Härtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md)
 ---
 

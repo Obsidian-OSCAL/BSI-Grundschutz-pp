@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.5.1 Wartungsbedarf dokumentieren
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Betriebshandbuch
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ASST.5 Wartung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.5%20Wa
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Wartung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.5%20Wartung.md) *** | IT-Systeme | SOLLTE | den Wartungsbedarf | für Systemkomponenten und die zum Betrieb erforderliche Infrastruktur | dokumentieren | Betriebshandbuch | >Informationen und Assets für IT-Systeme SOLLTE den Wartungsbedarf für Systemkomponenten und die zum Betrieb erforderliche Infrastruktur dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Wartung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.5%20Wartung.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Wartungsbedarf | für Systemkomponenten und die zum Betrieb erforderliche Infrastruktur | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Betriebshandbuch](documentation_guidelines_Betriebshandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für IT-Systeme SOLLTE den Wartungsbedarf für Systemkomponenten und die zum Betrieb erforderliche Infrastruktur dokumentieren.</span>
 
 > [!info]- Guidance
 >Wartungsbedarf meint die regelmäßig oder anlassbezogen erforderlichen Maßnahmen zur Instandhaltung, Aktualisierung und Funktionssicherung von Systemkomponenten und der Betriebsinfrastruktur eines IT-Systems. Unter Systemkomponenten sind hier sowohl Hardware-Elemente (Server, Netzwerkkomponenten, Speichergeräte) als auch Software-Elemente (Betriebssysteme, Middleware, Anwendungen) zu verstehen; die Infrastruktur umfasst unterstützende Einrichtungen wie Stromversorgung, Klimatisierung, Kommunikationsschnittstellen oder Brandabschottungen für Kabel- und Rohrdurchführungen. Ziel der Dokumentation ist es, einen strukturierten Überblick über alle Abhängigkeiten, Wartungszyklen und Zuständigkeiten zu schaffen, um sicherzustellen, dass Betrieb und Sicherheit des Systems über den gesamten Lebenszyklus hinweg gewährleistet bleiben. Die Dokumentation des Wartungsbedarfs kann verhindern, dass kritische Komponenten ungeplant ausfallen oder Sicherheitslücken durch versäumte Updates bestehen bleiben. Ohne klare Wartungsinformationen könnte beispielsweise ein Firmware-Update bei einer Netzkomponente übersehen werden, was Angreifern das Eindringen über bekannte Schwachstellen erleichtern könnte. Umgekehrt kann eine dokumentierte Wartungsplanung dazu beitragen, Systemverfügbarkeit und Integrität zu sichern, indem sie planbare Wartungsfenster und Zuständigkeiten ermöglicht. Durch das Zusammenführen der Herstellerangaben mit den vor Ort bekannten Rahmenbedingungen kann frühzeitig erkennbar werden, wann Eingriffe nötig sind, welche Abhängigkeiten bestehen und welche Fachkenntnisse oder Werkzeuge erforderlich sein können. Zum Ressourcenbedarf kann ebenso gehören, dass ein Testsystem bereitgestellt wird, dass administrative Zugänge vorbereitet werden oder dass ein Wartungsdienstleister während der Arbeiten abgesichert fernzugreifen kann. Für die praktische Umsetzung kann es hilfreich sein, einen zentralen Wartungskalender mit Ampel‑Logik zu führen, der sich aus dem Konfigurations‑ oder Asset‑Management speist. Eine Ticket‑ oder Change‑Management‑Lösung kann automatisch Termine auslösen, Erinnerungen versenden und Reports erzeugen.

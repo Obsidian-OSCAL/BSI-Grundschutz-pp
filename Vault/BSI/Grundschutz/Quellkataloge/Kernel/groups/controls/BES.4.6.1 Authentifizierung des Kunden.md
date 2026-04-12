@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.6.1 Authentifizierung des Kunden
 parent_control: BES.4.6 Security by Default
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.6.1 - Authentifizierung des Kunden
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.4.6 Security by Default](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.6%20Security%20by%20Default.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *** | Dienstleistungen | SOLLTE | eine Authentifizierung | vor dem Zugriff auf schützenswerte Informationen oder Dienste | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen SOLLTE eine Authentifizierung vor dem Zugriff auf schützenswerte Informationen oder Dienste vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Authentifizierung | vor dem Zugriff auf schützenswerte Informationen oder Dienste | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE eine Authentifizierung vor dem Zugriff auf schützenswerte Informationen oder Dienste vereinbaren.</span>
 
 > [!info]- Guidance
 >Sinnvoll ist es sich hierbei sich auf konkrete Authentifizierungsmethoden (z.B. Kundenkennwort, OTP oder Passkeys) zu einigen, mit denen authentifiziert wird, bevor der Lieferant jemandem Zugriff auf Daten oder Prozesse wie den Versand einer neuen SIM-Karte gibt, um Angriffe wie SIM Swapping zu verhindern.

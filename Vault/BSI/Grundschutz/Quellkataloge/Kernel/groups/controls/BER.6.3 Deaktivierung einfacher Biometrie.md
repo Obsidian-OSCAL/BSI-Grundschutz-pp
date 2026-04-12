@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.6.3 Deaktivierung einfacher Biometrie
+stmt_modal_verb: SOLLTE
+stmt_action_word: deaktivieren
+stmt_documentation: IT-Betriebskonzept
+result_reference: Biometrie
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,11 @@ Gruppe: [BER.6 Passwortgebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Passwortgebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.6%20Passwortgebrauch.md) *** |  | SOLLTE | die Authentifizierung nur anhand von Biometrie |  | deaktivieren | IT-Betriebskonzept | >Berechtigung SOLLTE die Authentifizierung nur anhand von Biometrie deaktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Passwortgebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.6%20Passwortgebrauch.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Authentifizierung nur anhand von Biometrie |  | [deaktivieren](action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die Authentifizierung nur anhand von Biometrie deaktivieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Biometrie](result_Biometrie_00000000-0000-0000-0000-000000000000) | Unter Biometrie ist die automatisierte Erkennung von Personen anhand ihrer körperlichen Merkmale zu verstehen. Diese kann genutzt werden, um Benutzer auf Grundlage besonderer Merkmale eindeutig zu authentisieren. Ein oder mehrere der folgenden biometrischen Merkmale können beispielsweise für eine Authentisierung verwendet werden: • Iris • Fingerabdruck • Gesichtsproportionen • Stimme und Sprachverhalten • Handschrift • Tippverhalten am Rechner. |
 
 > [!info]- Guidance
 >Wenn die Authentifizierung nur biometrisch vorgenommen wird (z.B. anhand von Fingerabdrücken oder Abbildern des Gesichtes), dann könnten Angreifer Fälschungen oder gestohlene Fingerabdrücke missbrauchen, um sich Zugang zu verschaffen. Werden biometrische Verfahren dagegen mit weiteren Authentisierungsmittel (z.B. einer PIN) kombiniert, können sie den Zugriffsschutz verbessern. Ein häufig vorkommendes Beispiel sind Mobilgeräte wie Smartphones, die durch Fingerabdruck den Zugriff auf Daten oder Funktionen wie das mobile Bezahlen gestatten - obwohl auf dem Gerät selbst häufig noch Fingerabdrücke erkennbar sind.

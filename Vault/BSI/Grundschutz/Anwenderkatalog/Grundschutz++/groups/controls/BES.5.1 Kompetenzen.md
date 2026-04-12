@@ -1,21 +1,30 @@
 ---
-tags: Lieferketten_Kompetenzmanagement
+tags:
+- lieferketten_kompetenzmanagement
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.1 Kompetenzen
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+result_reference: Kompetenz
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.1 - Kompetenzen
-Tags: "[Lieferketten](tags_Lieferketten)" "[Kompetenzmanagement](tags_Kompetenzmanagement)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Kompetenzmanagement|Kompetenzmanagement]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Dienstleistungen | SOLLTE | Kompetenzen in Informationssicherheit, die von den Mitarbeitern des Lieferanten verlangt werden, |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen SOLLTE Kompetenzen in Informationssicherheit, die von den Mitarbeitern des Lieferanten verlangt werden, vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Kompetenzen in Informationssicherheit, die von den Mitarbeitern des Lieferanten verlangt werden, |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE Kompetenzen in Informationssicherheit, die von den Mitarbeitern des Lieferanten verlangt werden, vereinbaren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Kompetenz](result_Kompetenz_00000000-0000-0000-0000-000000000000) | Fähigkeit, Wissen und Fertigkeiten anzuwenden, um beabsichtigte Ergebnisse zu erzielen. |
 
 > [!info]- Guidance
 >Dient dem Ziel, Risiken durch unzureichend geschultes Personal zu minimieren. Ohne solche Vorgaben könnte es dazu kommen, dass Dienstleister vertrauliche Daten versehentlich preisgeben, schwache Passwörter verwenden oder Phishing-Angriffe nicht erkennen. Durch die Vereinbarung von Mindestkompetenzen kann erreicht werden, dass Dienstleister Sicherheitsrichtlinien verstehen, Bedrohungen frühzeitig identifizieren und im Einklang mit den Schutzinteressen der Institution handeln. Im Kontext bedeutet Kompetenzen in Informationssicherheit, dass Mitarbeiter des Lieferanten über Wissen, Fähigkeiten und Verhalten verfügen, die erforderlich sind, um mit vertraulichen Informationen und IT-Systemen angemessen sicher umzugehen. Dies kann grundlegendes Verständnis für sichere Passwörter und mobile Geräte umfassen, aber auch Kenntnisse zu branchenspezifischen Sicherheitsverfahren oder zum Umgang mit sensiblen Kundendaten. Eine sinnvolle Umsetzung kann zum Beispiel beinhalten, dass die Institution in den Verträgen mit Lieferanten konkrete Mindestanforderungen an Schulungen und Zertifikate definiert, etwa: (1) Einführungsschulungen zu IT-Sicherheitsgrundlagen, (2) regelmäßige Auffrischungen zu Themen wie Social Engineering oder sichere Datennutzung, (3) Nachweise über spezielle Fachkenntnisse, wenn besonders sensible Daten verarbeitet werden. Praktisch kann eine Institution durch standardisierte Schulungsprogramme, die Überprüfung von Zertifikaten (z. B. ISO/IEC- oder BSI-bezogene Qualifikationen) oder durch kurze Wissens-Checks im Rahmen der Dienstleister-Onboarding-Prozesse sicherstellen, dass vereinbarte Kompetenzen tatsächlich vorhanden sind.

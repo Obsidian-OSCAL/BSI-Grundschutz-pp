@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.2.1 Versionshistorie
+stmt_modal_verb: SOLLTE
+stmt_action_word: protokollieren
+stmt_documentation: Audit Log
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [TEST.2 Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/grou
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md) *** |  | SOLLTE | eine Versionshistorie | wesentlicher Änderungen | protokollieren | Audit Log | >Änderungen und Tests SOLLTE eine Versionshistorie wesentlicher Änderungen protokollieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Versionshistorie | wesentlicher Änderungen | [protokollieren](action_words_protokollieren_fe0c8466-8c0d-450b-a649-02c11e0231f8) | [Audit Log](documentation_guidelines_Audit Log) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE eine Versionshistorie wesentlicher Änderungen protokollieren.</span>
 
 > [!info]- Guidance
 >Wesentlich sind Änderungen, wenn sie Auswirkungen auf die Informationssicherheit von Produktivsystemen und -anwendungen haben können, die über eine geringe Anzahl von Nutzenden hinausgeht.

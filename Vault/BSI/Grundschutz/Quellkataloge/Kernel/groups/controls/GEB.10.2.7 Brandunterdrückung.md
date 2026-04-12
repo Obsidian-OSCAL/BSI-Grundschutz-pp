@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.2.7 Brandunterdrückung
 parent_control: GEB.10.2 Brandschutz
+stmt_target_object_category: Serverräume
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '5'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kern
 
 ** Übergeordnetes Control: ** [GEB.10.2 Brandschutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.10.2%20Brandschutz.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Serverräume | KANN | Brandunterdrückungssysteme |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Serverräume KANN Brandunterdrückungssysteme installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Serverräume](target_object_categories_Serverräume_3a894eaa-7b42-4f59-9961-76c9a3ec2837) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Brandunterdrückungssysteme |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Serverräume KANN Brandunterdrückungssysteme installieren.</span>
 
 > [!info]- Guidance
 >Kann z.B. durch eine Anlage zur Sauerstoffreduktion unter 15 Volumenprozent umgesetzt werden, da Feuer sich so kaum entzünden kann. Siehe ISO 20338. Denken Sie dabei auch an den Schutz des Personals, siehe Arbeitstättenverordnung (ArbStättV).

@@ -1,21 +1,27 @@
 ---
-tags: Cryptography
+tags:
+- cryptography
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.7.10 Abgelaufene Schlüssel
+stmt_modal_verb: SOLLTE
+stmt_action_word: untersagen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '1'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.10 - Abgelaufene Schlüssel
-Tags: "[Cryptography](tags_Cryptography)"
+Tag: [[tags_Cryptography|Cryptography]]
 Gruppe: [BER.7 Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md) *** |  | SOLLTE | die Nutzung des Schlüssels zur Verschlüsselung oder Signierung | nach Ablauf der Nutzungszeit | untersagen | IT-Betriebskonzept | >Berechtigung SOLLTE die Nutzung des Schlüssels zur Verschlüsselung oder Signierung nach Ablauf der Nutzungszeit untersagen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Nutzung des Schlüssels zur Verschlüsselung oder Signierung | nach Ablauf der Nutzungszeit | [untersagen](action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die Nutzung des Schlüssels zur Verschlüsselung oder Signierung nach Ablauf der Nutzungszeit untersagen.</span>
 
 > [!info]- Guidance
 >Schlüssel dürfen nach Ablauf der Nutzungszeit nur noch zur Entschlüsselung oder Signaturprüfung alter Daten verwendet werden. Bei automatisierter Schlüsselnutzung ist der Schlüssel zu deaktivieren, bei manueller Schlüsselnutzung ist den Nutzenden weitere Verwendung des Schlüssels zu verbieten.

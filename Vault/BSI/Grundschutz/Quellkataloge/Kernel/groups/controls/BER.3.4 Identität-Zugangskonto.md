@@ -1,21 +1,32 @@
 ---
-tags: Zero_Trust
+tags:
+- zero_trust
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.4 Identität-Zugangskonto
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: IT-Betriebskonzept
+result_reference:
+- Zugang
+- Zugangskonto
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.4 - Identität-Zugangskonto
-Tags: "[Zero Trust](tags_Zero Trust)"
+Tag: [[tags_Zero Trust|Zero Trust]]
 Gruppe: [BER.3 Zugangskonten](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.3%20Zugangskonten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Zugangskonten](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.3%20Zugangskonten.md) *** |  | SOLLTE | ein Zugangskonto zu genau einer Identität |  | zuweisen | IT-Betriebskonzept | >Berechtigung SOLLTE ein Zugangskonto zu genau einer Identität zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Zugangskonten](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.3%20Zugangskonten.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Zugangskonto zu genau einer Identität |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE ein Zugangskonto zu genau einer Identität zuweisen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |> > | [Zugangskonto](result_Zugangskonto_00000000-0000-0000-0000-000000000000) | Anmeldekonto (User Account) zur Anmeldung an einem IT-System oder einer Anwendung. |
 
 > [!info]- Guidance
 >Wenn ein Zugangskonto genau einer Identität zugewiesen ist erleichtert dies die Vergabe von Berechtigungen nach dem Need-to-know-Prinzip. Außerdem kann so bei einem Vorfall nachvollzogen werden, welche Person welche Befehle ausgeführt hat, z.B. mittels des Audit Logs. Anders herum können einer Identität auch mehrere Zugangskonten zugewiesen sein, z.B. ein normalen Nutzungskonto und ein Zugangskonto für die Systemadministration.

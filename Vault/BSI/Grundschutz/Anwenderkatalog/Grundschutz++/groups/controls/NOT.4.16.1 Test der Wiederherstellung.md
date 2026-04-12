@@ -1,9 +1,16 @@
 ---
-tags: not4161-prm1
+tags:
+- not4161-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.16.1 Test der Wiederherstellung
 parent_control: NOT.4.16 Test der Datensicherung
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+stmt_documentation: Datensicherungskonzept
+control_effort_level: '3'
 ---
 
 
@@ -14,9 +21,9 @@ Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/gro
 
 ** Übergeordnetes Control: ** [NOT.4.16 Test der Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.16%20Test%20der%20Datensicherung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *** | Daten | SOLLTE | die Wiederherstellung | mindestens anhand von repräsentativen Stichproben {{regelmäßig}} | überprüfen | Datensicherungskonzept | >Notfallplanung für Daten SOLLTE die Wiederherstellung mindestens anhand von repräsentativen Stichproben {{ insert: param, not.4.16.1-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Wiederherstellung | mindestens anhand von repräsentativen Stichproben {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung für Daten SOLLTE die Wiederherstellung mindestens anhand von repräsentativen Stichproben {{ insert: param, not.4.16.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Unter „Erfolg der Datensicherung“ ist hier die Vollständigkeit („completeness“) und Integrität („integrity“) der erstellten Backups zu verstehen. Eine fehlerhafte oder unvollständige Sicherung könnte unbemerkt bleiben, wenn nicht aktiv geprüft wird, während eine gezielte Validierung die Sicherheit bietet, dass sich die Daten bei Bedarf in unveränderter Form vorfinden lassen. Damit kann ein gravierender Datenverlust, etwa durch korrupte Sicherungsdateien oder abgebrochene Backup-Jobs, rechtzeitig erkannt und behoben werden. Die Anforderung zielt darauf ab, Risiken durch Scheinsicherheit zu reduzieren – etwa wenn Backup-Prozesse zwar automatisiert laufen, aber unbemerkt leere, fehlerhafte oder inkonsistente Datenbestände erzeugen könnten. Durch eine regelmäßige Überprüfung kann die Institution sicherstellen, dass die gesicherten Daten tatsächlich verwendbar bleiben, und damit das Risiko von Ausfallzeiten oder irreversiblen Informationsverlusten verringern. Konkret umgesetzt werden kann dies z. B., indem (1) Backup-Logs automatisch auf Fehlermeldungen oder Warnungen geprüft werden, (2) Prüfsummenverfahren wie Hashes (z. B. SHA-256) zur Integritätskontrolle eingesetzt werden und (3) stichprobenartige Vergleiche zwischen gesicherten und Originaldateien durchgeführt werden. Die Stichprobe kann sich dabei entweder auf die Wiederherstellung selber (= Wiederherstellung nur einiger Daten) als auch auf den deren Überprüfung (= Öffnen nur einiger Daten) beziehen. Stichproben sind repräsentativ, wenn die Zusammensetzung der Stichprobe von Test zu Test geändert wird und die Wahrscheinlichkeit der Stichprobenauswahl auch der Bedeutung der Daten entspricht. Zweckmäßig ist es dazu, bei der Stichprobenauswahl den Schutzbedarf der Daten zu berücksichtigen: Für besonders wichtige Systeme wie Verzeichnisdienste und für den Geschäftsbetrieb unerlässliche Daten ist eine häufigere Überprüfung erforderlich als für Daten und Systeme, auf die im Notfall auch verzichtet werden kann. Die Anforderung ist auch erfüllt, wenn statt einer Stichprobe eine vollständige Wiederherstellung vorgenommen und geprüft wird. Die Anforderung ist auch dann erfüllt, wenn die Überprüfung durch aktive Verwendung der Daten nach einer Wiederherstellung erfolgt (z.B. durch Inbetriebnahme neuer Server-Container, die aus einer versionierten Datensicherung automatisch angelegt werden).

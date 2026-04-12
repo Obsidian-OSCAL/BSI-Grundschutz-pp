@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.6.3 Netzkomponenten
+stmt_target_object_category: Netze
+stmt_modal_verb: SOLLTE
+stmt_action_word: platzieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.6 Platzierung von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschu
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Platzierung von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.6%20Platzierung%20von%20Assets.md) *** | Netze | SOLLTE | für die Funktionsfähigkeit des Netzes erforderliche Systeme ausschließlich in Räumen für technische Infrastruktur |  | platzieren | Gebäudedokumentation | >Gebäudemanagement für Netze SOLLTE für die Funktionsfähigkeit des Netzes erforderliche Systeme ausschließlich in Räumen für technische Infrastruktur platzieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Platzierung von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.6%20Platzierung%20von%20Assets.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Netze](target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | für die Funktionsfähigkeit des Netzes erforderliche Systeme ausschließlich in Räumen für technische Infrastruktur |  | [platzieren](action_words_platzieren_fec950b7-8c2d-4060-b4ff-d7276f0f9a56) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Netze SOLLTE für die Funktionsfähigkeit des Netzes erforderliche Systeme ausschließlich in Räumen für technische Infrastruktur platzieren.</span>
 
 > [!info]- Guidance
 >„Für die Funktionsfähigkeit des Netzes erforderliche Systeme“ sind in diesem Kontext alle physischen und logischen Komponenten, deren Betrieb direkt die Verfügbarkeit, Integrität oder Steuerbarkeit von Netzwerken beeinflusst — etwa aktive Netzwerkkomponenten (engl. network devices) wie Router, Switches, Firewalls oder Netzwerkmanagementsysteme (engl. Network Management Systems, NMS). Die Definition von „Räumen für technische Infrastruktur“ ist in den Definitionen für Zielobjekte zu finden. Diese Räume sind typischerweise mit einer kontrollierten physischen Zugangsbeschränkung, Klimatisierung, Brandfrüherkennung und einer stabilen Stromversorgung (z. B. über USV-Anlagen) ausgestattet. Die Anforderung gewährleistet somit, dass netzkritische Systeme räumlich von allgemeinen Arbeits- oder Aufenthaltsbereichen getrennt sind, um deren Sicherheit und Stabilität zu gewährleisten.

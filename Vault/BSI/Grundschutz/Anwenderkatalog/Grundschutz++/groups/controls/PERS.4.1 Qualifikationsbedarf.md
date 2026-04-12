@@ -1,23 +1,29 @@
 ---
 tags:
-- Kompetenzmanagement
+- kompetenzmanagement
 - pers41-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.4.1 Qualifikationsbedarf
+stmt_target_object_category: Mitarbeitende
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.4.1 - Qualifikationsbedarf
-Tags: "[Kompetenzmanagement](tags_Kompetenzmanagement)"
+Tag: [[tags_Kompetenzmanagement|Kompetenzmanagement]]
 Gruppe: [PERS.4 Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md) *** | Mitarbeitende | SOLLTE | den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben | {{regelmäßig}} | überprüfen | Schulungsplan | >Personal für Mitarbeitende SOLLTE den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben {{ insert: param, pers.4.1-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Mitarbeitende](target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Mitarbeitende SOLLTE den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben {{ insert: param, pers.4.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Qualifikationsmaßnahmen sind z.B. Zertifizierte Weiterbildungen, interne Schulungen oder universitäre Kurse. Prüfen Sie den Bedarf anhand der Aufgaben der Mitarbeitenden und berücksichtigen Sie dabei die in den Geschäftsprozessen verwendeten IT-Produkte. Zweckmäßig ist es hierzu in jedem Team einen Jahresplan zur Teilnahme an Qualifikationsmaßnahmen zu erstellen.

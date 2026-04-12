@@ -6,10 +6,9 @@ group_id: UMS.6
 
 ** Group **
 # UMS.6 - Fortschrittsverfolgung der Realisierung 
-** Übergeordnete Gruppe: **
- [UMS Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [UMS Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)## Controls
 
-> [!info]+ [[UMS.6.1 Nachverfolgung des Umsetzungsfortschritts.md|UMS.6.1 Nachverfolgung des Umsetzungsfortschritts]]
+> [!example]+ [[UMS.6.1 Nachverfolgung des Umsetzungsfortschritts.md|UMS.6.1 Nachverfolgung des Umsetzungsfortschritts]]
 
-> [!info]+ [[UMS.6.2 Fortschreibung des Umsetzungsplans.md|UMS.6.2 Fortschreibung des Umsetzungsplans]]
+> [!example]+ [[UMS.6.2 Fortschreibung des Umsetzungsplans.md|UMS.6.2 Fortschreibung des Umsetzungsplans]]

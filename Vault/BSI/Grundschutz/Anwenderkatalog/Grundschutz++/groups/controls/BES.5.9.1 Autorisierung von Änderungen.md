@@ -1,23 +1,32 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.9.1 Autorisierung von Änderungen
 parent_control: BES.5.9 Umgang mit Änderungen
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+result_reference: Autorisierung
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.9.1 - Autorisierung von Änderungen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.5.9 Umgang mit Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.9%20Umgang%20mit%20Änderungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Dienstleistungen | KANN | die Autorisierung von Änderungen durch den Auftraggeber |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen KANN die Autorisierung von Änderungen durch den Auftraggeber vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Autorisierung von Änderungen durch den Auftraggeber |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen KANN die Autorisierung von Änderungen durch den Auftraggeber vereinbaren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Autorisierung](result_Autorisierung_00000000-0000-0000-0000-000000000000) | Bei einer Autorisierung wird geprüft, ob eine Person, IT-Komponente oder Anwendung zur Durchführung einer bestimmten Aktion berechtigt ist. |
 
 > [!info]- Guidance
 >Die Autorisierung von Änderungen bedeutet in diesem Kontext, dass die Institution mit einem Dienstleister vereinbart, dass geplante Anpassungen – etwa an Prozessen, Konfigurationen, Infrastruktur oder Vertragsbedingungen die zur Vertragserfüllung verwendet werden– vor ihrer Umsetzung explizit durch den Auftraggeber bestätigt werden. Damit ist nicht nur die formale Vertragsänderung gemeint, sondern auch technische oder organisatorische Änderungen, die mittelbar Auswirkungen auf Sicherheit, Verfügbarkeit oder Integrität von Daten und Diensten haben können. Der Zweck dieser Regelung liegt darin, die Kontrolle über den Einflussbereich des Dienstleisters zu behalten: Ohne solche Vereinbarungen könnte ein Dienstleister eigenmächtig Anpassungen vornehmen, die unerwartete Schwachstellen einführen oder die Datenlokation verändern könnten. Zur Umsetzung kann die Institution mit dem Dienstleister praktikable Verfahren zur Änderungsfreigabe vereinbaren. Dies kann z. B. durch (1) die Einführung eines Freigabe-Workflows in einem Ticket- oder Change-Management-System erfolgen, (2) die Verpflichtung zu einer schriftlichen Änderungsmitteilung mit klaren Auswirkungen auf Sicherheit und Betrieb, sowie (3) die Festlegung, dass kritische Änderungen erst nach einer formellen Zustimmung des Auftraggebers in einem definierten Zeitfenster umgesetzt werden können. Ergänzend kann der Dienstleister angehalten werden, geplante Änderungen in einer Änderungsübersicht mit Versionsstand und Rückfalloptionen zu dokumentieren, sodass die Institution bewerten kann, ob Risiken oder Abhängigkeiten entstehen.

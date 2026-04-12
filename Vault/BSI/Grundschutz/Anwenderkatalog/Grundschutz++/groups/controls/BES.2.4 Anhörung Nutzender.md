@@ -1,21 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.4 Anhörung Nutzender
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: anhören
+stmt_documentation: Prozess Beschaffung
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.4 - Anhörung Nutzender
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *** | Einkäufe | SOLLTE | Nutzende | bei der Bedarfserfassung | anhören | Prozess Beschaffung | >Beschaffungsmanagement für Einkäufe SOLLTE Nutzende bei der Bedarfserfassung anhören.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Nutzende | bei der Bedarfserfassung | [anhören](action_words_anhören_b8e9be24-22fb-4f1c-a60c-a2f8f0b4c47d) | [Prozess Beschaffung](documentation_guidelines_Prozess Beschaffung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE Nutzende bei der Bedarfserfassung anhören.</span>
 
 > [!info]- Guidance
 >Werden IT-Produkte oder Dienstleistungen für eine Zielgruppe beschafft, so ist es zweckmäßig, Vertreter dieser Zielgruppe in die Erhebung der Beschaffungskriterien mit einzubeziehen. Dies kann durch die Anhörung aller potenziellen Nutzer, z.B. durch eine Umfrage, oder durch die Anhörung bestimmter Personen oder Rollen aus dem Kreis der Nutzenden (z.B. Fachverantwortliche, Testgruppen oder Stichproben) erfolgen.

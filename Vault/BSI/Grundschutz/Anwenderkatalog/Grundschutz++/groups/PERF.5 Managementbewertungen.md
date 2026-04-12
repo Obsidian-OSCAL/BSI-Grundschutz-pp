@@ -6,11 +6,10 @@ group_id: PERF.5
 
 ** Group **
 # PERF.5 - Managementbewertungen 
-** Übergeordnete Gruppe: **
- [PERF Monitoring-Evaluation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [PERF Monitoring-Evaluation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)## Controls
 
-> [!info]+ [[PERF.5.1 Eignungsprüfung.md|PERF.5.1 Eignungsprüfung]]
+> [!example]+ [[PERF.5.1 Eignungsprüfung.md|PERF.5.1 Eignungsprüfung]]
 >  - [[PERF.5.1.1 Ergebnisse von Folgemaßnahmen.md|PERF.5.1.1 Ergebnisse von Folgemaßnahmen]]
 >  - [[PERF.5.1.2 Geänderte Rahmenbedingungen.md|PERF.5.1.2 Geänderte Rahmenbedingungen]]
 >  - [[PERF.5.1.3 Erfolge und Probleme.md|PERF.5.1.3 Erfolge und Probleme]]
@@ -21,4 +20,4 @@ group_id: PERF.5
 >  - [[PERF.5.1.8 Verbesserungen.md|PERF.5.1.8 Verbesserungen]]
 >  - [[PERF.5.1.9 Maßnahmenvorschläge.md|PERF.5.1.9 Maßnahmenvorschläge]]
 
-> [!info]+ [[PERF.5.2 Bericht an die Institutionsleitung.md|PERF.5.2 Bericht an die Institutionsleitung]]
+> [!example]+ [[PERF.5.2 Bericht an die Institutionsleitung.md|PERF.5.2 Bericht an die Institutionsleitung]]

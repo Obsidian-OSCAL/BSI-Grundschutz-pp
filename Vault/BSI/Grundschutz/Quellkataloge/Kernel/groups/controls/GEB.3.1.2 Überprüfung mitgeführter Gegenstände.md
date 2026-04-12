@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.3.1.2 Überprüfung mitgeführter Gegenstände
 parent_control: GEB.3.1 Überwachung von Zutrittspunkten
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: überwachen
+stmt_documentation: Prozess Gebäudemanagement
+control_effort_level: '5'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [GEB.3 Physischer Zutritt](BSI/Grundschutz/Quellkataloge/Kernel/groups/G
 
 ** Übergeordnetes Control: ** [GEB.3.1 Überwachung von Zutrittspunkten](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.3.1%20Überwachung%20von%20Zutrittspunkten.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Zutritt](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.3%20Physischer%20Zutritt.md) *** | Standorte | KANN | das Mitführen von Gegenständen |  | überwachen | Prozess Gebäudemanagement | >Gebäudemanagement für Standorte KANN das Mitführen von Gegenständen überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Zutritt](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.3%20Physischer%20Zutritt.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | das Mitführen von Gegenständen |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | [Prozess Gebäudemanagement](documentation_guidelines_Prozess Gebäudemanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN das Mitführen von Gegenständen überwachen.</span>
 
 > [!info]- Guidance
 >Die Überwachung des Mitführens von Gegenständen (z.B. am Empfang) kann an Standorten mit besonderen Sicherheitsrisiken dazu beitragen, unerlaubtes Einschleusen von Diebstahlwerkzeugen, schädlichen Datenträgern oder gefährlichen Gegenständen zu verhindern. Durch eine stichprobenartige Kontrolle von Taschen, Rucksäcken oder Paketlieferungen kann erkannt werden, ob unbeaufsichtigt Materialien wie USB‑Sticks, externe Festplatten oder andere Speichermedien ins Gebäude gelangen, die vertrauliche Informationen unbemerkt abziehen könnten. Ebenso kann das Verfahren auf Metallgegenstände oder Flüssigkeiten ausgeweitet werden, um das Risiko von Diebstahl, Sabotage oder physischen Angriffen zu reduzieren. Beispielsweise könnte ein nicht registrierter Besucher eine Videokamera einschleusen und damit sensible Produktionsprozesse filmen, oder ein unbeaufsichtigter Paketbote könnte Malware‑belastete Hardware mitliefern – durch die Kontrolle am Empfang kann solchen Szenarien vorgebeugt werden.  Die Umsetzung kann stichprobenartig oder durchgehend erfolgen: Einmal täglich kann eine Auswahl von Taschen stichprobenartig geöffnet und mit einer Liste erlaubter Gegenstände abgeglichen werden; hierbei kann ein einfaches Check‑in‑Formular eingesetzt werden, in das Besucherinnen und Besucher freiwillig ihre mitgeführten Gegenstände eintragen können. Ergänzend kann ein abschließender Scan mit einem Metalldetektor oder ein kurzer Blick in unverschlossene Fächer erfolgen, was den Aufwand gering hält und den Durchfluss am Empfang weniger beeinträchtigt. Hier besteht ein enger Bezug zu den Persönlichkeitsrechten der Betroffenen. Eine klar kommunizierte Hausordnung oder ein Informationsblatt kann helfen die Maßnahmen zu erläutern, sodass Besucher erkennen, dass die Kontrollen dem Schutz aller Beteiligten dienen. Gegenstände, die vorübergehend nicht mitgeführt werden dürfen, können gegen Quittung sicher deponiert werden. Auf diese Weise entsteht eine nachvollziehbare Historie, die im Fall eines Vorfalls als Nachweis dienen kann.

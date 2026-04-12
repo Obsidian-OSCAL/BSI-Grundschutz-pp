@@ -1,21 +1,28 @@
 ---
-tags: Auslandsreisen
+tags:
+- auslandsreisen
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.6 Mitnahme ins Ausland
+stmt_target_object_category: Nutzende
+stmt_modal_verb: KANN
+stmt_action_word: untersagen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.6 - Mitnahme ins Ausland
-Tags: "[Auslandsreisen](tags_Auslandsreisen)"
+Tag: [[tags_Auslandsreisen|Auslandsreisen]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md) *** | Nutzende | KANN | die Mitnahme nicht erforderlicher IT-Systeme und Datenträger | bei Auslandsreisen | untersagen | Arbeitsanweisung | >Sensibilisierung für Nutzende KANN die Mitnahme nicht erforderlicher IT-Systeme und Datenträger bei Auslandsreisen untersagen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Mitnahme nicht erforderlicher IT-Systeme und Datenträger | bei Auslandsreisen | [untersagen](action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende KANN die Mitnahme nicht erforderlicher IT-Systeme und Datenträger bei Auslandsreisen untersagen.</span>
 
 > [!info]- Guidance
 >Auf Auslandsreisen ist das Risiko für Spionage erhöht und der Rechtsschutz für Betroffene typischerweise geringer, insbesondere im EU-Ausland. Es ist daher ratsam, die mitgenommenen Geräte und sensiblen Informationen auf das für das Geschäft erforderliche Mindestmaß zu beschränken und stattdessen nach der Rückkehr an einem besser geschützten Standort weiter daran zu arbeiten. Welche IT-Systeme und Datenträger erforderlich sind, ergibt sich aus der Festlegung erlaubter Datenlokationen sowie den Aufgaben der Nutzenden. Ist die Nutzung von Informationen oder Assets der Institution im Ausland nicht vorgesehen (vgl. Anforderung Datenlokationen), dann ist die Anforderung entbehrlich.

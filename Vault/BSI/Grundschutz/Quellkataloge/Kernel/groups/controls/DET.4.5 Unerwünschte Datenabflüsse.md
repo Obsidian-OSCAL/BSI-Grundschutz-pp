@@ -1,21 +1,26 @@
 ---
-tags: Data_Leak
+tags:
+- data_leak
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.5 Unerwünschte Datenabflüsse
+stmt_modal_verb: KANN
+stmt_action_word: überwachen
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.5 - Unerwünschte Datenabflüsse
-Tags: "[Data Leak](tags_Data Leak)"
+Tag: [[tags_Data Leak|Data Leak]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *** |  | KANN | unerwünschte Datenabflüsse |  | überwachen | Detektions-Konzept | >Detektion KANN unerwünschte Datenabflüsse überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | unerwünschte Datenabflüsse |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN unerwünschte Datenabflüsse überwachen.</span>
 
 > [!info]- Guidance
 >Unerwünschte Datenabflüsse beziehen sich hier auf jede unautorisierte Übertragung sensibler Informationen aus internen IT-Systemen oder Anwendungen nach außen (engl. data leakage oder data exfiltration). Darunter fallen sowohl absichtliche als auch unbeabsichtigte Transfers, etwa über Endgeräte, Netzwerkkanäle oder Cloud-Schnittstellen, wobei Data Loss Prevention (DLP) als Sammelbegriff für technische und organisatorische Maßnahmen dient, die solche Abflüsse erkennen oder verhindern können. Die Überwachung kann gewährleisten, dass vertrauliche Inhalte nicht unbemerkt der Kontrolle entzogen werden. Herkunft und Ziel solcher Abflüsse können zusätzlich Indikatoren für kompromittierte Zugangskonten oder Fehlkonfigurationen liefern. Der Zweck der Vorschrift liegt darin, potenzielle Datenabflüsse frühzeitig sichtbar zu machen, sodass aufkommende Risiken wie der Verlust von personenbezogenen Datensätzen oder vertraulichen Forschungsunterlagen erkannt werden können; andernfalls könnte ein Angreifer persistente Kommunikationskanäle nutzen, um über längere Zeit unbemerkt Daten abzuziehen. Eine wirksame Überwachung kann dabei Anomalien identifizieren, die auf Missbrauch, Malware-Aktivität oder Fehlbedienungen hindeuten, und kann die Integrität sowie Vertraulichkeit schützenswerter Informationen erhöhen. Mögliche Varianten der Umsetzung können auf datei- und inhaltsbasierter DLP-Analyse, Netzwerk-DLP über definierte inspection points, Monitoring von Cloud-Workloads mittels API-gestützter DLP-Funktionen oder Endpoint-DLP basierend auf Richtlinien für Kopieren, Drucken oder Übertragungen über Wechselmedien beruhen.

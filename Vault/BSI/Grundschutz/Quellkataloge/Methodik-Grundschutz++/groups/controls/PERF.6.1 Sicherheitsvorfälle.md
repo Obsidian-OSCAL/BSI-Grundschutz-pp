@@ -1,8 +1,13 @@
 ---
-tags: perf61-prm1
+tags:
+- perf61-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.6.1 Sicherheitsvorfälle
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
@@ -11,11 +16,11 @@ control: PERF.6.1 Sicherheitsvorfälle
 Gruppe: [PERF.6 Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERF.6.1.1 Sicherheitsvorfälle](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1.1%20Sicherheitsvorfälle.md)> [PERF.6.1.2 Schwachstellen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1.2%20Schwachstellen.md)> [PERF.6.1.3 Bedrohungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1.3%20Bedrohungen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md) *** |  | MUSS | effektive Monitoring-Methoden und -tools | zur {{regelmäßigen}} Überwachung der Informationssicherheit | verankern |  | >Monitoring-Evaluation MUSS effektive Monitoring-Methoden und -tools zur {{ insert: param, perf.6.1-prm1 }} Überwachung der Informationssicherheit verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | effektive Monitoring-Methoden und -tools | zur {{regelmäßigen}} Überwachung der Informationssicherheit | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS effektive Monitoring-Methoden und -tools zur {{ insert: param, perf.6.1-prm1 }} Überwachung der Informationssicherheit verankern.</span>
 
 > [!info]- Guidance
 >Die Implementierung von  Monitoring-Methoden und -tools sollte an die individuellen Bedürfnisse und Möglichkeiten der Institution angepasst sein. Während kleinere Institutionen mit einfacheren Lösungen arbeiten können, benötigen größere und komplexere Umgebungen oft umfassendere und stärker automatisierte Ansätze. Die gewonnenen Monitoring-Daten sollten systematisch ausgewertet und für verschiedene Zwecke genutzt werden, darunter die Erstellung von Kennzahlen und Berichten, die Früherkennung von Sicherheitsrisiken, die Unterstützung der Incident Response und die kontinuierliche Verbesserung des ISMS. Beispielhafte Tools für die Überwachung von Informationssicherheit sind Security Information and Event Management (SIEM) Systeme für die zentrale Sammlung, Korrelation und Analyse von Sicherheitsereignissen aus verschiedenen Quellen;  Intrusion Detection/Prevention Systeme (IDS/IPS) zur Erkennung und Abwehr verdächtiger Netzwerkaktivitäten;  Vulnerability Management Systeme zur systematischen Identifikation und Behandlung von Schwachstellen sowie Configuration Monitoring Tools zur Überwachung von Konfigurationsänderungen in Systemen und Anwendungen.

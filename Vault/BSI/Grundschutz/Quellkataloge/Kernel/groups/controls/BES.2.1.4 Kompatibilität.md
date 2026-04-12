@@ -1,24 +1,30 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.1.4 Kompatibilität
 parent_control: BES.2.1 Erfassung des Bedarfes
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.1.4 - Kompatibilität
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.2.1 Erfassung des Bedarfes](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.2.1%20Erfassung%20des%20Bedarfes.md)
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.2.1.4.1 Kompatibilität der Schnittstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.2.1.4.1%20Kompatibilität%20der%20Schnittstellen.md)> [BES.2.1.4.2 Kompatibilität der Netzanbindung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.2.1.4.2%20Kompatibilität%20der%20Netzanbindung.md)> [BES.2.1.4.3 Kompatibilität des Administrationsmodells](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.2.1.4.3%20Kompatibilität%20des%20Administrationsmodells.md)> [BES.2.1.4.4 Kompatibilität des Datenmanagementmodells](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.2.1.4.4%20Kompatibilität%20des%20Datenmanagementmodells.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md) *** | Einkäufe | SOLLTE | den Bedarf für die Kompatibilität mit der bestehenden Infrastruktur |  | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf für die Kompatibilität mit der bestehenden Infrastruktur dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Bedarf für die Kompatibilität mit der bestehenden Infrastruktur |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf für die Kompatibilität mit der bestehenden Infrastruktur dokumentieren.</span>
 
 > [!info]- Guidance
 >Werden Beschaffungen ohne Betrachtung der Kompatibilität zur angebundenen Infrastruktur vorgenommen, kann es zu unvorhergesehenen Wechselwirkungen zwischen Komponenten kommen. Durch die steigende Komplexität von Infrastrukturen wächst auch das Risiko solcher Inkompatibilitäten oder Fehlerbilder. Zur relevanten Infrastruktur können je nach Einsatzzweck z.B. der Verzeichnisdienst, die Protokollierung von Ereignissen, das Monitoring oder der Datenspeicher gehören. Soweit möglich, ist es sinnvoll, zur Anbindung anerkannte Standards zu nutzen, z.B. REST-API und HTTPS für die Schnittstellen, TCP/IP und Ethernet (IEEE 802.3) für die Netzanbindung, SSH für die Administration,sowie SQL oder JSON für das Datenmanagement.

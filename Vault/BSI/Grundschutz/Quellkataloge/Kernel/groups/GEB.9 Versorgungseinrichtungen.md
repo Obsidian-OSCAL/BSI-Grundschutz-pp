@@ -6,25 +6,24 @@ group_id: GEB.9
 
 ** Group **
 # GEB.9 - Versorgungseinrichtungen 
-** Übergeordnete Gruppe: **
- [GEB Gebäudemanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [GEB Gebäudemanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)## Controls
 
-> [!info]+ [[GEB.9.1 Normgerechte Stromversorgung.md|GEB.9.1 Normgerechte Stromversorgung]]
+> [!example]+ [[GEB.9.1 Normgerechte Stromversorgung.md|GEB.9.1 Normgerechte Stromversorgung]]
 >  - [[GEB.9.1.1 Vorausschauende Lastanalyse.md|GEB.9.1.1 Vorausschauende Lastanalyse]]
 >  - [[GEB.9.1.2 Dedizierte Elektrounterverteilung.md|GEB.9.1.2 Dedizierte Elektrounterverteilung]]
 >  - [[GEB.9.1.3 Redundante Stromversorgung.md|GEB.9.1.3 Redundante Stromversorgung]]
 >  - [[GEB.9.1.4 Langanhaltende Sekundärversorgung.md|GEB.9.1.4 Langanhaltende Sekundärversorgung]]
 
-> [!info]+ [[GEB.9.2 Lasttest.md|GEB.9.2 Lasttest]]
+> [!example]+ [[GEB.9.2 Lasttest.md|GEB.9.2 Lasttest]]
 
-> [!info]+ [[GEB.9.3 Notaus.md|GEB.9.3 Notaus]]
+> [!example]+ [[GEB.9.3 Notaus.md|GEB.9.3 Notaus]]
 
-> [!info]+ [[GEB.9.4 Überspannungsschutz.md|GEB.9.4 Überspannungsschutz]]
+> [!example]+ [[GEB.9.4 Überspannungsschutz.md|GEB.9.4 Überspannungsschutz]]
 
-> [!info]+ [[GEB.9.5 Strukturierte Datenverkabelung.md|GEB.9.5 Strukturierte Datenverkabelung]]
+> [!example]+ [[GEB.9.5 Strukturierte Datenverkabelung.md|GEB.9.5 Strukturierte Datenverkabelung]]
 >  - [[GEB.9.5.1 Physisch geschützte Verlegung.md|GEB.9.5.1 Physisch geschützte Verlegung]]
 
-> [!info]+ [[GEB.9.6 Zugang zu Räumen für technische Infrastruktur.md|GEB.9.6 Zugang zu Räumen für technische Infrastruktur]]
+> [!example]+ [[GEB.9.6 Zugang zu Räumen für technische Infrastruktur.md|GEB.9.6 Zugang zu Räumen für technische Infrastruktur]]
 
-> [!info]+ [[GEB.9.7 Zweckentfremdung.md|GEB.9.7 Zweckentfremdung]]
+> [!example]+ [[GEB.9.7 Zweckentfremdung.md|GEB.9.7 Zweckentfremdung]]

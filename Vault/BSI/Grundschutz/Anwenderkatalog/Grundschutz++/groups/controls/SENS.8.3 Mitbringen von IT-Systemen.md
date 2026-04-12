@@ -1,21 +1,28 @@
 ---
-tags: Bring_Your_Own_Device
+tags:
+- bring_your_own_device
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.3 Mitbringen von IT-Systemen
+stmt_target_object_category: Nutzende
+stmt_modal_verb: KANN
+stmt_action_word: untersagen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.3 - Mitbringen von IT-Systemen
-Tags: "[Bring Your Own Device](tags_Bring Your Own Device)"
+Tag: [[tags_Bring Your Own Device|Bring Your Own Device]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md) *** | Nutzende | KANN | das Mitbringen unautorisierter IT-Systeme |  | untersagen | Arbeitsanweisung | >Sensibilisierung für Nutzende KANN das Mitbringen unautorisierter IT-Systeme untersagen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | das Mitbringen unautorisierter IT-Systeme |  | [untersagen](action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende KANN das Mitbringen unautorisierter IT-Systeme untersagen.</span>
 
 > [!info]- Guidance
 >Fremde IT-Systeme sind ein Risiko, weil sie an das interne Netz angeschlossen, zum Mithören von Gesprächen oder zur Standortverfolgung missbraucht werden können. Relevant sind dabei sowohl Geräte der Mitarbeitenden, als auch von Externen. Dies kann auch durch eine Hinterlegung  von Geräten an der Pforte oder in verschließbaren Fächern am Eingang umgesetzt werden.

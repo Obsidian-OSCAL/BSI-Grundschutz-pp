@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.9.4 Überspannungsschutz
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.9 Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *** | Standorte | KANN | Überspannungsschutzeinrichtungen |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte KANN Überspannungsschutzeinrichtungen installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Überspannungsschutzeinrichtungen |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN Überspannungsschutzeinrichtungen installieren.</span>
 
 > [!info]- Guidance
 >Überspannungsschutzeinrichtungen sind technische Komponenten, die elektrische und elektronische Systeme vor plötzlich auftretenden Spannungsspitzen im Stromnetz oder in Datenleitungen schützen. Sie wirken, indem sie kurzzeitig auftretende Energie in sichere Bahnen ableiten oder begrenzen, sodass angeschlossene Geräte nicht beschädigt werden. Der Sinn und Zweck liegt darin, sensible IT- und Kommunikationssysteme sowie die Infrastruktur der Institution vor Schäden zu bewahren. Ohne Schutz könnte ein Spannungssprung aus dem Stromnetz eine zentrale Serveranlage zerstören oder den Ausfall von Brandmelde- und Zutrittskontrollsystemen verursachen, wohingegen ein korrekt eingesetzter Überspannungsschutz kann die Betriebsfähigkeit und Datenintegrität sicherstellen. Diese Anforderung bezieht sich ausschließlich auf Überspannungen aus dem Netzbetrieb oder aus benachbarten Stromkreisen; für den äußeren Blitzschutz gilt eine verwandte Anforderung. Zur Umsetzung können an kritischen Punkten Überspannungsschutzeinrichtungen installiert werden: (1) in zentralen Verteilungen, um das gesamte Gebäude gegen Netzstörungen abzusichern, (2) in Unterverteilungen oder einzelnen Stromkreisen, die besonders sensible IT-Systeme versorgen, und (3) an Kommunikations- oder Datenleitungen, etwa für Netzwerk- oder Telefonverkabelungen. Eine Institution kann durch gestufte Schutzkonzepte („Grobschutz“ im Hauptverteiler, „Feinschutz“ in Nähe der Endgeräte) eine höhere Wirksamkeit erreichen. Es kann sinnvoll sein, bei Neubauten Steckdosen mit integriertem Feinschutz vorzusehen oder bei Bestandsanlagen nachträglich modulare Schutzgeräte in die Verteilungen einzusetzen. Prozessual kann regelmäßige Prüfung der eingebauten Schutzmodule helfen, da viele Modelle nach einem Ereignis verbraucht sind und ausgetauscht werden müssen. Auch eine Dokumentation der Einbauorte kann den Überblick erleichtern und gewährleisten, dass keine kritischen Systeme ungeschützt bleiben.

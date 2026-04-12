@@ -1,23 +1,30 @@
 ---
-tags: Lieferketten_Exit-Strategie
+tags:
+- lieferketten_exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.4.1.2 Berechtigungen deaktivieren
 parent_control: DLS.4.1 Dekomissionierung
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: deaktivieren
+stmt_documentation: Betriebshandbuch
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.4.1.2 - Berechtigungen deaktivieren
-Tags: "[Lieferketten](tags_Lieferketten)" "[Exit-Strategie](tags_Exit-Strategie)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.4%20Dekommissionierung%20von%20Dienstleistern.md)
 ---
 
 ** Übergeordnetes Control: ** [DLS.4.1 Dekomissionierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.4.1%20Dekomissionierung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Dekommissionierung von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.4%20Dekommissionierung%20von%20Dienstleistern.md) *** | Dienstleistungen | SOLLTE | für den Vertrag benötigte Berechtigungen | bei Vertragsende unverzüglich | deaktivieren | Betriebshandbuch | >Dienstleistersteuerung für Dienstleistungen SOLLTE für den Vertrag benötigte Berechtigungen bei Vertragsende unverzüglich deaktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Dekommissionierung von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.4%20Dekommissionierung%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | für den Vertrag benötigte Berechtigungen | bei Vertragsende unverzüglich | [deaktivieren](action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b) | [Betriebshandbuch](documentation_guidelines_Betriebshandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE für den Vertrag benötigte Berechtigungen bei Vertragsende unverzüglich deaktivieren.</span>
 
 > [!info]- Guidance
 >Berechtigungen sind hier alle Zugangs-, Zutritts- und Zugriffsrechte, die von der Institution für Mitarbeitende, Organisationseinheiten oder Subunternehmer des Dienstleisters eingerichtet oder geändert wurden. Hierzu können diese Rechte gelöscht, deaktiviert oder reduziert werden, soweit sie nicht mehr (z.B. für andere Verträge) benötigt werden.

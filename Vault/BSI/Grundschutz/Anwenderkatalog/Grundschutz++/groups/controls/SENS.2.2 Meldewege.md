@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.2.2 Meldewege
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: informieren
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/G
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md) *** | Nutzende | SOLLTE | zu den Meldewegen und Informationsquellen bei Fragen |  | informieren | Arbeitsanweisung | >Sensibilisierung für Nutzende SOLLTE zu den Meldewegen und Informationsquellen bei Fragen informieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zu den Meldewegen und Informationsquellen bei Fragen |  | [informieren](action_words_informieren_80cfc5ed-d443-4e59-bb34-bec602457af9) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zu den Meldewegen und Informationsquellen bei Fragen informieren.</span>
 
 > [!info]- Guidance
 >Zur Bekanntgabe von Meldewegen gehört, welche Meldewege (z.B. Adresse, Rufnummer, Ticketsystem) zur Verfügung stehen und welche weiteren Informationsquellen (z.B. Wissensmanagement im Intranet, Dienstanweisungen, Betriebshandbuch, Chatbots) relevante Informationen zur Informationssicherheit enthalten.

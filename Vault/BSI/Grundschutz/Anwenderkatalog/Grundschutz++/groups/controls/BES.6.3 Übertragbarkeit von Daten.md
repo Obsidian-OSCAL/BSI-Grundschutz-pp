@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten_Exit-Strategie
+tags:
+- lieferketten_exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.3 Übertragbarkeit von Daten
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.3 - Übertragbarkeit von Daten
-Tags: "[Lieferketten](tags_Lieferketten)" "[Exit-Strategie](tags_Exit-Strategie)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *** | Dienstleistungen | SOLLTE | die Übertragbarkeit von Daten, Konfigurationen und der Funktionalität | für den Fall einer Kündigung | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen SOLLTE die Übertragbarkeit von Daten, Konfigurationen und der Funktionalität für den Fall einer Kündigung vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Übertragbarkeit von Daten, Konfigurationen und der Funktionalität | für den Fall einer Kündigung | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE die Übertragbarkeit von Daten, Konfigurationen und der Funktionalität für den Fall einer Kündigung vereinbaren.</span>
 
 > [!info]- Guidance
 >Ohne eine solche Regelung kann es zu erheblichen Betriebsstörungen kommen, etwa wenn ein Dienstleister im Streitfall Daten nur in proprietären Formaten bereitstellt oder deren Übergabe verzögert. Dies könnte dazu führen, dass eine Institution den Betrieb nicht nahtlos mit einem neuen Anbieter fortsetzen kann, etwa bei Cloud-Diensten, Hosting oder SaaS-Lösungen. Auch kann der Verlust von Metadaten, Zugriffshistorien oder Konfigurationsdateien eintreten, was die Nachvollziehbarkeit und Funktionsfähigkeit stark einschränken könnte. Unter „Übertragbarkeit von Daten“ (Data Portability) versteht man in diesem Kontext die technische und organisatorische Fähigkeit, alle relevanten Daten in einem vollständigen, strukturierten und maschinenlesbaren Format an die Institution oder einen Nachfolger zu übertragen. Es geht dabei nicht nur um die Rohdaten, sondern auch um begleitende Informationen, die für die Wiederaufnahme des Betriebs an anderer Stelle erforderlich sind (Metadaten). Die Angemessenheit dieser Maßnahme bemisst sich daran, wie stark die Tätigkeit der Institution von den ausgelagerten Prozessen abhängt und wie groß die Auswirkungen einer verzögerten oder unvollständigen Rückgabe wären.

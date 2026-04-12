@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.6.4 Service Level
 parent_control: REA.2.6 Ursachenanalyse und Behandlung
+stmt_modal_verb: KANN
+stmt_action_word: verankern
+stmt_documentation: Behandlung von Sicherheitsvorfällen
+control_effort_level: '5'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RE
 
 ** Übergeordnetes Control: ** [REA.2.6 Ursachenanalyse und Behandlung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6%20Ursachenanalyse%20und%20Behandlung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)**<br> ***  &rarr; [Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md) *** |  | KANN | Service Level |  | verankern | Behandlung von Sicherheitsvorfällen | >Sicherheitsvorfallsbehandlung KANN Service Level verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Service Level |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Behandlung von Sicherheitsvorfällen](documentation_guidelines_Behandlung von Sicherheitsvorfällen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN Service Level verankern.</span>
 
 > [!info]- Guidance
 >Service Level bei der Sicherheitsvorfallsbehandlung legen verbindliche Zielvorgaben für Reaktions- und Bearbeitungszeiten fest, z. B. wie schnell ein Sicherheitsvorfall erkannt, bestätigt, eingestuft und gelöst werden muss. Damit wird sichergestellt, dass alle Beteiligten klare Erwartungen an Schnelligkeit und Qualität der Reaktion haben.

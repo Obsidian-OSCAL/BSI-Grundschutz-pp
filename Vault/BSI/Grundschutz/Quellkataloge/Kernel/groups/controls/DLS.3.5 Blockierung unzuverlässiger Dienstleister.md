@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten_Exit-Strategie
+tags:
+- lieferketten_exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.3.5 Blockierung unzuverlässiger Dienstleister
+stmt_modal_verb: SOLLTE
+stmt_action_word: blockieren
+stmt_documentation: Prozess Beschaffung
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.5 - Blockierung unzuverlässiger Dienstleister
-Tags: "[Lieferketten](tags_Lieferketten)" "[Exit-Strategie](tags_Exit-Strategie)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [DLS.3 Kontrolle von Dienstleistern](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *** |  | SOLLTE | unzuverlässige Dienstleister oder Subdienstleister |  | blockieren | Prozess Beschaffung | >Dienstleistersteuerung SOLLTE unzuverlässige Dienstleister oder Subdienstleister blockieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | unzuverlässige Dienstleister oder Subdienstleister |  | [blockieren](action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67) | [Prozess Beschaffung](documentation_guidelines_Prozess Beschaffung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung SOLLTE unzuverlässige Dienstleister oder Subdienstleister blockieren.</span>
 
 > [!info]- Guidance
 >Ein Dienstleister gilt als unzuverlässig, wenn zukünftig mit Verstößen gegen die Schutzziele Vertraulichkeit, Verfügbarkeit oder Integrität durch ihn zu rechnen ist (d.h. eine Prognose der Vertrauenswürdigkeit). Dies ist insbesondere dann der Fall, wenn erhebliche Verstöße gegen die Schutzziele bereits durch ihn begangen wurden oder Anzeichen dafür vorliegen, dass bei einer weiteren Verwendung mit solchen Verstößen zu rechnen ist. Beispielsweise kann dies eintreten, wenn die Verwendung des DNS-Servers eines wirtschaftlichen Konkurrenten diesem die schützenswerten Adressen von der Institution besuchter Internetseiten ausliefert oder eine Behörde Software mit Internetzugriff einsetzen möchte, die jedoch von einem Hersteller stammt, dessen Hauptsitz in einem öffentlich für politische Spionage bekannten Staat liegt. Dies kann durch eine Liste blockierter Vertragspartner umgesetzt werden. Eine Umsetzung für Subdienstleister kann z.B. durch die Benennung autorisierter Subdienstleister, oder die Weitergabe von Kriterien für Subdienstleister an den Dienstleister erfolgen.

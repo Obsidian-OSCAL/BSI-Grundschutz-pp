@@ -1,21 +1,28 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.6.7 Privilegierte Funktionen der Anwendung
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.7 - Privilegierte Funktionen der Anwendung
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.6 Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md) *** | Anwendungen | SOLLTE | privilegierte Funktionen |  | einschränken | Konfigurationshistorie | >Konfiguration für Anwendungen SOLLTE privilegierte Funktionen einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | privilegierte Funktionen |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen SOLLTE privilegierte Funktionen einschränken.</span>
 
 > [!info]- Guidance
 >Sind privilegierte Funktionen nicht eingeschränkt, so könnten Innentäter oder Angreifer über das Netz unbefugte Manipulationen vornehmen, Fehlkonfigurationen ausgelöst werden oder sich Schadcode automatisch einnisten. Privilegierte Funktionen können z.B. ein Berechtigungsmanagement der Anwendung, der Zugriff auf Daten mehrerer Zugangskonten, das Hinzufügen oder Entfernen akzeptierter X.509-Zertifikate, ein Moderationsrecht oder die Änderung der Sicherheitskonfiguration der Anwendung sein.

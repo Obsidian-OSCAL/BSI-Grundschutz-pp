@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.3.1.2 Integritätstest
 parent_control: TEST.3.1 Sicherheitstest
+stmt_modal_verb: SOLLTE
+stmt_action_word: testen
+stmt_documentation: Freigabeplan
+result_reference: Integrität
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +19,11 @@ Gruppe: [TEST.3 Tests](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.3%20Test
 
 ** Übergeordnetes Control: ** [TEST.3.1 Sicherheitstest](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/TEST.3.1%20Sicherheitstest.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Tests](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.3%20Tests.md) *** |  | SOLLTE | die Integrität von Installationsdateien |  | testen | Freigabeplan | >Änderungen und Tests SOLLTE die Integrität von Installationsdateien testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Tests](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.3%20Tests.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Integrität von Installationsdateien |  | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Freigabeplan](documentation_guidelines_Freigabeplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE die Integrität von Installationsdateien testen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Integrität](result_Integrität_00000000-0000-0000-0000-000000000000) | Eigenschaft, dass Informationen nur genau dann geändert oder gelöscht werden, wenn die Institution dies beabsichtigt hat. |
 
 > [!info]- Guidance
 >Dies kann z.B. durch Vergleich von Prüfsummen geschehen. Wenn möglich ist der Einsatz automatisierter Prüfungen empfehlenswert, es kann aber auch ein manueller Abgleich z.B. mit der Herstellerwebseite erfolgen.

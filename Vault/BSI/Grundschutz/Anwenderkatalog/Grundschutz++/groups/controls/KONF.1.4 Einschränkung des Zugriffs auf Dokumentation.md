@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.1.4 Einschränkung des Zugriffs auf Dokumentation
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Konfigurationshistorie
+result_reference: Zugriff
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,11 @@ Gruppe: [KONF.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.1%20Grundlagen.md) *** |  | SOLLTE | den Zugriff auf dokumentierte Konfigurationen |  | einschränken | Konfigurationshistorie | >Konfiguration SOLLTE den Zugriff auf dokumentierte Konfigurationen einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.1%20Grundlagen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Zugriff auf dokumentierte Konfigurationen |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration SOLLTE den Zugriff auf dokumentierte Konfigurationen einschränken.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugriff](result_Zugriff_00000000-0000-0000-0000-000000000000) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
 >„Dokumentierte Konfigurationen“ sind hierbei festgehaltene Einstellungen von IT-Systemen, Anwendungen, Netzwerken oder Sicherheitskomponenten, die in schriftlicher oder elektronischer Form vorliegen und den Sollzustand einer IT-Umgebung definieren. Der Zweck der Vorschrift liegt darin, die Integrität und Vertraulichkeit solcher Konfigurationsinformationen zu schützen. Ein unkontrollierter Zugriff könnte beispielsweise dazu führen, dass ein Unbefugter Passworteinstellungen oder Firewall-Regeln manipuliert. Aus der Konfiguration von IT-Systemen könnte ein Angreifer zudem wichtige Informationen zu möglichen Schwachstellen ablesen (z.B. bei technisch notwendiger Verwendung schwacher Verschlüsselungsalgorithmen oder unsicherer Authentisierungsprotokolle wie NTLM). Ein strikter Zugriffsschutz (z.B. durch restriktive Berechtigungen oder Verschlüsselung) verhindert den unberechtigten Zugriff zu diesen sensiblen Informationen. Praktisch hilfreich kann auch sein, Konfigurationen verschlüsselt abzulegen und bei elektronischen Repositories sogenannte „Branch Protection“-Mechanismen einzusetzen, sodass Änderungen nur über geprüfte Freigabeprozesse übernommen werden können. Auf Papier vorliegende Konfigurationen kann die Institution in verschlossenen Schränken oder Archiven mit eingeschränktem Personenkreis verwahren.

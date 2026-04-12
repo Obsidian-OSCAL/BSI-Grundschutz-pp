@@ -1,21 +1,28 @@
 ---
-tags: Security_by_Design
+tags:
+- security_by_design
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.2.2 Dokumentation der (Software-)Architektur
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Entwicklungsdokumentation
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.2 - Dokumentation der (Software-)Architektur
-Tags: "[Security by Design](tags_Security by Design)"
+Tag: [[tags_Security by Design|Security by Design]]
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *** | Anwendungen | SOLLTE | die Architektur |  | dokumentieren | Entwicklungsdokumentation | >Entwicklung für Anwendungen SOLLTE die Architektur dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Architektur |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Entwicklungsdokumentation](documentation_guidelines_Entwicklungsdokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE die Architektur dokumentieren.</span>
 
 > [!info]- Guidance
 >Die Architektur bezeichnet im konkreten Kontext die strukturierte Beschreibung der grundlegenden Komponenten einer Software sowie deren Schnittstellen, Abhängigkeiten und das Datenmodell. Sie stellt dar, wie Module, Datenflüsse und externe Systeme ineinandergreifen, und bildet damit das Gerüst für Wartung, Weiterentwicklung und Sicherheitsbewertungen. Ohne dokumentierte Architektur könnte eine Institution nach Jahren vor der Situation stehen, dass nur einzelne Entwickler den Aufbau verstehen, was den Wissenstransfer erschwert und bei Personalwechseln erhebliche Risiken birgt. Eine unklare oder fehlende Dokumentation könnte zudem dazu führen, dass Abhängigkeiten von proprietären Technologien übersehen werden, wodurch sich ein Vendor Lock-in entwickelt, der die Institution langfristig bindet. Umgekehrt kann eine nachvollziehbare Architektur Dokumentation sicherstellen, dass Schwachstellenanalysen effizient durchgeführt werden, dass Sicherheitslücken frühzeitig erkannt werden und dass neue Entwickler schneller eingearbeitet werden können. Zur Umsetzung der Anforderung kann eine Institution standardisierte Diagrammtypen wie UML oder C4 einsetzen, um Abhängigkeiten und Schnittstellen verständlich abzubilden. Hilfreich kann es sein, die Architektur in mehreren Sichten zu dokumentieren, etwa eine logische Sicht (Funktionen und Module), eine technologische Sicht (Server, Container, Frameworks) und eine sicherheitsrelevante Sicht (z. B. Trust Boundaries). Die Dokumentation kann in Versionskontrollsystemen wie Git gepflegt werden, sodass Änderungen an Architekturentscheidungen nachvollziehbar bleiben. Ergänzend kann es praktikabel sein, automatisierte Werkzeuge einzusetzen, die Code-Strukturen analysieren und Diagramme generieren, wodurch Konsistenz zwischen Dokumentation und Implementierung unterstützt werden kann.

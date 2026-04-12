@@ -1,8 +1,15 @@
 ---
-tags: asst76-prm1
+tags:
+- asst76-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.6 Autorisierung von Veräußerungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: autorisieren
+stmt_documentation: IT-Betriebskonzept
+result_reference: Asset
+control_effort_level: '2'
 ---
 
 
@@ -12,9 +19,11 @@ Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *** |  | SOLLTE | Veräußerungen von Assets | durch {{eine zuständige Person oder Rolle}} | autorisieren | IT-Betriebskonzept | >Informationen und Assets SOLLTE Veräußerungen von Assets durch {{ insert: param, asst.7.6-prm1 }} autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Veräußerungen von Assets | durch {{eine zuständige Person oder Rolle}} | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE Veräußerungen von Assets durch {{ insert: param, asst.7.6-prm1 }} autorisieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Veräußerung bezeichnet in diesem Kontext jede endgültige Abgabe oder Eigentumsübertragung (Verkauf, Spende, Rückgabe an Leasing, Recycling) eines Assets. Die Autorisierung kann verhindern, dass schutzbedürftige Informationen unkontrolliert den Besitz wechseln, Compliance-Vorgaben übersehen werden und Verantwortlichkeiten verwischen. Ohne geregelte Freigabe könnte ein ausgemusterter Laptop mit Restdaten verkauft, ein Speicherarray mit verbleibenden Schlüsseln weitergegeben oder eine nicht übertragbare Softwarelizenz abgegeben werden, was zu Datenabfluss, Vertragsverletzungen und Reputationsschäden führen könnte. Zur Umsetzung kann die Institution einen schlanken, nachvollziehbaren Freigabe-Workflow etablieren: Ein Veräußerungsantrag kann Asset-ID/Inventarnummer, Asset-Owner, Schutzbedarf/Klassifizierung, Datenträgerart, vorgesehenes Verwertungsverfahren, gewählte Datenlösch-/Vernichtungsmethode, Lizenz-/Vertragsrestriktionen, Übergabedatum und Empfänger erfassen; die Freigabe kann vor Übergabe erfolgen und revisionssicher protokolliert werden. Eine Entscheidungsmatrix kann die Genehmigungstiefe nach Schutzbedarf steuern, z. B. (1) „öffentlich“: fachliche Freigabe, (2) „intern“: Asset Owner + IT-Freigabe, (3) „vertraulich/streng“: Vier-Augen-Prinzip aus zuständige Person oder Rolle und Informationssicherheitsbeauftragte/r.

@@ -1,22 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.4 Vollständigkeit der Unterlagen
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Abnahmeprotokoll
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.4 - Vollständigkeit der Unterlagen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.7.4.1 Beschreibung der Sicherheitsarchitektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.1%20Beschreibung%20der%20Sicherheitsarchitektur.md)> [BES.7.4.2 Beschreibung von Sicherheitsmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.2%20Beschreibung%20von%20Sicherheitsmechanismen.md)> [BES.7.4.3 Empfohlene Konfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.3%20Empfohlene%20Konfiguration.md)> [BES.7.4.4 Dokumentation der Komponenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.4%20Dokumentation%20der%20Komponenten.md)> [BES.7.4.5 Netzverbindungen ab Werk](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.5%20Netzverbindungen%20ab%20Werk.md)> [BES.7.4.6 Shared Responsibility](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.6%20Shared%20Responsibility.md)> [BES.7.4.7 Organisatorische Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.7%20Organisatorische%20Schnittstellen.md)> [BES.7.4.8 Technische Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.8%20Technische%20Schnittstellen.md)> [BES.7.4.9 Auslagerungsregister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.9%20Auslagerungsregister.md)> [BES.7.4.10 Serviceprofil](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.10%20Serviceprofil.md)> [BES.7.4.11 Dokumentierte Mandantentrennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.11%20Dokumentierte%20Mandantentrennung.md)> [BES.7.4.12 Software Bill of Materials (SBOM) - Cloud](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.12%20Software%20Bill%20of%20Materials%20(SBOM)%20-%20Cloud.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md) *** | Einkäufe | SOLLTE | Informationen, die für eine bestimmungsgemäße Verwendung im Informationsverbund erforderlich sind, |  | dokumentieren | Abnahmeprotokoll | >Beschaffungsmanagement für Einkäufe SOLLTE Informationen, die für eine bestimmungsgemäße Verwendung im Informationsverbund erforderlich sind, dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Informationen, die für eine bestimmungsgemäße Verwendung im Informationsverbund erforderlich sind, |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Abnahmeprotokoll](documentation_guidelines_Abnahmeprotokoll) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE Informationen, die für eine bestimmungsgemäße Verwendung im Informationsverbund erforderlich sind, dokumentieren.</span>
 
 > [!info]- Guidance
 >Dient in erster Linie dazu, sicherheitsrelevante Eigenschaften, Abhängigkeiten und Einsatzbedingungen nachvollziehbar festzuhalten. Ohne diese Informationen könnte es zu Fehlkonfigurationen, unsachgemäßem Betrieb oder unentdeckten Schwachstellen kommen, etwa wenn sicherheitskritische Firmware-Updates, empfohlene Hardening-Anleitungen oder Hinweise zu bekannten Sicherheitslücken nicht beachtet werden. So könnte beispielsweise ein Netzwerkgerät ohne die dokumentierten Herstellerhinweise zu sicheren Standardpasswörtern betrieben werden, wodurch Angreifer einfachen Zugriff erlangen könnten. Für diesen Kontext bedeutet „Informationen, die für eine bestimmungsgemäße Verwendung der Beschaffung im Informationsverbund erforderlich sind“ sämtliche sicherheitsrelevanten Dokumente, Konfigurationshinweise, Updateanweisungen und Supportinformationen, die erforderlich sind, damit beschaffte Produkte und Dienste so verwendet werden können, wie in den Beschaffungskriterien vorgesehen.  Am einfachsten kann diese Anforderung erfüllt werden, indem die erforderlichen Informationen vom Lieferanten oder Hersteller mitgeliefert werden. Alternativ ist es auch möglich, dass die Institution die Dokumentation selbst vornimmt, z.B. in Zusammenarbeit mit dem Lieferanten, durch Untersuchung der Lieferung oder durch Ablage von Informationen, welche der Hersteller auf seiner Webseite bereitgestellt hat. Eine praktische Umsetzung kann darin bestehen, dass die Institution im Rahmen des Beschaffungsprozesses gezielt nach sicherheitsrelevanten Unterlagen fragt und diese zentral ablegt, etwa in einem internen Dokumentationssystem, auf das die zuständigen Administratoren und IT-Sicherheitsverantwortlichen zugreifen können. Hierbei kann es hilfreich sein, Checklisten einzusetzen, die beim Wareneingang oder der Inbetriebnahme prüfen, ob etwa Handbücher mit sicherheitsrelevanten Konfigurationsempfehlungen, Updatepläne, Zertifikate oder Kompatibilitätslisten vorliegen. Auch kann die Institution eine eindeutige Referenzierung der Unterlagen vornehmen, damit später nachvollziehbar ist, welche Version der Herstellerinformationen bei Inbetriebnahme zugrunde lag. Um die Nutzbarkeit zu erhöhen, kann eine Kurzfassung der relevanten Sicherheitspunkte in die interne Betriebsdokumentation übernommen werden, während die Originalunterlagen für Detailfragen hinterlegt bleiben. Bei wiederkehrenden Beschaffungen ähnlicher Komponenten kann zudem eine Vorlagenstruktur helfen, in der die typischen Unterlagenarten und deren Ablageorte definiert sind. So wird sichergestellt, dass die sicherheitsrelevanten Informationen nicht nur vorhanden, sondern auch im Bedarfsfall schnell auffindbar und anwendbar sind.

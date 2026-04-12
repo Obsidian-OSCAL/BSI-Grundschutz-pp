@@ -1,23 +1,30 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.12.1.6 JavaScript
 parent_control: KONF.12.1 Eingabevalidierung
+stmt_target_object_category: Webbrowser
+stmt_modal_verb: KANN
+stmt_action_word: einschränken
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.1.6 - JavaScript
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
 ** Übergeordnetes Control: ** [KONF.12.1 Eingabevalidierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1%20Eingabevalidierung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *** | Webbrowser | KANN | JavaScript |  | einschränken | Konfigurationshistorie | >Konfiguration für Webbrowser KANN JavaScript einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Webbrowser](target_object_categories_Webbrowser_8b64663c-8388-40bc-a68b-473e753ae4d0) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | JavaScript |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Webbrowser KANN JavaScript einschränken.</span>
 
 > [!info]- Guidance
 >Schadcode in JavaScript kann unbefugt auf sensible Daten zugreifen oder die angezeigte Webseite manipulieren. Da viele Webseiten JavaScript zur Ausführung benötigen, ist die Deaktivierung von JavaScript mit erheblichen funktionalen Einschränkungen verbunden. Ein möglicher Kompromiss ist, dass Administrierende oder Nutzende Ausnahmen für einzelne Seiten hinzufügen können.

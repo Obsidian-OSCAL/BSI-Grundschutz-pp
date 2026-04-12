@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.8 Rechte für geistges Eigentum
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.8 - Rechte für geistges Eigentum
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Dienstleistungen | SOLLTE | für geistiges Eigentum, das während der Vertragslaufzeit entwickelt wird,  die Eigentumsrechte |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen SOLLTE für geistiges Eigentum, das während der Vertragslaufzeit entwickelt wird,  die Eigentumsrechte vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | für geistiges Eigentum, das während der Vertragslaufzeit entwickelt wird,  die Eigentumsrechte |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE für geistiges Eigentum, das während der Vertragslaufzeit entwickelt wird,  die Eigentumsrechte vereinbaren.</span>
 
 > [!info]- Guidance
 >Geistiges Eigentum meint hier alle während der Vertragslaufzeit entstehenden immateriellen Schutzgüter wie Softwarecode, Datenmodelle, Konzepte, technische Dokumentationen oder urheberrechtlich geschützte Inhalte, die im Rahmen der Dienstleistungserbringung entwickelt oder verbessert werden. Der Sinn und Zweck einer vertraglichen Regelung der Eigentumsrechte liegt darin, sicherzustellen, dass die Institution dauerhaft Kontrolle und Nutzungsrechte über Ergebnisse behält, die für ihren Betrieb oder ihre Weiterentwicklung relevant sind. Ohne klare Festlegung könnte es zu Konflikten kommen, wenn ein Dienstleister etwa nach Projektende die weitere Nutzung einer entwickelten Lösung untersagt oder hohe Lizenzgebühren verlangt; eine vertragliche Klarheit kann dagegen rechtliche Auseinandersetzungen und Abhängigkeiten verhindern. Eine Umsetzung kann über konkrete Vertragsklauseln erfolgen, die präzise definieren, welche Partei Eigentum oder Nutzungsrechte an entwickelten Ergebnissen erhält und ob bestimmte Elemente (z. B. Standardbibliotheken des Dienstleisters) ausgenommen sind. Dazu kann die Institution (1) standardisierte Vertragsvorlagen mit abgestuften Rechtemodellen nutzen, (2) ein internes Prüfschema für alle externen Verträge etablieren, das die Einbindung der Rechtsabteilung vorsieht, und (3) bei komplexen Entwicklungsleistungen technische Dokumentationspflichten verankern, damit Eigentums- und Nutzungsrechte nachvollziehbar abgesichert sind. Praktisch kann es helfen, im Vertrag eine Übergabepflicht sämtlicher Quelltexte, Dokumentationen oder Zugangsdaten vorzusehen und diese an definierte Projektmeilensteine zu koppeln.

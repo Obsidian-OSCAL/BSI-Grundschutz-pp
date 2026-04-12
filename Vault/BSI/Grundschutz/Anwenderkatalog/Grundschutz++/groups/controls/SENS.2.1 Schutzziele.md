@@ -1,7 +1,17 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.2.1 Schutzziele
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+result_reference:
+- Integrität
+- Verfügbarkeit
+- Vertraulichkeit
+control_effort_level: '1'
 ---
 
 
@@ -11,9 +21,11 @@ Gruppe: [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/G
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md) *** | Nutzende | SOLLTE | zu den Schutzzielen Verfügbarkeit, Vertraulichkeit und Integrität |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE zu den Schutzzielen Verfügbarkeit, Vertraulichkeit und Integrität sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zu den Schutzzielen Verfügbarkeit, Vertraulichkeit und Integrität |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zu den Schutzzielen Verfügbarkeit, Vertraulichkeit und Integrität sensibilisieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Integrität](result_Integrität_00000000-0000-0000-0000-000000000000) | Eigenschaft, dass Informationen nur genau dann geändert oder gelöscht werden, wenn die Institution dies beabsichtigt hat. |> > | [Verfügbarkeit](result_Verfügbarkeit_00000000-0000-0000-0000-000000000000) | Eigenschaft der Information zugänglich und nutzbar zu sein, wenn eine befugte Entität Bedarf hat. |> > | [Vertraulichkeit](result_Vertraulichkeit_00000000-0000-0000-0000-000000000000) | Eigenschaft, dass die Information unbefugten Personen, Entitäten oder Prozessen nicht verfügbar gemacht oder offengelegt wird. |
 
 > [!info]- Guidance
 >Für die grundlegende Schulung kann z.B. auf den Online-Kurs des BSI zum IT-Grundschutz zurückgegriffen werden.

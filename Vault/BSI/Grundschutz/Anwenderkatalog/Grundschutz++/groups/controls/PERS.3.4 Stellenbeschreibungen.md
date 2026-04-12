@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.3.4 Stellenbeschreibungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Prozess Personalmanagement
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [PERS.3 Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.3%20Personalzugang.md) *** |  | SOLLTE | Stellenbeschreibungen | vor Ausschreibung zu besetzender Stellen | dokumentieren | Prozess Personalmanagement | >Personal SOLLTE Stellenbeschreibungen vor Ausschreibung zu besetzender Stellen dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.3%20Personalzugang.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Stellenbeschreibungen | vor Ausschreibung zu besetzender Stellen | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Prozess Personalmanagement](documentation_guidelines_Prozess Personalmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal SOLLTE Stellenbeschreibungen vor Ausschreibung zu besetzender Stellen dokumentieren.</span>
 
 > [!info]- Guidance
 >Eine Stellenbeschreibung ist hier ein Dokument, das die zentralen Aufgaben, Verantwortlichkeiten, Befugnisse und fachlichen sowie sicherheitsrelevanten Kriterien einer Position vor deren Ausschreibung festhält. Der Zweck dieser Anforderung liegt darin, klare Rollen und Verantwortlichkeiten zu definieren, um sowohl Fehlbesetzungen als auch unklare Zuständigkeiten zu vermeiden. Ohne eine dokumentierte Stellenbeschreibung könnte eine Institution Personen einstellen, deren Qualifikation oder Vertrauenswürdigkeit nicht den tatsächlichen sicherheitsrelevanten Kriterien entsprechen, was zu erhöhtem Missbrauchsrisiko oder unzureichender Aufgabenerfüllung führen könnte. Eine sauber ausgearbeitete Stellenbeschreibung kann dagegen Transparenz schaffen, spätere Konflikte reduzieren und die Sicherheit erhöhen, indem bereits im Auswahlprozess klar wird, welche Fachkenntnisse und Integritätsanforderungen benötigt werden. Beachten Sie dabei auch rechtliche Anforderungen wie das AGG. Zur Umsetzung kann eine Institution zunächst ein standardisiertes Format für Stellenbeschreibungen verwenden, in dem u.a. Aufgabenbereiche, Verantwortlichkeiten, sowie erforderliche fachliche und sicherheitsrelevante Qualifikationen erfasst werden. Eine abgestufte Vorlage kann bei unterschiedlichen Rollenarten (z.B. operative Mitarbeitende, Teamleitungen, Fachspezialisten) helfen, die Konsistenz zu wahren. Prozessual kann eine interne Prüfschleife eingerichtet werden, in der HR und die jeweilige Fachabteilung die Beschreibung autorisieren, bevor eine Stelle öffentlich ausgeschrieben wird. Außerdem kann es hilfreich sein, regelmäßig zu prüfen, ob bestehende Stellenbeschreibungen noch zu aktuellen Prozessen und eingesetzten Technologien passen, sodass keine veralteten oder unvollständigen Kriterien in die Rekrutierung einfließen.

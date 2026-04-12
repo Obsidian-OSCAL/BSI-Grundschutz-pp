@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+stmt_documentation: BC-Leitlinie
+control_effort_level: '0'
 ---
 
 
@@ -10,11 +15,11 @@ control: NOT.1.1 Verfahren und Regelungen
 Gruppe: [NOT.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [NOT.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.1%20Dokumentation.md)> [NOT.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [NOT.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.3%20Bekanntgabe.md)> [NOT.1.1.4 Business Continuity Management System](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.4%20Business%20Continuity%20Management%20System.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zur Vorsorge für Notfälle der Informationssicherheit |  | verankern | BC-Leitlinie | >Notfallplanung MUSS Verfahren und Regelungen zur Vorsorge für Notfälle der Informationssicherheit verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren und Regelungen zur Vorsorge für Notfälle der Informationssicherheit |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [BC-Leitlinie](documentation_guidelines_BC-Leitlinie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung MUSS Verfahren und Regelungen zur Vorsorge für Notfälle der Informationssicherheit verankern.</span>
 
 > [!info]- Guidance
 >Für ein Managementsystem der Informationssicherheit ist es erforderlich, dass auch für Notfälle vorgesorgt wird, z.B. durch eine Datensicherung, so dass bei einer Naturkatastrophe wichtige Daten wiederhergestellt werden können. Dies kann durch den Aufbau eines dafür vorgesehenen Managementsystems (BCMS) oder die Umsetzung der einzelnen Anforderungen dieser Praktik geschehen. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte, die bei der Festlegung des Verfahrens zu berücksichtigen sind, ergeben sich aus den Anforderungen dieser Praktik. Es empfiehlt sich ebenfalls Wiederherstellungsmöglichkeiten und Alternativen für administrative Zugänge zu betrachten.

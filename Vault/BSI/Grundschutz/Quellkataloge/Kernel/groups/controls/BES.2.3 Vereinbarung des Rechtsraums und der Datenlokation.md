@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.3 Vereinbarung des Rechtsraums und der Datenlokation
+stmt_target_object_category: Cloud-Dienste
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.3 - Vereinbarung des Rechtsraums und der Datenlokation
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md) *** | Cloud-Dienste | KANN | Rechtsraum und Datenlokation mit dem Anbieter |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Cloud-Dienste KANN Rechtsraum und Datenlokation mit dem Anbieter vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Cloud-Dienste](target_object_categories_Cloud-Dienste_d2a23b62-9c66-4f72-98e2-17518d5dbe0f) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Rechtsraum und Datenlokation mit dem Anbieter |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Cloud-Dienste KANN Rechtsraum und Datenlokation mit dem Anbieter vereinbaren.</span>
 
 > [!info]- Guidance
 >Beispielsweise könnte die Datenlokation auf europäische Standorte eingeschränkt sein, während der Anbieter seinen Hauptsitz im außereuropäischen Rechtsraum hat und daher nicht der DSGVO unterliegt. Werden keine Daten aus dem Informationsverbund verarbeitet, so ist die Anforderung entbehrlich.

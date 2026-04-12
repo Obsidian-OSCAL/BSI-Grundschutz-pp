@@ -1,8 +1,15 @@
 ---
-tags: asst73-prm1
+tags:
+- asst73-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.3 Geregeltes Löschen oder Vernichten
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: löschen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
@@ -11,11 +18,11 @@ control: ASST.7.3 Geregeltes Löschen oder Vernichten
 Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ASST.7.3.1 Standardisierte Vernichtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3.1%20Standardisierte%20Vernichtung.md)> [ASST.7.3.2 Löschverfahren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3.2%20Löschverfahren.md)> [ASST.7.3.3 Zugelassene Löschanwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3.3%20Zugelassene%20Löschanwendungen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md) *** | Daten | SOLLTE | diese bei Erreichen der Aufbewahrungs- und Löschfrist | durch {{kryptografisches löschen, überschreiben oder vernichten des Speichermediums}} | löschen | Arbeitsanweisung | >Informationen und Assets für Daten SOLLTE diese bei Erreichen der Aufbewahrungs- und Löschfrist durch {{ insert: param, asst.7.3-prm1 }} löschen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | diese bei Erreichen der Aufbewahrungs- und Löschfrist | durch {{kryptografisches löschen, überschreiben oder vernichten des Speichermediums}} | [löschen](action_words_löschen_78d93859-b886-4145-9dd8-201869ce158e) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE diese bei Erreichen der Aufbewahrungs- und Löschfrist durch {{ insert: param, asst.7.3-prm1 }} löschen.</span>
 
 > [!info]- Guidance
 >Ereignisse können z.B. der Ablauf der festgelegten Löschfrist, die Veräußerung von Assets oder deren Weitergabe an einen Dienstleister sein. Relevant sind hierbei neben physischen und virtuellen Medien auch die Datenträger in IT-Systemen wie Notebooks und Fahrzeugen. Sicheres Löschen bedeutet, Daten so zu entfernen, dass sie mit vertretbarem Aufwand (auch forensisch) nicht mehr rekonstruierbar sind. Je nach Medium geschieht das z. B. durch verifizierbares Überschreiben, kryptografisches Löschen (Schlüsselvernichtung) oder physische Zerstörung (inklusive zugehöriger Metadaten, Caches und Datensicherungen). Die Anforderung ist auch erfüllt, wenn sie durch einen Dienstleister durchgeführt wird, der hierzu verpflichtet ist.

@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.5.3 Weitergabe von Erreichbarkeiten
+stmt_target_object_category: Nutzende
+stmt_modal_verb: KANN
+stmt_action_word: untersagen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.5 Umgang mit Informationen](BSI/Grundschutz/Quellkataloge/Kernel/g
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit Informationen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.5%20Umgang%20mit%20Informationen.md) *** | Nutzende | KANN | die Veröffentlichung oder Weitergabe von Erreichbarkeiten an unbefugte Dritte |  | untersagen | Arbeitsanweisung | >Sensibilisierung für Nutzende KANN die Veröffentlichung oder Weitergabe von Erreichbarkeiten an unbefugte Dritte untersagen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit Informationen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.5%20Umgang%20mit%20Informationen.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Veröffentlichung oder Weitergabe von Erreichbarkeiten an unbefugte Dritte |  | [untersagen](action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende KANN die Veröffentlichung oder Weitergabe von Erreichbarkeiten an unbefugte Dritte untersagen.</span>
 
 > [!info]- Guidance
 >Dient dem Schutz vor Social Engineering-Angriffen und der Minimierung von Angriffsflächen durch Informationspreisgabe. Erreichbarkeiten umfassen dabei alle Kontaktinformationen wie Telefonnummern, E-Mail-Adressen, Instant-Messaging-Handles, interne Durchwahlen oder physische Standortangaben von Mitarbeitenden, die Angreifer für gezielte Phishing-Kampagnen, Vishing-Anrufe oder physische Infiltrationsversuche nutzen könnten. Ein Vorfall könnte z.B. entstehen, wenn eine Direktwahl des IT-Betriebs in sozialen Netzwerken preisgegeben wird und Angreifer diese für Pretexting nutzen, um sich als IT-Support auszugeben und Zugangsdaten zu erschleichen, oder wenn durch die Veröffentlichung von Abteilungsstrukturen mit einzelnen Kontaktdaten Angreifer gezielt Führungskräfte für CEO-Fraud identifizieren könnten.

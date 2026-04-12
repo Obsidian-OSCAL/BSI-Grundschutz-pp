@@ -1,8 +1,14 @@
 ---
-tags: geb92-prm1
+tags:
+- geb92-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.9.2 Lasttest
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+control_effort_level: '5'
 ---
 
 
@@ -12,9 +18,9 @@ Gruppe: [GEB.9 Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *** | Standorte | KANN | die Belastbarkeit der Stromversorgung | {{regelmäßig}} | überprüfen | Übungs- und Prüfplan | >Gebäudemanagement für Standorte KANN die Belastbarkeit der Stromversorgung {{ insert: param, geb.9.2-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Belastbarkeit der Stromversorgung | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Übungs- und Prüfplan | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN die Belastbarkeit der Stromversorgung {{ insert: param, geb.9.2-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Die Maßnahmen richten sich nach den geltenden Anforderungen an die Stromversorgung. Beispiele sind ein monatlicher USV-Selbsttest oder ein halbjährlicher Volllastbetrieb des Generators für mindestens 30 Minuten.

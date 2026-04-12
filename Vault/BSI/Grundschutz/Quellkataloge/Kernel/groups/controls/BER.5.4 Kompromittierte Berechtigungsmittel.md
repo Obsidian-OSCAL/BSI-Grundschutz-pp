@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.5.4 Kompromittierte Berechtigungsmittel
+stmt_modal_verb: SOLLTE
+stmt_action_word: deaktivieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '1'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [BER.5 Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/gro
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md) *** |  | SOLLTE | kompromittierte Berechtigungsmittel |  | deaktivieren | IT-Betriebskonzept | >Berechtigung SOLLTE kompromittierte Berechtigungsmittel deaktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | kompromittierte Berechtigungsmittel |  | [deaktivieren](action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE kompromittierte Berechtigungsmittel deaktivieren.</span>
 
 > [!info]- Guidance
 >Ein Berechtigungsmittel gilt als kompromittiert, wenn Anzeichen bestehen, dass Unbefugte es nutzen oder Zugriff darauf gehabt haben könnten. Beispiele sind Passwörter, die durch Datenlecks öffentlich geworden sind, oder biometrische Merkmale (z. B. Fingerabdrücke), die Unbefugten vorliegen. In solchen Fällen ist das Berechtigungsmittel zu sperren oder zu entziehen, etwa durch den Einsatz von Sperrlisten. Bei biometrischen Merkmalen besteht zusätzlich ein enger Bezug zu datenschutzrechtlichen Anforderungen, da diese Daten nicht einfach ausgetauscht werden können.

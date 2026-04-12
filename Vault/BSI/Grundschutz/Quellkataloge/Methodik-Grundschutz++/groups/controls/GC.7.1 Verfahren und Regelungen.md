@@ -1,22 +1,28 @@
 ---
-tags: Compliance_Management
+tags:
+- compliance_management
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.7.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+stmt_documentation: Compliance-Verpflichtungen
+control_effort_level: '0'
 ---
 
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # GC.7.1 - Verfahren und Regelungen
-Tags: "[Compliance Management](tags_Compliance Management)"
+Tag: [[tags_Compliance Management|Compliance Management]]
 Gruppe: [GC.7 Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GC.7.1.1 Gesetzliche Verpflichtungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.1%20Gesetzliche%20Verpflichtungen.md)> [GC.7.1.2 Anhörung zuständiger Stellen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.2%20Anhörung%20zuständiger%20Stellen.md)> [GC.7.1.3 Vertragliche Verpflichtungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.3%20Vertragliche%20Verpflichtungen.md)> [GC.7.1.4 Prävention von Verstößen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.4%20Prävention%20von%20Verstößen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md) *** |  | MUSS | ein Verfahren zur Sammlung, Integration und Priorisierung aller für das Informationssicherheitsmanagement relevanten Rahmenbedingungen |  | verankern | Compliance-Verpflichtungen | >Governance und Compliance MUSS ein Verfahren zur Sammlung, Integration und Priorisierung aller für das Informationssicherheitsmanagement relevanten Rahmenbedingungen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | ein Verfahren zur Sammlung, Integration und Priorisierung aller für das Informationssicherheitsmanagement relevanten Rahmenbedingungen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Compliance-Verpflichtungen](documentation_guidelines_Compliance-Verpflichtungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS ein Verfahren zur Sammlung, Integration und Priorisierung aller für das Informationssicherheitsmanagement relevanten Rahmenbedingungen verankern.</span>
 
 > [!info]- Guidance
 >Das Compliance Management stellt sicher, dass alle gesetzlichen, regulatorischen und vertraglichen Verpflichtungen im Bereich der Informationssicherheit eingehalten werden. Identifizieren, überwachen und bewerten Sie Verpflichtungen, um rechtliche Konsequenzen, finanzielle Verluste oder Reputationsschäden zu vermeiden. Aufgrund der hohen Komplexität des modernen Rechts ist für die Rechtspflege eine eigene Rechtsabteilung oder die Beauftragung von Mitgliedern der rechtsberatenden Berufe zweckmäßig. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den Anforderungen dieser Praktik.

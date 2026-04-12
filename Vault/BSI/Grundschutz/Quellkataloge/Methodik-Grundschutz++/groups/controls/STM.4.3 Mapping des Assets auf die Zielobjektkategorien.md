@@ -1,7 +1,15 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.4.3 Mapping des Assets auf die Zielobjektkategorien
+stmt_modal_verb: MUSS
+stmt_action_word: zuweisen
+result_reference:
+- Asset
+- Zielobjekt
+- Zielobjektkategorie
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +19,11 @@ Gruppe: [STM.4 Asset-Modellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grunds
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Asset-Modellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.4%20Asset-Modellierung.md) *** |  | MUSS | allen relevanten Assets passende Zielobjektkategorien |  | zuweisen |  | >Strukturmodellierung MUSS allen relevanten Assets passende Zielobjektkategorien zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Asset-Modellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.4%20Asset-Modellierung.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | allen relevanten Assets passende Zielobjektkategorien |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS allen relevanten Assets passende Zielobjektkategorien zuweisen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |> > | [Zielobjekt](result_Zielobjekt_00000000-0000-0000-0000-000000000000) | Zielobjekte sind alle Werte des Informationsverbunds, denen im Rahmen der Modellierung auf der Grundlage der Zielobjektkategorien ein oder mehrere Anforderungen zugeordnet werden. Zielobjekte können dabei physische Objekte sein, z. B. Notebook als Instanz eines IT-Systems. Häufig sind Zielobjekte jedoch logische Objekte, wie beispielsweise Organisationseinheiten, Anwendungen oder der gesamte Informationsverbund. Auch Personen (z.B. Nutzende) können Zielobjekte sein, obwohl sie im sonstigen Sprachgebrauch als Subjekte bezeichnet werden. |> > | [Zielobjektkategorie](result_Zielobjektkategorie_00000000-0000-0000-0000-000000000000) | Zielobjektkategorien sind Arten von Assets, die bei der Modellierung für die Abbildung von Anforderungen auf einzelne Zielobjekte verwendet werden. Eine Liste der im Grundschutz++ definierten Zielobjektkategorien ist in der Liste “Zielobjektkategorien.csv” zu finden. |
 
 > [!info]- Guidance
 >Zielobjektkategorien sind Teile des Informationsverbunds, denen im Rahmen der Modellierung Anforderungen zugeordnet werden können. Zielobjekt können dabei physische und logische Objekte sein. Durch das Mapping werden Assets damit in die Systematik des GS++ überführt. Die Zuordnung erfolgt anhand der Definitionen der Zielobjektkategorien. Für jedes Asset ist zu prüfen, welche Kategorie(n) seine Funktion und seinen Einsatz im Geschäftsprozess am besten abbilden. Ergebnis dieses Schritts ist eine Zielobjekt-Liste je Asset, welche die Grundlage für die spätere Ableitung der Anforderungen bildet.

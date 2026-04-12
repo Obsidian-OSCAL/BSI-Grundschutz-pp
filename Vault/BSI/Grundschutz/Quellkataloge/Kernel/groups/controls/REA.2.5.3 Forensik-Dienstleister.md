@@ -1,9 +1,15 @@
 ---
-tags: rea253-prm1
+tags:
+- rea253-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.5.3 Forensik-Dienstleister
 parent_control: REA.2.5 IT-Forensik
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+stmt_documentation: Liste der Hersteller und Dienstleister
+control_effort_level: '5'
 ---
 
 
@@ -14,9 +20,9 @@ Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Rea
 
 ** Übergeordnetes Control: ** [REA.2.5 IT-Forensik](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.5%20IT-Forensik.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)**<br> ***  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *** |  | KANN | die Bereitschaft eines Forensik-Dienstleisters | binnen {{einer Frist}} | vereinbaren | Liste der Hersteller und Dienstleister | >Sicherheitsvorfallsbehandlung KANN die Bereitschaft eines Forensik-Dienstleisters binnen {{ insert: param, rea.2.5.3-prm1 }} vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Bereitschaft eines Forensik-Dienstleisters | binnen {{einer Frist}} | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | [Liste der Hersteller und Dienstleister](documentation_guidelines_Liste der Hersteller und Dienstleister) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN die Bereitschaft eines Forensik-Dienstleisters binnen {{ insert: param, rea.2.5.3-prm1 }} vereinbaren.</span>
 
 > [!info]- Guidance
 >Um im Ernstfall eine schnelle Untersuchung von Sicherheitsvorfällen zu ermöglichen, kann die Institution bereits unabhängig von einem Vorfall einen Vertrag mit einem qualifizierten Forensik-Dienstleister abschließen. Die Anforderung ist erst umgesetzt, wenn der Dienstleister für den Ernstfall eine Erstreaktion innerhalb einer bestimmten Frist garantiert. Die Untersuchung aller Ergebnisse kann die Frist überschreiten.

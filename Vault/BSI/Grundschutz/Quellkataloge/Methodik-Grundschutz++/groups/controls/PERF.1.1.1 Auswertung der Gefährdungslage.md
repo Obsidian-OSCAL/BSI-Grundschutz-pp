@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.1.1.1 Auswertung der Gefährdungslage
 parent_control: PERF.1.1 Verfahren und Regelungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Metho
 
 ** Übergeordnetes Control: ** [PERF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *** |  | SOLLTE | die Gefährdungslage | in Bezug auf geänderte Rahmenbedingungen | überprüfen |  | >Monitoring-Evaluation SOLLTE die Gefährdungslage in Bezug auf geänderte Rahmenbedingungen überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Gefährdungslage | in Bezug auf geänderte Rahmenbedingungen | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE die Gefährdungslage in Bezug auf geänderte Rahmenbedingungen überprüfen.</span>
 
 > [!info]- Guidance
 >Die Auswertung der Gefährdungslage im Hinblick auf Veränderungen stellt sicher, dass neue oder veränderte Rahmenbedingungen (organisatorischer, technischer oder rechtlicher Art) potenziell zusätzliche Gefährdungen erzeugen und deshalb im ISMS berücksichtigt werden; konkrete Prüfpunkte umfassen technische Veränderungen wie die Einführung neuer IT-Systeme, Software, Netzwerktechnologien oder Cloud-Dienste, organisatorische Veränderungen wie Outsourcing, neue Standorte, Umstrukturierungen sowie veränderte Schnittstellen oder Verantwortlichkeiten, rechtliche und regulatorische Änderungen wie neue Gesetze (z. B. NIS2, Anpassungen der DSGVO) und Branchenvorgaben, die zusätzliche Compliance-Risiken begründen, sowie eine veränderte Bedrohungslage durch neue Angriffsarten, aktuelle Sicherheitsvorfälle und CERT-Warnungen, was eine Aktualisierung der Gefährdungskataloge erforderlich machen kann; daraus folgen eine regelmäßige Überprüfung der Gefährdungslage (z. B. halbjährlich oder anlassbezogen), die Anpassung der Risikobetrachtung bei identifizierten neuen Gefährdungen, die Ableitung neuer Schutzmaßnahmen bzw. die Nachbesserung bestehender sowie die nachvollziehbare Dokumentation von Prüfungen und Ergebnissen im ISMS.

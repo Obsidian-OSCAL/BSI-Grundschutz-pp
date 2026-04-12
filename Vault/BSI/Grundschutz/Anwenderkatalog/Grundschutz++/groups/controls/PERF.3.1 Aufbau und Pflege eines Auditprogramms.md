@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.3.1 Aufbau und Pflege eines Auditprogramms
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
@@ -10,11 +14,11 @@ control: PERF.3.1 Aufbau und Pflege eines Auditprogramms
 Gruppe: [PERF.3 Auditprogramm und -durchführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERF.3.1.1 Erstellen eines Auditsplans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.1%20Erstellen%20eines%20Auditsplans.md)> [PERF.3.1.2 Planen von internen Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.2%20Planen%20von%20internen%20Audits.md)> [PERF.3.1.3 Auswahl des Auditteams](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.3%20Auswahl%20des%20Auditteams.md)> [PERF.3.1.4 Umfang von Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.4%20Umfang%20von%20Audits.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Auditprogramm und -durchführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md) *** |  | MUSS | ein Verfahren zum Aufbau und zur Pflege eines oder mehrerer Auditprogramme |  | verankern |  | >Monitoring-Evaluation MUSS ein Verfahren zum Aufbau und zur Pflege eines oder mehrerer Auditprogramme verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Auditprogramm und -durchführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | ein Verfahren zum Aufbau und zur Pflege eines oder mehrerer Auditprogramme |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS ein Verfahren zum Aufbau und zur Pflege eines oder mehrerer Auditprogramme verankern.</span>
 
 > [!info]- Guidance
 >Ein Audit kann in unterschiedlichen Formen durchgeführt werden – beispielsweise als internes Audit durch eigene Mitarbeitende, als externes Audit durch unabhängige Dritte (z. B. für Zertifizierungen), als Überwachungs- oder Wiederholungsaudit, oder als Sonderaudit bei Sicherheitsvorfällen. Ziel ist es, die Einhaltung von Sicherheitsanforderungen, die Wirksamkeit von Maßnahmen sowie mögliche Schwachstellen zu prüfen.

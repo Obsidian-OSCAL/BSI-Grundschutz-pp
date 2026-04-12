@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.1.4.1 Kompatibilität der Schnittstellen
 parent_control: BES.2.1.4 Kompatibilität
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.1.4.1 - Kompatibilität der Schnittstellen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.2.1.4 Kompatibilität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4%20Kompatibilität.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *** | Einkäufe | SOLLTE | den Bedarf für die Kompatibilität | im Hinblick auf Schnittstellen | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf für die Kompatibilität im Hinblick auf Schnittstellen dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Bedarf für die Kompatibilität | im Hinblick auf Schnittstellen | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf für die Kompatibilität im Hinblick auf Schnittstellen dokumentieren.</span>
 
 > [!info]- Guidance
 >Kompatibilität im Hinblick auf Schnittstellen meint die Fähigkeit eines zu beschaffenden IT-Systems, einer Anwendung oder Komponente, mit bestehenden oder vorgesehenen IT- und OT-Umgebungen interoperabel zu sein; hierzu zählen technische Schnittstellen wie APIs (Application Programming Interfaces), Protokolle, Authentifizierungsmechanismen sowie physische oder virtuelle Netzanschlüsse. Eine Schnittstelle ist dabei jede definierte Übergabestelle, an der Daten, Signale oder Steuerinformationen zwischen Systemen ausgetauscht werden, einschließlich logischer (z. B. Webservices, REST, SOAP), datenbezogener (z. B. XML, JSON, CSV, authentifizierender (z.B. SAML oder OAuth 2.0) und infrastruktureller Anbindungen (z. B. VPN, TLS-gesicherte Verbindungen). Die Dokumentation des Bedarfs umfasst eine nachvollziehbare Beschreibung, welche bestehenden Infrastrukturen angebunden werden, welche Kommunikationsprotokolle und Sicherheitsmechanismen unterstützt werden und welche Abhängigkeiten oder Einschränkungen bestehen. Die Regelung zielt darauf ab, Integrationsrisiken frühzeitig zu erkennen und Fehlbeschaffungen zu vermeiden; ohne dokumentierten Kompatibilitätsbedarf könnte es zu Medienbrüchen, unsicheren Ad-hoc-Anbindungen oder kostenintensiven Nachrüstungen kommen, wodurch Sicherheitslücken entstehen könnten. Eine systematische Erfassung der Schnittstellenanforderungen kann hingegen sicherstellen, dass nur Lösungen ausgewählt werden, die sich kontrolliert und sicher in die bestehende Architektur einfügen lassen.

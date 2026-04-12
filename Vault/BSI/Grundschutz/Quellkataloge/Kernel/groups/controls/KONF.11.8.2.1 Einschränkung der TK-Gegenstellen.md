@@ -1,23 +1,30 @@
 ---
-tags: Produktbeschreibung_PSTN
+tags:
+- produktbeschreibung_pstn
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.11.8.2.1 Einschränkung der TK-Gegenstellen
 parent_control: KONF.11.8.2 Einschränkung von TK-Verbindungen
+stmt_target_object_category: TK-Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.8.2.1 - Einschränkung der TK-Gegenstellen
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)" "[PSTN](tags_PSTN)"
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_PSTN|PSTN]]
 Gruppe: [KONF.11 Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md)
 ---
 
 ** Übergeordnetes Control: ** [KONF.11.8.2 Einschränkung von TK-Verbindungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.11.8.2%20Einschränkung%20von%20TK-Verbindungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md) *** | TK-Anwendungen | SOLLTE | Verbindungen mit externen Gegenstellen |  | einschränken | Konfigurationshistorie | >Konfiguration für TK-Anwendungen SOLLTE Verbindungen mit externen Gegenstellen einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [TK-Anwendungen](target_object_categories_TK-Anwendungen_67f74abf-162d-4e47-a24a-6ff53e9b124d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Verbindungen mit externen Gegenstellen |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für TK-Anwendungen SOLLTE Verbindungen mit externen Gegenstellen einschränken.</span>
 
 > [!info]- Guidance
 >Telekommunikation mit externen Stellen ist essenziell für viele Geschäftsprozesse, aber auch beliebtes Ziel für Social Engineering und technische Angriffe. Kann z.B. durch eine Beschränkung auf europäische Rufnummernkreise oder den Ausschluss unerwünschter IP-Adressbereiche umgesetzt werden.

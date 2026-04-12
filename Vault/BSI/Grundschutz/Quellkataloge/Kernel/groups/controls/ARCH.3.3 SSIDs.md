@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.3.3 SSIDs
+stmt_target_object_category: WLANs
+stmt_modal_verb: SOLLTE
+stmt_action_word: aktivieren
+stmt_documentation: Netzplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ARCH.3 Wireless LAN](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.3
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Wireless LAN](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.3%20Wireless%20LAN.md) *** | WLANs | SOLLTE | institutionsspezifische SSIDs |  | aktivieren | Netzplan | >Architektur für WLANs SOLLTE institutionsspezifische SSIDs aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Wireless LAN](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.3%20Wireless%20LAN.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [WLANs](target_object_categories_WLANs_82a399a2-2fa7-4dd2-9850-89a7ee0505ea) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | institutionsspezifische SSIDs |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Netzplan](documentation_guidelines_Netzplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für WLANs SOLLTE institutionsspezifische SSIDs aktivieren.</span>
 
 > [!info]- Guidance
 >Viele WLAN-Geräte bringen ab Werk eingestellte Netznamen (Default SSID) mit, aus denen sich häufig Rückschlüsse auf eingesetzte Geräte oder sogar Zugangsdaten ziehen lassen. Eigene SSIDs können Nutzenden die Zuordnung der Netze zur Institution oder deren Unterscheidung erleichtern, wenn hierfür sprechende Namen konfiguriert werden (z.B. "Institutionsname-Gastnetz").

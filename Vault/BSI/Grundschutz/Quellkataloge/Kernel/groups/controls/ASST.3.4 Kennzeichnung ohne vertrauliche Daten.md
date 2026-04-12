@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.4 Kennzeichnung ohne vertrauliche Daten
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** | IT-Systeme | SOLLTE | Kennzeichnung ohne vertrauliche Daten |  | verankern | Arbeitsanweisung | >Informationen und Assets für IT-Systeme SOLLTE Kennzeichnung ohne vertrauliche Daten verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Kennzeichnung ohne vertrauliche Daten |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für IT-Systeme SOLLTE Kennzeichnung ohne vertrauliche Daten verankern.</span>
 
 > [!info]- Guidance
 >Enthalten Kennzeichnungen vertrauliche Daten wie den Namen des zugeordneten Mitarbeiters, des Standortes, der Netzstruktur oder der Abteilung, so könnten diese Angaben von Angreifern ausgelesen werden, z.B. über das Netz, per Bluetooth oder durch physisches Ablesen. Die so abgeflossenen Daten könnten Angreifer zur weiteren Ausforschung der Institution oder des Zugangs zu Daten missbrauchen.

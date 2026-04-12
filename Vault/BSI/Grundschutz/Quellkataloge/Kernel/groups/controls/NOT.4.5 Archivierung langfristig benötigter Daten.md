@@ -1,8 +1,15 @@
 ---
-tags: not45-prm1
+tags:
+- not45-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.5 Archivierung langfristig benötigter Daten
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: ausführen
+stmt_documentation: Datensicherungskonzept
+control_effort_level: '4'
 ---
 
 
@@ -11,11 +18,11 @@ control: NOT.4.5 Archivierung langfristig benötigter Daten
 Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [NOT.4.5.1 Zum Archiv gehörende Assets](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/NOT.4.5.1%20Zum%20Archiv%20gehörende%20Assets.md)> [NOT.4.5.2 Zum Archiv gehörende Dokumentation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/NOT.4.5.2%20Zum%20Archiv%20gehörende%20Dokumentation.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md) *** | Daten | SOLLTE | die Archivierung langfristig benötigter Daten | {{regelmäßig}} | ausführen | Datensicherungskonzept | >Notfallplanung für Daten SOLLTE die Archivierung langfristig benötigter Daten {{ insert: param, not.4.5-prm1 }} ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Archivierung langfristig benötigter Daten | {{regelmäßig}} | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung für Daten SOLLTE die Archivierung langfristig benötigter Daten {{ insert: param, not.4.5-prm1 }} ausführen.</span>
 
 > [!info]- Guidance
 >Archivierung meint hier die langfristige Aufbewahrung derjenigen Daten, die über längere Zeit benötigt werden, z.B. als Nachweis der Einhaltung rechtlicher Verpflichtungen oder zur Geltendmachung von Ansprüchen. Dabei kann es sich sowohl um analoge Dokumente als auch um digitale Daten handeln. Die meisten Institutionen verarbeiten Daten, die aufgrund von Compliance-Verpflichtungen langfristig gespeichert werden, z.B. handels- und steuerrechtlich relevante Dokumente oder Eigentumsurkunden. Langfristige Daten könnten durch technische Änderungen oder Vorfälle verloren gehen. Zur Umsetzung siehe BSI TR-03125. Sind keine Daten langfristig (z.B. über mehr als 10 Jahre) erforderlich, so ist die Anforderung entbehrlich. Es empfiehlt sich darüber hinaus ein verlustfreies Bildkompressionsverfahren zu nutzen, um eine beweis- und revisionssichere Archivierung zu gewährleisten.

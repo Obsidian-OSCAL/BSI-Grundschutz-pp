@@ -1,23 +1,27 @@
 ---
 tags:
-- Compliance-Management
+- compliance-management
 - perf21-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.2.1 Überwachung der Einhaltung von Verpflichtungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # PERF.2.1 - Überwachung der Einhaltung von Verpflichtungen
-Tags: "[Compliance-Management](tags_Compliance-Management)"
+Tag: [[tags_Compliance-Management|Compliance-Management]]
 Gruppe: [PERF.2 Überwachung der Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.2%20Überwachung%20der%20Compliance.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Überwachung der Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.2%20Überwachung%20der%20Compliance.md) *** |  | SOLLTE | die Einhaltung von Verpflichtungen | {{regelmäßig}} sowie anlassbezogen | überprüfen |  | >Monitoring-Evaluation SOLLTE die Einhaltung von Verpflichtungen {{ insert: param, perf.2.1-prm1 }} sowie anlassbezogen überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Überwachung der Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.2%20Überwachung%20der%20Compliance.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Einhaltung von Verpflichtungen | {{regelmäßig}} sowie anlassbezogen | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE die Einhaltung von Verpflichtungen {{ insert: param, perf.2.1-prm1 }} sowie anlassbezogen überprüfen.</span>
 
 > [!info]- Guidance
 >Im Rahmen der Compliance-Überwachung sollte die Einhaltung von Verpflichtungen regelmäßig sowie anlassbezogen überprüft werden. Dies umfasst regelmäßige Kontrollen zur Überprüfung der Einhaltung dokumentierter gesetzlicher und vertraglicher Anforderungen, anlassbezogene Überprüfungen bei Änderungen des regulatorischen Umfelds, bei Hinweisen auf mögliche Verstöße oder nach durchgeführten Änderungen in relevanten Systemen oder Prozessen, die Identifikation von Compliance-Lücken und deren systematische Dokumentation sowie die Entwicklung und Umsetzung von Maßnahmen zur Schließung identifizierter Compliance-Lücken.

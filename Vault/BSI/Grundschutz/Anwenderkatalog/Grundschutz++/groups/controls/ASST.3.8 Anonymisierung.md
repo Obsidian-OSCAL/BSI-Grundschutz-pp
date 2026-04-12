@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.8 Anonymisierung
+stmt_target_object_category: Informationen
+stmt_modal_verb: KANN
+stmt_action_word: verankern
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundsc
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** | Informationen | KANN | die Anonymisierung | vor der Weitergabe | verankern | Arbeitsanweisung | >Informationen und Assets für Informationen KANN die Anonymisierung vor der Weitergabe verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Informationen](target_object_categories_Informationen_5a5eceda-172c-4500-a19d-956dbb5de4a4) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Anonymisierung | vor der Weitergabe | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Informationen KANN die Anonymisierung vor der Weitergabe verankern.</span>
 
 > [!info]- Guidance
 >Bei der Anonymisierung werden Informationen so verändert, dass sie für den Empfänger nicht mehr dem ursprünglichen Informationswert oder Datensatz zugeordnet werden können. Dabei werden gezielt rückverfolgbare Merkmale entfernt oder verfremdet, sodass eine Zuordnung zu einem bestimmten Informationswert der Institution (z.B. einer Person, Systemkonfiguration oder Zugangskonto) nicht mehr möglich ist. Davon abzugrenzen ist die Pseudonymisierung („pseudonymization“), bei der eine Identifizierbarkeit theoretisch weiterhin besteht, etwa durch separate Zuordnungstabellen oder Schlüssel. Die Weitergabe meint hier jegliche Form des Teilens von Informationen über die Grenzen des Informationsverbundes hinaus – etwa an externe Dienstleister, Behörden oder Partnerinstitutionen – unabhängig davon, ob dies elektronisch, schriftlich oder mündlich geschieht. Beispiele sind die Bildung summarischer Statistiken aus personenbezogenen Daten oder die Ersetzung eines Gerätenamens durch eine zufällige Zeichenkette vor der Herausgabe zu Diagnosezwecken.

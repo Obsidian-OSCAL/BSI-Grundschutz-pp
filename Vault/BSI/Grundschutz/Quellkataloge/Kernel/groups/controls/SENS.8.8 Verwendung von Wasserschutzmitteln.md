@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.8 Verwendung von Wasserschutzmitteln
+stmt_target_object_category: Mitarbeitende
+stmt_modal_verb: KANN
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/group
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md) *** | Mitarbeitende | KANN | zur korrekten Verwendung bereitgestellter Wasserschutz-Hilfsmittel |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Mitarbeitende KANN zur korrekten Verwendung bereitgestellter Wasserschutz-Hilfsmittel sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Mitarbeitende](target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | zur korrekten Verwendung bereitgestellter Wasserschutz-Hilfsmittel |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Mitarbeitende KANN zur korrekten Verwendung bereitgestellter Wasserschutz-Hilfsmittel sensibilisieren.</span>
 
 > [!info]- Guidance
 >Ohne ausreichende Kenntnisse könnte ein Mitarbeitender im Ernstfall zögern oder Hilfsmittel falsch anwenden, wodurch wertvolle Geräte ungeschützt bleiben oder unnötige Verzögerungen bei der Eindämmung eintreten könnten. Eine rechtzeitige und richtige Anwendung kann dagegen die Ausbreitung von Wasserschäden begrenzen, Datenverluste vermeiden und den Wiederanlauf kritischer Arbeitsprozesse erheblich erleichtern. Im Kontext dieser Anforderung bedeutet „Wasserschutz-Hilfsmittel“ einfache technische oder organisatorische Werkzeuge, die zur Eindämmung, Ableitung oder Beseitigung von Wasser im Notfall eingesetzt werden können, etwa Sandsäcke, Absperrschotten, Wassermelder oder Tauchpumpen. Konkrete Maßnahmen können sein: (1) Mitarbeitende regelmäßig in kurzen Übungen mit der Handhabung der vorhandenen Hilfsmittel vertraut machen, z. B. das Einsetzen von Absperrschotten an Türen oder den Betrieb einer Tauchpumpe an einem vorbereiteten Testbecken, (2) an den Aufbewahrungsorten der Hilfsmittel laminierte Schritt-für-Schritt-Anleitungen anbringen, die im Ernstfall sofort verständlich sind, (3) visuelle Markierungen oder QR-Codes platzieren, die auf kurze Videosequenzen zur Anwendung verweisen. Auch kleine Tipps können die Wirksamkeit erhöhen, etwa dass Hilfsmittel geordnet nach Dringlichkeit bereitliegen können oder dass bei Tauchpumpen vorab Kabel und Steckdosen auf sichere Reichweite geprüft werden können.

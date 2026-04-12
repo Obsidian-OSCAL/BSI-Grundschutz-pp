@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.6.1 Auf Grund anforderungsloser Assets
+stmt_modal_verb: MUSS
+stmt_action_word: ausführen
+result_reference: Anforderung
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,11 @@ Gruppe: [STM.6 Anforderungsergänzung](BSI/Grundschutz/Quellkataloge/Methodik-Gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Anforderungsergänzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.6%20Anforderungsergänzung.md) *** |  | MUSS | die Ergänzung des Anforderungspakets um Anforderungen | für die es keine passenden Anforderungen gibt | ausführen |  | >Strukturmodellierung MUSS die Ergänzung des Anforderungspakets um Anforderungen für die es keine passenden Anforderungen gibt ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Anforderungsergänzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.6%20Anforderungsergänzung.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Ergänzung des Anforderungspakets um Anforderungen | für die es keine passenden Anforderungen gibt | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS die Ergänzung des Anforderungspakets um Anforderungen für die es keine passenden Anforderungen gibt ausführen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Falls es für Assets oder Themen im GS++ derzeit noch keine Anforderungen gibt, können diese von der Institution erstellt werden. Die Anforderungsmodellierung für Assets ohne Anforderungen umfasst folgende Schritte:  Zuerst erfolgt die Identifikation und Dokumentation von Assets, für die es keine Anforderungen im Anforderungskatalog-GS++ gibt. Daraufhin ist nachvollziehbar zu begründen, warum die Anforderungen aus dem Anforderungskatalog-GS++ nicht ausreichen. Dann erfolgt die Erstellung von neuen Anforderungen in Bezug auf die Schutzziele (Vertraulichkeit, Integrität und Verfügbarkeit), für diese Assets. Zuletzt wird das Anforderungspaket um die neuen Anforderungen erweitert. Die Ergebnisse dieser Anforderungsmodellierung sind individuelle und bedarfsgerechte Anforderungen für Assets, für die der Grundschutz++ keine Anforderungen enthält. Diese werden als fester Bestandteil in das Anforderungspaket integriert. Es muss eine Risikobetrachtung in Bezug auf diese neuen Anforderungen durchgeführt werden.

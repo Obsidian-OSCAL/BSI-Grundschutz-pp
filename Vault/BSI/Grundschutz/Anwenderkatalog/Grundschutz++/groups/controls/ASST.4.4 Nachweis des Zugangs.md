@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.4.4 Nachweis des Zugangs
+stmt_target_object_category: Daten
+stmt_modal_verb: KANN
+stmt_action_word: protokollieren
+stmt_documentation: Audit Log
+result_reference: Zugang
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +18,11 @@ Gruppe: [ASST.4 Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundsc
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md) *** | Daten | KANN | einen Nachweis des Zugangs |  | protokollieren | Audit Log | >Informationen und Assets für Daten KANN einen Nachweis des Zugangs protokollieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | einen Nachweis des Zugangs |  | [protokollieren](action_words_protokollieren_fe0c8466-8c0d-450b-a649-02c11e0231f8) | [Audit Log](documentation_guidelines_Audit Log) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten KANN einen Nachweis des Zugangs protokollieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >Ein Zugangsnachweis stellt sicher, dass bestimmte Nachrichten ihren Empfänger tatsächlich erreicht haben und dieser Zugang im Streitfall nachvollziehbar belegt werden kann. Dies ist insbesondere in rechtlich relevanten Kontexten oder bei Revisionen von Bedeutung – etwa wenn Fristen, Genehmigungen oder vertrauliche Informationen übermittelt werden. Kriterien können sich an der Nachvollziehbarkeit der Integrität der Informationen oder ihrer Rechtswirkung orientieren, z.B. wenn sie einen Vertragsabschluss oder die Bekanntgabe eines Verwaltungsaktes, auslösen. Beispiele hierfür sind arbeitsrechtlich relevante Dokumente wie Abmahnungen oder Kündigungen, Sicherheitsanweisungen, Änderungen an internen Richtlinien, Zugangsdaten zu sicherheitsrelevanten Systemen oder auch technische Anordnungen mit verbindlichem Charakter. Die Kriterien können zusammen mit anderen Kriterien dokumentiert sein, beispielsweise im Rahmen eines Informationssicherheitskonzepts oder Kommunikationsleitfadens. Die Umsetzung dieser Anforderung kann durch verschiedene technische und organisatorische Maßnahmen erfolgen. Dazu gehören u. a. die Nutzung von E-Mail-Systemen mit Empfangsbestätigung, das Verwenden von Systemprotokollen oder speziellen Portalen mit Zugriffsnachweis. Wichtig ist dabei, dass der Nachweis manipulationssicher gespeichert und nachvollziehbar archiviert wird – bis zum Ablauf einer definierten Aufbewahrungsfrist, z. B. drei oder fünf Jahre, je nach rechtlicher oder organisatorischer Vorgabe. Sinnvoll ist es hierbei nicht nur die Tatsache des Zugangs zu einem bestimmten Zeitpunkt sondern auch für den Nachweis relevante Inhalte zu dokumentieren, z.B. Titel, sowie Versand- und Zieladressen der Nachricht. Sie kann je nach Medium auch den Inhalt der Nachricht enthalten.

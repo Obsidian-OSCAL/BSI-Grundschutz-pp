@@ -1,23 +1,29 @@
 ---
-tags: Zero_Trust_Advanced_Persistent_Threats_APT_Honeypot
+tags:
+- zero_trust_advanced_persistent_threats_apt_honeypot
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.11.2 Netzwerk-Honeypots
 parent_control: DET.4.11 Anomalien in Netzen und am Perimeter
+stmt_target_object_category: Netze
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11.2 - Netzwerk-Honeypots
-Tags: "[Zero Trust](tags_Zero Trust)" "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))" "[Honeypot](tags_Honeypot)"
+> [!example]- Tags:> [[tags_Zero Trust|Zero Trust]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]> [[tags_Honeypot|Honeypot]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
 ** Übergeordnetes Control: ** [DET.4.11 Anomalien in Netzen und am Perimeter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *** | Netze | KANN | Netzwerk-Honeypots |  | installieren | Detektions-Konzept | >Detektion für Netze KANN Netzwerk-Honeypots installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [Netze](target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Netzwerk-Honeypots |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Netze KANN Netzwerk-Honeypots installieren.</span>
 
 > [!info]- Guidance
 >Honeypots sind Systeme, die das Verhalten eines Betriebsservers simulieren, um bei netzbasierten Angriffen Informationen über den Angriff zu erhalten. Geeignet sind z.B. vermeintliche Rechnungsbearbeitungssysteme oder Datenbank-Server. Alarmierungsereignisse können hier z.B. Login-Versuche oder unerwartete API-Abfragen sein. Allerdings kann es hierbei zu falsch-positiv Vorfallsmeldungen kommen, insbesondere wenn die Honeypots dort platziert werden, wo sie für legitime Nutzende leicht zugänglich sind, oder wenn legitime Netzwerkscans bereits eine Alarmierung auslösen. Daher ist es sinnvoll, die konkreten Einsatzgegebenheiten in einer Risikoanalyse zu betrachten und den möglichen Detektionsmehrwert mit den potenziellen Risiken solcher falsch-positiv Meldungen abzuwägen.

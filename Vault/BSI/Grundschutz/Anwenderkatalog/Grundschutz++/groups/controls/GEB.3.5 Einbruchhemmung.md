@@ -1,8 +1,15 @@
 ---
-tags: geb35-prm1
+tags:
+- geb35-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.3.5 Einbruchhemmung
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '5'
 ---
 
 
@@ -12,9 +19,9 @@ Gruppe: [GEB.3 Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md) *** | Standorte | KANN | einbruchhemmende Bauteile | nach {{einer entsprechenden Norm}} | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte KANN einbruchhemmende Bauteile nach {{ insert: param, geb.3.5-prm1 }} installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | einbruchhemmende Bauteile | nach {{einer entsprechenden Norm}} | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN einbruchhemmende Bauteile nach {{ insert: param, geb.3.5-prm1 }} installieren.</span>
 
 > [!info]- Guidance
 >Befinden sich am Standort Assets oder Geschäftsprozesse mit erhöhtem Schutzbedarf, so ist es sinnvoll, diese auch gegen hartnäckigere Einbruchsversuche zu schützen, z.B. größere Serverräume oder Datenträgerarchive, sowie Standorte im Fokus der Öffentlichkeit oder von ideologischen Gewalttätern.   Die passenden Maßnahmen richten sich nach dem Risikoprofil der zu schützenden Assets, sowie der potenziellen Täter. So kann der Einbau rundum einbruchsicherer Bauteile wie Wände und Türen nach DIN EN 1627 RC3 oder besser sinnvoll sein. Für massive Bedrohungen von Außen bieten sich Poller oder hydraulische Straßensperren, ausgelegt für ein bestimmtes Gewicht bei einer bestimmten Geschwindigkeit, an.  Die Anforderung ist auch dann erfüllt, wenn der Standort bereits von Dritten nach Normen wie DIN EN 1627 RC3 erbaut und abgenommen wurde.

@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.2.3 Ständiger Bereitschaftsdienst
+stmt_modal_verb: KANN
+stmt_action_word: verankern
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [DET.2 Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/gro
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.2%20Meldung%20von%20Ereignissen.md) *** |  | KANN | einen ständigen Bereitschaftsdienst |  | verankern | Detektions-Konzept | >Detektion KANN einen ständigen Bereitschaftsdienst verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.2%20Meldung%20von%20Ereignissen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | einen ständigen Bereitschaftsdienst |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN einen ständigen Bereitschaftsdienst verankern.</span>
 
 > [!info]- Guidance
 >Dies erfordert, dass 24/7 eine Person bereitgehalten wird, welche bei sicherheitsrelevanter Alarmierung umgehend die Behebung des Vorfalls aufnimmt. Welche Ereignisse kritisch sind, ist dabei von der Kritikalität der betroffenen Systeme oder Anwendungen abhängig. Für die Definition eines sicherheitskritischen Ereignisses, siehe Glossar (Namensräume des Grundschutz++).

@@ -1,22 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.1 Erfassung des Bedarfes
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.1 - Erfassung des Bedarfes
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.2.1.1 Verwendungszweck](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.1%20Verwendungszweck.md)> [BES.2.1.2 Geschäftsprozessprofile](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.2%20Geschäftsprozessprofile.md)> [BES.2.1.3 Systemvoraussetzungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.3%20Systemvoraussetzungen.md)> [BES.2.1.4 Kompatibilität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4%20Kompatibilität.md)> [BES.2.1.5 Lizenzierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.5%20Lizenzierung.md)> [BES.2.1.6 Support- und Wartungsverträge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.6%20Support-%20und%20Wartungsverträge.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *** | Einkäufe | SOLLTE | den Bedarf | anhand einer Leistungsbeschreibung oder einer Umsetzungsstrategie | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf anhand einer Leistungsbeschreibung oder einer Umsetzungsstrategie dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Bedarf | anhand einer Leistungsbeschreibung oder einer Umsetzungsstrategie | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf anhand einer Leistungsbeschreibung oder einer Umsetzungsstrategie dokumentieren.</span>
 
 > [!info]- Guidance
 >Dies umfasst sowohl Bedürfnisse für eine sichere Funktionalität als auch nicht-funktionalen Bedarf wie Datensicherung und Einbindung in das Monitoring.

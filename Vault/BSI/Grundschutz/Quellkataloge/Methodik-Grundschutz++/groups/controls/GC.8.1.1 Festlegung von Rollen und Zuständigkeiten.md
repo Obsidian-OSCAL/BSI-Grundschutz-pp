@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.8.1.1 Festlegung von Rollen und Zuständigkeiten
 parent_control: GC.8.1 Verfahren zur Ressourcenplanung
+stmt_modal_verb: MUSS
+stmt_action_word: zuweisen
+stmt_documentation: Tätigkeits- & Rollenbeschreibung
+control_effort_level: '0'
 ---
 
 
@@ -12,11 +17,11 @@ Gruppe: [GC.8 Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/
 ---
 
 ** Übergeordnetes Control: ** [GC.8.1 Verfahren zur Ressourcenplanung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1%20Verfahren%20zur%20Ressourcenplanung.md)
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GC.8.1.1.1 Informationssicherheitsbeauftragter](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.1.1%20Informationssicherheitsbeauftragter.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md) *** |  | MUSS | die Rollen und Zuständigkeiten im Rahmen des ISMS | inklusive ihrer Kompetenzen bzw. Befugnisse | zuweisen | Tätigkeits- & Rollenbeschreibung | >Governance und Compliance MUSS die Rollen und Zuständigkeiten im Rahmen des ISMS inklusive ihrer Kompetenzen bzw. Befugnisse zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Rollen und Zuständigkeiten im Rahmen des ISMS | inklusive ihrer Kompetenzen bzw. Befugnisse | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Tätigkeits- & Rollenbeschreibung](documentation_guidelines_Tätigkeits- & Rollenbeschreibung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS die Rollen und Zuständigkeiten im Rahmen des ISMS inklusive ihrer Kompetenzen bzw. Befugnisse zuweisen.</span>
 
 > [!info]- Guidance
 >Im Rahmen des ISMS sind die Rollen hinsichtlich der Aufgaben, der dafür notwendigen Qualifikation und der notwendigen Befugnisse festgelegt. Eine zentrale Rolle wäre beispielsweise der "Informationssicherheitsbeauftragte" (ISB).

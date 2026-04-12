@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.9.1 Normgerechte Stromversorgung
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '3'
 ---
 
 
@@ -10,11 +16,11 @@ control: GEB.9.1 Normgerechte Stromversorgung
 Gruppe: [GEB.9 Versorgungseinrichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.9%20Versorgungseinrichtungen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GEB.9.1.1 Vorausschauende Lastanalyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.1%20Vorausschauende%20Lastanalyse.md)> [GEB.9.1.2 Dedizierte Elektrounterverteilung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.2%20Dedizierte%20Elektrounterverteilung.md)> [GEB.9.1.3 Redundante Stromversorgung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.3%20Redundante%20Stromversorgung.md)> [GEB.9.1.4 Langanhaltende Sekundärversorgung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.4%20Langanhaltende%20Sekundärversorgung.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.9%20Versorgungseinrichtungen.md) *** | Standorte | SOLLTE | eine norm- und bedarfsgerechte Stromversorgung und -verkabelung |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE eine norm- und bedarfsgerechte Stromversorgung und -verkabelung installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.9%20Versorgungseinrichtungen.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine norm- und bedarfsgerechte Stromversorgung und -verkabelung |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE eine norm- und bedarfsgerechte Stromversorgung und -verkabelung installieren.</span>
 
 > [!info]- Guidance
 >Eine Stromversorgung ist normgerecht, wenn Normen zur Bereitstellung und Verkabelung wie DIN VDE 0100 eingehalten werden. Bedarfsgerecht ist eine Stromversorgung, wenn sie den Strombedarf der IT-Systeme und anderen Geräte im Gebäude deckt und Reserven für Erweiterungen oder Notfälle bietet. Das betrifft sowohl zentrale Versorgungsanschlüsse, Unterverteilungen als auch die Zuleitung in die einzelnen Räume. Die Anforderung ist auch dann erfüllt, wenn eine den Compliance-Vorschriften für Strom entsprechende Versorgung bereits im Gebäude vorhanden ist. Im Fall von Rechenzentren ist auch auf die Möglichkeit der Notabschaltung der Stromversorgung (für einzelne elektrische Verbraucher) zu achten. Hier ist eine sinnvolle Parzellierung und Zielgerichtetheit bei der Notabschaltung von Bedeutung.

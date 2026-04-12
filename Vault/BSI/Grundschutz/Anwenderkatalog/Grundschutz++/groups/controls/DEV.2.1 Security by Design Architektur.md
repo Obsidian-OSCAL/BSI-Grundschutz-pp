@@ -1,21 +1,27 @@
 ---
-tags: Security_by_Design
+tags:
+- security_by_design
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.2.1 Security by Design Architektur
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Entwicklungsdokumentation
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.1 - Security by Design Architektur
-Tags: "[Security by Design](tags_Security by Design)"
+Tag: [[tags_Security by Design|Security by Design]]
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *** |  | SOLLTE | die Architektur nach dem Prinzip "Security by Design" |  | verankern | Entwicklungsdokumentation | >Entwicklung SOLLTE die Architektur nach dem Prinzip "Security by Design" verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Architektur nach dem Prinzip "Security by Design" |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Entwicklungsdokumentation](documentation_guidelines_Entwicklungsdokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung SOLLTE die Architektur nach dem Prinzip "Security by Design" verankern.</span>
 
 > [!info]- Guidance
 >Unter "Security by Design" ist zu verstehen, dass Sicherheitsprinzipien und -mechanismen integrale Bestandteile der Architektur sind, anstatt nur nachträglich "angeflanscht" zu werden. Hierzu gehören Sicherheitsprinzipien wie Modularisierung, Verschlüsselung und Authentifizierung beim Entwurf der Architektur. Die Umsetzung kann durch Threat Modeling realisiert werden. Für Details siehe BSI TR-03185. Bei der Umsetzung von Security by Design empfiehlt sich auch ein Blick in die Praktik Konfiguration, spezifisch die Anforderungen zu Verschlüsselung, Authentifizierung, etc.

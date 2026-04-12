@@ -1,21 +1,27 @@
 ---
-tags: Cryptography
+tags:
+- cryptography
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.1.5 Verschlüsselung von Konfigurationsgeheimnissen
+stmt_modal_verb: SOLLTE
+stmt_action_word: verschlüsseln
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.1.5 - Verschlüsselung von Konfigurationsgeheimnissen
-Tags: "[Cryptography](tags_Cryptography)"
+Tag: [[tags_Cryptography|Cryptography]]
 Gruppe: [KONF.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.1%20Grundlagen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.1%20Grundlagen.md) *** |  | SOLLTE | Konfigurationsgeheimnisse |  | verschlüsseln | IT-Betriebskonzept | >Konfiguration SOLLTE Konfigurationsgeheimnisse verschlüsseln.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.1%20Grundlagen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Konfigurationsgeheimnisse |  | [verschlüsseln](action_words_verschlüsseln_4dc9ef92-2124-449a-9a99-61095d271599) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration SOLLTE Konfigurationsgeheimnisse verschlüsseln.</span>
 
 > [!info]- Guidance
 >Konfigurationsgeheimnissen sind sensitive, nicht-öffentliche Daten, die von Systemen, Applikationen oder Diensten zur Laufzeit benötigt werden, um auf andere Ressourcen zuzugreifen oder ihre eigene Funktionalität sicherzustellen. Bekannte Beispiele sind Anmeldeinformationen wie Passwörter, Datenbank-Verbindungszeichenfolgen (Connection Strings), API-Schlüssel oder private Schlüssel von Zertifikaten; im Englischen wird hierfür übergreifend der Fachbegriff Secrets verwendet. Der Zweck dieser Vorschrift ist die Sicherstellung der Vertraulichkeit dieser hochsensiblen Informationen. Ungeschützt im Klartext hinterlegt, könnte ein Angreifer bei einem unautorisierten Zugriff auf Konfigurationsdateien, Quellcode-Verzeichnisse oder Backups diese Geheimnisse direkt auslesen und damit weitreichenden Zugriff auf angebundene Systeme oder Daten erlangen.

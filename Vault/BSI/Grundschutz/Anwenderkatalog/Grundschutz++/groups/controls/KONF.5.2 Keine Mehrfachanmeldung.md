@@ -1,21 +1,31 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.5.2 Keine Mehrfachanmeldung
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: SOLLTE
+stmt_action_word: deaktivieren
+stmt_documentation: Konfigurationshistorie
+result_reference: Zugang
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.5.2 - Keine Mehrfachanmeldung
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.5 Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.5%20Authentifizierung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.5%20Authentifizierung.md) *** | IT-Systeme | SOLLTE | die gleichzeitige Anmeldung mehrerer Zugangskonten |  | deaktivieren | Konfigurationshistorie | >Konfiguration für IT-Systeme SOLLTE die gleichzeitige Anmeldung mehrerer Zugangskonten deaktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.5%20Authentifizierung.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die gleichzeitige Anmeldung mehrerer Zugangskonten |  | [deaktivieren](action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme SOLLTE die gleichzeitige Anmeldung mehrerer Zugangskonten deaktivieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >Wenn Nutzende mit verschiedenen Identitäten simultan im System angemeldet sind, erhöht sich das Risiko von versehentlichen Datenvermischungen oder Falscheingaben deutlich. Dies kann besonders in sensiblen Bereichen wie im Finanzwesen oder Gesundheitswesen schwerwiegende Folgen haben, wo vertrauliche Kundendaten oder Patienteninformationen unbeabsichtigt zwischen verschiedenen Kontexten übertragen werden könnten. Bei Vorfällen wird so auch erschwert herauszufinden, von welchem Zugangskonto bestimmte Ereignisse stammen.

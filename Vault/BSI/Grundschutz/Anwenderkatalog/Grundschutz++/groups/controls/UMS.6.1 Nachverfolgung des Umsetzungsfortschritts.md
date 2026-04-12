@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: UMS.6.1 Nachverfolgung des Umsetzungsfortschritts
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+stmt_documentation: Umsetzungsplan
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [UMS.6 Fortschrittsverfolgung der Realisierung](BSI/Grundschutz/Anwender
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Umsetzung (UMS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS%20Umsetzung.md)**<br> ***  &rarr; [Fortschrittsverfolgung der Realisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.6%20Fortschrittsverfolgung%20der%20Realisierung.md) *** |  | MUSS | ein Verfahren für die Nachverfolgung der Umsetzung von Maßnahmen |  | verankern | Umsetzungsplan | >Umsetzung MUSS ein Verfahren für die Nachverfolgung der Umsetzung von Maßnahmen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Umsetzung (UMS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS%20Umsetzung.md)*<br> *  &rarr; [Fortschrittsverfolgung der Realisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.6%20Fortschrittsverfolgung%20der%20Realisierung.md) *</div> | [Umsetzung](practices_Umsetzung_af61e9e7-80ee-4630-b603-c615c6a966ec) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | ein Verfahren für die Nachverfolgung der Umsetzung von Maßnahmen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Umsetzungsplan](documentation_guidelines_Umsetzungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Umsetzung MUSS ein Verfahren für die Nachverfolgung der Umsetzung von Maßnahmen verankern.</span>
 
 > [!info]- Guidance
 >Es wird empfohlen, dass der Prozess zur Fortschrittsverfolgung der Umsetzung von Anforderungen bzw. Sicherheitsmaßnahmen folgende Aspekte umfasst: Planung und Definition (Zielsetzung, KPI-Definition und detaillierte Umsetzungsplanung), Implementierung (Start der Umsetzung mit klarer Verantwortlichkeit und initialer Bestandsaufnahme), Überwachung (Regelmäßiges Status-Reporting, Soll-Ist-Vergleiche und KPI-Messungen), Bewertung und Anpassung (Ursachenanalyse, Korrekturmaßnahmen und regelmäßige Kommunikation an Stakeholder), Dokumentation und Lessons Learned (Abschlussdokumentation und kontinuierliche Verbesserung mittels PDCA-Zyklus). Eine strukturierte Vorgehensweise gewährleistet, dass Fortschritte transparent nachvollzogen werden, Abweichungen frühzeitig erkannt und der Sicherheitsstatus stetig verbessert werden kann.

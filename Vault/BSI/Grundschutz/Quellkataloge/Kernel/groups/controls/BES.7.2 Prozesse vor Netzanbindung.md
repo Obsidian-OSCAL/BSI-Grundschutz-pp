@@ -1,21 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.2 Prozesse vor Netzanbindung
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Abnahmeprotokoll
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.2 - Prozesse vor Netzanbindung
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *** | Outsourcing | SOLLTE | vor Anbindung des Datennetzes der Nutzenden an das Datennetz der Anbietenden alle sicherheitsrelevanten Maßnahmen | im Einklang mit den Regelungen und Verfahren des Managementsystems | verankern | Abnahmeprotokoll | >Beschaffungsmanagement für Outsourcing SOLLTE vor Anbindung des Datennetzes der Nutzenden an das Datennetz der Anbietenden alle sicherheitsrelevanten Maßnahmen im Einklang mit den Regelungen und Verfahren des Managementsystems verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | vor Anbindung des Datennetzes der Nutzenden an das Datennetz der Anbietenden alle sicherheitsrelevanten Maßnahmen | im Einklang mit den Regelungen und Verfahren des Managementsystems | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Abnahmeprotokoll](documentation_guidelines_Abnahmeprotokoll) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing SOLLTE vor Anbindung des Datennetzes der Nutzenden an das Datennetz der Anbietenden alle sicherheitsrelevanten Maßnahmen im Einklang mit den Regelungen und Verfahren des Managementsystems verankern.</span>
 
 > [!info]- Guidance
 >Der Sinn der Vorschrift liegt darin, Risiken durch unkontrollierte Netzwerkanbindungen zu minimieren, die bei Outsourcing deutlich höher sind als bei Standard-Dienstleistungsverträgen. Ohne vorherige Verankerung von Prozessen und technischen Lösungen, die für die sichere Anbindung zum Outsourcing-Dienstleiser erforderlich sind, könnte etwa Schadsoftware aus dem Anbietenden-Netz ungehindert in das Netz der Institution gelangen oder unbefugte Zugriffe könnten entstehen, wenn Authentifizierungsverfahren nicht abgestimmt sind. Umgekehrt kann eine klare Festlegung vorab bewirken, dass nur geprüfte, verschlüsselte und überwachte Schnittstellen genutzt werden, was eine vertrauenswürdige Zusammenarbeit ermöglicht. Da Outsourcing regelmäßig mit tiefen technischen Integrationen verbunden ist, unterscheidet es sich von herkömmlichen Lieferantenbeziehungen, bei denen keine direkte Netzwerkkopplung erfolgt. Eine Institution kann diese Anforderung praktisch umsetzen, indem sie vor der Anbindung (1) eine technische Schnittstellenbeschreibung einfordert, die Protokolle, Ports und Authentifizierungsmechanismen dokumentiert, (2) die Kommunikation auf gesicherte Kanäle wie VPN oder verschlüsselte Direktleitungen beschränkt, und (3) Verfahren zur Netzsegmentierung etabliert, sodass der Zugriff nur auf explizit freigegebene Systeme möglich ist. Ergänzend kann eine Checkliste für Dienstleisterprüfung genutzt werden, in der Sicherheitszertifikate, Protokolle zur Patch-Pflege oder geplante Monitoring-Mechanismen abgefragt werden. Ein prozessualer Tipp kann darin bestehen, die Netzfreigabe erst nach einem gemeinsamen Test der Sicherheitsmechanismen freizuschalten und dies in einem Freigabeprotokoll zu dokumentieren. So kann eine Institution sicherstellen, dass Outsourcing-Verbindungen kontrolliert, nachvollziehbar und mit einem definierten Sicherheitsniveau umgesetzt werden.

@@ -1,21 +1,28 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.6.16 Datenaustausch in der Virtualisierung
+stmt_target_object_category: Virtualisierungslösungen
+stmt_modal_verb: KANN
+stmt_action_word: einschränken
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.16 - Datenaustausch in der Virtualisierung
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.6 Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md) *** | Virtualisierungslösungen | KANN | den Datenaustausch zwischen virtualisierten Client |  | einschränken | Konfigurationshistorie | >Konfiguration für Virtualisierungslösungen KANN den Datenaustausch zwischen virtualisierten Client einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Rollen und Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.6%20Rollen%20und%20Berechtigungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Virtualisierungslösungen](target_object_categories_Virtualisierungslösungen_38167a3c-ee3e-4261-9c44-994c15a31d2c) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | den Datenaustausch zwischen virtualisierten Client |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Virtualisierungslösungen KANN den Datenaustausch zwischen virtualisierten Client einschränken.</span>
 
 > [!info]- Guidance
 >Der Datenaustausch zwischen virtualisierten Anwendungen umfasst jegliche direkte oder indirekte Kommunikationswege wie virtuelle Netzwerke, geteilte Speicherbereiche oder Copy-and-Paste-Funktionen über die Virtualisierungsplattform. Der Sinn dieser Anforderung liegt darin, unbeabsichtigte oder böswillige Datenübertragungen zwischen isolierten Anwendungen einzuschränken. Ohne diese Einschränkungen könnte Schadsoftware von einer kompromittierten VM unbemerkt auf eine andere übergreifen oder sensible Informationen könnten durch Fehlkonfigurationen ungewollt in eine fremde VM gelangen. Eine klare Abgrenzung kann hingegen sicherstellen, dass selbst bei Kompromittierung einer Anwendung deren Wirkungskreis begrenzt bleibt und Vertraulichkeit, Integrität sowie Stabilität anderer Anwendungen erhalten bleiben. Die praktische Umsetzung kann durch mehrere Maßnahmen erfolgen, die sich technisch wie prozessual ergänzen. So kann eine Institution (1) virtuelle Netzwerke segmentieren, sodass VMs nur über explizit eingerichtete Firewalls miteinander kommunizieren können, (2) gemeinsame Speicherbereiche oder Zwischenablagen deaktivieren, sofern diese nicht zwingend benötigt werden, und (3) die Nutzung von Schnittstellen wie USB-Passthrough oder Drag-and-Drop bewusst unterbinden oder nur für klar definierte Administrations-VMs freigeben. Darüber hinaus kann es sinnvoll sein, die Konfiguration regelmäßig mit Härtungsleitfäden abzugleichen. Ein pragmatischer Tipp ist es, beim Aufsetzen neuer VMs die Standardkonfigurationen bewusst restriktiv zu wählen und nur jene Austauschfunktionen schrittweise zu aktivieren, die für den Geschäftsbetrieb wirklich erforderlich sind.

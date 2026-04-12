@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.4.1 Einrichtung
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.4 Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz+
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.4%20Sicherheitsbereiche.md) *** | Standorte | KANN | geschlossene Sicherheitsbereiche |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte KANN geschlossene Sicherheitsbereiche installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.4%20Sicherheitsbereiche.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | geschlossene Sicherheitsbereiche |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN geschlossene Sicherheitsbereiche installieren.</span>
 
 > [!info]- Guidance
 >Ein Sicherheitsbereich ist ein klar abgegrenzter physischer Raum, für die ein eigener Perimeter eingerichtet wird und dessen Betreten ausschließlich autorisiertem Personal oder unter engen Voraussetzungen gestattet wird. Solche Bereiche dienen dem Schutz von Personen, Anlagen, sensiblen Informationen oder betriebskritischen Prozessen. Standorte oder Teile eines Standortes mit erhöhtem Schutzbedarf können so vor unbefugten Eingriffen geschützt werden, z.B. Serverräume, Arbeitsplätze für Administrierende oder die Institutionsleitung. Zur Umsetzung können z.B. Zutrittskontrollanlagen oder Bewachung eingesetzt werden. Wenn es sich um Hochsicherheitsbereiche handelt, kann der Zutritt mit einem Mehr-Faktor-Verfahren (z.B. Smartcard mit PIN) davor geschützt werden, dass Unbefugte sich durch entwendete Schlüssel oder Authentifizierungstoken Zugang verschaffen.

@@ -1,21 +1,27 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.14.4 Caching
+stmt_modal_verb: KANN
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.14.4 - Caching
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.14 Verteilte Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.14%20Verteilte%20Anwendungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Verteilte Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.14%20Verteilte%20Anwendungen.md) *** | Anwendungen, Endgeräte | KANN | eine Zwischenspeicherung häufig verwendeter Daten |  | aktivieren | Konfigurationshistorie | >Konfiguration für Anwendungen von Endgeräten KANN eine Zwischenspeicherung häufig verwendeter Daten aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Verteilte Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.14%20Verteilte%20Anwendungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | Anwendungen, Endgeräte | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine Zwischenspeicherung häufig verwendeter Daten |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen von Endgeräten KANN eine Zwischenspeicherung häufig verwendeter Daten aktivieren.</span>
 
 > [!info]- Guidance
 >Caches sind lokale Zwischenspeicher, die Zugriffe beschleunigen oder bei Netzstörungen ersetzen können. Kann durch Caching-Funktionen auf dem Client, auf Servern in Außenstellen (z.B. Windows BranchCache, Squid Proxy Cache oder CacheFS) oder Caching auf WAN-Netzkomponenten umgesetzt werden.

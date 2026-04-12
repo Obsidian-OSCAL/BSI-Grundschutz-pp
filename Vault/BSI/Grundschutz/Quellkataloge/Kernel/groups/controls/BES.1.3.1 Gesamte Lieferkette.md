@@ -1,23 +1,30 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.1.3.1 Gesamte Lieferkette
 parent_control: BES.1.3 Lieferanten- und Dienstleisterverzeichnis
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: KANN
+stmt_action_word: dokumentieren
+stmt_documentation: Liste der Hersteller und Dienstleister
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.3.1 - Gesamte Lieferkette
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.1.3 Lieferanten- und Dienstleisterverzeichnis](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.1.3%20Lieferanten-%20und%20Dienstleisterverzeichnis.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md) *** | Einkäufe | KANN | die gesamte Lieferkette | inklusive der jeweiligen Unterauftragnehmer und deren Kontaktdaten | dokumentieren | Liste der Hersteller und Dienstleister | >Beschaffungsmanagement für Einkäufe KANN die gesamte Lieferkette inklusive der jeweiligen Unterauftragnehmer und deren Kontaktdaten dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die gesamte Lieferkette | inklusive der jeweiligen Unterauftragnehmer und deren Kontaktdaten | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Liste der Hersteller und Dienstleister](documentation_guidelines_Liste der Hersteller und Dienstleister) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe KANN die gesamte Lieferkette inklusive der jeweiligen Unterauftragnehmer und deren Kontaktdaten dokumentieren.</span>
 
 > [!info]- Guidance
 >Sicherheitsvorfälle können nicht nur auf direkter Ebene entstehen, sondern werden häufig durch nachgelagerte Dienstleister oder Unterlieferanten verursacht – etwa wenn ein Unterauftragnehmer unzureichende Sicherheitsmaßnahmen umsetzt, kritische Softwarekomponenten fehlerhaft bezieht oder sensible Daten bei einem Subdienstleister unkontrolliert verarbeitet werden. Ein solches Ereignis könnte sich durch Lieferausfälle, den Einschleusung kompromittierter Hard- oder Software oder auch durch den Verlust von Betriebsgeheimnissen bemerkbar machen. Nur wenn eine Institution die gesamte Kette kennt, kann sie Schwachstellen lückenlos erkennen, Abhängigkeiten bewerten und im Bedarfsfall schneller reagieren, etwa indem bei Störungen alternative Bezugsquellen aktiviert werden. Die (ja fortlaufend zu gewährleistende) Dokumentation der gesamten Lieferkette ist allerdings auch mit großem Aufwand verbunden und setzt auch die Bereitschaft zur Mitwirkung in der gesamten Lieferkette voraus.

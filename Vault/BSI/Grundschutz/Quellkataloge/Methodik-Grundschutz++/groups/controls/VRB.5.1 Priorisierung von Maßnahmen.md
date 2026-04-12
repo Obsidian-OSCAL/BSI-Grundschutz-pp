@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: VRB.5.1 Priorisierung von Maßnahmen
+stmt_modal_verb: MUSS
+stmt_action_word: zuweisen
+stmt_documentation: Umsetzungsplan
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [VRB.5 Korrektur- und Verbesserungsplan](BSI/Grundschutz/Quellkataloge/M
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)**<br> ***  &rarr; [Korrektur- und Verbesserungsplan](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.5%20Korrektur-%20und%20Verbesserungsplan.md) *** |  | MUSS | den Maßnahmen zur Korrektur und Verbesserung Prioritäten |  | zuweisen | Umsetzungsplan | >Verbesserung MUSS den Maßnahmen zur Korrektur und Verbesserung Prioritäten zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)*<br> *  &rarr; [Korrektur- und Verbesserungsplan](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.5%20Korrektur-%20und%20Verbesserungsplan.md) *</div> | [Verbesserung](practices_Verbesserung_662fb453-caf1-4e01-8152-b88027b71438) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | den Maßnahmen zur Korrektur und Verbesserung Prioritäten |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Umsetzungsplan](documentation_guidelines_Umsetzungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Verbesserung MUSS den Maßnahmen zur Korrektur und Verbesserung Prioritäten zuweisen.</span>
 
 > [!info]- Guidance
 >Maßnahmen zur Verbesserung müssen in den Umsetzungsplan einfließen. Dort werden die Zuständigen für die Umsetzung,  Zieldatum der Umsetzung, die Anforderungsbeschreibung, das Zielobjekt bzw. den Anwendungsbereich,  die verantwortliche Stelle,  Start- und Zieldatum (Fristen),  Prioritäten,  Status der Umsetzung,  ergänzende Aktivitäten z. B. Schulungen, Risiken inkl. Begründung (Was bleibt offen? Was wurde nicht umgesetzt und warum?), Ressourcenplanung, Abhängigkeiten zu anderen Anforderungen, sowie Datum der Freigabe und Unterschrift des Risikoeigentümers nachverfolgt.

@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.9.1.1 Externer Austausch zur Informationssicherheit
 parent_control: GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement
+stmt_modal_verb: SOLLTE
+stmt_action_word: ausführen
+control_effort_level: '4'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [GC.9 Dokumentation und Kommunikation](BSI/Grundschutz/Quellkataloge/Met
 
 ** Übergeordnetes Control: ** [GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.9.1%20Festlegung%20eines%20Verfahrens%20zum%20Kommunikationsmanagement.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Dokumentation und Kommunikation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.9%20Dokumentation%20und%20Kommunikation.md) *** |  | SOLLTE | einen externen Austausch zur Informationssicherheit |  | ausführen |  | >Governance und Compliance SOLLTE einen externen Austausch zur Informationssicherheit ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Dokumentation und Kommunikation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.9%20Dokumentation%20und%20Kommunikation.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | einen externen Austausch zur Informationssicherheit |  | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance SOLLTE einen externen Austausch zur Informationssicherheit ausführen.</span>
 
 > [!info]- Guidance
 >Um auch andere Perspektiven wahrzunehmen und Eindrücke zu erhalten, findet ein externer Austausch statt. Hierzu können beispielsweise Branchenverbände, Fachforen oder andere Einrichtungen genutzt werden.

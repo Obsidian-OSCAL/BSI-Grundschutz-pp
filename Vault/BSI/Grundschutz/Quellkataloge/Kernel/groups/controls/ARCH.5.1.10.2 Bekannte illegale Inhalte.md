@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.5.1.10.2 Bekannte illegale Inhalte
 parent_control: ARCH.5.1.10 Webfilterung
+stmt_target_object_category: Externe Netzanschlüsse
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Firewallregeln
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARC
 
 ** Übergeordnetes Control: ** [ARCH.5.1.10 Webfilterung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ARCH.5.1.10%20Webfilterung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Perimeterschutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.5%20Perimeterschutz.md) *** | Externe Netzanschlüsse | SOLLTE | bekannte illegale Inhalte |  | einschränken | Firewallregeln | >Architektur für Externe Netzanschlüsse SOLLTE bekannte illegale Inhalte einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Perimeterschutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.5%20Perimeterschutz.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Externe Netzanschlüsse](target_object_categories_Externe Netzanschlüsse_a9521914-ccf9-4c20-8eef-2dd912fb815d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | bekannte illegale Inhalte |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Firewallregeln](documentation_guidelines_Firewallregeln) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Externe Netzanschlüsse SOLLTE bekannte illegale Inhalte einschränken.</span>
 
 > [!info]- Guidance
 >Gerade bei größeren Webdiensten kann es vorkommen, dass hierüber immer wieder vereinzelt illegale Inhalte verbreitet werden, obwohl der Dienst selbst von einer legitimen Institution betrieben wird. In solchen Fällen empfiehlt es sich, die Filterung möglich passgenau vorzunehmen (also soweit möglich nur bestimmte Seiten, Seitenbereiche oder Subdomains zu filtern) und den Anbieter über die illegalen Inhalte zu informieren.

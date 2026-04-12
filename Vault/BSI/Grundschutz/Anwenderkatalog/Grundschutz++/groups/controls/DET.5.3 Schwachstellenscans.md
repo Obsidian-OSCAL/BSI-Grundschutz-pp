@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.3 Schwachstellenscans
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+control_effort_level: '5'
 ---
 
 
@@ -10,11 +14,11 @@ control: DET.5.3 Schwachstellenscans
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DET.5.3.1 Autorisierung kritischer Scans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3.1%20Autorisierung%20kritischer%20Scans.md)> [DET.5.3.2 Korrelation komplexer Angriffswege](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3.2%20Korrelation%20komplexer%20Angriffswege.md)> [DET.5.3.3 Historische Analyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3.3%20Historische%20Analyse.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | SOLLTE | eine Vorgehensweise zum Scan nach Schwachstellen | einschließlich deren Auswertung und Behandlung | verankern | Detektions-Konzept | >Detektion SOLLTE eine Vorgehensweise zum Scan nach Schwachstellen einschließlich deren Auswertung und Behandlung verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Vorgehensweise zum Scan nach Schwachstellen | einschließlich deren Auswertung und Behandlung | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE eine Vorgehensweise zum Scan nach Schwachstellen einschließlich deren Auswertung und Behandlung verankern.</span>
 
 > [!info]- Guidance
 >Über das Netz erreichbare Schwachstellen bergen das Risiko, dass hierüber Angriffe in IT-Systeme und Anwendungen eindringen, Daten auslesen oder sich über das Netz verbreiten. Schwachstellenscans finden solche Lücken, indem sie Anfragen zu bekannten Schwachstellen im Netz stellen und die Antworten auswerten. Regelmäßige Scans tragen dazu bei, dass Sicherheitslücken entdeckt werden, bevor sie ausgenutzt werden.

@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.4.2 Dokumentation relevanter Assets
+stmt_modal_verb: MUSS
+stmt_action_word: dokumentieren
+result_reference:
+- Asset
+- Geschäftsprozess
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +18,11 @@ Gruppe: [STM.4 Asset-Modellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Asset-Modellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.4%20Asset-Modellierung.md) *** |  | MUSS | alle Assets mit Relevanz für die betrachteten Geschäftsprozesse |  | dokumentieren |  | >Strukturmodellierung MUSS alle Assets mit Relevanz für die betrachteten Geschäftsprozesse dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Asset-Modellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.4%20Asset-Modellierung.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | alle Assets mit Relevanz für die betrachteten Geschäftsprozesse |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS alle Assets mit Relevanz für die betrachteten Geschäftsprozesse dokumentieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |> > | [Geschäftsprozess](result_Geschäftsprozess_00000000-0000-0000-0000-000000000000) | Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Arbeitsabläufe), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. |
 
 > [!info]- Guidance
 >Für die Dokumentation kann auf vorhandene Assetdaten/-register und digitale erfasste Systemdaten zurückgegriffen werden.  Für jedes Asset sollten  die eindeutige Bezeichnung/ID, eiine kurze Beschreibung des Assets und seines Zwecks, die Zuordnung zu Geschäftsprozessen, der/ die verantwortliche Rolle bzw. Asset-Owner und letztlich ggf. der Standort bzw. logische Einordnung (Netz, Anwendungskontext etc.) sowie vorhandene Abhängigkeiten zu anderen Assets dokumentiert werden.

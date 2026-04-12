@@ -1,21 +1,28 @@
 ---
-tags: Hochverfügbarkeit_DDoS
+tags:
+- hochverfügbarkeit_ddos
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.4 Content Delivery Network
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.4 - Content Delivery Network
-Tags: "[Hochverfügbarkeit](tags_Hochverfügbarkeit)" "[DDoS](tags_DDoS)"
+> [!example]- Tags:> [[tags_Hochverfügbarkeit|Hochverfügbarkeit]]> [[tags_DDoS|DDoS]]
 Gruppe: [ARCH.9 Kapazitätsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.9%20Kapazitätsmanagement.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.9%20Kapazitätsmanagement.md) *** | Anwendungen | KANN | ein Content Delivery Network |  | installieren | Konfigurationshistorie | >Architektur für Anwendungen KANN ein Content Delivery Network installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | ein Content Delivery Network |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN ein Content Delivery Network installieren.</span>
 
 > [!info]- Guidance
 >Ein Content Delivery Network (CDN) ist ein Netz geographisch verteilter Server, welches Inhalte wie Webseiten und große Mediendateien auch bei hoher Last skaliert zur Verfügung stellt. CDNs sind sinnvoll für weltweit hochverfügbare Server-Anwendungen, da so Lastspitzen und DDoS-Angriffe abgemildert werden. Ein CDN kann selbst umgesetzt oder durch einen entsprechenden Dienstleister übernommen werden.

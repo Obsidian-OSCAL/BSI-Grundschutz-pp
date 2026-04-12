@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.4 Vertragsvorlage für Outsourcing
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.4 - Vertragsvorlage für Outsourcing
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *** | Outsourcing | SOLLTE | Kriterien für Outsourcing-Dienstleistungen in einer standardisierten Richtlinie für Verträge |  | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für Outsourcing SOLLTE Kriterien für Outsourcing-Dienstleistungen in einer standardisierten Richtlinie für Verträge dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Kriterien für Outsourcing-Dienstleistungen in einer standardisierten Richtlinie für Verträge |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing SOLLTE Kriterien für Outsourcing-Dienstleistungen in einer standardisierten Richtlinie für Verträge dokumentieren.</span>
 
 > [!info]- Guidance
 >Eine standardisierte Richtlinie für Verträge enthält klare grundlegende Kriterien für Verträge mit Anbietenden von Outsourcing , etwa zu Datenlokationen, Test- und Freigabeverfahren, Compliance-Risiken bei Anbietenden von Outsourcing sowie bei Sub-Dienstleistenden, sowie weiteren Aspekte der Informationssicherheit für Outsourcing-Vorhaben. Der besondere Fokus auf Outsourcing ergibt sich daraus, dass hierbei nicht nur Werk- oder Dienstleistungen zugekauft werden, sondern sensible Prozesse oder Daten langfristig aus der direkten Kontrolle der Institution herausgegeben werden. Ohne standardisierte Kriterien könnte ein eigenhändisch formulierter Vertrag z. B. unpräzise Datenschutzregelungen enthalten, was im Vorfallfall dazu führen könnte, dass vertrauliche Daten in ein unsicheres Drittland gelangen oder dass bei Ausfällen keine klaren Eskalationswege bestehen.

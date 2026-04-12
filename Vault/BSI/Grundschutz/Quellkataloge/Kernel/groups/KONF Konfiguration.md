@@ -6,7 +6,13 @@ group_id: KONF
 
 ** Group **
 # KONF - Konfiguration 
-> [!info]+ Untergeordnete Gruppen> [KONF.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.1%20Grundlagen.md)
+> [!info]- Praktik KONF Konfiguration:
+> | | |
+> | - | - |
+> | auch bekannt als: | Konfigurationsmanagement |
+> | Schwerpunkt: | Technisch |
+>
+> > Die Praktik Konfiguration stellt sicher, dass IT-Komponenten – wie Anwendungen und IT-Systeme – gemäß den festgelegten Informationssicherheitsrichtlinien eingerichtet und kontinuierlich gepflegt werden, um Sicherheitslücken durch fehlerhafte oder unsichere Einstellungen zu vermeiden. Dies umfasst auch die nachvollziehbare Erstellung und Fortführung der Dokumentation.> [!example]+ Untergeordnete Gruppen> [KONF.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.1%20Grundlagen.md)
 > [KONF.2 Konfiguration von Systemen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.2%20Konfiguration%20von%20Systemen.md)
 > [KONF.3 Physischer Schutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.3%20Physischer%20Schutz.md)
 > [KONF.4 Vertrauenswürdige Basisdienste](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.4%20Vertrauenswürdige%20Basisdienste.md)

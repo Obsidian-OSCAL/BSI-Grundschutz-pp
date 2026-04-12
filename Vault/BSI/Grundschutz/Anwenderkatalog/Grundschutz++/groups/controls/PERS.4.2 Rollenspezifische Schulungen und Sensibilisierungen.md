@@ -1,24 +1,30 @@
 ---
 tags:
-- Kompetenzmanagement
+- kompetenzmanagement
 - pers42-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: ausführen
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.4.2 - Rollenspezifische Schulungen und Sensibilisierungen
-Tags: "[Kompetenzmanagement](tags_Kompetenzmanagement)"
+Tag: [[tags_Kompetenzmanagement|Kompetenzmanagement]]
 Gruppe: [PERS.4 Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERS.4.2.1 Produktspezifische Schulungen und Sensibilisierungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.4.2.1%20Produktspezifische%20Schulungen%20und%20Sensibilisierungen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md) *** | Nutzende | SOLLTE | rollenspezifische Schulungen und Sensibilisierungen | im Einklang mit den Anforderungen der Praktik Sensibilisierung bei Neuzugang und {{regelmäßig}} | ausführen | Schulungsplan | >Personal für Nutzende SOLLTE rollenspezifische Schulungen und Sensibilisierungen im Einklang mit den Anforderungen der Praktik Sensibilisierung bei Neuzugang und {{ insert: param, pers.4.2-prm1 }} ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | rollenspezifische Schulungen und Sensibilisierungen | im Einklang mit den Anforderungen der Praktik Sensibilisierung bei Neuzugang und {{regelmäßig}} | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Nutzende SOLLTE rollenspezifische Schulungen und Sensibilisierungen im Einklang mit den Anforderungen der Praktik Sensibilisierung bei Neuzugang und {{ insert: param, pers.4.2-prm1 }} ausführen.</span>
 
 > [!info]- Guidance
 >Neue Mitarbeitende könnten ohne gezielte Einführung unbewusst vertrauliche Informationen preisgeben, unsichere Passwörter wählen oder Phishing-Mails öffnen, da ihnen relevante Schutzprinzipien oder Gefährdungen im Kontext ihrer Tätigkeit nicht bekannt sind. Ebenso könnte es bei länger Beschäftigten zu einer „Routineblindheit“ kommen, sodass beispielsweise ungewöhnliche Systemmeldungen nicht mehr ernst genommen oder sensible Daten versehentlich an unberechtigte Personen weitergegeben werden. „Rollenspezifisch“ bedeutet in diesem Zusammenhang, dass die Inhalte der Schulung auf die jeweilige Tätigkeit zugeschnitten werden – eine Person im IT-Bereich benötigt z. B. andere Sicherheitskenntnisse als jemand im Vertrieb oder in der Verwaltung. Beispiele für rollenspezifische Schulungen sind Kurse zum sicheren IT-Betrieb für Administrierende, OWASP® Top 10 Training für Webentwickler und Social Engineering Abwehrtraining für die Institutionsleitung. Eine Institution kann diese Anforderung etwa umsetzen, indem sie standardisierte E-Learning-Module bereitstellt, die durch kurze Praxisszenarien ergänzt werden. Hilfreich ist, die Dauer der Formate überschaubar zu halten, um die Akzeptanz hoch zu halten, und die Wirksamkeit regelmäßig durch Feedback oder kleine Tests zu prüfen. Ebenso kann es sinnvoll sein, Fachbereiche in die Ausgestaltung einzubinden, damit Beispiele und Szenarien aus dem tatsächlichen Arbeitsalltag stammen. Mitarbeitende, die bereits eine passende Qualifikation erworben haben, können von der Schulung ausgenommen werden.

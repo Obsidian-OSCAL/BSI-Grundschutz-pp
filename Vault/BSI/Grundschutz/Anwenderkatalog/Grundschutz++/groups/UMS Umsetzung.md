@@ -6,7 +6,13 @@ group_id: UMS
 
 ** Group **
 # UMS - Umsetzung 
-> [!info]+ Untergeordnete Gruppen> [UMS.1 Ermittlung des Umsetzungsstatus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.1%20Ermittlung%20des%20Umsetzungsstatus.md)
+> [!info]- Praktik UMS Umsetzung:
+> | | |
+> | - | - |
+> | auch bekannt als: | Realisierung von Sicherheitsmaßnahmen |
+> | Schwerpunkt: | Methodik |
+>
+> > Die Praktik Umsetzung sorgt für die systematische Planung, Implementierung und Dokumentation von Anforderungen bzw. der Sicherheitsmaßnahmen, die aus der Strukturmodellierung und Risikobewertung abgeleitet wurden. Sie stellt sicher, dass identifizierte Sicherheitsanforderungen effektiv in die organisatorischen und technischen Prozesse integriert werden.<br>Diese Praktik umfasst die detaillierte Planung von Maßnahmen, die Festlegung von Verantwortlichkeiten und Zeitplänen sowie die Bereitstellung notwendiger Ressourcen. Zudem beinhaltet sie die Nachverfolgung der Implementierung und die Dokumentation der umgesetzten Maßnahmen.<br><br>Während die Praktik Strukturmodellierung die notwendigen Anforderungen identifiziert und die Praktik Monitoring-Evaluation die Wirksamkeit der Maßnahmen überprüft, konzentriert sich die Umsetzung auf die effiziente und effektive Realisierung der erforderlichen Sicherheitsmaßnahmen.> [!example]+ Untergeordnete Gruppen> [UMS.1 Ermittlung des Umsetzungsstatus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.1%20Ermittlung%20des%20Umsetzungsstatus.md)
 > [UMS.2 Bewertung fehlender Umsetzungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.2%20Bewertung%20fehlender%20Umsetzungen.md)
 > [UMS.3 Umsetzungsplanung und Priorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.3%20Umsetzungsplanung%20und%20Priorisierung.md)
 > [UMS.4 Zuständigkeiten und Umsetzungsfristen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.4%20Zuständigkeiten%20und%20Umsetzungsfristen.md)

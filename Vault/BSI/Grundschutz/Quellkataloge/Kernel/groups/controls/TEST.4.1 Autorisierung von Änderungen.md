@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.4.1 Autorisierung von Änderungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: autorisieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -10,11 +15,11 @@ control: TEST.4.1 Autorisierung von Änderungen
 Gruppe: [TEST.4 Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [TEST.4.1.1 Unabhängigkeit der Autorisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/TEST.4.1.1%20Unabhängigkeit%20der%20Autorisierung.md)> [TEST.4.1.2 Dokumentation der Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/TEST.4.1.2%20Dokumentation%20der%20Freigabe.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md) *** |  | SOLLTE | kritische Änderungen | anhand von Kriterien einschließlich der Sicherheitsanforderungen | autorisieren | IT-Betriebskonzept | >Änderungen und Tests SOLLTE kritische Änderungen anhand von Kriterien einschließlich der Sicherheitsanforderungen autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | kritische Änderungen | anhand von Kriterien einschließlich der Sicherheitsanforderungen | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE kritische Änderungen anhand von Kriterien einschließlich der Sicherheitsanforderungen autorisieren.</span>
 
 > [!info]- Guidance
 >Änderungen gelten als kritisch, wenn sie breite Auswirkungen auf Geschäftsprozesse haben, beispielsweise die Aktivierung der Zwei-Faktor-Authentifizierung am zentralen Verzeichnisdienst. Die Kritikalität ergibt sich zudem aus Art und Umfang der Änderung, etwa bei umfangreichen Migrationen oder sicherheitsrelevanten Fehlerbehebungen. Kritische Änderungen betreffen häufig die Bereitstellung für eine große Zahl interner oder externer Nutzender oder Eingriffe in hochverfügbare Systeme. Zu den maßgeblichen Kriterien für die Freigabe zählen das fehlerfreie Durchlaufen definierter Tests, eine ausreichende Nutzerakzeptanz in einem Beta-Test und das erfolgreiche Bestehen von Penetrationstests. Zweckmäßig ist eine mehrstufige Autorisierung, in der Änderungen anhand der prognostizierten Auswirkungen den Kategorien niedrig, mittel oder hoch zugeordnet und mit abgestuften Genehmigungsanforderungen verknüpft werden. Während bei geringfügigen Änderungen an unkritischen Systemen eine konzentrierte Prüfung grundlegender Sicherheitsanforderungen wie Authentifizierung, Verschlüsselung und Härtung ausreichen kann, erfordern umfangreiche Vorhaben mit hohem Risikoprofil in der Regel automatisierte Prüfmechanismen, ergänzt durch Checklisten für manuelle Tätigkeiten, um die Auswirkungen verlässlich beherrschbar zu halten.

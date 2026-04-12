@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.5 Vernichtungseinrichtungen
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *** | Standorte | KANN | an allen Standorten, an denen körperliche Dokumente verarbeitet werden, Vernichtungseinrichtungen | vor dem Zugriff unbefugter geschützt | installieren | IT-Betriebskonzept | >Informationen und Assets für Standorte KANN an allen Standorten, an denen körperliche Dokumente verarbeitet werden, Vernichtungseinrichtungen vor dem Zugriff unbefugter geschützt installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | an allen Standorten, an denen körperliche Dokumente verarbeitet werden, Vernichtungseinrichtungen | vor dem Zugriff unbefugter geschützt | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Standorte KANN an allen Standorten, an denen körperliche Dokumente verarbeitet werden, Vernichtungseinrichtungen vor dem Zugriff unbefugter geschützt installieren.</span>
 
 > [!info]- Guidance
 >Die Installation von Vernichtungseinrichtungen dient dem Schutz sensibler Daten vor unbefugtem Zugriff, Missbrauch oder unkontrollierter Weitergabe. Ziel ist es, die Vertraulichkeit, Integrität und Verfügbarkeit von Informationen auch über ihren gesamten Lebenszyklus hinweg sicherzustellen – einschließlich der ordnungsgemäßen Entsorgung. Unter Vernichtungseinrichtungen versteht man mechanische oder elektronische Geräte, die Dokumente so zerkleinern oder unlesbar machen, dass eine Rekonstruktion unmöglich ist; typische Beispiele sind Aktenvernichter mit Schutzklasse P-4 oder höher oder Entsorgungsbehälter mit gesichertem Zugriff (z.B. abschließbare Sicherheitsbehälter). Dies kann auch so realisiert werden, dass Datenträger gesammelt und zentral gelöscht oder vernichtet werden. Kann durch die Institution selbst oder Dienstleister für die Aktenvernichtung umgesetzt werden. Bei der Verwendung von Dienstleistern ist es sinnvoll, deren Professionalität zu verifzieren, z.B. durch ein Zertifikat. Bei der Umsetzung ist es sinnvoll darauf zu achten, dass solche Einrichtungen nicht nur ausreichend dimensioniert und technisch geeignet sind, sondern auch physisch gegen unbefugten Zugriff geschützt werden – etwa durch Aufstellung in abgeschlossenen Räumen oder durch Zugangskontrolle.

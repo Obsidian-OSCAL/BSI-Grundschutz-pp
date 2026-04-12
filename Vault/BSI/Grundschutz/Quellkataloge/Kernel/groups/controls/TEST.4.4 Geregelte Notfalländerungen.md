@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.4.4 Geregelte Notfalländerungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [TEST.4 Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20F
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md) *** |  | SOLLTE | Regelungen für Notfalländerungen | einschließlich Vorgehensweise, Zuständigkeiten, erforderlicher Ressourcen und minimaler Prüfschritte | verankern | IT-Betriebskonzept | >Änderungen und Tests SOLLTE Regelungen für Notfalländerungen einschließlich Vorgehensweise, Zuständigkeiten, erforderlicher Ressourcen und minimaler Prüfschritte verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Regelungen für Notfalländerungen | einschließlich Vorgehensweise, Zuständigkeiten, erforderlicher Ressourcen und minimaler Prüfschritte | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE Regelungen für Notfalländerungen einschließlich Vorgehensweise, Zuständigkeiten, erforderlicher Ressourcen und minimaler Prüfschritte verankern.</span>
 
 > [!info]- Guidance
 >Ein Notfall-Deployment-Prozess ermöglicht eine schnelle Reaktion auf akute Bedrohungen. Als Notfall-Ereignisse kommen z.B. Zero-Day-Exploits, kritische Sicherheitslücken mit aktiver Ausnutzung, schwerwiegende Produktionsfehler mit Geschäftsauswirkungen oder koordinierte Cyberangriffe in Frage. Zu einer strukturierten Vorgehensweise können z.B. gehören: (1) Ein Eskalationsverfahren mit definierten Kommunikationswegen, z.B. zum ISB und Administrierenden, welche über Rufbereitschaftspläne und automatisierte Alarmierungssysteme erreichbar sind und Zugriffsrechte auf isolierte Notfall-Deployment-Umgebungen, vorkonfigurierte Rollback-Mechanismen sowie dedizierte Notfall-Builds mit minimalen Abhängigkeiten besitzen.  (2) Minimale Prüfschritte können z.B. eine beschleunigte Sicherheitsvalidierung kritischer Codeänderungen, automatisierte Sicherheitsscans zur Identifikation offensichtlicher Schwachstellen, die Verifizierung der Code-Integrität durch mindestens zwei autorisierte Personen nach dem Vier-Augen-Prinzip sowie ein dokumentierter Genehmigungsprozess mit expliziter Abzeichnung durch den CISO oder einen designierten Stellvertreter sein.  (3) Eine Nachbereitung mit Post-Incident-Analyse zur Dokumentation der getroffenen Maßnahmen, identifizierten Verbesserungspotenzialen und notwendigen Nacharbeiten.

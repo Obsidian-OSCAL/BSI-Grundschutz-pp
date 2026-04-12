@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.3 Wasserschutz
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+result_reference: Asset
+control_effort_level: '2'
 ---
 
 
@@ -10,11 +17,13 @@ control: GEB.10.3 Wasserschutz
 Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GEB.10.3.1 Doppelter baulicher Wasserschutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.10.3.1%20Doppelter%20baulicher%20Wasserschutz.md)> [GEB.10.3.2 Leckagesensor](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.10.3.2%20Leckagesensor.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Standorte | SOLLTE | zwischen Assets und Witterungs- sowie Wassergefahrenstellen mindestens eine physische Schutzmaßnahme vor Wasser | nach den entsprechenden Normen | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE zwischen Assets und Witterungs- sowie Wassergefahrenstellen mindestens eine physische Schutzmaßnahme vor Wasser nach den entsprechenden Normen installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zwischen Assets und Witterungs- sowie Wassergefahrenstellen mindestens eine physische Schutzmaßnahme vor Wasser | nach den entsprechenden Normen | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE zwischen Assets und Witterungs- sowie Wassergefahrenstellen mindestens eine physische Schutzmaßnahme vor Wasser nach den entsprechenden Normen installieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Relevant ist hierbei sowohl Wasser von oben (Regen und Schnee), als auch von unten (Überflutungen, gesammeltes Regenwasser).  Maßnahmen können z.B. witterungsbeständige Baumaterialien, Abdichtungen, Überdachungen, Entwässerungssysteme oder eine erhöhte Positionierung, die eher nicht in überfluteten Bereichen liegen wird, sein. Schränke und Gehäuse können auch mit einer geeigneten IP-Schutzklasse (z.B. IP65) gegen Wasser geschützt werden.

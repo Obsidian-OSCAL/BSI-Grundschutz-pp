@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.9.2 Weitere Parameter
+stmt_modal_verb: MUSS
+stmt_action_word: zuweisen
+result_reference: Anforderung
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,11 @@ Gruppe: [STM.9 Gestaltungsentscheidungen](BSI/Grundschutz/Quellkataloge/Methodik
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Gestaltungsentscheidungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.9%20Gestaltungsentscheidungen.md) *** |  | MUSS | Parameter innerhalb einer Anforderung | zur automatisierten Prüfung | zuweisen |  | >Strukturmodellierung MUSS Parameter innerhalb einer Anforderung zur automatisierten Prüfung zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Gestaltungsentscheidungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.9%20Gestaltungsentscheidungen.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Parameter innerhalb einer Anforderung | zur automatisierten Prüfung | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS Parameter innerhalb einer Anforderung zur automatisierten Prüfung zuweisen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Bei manchen Anforderungen wird es eine Auswahl an möglichen einsetzbaren Werten geben, welche durch andere Normen und Standards vorgegeben sein können.

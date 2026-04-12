@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.3.2 Korrelation komplexer Angriffswege
 parent_control: DET.5.3 Schwachstellenscans
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Gr
 
 ** Übergeordnetes Control: ** [DET.5.3 Schwachstellenscans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3%20Schwachstellenscans.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | KANN | Schwachstellen anhand eines Abgleichs mehrerer Scans miteinander |  | überprüfen | Detektions-Konzept | >Detektion KANN Schwachstellen anhand eines Abgleichs mehrerer Scans miteinander überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Schwachstellen anhand eines Abgleichs mehrerer Scans miteinander |  | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN Schwachstellen anhand eines Abgleichs mehrerer Scans miteinander überprüfen.</span>
 
 > [!info]- Guidance
 >Fortschrittliche Angreifer könnten mehrere, scheinbar unkritische Schwachstellen nacheinander ausnutzen, die erst in Kombination einen gefährlichen Angriff, etwa die Ausführung von Code aus der Ferne, erlauben. Um solche komplexen Angriffe zu erkennen, können Messergebnisse verschiedener Schwachstellenscanner miteinander abgeglichen werden. Komplexe Angriffswege können mit Methoden wie Attack Trees erkannt und bewertet werden.

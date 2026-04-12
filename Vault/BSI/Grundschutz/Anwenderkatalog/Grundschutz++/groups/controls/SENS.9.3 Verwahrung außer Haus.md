@@ -1,21 +1,28 @@
 ---
-tags: Physical_Access_Control
+tags:
+- physical_access_control
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.3 Verwahrung außer Haus
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.3 - Verwahrung außer Haus
-Tags: "[Physical Access Control](tags_Physical Access Control)"
+Tag: [[tags_Physical Access Control|Physical Access Control]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md) *** | Nutzende | SOLLTE | zur Verwahrung von IT-Systemen und Datenträgern | beim mobilen Arbeiten | anweisen | Arbeitsanweisung | >Sensibilisierung für Nutzende SOLLTE zur Verwahrung von IT-Systemen und Datenträgern beim mobilen Arbeiten anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Verwahrung von IT-Systemen und Datenträgern | beim mobilen Arbeiten | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zur Verwahrung von IT-Systemen und Datenträgern beim mobilen Arbeiten anweisen.</span>
 
 > [!info]- Guidance
 >Die Verwahrung von IT-Systemen und Datenträgern bedeutet, diese so zu sichern, dass sie nicht unbeabsichtigt verloren gehen, beschädigt oder unbefugt eingesehen werden können. An mobilen Arbeitsplätzen ist das Risiko eines Zugriffs Unbefugter oder Verlustes typischerweise höher als in Bürogebäuden. Dagegen hilft es, alle Hardware und Dokumente so aufzubewahren, dass unbefugter Zugang und unberechtigter Zugriff verhindert wird. Hierzu können z.B. Koffer mit Schloss oder Hotelsafes genutzt werden. Eine regelmäßige Überprüfung dieser Maßnahmen wird empfohlen.

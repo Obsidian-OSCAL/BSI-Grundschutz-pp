@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.2.3 Verschlüsselung und Signatur
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Quellkataloge/Ker
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Grundlegende Sensibilisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.2%20Grundlegende%20Sensibilisierung.md) *** | Nutzende, Anwendungen | SOLLTE | zur Bedienung von Verschlüsselungs- und Signaturfunktionen |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende von Anwendungen SOLLTE zur Bedienung von Verschlüsselungs- und Signaturfunktionen sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Grundlegende Sensibilisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.2%20Grundlegende%20Sensibilisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Nutzende, Anwendungen | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Bedienung von Verschlüsselungs- und Signaturfunktionen |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende von Anwendungen SOLLTE zur Bedienung von Verschlüsselungs- und Signaturfunktionen sensibilisieren.</span>
 
 > [!info]- Guidance
 >Viele Anwendungen zur Kommunikation bieten Funktionen zur Verschlüsselung oder digitalen Signatur (z.B. Verifikation der Ende-zu-Ende-Verschlüsselung per QR-Code im Messenger, Digitale Signatur von E-Mails). Verschlüsselung kann symmetrisch (gleicher Schlüssel ist auf beiden Seiten bekannt) oder asymmetrisch (ein öffentlicher und ein privater Schlüssel) erfolgen. Digitale Signaturen ermöglichen es, die Herkunft einer Nachricht zu überprüfen und Manipulationen zu erkennen.

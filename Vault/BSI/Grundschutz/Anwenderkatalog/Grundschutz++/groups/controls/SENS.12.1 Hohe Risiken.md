@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.12.1 Hohe Risiken
+stmt_target_object_category: Nutzende
+stmt_modal_verb: KANN
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.12 Spezifische Risiken](BSI/Grundschutz/Anwenderkatalog/Grundschut
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Spezifische Risiken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.12%20Spezifische%20Risiken.md) *** | Nutzende | KANN | gegen die in der Risikoanalyse festgestellten hohen Risiken |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende KANN gegen die in der Risikoanalyse festgestellten hohen Risiken sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Spezifische Risiken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.12%20Spezifische%20Risiken.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | gegen die in der Risikoanalyse festgestellten hohen Risiken |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende KANN gegen die in der Risikoanalyse festgestellten hohen Risiken sensibilisieren.</span>
 
 > [!info]- Guidance
 >Werden in einer Risikoanalyse bei hohem Schutzbedarf spezielle hohe Risiken festgestellt, so sind betroffene Nutzende auf diese Risiken hinzuweisen. Praktische Maßnahmen können (1) interaktive Trainings zu den jeweils relevanten Angriffsmethoden wie Social Engineering oder Ransomware umfassen, (2) Fallbeispiele aus der eigenen Branche einbeziehen, die konkrete Handlungsweisen aufzeigen, oder (3) wiederkehrende Awareness-Impulse wie Übungen einsetzen, die das Gelernte im Alltag verankern.

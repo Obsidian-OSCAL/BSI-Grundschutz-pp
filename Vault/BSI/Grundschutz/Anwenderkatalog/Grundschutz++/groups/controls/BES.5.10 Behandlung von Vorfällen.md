@@ -1,22 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.10 Behandlung von Vorfällen
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.10 - Behandlung von Vorfällen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.5.10.1 Erreichbarkeit über Meldewege](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.1%20Erreichbarkeit%20über%20Meldewege.md)> [BES.5.10.2 Melden von Vorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.2%20Melden%20von%20Vorfällen.md)> [BES.5.10.3 Schwachstellenbehebung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.3%20Schwachstellenbehebung.md)> [BES.5.10.4 Konfliktlösungsprozesse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.4%20Konfliktlösungsprozesse.md)> [BES.5.10.5 Konsequenzen bei Verstößen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.5%20Konsequenzen%20bei%20Verstößen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Einkäufe | SOLLTE | Regelungen für die Behandlung von Vorfällen |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE Regelungen für die Behandlung von Vorfällen vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Regelungen für die Behandlung von Vorfällen |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE Regelungen für die Behandlung von Vorfällen vereinbaren.</span>
 
 > [!info]- Guidance
 >Ein Vorfall bezeichnet in diesem Zusammenhang jedes sicherheitsrelevante Ereignis, das zu einer Beeinträchtigung der Vertraulichkeit, Integrität oder Verfügbarkeit von Informationen oder IT-Diensten führen kann, etwa Datenabflüsse, unbefugte Zugriffe oder längerfristige Systemausfälle. Der Sinn und Zweck der Regelung liegt darin, mit Vertragspartnern abgestimmte Verfahren zu haben, um im Ernstfall schnell und koordiniert reagieren zu können. Ohne klare Vereinbarungen könnte wertvolle Zeit verloren gehen, es könnten unklare Zuständigkeiten entstehen oder Meldungen verzögert erfolgen. Mit abgestimmten Prozessen kann dagegen die Schadensbegrenzung beschleunigt, Transparenz über den Vorfall geschaffen und eine wirksame Ursachenanalyse ermöglicht werden. Hierzu gehört insbesondere die Benachrichtigung des Vertragspartners und die Zusammenarbeit zur Behebung von Vorfällen.

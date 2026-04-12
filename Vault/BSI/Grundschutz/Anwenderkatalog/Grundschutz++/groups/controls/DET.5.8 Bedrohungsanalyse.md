@@ -1,8 +1,13 @@
 ---
-tags: det58-prm1
+tags:
+- det58-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.8 Bedrohungsanalyse
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+control_effort_level: '5'
 ---
 
 
@@ -11,11 +16,11 @@ control: DET.5.8 Bedrohungsanalyse
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DET.5.8.1 Auswertung öffentlicher Quellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.8.1%20Auswertung%20öffentlicher%20Quellen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | SOLLTE | verfügbare Informationen zu Bedrohungen, die für den Informationsverbund relevant sind, | {{regelmäßig}} | überprüfen | Detektions-Konzept | >Detektion SOLLTE verfügbare Informationen zu Bedrohungen, die für den Informationsverbund relevant sind, {{ insert: param, det.5.8-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | verfügbare Informationen zu Bedrohungen, die für den Informationsverbund relevant sind, | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE verfügbare Informationen zu Bedrohungen, die für den Informationsverbund relevant sind, {{ insert: param, det.5.8-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Bedrohungsaufklärung (Threat Intelligence) dient dem Sammeln und Analysieren von Informationen über bestehende oder aufkommende Bedrohungen, um fundierte Maßnahmen zur Verhinderung von Schäden zu ermöglichen und die Auswirkungen solcher Bedrohungen zu reduzieren. Sie kann in drei Schichten unterteilt werden: strategische Bedrohungsaufklärung (Austausch von Informationen auf hoher Ebene über die sich verändernde Bedrohungslandschaft), taktische Bedrohungsaufklärung (Informationen über Angreifermethoden, beteiligte Werkzeuge und Technologien) und operative Bedrohungsaufklärung (Details zu spezifischen Angriffen, einschließlich technischer Indikatoren). Die gesammelten Bedrohungsinformationen können analysiert und später genutzt werden, indem Prozesse implementiert werden können, um die aus Bedrohungsaufklärungsquellen gesammelten Informationen in die Risikomanagementprozesse einzubeziehen. Sie können als zusätzlicher Input für technische Präventiv- und Erkennungskontrollen wie Firewalls, Intrusion-Detection-Systeme oder Anti-Malware-Lösungen dienen sowie als Eingabe für die Testprozesse und -techniken der Informationssicherheit verwendet werden. Die Institution kann Bedrohungsinformationen auf gegenseitiger Basis mit anderen teilen, um die allgemeine Bedrohungsaufklärung zu verbessern. Dies kann einen kooperativen Ansatz zur Stärkung der gemeinsamen Sicherheitslage fördern.

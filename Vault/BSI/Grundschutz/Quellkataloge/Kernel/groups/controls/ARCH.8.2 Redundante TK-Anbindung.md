@@ -1,21 +1,28 @@
 ---
-tags: Hochverfügbarkeit_Failover_PSTN
+tags:
+- hochverfügbarkeit_failover_pstn
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.8.2 Redundante TK-Anbindung
+stmt_target_object_category: Externe Netzanschlüsse
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.8.2 - Redundante TK-Anbindung
-Tags: "[Hochverfügbarkeit](tags_Hochverfügbarkeit)" "[Failover](tags_Failover)" "[PSTN](tags_PSTN)"
+> [!example]- Tags:> [[tags_Hochverfügbarkeit|Hochverfügbarkeit]]> [[tags_Failover|Failover]]> [[tags_PSTN|PSTN]]
 Gruppe: [ARCH.8 Ausfallsicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.8%20Ausfallsicherheit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Ausfallsicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.8%20Ausfallsicherheit.md) *** | Externe Netzanschlüsse | KANN | redundante TK-Anbindungen | für eingehende und ausgehende Verbindungen | installieren | Konfigurationshistorie | >Architektur für Externe Netzanschlüsse KANN redundante TK-Anbindungen für eingehende und ausgehende Verbindungen installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Ausfallsicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.8%20Ausfallsicherheit.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Externe Netzanschlüsse](target_object_categories_Externe Netzanschlüsse_a9521914-ccf9-4c20-8eef-2dd912fb815d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | redundante TK-Anbindungen | für eingehende und ausgehende Verbindungen | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Externe Netzanschlüsse KANN redundante TK-Anbindungen für eingehende und ausgehende Verbindungen installieren.</span>
 
 > [!info]- Guidance
 >Telekommunikationsanbindungen sind z.B. SIP-Trunks zum öffentlichen Telefonnetz (PSTN). Für weitere Details siehe „Kompendium für organisationsinterne Telekommunikationssysteme mit erhöhtem Schutzbedarf".

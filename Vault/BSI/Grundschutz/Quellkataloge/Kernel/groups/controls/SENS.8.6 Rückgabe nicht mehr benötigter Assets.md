@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.6 Rückgabe nicht mehr benötigter Assets
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+result_reference: Asset
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +18,11 @@ Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/group
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md) *** | Nutzende | SOLLTE | zur Rückgabe nicht mehr benötigter Assets |  | anweisen | Arbeitsanweisung | >Sensibilisierung für Nutzende SOLLTE zur Rückgabe nicht mehr benötigter Assets anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Rückgabe nicht mehr benötigter Assets |  | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zur Rückgabe nicht mehr benötigter Assets anweisen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Dies gilt z.B. bei einem Wechsel der Aufgaben oder der Beendigung des Vertragsverhältnisses zwischen Nutzenden und der Institution.

@@ -1,22 +1,31 @@
 ---
-tags: Inventories
+tags:
+- inventories
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.2.1 Inventar der Informationen
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Inventar Informationen
+result_reference: Asset
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.2.1 - Inventar der Informationen
-Tags: "[Inventories](tags_Inventories)"
+Tag: [[tags_Inventories|Inventories]]
 Gruppe: [ASST.2 Inventarisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.2%20Inventarisierung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ASST.2.1.1 Informationsverantwortung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.2.1.1%20Informationsverantwortung.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Inventarisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.2%20Inventarisierung.md) *** |  | SOLLTE | ein Inventar der Informationen und damit verbundener Assets |  | dokumentieren | Inventar Informationen | >Informationen und Assets SOLLTE ein Inventar der Informationen und damit verbundener Assets dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Inventarisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.2%20Inventarisierung.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Inventar der Informationen und damit verbundener Assets |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Inventar Informationen](documentation_guidelines_Inventar Informationen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE ein Inventar der Informationen und damit verbundener Assets dokumentieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Um die Informationssicherheit zu schützen ist es erforderlich, die zu schützenden Werte systematisch zu erfassen und ihre Verwendung über den gesamten Lebenszyklus nachzuhalten. Sinnvoll ist es hierbei, den Detaillierungsgrad des Inventars angepasst an Schutzbedarf und Risikoprofil des Informationsverbundes zu wählen. Das Inventar kann eine Übersicht der für Geschäftsprozesse relevanten Kategorien von schützenswerten Informationen, z.B. für Kunden Vor- und Nachname, Adresse, IBAN, Telefonnummer, Kundenkennwort als Grundlage haben. Es muss sich allerdings nicht um eine einzige Liste von Informationen und Assets handeln. Um eine leichtere, automatische Pflege des Inventars zu ermöglichen ist es vielmehr sinnvoll, eine Reihe dynamischer Inventare oder Datenbestände möglichst nahe an der Quelle der Informationen zu verwenden, z.B. eine Verzeichnisdatenbank für Zugangskonten und Systeme, eine Anwendung zum Assetmanagement für physische Assets, sowie Dateisysteme oder Datenbanken für einzelne Dateien und Daten. Falls ein datenschutzrechtliches Verarbeitungsverzeichnis für die Erfassung von personenbezogenen Daten besteht, kann es ebenfalls in das Inventar einbezogen werden. Für physische Dokumente kann ein Aktenbestandsverzeichnis eingesetzt werden. Zur Erfassung von Netzen siehe Praktik Architektur. Zur Erfassung von Identitäten, Zugangskonten und Berechtigungen siehe Praktik Berechtigung. Für kurzlebige Informationen, z.B. virtuelle Maschinen, nur on-demand automatisch eingerichtet und wieder gelöscht werden oder händische Notizen, die nicht systematisch verarbeitet werden, ist keine Inventur erforderlich. Für Details zum IT-Assetmanagement siehe ISO/IEC 19770-1.

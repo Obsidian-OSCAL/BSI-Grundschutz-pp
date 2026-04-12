@@ -1,23 +1,32 @@
 ---
-tags: Advanced_Persistent_Threats_APT_Command__Control_Data_Exfiltration_Insider_Threat_Living_off_the_land
+tags:
+- advanced_persistent_threats_apt_command__control_data_exfiltration_insider_threat_living_off_the_land
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.6.1 Verhaltensanalyse von Zugangskonten
 parent_control: DET.4.6 Anomale Nutzung der Anwendung
+stmt_target_object_category: Verzeichnisdienste
+stmt_modal_verb: KANN
+stmt_action_word: überwachen
+result_reference: Zugang
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.6.1 - Verhaltensanalyse von Zugangskonten
-Tags: "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))" "[Command & Control](tags_Command & Control)" "[Data Exfiltration](tags_Data Exfiltration)" "[Insider Threat](tags_Insider Threat)" "[Living off the land](tags_Living off the land)"
+> [!example]- Tags:> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]> [[tags_Command & Control|Command & Control]]> [[tags_Data Exfiltration|Data Exfiltration]]> [[tags_Insider Threat|Insider Threat]]> [[tags_Living off the land|Living off the land]]
 Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
 ** Übergeordnetes Control: ** [DET.4.6 Anomale Nutzung der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.6%20Anomale%20Nutzung%20der%20Anwendung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *** | Verzeichnisdienste | KANN | das Verhalten von Zugangskonten |  | überwachen | Detektions-Konzept | >Detektion für Verzeichnisdienste KANN das Verhalten von Zugangskonten überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [Verzeichnisdienste](target_object_categories_Verzeichnisdienste_7a2b2665-c790-4395-9980-867c900be347) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | das Verhalten von Zugangskonten |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Verzeichnisdienste KANN das Verhalten von Zugangskonten überwachen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >User and Entity Behaviour Analytics (UEBA) nutzt moderne Verfahren einschließlich KI, um Anomalien im Verhalten von Zugangskonten oder Systemen zu erkennen, z.B. Anmeldungen zu ungewöhnlichen Zeiten, von ungewöhnlichen Orten, durch Verwendung veralteter Authentifzierungsverfahren wie NTLMv1 oder die Ausführung ungewöhnlicher Anwendungen. Ungewöhnliches Verhalten kann Anzeichen für netzbasierte Angriffe oder Innentäter sein. Allerdings gilt es hierbei auch rechtliche Vorgaben zum Datenschutz und betriebliche Mitbestimmungsrechte zu beachten. Ein sinnvoller Maßstab für die Ausgestaltung von Umfang und Detailltiefe der Überwachung können die Geschäfts- und Sicherheitsziele sein. Sinnvoll ist es hierbei begleitende Maßnahmen zur Compliance einzuführen, beispielsweise das manuelle Analysen nur unter bestimmten Voraussetzungen oder Beteiligungen vorgenommen werden.

@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.3.3 Umwandeln verdächtiger Dateien
+stmt_target_object_category: Nutzende
+stmt_modal_verb: KANN
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.3 Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md) *** | Nutzende | KANN | zum Umwandeln verdächtiger Dateien in ein nicht-ausführbares Format | vor der weiteren Verwendung | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende KANN zum Umwandeln verdächtiger Dateien in ein nicht-ausführbares Format vor der weiteren Verwendung sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | zum Umwandeln verdächtiger Dateien in ein nicht-ausführbares Format | vor der weiteren Verwendung | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende KANN zum Umwandeln verdächtiger Dateien in ein nicht-ausführbares Format vor der weiteren Verwendung sensibilisieren.</span>
 
 > [!info]- Guidance
 >Das gezielte Umwandeln potenziell schadhafter Dateien in ein nicht-ausführbares Format (engl. defanging) kann helfen, die Ausnutzung von Sicherheitslücken zu verhindern, bevor schädlicher Code aktiv werden kann. Eine Datei gilt dabei als verdächtig, wenn sie aus einer unbekannten oder unzuverlässigen Quelle stammt. Im Kontext dieser Anforderung bedeutet nicht-ausführbares Format (non-executable format), dass die Datei zwar geöffnet oder betrachtet, jedoch nicht direkt ausgeführt werden kann – Beispiele sind PDF ohne eingebettete aktive Inhalte, reines Textformat (.txt) oder Bildformate wie .png/.jpg. Die Umwandlung kann auf unterschiedliche Weise erfolgen, ohne dass dabei möglicher schadhafter Code in der Originaldatei ausgeführt wird. Verdächtige Office-Dokumente können automatisiert in ein PDF umgewandelt oder als Screenshot exportiert werden, bevor der Inhalt zur Ansicht freigegeben wird. Auch das Verwenden von sicheren Cloud-Vorschau-Ansichten, die keine direkte Ausführung erlauben, kann eingesetzt werden. Weitere praktikable Möglichkeiten sind das Umwandeln von ausführbaren Anhängen in komprimierte Archive mit deaktivierter automatischer Entpackung, oder die Nutzung spezieller Konverter-Tools, die potenziell gefährliche Dateiinhalte in ein sicheres Anzeigeformat übertragen. Hilfreich kann auch ein einfaches, intern bereitgestelltes Kurztutorial sein, das typische Umwandlungsschritte für verschiedene Dateitypen erklärt und aufzeigt, woran Nutzende potenzielle Risiken erkennen können.

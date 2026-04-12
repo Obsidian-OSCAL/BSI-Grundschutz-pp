@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.7 Beschriftungen entfernen
+stmt_modal_verb: SOLLTE
+stmt_action_word: löschen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *** |  | SOLLTE | alle der Institution zuzuordnenden Beschriftungen | vor der Veräußerung von Assets | löschen | IT-Betriebskonzept | >Informationen und Assets SOLLTE alle der Institution zuzuordnenden Beschriftungen vor der Veräußerung von Assets löschen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | alle der Institution zuzuordnenden Beschriftungen | vor der Veräußerung von Assets | [löschen](action_words_löschen_78d93859-b886-4145-9dd8-201869ce158e) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE alle der Institution zuzuordnenden Beschriftungen vor der Veräußerung von Assets löschen.</span>
 
 > [!info]- Guidance
 >Die „Beschriftung“ eines Assets ist jede physische oder digitale Kennzeichnung, die eine eindeutige Zuordnung des Gegenstands oder Datenträgers zu Werten der Institution ermöglicht. Darunter fallen unter anderem Eigentumskennzeichnungen (engl. asset tags), Seriennummern, Barcodes, Gravuren, Aufkleber mit Logo, aber auch digitale Metadaten wie Gerätebezeichnungen, E-Mail-Konten, Hostnamen oder eingebettete Wasserzeichen. Das Löschen dieser Beschriftungen vor der Veräußerung stellt sicher, dass Dritte nicht unmittelbar auf den ursprünglichen Eigentümer schließen oder unautorisierte Rückschlüsse auf interne Strukturen, Sicherheitsarchitekturen oder Verantwortlichkeiten ziehen. Ohne diese Bereinigung könnte ein weiterveräußertes Gerät durch verbleibende Markierungen auf die Institution hinweisen und so gezielt für Social-Engineering-Angriffe oder Reputationsschäden genutzt werden. Eine solche Zuordnung könnte zudem dazu führen, dass vertrauliche Informationen über Inventar, Sicherheitsstandards oder IT-Bestände unbeabsichtigt offengelegt werden. Zudem könnte eine verbleibende Beschriftung zu Missverständnissen über Eigentumsverhältnisse oder Haftung führen, falls das Asset in einen Vorfall verwickelt wird. Konkret können unter den zu entfernenden Beschriftungen beispielsweise Eigentumsaufkleber mit der Inventarnummer, Etiketten mit Standort- oder Abteilungsbezeichnungen, Markierungen für interne Verwendungszwecke (z.B. "Testgerät", "intern"), aber auch digital eingebettete Informationen wie institutionelle Metadaten in Office-Dokumenten oder gespeicherte WLAN-Profile auf mobilen Geräten verstanden werden. Auch optische Hinweise wie eingravierte Logos auf Gehäusen oder institutionelle Startbildschirme bei Laptops können darunterfallen. Zur Umsetzung kann es hilfreich sein, vor der Veräußerung eine Sichtprüfung durchzuführen und standardisierte Checklisten zu nutzen, um typische Beschriftungen systematisch zu identifizieren. Je nach Beschaffenheit des Assets kann der Einsatz von Reinigungsmitteln, Etikettenentfernern oder speziellen Werkzeugen in Betracht gezogen werden. Auch softwaregestützte Verfahren, etwa das Zurücksetzen auf Werkseinstellungen und das Prüfen auf verbleibende Metadaten, sind relevant. Nicht zuletzt kann die Einbindung von ISB oder des Datenschutzbeauftragten in Zweifelsfällen Klarheit darüber schaffen, ob eine bestimmte Kennzeichnung potenziell sicherheitsrelevant ist.

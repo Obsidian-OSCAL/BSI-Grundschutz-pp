@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: UMS.5.1 Autorisierung von Ausnahmen
+stmt_modal_verb: MUSS
+stmt_action_word: autorisieren
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [UMS.5 Freigabeverfahren und Ausnahmemanagement](BSI/Grundschutz/Quellka
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Umsetzung (UMS)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)**<br> ***  &rarr; [Freigabeverfahren und Ausnahmemanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.5%20Freigabeverfahren%20und%20Ausnahmemanagement.md) *** |  | MUSS | Ausnahmegenehmigungen für Verpflichtungen | durch eine zuständige Person oder Rolle | autorisieren |  | >Umsetzung MUSS Ausnahmegenehmigungen für Verpflichtungen durch eine zuständige Person oder Rolle autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Umsetzung (UMS)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)*<br> *  &rarr; [Freigabeverfahren und Ausnahmemanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.5%20Freigabeverfahren%20und%20Ausnahmemanagement.md) *</div> | [Umsetzung](practices_Umsetzung_af61e9e7-80ee-4630-b603-c615c6a966ec) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Ausnahmegenehmigungen für Verpflichtungen | durch eine zuständige Person oder Rolle | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Umsetzung MUSS Ausnahmegenehmigungen für Verpflichtungen durch eine zuständige Person oder Rolle autorisieren.</span>
 
 > [!info]- Guidance
 >Bei Zielkonflikten zwischen Verpflichtungen müssen diese gegeneinander abgewogen und falls erforderlich Ausnahmegenehmigungen eingeholt werden. Zur Entscheidungsfindung kann eine Risikobetrachtung vorgenommen werden. Hierbei sind auch die Anforderungen zur "Aufgabenzuweisung" und "Anweisung zur Einhaltung" zu berücksichtigen.

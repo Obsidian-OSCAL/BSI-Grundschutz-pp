@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.2.2 Rollen
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Geschäftsverteilungsplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkata
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *** |  | SOLLTE | für alle Tätigkeiten im Geltungsbereich Rollen | mit Zielen, Aufgaben, erforderlichen Kompetenzen und Qualifikationen | verankern | Geschäftsverteilungsplan | >Personal SOLLTE für alle Tätigkeiten im Geltungsbereich Rollen mit Zielen, Aufgaben, erforderlichen Kompetenzen und Qualifikationen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | für alle Tätigkeiten im Geltungsbereich Rollen | mit Zielen, Aufgaben, erforderlichen Kompetenzen und Qualifikationen | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Geschäftsverteilungsplan](documentation_guidelines_Geschäftsverteilungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal SOLLTE für alle Tätigkeiten im Geltungsbereich Rollen mit Zielen, Aufgaben, erforderlichen Kompetenzen und Qualifikationen verankern.</span>
 
 > [!info]- Guidance
 >Eine Rolle beschreibt eine Stelle oder Personalposition innerhalb des ISMS. Sie benennt die Aufgaben der Position und die dazu erforderlichen Qualifikationsvoraussetzungen. Beispiele: Teamleiter, Entwickler, Admin, Sicherheitsanalyst, Fachaufgabenverantwortlicher.

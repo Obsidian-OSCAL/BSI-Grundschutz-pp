@@ -1,22 +1,28 @@
 ---
-tags: Exit-Strategie
+tags:
+- exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+stmt_documentation: Prozess Beschaffung
+control_effort_level: '0'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.1.1 - Verfahren und Regelungen
-Tags: "[Exit-Strategie](tags_Exit-Strategie)"
+Tag: [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [DLS.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DLS.1.1.1 Dokumentation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DLS.1.1.1%20Dokumentation.md)> [DLS.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DLS.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [DLS.1.1.3 Bekanntgabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DLS.1.1.3%20Bekanntgabe.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.1%20Grundlagen.md) *** |  | MUSS | ein Verfahren zur Steuerung und geordneten Beendigung von Dienstleistungsverträgen |  | verankern | Prozess Beschaffung | >Dienstleistersteuerung MUSS ein Verfahren zur Steuerung und geordneten Beendigung von Dienstleistungsverträgen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.1%20Grundlagen.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | ein Verfahren zur Steuerung und geordneten Beendigung von Dienstleistungsverträgen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Prozess Beschaffung](documentation_guidelines_Prozess Beschaffung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung MUSS ein Verfahren zur Steuerung und geordneten Beendigung von Dienstleistungsverträgen verankern.</span>
 
 > [!info]- Guidance
 >Hierzu gehört die Kontrolle der Einhaltung von Vereinbarungen zur Sicherheit mit Dienstleistern und (falls erforderlich) einen geeigneten Weg für die Beendigung von Verträgen vorzubereiten. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den Anforderungen dieser Praktik.

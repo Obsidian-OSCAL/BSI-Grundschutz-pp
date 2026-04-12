@@ -1,23 +1,30 @@
 ---
-tags: Authentication_and_Authorization_Password_Policy
+tags:
+- authentication_and_authorization_password_policy
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.4.1.6 Keine Weitergabe personengebundener Authentisierungsmittel
 parent_control: SENS.4.1 Personengebundene Authentisierungsmittel
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: untersagen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.6 - Keine Weitergabe personengebundener Authentisierungsmittel
-Tags: "[Authentication and Authorization](tags_Authentication and Authorization)" "[Password Policy](tags_Password Policy)"
+> [!example]- Tags:> [[tags_Authentication and Authorization|Authentication and Authorization]]> [[tags_Password Policy|Password Policy]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md)
 ---
 
 ** Übergeordnetes Control: ** [SENS.4.1 Personengebundene Authentisierungsmittel](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1%20Personengebundene%20Authentisierungsmittel.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md) *** | Nutzende | SOLLTE | die Weitergabe von personengebundenen Authentisierungsmitteln |  | untersagen | Arbeitsanweisung | >Sensibilisierung für Nutzende SOLLTE die Weitergabe von personengebundenen Authentisierungsmitteln untersagen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Weitergabe von personengebundenen Authentisierungsmitteln |  | [untersagen](action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE die Weitergabe von personengebundenen Authentisierungsmitteln untersagen.</span>
 
 > [!info]- Guidance
 >Personengebundene Authentisierungsmittel sind z.B. Passwörter, Private PKI-Schlüssel oder Mehr-Faktor-Authentifizierungstoken wie Smartcards.

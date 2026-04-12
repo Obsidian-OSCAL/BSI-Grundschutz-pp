@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: VRB.7.1 Bewertung der erreichten Verbesserung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [VRB.7 Bewertung der erreichten Verbesserung](BSI/Grundschutz/Quellkatal
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)**<br> ***  &rarr; [Bewertung der erreichten Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.7%20Bewertung%20der%20erreichten%20Verbesserung.md) *** |  | SOLLTE | ein Verfahren zur Bewertung der erreichten Verbesserung | unter Berücksichtigung der damit verbundenen Risiken | verankern |  | >Verbesserung SOLLTE ein Verfahren zur Bewertung der erreichten Verbesserung unter Berücksichtigung der damit verbundenen Risiken verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)*<br> *  &rarr; [Bewertung der erreichten Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.7%20Bewertung%20der%20erreichten%20Verbesserung.md) *</div> | [Verbesserung](practices_Verbesserung_662fb453-caf1-4e01-8152-b88027b71438) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Verfahren zur Bewertung der erreichten Verbesserung | unter Berücksichtigung der damit verbundenen Risiken | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Verbesserung SOLLTE ein Verfahren zur Bewertung der erreichten Verbesserung unter Berücksichtigung der damit verbundenen Risiken verankern.</span>
 
 > [!info]- Guidance
 >Die Bewertung kann beispielsweise durch interne Audits, die Messung von Key Performance Indicators (KPIs) vor und nach der Maßnahmenumsetzung oder durch technische Überprüfungen erfolgen. Im Ergebnis ist das Sicherheitsniveau der Institution transparent dargestellt und Trends der Verbesserung des Sicherheitsniveaus, insbesondere auch durch die Vergleichbarkeit mit vorigen Bewertungen, ableitbar.

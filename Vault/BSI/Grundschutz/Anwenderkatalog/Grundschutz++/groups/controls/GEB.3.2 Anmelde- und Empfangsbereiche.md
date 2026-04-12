@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.3.2 Anmelde- und Empfangsbereiche
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.3 Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md) *** | Standorte | SOLLTE | Anmelde- und Empfangsbereiche |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE Anmelde- und Empfangsbereiche installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Anmelde- und Empfangsbereiche |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE Anmelde- und Empfangsbereiche installieren.</span>
 
 > [!info]- Guidance
 >Die Einrichtung definierter Anmelde- und Empfangsbereiche dient der Kontrolle des physischen Zugangs zum Standort. Diese Bereiche können als erste Verteidigungslinie fungieren, indem sie einen klaren Trennpunkt zwischen öffentlichen und geschützten Zonen etablieren. Durch die strukturierte Implementierung solcher Bereiche können unbefugte Zutritte vermieden werden, die andernfalls zu Sicherheitsverletzungen führen könnten. Ein fehlendes oder unzureichendes Empfangsmanagement könnte beispielsweise dazu führen, dass nicht autorisierte Personen unkontrolliert Zugang zu sensiblen Bereichen erhalten, vertrauliche Dokumente einsehen, Firmengeheimnisse entwenden oder sogar physische Sabotageakte durchführen.  Bei der Umsetzung können verschiedene Ansätze verfolgt werden, die je nach Institution und sonstigen angewendeten Sicherheitsanforderungen variieren. Der Anmeldebereich kann mit einem digitalen Besuchermanagementsystem ausgestattet werden, welches die Authentifizierung und Registrierung von Besuchern erleichtert und eine lückenlose Dokumentation ermöglicht. Ergänzend hierzu kann die räumliche Gestaltung durch klare Beschilderung, bauliche Trennung mittels Schranken oder Drehkreuzen sowie die strategische Positionierung des Empfangsbereichs optimiert werden. Zudem kann die Schulung des Empfangspersonals in Sicherheitsprotokollen und die Einführung von Besucherausweisen mit temporären Zugriffsrechten die Effektivität dieser Sicherheitsmaßnahme verstärken. Die Integration mit anderen Sicherheitssystemen wie Videoüberwachung oder elektronischen Zutrittskontrollsystemen kann ebenfalls in Betracht gezogen werden, um ein umfassendes Sicherheitskonzept zu gewährleisten.

@@ -1,23 +1,28 @@
 ---
 tags:
-- Lieferketten_Exit-Strategie
+- lieferketten_exit-strategie
 - dls36-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.3.6 Portabilität
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.6 - Portabilität
-Tags: "[Lieferketten](tags_Lieferketten)" "[Exit-Strategie](tags_Exit-Strategie)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [DLS.3 Kontrolle von Dienstleistern](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *** | Outsourcing | KANN | die Portabilität des ausgelagerten Prozesses | {{regelmäßig}} | überprüfen | Übungs- und Prüfplan | >Dienstleistersteuerung für Outsourcing KANN die Portabilität des ausgelagerten Prozesses {{ insert: param, dls.3.6-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Portabilität des ausgelagerten Prozesses | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Übungs- und Prüfplan | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Outsourcing KANN die Portabilität des ausgelagerten Prozesses {{ insert: param, dls.3.6-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Hierunter ist zu verstehen, dass regelmäßig ein Test durchgeführt wird, bei dem die Funktionsfähigkeit des ausgelagerten (Teil-) Prozesses in einer Umgebung, die nicht bei diesem Dienstleister liegt, überprüft wird. Ziel ist es sicherzustellen, dass der Prozess bei einem Ausfall des Dienstleisters an anderer Stelle zeitnah gestartet werden kann.

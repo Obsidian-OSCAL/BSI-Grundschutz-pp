@@ -1,9 +1,16 @@
 ---
-tags: geb1012-prm1
+tags:
+- geb1012-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.1.2 Klimamessung
 parent_control: GEB.10.1 Klimatisierung
+stmt_target_object_category: Serverräume
+stmt_modal_verb: SOLLTE
+stmt_action_word: überwachen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -14,9 +21,9 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kern
 
 ** Übergeordnetes Control: ** [GEB.10.1 Klimatisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.10.1%20Klimatisierung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Serverräume | SOLLTE | Lufttemperatur und Luftfeuchtigkeit | anhand von {{Schwellwerten}} | überwachen | IT-Betriebskonzept | >Gebäudemanagement für Serverräume SOLLTE Lufttemperatur und Luftfeuchtigkeit anhand von {{ insert: param, geb.10.1.2-prm1 }} überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Serverräume](target_object_categories_Serverräume_3a894eaa-7b42-4f59-9961-76c9a3ec2837) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Lufttemperatur und Luftfeuchtigkeit | anhand von {{Schwellwerten}} | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Serverräume SOLLTE Lufttemperatur und Luftfeuchtigkeit anhand von {{ insert: param, geb.10.1.2-prm1 }} überwachen.</span>
 
 > [!info]- Guidance
 >IT-Infrastruktur benötigt typischerweise eine Umwelttemperatur von nicht viel mehr als 25°C und eine Luftfeuchtigkeit von nicht über 60%. Bei höheren Werten altern Komponenten schneller und das Risiko von Ausfällen durch Abwärme oder Spannungsüberschläge steigt. Ermitteln Sie Grenzwerte anhand der Herstellerangaben der im Raum eingesetzten Komponenten. Die Überwachung kann mit klimatechnischen Sensoren in den Geräten selbst oder im Raum realisiert werden. Eine saisonale Anpassung der Lüftungsanlagen kann erforderlich sein, insbesondere in Einrichtungen, die mit Eco-Modus arbeiten.

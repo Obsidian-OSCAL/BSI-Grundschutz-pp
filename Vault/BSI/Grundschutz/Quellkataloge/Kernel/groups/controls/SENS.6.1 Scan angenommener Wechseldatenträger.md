@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.6.1 Scan angenommener Wechseldatenträger
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.6 Umgang mit Datenträgern](BSI/Grundschutz/Quellkataloge/Kernel/g
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit Datenträgern](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.6%20Umgang%20mit%20Datenträgern.md) *** | Nutzende | SOLLTE | zum Virenscan angenommener Wechseldatenträger |  | anweisen | Arbeitsanweisung | >Sensibilisierung für Nutzende SOLLTE zum Virenscan angenommener Wechseldatenträger anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit Datenträgern](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.6%20Umgang%20mit%20Datenträgern.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zum Virenscan angenommener Wechseldatenträger |  | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zum Virenscan angenommener Wechseldatenträger anweisen.</span>
 
 > [!info]- Guidance
 >Datenträger, wie USB-Sticks aus unbekannten oder externen Quellen, können Schadprogramme enthalten. Der Virenscan kann durch eine Datenträgerschleuse oder durch eine Virenprüfung im IT-System selbst umgesetzt werden.

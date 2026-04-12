@@ -1,25 +1,31 @@
 ---
 tags:
-- Lieferketten
+- lieferketten
 - bes7412-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.4.12 Software Bill of Materials (SBOM) - Cloud
 parent_control: BES.7.4 Vollständigkeit der Unterlagen
+stmt_target_object_category: Cloud-Dienste
+stmt_modal_verb: KANN
+stmt_action_word: dokumentieren
+stmt_documentation: Betriebshandbuch
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.4.12 - Software Bill of Materials (SBOM) - Cloud
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.7.4 Vollständigkeit der Unterlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4%20Vollständigkeit%20der%20Unterlagen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md) *** | Cloud-Dienste | KANN | für jede gelieferte Software-as-a-Service (SaaS) die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | dokumentieren | Betriebshandbuch | >Beschaffungsmanagement für Cloud-Dienste KANN für jede gelieferte Software-as-a-Service (SaaS) die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.12-prm1 }} dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Cloud-Dienste](target_object_categories_Cloud-Dienste_d2a23b62-9c66-4f72-98e2-17518d5dbe0f) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | für jede gelieferte Software-as-a-Service (SaaS) die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Betriebshandbuch](documentation_guidelines_Betriebshandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Cloud-Dienste KANN für jede gelieferte Software-as-a-Service (SaaS) die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.12-prm1 }} dokumentieren.</span>
 
 > [!info]- Guidance
 >Ein anerkannter Standard für SBOM ist die BSI TR-03183-2.

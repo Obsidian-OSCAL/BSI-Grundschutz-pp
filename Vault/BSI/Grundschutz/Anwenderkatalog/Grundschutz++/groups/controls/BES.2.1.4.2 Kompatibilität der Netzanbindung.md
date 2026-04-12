@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.1.4.2 Kompatibilität der Netzanbindung
 parent_control: BES.2.1.4 Kompatibilität
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.1.4.2 - Kompatibilität der Netzanbindung
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.2.1.4 Kompatibilität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4%20Kompatibilität.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *** | Einkäufe | SOLLTE | den Bedarf für die Kompatibilität | im Hinblick auf die Netzanbindung | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf für die Kompatibilität im Hinblick auf die Netzanbindung dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Bedarf für die Kompatibilität | im Hinblick auf die Netzanbindung | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE den Bedarf für die Kompatibilität im Hinblick auf die Netzanbindung dokumentieren.</span>
 
 > [!info]- Guidance
 >Kompatibilität im Hinblick auf die Netzanbindung ist hier die technische und logische Anschlussfähigkeit einer zu beschaffenden Komponente an die bestehende Netzwerkinfrastruktur der Institution zu verstehen, einschließlich physischer Schnittstellen (z.B. Ethernet, Glasfaser), unterstützter Übertragungsprotokolle (z.B. TCP/IP, HTTP, TLS), Authentisierungs- und Autorisierungsverfahren (z.B. IEEE 802.1X, RADIUS), Adressierungskonzepte (IPv4/IPv6, erforderlicher Netzbandbreite und Laufzeiten, sowie Segmentierungs- und Sicherheitsarchitekturen (z.B. VLAN, Network Access Control – NAC). Netzanbindung meint dabei jede Form der Integration in interne Netze, Perimeternetze oder dedizierte Verbindungen zu externen Netzen, einschließlich drahtloser Anbindungen (WLAN) oder standortübergreifender Kopplungen (WAN). Der dokumentierte Bedarf beschreibt die konkret erforderlichen technischen, sicherheitsrelevanten und betrieblichen Eigenschaften der Netzschnittstelle, sodass bereits im Beschaffungsprozess transparent wird, welche Integrationsvoraussetzungen notwendig sind und welche Abweichungen nicht akzeptabel sind. Die Dokumentation dieses Bedarfs kann verhindern, dass Lösungen beschafft werden, die sich nur mit unsicheren Protokollen anbinden lassen oder bestehende Segmentierungs- und Schutzmechanismen umgehen, was zu ungewollten Netzöffnungen, erhöhten Angriffsflächen oder Integrationsproblemen führen könnte. Sie kann zudem Transparenz schaffen, sodass spätere Notlösungen wie unkontrollierte Gateways oder Protokollkonverter vermieden werden, die zusätzliche Schwachstellen einführen könnten.

@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.15 Vorgehen zur Wiederherstellung
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Datensicherungskonzept
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md) *** |  | SOLLTE | die Vorgehensweise zur Wiederherstellung |  | dokumentieren | Datensicherungskonzept | >Notfallplanung SOLLTE die Vorgehensweise zur Wiederherstellung dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Vorgehensweise zur Wiederherstellung |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung SOLLTE die Vorgehensweise zur Wiederherstellung dokumentieren.</span>
 
 > [!info]- Guidance
 >Die Dokumentation der Vorgehensweise zur Wiederherstellung dient dazu, im Notfall eine schnelle und geordnete Wiederinbetriebnahme von IT-Systemen und Daten zu ermöglichen. Ohne eine klare Beschreibung der Abläufe kann es zu Verzögerungen, Fehlern oder widersprüchlichen Handlungen kommen, was die Wiederherstellung erheblich erschwert. In einer solchen Dokumentation werden beispielsweise die Reihenfolge der Wiederherstellung kritischer Systeme, die benötigten Datensicherungen und Speicherorte, die erforderlichen Werkzeuge sowie die zuständigen Rollen und Kontaktwege beschrieben. Ergänzend kann auch festgehalten werden, wie die Funktionsfähigkeit nach der Wiederherstellung überprüft wird. Einfache Beispiele sind Schritt-für-Schritt-Anleitungen für die Rücksicherung bestimmter Anwendungen oder Checklisten, die während des Wiederherstellungsprozesses abgearbeitet werden.

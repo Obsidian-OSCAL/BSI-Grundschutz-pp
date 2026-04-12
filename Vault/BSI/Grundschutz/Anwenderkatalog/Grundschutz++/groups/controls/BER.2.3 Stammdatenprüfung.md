@@ -1,8 +1,14 @@
 ---
-tags: ber23-prm1
+tags:
+- ber23-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.2.3 Stammdatenprüfung
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+stmt_documentation: Inventar Berechtigungen
+control_effort_level: '3'
 ---
 
 
@@ -12,9 +18,9 @@ Gruppe: [BER.2 Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschut
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md) *** |  | SOLLTE | Stammdaten einer Identität anhand allgemeiner Stammdaten | {{regelmäßig}} | überprüfen | Inventar Berechtigungen | >Berechtigung SOLLTE Stammdaten einer Identität anhand allgemeiner Stammdaten {{ insert: param, ber.2.3-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Stammdaten einer Identität anhand allgemeiner Stammdaten | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE Stammdaten einer Identität anhand allgemeiner Stammdaten {{ insert: param, ber.2.3-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Allgemeine Stammdaten können z.B. sein: Unterlagen der Personalabteilung, Ergebnisse von Netzwerkscans für IT-Systeme, CMDB. Der Abgleich kann auch automatisiert vorgenommen werden.

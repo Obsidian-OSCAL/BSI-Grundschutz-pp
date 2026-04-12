@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.7.1 Sichere Bereitstellung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Entwicklungsdokumentation
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [DEV.7 Bereitstellung und Betrieb](BSI/Grundschutz/Quellkataloge/Kernel/
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Bereitstellung und Betrieb](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.7%20Bereitstellung%20und%20Betrieb.md) *** |  | SOLLTE | die Bereitstellung | im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests | verankern | Entwicklungsdokumentation | >Entwicklung SOLLTE die Bereitstellung im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Bereitstellung und Betrieb](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.7%20Bereitstellung%20und%20Betrieb.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Bereitstellung | im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Entwicklungsdokumentation](documentation_guidelines_Entwicklungsdokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung SOLLTE die Bereitstellung im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests verankern.</span>
 
 > [!info]- Guidance
 >Die Bereitstellung ist der Prozessschritt, durch den eine neu entwickelte oder geänderte Softwareversion, ein Dienst oder ein System in die Produktionsumgebung überführt und dort aktiv für die Endnutzer oder Geschäftsprozesse zugänglich gemacht wird. Die Anforderungen aus der Praktik Änderungen und Tests (also zum Change Management) betreffen auch die Bereitstellung. Eine geordnete Bereitstellung minimiert das Risiko, dass ungetestete oder nicht genehmigte Änderungen in Betrieb gehen, was sonst zu Dienstunterbrechungen, Datenverlust oder der Ausnutzung von Sicherheitslücken führen könnte.

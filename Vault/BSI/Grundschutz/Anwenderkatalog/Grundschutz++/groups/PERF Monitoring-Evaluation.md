@@ -6,7 +6,13 @@ group_id: PERF
 
 ** Group **
 # PERF - Monitoring-Evaluation 
-> [!info]+ Untergeordnete Gruppen> [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md)
+> [!info]- Praktik PERF Monitoring-Evaluation:
+> | | |
+> | - | - |
+> | auch bekannt als: | Kontinuierliche Überprüfung |
+> | Schwerpunkt: | Methodik |
+>
+> > Die Praktik Monitoring-Evaluation stellt durch kontinuierliche Überwachung und systematische Bewertung sicher, dass die implementierten Sicherheitsmaßnahmen wirksam sind und die Sicherheitsziele der Organisation erreicht werden. Sie liefert Erkenntnisse über den aktuellen Sicherheitszustand und identifiziert Verbesserungspotentiale.<br><br>Im Rahmen dieser Praktik werden regelmäßige Sicherheitsaudits, kontinuierliches Monitoring von Sicherheitsereignissen sowie periodische Überprüfungen und Bewertungen des ISMS durchgeführt. Sie entspricht der "Check-Phase" im PDCA-Zyklus und dient dazu, Abweichungen von den definierten Zielen zu erkennen.<br><br>Die Ergebnisse der Monitoring-Evaluation fließen direkt in die Praktik Verbesserung ein, wo konkrete Maßnahmen zur Behebung identifizierter Schwachstellen und zur kontinuierlichen Weiterentwicklung des ISMS abgeleitet werden.> [!example]+ Untergeordnete Gruppen> [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md)
 > [PERF.2 Überwachung der Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.2%20Überwachung%20der%20Compliance.md)
 > [PERF.3 Auditprogramm und -durchführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md)
 > [PERF.4 Bewertungsschema und Auditberichte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.4%20Bewertungsschema%20und%20Auditberichte.md)

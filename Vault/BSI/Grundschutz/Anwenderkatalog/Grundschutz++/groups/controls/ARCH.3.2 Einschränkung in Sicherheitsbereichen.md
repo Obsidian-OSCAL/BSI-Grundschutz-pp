@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.3.2 Einschränkung in Sicherheitsbereichen
+stmt_target_object_category: WLANs
+stmt_modal_verb: KANN
+stmt_action_word: einschränken
+stmt_documentation: Netzplan
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ARCH.3 Wireless LAN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/grou
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Wireless LAN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.3%20Wireless%20LAN.md) *** | WLANs | KANN | in Sicherheitsbereichen die Ausstrahlung |  | einschränken | Netzplan | >Architektur für WLANs KANN in Sicherheitsbereichen die Ausstrahlung einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Wireless LAN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.3%20Wireless%20LAN.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [WLANs](target_object_categories_WLANs_82a399a2-2fa7-4dd2-9850-89a7ee0505ea) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | in Sicherheitsbereichen die Ausstrahlung |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Netzplan](documentation_guidelines_Netzplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für WLANs KANN in Sicherheitsbereichen die Ausstrahlung einschränken.</span>
 
 > [!info]- Guidance
 >Hierzu gehören beispielsweise abhörsichere Räume oder Serverräume, von denen aus keine Daten ins Internet gesendet werden sollen. Dies kann z.B. durch die Reduktion der Sendeleistung in benachbarten Räumen oder die Isolierung der Räume erfolgen.

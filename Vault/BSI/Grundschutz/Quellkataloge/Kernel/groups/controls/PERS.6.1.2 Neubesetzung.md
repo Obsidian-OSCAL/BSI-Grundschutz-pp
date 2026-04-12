@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.6.1.2 Neubesetzung
 parent_control: PERS.6.1 Vorgehensweise für den Weggang
+stmt_target_object_category: Mitarbeitende
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: Prozess Personalmanagement
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [PERS.6 Weggang von Mitarbeitenden](BSI/Grundschutz/Quellkataloge/Kernel
 
 ** Übergeordnetes Control: ** [PERS.6.1 Vorgehensweise für den Weggang](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/PERS.6.1%20Vorgehensweise%20für%20den%20Weggang.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)**<br> ***  &rarr; [Weggang von Mitarbeitenden](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md) *** | Mitarbeitende | SOLLTE | bei Weggang frei gewordene Zuständigkeiten |  | zuweisen | Prozess Personalmanagement | >Personal für Mitarbeitende SOLLTE bei Weggang frei gewordene Zuständigkeiten zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Weggang von Mitarbeitenden](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Mitarbeitende](target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | bei Weggang frei gewordene Zuständigkeiten |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Prozess Personalmanagement](documentation_guidelines_Prozess Personalmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Mitarbeitende SOLLTE bei Weggang frei gewordene Zuständigkeiten zuweisen.</span>
 
 > [!info]- Guidance
 >Stellen Sie sicher, dass durch den Weggang von Mitarbeitenden keine Aufgaben des ISMS verwaisen – auch nicht bis zu einer geplanten Neueinstellung. Ordnen Sie stattdessen die Zuständigkeit für die Aufgaben/Rollenunverzüglich bestehendem Personal zu. Achten Sie dabei auch darauf, dass die festgelegten Rollentrennungen dabei nicht aufgehoben, bzw. durchbrochen werden. Um eine kontinuierliche Bearbeitung von Aufgaben sicherzustellen, ist eine Übergabe sinnvoll.

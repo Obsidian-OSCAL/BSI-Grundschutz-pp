@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.6.2 Beurteilung  von Eingängen
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+control_effort_level: '4'
 ---
 
 
@@ -10,11 +14,11 @@ control: DET.6.2 Beurteilung  von Eingängen
 Gruppe: [DET.6 Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DET.6.2.1 Dynamische Sandbox-Analyse](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.6.2.1%20Dynamische%20Sandbox-Analyse.md)> [DET.6.2.2 Datenträgerschleuse](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.6.2.2%20Datenträgerschleuse.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md) *** |  | SOLLTE | ein Verfahren zur Beurteilung  von Datei-Eingängen |  | verankern | Detektions-Konzept | >Detektion SOLLTE ein Verfahren zur Beurteilung  von Datei-Eingängen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Verfahren zur Beurteilung  von Datei-Eingängen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE ein Verfahren zur Beurteilung  von Datei-Eingängen verankern.</span>
 
 > [!info]- Guidance
 >Kann beispielsweise ein Virenscanner eine Datei nicht überprüfen, weil sie mit einem Passwort geschützt ist, erhalten Nutzende die Datei erst, wenn sie durch das für Detektion zuständige Personal freigegeben wurde. Dazu muss die Datei aus einer vertrauenswürdigen Quelle stammen und keine Anzeichen für einen Angriff vorliegen.

@@ -1,23 +1,28 @@
 ---
 tags:
-- Pentest_Advanced_Persistent_Threats_APT
+- pentest_advanced_persistent_threats_apt
 - det55-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.5 Red Teaming
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.5 - Red Teaming
-Tags: "[Pentest](tags_Pentest)" "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+> [!example]- Tags:> [[tags_Pentest|Pentest]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *** | IT-Systeme | KANN | die tatsächliche Abwehrfähigkeit | {{regelmäßig}} durch unabhängig agierende Sicherheitsexperten | überprüfen | Detektions-Konzept | >Detektion für IT-Systeme KANN die tatsächliche Abwehrfähigkeit {{ insert: param, det.5.5-prm1 }} durch unabhängig agierende Sicherheitsexperten überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die tatsächliche Abwehrfähigkeit | {{regelmäßig}} durch unabhängig agierende Sicherheitsexperten | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für IT-Systeme KANN die tatsächliche Abwehrfähigkeit {{ insert: param, det.5.5-prm1 }} durch unabhängig agierende Sicherheitsexperten überprüfen.</span>
 
 > [!info]- Guidance
 >Red Teaming ist ein strukturierter, realitätsnaher Sicherheitstest, bei dem ein sogenanntes Red Team – also ein unabhängiges, offensiv agierendes Expertenteam – versucht, unter realen Bedingungen in IT-Systeme, Netzwerke oder Anwendungen einzudringen, um Schwachstellen und Reaktionslücken aufzudecken. Dadurch wird nicht nur die technische Abwehr getestet, sondern auch organisatorische und menschliche Faktoren, etwa die Wirksamkeit von Incident-Response-Prozessen, Alarmierungsketten oder die Reaktion des Security Operations Center (SOC). Solche regelmäßigen Überprüfungen durch unabhängige Red Teams ermöglichen einen objektiven und unvoreingenommenen Blick auf die aktuellen Stärken und Schwächen der Sicherheitsmaßnahmen, wodurch Schwachstellen frühzeitig erkannt werden können. Unabhängig ist ein Red Team dabei, wenn es organisatorisch und personell getrennt vom Betriebspersonal und dessen Weisungshierarchie (Blue Team) agiert, sodass keine Interessenkonflikte die objektive Bewertung gefährden.

@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.6.1 Festlegung von Zielen für die Informationssicherheit
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+stmt_documentation: Informationssicherheitsstrategie
+control_effort_level: '0'
 ---
 
 
@@ -10,11 +15,11 @@ control: GC.6.1 Festlegung von Zielen für die Informationssicherheit
 Gruppe: [GC.6 Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GC.6.1.1 Festlegung einer Sicherheitsstrategie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.1%20Festlegung%20einer%20Sicherheitsstrategie.md)> [GC.6.1.2 Verpflichtung der Institutionsleitung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.2%20Verpflichtung%20der%20Institutionsleitung.md)> [GC.6.1.3 Erstellung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.3%20Erstellung%20einer%20Sicherheitsleitlinie.md)> [GC.6.1.4 Freigabe der Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.4%20Freigabe%20der%20Sicherheitsleitlinie.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *** |  | MUSS | konkrete und messbare Ziele für die Informationssicherheit | auf Basis der identifizierten Rahmenbedingungen | festlegen | Informationssicherheitsstrategie | >Governance und Compliance MUSS konkrete und messbare Ziele für die Informationssicherheit auf Basis der identifizierten Rahmenbedingungen festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | konkrete und messbare Ziele für die Informationssicherheit | auf Basis der identifizierten Rahmenbedingungen | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) | [Informationssicherheitsstrategie](documentation_guidelines_Informationssicherheitsstrategie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS konkrete und messbare Ziele für die Informationssicherheit auf Basis der identifizierten Rahmenbedingungen festlegen.</span>
 
 > [!info]- Guidance
 >Die Ziele sollten Bezug zu den Geschäftszielen der Institution aufweisen und müssen messbar und konkret sein, z. B.: 98% der aktiven Endgeräte im Netzwerk der Institution verfügen über eine aktuelle Antivirensoftware, deren Signaturdatenbank nicht älter als 24 Stunden ist. Die Ziele sollten die Anforderungen der interessierten Parteien sowie den Kontext berücksichtigen.

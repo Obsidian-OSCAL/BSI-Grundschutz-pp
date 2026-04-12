@@ -6,7 +6,13 @@ group_id: PERS
 
 ** Group **
 # PERS - Personal 
-> [!info]+ Untergeordnete Gruppen> [PERS.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.1%20Grundlagen.md)
+> [!info]- Praktik PERS Personal:
+> | | |
+> | - | - |
+> | auch bekannt als: | Personalmanagement |
+> | Schwerpunkt: | Organisatorisch |
+>
+> > Die Praktik Personal fokussiert sich auf die Integration von Sicherheitsanforderungen über den gesamten Beschäftigungs- oder Vertragszyklus von Mitarbeitenden sowie externen Partnern hinweg. Ziel ist es, einen sicheren Umgang mit Informationen während der gesamten Dauer der Beschäftigung oder Zusammenarbeit zu gewährleisten.<br><br>Diese Praktik fokussiert auf den sicheren Umgang mit Personen, während Praktiken, wie Berechtigungen, den systemseitigen Zugriff regeln.> [!example]+ Untergeordnete Gruppen> [PERS.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.1%20Grundlagen.md)
 > [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md)
 > [PERS.3 Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md)
 > [PERS.4 Personalentwicklung](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.4%20Personalentwicklung.md)

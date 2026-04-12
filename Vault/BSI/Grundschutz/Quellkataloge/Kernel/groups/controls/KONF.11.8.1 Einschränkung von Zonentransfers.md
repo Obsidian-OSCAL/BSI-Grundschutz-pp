@@ -1,23 +1,30 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.11.8.1 Einschränkung von Zonentransfers
 parent_control: KONF.11.8 Einschränkung von Schnittstellen
+stmt_target_object_category: DNS-Server
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.8.1 - Einschränkung von Zonentransfers
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.11 Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md)
 ---
 
 ** Übergeordnetes Control: ** [KONF.11.8 Einschränkung von Schnittstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.11.8%20Einschränkung%20von%20Schnittstellen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md) *** | DNS-Server | SOLLTE | Zonentransfers |  | einschränken | Konfigurationshistorie | >Konfiguration für DNS-Server SOLLTE Zonentransfers einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Vertrauensbeziehungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.11%20Vertrauensbeziehungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [DNS-Server](target_object_categories_DNS-Server_f88fd07b-f918-45b5-80a5-59fcea43a99c) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Zonentransfers |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für DNS-Server SOLLTE Zonentransfers einschränken.</span>
 
 > [!info]- Guidance
 >Zum Schutz vor DNS-Reconnaissance und DNS-Spoofing, da Zonendaten alle DNS-Einträger einer Domäne enthalten. Kann durch Einschränkung auf autorisierte IP-Adressen und TSIG umgesetzt werden.

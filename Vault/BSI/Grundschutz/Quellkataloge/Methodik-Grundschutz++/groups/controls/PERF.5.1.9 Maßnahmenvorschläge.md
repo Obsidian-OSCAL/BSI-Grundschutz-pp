@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.5.1.9 Maßnahmenvorschläge
 parent_control: PERF.5.1 Eignungsprüfung
+stmt_modal_verb: MUSS
+stmt_action_word: dokumentieren
+stmt_documentation: Managementbericht
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [PERF.5 Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Gr
 
 ** Übergeordnetes Control: ** [PERF.5.1 Eignungsprüfung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1%20Eignungsprüfung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *** |  | MUSS | die Ergebnisse dieser Überprüfungen in einem Managementbericht, | der priorisierte Maßnahmenvorschläge mit realistischen Abschätzungen zum erwarteten Umsetzungsaufwand enthält, | dokumentieren | Managementbericht | >Monitoring-Evaluation MUSS die Ergebnisse dieser Überprüfungen in einem Managementbericht, der priorisierte Maßnahmenvorschläge mit realistischen Abschätzungen zum erwarteten Umsetzungsaufwand enthält, dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Ergebnisse dieser Überprüfungen in einem Managementbericht, | der priorisierte Maßnahmenvorschläge mit realistischen Abschätzungen zum erwarteten Umsetzungsaufwand enthält, | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Managementbericht](documentation_guidelines_Managementbericht) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS die Ergebnisse dieser Überprüfungen in einem Managementbericht, der priorisierte Maßnahmenvorschläge mit realistischen Abschätzungen zum erwarteten Umsetzungsaufwand enthält, dokumentieren.</span>
 
 > [!info]- Guidance
 >Maßnahmenvorschläge müssen daraufhin überprüft werden, ob sie wirksam zur Risikoreduktion beitragen und mit vertretbarem Aufwand umsetzbar sind. Dabei sind Nutzen, Kosten, technischer und organisatorischer Aufwand realistisch abzuschätzen und in Relation zueinander zu bewerten, um fundierte Entscheidungen zur Umsetzung und Priorisierung treffen zu können. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung.

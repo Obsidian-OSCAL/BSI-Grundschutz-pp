@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
@@ -10,11 +14,11 @@ control: DET.1.1 Verfahren und Regelungen
 Gruppe: [DET.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DET.1.1.1 Dokumentation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.1.1.1%20Dokumentation.md)> [DET.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [DET.1.1.3 Bekanntgabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.1.1.3%20Bekanntgabe.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zur Detektion von Sicherheitsvorfällen |  | verankern | Detektions-Konzept | >Detektion MUSS Verfahren und Regelungen zur Detektion von Sicherheitsvorfällen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.1%20Grundlagen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren und Regelungen zur Detektion von Sicherheitsvorfällen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion MUSS Verfahren und Regelungen zur Detektion von Sicherheitsvorfällen verankern.</span>
 
 > [!info]- Guidance
 >Durch die steigende Menge und Komplexität von Datenverarbeitungen sind Sicherheitsvorfälle auch bei bester Prävention zu erwarten. Ein Verfahren zur Detektion stellt sicher, dass Sicherheitsvorfälle zeitnah entdeckt werden können. Hierzu gehört, wie aktiv und passiv Sicherheitsvorfälle erkannt werden, sowie wer bei der Erkennung dabei wofür zuständig ist. Die Umsetzung kann in einem eigenen Prozess, oder integriert in andere Prozesse und Aufgaben erfolgen. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den Anforderungen dieser Praktik.

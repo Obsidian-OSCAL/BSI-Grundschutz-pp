@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.1.3 Inventar Authentifizierungs- und Autorisierungssysteme
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Inventar Berechtigungssysteme
+result_reference: Autorisierung
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,11 @@ Gruppe: [BER.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.1%20G
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.1%20Grundlagen.md) *** |  | SOLLTE | ein Inventar der Systeme zur Authentifizierung und Autorisierung |  | dokumentieren | Inventar Berechtigungssysteme | >Berechtigung SOLLTE ein Inventar der Systeme zur Authentifizierung und Autorisierung dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.1%20Grundlagen.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Inventar der Systeme zur Authentifizierung und Autorisierung |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Inventar Berechtigungssysteme](documentation_guidelines_Inventar Berechtigungssysteme) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE ein Inventar der Systeme zur Authentifizierung und Autorisierung dokumentieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Autorisierung](result_Autorisierung_00000000-0000-0000-0000-000000000000) | Bei einer Autorisierung wird geprüft, ob eine Person, IT-Komponente oder Anwendung zur Durchführung einer bestimmten Aktion berechtigt ist. |
 
 > [!info]- Guidance
 >Ein dokumentiertes Inventar der Authentifizierungs- und Autorisierungssysteme kann eine zentrale Grundlage sein, um den Überblick über sicherheitsrelevante Zugangskontrollen zu behalten, sowohl lokal als auch in der Cloud. Solche Systeme sind dafür zuständig zu prüfen, wer Zugriff auf IT-Ressourcen erhält (Authentifizierung) und was dieser Zugriff umfassen darf (Autorisierung). Wird kein vollständiges und gepflegtes Inventar geführt, könnten Schwachstellen unentdeckt bleiben, z.B. veraltete Login-Dienste, falsch konfigurierte Rollen oder Schatten-Identitäten in cloudbasierten Identitätsplattformen. In einem konkreten Vorfall könnte etwa ein ehemals genutzter Verzeichnisdienst (z.B. ein ausgemusterter LDAP-Server) unbemerkt weiterhin aktiv sein und von Angreifern für unautorisierte Zugriffe verwendet werden. Ebenso könnte ein unerkannter Konfigurationsfehler in einem Authentifizierungs-Gateway dazu führen, dass privilegierte Nutzerrollen ohne Zwei-Faktor-Absicherung zugänglich sind.  Zu Authentifizierungs- und Autorisierungssystemen zählen beispielsweise Verzeichnisdienste (Directory Services), Identity Provider (IdPs), Single Sign-On-Plattformen (SSO), lokale Passwortdatenbanken sowie API-Gateways mit Zugriffskontrolllogik. Eine Möglichkeit zur Umsetzung kann darin bestehen, auf eine Liste aller Systeme des Informationsverbundes zurückzugreifen und Informationen zum Berechtigungsmanagement zu ergänzen – inklusive ihrer Funktion, angebundenen Anwendungen, unterstützten Protokollen (wie SAML, OAuth2, OpenID Connect) sowie Zuständigkeiten. Die Pflege dieses Inventars kann über ein zentrales Configuration Management Database (CMDB) erfolgen oder alternativ über eine revisionsfähige Tabellenstruktur mit Zugriffskontrollen. Hilfreich kann es sein, den Lifecycle einzelner Systeme zu erfassen, etwa ob sich diese in Einführung, Nutzung oder Stilllegung befinden. Ein Abgleich mit dem Rollen- und Rechtemanagement der Institution kann die Konsistenz zusätzlich verbessern.

@@ -6,11 +6,10 @@ group_id: TEST.3
 
 ** Group **
 # TEST.3 - Tests 
-** Übergeordnete Gruppe: **
- [TEST Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [TEST Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)## Controls
 
-> [!info]+ [[TEST.3.1 Sicherheitstest.md|TEST.3.1 Sicherheitstest]]
+> [!example]+ [[TEST.3.1 Sicherheitstest.md|TEST.3.1 Sicherheitstest]]
 >  - [[TEST.3.1.1 Dokumentation von Testergebnissen.md|TEST.3.1.1 Dokumentation von Testergebnissen]]
 >  - [[TEST.3.1.2 Integritätstest.md|TEST.3.1.2 Integritätstest]]
 >  - [[TEST.3.1.3 Testdaten.md|TEST.3.1.3 Testdaten]]
@@ -22,4 +21,4 @@ group_id: TEST.3
 >  - [[TEST.3.1.9 Lasttest.md|TEST.3.1.9 Lasttest]]
 >  - [[TEST.3.1.10 Penetrationstest bei Änderungen.md|TEST.3.1.10 Penetrationstest bei Änderungen]]
 
-> [!info]+ [[TEST.3.2 Testabdeckung.md|TEST.3.2 Testabdeckung]]
+> [!example]+ [[TEST.3.2 Testabdeckung.md|TEST.3.2 Testabdeckung]]

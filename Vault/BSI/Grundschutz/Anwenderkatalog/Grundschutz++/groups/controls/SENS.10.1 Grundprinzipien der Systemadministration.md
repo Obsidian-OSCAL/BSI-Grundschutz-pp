@@ -1,21 +1,28 @@
 ---
-tags: Advanced_Persistent_Threats_APT
+tags:
+- advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.10.1 Grundprinzipien der Systemadministration
+stmt_target_object_category: Administrierende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.10.1 - Grundprinzipien der Systemadministration
-Tags: "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.10 Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md) *** | Administrierende | SOLLTE | zu den Grundprinzipien der sicheren Administration |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Administrierende SOLLTE zu den Grundprinzipien der sicheren Administration sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Administrierende](target_object_categories_Administrierende_efd76832-f5a1-432a-836d-c8d5c6d212cc) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zu den Grundprinzipien der sicheren Administration |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Administrierende SOLLTE zu den Grundprinzipien der sicheren Administration sensibilisieren.</span>
 
 > [!info]- Guidance
 >Administriende sind durch ihre weitreichenden Zugangs- und Zugriffsberechtigungen, sowie ihre Verantwortung für die Aufrechterhaltung der Infrastruktur von besonderer Bedeutung für die Informations- und Cybersicherheit. Hier bedeutet „sichere Administration“, dass administrative Tätigkeiten so gestaltet werden, dass Vertraulichkeit, Integrität und Verfügbarkeit der Systeme möglichst gewahrt bleiben. Dazu zählen etwa Zugriffskontrolle und Rechtevergabe nach dem Least-Privilege-Prinzip, Netzwerksegmentierung, Systemhärtung, Loganalyse, Datensicherungen und Monitoring sowie die Vorbereitung für Notfälle. Um dies sicherzustellen ist es wichtig, die festgelegten Regeln (z.B. IT-Betriebskonzept) zu kennen und  auf deren Einhaltung zu achten.

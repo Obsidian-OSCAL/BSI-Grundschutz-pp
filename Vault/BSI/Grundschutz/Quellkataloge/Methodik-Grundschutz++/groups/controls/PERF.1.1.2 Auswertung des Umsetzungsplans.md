@@ -1,9 +1,14 @@
 ---
-tags: perf112-prm1
+tags:
+- perf112-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.1.1.2 Auswertung des Umsetzungsplans
 parent_control: PERF.1.1 Verfahren und Regelungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+control_effort_level: '2'
 ---
 
 
@@ -14,9 +19,9 @@ Gruppe: [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Metho
 
 ** Übergeordnetes Control: ** [PERF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *** |  | SOLLTE | den Umsetzungsplan | in Bezug auf den Fortschritt, die Einhaltung von Fristen und der inhaltlichen Korrektheit {{regelmäßig}} | überprüfen |  | >Monitoring-Evaluation SOLLTE den Umsetzungsplan in Bezug auf den Fortschritt, die Einhaltung von Fristen und der inhaltlichen Korrektheit {{ insert: param, perf.1.1.2-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Umsetzungsplan | in Bezug auf den Fortschritt, die Einhaltung von Fristen und der inhaltlichen Korrektheit {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE den Umsetzungsplan in Bezug auf den Fortschritt, die Einhaltung von Fristen und der inhaltlichen Korrektheit {{ insert: param, perf.1.1.2-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Die Überprüfung eines Umsetzungsplans beinhaltet, ob Sicherheitsmaßnahmen vollständig, termingerecht und wirksam sowie inhaltlich korrekt umgesetzt wurden und ob sie die angestrebten Schutzziele erreichen. Dabei sind insbesondere der Umsetzungsstand, Abweichungen, Restrisiken und die Wirksamkeit der Maßnahmen systematisch zu überprüfen und für Managemententscheidungen auszuwerten. Umsetzungsdaten umfassen z. B. Fälligkeitsdatum, bis wann eine bestimmte Maßnahme umgesetzt sein muss, Meilensteine im Projektplan oder vereinbarte Endtermine für Kontrollen, Prüfungen oder technische Implementierungen.

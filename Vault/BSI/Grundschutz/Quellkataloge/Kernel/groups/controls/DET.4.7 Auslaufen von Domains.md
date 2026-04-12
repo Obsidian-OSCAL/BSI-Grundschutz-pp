@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.7 Auslaufen von Domains
+stmt_target_object_category: Webserver
+stmt_modal_verb: KANN
+stmt_action_word: überwachen
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kern
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *** | Webserver | KANN | das Auslaufen von Domains |  | überwachen | Detektions-Konzept | >Detektion für Webserver KANN das Auslaufen von Domains überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [Webserver](target_object_categories_Webserver_b1411d0f-ffd1-45b7-837b-cd97ba4ed9e7) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | das Auslaufen von Domains |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Webserver KANN das Auslaufen von Domains überwachen.</span>
 
 > [!info]- Guidance
 >Wenn Registrierungsfristen und Verlängerungszeiträume nicht im Blick behalten werden, könnte eine Domain aus Versehen verfallen und damit einhergehend Erreichbarkeits­probleme, Vertrauensverluste oder gar Sicherheits­lücken entstehen. Als Beispiele können Domains dienen, die für Web­auftritte, E‑Mail-Systeme oder API-Endpunkte genutzt werden. Ebenso kann es sich um Subdomains handeln, die für interne Tools, Test­umgebungen oder automatisierte Monitoring­dienste registriert sind. Auch Domains, die nur der Weiterleitung auf Haupt­präsenzen dienen oder die für Zertifikats­ver­waltung (z. B. ACME-Challenges) verwendet werden, können unter diese Überwachung fallen. Jede dieser Anwendungsfälle kann potenziell betroffen sein, wenn die Registrierung unbemerkt abläuft.  Hilfreich ist hierfür ein zentrales Inventar aller genutzten Domains in dem Registrierungs­daten (Ablaufdatum, Registrar, Kontakt­email) erfasst werden. Automatisierte Scripts oder Aufgaben­tickets können eingerichtet werden, die in festgelegten Abständen (z. B. 60, 30 und 7 Tage vor Ablauf) eine Benachrichtigung auslösen. Auch Monitoring-Plattformen mit DNS-Plugins können verwendet werden, um Fristen zu prüfen und Erinnerungen zu generieren. Zusätzlich kann eine Prozess­beschreibung definiert werden, in der Verantwortlichkeiten und Eskalations­wege bei nahendem Domain­ablauf festgehalten sind, um schnelle Entscheidungen und Verlängerungen zu ermöglichen.

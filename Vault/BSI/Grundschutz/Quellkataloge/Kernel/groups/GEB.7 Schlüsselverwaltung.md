@@ -6,12 +6,11 @@ group_id: GEB.7
 
 ** Group **
 # GEB.7 - Schlüsselverwaltung 
-** Übergeordnete Gruppe: **
- [GEB Gebäudemanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [GEB Gebäudemanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)## Controls
 
-> [!info]+ [[GEB.7.1 Schlüsselbeauftragte.md|GEB.7.1 Schlüsselbeauftragte]]
+> [!example]+ [[GEB.7.1 Schlüsselbeauftragte.md|GEB.7.1 Schlüsselbeauftragte]]
 
-> [!info]+ [[GEB.7.2 Verwahrung von Schlüsseln.md|GEB.7.2 Verwahrung von Schlüsseln]]
+> [!example]+ [[GEB.7.2 Verwahrung von Schlüsseln.md|GEB.7.2 Verwahrung von Schlüsseln]]
 
-> [!info]+ [[GEB.7.3 Schlüsselaudit.md|GEB.7.3 Schlüsselaudit]]
+> [!example]+ [[GEB.7.3 Schlüsselaudit.md|GEB.7.3 Schlüsselaudit]]

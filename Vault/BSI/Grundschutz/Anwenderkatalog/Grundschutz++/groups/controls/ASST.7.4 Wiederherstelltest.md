@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.4 Wiederherstelltest
+stmt_target_object_category: Daten
+stmt_modal_verb: KANN
+stmt_action_word: testen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundsc
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md) *** | Daten | KANN | den Erfolg des Löschvorgangs |  | testen | IT-Betriebskonzept | >Informationen und Assets für Daten KANN den Erfolg des Löschvorgangs testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | den Erfolg des Löschvorgangs |  | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten KANN den Erfolg des Löschvorgangs testen.</span>
 
 > [!info]- Guidance
 >Der Test kann mit Software oder Hardware, die vermeintlich gelöschte Daten von Speichermedien wiederherstellen kann, durchgeführt werden. Bei vernichteten Speichermedien ist der Test entbehrlich.

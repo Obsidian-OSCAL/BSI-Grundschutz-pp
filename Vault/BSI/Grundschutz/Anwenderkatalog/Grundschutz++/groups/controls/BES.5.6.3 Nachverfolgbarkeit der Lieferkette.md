@@ -1,25 +1,30 @@
 ---
 tags:
-- Lieferketten
+- lieferketten
 - bes563-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.6.3 Nachverfolgbarkeit der Lieferkette
 parent_control: BES.5.6 Vergabe von Unteraufträgen
+stmt_target_object_category: IT-Produkte
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.6.3 - Nachverfolgbarkeit der Lieferkette
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.5.6 Vergabe von Unteraufträgen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | IT-Produkte | KANN | die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller | für {{kritische Komponenten}} | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für IT-Produkte KANN die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller für {{ insert: param, bes.5.6.3-prm1 }} vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller | für {{kritische Komponenten}} | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller für {{ insert: param, bes.5.6.3-prm1 }} vereinbaren.</span>
 
 > [!info]- Guidance
 >Kritische Komponenten sind in diesem Kontext Bauteile oder Softwareelemente, deren Kompromittierung erhebliche Auswirkungen auf Sicherheit, Verfügbarkeit oder Integrität der eingesetzten Systeme haben könnte, z. B. kryptographische Module, Firmware von Netzwerkgeräten oder sicherheitsrelevante Steuerungseinheiten. Ohne nachvollziehbare Herkunft könnten Komponenten aus unsicheren Produktionsumgebungen stammen, in denen Hintertüren eingebaut oder Schadcode eingeschleust wurde; ebenso könnten gefälschte Ersatzteile eingesetzt werden, deren Qualität und Funktionssicherheit unzureichend ist. „Nachverfolgbarkeit“ (Traceability) bedeutet in diesem Zusammenhang die Möglichkeit, Herkunft, Transport- und Verarbeitungsschritte einer Komponente lückenlos und verifizierbar zu dokumentieren. Geeignete Maßnahmen können z. B. die Anforderung eines „Chain of Custody“-Protokolls, die Nutzung digital signierter Herkunftszertifikate oder die Einbindung seriöser, auditierter Distributoren sein. Auch der Einsatz von Datenbanken anerkannter Prüfinstanzen, in denen verifizierte Hersteller gelistet sind, kann eine Möglichkeit sein, die Nachverfolgbarkeit zu unterstützen.

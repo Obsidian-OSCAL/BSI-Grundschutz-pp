@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.8.1.5 Sicherstellung der Qualifikation
 parent_control: GC.8.1 Verfahren zur Ressourcenplanung
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+stmt_documentation: Tätigkeits- & Rollenbeschreibung
+result_reference: Anforderung
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +19,11 @@ Gruppe: [GC.8 Sicherheitsorganisation und Rollen](BSI/Grundschutz/Anwenderkatalo
 
 ** Übergeordnetes Control: ** [GC.8.1 Verfahren zur Ressourcenplanung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1%20Verfahren%20zur%20Ressourcenplanung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Sicherheitsorganisation und Rollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md) *** |  | MUSS | für jeden Rollen- und Verantwortungsträger die erforderlichen Anforderungen und Fähigkeiten |  | festlegen | Tätigkeits- & Rollenbeschreibung | >Governance und Compliance MUSS für jeden Rollen- und Verantwortungsträger die erforderlichen Anforderungen und Fähigkeiten festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Sicherheitsorganisation und Rollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | für jeden Rollen- und Verantwortungsträger die erforderlichen Anforderungen und Fähigkeiten |  | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) | [Tätigkeits- & Rollenbeschreibung](documentation_guidelines_Tätigkeits- & Rollenbeschreibung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS für jeden Rollen- und Verantwortungsträger die erforderlichen Anforderungen und Fähigkeiten festlegen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Für jeden Rollen- und Verantwortungsträger sind die Anforderungen und Fähigkeiten festgelegt.

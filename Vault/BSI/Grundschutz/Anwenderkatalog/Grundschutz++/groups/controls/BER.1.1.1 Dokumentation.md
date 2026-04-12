@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.1.1.1 Dokumentation
 parent_control: BER.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: dokumentieren
+stmt_documentation: Prozess Identitäts- und Berechtigungsmanagement
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [BER.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/
 
 ** Übergeordnetes Control: ** [BER.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.1%20Grundlagen.md) *** |  | MUSS | die Verfahren und Regelungen |  | dokumentieren | Prozess Identitäts- und Berechtigungsmanagement | >Berechtigung MUSS die Verfahren und Regelungen dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.1%20Grundlagen.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Verfahren und Regelungen |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Prozess Identitäts- und Berechtigungsmanagement](documentation_guidelines_Prozess Identitäts- und Berechtigungsmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung MUSS die Verfahren und Regelungen dokumentieren.</span>
 
 > [!info]- Guidance
 >Ohne eine Dokumentation könnte die Einhaltung der Verfahren und Regelungen von der Tagesform oder dem individuellen Wissen einzelner Mitarbeiter abhängen, was zu inkonsistenten Entscheidungen und Fehlern führen könnte; insbesondere beim Ausscheiden eines langjährigen Administrators könnte wertvolles prozessuales Wissen verloren gehen. Eine klare Dokumentation sichert die Verbindlichkeit und Wiederholbarkeit und dient als unverzichtbare Grundlage für die Einarbeitung neuer Kollegen, für die Durchführung von Audits und zur einheitlichen Anwendung der Regeln in der gesamten Institution. Die Dokumentation kann in einem eigenständigen Dokument als Richtlinie erfolgen, aber auch als Abschnitt in einem bereits bestehenden Dokument oder über die digital strukturiere Erfassung von Maßnahmen zur Umsetzung der Anforderungen, etwa über eine Software zum Management der Informationssicherheit. Sinnvoll ist es Ort und Struktur der Dokumentation an der jeweiligen Zielgruppe, d.h. den für das Management und die Umsetzung verantwortlichen Personen oder Rollen, auszurichten.

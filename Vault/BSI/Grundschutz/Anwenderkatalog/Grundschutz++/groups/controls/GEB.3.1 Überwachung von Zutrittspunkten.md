@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.3.1 Überwachung von Zutrittspunkten
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: überwachen
+stmt_documentation: Prozess Gebäudemanagement
+result_reference: Zutritt
+control_effort_level: '3'
 ---
 
 
@@ -10,11 +17,13 @@ control: GEB.3.1 Überwachung von Zutrittspunkten
 Gruppe: [GEB.3 Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GEB.3.1.1 Videoüberwachung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.1.1%20Videoüberwachung.md)> [GEB.3.1.2 Überprüfung mitgeführter Gegenstände](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.1.2%20Überprüfung%20mitgeführter%20Gegenstände.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md) *** | Standorte | SOLLTE | Zutrittspunkte auf unbefugte Zutritte |  | überwachen | Prozess Gebäudemanagement | >Gebäudemanagement für Standorte SOLLTE Zutrittspunkte auf unbefugte Zutritte überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Zutrittspunkte auf unbefugte Zutritte |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | [Prozess Gebäudemanagement](documentation_guidelines_Prozess Gebäudemanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE Zutrittspunkte auf unbefugte Zutritte überwachen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zutritt](result_Zutritt_00000000-0000-0000-0000-000000000000) | Mit Zutritt wird das Betreten von abgegrenzten Bereichen wie z. B. Räumen oder geschützten Arealen in einem Gelände bezeichnet. Zutrittsberechtigungen erlauben somit Personen, bestimmte Umgebungen zu betreten, also beispielsweise ein Gelände, ein Gebäude oder definierte Räume eines Gebäudes. |
 
 > [!info]- Guidance
 >Eine kontinuierliche Überwachung der Zugangsmöglichkeiten, z.B. verschlossener Türen und Fenster an der Gebäudeaußenseite, verhindert, dass sich Unbefugte Zutritt verschaffen. Der hierzu erforderliche Personalbedarf hängt von Gebäudegröße und Schutzbedarf ab. Um den für eine kontinuierliche Überwachung erforderlichen Personalbedarf wirtschaftlich zu decken ist es zweckmäßig, Unterstützungssysteme wie Videokameras oder Einbruchsalarme einzusetzen. Die Umsetzung kann z.B. erfolgen durch Umzäunung, Kameraüberwachung, Bewegungsmelder und einen Wachdienst.

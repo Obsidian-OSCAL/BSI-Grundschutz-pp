@@ -6,13 +6,12 @@ group_id: ARCH.2
 
 ** Group **
 # ARCH.2 - Netzdesign 
-** Übergeordnete Gruppe: **
- [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)## Controls
 
-> [!info]+ [[ARCH.2.1 Netzsegmente.md|ARCH.2.1 Netzsegmente]]
+> [!example]+ [[ARCH.2.1 Netzsegmente.md|ARCH.2.1 Netzsegmente]]
 
-> [!info]+ [[ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten.md|ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten]]
+> [!example]+ [[ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten.md|ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten]]
 >  - [[ARCH.2.2.1 Externe Netzanschlüsse.md|ARCH.2.2.1 Externe Netzanschlüsse]]
 >  - [[ARCH.2.2.2 Gastnetz.md|ARCH.2.2.2 Gastnetz]]
 >  - [[ARCH.2.2.3 Segmentierung von Servern und Clients.md|ARCH.2.2.3 Segmentierung von Servern und Clients]]
@@ -26,10 +25,10 @@ group_id: ARCH.2
 >  - [[ARCH.2.2.11 Physische Segmentierung.md|ARCH.2.2.11 Physische Segmentierung]]
 >  - [[ARCH.2.2.12 Sprungserver.md|ARCH.2.2.12 Sprungserver]]
 
-> [!info]+ [[ARCH.2.3 Mikrosegmentierung.md|ARCH.2.3 Mikrosegmentierung]]
+> [!example]+ [[ARCH.2.3 Mikrosegmentierung.md|ARCH.2.3 Mikrosegmentierung]]
 
-> [!info]+ [[ARCH.2.4 Inventar der Netze.md|ARCH.2.4 Inventar der Netze]]
+> [!example]+ [[ARCH.2.4 Inventar der Netze.md|ARCH.2.4 Inventar der Netze]]
 
-> [!info]+ [[ARCH.2.5 Netzplan.md|ARCH.2.5 Netzplan]]
+> [!example]+ [[ARCH.2.5 Netzplan.md|ARCH.2.5 Netzplan]]
 
-> [!info]+ [[ARCH.2.6 Topologieüberwachung.md|ARCH.2.6 Topologieüberwachung]]
+> [!example]+ [[ARCH.2.6 Topologieüberwachung.md|ARCH.2.6 Topologieüberwachung]]

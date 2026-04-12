@@ -1,23 +1,30 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.12.1.11 Aktive Dateiinhalte
 parent_control: KONF.12.1 Eingabevalidierung
+stmt_target_object_category: Office-Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: deaktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.1.11 - Aktive Dateiinhalte
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
 ** Übergeordnetes Control: ** [KONF.12.1 Eingabevalidierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1%20Eingabevalidierung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *** | Office-Anwendungen | SOLLTE | aktive Inhalte in Office-Dateien |  | deaktivieren | Konfigurationshistorie | >Konfiguration für Office-Anwendungen SOLLTE aktive Inhalte in Office-Dateien deaktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Office-Anwendungen](target_object_categories_Office-Anwendungen_b5f9e5ce-d90e-4da5-8ee7-32eae4829e55) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | aktive Inhalte in Office-Dateien |  | [deaktivieren](action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Office-Anwendungen SOLLTE aktive Inhalte in Office-Dateien deaktivieren.</span>
 
 > [!info]- Guidance
 >Aktive Inhalte (Makros) in Office-Dokumenten können Schadcode enthalten oder zu nicht nachvollziehbaren Datenfehlern führen. Viele Nutzende verwenden solche Funktionen jedoch für ihre Arbeit, so dass eine generelle Sperrung mit Einschränkungen verbunden ist. Autorisierte Ausnahmen bilden daher einen guten Kompromiss bei normalen Schutzbedarf. Dies kann durch den geschützten Modus (Protected View) umgesetzt werden. Werden bestimmte Makros dennoch häufig benötigt, so können Makros mit digitaler Signatur einer anerkannten Zertifizierungsstelle oder von vertrauenswürdigen Speicherorten zugelassen werden.

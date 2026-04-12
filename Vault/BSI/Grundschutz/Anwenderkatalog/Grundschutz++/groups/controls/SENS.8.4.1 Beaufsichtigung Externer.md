@@ -1,23 +1,29 @@
 ---
-tags: Physical_Access_Control
+tags:
+- physical_access_control
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.4.1 Beaufsichtigung Externer
 parent_control: SENS.8.4 Begleitung Externer
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.4.1 - Beaufsichtigung Externer
-Tags: "[Physical Access Control](tags_Physical Access Control)"
+Tag: [[tags_Physical Access Control|Physical Access Control]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 
 ** Übergeordnetes Control: ** [SENS.8.4 Begleitung Externer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.4%20Begleitung%20Externer.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md) *** | Mitarbeitende, Standorte | SOLLTE | zur Beaufsichtigung von Externen in sensiblen Bereichen |  | anweisen | Arbeitsanweisung | >Sensibilisierung für Mitarbeitende von Standorten SOLLTE zur Beaufsichtigung von Externen in sensiblen Bereichen anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Mitarbeitende, Standorte | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Beaufsichtigung von Externen in sensiblen Bereichen |  | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Mitarbeitende von Standorten SOLLTE zur Beaufsichtigung von Externen in sensiblen Bereichen anweisen.</span>
 
 > [!info]- Guidance
 >Erhalten Externe wie z.B. IT-Dienstleister Zugang zu Standorten, an denen sensible Informationen verarbeitet werden, so stellt eine Beaufsichtigung sicher, dass Externe nur soweit Zugriff auf diese Informationen erhalten, wie für die Erledigung der Aufgabe erforderlich.

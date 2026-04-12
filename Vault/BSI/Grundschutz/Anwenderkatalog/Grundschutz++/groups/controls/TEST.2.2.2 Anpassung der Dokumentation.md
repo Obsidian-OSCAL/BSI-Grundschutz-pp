@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.2.2.2 Anpassung der Dokumentation
 parent_control: TEST.2.2 Folgenabschätzung
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Ergebnisprotokoll
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [TEST.2 Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/grou
 
 ** Übergeordnetes Control: ** [TEST.2.2 Folgenabschätzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.2%20Folgenabschätzung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md) *** |  | SOLLTE | die geplanten Änderungen |  | dokumentieren | Ergebnisprotokoll | >Änderungen und Tests SOLLTE die geplanten Änderungen dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die geplanten Änderungen |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Ergebnisprotokoll](documentation_guidelines_Ergebnisprotokoll) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE die geplanten Änderungen dokumentieren.</span>
 
 > [!info]- Guidance
 >Je nach Inhalt der Änderung können hierzu Konfigurationsdateien, Sicherheitsrichtlinien, oder begleitende Dokumente wie ein IT-Betriebshandbuch oder für Nutzende gedachte Anwenderhandbücher oder Wikis gehören.

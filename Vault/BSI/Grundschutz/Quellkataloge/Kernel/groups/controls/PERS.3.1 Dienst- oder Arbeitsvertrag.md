@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.3.1 Dienst- oder Arbeitsvertrag
+stmt_target_object_category: Mitarbeitende
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+stmt_documentation: Arbeitsvertrag
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [PERS.3 Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md) *** | Mitarbeitende | SOLLTE | die vertrauliche Behandlung von Betriebs- und Geschäftsgeheimnissen | im Dienst- oder Arbeitsvertrag | vereinbaren | Arbeitsvertrag | >Personal für Mitarbeitende SOLLTE die vertrauliche Behandlung von Betriebs- und Geschäftsgeheimnissen im Dienst- oder Arbeitsvertrag vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Mitarbeitende](target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die vertrauliche Behandlung von Betriebs- und Geschäftsgeheimnissen | im Dienst- oder Arbeitsvertrag | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | [Arbeitsvertrag](documentation_guidelines_Arbeitsvertrag) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Mitarbeitende SOLLTE die vertrauliche Behandlung von Betriebs- und Geschäftsgeheimnissen im Dienst- oder Arbeitsvertrag vereinbaren.</span>
 
 > [!info]- Guidance
 >Ergänzend zu den gesetzlichen Verpflichtungen zur Wahrung von Betriebs- und Geschäftsgeheimnissen (z.B. aus dem GeschGehG) ist eine explizite Vertraulichkeitsvereinbarung (Non-disclosure Agreement, NDA) mit allen Externen und Mitarbeitenden sinnvoll, die Zugriff auf schützenswerte Informationen erhalten.

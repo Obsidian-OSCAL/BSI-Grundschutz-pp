@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.2.5.1.1 Automatische Konfigurationsverwaltung
 parent_control: KONF.2.5.1 Automatische Konfigurationsverwaltung
+stmt_target_object_category: Endgeräte
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [KONF.2 Konfiguration von Systemen](BSI/Grundschutz/Quellkataloge/Kernel
 
 ** Übergeordnetes Control: ** [KONF.2.5.1 Automatische Konfigurationsverwaltung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.2.5.1%20Automatische%20Konfigurationsverwaltung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Konfiguration von Systemen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.2%20Konfiguration%20von%20Systemen.md) *** | Endgeräte | SOLLTE | die Verwaltung durch ein Mobile Device Management (MDM) |  | verankern | Konfigurationshistorie | >Konfiguration für Endgeräte SOLLTE die Verwaltung durch ein Mobile Device Management (MDM) verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Konfiguration von Systemen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.2%20Konfiguration%20von%20Systemen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Endgeräte](target_object_categories_Endgeräte_837781a4-7b47-4695-9545-a3310eac7a66) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Verwaltung durch ein Mobile Device Management (MDM) |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Endgeräte SOLLTE die Verwaltung durch ein Mobile Device Management (MDM) verankern.</span>
 
 > [!info]- Guidance
 >Die Konfigurationsanforderungen für Mobile Device Management (MDM) sind im BSI-Mindeststandard für MDM umfassend beschrieben. Es ist empfehlenswert, diese Mindestanforderungen heranzuziehen. Ergänzend wird empfohlen, sicherheitsrelevante Kriterien bereits bei der Produktauswahl zu berücksichtigen, vertrauenswürdige Apps durch Reputationsdienste zu prüfen, kompromittierte Geräte (z. B. durch Jailbreak oder Root) automatisiert zu erkennen und Geofencing zur kontextbezogenen Richtliniendurchsetzung einzusetzen.

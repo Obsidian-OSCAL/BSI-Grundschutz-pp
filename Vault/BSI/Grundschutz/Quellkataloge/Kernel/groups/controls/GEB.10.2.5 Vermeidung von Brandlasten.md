@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.2.5 Vermeidung von Brandlasten
 parent_control: GEB.10.2 Brandschutz
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: untersagen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kern
 
 ** Übergeordnetes Control: ** [GEB.10.2 Brandschutz](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.10.2%20Brandschutz.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Standorte | SOLLTE | das ungesicherte Hinterlassen von Brandlasten |  | untersagen | Arbeitsanweisung | >Gebäudemanagement für Standorte SOLLTE das ungesicherte Hinterlassen von Brandlasten untersagen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | das ungesicherte Hinterlassen von Brandlasten |  | [untersagen](action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE das ungesicherte Hinterlassen von Brandlasten untersagen.</span>
 
 > [!info]- Guidance
 >Befinden sich Brandlasten wie Kartons, brennbare Dämmstoffe, Batterien oder Holzmöbel in der Nähe (oder sogar in) Räumen für technische Infrastruktur oder zentraler Versorgungseinrichtungen, so erhöhen sich Wahrscheinlichkeit und durchschnittliches Schadensausmaß von Bränden. Dies gilt auch für das Rauchen von Zigaretten oder Zigarren. Der einzuhaltende Abstand ergibt sich aus der Größe der Brandlast und dem Schutzbedarf des Ortes von dem Abstand zu halten ist - wenn möglich ist ein Abstand von mindestens einem Zwischenraum sinnvoll.

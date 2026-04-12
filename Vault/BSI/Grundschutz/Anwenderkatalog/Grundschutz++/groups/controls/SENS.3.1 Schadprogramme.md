@@ -1,21 +1,28 @@
 ---
-tags: Advanced_Persistent_Threats_APT
+tags:
+- advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.3.1 Schadprogramme
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.3.1 - Schadprogramme
-Tags: "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.3 Schutz vor Schadprogrammen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Schutz vor Schadprogrammen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md) *** | Nutzende | SOLLTE | gegen die Risiken von Schadprogrammen |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE gegen die Risiken von Schadprogrammen sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Schutz vor Schadprogrammen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | gegen die Risiken von Schadprogrammen |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE gegen die Risiken von Schadprogrammen sensibilisieren.</span>
 
 > [!info]- Guidance
 >Viele Dateitypen, wie z. B. Office-Dateien mit Makros, Adobe PDF, .exe, .ps1, oder .vbs, können Schadcode enthalten, der bei Ausführung die Kontrolle über das System übernimmt und Angreifern zur weiteren Ausbreitung im Informationsverbund dient.

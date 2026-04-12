@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.5.1.5 Eignungsprüfung bisheriger Sicherheitsmaßnahmen
 parent_control: PERF.5.1 Eignungsprüfung
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Managementbericht
+control_effort_level: '1'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [PERF.5 Managementbewertungen](BSI/Grundschutz/Anwenderkatalog/Grundschu
 
 ** Übergeordnetes Control: ** [PERF.5.1 Eignungsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1%20Eignungsprüfung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Managementbewertungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *** |  | SOLLTE | die Ergebnisse dieser Überprüfungen in einem Managementbericht, | der eine Bewertung enthält, ob sich die Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele als geeignet erwiesen haben oder ob Maßnahmen geändert oder ergänzt werden müssen, | dokumentieren | Managementbericht | >Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der eine Bewertung enthält, ob sich die Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele als geeignet erwiesen haben oder ob Maßnahmen geändert oder ergänzt werden müssen, dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Managementbewertungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Ergebnisse dieser Überprüfungen in einem Managementbericht, | der eine Bewertung enthält, ob sich die Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele als geeignet erwiesen haben oder ob Maßnahmen geändert oder ergänzt werden müssen, | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Managementbericht](documentation_guidelines_Managementbericht) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der eine Bewertung enthält, ob sich die Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele als geeignet erwiesen haben oder ob Maßnahmen geändert oder ergänzt werden müssen, dokumentieren.</span>
 
 > [!info]- Guidance
 >Zur Bewertung, ob Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele geeignet sind, müssen die Maßnahmen systematisch den jeweiligen Zielen zugeordnet und ihre Wirksamkeit anhand konkreter Nachweise (z. B. Auditergebnisse, Vorfallanalysen, Tests) überprüft werden. Werden Defizite festgestellt, sind die Maßnahmen entsprechend anzupassen, zu ergänzen oder durch geeignetere zu ersetzen. Die Ergebnisse dieser Überprüfung sind nachvollziehbar zu dokumentieren und in den Managementbericht einzubringen und basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung.

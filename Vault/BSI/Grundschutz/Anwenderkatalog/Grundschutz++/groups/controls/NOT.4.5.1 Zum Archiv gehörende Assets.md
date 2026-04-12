@@ -1,9 +1,17 @@
 ---
-tags: not451-prm1
+tags:
+- not451-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.5.1 Zum Archiv gehörende Assets
 parent_control: NOT.4.5 Archivierung langfristig benötigter Daten
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: ausführen
+stmt_documentation: Datensicherungskonzept
+result_reference: Asset
+control_effort_level: '4'
 ---
 
 
@@ -14,9 +22,11 @@ Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/gro
 
 ** Übergeordnetes Control: ** [NOT.4.5 Archivierung langfristig benötigter Daten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.5%20Archivierung%20langfristig%20benötigter%20Daten.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *** | Daten | SOLLTE | die Archivierung von Assets, die zur Verwendung von archivierten Daten erforderlich sind, | {{regelmäßig}} | ausführen | Datensicherungskonzept | >Notfallplanung für Daten SOLLTE die Archivierung von Assets, die zur Verwendung von archivierten Daten erforderlich sind, {{ insert: param, not.4.5.1-prm1 }} ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Archivierung von Assets, die zur Verwendung von archivierten Daten erforderlich sind, | {{regelmäßig}} | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung für Daten SOLLTE die Archivierung von Assets, die zur Verwendung von archivierten Daten erforderlich sind, {{ insert: param, not.4.5.1-prm1 }} ausführen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Je nach Art der Daten können zu deren Nutzung z.B. bestimmte (physische oder virtuelle) Assets wie Systeme oder Anwendungen erforderlich sein, z.B. bestimmte Datenbankversionen, kompatible Betriebssysteme und Lizenzen, Anwendungen zur kryptographischen Entschlüsselung der Daten, Konfigurationsdateien oder Betriebsparameter. Wenn Daten für eine lange Zeit aufbewahrt werden, könnte es vorkommen, dass sie nicht mehr lesbar und reproduzierbar sind, weil diese Assets nicht mehr existieren und auch nicht mehr beschafft werden können.

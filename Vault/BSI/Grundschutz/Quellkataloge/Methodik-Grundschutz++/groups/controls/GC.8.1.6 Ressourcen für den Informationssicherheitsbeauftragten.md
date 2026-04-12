@@ -1,9 +1,14 @@
 ---
-tags: gc816-prm1
+tags:
+- gc816-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.8.1.6 Ressourcen für den Informationssicherheitsbeauftragten
 parent_control: GC.8.1 Verfahren zur Ressourcenplanung
+stmt_modal_verb: MUSS
+stmt_action_word: zuweisen
+control_effort_level: '0'
 ---
 
 
@@ -14,9 +19,9 @@ Gruppe: [GC.8 Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/
 
 ** Übergeordnetes Control: ** [GC.8.1 Verfahren zur Ressourcenplanung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1%20Verfahren%20zur%20Ressourcenplanung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md) *** |  | MUSS | dem Informationssicherheitsbeauftragten {{hinreichende}} Ressourcen |  | zuweisen |  | >Governance und Compliance MUSS dem Informationssicherheitsbeauftragten {{ insert: param, gc.8.1.6-prm1 }} Ressourcen zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | dem Informationssicherheitsbeauftragten {{hinreichende}} Ressourcen |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS dem Informationssicherheitsbeauftragten {{ insert: param, gc.8.1.6-prm1 }} Ressourcen zuweisen.</span>
 
 > [!info]- Guidance
 >Zu den Aufgaben des ISB gehören beispielsweise die Beratung der Institutionsleitung zur Informationssicherheit, die Koordinierung der Erstellung von Richtlinien und Sicherheitskonzepten und die Untersuchung von Sicherheitsvorfällen. Ohne ausreichende Ressourcen, können diese Aufgaben nicht wirksam und nachhaltig wahrgenommen werden, was zu Sicherheitsrisiken führen kann. In kleinen Institutionen kann die Funktion des ISB auch von einem qualifizierten Mitarbeiter neben anderen Aufgaben wahrgenommen werden. Maßgeblich ist, dass dem ISB ausreichend Zeit für seine Aufgaben zugebilligt wird und er in keinem Interessenskonflikt mit anderen Aufgaben steht.

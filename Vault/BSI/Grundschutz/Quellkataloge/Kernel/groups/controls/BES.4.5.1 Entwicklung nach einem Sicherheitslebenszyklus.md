@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.5.1 Entwicklung nach einem Sicherheitslebenszyklus
 parent_control: BES.4.5 Security by Design
+stmt_target_object_category: IT-Produkte
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.5.1 - Entwicklung nach einem Sicherheitslebenszyklus
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.4.5 Security by Design](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.5%20Security%20by%20Design.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *** | IT-Produkte | KANN | Nachweise zur Entwicklung nach einem Sicherheitslebenszyklus |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für IT-Produkte KANN Nachweise zur Entwicklung nach einem Sicherheitslebenszyklus vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Nachweise zur Entwicklung nach einem Sicherheitslebenszyklus |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN Nachweise zur Entwicklung nach einem Sicherheitslebenszyklus vereinbaren.</span>
 
 > [!info]- Guidance
 >Ein Sicherheitslebenszyklus (engl. security development lifecycle, kurz SDL) besteht aus strukturierten Entwicklungsphasen, in denen Sicherheitsaspekte systematisch in Planung, Design, Implementierung, Test und Wartung eines IT-Produkts integriert werden. Solche Nachweise können etwa BSI-Zertifizierungen oder Dokumentationen einer vom Lieferanten unabhängigen Auditierung von Bedrohungsanalysen (threat modeling), sicheren Programmierpraktiken (secure coding guidelines), oder Ergebnissen von Penetrationstests umfassen. Ziel ist, nachprüfbar zu belegen, dass das Produkt nicht nur funktional, sondern auch sicherheitsseitig kontrolliert entwickelt wurde. Fehlt ein solcher Nachweis, könnte ein Produkt Schwachstellen enthalten, die später zu unbemerkten Manipulationen oder Datenabflüssen führen. Ein dokumentierter Sicherheitslebenszyklus kann dagegen Vertrauen in die Integrität, Belastbarkeit und Wartbarkeit eines Produkts schaffen. Die Vereinbarung entsprechender Nachweise kann beispielsweise über standardisierte Sicherheitsanforderungen in Ausschreibungsunterlagen, die Vorlage von Entwicklungsrichtlinien nach ISO/IEC 27034 oder NIST SP 800-218, oder die Anerkennung von Zertifikaten wie Common Criteria erfolgen. Alternativ kann die Institution bei kleineren Anbietern auch stichprobenartige Sicherheitsreviews, Entwicklerbefragungen oder Auditberichte als geeignete Nachweisvarianten akzeptieren.

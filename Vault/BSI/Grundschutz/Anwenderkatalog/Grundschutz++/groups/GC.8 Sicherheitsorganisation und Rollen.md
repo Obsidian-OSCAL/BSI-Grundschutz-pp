@@ -6,11 +6,10 @@ group_id: GC.8
 
 ** Group **
 # GC.8 - Sicherheitsorganisation und Rollen 
-** Übergeordnete Gruppe: **
- [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)## Controls
 
-> [!info]+ [[GC.8.1 Verfahren zur Ressourcenplanung.md|GC.8.1 Verfahren zur Ressourcenplanung]]
+> [!example]+ [[GC.8.1 Verfahren zur Ressourcenplanung.md|GC.8.1 Verfahren zur Ressourcenplanung]]
 >  - [[GC.8.1.1 Festlegung von Rollen und Zuständigkeiten.md|GC.8.1.1 Festlegung von Rollen und Zuständigkeiten]]
 >    - [[GC.8.1.1.1 Informationssicherheitsbeauftragter.md|GC.8.1.1.1 Informationssicherheitsbeauftragter]]
 >      - [[GC.8.1.1.1.1 Vorspracherecht des Informationssicherheitsbeauftragten.md|GC.8.1.1.1.1 Vorspracherecht des Informationssicherheitsbeauftragten]]

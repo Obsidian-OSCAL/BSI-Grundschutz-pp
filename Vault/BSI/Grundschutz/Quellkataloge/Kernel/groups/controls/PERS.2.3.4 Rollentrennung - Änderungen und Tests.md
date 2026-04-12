@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.2.3.4 Rollentrennung - Änderungen und Tests
 parent_control: PERS.2.3 Rollentrennung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Geschäftsverteilungsplan
+control_effort_level: '4'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkatalog
 
 ** Übergeordnetes Control: ** [PERS.2.3 Rollentrennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/PERS.2.3%20Rollentrennung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)**<br> ***  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *** |  | SOLLTE | zwischen Implementierung und Test eine Rollentrennung |  | verankern | Geschäftsverteilungsplan | >Personal SOLLTE zwischen Implementierung und Test eine Rollentrennung verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zwischen Implementierung und Test eine Rollentrennung |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Geschäftsverteilungsplan](documentation_guidelines_Geschäftsverteilungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal SOLLTE zwischen Implementierung und Test eine Rollentrennung verankern.</span>
 
 > [!info]- Guidance
 >Liegen Implementierung von Funktionen und Änderungen, sowie deren Test in derselben Hand, so werden Probleme durch Nachlässigkeit oder Versehen leicht übersehen.

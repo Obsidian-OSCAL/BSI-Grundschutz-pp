@@ -6,7 +6,13 @@ group_id: VRB
 
 ** Group **
 # VRB - Verbesserung 
-> [!info]+ Untergeordnete Gruppen> [VRB.1 Kontinuierliche Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.1%20Kontinuierliche%20Verbesserung.md)
+> [!info]- Praktik VRB Verbesserung:
+> | | |
+> | - | - |
+> | auch bekannt als: | Kontinuierliche Verbesserung |
+> | Schwerpunkt: | Methodik |
+>
+> > Die Praktik Verbesserung gewährleistet die kontinuierliche Weiterentwicklung und Optimierung des Informationssicherheitsmanagementsystems. Sie nutzt die Erkenntnisse aus dem Monitoring und der Evaluation, um die Wirksamkeit der Sicherheitsmaßnahmen zu erhöhen.<br><br>Diese Praktik umfasst die Planung und Umsetzung von Korrektur- und Vorbeugungsmaßnahmen. Ziel ist es, einen Prozess der kontinuierlichen Verbesserung zu etablieren, der flexibel auf neue Bedrohungen und veränderte Rahmenbedingungen reagieren kann.<br>Die Verbesserung schließt den PDCA-Zyklus ab und leitet gleichzeitig einen neuen Zyklus ein, indem sie Impulse für Anpassungen in den Praktiken Governance und Compliance, Strukturmodellierung und Umsetzung gibt. Sie stellt sicher, dass das ISMS dynamisch bleibt und sich an veränderte Anforderungen und Bedrohungen anpasst.> [!example]+ Untergeordnete Gruppen> [VRB.1 Kontinuierliche Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.1%20Kontinuierliche%20Verbesserung.md)
 > [VRB.2 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md)
 > [VRB.3 Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.3%20Identifikation%20von%20Verbesserungspotenzialen.md)
 > [VRB.4 Korrektur- und Verbesserungsvorschläge](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.4%20Korrektur-%20und%20Verbesserungsvorschläge.md)

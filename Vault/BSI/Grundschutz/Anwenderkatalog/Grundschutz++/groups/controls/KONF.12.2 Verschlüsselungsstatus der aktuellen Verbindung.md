@@ -1,21 +1,28 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.12.2 Verschlüsselungsstatus der aktuellen Verbindung
+stmt_target_object_category: Webbrowser
+stmt_modal_verb: SOLLTE
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '1'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.2 - Verschlüsselungsstatus der aktuellen Verbindung
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *** | Webbrowser | SOLLTE | eine Anzeige der Verschlüsselung der aktuellen Verbindung |  | aktivieren | Konfigurationshistorie | >Konfiguration für Webbrowser SOLLTE eine Anzeige der Verschlüsselung der aktuellen Verbindung aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Webbrowser](target_object_categories_Webbrowser_8b64663c-8388-40bc-a68b-473e753ae4d0) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Anzeige der Verschlüsselung der aktuellen Verbindung |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Webbrowser SOLLTE eine Anzeige der Verschlüsselung der aktuellen Verbindung aktivieren.</span>
 
 > [!info]- Guidance
 >Die Anzeige der Verschlüsselung der aktuellen Verbindung im Webbrowser, auch bekannt als Connection Encryption Indicator oder oft durch ein 🔒-Symbol dargestellt, ist ein essenzielles Merkmal für die Wahrnehmung der Vertrauenswürdigkeit einer Online-Kommunikation. Sie visualisiert, ob die Datenübertragung zwischen dem Browser des Benutzers und dem Webserver mittels eines kryptografischen Protokolls, typischerweise Transport Layer Security (TLS) (früher Secure Sockets Layer (SSL)), abgesichert ist. Diese Vorschrift zielt darauf ab, das Risiko des Abhörens von Daten durch Dritte (Eavesdropping) zu minimieren; denn ohne diese Anzeige könnte ein Benutzer unbemerkt sensible Informationen über eine ungesicherte Verbindung eingeben, was beispielsweise zur Kompromittierung von Anmeldedaten oder vertraulichen Geschäftsinformationen führen könnte.

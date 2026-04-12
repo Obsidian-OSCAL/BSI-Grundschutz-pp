@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Anforderungen-zum-Risikomanagement
 type: control
 control: RISK.1.10 Freigabe der Umsetzungsplanung
+stmt_modal_verb: MUSS
+stmt_action_word: autorisieren
+stmt_documentation: Umsetzungsplan
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [RISK.1 Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RIS
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Risikomanagement (RISK)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK%20Risikomanagement.md)**<br> ***  &rarr; [Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md) *** |  | MUSS | die Umsetzungsplanung | durch die Risikoeigentümer | autorisieren | Umsetzungsplan | >Risikomanagement MUSS die Umsetzungsplanung durch die Risikoeigentümer autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Risikomanagement (RISK)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK%20Risikomanagement.md)*<br> *  &rarr; [Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md) *</div> | [Risikomanagement](practices_Risikomanagement_906e6304-5a16-4251-b225-324d4945100a) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Umsetzungsplanung | durch die Risikoeigentümer | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Umsetzungsplan](documentation_guidelines_Umsetzungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Risikomanagement MUSS die Umsetzungsplanung durch die Risikoeigentümer autorisieren.</span>
 
 > [!info]- Guidance
 >Auf der Grundlage des Umsetzungsplans ist eine systematische und transparente Umsetzung der Anforderung bzw. Sicherheitsmaßnahmen möglich. Der Umsetzungsplan enthält z. B. die Anforderungsbeschreibung, das Zielobjekt bzw. den Anwendungsbereich, die verantwortliche Stelle, Start und Zieldatum (Fristen), Prioritäten, Status der Umsetzung, ergänzende Aktivitäten (z. B. Schulungen), Risiken inkl. Begründung (Was bleibt offen? Was wurde nicht umgesetzt und warum?), Ressourcenplanung, Abhängigkeiten zu anderen Anforderungen, Datum der Freigabe und Unterschrift des Risikoeigentümers. Der Umsetzungsplan dient als Grundlage für die Fortschrittskontrolle, die Berichterstattung und Audits.

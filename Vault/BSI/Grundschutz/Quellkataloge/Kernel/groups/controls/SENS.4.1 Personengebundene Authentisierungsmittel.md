@@ -1,22 +1,29 @@
 ---
-tags: Authentication_and_Authorization_Advanced_Persistent_Threats_APT
+tags:
+- authentication_and_authorization_advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.4.1 Personengebundene Authentisierungsmittel
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1 - Personengebundene Authentisierungsmittel
-Tags: "[Authentication and Authorization](tags_Authentication and Authorization)" "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+> [!example]- Tags:> [[tags_Authentication and Authorization|Authentication and Authorization]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [SENS.4.1.1 Verdeckte Eingabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1.1%20Verdeckte%20Eingabe.md)> [SENS.4.1.2 Untersagung von Passwort Recycling](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1.2%20Untersagung%20von%20Passwort%20Recycling.md)> [SENS.4.1.3 Wahl von Passwörtern](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1.3%20Wahl%20von%20Passwörtern.md)> [SENS.4.1.4 Passwörter nur im Passwortmanager](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1.4%20Passwörter%20nur%20im%20Passwortmanager.md)> [SENS.4.1.5 Biometrische Authentifikation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1.5%20Biometrische%20Authentifikation.md)> [SENS.4.1.6 Keine Weitergabe personengebundener Authentisierungsmittel](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/SENS.4.1.6%20Keine%20Weitergabe%20personengebundener%20Authentisierungsmittel.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md) *** | Nutzende | SOLLTE | zum Umgang mit Authentisierungsmitteln | im Einklang mit den zugehörigen Anforderungen des Identitäts- und Berechtigungsmanagements | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE zum Umgang mit Authentisierungsmitteln im Einklang mit den zugehörigen Anforderungen des Identitäts- und Berechtigungsmanagements sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zum Umgang mit Authentisierungsmitteln | im Einklang mit den zugehörigen Anforderungen des Identitäts- und Berechtigungsmanagements | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zum Umgang mit Authentisierungsmitteln im Einklang mit den zugehörigen Anforderungen des Identitäts- und Berechtigungsmanagements sensibilisieren.</span>
 
 > [!info]- Guidance
 >Authentisierungsmittel sind alle Methoden oder Technologien, die zur Überprüfung der Identität verwendet werden, z.B. Passwörter, Zugangschipkarte, Ausweis. Um Missbrauch zu vermeiden ist es wichtig, diese (1) geschützt aufzubewahren und niemals weiterzugeben, (2) den Verdacht, dass ein Passwort oder Token kompromittiert sein könnte, sofort zu melden und (3) aufmerksam gegenüber ungewöhnlichen Login-Masken oder Aufforderungen zu sein, die Zugangsdaten außerhalb der gewohnten Systeme einzugeben.

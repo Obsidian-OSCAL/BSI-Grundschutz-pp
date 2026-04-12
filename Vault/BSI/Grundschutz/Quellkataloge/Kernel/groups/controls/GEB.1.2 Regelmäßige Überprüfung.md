@@ -1,8 +1,13 @@
 ---
-tags: geb12-prm1
+tags:
+- geb12-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.1.2 Regelmäßige Überprüfung
+stmt_modal_verb: MUSS
+stmt_action_word: überprüfen
+control_effort_level: '0'
 ---
 
 
@@ -12,9 +17,9 @@ Gruppe: [GEB.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.1%20G
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.1%20Grundlagen.md) *** |  | MUSS | die Verfahren und Regelungen | {{regelmäßig}} und anlassbezogen auf Aktualität | überprüfen | Übungs- und Prüfplan | >Gebäudemanagement MUSS die Verfahren und Regelungen {{ insert: param, geb.1.2-prm1 }} und anlassbezogen auf Aktualität überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.1%20Grundlagen.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Verfahren und Regelungen | {{regelmäßig}} und anlassbezogen auf Aktualität | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Übungs- und Prüfplan | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement MUSS die Verfahren und Regelungen {{ insert: param, geb.1.2-prm1 }} und anlassbezogen auf Aktualität überprüfen.</span>
 
 > [!info]- Guidance
 >Eine geplante der etablierten Verfahren und Regelungen dient dazu festzustellen, ob diese noch wirksam, effizient und an die aktuellen Gegebenheiten angepasst sind. Eine anlassbezogene Überprüfung wird durch spezifische Ereignisse ausgelöst, wie etwa einen schwerwiegenden Sicherheitsvorfall, eine strategische Neuausrichtung der IT oder neue gesetzliche Anforderungen. Der Zweck dieser Anforderung ist es, die kontinuierliche Verbesserung und Anpassungsfähigkeit des Prozesses sicherzustellen, da veraltete Regelungen neuen technologischen Entwicklungen oder Bedrohungen nicht mehr gerecht werden könnten; ein vor Jahren für monolithische Anwendungen konzipierter Prozess ist beispielsweise für agile Entwicklungsmethoden oder Microservice-Architekturen ungeeignet. Die regelmäßige Überprüfung kann die Effektivität des Sicherheitsmanagements langfristig aufrechterhalten und die Resilienz der Institution stärken.

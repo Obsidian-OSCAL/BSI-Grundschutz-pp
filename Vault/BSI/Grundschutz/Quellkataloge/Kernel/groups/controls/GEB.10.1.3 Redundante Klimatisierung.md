@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.1.3 Redundante Klimatisierung
 parent_control: GEB.10.1 Klimatisierung
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '5'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kern
 
 ** Übergeordnetes Control: ** [GEB.10.1 Klimatisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.10.1%20Klimatisierung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Standorte | KANN | redundante Klimasysteme |  | installieren | IT-Betriebskonzept | >Gebäudemanagement für Standorte KANN redundante Klimasysteme installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | redundante Klimasysteme |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN redundante Klimasysteme installieren.</span>
 
 > [!info]- Guidance
 >Redundant ist eine Klimatisierung, wenn alle zu ihrer Funktionsfähigkeit erforderlichen Komponenten und Anbindungen redundant sind, d.h. kein einzelner Fehlerpunkt zu einem Ausfall führen würde (Single Point of Failure).

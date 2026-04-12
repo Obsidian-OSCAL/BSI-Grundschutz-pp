@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.3.1 Netzabdeckung
+stmt_target_object_category: WLANs
+stmt_modal_verb: SOLLTE
+stmt_action_word: testen
+stmt_documentation: Netzplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ARCH.3 Wireless LAN](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.3
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Wireless LAN](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.3%20Wireless%20LAN.md) *** | WLANs | SOLLTE | die Netzabdeckung |  | testen | Netzplan | >Architektur für WLANs SOLLTE die Netzabdeckung testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Wireless LAN](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.3%20Wireless%20LAN.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [WLANs](target_object_categories_WLANs_82a399a2-2fa7-4dd2-9850-89a7ee0505ea) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Netzabdeckung |  | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Netzplan](documentation_guidelines_Netzplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für WLANs SOLLTE die Netzabdeckung testen.</span>
 
 > [!info]- Guidance
 >Drahtlose Netzanbindungen sind schwerer zu schützen als kabelgebundene Netze, da der Perimeter des Netzes schwerer zu erkennen ist. Das erschwert es, die Netzverfügbarkeit zu gewährleisten und gleichzeitig den Zugang zum Netz vor unbefugtem Zugriff oder Störungen zwischen Netzen zu schützen. Zudem können Wände und andere strahlende Geräte wie Mikrowellen-Geräte oder Bluetooth-Sender den Empfang beeinträchtigen. Ein Test des Empfangs an wichtigen Standorten unter realen Bedingungen hilft, die WLAN-Qualität zu gewährleisten.  Der Empfang in den verschiedenen Frequenzbändern kann dabei unterschiedlich ausfallen. Für weitere Informationen, siehe Allgemeinzuteilungen von Frequenzen für Mobilfunkanwendungen, DECT, WLAN, CB-Funk und ähnliche Anwendungen der Bundesnetzagentur. Abdeckungsbereich ist der Bereich, in dem das WLAN mit gewöhnlichen Endgeräten genutzt werden kann. Relevant ist dabei auch die Abdeckung aller Orte, an denen sich Gäste aufhalten, sowie an Orte an denen gerade kein Empfang gewünscht ist, z.B. Serverräume oder abhörsichere Räume.

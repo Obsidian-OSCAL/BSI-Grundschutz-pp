@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.2.1 Erstellung eines Anforderungspakets
+stmt_modal_verb: MUSS
+stmt_action_word: platzieren
+result_reference: Anforderung
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,11 @@ Gruppe: [STM.2 Erstellung eines Anforderungspakets](BSI/Grundschutz/Quellkatalog
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Erstellung eines Anforderungspakets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.2%20Erstellung%20eines%20Anforderungspakets.md) *** |  | MUSS | in ein zu erstellendes Anforderungspaket alle Anforderungen | die für den berachteten Informationsverbund relevant sind | platzieren |  | >Strukturmodellierung MUSS in ein zu erstellendes Anforderungspaket alle Anforderungen die für den berachteten Informationsverbund relevant sind platzieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Erstellung eines Anforderungspakets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.2%20Erstellung%20eines%20Anforderungspakets.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | in ein zu erstellendes Anforderungspaket alle Anforderungen | die für den berachteten Informationsverbund relevant sind | [platzieren](action_words_platzieren_fec950b7-8c2d-4060-b4ff-d7276f0f9a56) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS in ein zu erstellendes Anforderungspaket alle Anforderungen die für den berachteten Informationsverbund relevant sind platzieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Das Anforderungspaket enthält alle Anforderungen, die für den betrachteten Informationsverbund und den priorisierten Geschäftsprozesse relevant sind sowie wenn erforderlich zusätzlichen Anforderungen. Diese Anforderung dient der grundsätzlichen Vorgabe ein Anforderungspaket zu erstellen. Weitere Details sind den folgenden Anforderungen dieser Praktik zu entnehmen.

@@ -6,14 +6,13 @@ group_id: BES.3
 
 ** Group **
 # BES.3 - Auswahl von Lieferanten 
-** Übergeordnete Gruppe: **
- [BES Beschaffungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [BES Beschaffungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)## Controls
 
-> [!info]+ [[BES.3.1 Klassifizierung von Lieferantenbeziehungen.md|BES.3.1 Klassifizierung von Lieferantenbeziehungen]]
+> [!example]+ [[BES.3.1 Klassifizierung von Lieferantenbeziehungen.md|BES.3.1 Klassifizierung von Lieferantenbeziehungen]]
 
-> [!info]+ [[BES.3.2 Auswahlkriterien.md|BES.3.2 Auswahlkriterien]]
+> [!example]+ [[BES.3.2 Auswahlkriterien.md|BES.3.2 Auswahlkriterien]]
 >  - [[BES.3.2.1 Zertifizierte Lieferanten.md|BES.3.2.1 Zertifizierte Lieferanten]]
 >  - [[BES.3.2.2 Quellendiversifikation.md|BES.3.2.2 Quellendiversifikation]]
 
-> [!info]+ [[BES.3.3 Unzuverlässige Lieferanten.md|BES.3.3 Unzuverlässige Lieferanten]]
+> [!example]+ [[BES.3.3 Unzuverlässige Lieferanten.md|BES.3.3 Unzuverlässige Lieferanten]]

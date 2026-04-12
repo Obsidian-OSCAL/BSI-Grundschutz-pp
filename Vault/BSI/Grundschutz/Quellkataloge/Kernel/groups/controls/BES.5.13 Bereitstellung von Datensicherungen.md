@@ -1,22 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.13 Bereitstellung von Datensicherungen
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.13 - Bereitstellung von Datensicherungen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.5.13.1 Datenbereitstellung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.5.13.1%20Datenbereitstellung.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Dienstleistungen | SOLLTE | eine Verpflichtung des Lieferanten, Sicherungskopien regelmäßig bereitzustellen, |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen SOLLTE eine Verpflichtung des Lieferanten, Sicherungskopien regelmäßig bereitzustellen, vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Verpflichtung des Lieferanten, Sicherungskopien regelmäßig bereitzustellen, |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE eine Verpflichtung des Lieferanten, Sicherungskopien regelmäßig bereitzustellen, vereinbaren.</span>
 
 > [!info]- Guidance
 >Der Zweck dieser Anforderung liegt in der Absicherung gegen Datenverlust durch technische Defekte, menschliche Fehler oder Schadsoftware. Ein fehlendes Backup könnte dazu führen, dass wichtige Kundendaten, Vertragsunterlagen oder Konfigurationsstände dauerhaft verloren gehen. Durch die vertragliche Verpflichtung zur Bereitstellung von Sicherungskopien kann die Institution ihre Datenhoheit behalten und Ausfälle oder Manipulationen deutlich schneller abfangen. Die Umsetzung kann beispielsweise so erfolgen, dass der Lieferant verpflichtet wird, Backups auf einem separaten, verschlüsselten Speichermedium bereitzustellen, welches der Institution in vereinbarten Intervallen übergeben wird. Zur Umsetzung kann ein Lieferant beispielsweise quartalsweise Berichte zu durchgeführten Penetrationstests, Schwachstellen-Scans oder Notfallübungen bereitstellen. Ebenso kann er standardisierte Dashboards mit Kennzahlen zu Sicherheitsvorfällen, Patchständen oder Awareness-Maßnahmen freigeben. Hilfreich kann auch sein, dass der Lieferant auf Anfrage gezielt Audit-Reports oder Zertifikate (z. B. SOC-2-Berichte, ISO 27001-Auditberichte) zur Verfügung stellt.

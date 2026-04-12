@@ -1,24 +1,30 @@
 ---
-tags: Kontakt_mit_Behörden
+tags:
+- kontakt_mit_behörden
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.6.2 Kommunikation bei Vorfällen
 parent_control: REA.2.6 Ursachenanalyse und Behandlung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Behandlung von Sicherheitsvorfällen
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # REA.2.6.2 - Kommunikation bei Vorfällen
-Tags: "[Kontakt mit Behörden](tags_Kontakt mit Behörden)"
+Tag: [[tags_Kontakt mit Behörden|Kontakt mit Behörden]]
 Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md)
 ---
 
 ** Übergeordnetes Control: ** [REA.2.6 Ursachenanalyse und Behandlung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6%20Ursachenanalyse%20und%20Behandlung.md)
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [REA.2.6.2.1 Information zuständiger Behörden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.2.1%20Information%20zuständiger%20Behörden.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)**<br> ***  &rarr; [Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md) *** |  | SOLLTE | eine Vorgehensweise zur Kommunikation bei Vorfällen | unter Berücksichtigung von Compliance-Verpflichtungen, Bedürfnissen der interessierten Parteien und der Geschäftsziele | verankern | Behandlung von Sicherheitsvorfällen | >Sicherheitsvorfallsbehandlung SOLLTE eine Vorgehensweise zur Kommunikation bei Vorfällen unter Berücksichtigung von Compliance-Verpflichtungen, Bedürfnissen der interessierten Parteien und der Geschäftsziele verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Vorgehensweise zur Kommunikation bei Vorfällen | unter Berücksichtigung von Compliance-Verpflichtungen, Bedürfnissen der interessierten Parteien und der Geschäftsziele | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Behandlung von Sicherheitsvorfällen](documentation_guidelines_Behandlung von Sicherheitsvorfällen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung SOLLTE eine Vorgehensweise zur Kommunikation bei Vorfällen unter Berücksichtigung von Compliance-Verpflichtungen, Bedürfnissen der interessierten Parteien und der Geschäftsziele verankern.</span>
 
 > [!info]- Guidance
 >Hierzu gehören beispielsweise Meldepflichten gegenüber Aufsichts- oder Ermittlungsbehörden oder die Information Betroffener. Für personenbezogene Daten siehe auch Art. 34 DSGVO. Für weitere Details siehe ISO/IEC 27035.  Bei den Compliance-Verpflichtungen sind einerseits Verpflichtungen zu beachten, die eine Meldung oder einen bestimmten Umfang für Meldungen fordern (z.B. Art. 33 DSGVO), andererseits aber auch Verpflichtungen zur Wahrung der Vertraulichkeit, z.B. aus dem Datenschutz, vertraglicher Pflichten zur Wahrung fremder Geschäftsgeheimnisse oder der staatlichen Geheimhaltung. Im Zweifelsfall ist hier die Inanspruchnahme interner oder externer Rechtsberatung hier empfehlenswert.

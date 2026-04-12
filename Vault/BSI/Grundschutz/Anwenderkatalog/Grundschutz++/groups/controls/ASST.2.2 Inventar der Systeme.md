@@ -1,22 +1,28 @@
 ---
-tags: Inventories_Zero_Trust
+tags:
+- inventories_zero_trust
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.2.2 Inventar der Systeme
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Inventar IT-Systeme
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.2.2 - Inventar der Systeme
-Tags: "[Inventories](tags_Inventories)" "[Zero Trust](tags_Zero Trust)"
+> [!example]- Tags:> [[tags_Inventories|Inventories]]> [[tags_Zero Trust|Zero Trust]]
 Gruppe: [ASST.2 Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ASST.2.2.1 Aufdecken unautorisierter IT-Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.2.1%20Aufdecken%20unautorisierter%20IT-Systeme.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md) *** |  | SOLLTE | ein Inventar der IT-Systeme | einschließlich Identifikationsbezeichnung und letztem bekannten Verbleib | dokumentieren | Inventar IT-Systeme | >Informationen und Assets SOLLTE ein Inventar der IT-Systeme einschließlich Identifikationsbezeichnung und letztem bekannten Verbleib dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Inventar der IT-Systeme | einschließlich Identifikationsbezeichnung und letztem bekannten Verbleib | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Inventar IT-Systeme](documentation_guidelines_Inventar IT-Systeme) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE ein Inventar der IT-Systeme einschließlich Identifikationsbezeichnung und letztem bekannten Verbleib dokumentieren.</span>
 
 > [!info]- Guidance
 >Hierbei sind neben physischen Endgeräten auch Hostsysteme, virtuelle Systeme, IoT-Geräte, Funkgeräte und Fahrzeuge relevant, wenn diese für die Verarbeitung von Daten aus dem Informationsverbund bestimmt sind. Als Identifikationsbezeichnung ist z.B. die Identifikationsnummer gemeint. Hierzu können z.B. eine Gerätenummer, Hardware-MAC-Adresse oder ein DNS-Name zählen, anhand derer das System eindeutig und nachvollziehbar identifiziert wird. Mit Verbleib ist hier z.B. der physische Standort, die Person, das Virtualisierungssystem oder die Netzadresse gemeint, wo das IT-System zu finden ist. Kann durch Integration in das Inventar der Informationen umgesetzt werden. Ein Asset-Inventar kann im einfachsten Fall händisch gepflegt werden. Empfehlenswert ist jedoch, auch automatisierte Systeme zum Erfassen von Asset-Inventar (z.B. Verzeichnisdienste, CMDB, DHCP-Logging, Passive Asset Discovery Tools, EDR oder MDM) einzusetzen.

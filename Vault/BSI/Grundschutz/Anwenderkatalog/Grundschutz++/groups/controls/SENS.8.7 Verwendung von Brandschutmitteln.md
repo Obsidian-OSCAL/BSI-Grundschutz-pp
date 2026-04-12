@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.7 Verwendung von Brandschutmitteln
+stmt_target_object_category: Mitarbeitende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschut
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md) *** | Mitarbeitende | SOLLTE | zur korrekten Verwendung bereitgestellter Brandschutz-Hilfsmittel |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Mitarbeitende SOLLTE zur korrekten Verwendung bereitgestellter Brandschutz-Hilfsmittel sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Mitarbeitende](target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur korrekten Verwendung bereitgestellter Brandschutz-Hilfsmittel |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Mitarbeitende SOLLTE zur korrekten Verwendung bereitgestellter Brandschutz-Hilfsmittel sensibilisieren.</span>
 
 > [!info]- Guidance
 >Hierzu zählt z.B. die Einweisung in die korrekte Verwendung von Handfeuerlöschern, welche in Serverräumen oder Rechenzentren bereitgestellt werden.

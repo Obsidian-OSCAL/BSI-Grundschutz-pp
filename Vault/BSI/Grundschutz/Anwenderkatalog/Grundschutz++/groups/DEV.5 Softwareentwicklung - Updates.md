@@ -6,12 +6,11 @@ group_id: DEV.5
 
 ** Group **
 # DEV.5 - Softwareentwicklung - Updates 
-** Übergeordnete Gruppe: **
- [DEV Entwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [DEV Entwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)## Controls
 
-> [!info]+ [[DEV.5.1 Verankerung des Zeitraums für Updates.md|DEV.5.1 Verankerung des Zeitraums für Updates]]
+> [!example]+ [[DEV.5.1 Verankerung des Zeitraums für Updates.md|DEV.5.1 Verankerung des Zeitraums für Updates]]
 
-> [!info]+ [[DEV.5.2 Information über Zeitraum für Updates.md|DEV.5.2 Information über Zeitraum für Updates]]
+> [!example]+ [[DEV.5.2 Information über Zeitraum für Updates.md|DEV.5.2 Information über Zeitraum für Updates]]
 
-> [!info]+ [[DEV.5.3 Integritätsprüfung.md|DEV.5.3 Integritätsprüfung]]
+> [!example]+ [[DEV.5.3 Integritätsprüfung.md|DEV.5.3 Integritätsprüfung]]

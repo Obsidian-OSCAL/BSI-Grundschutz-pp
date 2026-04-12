@@ -1,0 +1,1505 @@
+---
+tags: oscal_catalog_tree
+catalog: Anwenderkatalog Grundschutz++
+source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Anwenderkatalog\Grundschutz++\input\Grundschutz++-catalog.json
+---
+
+
+# Anwenderkatalog Grundschutz++ Baumansicht
+> [!example] [[Anwenderkatalog Grundschutz++.md|Anwenderkatalog Grundschutz++]]
+> > [!example]+ [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)
+> > > [!example]+ [ARCH.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [ARCH.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1.1%20Dokumentation.md)
+> > > > > - [ARCH.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [ARCH.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1.3%20Bekanntgabe.md)
+> > > > - [ARCH.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [ARCH.2 Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.2.1 Netzsegmente](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.1%20Netzsegmente.md)
+> > > > - [ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2%20Einschränkung%20von%20Verbindungen%20zwischen%20Segmenten.md)
+> > > > > - [ARCH.2.2.1 Externe Netzanschlüsse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.1%20Externe%20Netzanschlüsse.md)
+> > > > > - [ARCH.2.2.2 Gastnetz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.2%20Gastnetz.md)
+> > > > > - [ARCH.2.2.3 Segmentierung von Servern und Clients](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.3%20Segmentierung%20von%20Servern%20und%20Clients.md)
+> > > > > - [ARCH.2.2.4 VoIP-Netz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.4%20VoIP-Netz.md)
+> > > > > - [ARCH.2.2.5 OT-Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.5%20OT-Systeme.md)
+> > > > > - [ARCH.2.2.6 Demilitarisierte Zone](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.6%20Demilitarisierte%20Zone.md)
+> > > > > - [ARCH.2.2.7 Management-Netz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.7%20Management-Netz.md)
+> > > > > - [ARCH.2.2.8 Segmentierung von Test und Betrieb](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.8%20Segmentierung%20von%20Test%20und%20Betrieb.md)
+> > > > > - [ARCH.2.2.9 Segmentierung von IPv4 und IPv6](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.9%20Segmentierung%20von%20IPv4%20und%20IPv6.md)
+> > > > > - [ARCH.2.2.10 Drucker-Netz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.10%20Drucker-Netz.md)
+> > > > > - [ARCH.2.2.11 Physische Segmentierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.11%20Physische%20Segmentierung.md)
+> > > > > - [ARCH.2.2.12 Sprungserver](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.2.12%20Sprungserver.md)
+> > > > - [ARCH.2.3 Mikrosegmentierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.3%20Mikrosegmentierung.md)
+> > > > - [ARCH.2.4 Inventar der Netze](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.4%20Inventar%20der%20Netze.md)
+> > > > - [ARCH.2.5 Netzplan](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.5%20Netzplan.md)
+> > > > - [ARCH.2.6 Topologieüberwachung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.2.6%20Topologieüberwachung.md)
+> > 
+> > > [!example]+ [ARCH.3 Wireless LAN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.3%20Wireless%20LAN.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.3.1 Netzabdeckung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.3.1%20Netzabdeckung.md)
+> > > > - [ARCH.3.2 Einschränkung in Sicherheitsbereichen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.3.2%20Einschränkung%20in%20Sicherheitsbereichen.md)
+> > > > - [ARCH.3.3 SSIDs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.3.3%20SSIDs.md)
+> > > > - [ARCH.3.4 Verschlüsselte Netzanbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.3.4%20Verschlüsselte%20Netzanbindung.md)
+> > 
+> > > [!example]+ [ARCH.4 Zugangsbeschränkungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.4%20Zugangsbeschränkungen.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.4.1 Netzzugangskontrolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.4.1%20Netzzugangskontrolle.md)
+> > > > > - [ARCH.4.1.1 Dynamische Netzzugangskontrolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.4.1.1%20Dynamische%20Netzzugangskontrolle.md)
+> > > > > - [ARCH.4.1.2 Quarantäne](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.4.1.2%20Quarantäne.md)
+> > > > - [ARCH.4.2 Autorisiertes Routing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.4.2%20Autorisiertes%20Routing.md)
+> > > > - [ARCH.4.3 Authentifizierung von Routingprotokollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.4.3%20Authentifizierung%20von%20Routingprotokollen.md)
+> > 
+> > > [!example]+ [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.5.1 Einschränkung und Inspektion von Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1%20Einschränkung%20und%20Inspektion%20von%20Verbindungen.md)
+> > > > > - [ARCH.5.1.1 Blockieren anfälliger Netzprotokolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.1%20Blockieren%20anfälliger%20Netzprotokolle.md)
+> > > > > - [ARCH.5.1.2 Netzbasierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.2%20Netzbasierte%20Angriffe.md)
+> > > > > - [ARCH.5.1.3 TCP-basierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.3%20TCP-basierte%20Angriffe.md)
+> > > > > - [ARCH.5.1.4 UDP-basierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.4%20UDP-basierte%20Angriffe.md)
+> > > > > - [ARCH.5.1.5 Deaktivierung von Split Tunneling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.5%20Deaktivierung%20von%20Split%20Tunneling.md)
+> > > > > - [ARCH.5.1.6 Blockieren direkter Management-Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.6%20Blockieren%20direkter%20Management-Verbindungen.md)
+> > > > > - [ARCH.5.1.7 Edge-Routing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.7%20Edge-Routing.md)
+> > > > > - [ARCH.5.1.8 Inspektion verschlüsselter Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.8%20Inspektion%20verschlüsselter%20Verbindungen.md)
+> > > > > - [ARCH.5.1.9 Filterung von DNS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.9%20Filterung%20von%20DNS.md)
+> > > > > - [ARCH.5.1.10 Webfilterung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.10%20Webfilterung.md)
+> > > > > > - [ARCH.5.1.10.1 Bekannte schädliche Inhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.10.1%20Bekannte%20schädliche%20Inhalte.md)
+> > > > > > - [ARCH.5.1.10.2 Bekannte illegale Inhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.10.2%20Bekannte%20illegale%20Inhalte.md)
+> > > > > > - [ARCH.5.1.10.3 Speicherdienste](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.10.3%20Speicherdienste.md)
+> > > > > - [ARCH.5.1.11 P-A-P-Struktur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.11%20P-A-P-Struktur.md)
+> > > > > - [ARCH.5.1.12 Software-definierte Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.12%20Software-definierte%20Verbindungen.md)
+> > > > > - [ARCH.5.1.13 Produktdiversität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.13%20Produktdiversität.md)
+> > > > - [ARCH.5.2 Blockieren direkter öffentlicher Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.2%20Blockieren%20direkter%20öffentlicher%20Verbindungen.md)
+> > 
+> > > [!example]+ [ARCH.6 Vertraulichkeit und Integrität im Weitverkehrsnetz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.6%20Vertraulichkeit%20und%20Integrität%20im%20Weitverkehrsnetz.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.6.1 Kontrollierte Verbindungsführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.6.1%20Kontrollierte%20Verbindungsführung.md)
+> > > > - [ARCH.6.2 Verschlüsselung von Weiterverkehrsverbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.6.2%20Verschlüsselung%20von%20Weiterverkehrsverbindungen.md)
+> > 
+> > > [!example]+ [ARCH.7 Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.7%20Dedizierte%20Systeme.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.7.1 Dedizierte Hostsysteme für Server](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.7.1%20Dedizierte%20Hostsysteme%20für%20Server.md)
+> > > > - [ARCH.7.2 Dedizierte Hardware](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.7.2%20Dedizierte%20Hardware.md)
+> > > > - [ARCH.7.3 Entwicklungs- und Testumgebungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.7.3%20Entwicklungs-%20und%20Testumgebungen.md)
+> > 
+> > > [!example]+ [ARCH.8 Ausfallsicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.8%20Ausfallsicherheit.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.8.1 Redundanz im Kernnetz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.8.1%20Redundanz%20im%20Kernnetz.md)
+> > > > - [ARCH.8.2 Redundante TK-Anbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.8.2%20Redundante%20TK-Anbindung.md)
+> > > > - [ARCH.8.3 Redundante Server](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.8.3%20Redundante%20Server.md)
+> > 
+> > > [!example]+ [ARCH.9 Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md)
+> > > > [!example]- Controls:
+> > > > - [ARCH.9.1 Dimensionierung der Netzanbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.9.1%20Dimensionierung%20der%20Netzanbindung.md)
+> > > > - [ARCH.9.2 Lastverteilung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.9.2%20Lastverteilung.md)
+> > > > - [ARCH.9.3 Automatische Skalierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.9.3%20Automatische%20Skalierung.md)
+> > > > - [ARCH.9.4 Content Delivery Network](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.9.4%20Content%20Delivery%20Network.md)
+> > > > - [ARCH.9.5 Schutz gegen volumetrische DoS-Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.9.5%20Schutz%20gegen%20volumetrische%20DoS-Angriffe.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [BER Berechtigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)
+> > > [!example]+ [BER.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [BER.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [BER.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.1.1%20Dokumentation.md)
+> > > > > - [BER.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [BER.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.1.3%20Bekanntgabe.md)
+> > > > - [BER.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.2%20Regelmäßige%20Überprüfung.md)
+> > > > - [BER.1.3 Inventar Authentifizierungs- und Autorisierungssysteme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.3%20Inventar%20Authentifizierungs-%20und%20Autorisierungssysteme.md)
+> > > > - [BER.1.4 Inventar der Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.1.4%20Inventar%20der%20Berechtigungen.md)
+> > 
+> > > [!example]+ [BER.2 Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md)
+> > > > [!example]- Controls:
+> > > > - [BER.2.1 Person-Identität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.2.1%20Person-Identität.md)
+> > > > - [BER.2.2 Einschränkung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.2.2%20Einschränkung.md)
+> > > > - [BER.2.3 Stammdatenprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.2.3%20Stammdatenprüfung.md)
+> > > > - [BER.2.4 Protokollierung von Stammdatenänderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.2.4%20Protokollierung%20von%20Stammdatenänderungen.md)
+> > > > - [BER.2.5 Deaktivierung bei Weggang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.2.5%20Deaktivierung%20bei%20Weggang.md)
+> > > > - [BER.2.6 Löschen nach Fristablauf](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.2.6%20Löschen%20nach%20Fristablauf.md)
+> > 
+> > > [!example]+ [BER.3 Zugangskonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.3%20Zugangskonten.md)
+> > > > [!example]- Controls:
+> > > > - [BER.3.1 Zentrales Management](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.1%20Zentrales%20Management.md)
+> > > > - [BER.3.2 Einschränkung des Managements](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.2%20Einschränkung%20des%20Managements.md)
+> > > > - [BER.3.3 Protokollierung von Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.3%20Protokollierung%20von%20Änderungen.md)
+> > > > - [BER.3.4 Identität-Zugangskonto](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.4%20Identität-Zugangskonto.md)
+> > > > - [BER.3.5 Privilegierte Zugangskonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.5%20Privilegierte%20Zugangskonten.md)
+> > > > - [BER.3.6 Single-Sign-On](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.6%20Single-Sign-On.md)
+> > > > - [BER.3.7 Hinweise bei Anmeldefehlern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.7%20Hinweise%20bei%20Anmeldefehlern.md)
+> > > > - [BER.3.8 Ereignisgesteuerte Deaktivierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.8%20Ereignisgesteuerte%20Deaktivierung.md)
+> > > > - [BER.3.9 Anmeldeversuchsgrenze am System](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.9%20Anmeldeversuchsgrenze%20am%20System.md)
+> > > > - [BER.3.10 Anmeldeversuchsgrenze an der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.10%20Anmeldeversuchsgrenze%20an%20der%20Anwendung.md)
+> > > > - [BER.3.11 Systemsperre bei Inaktivität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.11%20Systemsperre%20bei%20Inaktivität.md)
+> > > > - [BER.3.12 Sperre der Anwendung bei Inaktivität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.12%20Sperre%20der%20Anwendung%20bei%20Inaktivität.md)
+> > > > - [BER.3.13 Zugang löschen nach Fristablauf](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.13%20Zugang%20löschen%20nach%20Fristablauf.md)
+> > > > - [BER.3.14 Zugang nur durch zwei Personen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.14%20Zugang%20nur%20durch%20zwei%20Personen.md)
+> > > > - [BER.3.15 Keine Gruppenkonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.15%20Keine%20Gruppenkonten.md)
+> > > > - [BER.3.16 Gruppenkonten - MFA](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.16%20Gruppenkonten%20-%20MFA.md)
+> > > > - [BER.3.17 Gruppenkonten - Wechsel dokumentieren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.17%20Gruppenkonten%20-%20Wechsel%20dokumentieren.md)
+> > > > - [BER.3.18 Gruppenkonten - Passwortwechsel bei Weggang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.18%20Gruppenkonten%20-%20Passwortwechsel%20bei%20Weggang.md)
+> > > > - [BER.3.19 Zwischenspeicherung von Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.19%20Zwischenspeicherung%20von%20Zugangsdaten.md)
+> > > > - [BER.3.20 Dienstekonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.20%20Dienstekonten.md)
+> > > > - [BER.3.21 Notfallzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.21%20Notfallzugang.md)
+> > > > - [BER.3.22 Notfallzugang Verzeichnisdienst](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.3.22%20Notfallzugang%20Verzeichnisdienst.md)
+> > 
+> > > [!example]+ [BER.4 Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.4%20Authentifizierung.md)
+> > > > [!example]- Controls:
+> > > > - [BER.4.1 Identitätsüberprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.4.1%20Identitätsüberprüfung.md)
+> > 
+> > > [!example]+ [BER.5 Berechtigungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.5%20Berechtigungsmanagement.md)
+> > > > [!example]- Controls:
+> > > > - [BER.5.1 Prinzip der geringsten Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.1%20Prinzip%20der%20geringsten%20Berechtigungen.md)
+> > > > > - [BER.5.1.1 Rollenbasierte Berechtigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.1.1%20Rollenbasierte%20Berechtigung.md)
+> > > > > - [BER.5.1.2 JIT‑/JEA‑Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.1.2%20JIT--JEA-Berechtigungen.md)
+> > > > - [BER.5.2 Begründung von Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.2%20Begründung%20von%20Berechtigungen.md)
+> > > > - [BER.5.3 Überprüfung von Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.3%20Überprüfung%20von%20Berechtigungen.md)
+> > > > > - [BER.5.3.1 Überprüfung tatsächlicher Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.3.1%20Überprüfung%20tatsächlicher%20Berechtigungen.md)
+> > > > - [BER.5.4 Kompromittierte Berechtigungsmittel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.4%20Kompromittierte%20Berechtigungsmittel.md)
+> > > > - [BER.5.5 Systemfunktionen ohne Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.5%20Systemfunktionen%20ohne%20Authentifizierung.md)
+> > > > - [BER.5.6 Anwendungsfunktionen ohne Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.6%20Anwendungsfunktionen%20ohne%20Authentifizierung.md)
+> > > > - [BER.5.7 IT-System-Zugangskonto](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.7%20IT-System-Zugangskonto.md)
+> > > > - [BER.5.8 Entzug von Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.5.8%20Entzug%20von%20Berechtigungen.md)
+> > 
+> > > [!example]+ [BER.6 Passwortgebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.6%20Passwortgebrauch.md)
+> > > > [!example]- Controls:
+> > > > - [BER.6.1 Passwortmanager](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.1%20Passwortmanager.md)
+> > > > - [BER.6.2 Vorkonfigurierte Authentisierungsmittel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.2%20Vorkonfigurierte%20Authentisierungsmittel.md)
+> > > > - [BER.6.3 Deaktivierung einfacher Biometrie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.3%20Deaktivierung%20einfacher%20Biometrie.md)
+> > > > - [BER.6.4 Mehr-Faktor-Authentisierung am Perimeter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.4%20Mehr-Faktor-Authentisierung%20am%20Perimeter.md)
+> > > > - [BER.6.5 Mehr-Faktor-Authentisierung für weitreichende Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.5%20Mehr-Faktor-Authentisierung%20für%20weitreichende%20Berechtigungen.md)
+> > > > - [BER.6.6 Blockieren von Passwort Recycling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.6%20Blockieren%20von%20Passwort%20Recycling.md)
+> > > > - [BER.6.7 Trivialpasswörter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.7%20Trivialpasswörter.md)
+> > > > - [BER.6.8 Kriterien für die Qualität von Passwörtern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.8%20Kriterien%20für%20die%20Qualität%20von%20Passwörtern.md)
+> > > > - [BER.6.9 Anlassbezogene Passwortwechsel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.9%20Anlassbezogene%20Passwortwechsel.md)
+> > > > - [BER.6.10 Monitoring von Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.6.10%20Monitoring%20von%20Zugangsdaten.md)
+> > 
+> > > [!example]+ [BER.7 Schlüsselmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.7%20Schlüsselmanagement.md)
+> > > > [!example]- Controls:
+> > > > - [BER.7.1 Etablierte Algorithmen bei der Schlüsselerzeugung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.1%20Etablierte%20Algorithmen%20bei%20der%20Schlüsselerzeugung.md)
+> > > > - [BER.7.2 Schlüssellänge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.2%20Schlüssellänge.md)
+> > > > - [BER.7.3 Verzeichnis öffentlicher Schlüssel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.3%20Verzeichnis%20öffentlicher%20Schlüssel.md)
+> > > > - [BER.7.4 Erzeugung auf sicheren IT-Systemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.4%20Erzeugung%20auf%20sicheren%20IT-Systemen.md)
+> > > > - [BER.7.5 Kriterien für die Qualität von Zufallszahlen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.5%20Kriterien%20für%20die%20Qualität%20von%20Zufallszahlen.md)
+> > > > - [BER.7.6 Etablierte Algorithmen beim Transport](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.6%20Etablierte%20Algorithmen%20beim%20Transport.md)
+> > > > - [BER.7.7 Kein Transport privater Schlüssel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.7%20Kein%20Transport%20privater%20Schlüssel.md)
+> > > > - [BER.7.8 Etablierte Algorithmen bei der Schlüsselnutzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.8%20Etablierte%20Algorithmen%20bei%20der%20Schlüsselnutzung.md)
+> > > > - [BER.7.9 Zweckbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.9%20Zweckbindung.md)
+> > > > - [BER.7.10 Abgelaufene Schlüssel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.10%20Abgelaufene%20Schlüssel.md)
+> > > > - [BER.7.11 Integrität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.11%20Integrität.md)
+> > > > - [BER.7.12 Authentizität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.12%20Authentizität.md)
+> > > > - [BER.7.13 Gültigkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.13%20Gültigkeit.md)
+> > > > - [BER.7.14 Schlüssel vor Ablauf prüfen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.14%20Schlüssel%20vor%20Ablauf%20prüfen.md)
+> > > > - [BER.7.15 Vorgehensweise nach Nutzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.15%20Vorgehensweise%20nach%20Nutzung.md)
+> > > > - [BER.7.16 Vorgaben für die Schlüsselbeglaubigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16%20Vorgaben%20für%20die%20Schlüsselbeglaubigung.md)
+> > > > > - [BER.7.16.1 Zertifizierungsstelle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16.1%20Zertifizierungsstelle.md)
+> > > > > - [BER.7.16.2 Beglaubigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16.2%20Beglaubigung.md)
+> > > > > - [BER.7.16.3 Erneuerung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16.3%20Erneuerung.md)
+> > > > > - [BER.7.16.4 Revocation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16.4%20Revocation.md)
+> > > > > - [BER.7.16.5 Beglaubigungsstatus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16.5%20Beglaubigungsstatus.md)
+> > > > > - [BER.7.16.6 Revocationstatus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BER.7.16.6%20Revocationstatus.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [BES Beschaffungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)
+> > > [!example]+ [BES.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [BES.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [BES.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.1.1%20Dokumentation.md)
+> > > > > - [BES.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [BES.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.1.3%20Bekanntgabe.md)
+> > > > - [BES.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.2%20Regelmäßige%20Überprüfung.md)
+> > > > - [BES.1.3 Lieferanten- und Dienstleisterverzeichnis](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.3%20Lieferanten-%20und%20Dienstleisterverzeichnis.md)
+> > > > > - [BES.1.3.1 Gesamte Lieferkette](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.3.1%20Gesamte%20Lieferkette.md)
+> > > > - [BES.1.4 Outsourcing-Strategie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.4%20Outsourcing-Strategie.md)
+> > > > > - [BES.1.4.1 Freigabe der Strategie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.4.1%20Freigabe%20der%20Strategie.md)
+> > > > - [BES.1.5 Autorisierung des Bereitstellungsmodells](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.5%20Autorisierung%20des%20Bereitstellungsmodells.md)
+> > > > - [BES.1.6 Dokumentation des Bereitstellungsmodells](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.6%20Dokumentation%20des%20Bereitstellungsmodells.md)
+> > > > - [BES.1.7 Vereinbarung der geteilten Verantwortung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.1.7%20Vereinbarung%20der%20geteilten%20Verantwortung.md)
+> > 
+> > > [!example]+ [BES.2 Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md)
+> > > > [!example]- Controls:
+> > > > - [BES.2.1 Erfassung des Bedarfes](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1%20Erfassung%20des%20Bedarfes.md)
+> > > > > - [BES.2.1.1 Verwendungszweck](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.1%20Verwendungszweck.md)
+> > > > > - [BES.2.1.2 Geschäftsprozessprofile](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.2%20Geschäftsprozessprofile.md)
+> > > > > - [BES.2.1.3 Systemvoraussetzungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.3%20Systemvoraussetzungen.md)
+> > > > > - [BES.2.1.4 Kompatibilität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4%20Kompatibilität.md)
+> > > > > > - [BES.2.1.4.1 Kompatibilität der Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4.1%20Kompatibilität%20der%20Schnittstellen.md)
+> > > > > > - [BES.2.1.4.2 Kompatibilität der Netzanbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4.2%20Kompatibilität%20der%20Netzanbindung.md)
+> > > > > > - [BES.2.1.4.3 Kompatibilität des Administrationsmodells](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4.3%20Kompatibilität%20des%20Administrationsmodells.md)
+> > > > > > - [BES.2.1.4.4 Kompatibilität des Datenmanagementmodells](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.4.4%20Kompatibilität%20des%20Datenmanagementmodells.md)
+> > > > > - [BES.2.1.5 Lizenzierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.5%20Lizenzierung.md)
+> > > > > - [BES.2.1.6 Support- und Wartungsverträge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.1.6%20Support-%20und%20Wartungsverträge.md)
+> > > > - [BES.2.2 Dokumentation des Rechtsraums und der Datenlokation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.2%20Dokumentation%20des%20Rechtsraums%20und%20der%20Datenlokation.md)
+> > > > - [BES.2.3 Vereinbarung des Rechtsraums und der Datenlokation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.3%20Vereinbarung%20des%20Rechtsraums%20und%20der%20Datenlokation.md)
+> > > > - [BES.2.4 Anhörung Nutzender](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.4%20Anhörung%20Nutzender.md)
+> > > > - [BES.2.5 Anhörung Adminstrierender](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.5%20Anhörung%20Adminstrierender.md)
+> > > > - [BES.2.6 Outsourcing auf Grundlage der Geschäftsprozessprofile](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.2.6%20Outsourcing%20auf%20Grundlage%20der%20Geschäftsprozessprofile.md)
+> > 
+> > > [!example]+ [BES.3 Auswahl von Lieferanten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.3%20Auswahl%20von%20Lieferanten.md)
+> > > > [!example]- Controls:
+> > > > - [BES.3.1 Klassifizierung von Lieferantenbeziehungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.3.1%20Klassifizierung%20von%20Lieferantenbeziehungen.md)
+> > > > - [BES.3.2 Auswahlkriterien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.3.2%20Auswahlkriterien.md)
+> > > > > - [BES.3.2.1 Zertifizierte Lieferanten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.3.2.1%20Zertifizierte%20Lieferanten.md)
+> > > > > - [BES.3.2.2 Quellendiversifikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.3.2.2%20Quellendiversifikation.md)
+> > > > - [BES.3.3 Unzuverlässige Lieferanten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.3.3%20Unzuverlässige%20Lieferanten.md)
+> > 
+> > > [!example]+ [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
+> > > > [!example]- Controls:
+> > > > - [BES.4.1 Klassifizierung von Beschaffungsvorhaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.1%20Klassifizierung%20von%20Beschaffungsvorhaben.md)
+> > > > - [BES.4.2 Dokumentation der Beschaffungskriterien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.2%20Dokumentation%20der%20Beschaffungskriterien.md)
+> > > > - [BES.4.3 Beschaffung anhand der Kriterien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.3%20Beschaffung%20anhand%20der%20Kriterien.md)
+> > > > - [BES.4.4 Vertragsvorlage für Outsourcing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.4%20Vertragsvorlage%20für%20Outsourcing.md)
+> > > > - [BES.4.5 Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.5%20Security%20by%20Design.md)
+> > > > > - [BES.4.5.1 Entwicklung nach einem Sicherheitslebenszyklus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.5.1%20Entwicklung%20nach%20einem%20Sicherheitslebenszyklus.md)
+> > > > > - [BES.4.5.2 Mandantentrennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.5.2%20Mandantentrennung.md)
+> > > > - [BES.4.6 Security by Default](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6%20Security%20by%20Default.md)
+> > > > > - [BES.4.6.1 Authentifizierung des Kunden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6.1%20Authentifizierung%20des%20Kunden.md)
+> > > > > - [BES.4.6.2 Verschlüsselung durch den Anbieter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6.2%20Verschlüsselung%20durch%20den%20Anbieter.md)
+> > > > > - [BES.4.6.3 Manipulationsschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6.3%20Manipulationsschutz.md)
+> > > > - [BES.4.7 ISMS beim Dienstleister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.7%20ISMS%20beim%20Dienstleister.md)
+> > > > - [BES.4.8 Konformitätsnachweise](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.8%20Konformitätsnachweise.md)
+> > > > > - [BES.4.8.1 Zertifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.8.1%20Zertifizierung.md)
+> > > > > - [BES.4.8.2 Cloud-Konformität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.8.2%20Cloud-Konformität.md)
+> > > > > - [BES.4.8.3 IT-Grundschutz-Analyse der Infrastruktur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.8.3%20IT-Grundschutz-Analyse%20der%20Infrastruktur.md)
+> > > > > - [BES.4.8.4 Offenlegung der Risikoanalyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.8.4%20Offenlegung%20der%20Risikoanalyse.md)
+> > > > - [BES.4.9 Sicherheitsüberprüfung (extern)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.9%20Sicherheitsüberprüfung%20(extern).md)
+> > 
+> > > [!example]+ [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
+> > > > [!example]- Controls:
+> > > > - [BES.5.1 Kompetenzen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.1%20Kompetenzen.md)
+> > > > - [BES.5.2 Service Level Agreement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.2%20Service%20Level%20Agreement.md)
+> > > > - [BES.5.3 Compliance-Verpflichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.3%20Compliance-Verpflichtungen.md)
+> > > > - [BES.5.4 Informationssicherheitskontrollmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.4%20Informationssicherheitskontrollmechanismen.md)
+> > > > - [BES.5.5 Nutzungsregelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.5%20Nutzungsregelungen.md)
+> > > > > - [BES.5.5.1 Datenlokationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.5.1%20Datenlokationen.md)
+> > > > > - [BES.5.5.2 Autorisierung der Zugriffsberechtigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.5.2%20Autorisierung%20der%20Zugriffsberechtigung.md)
+> > > > - [BES.5.6 Vergabe von Unteraufträgen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
+> > > > > - [BES.5.6.1 Weitergabe der Beschaffungskriterien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.6.1%20Weitergabe%20der%20Beschaffungskriterien.md)
+> > > > > - [BES.5.6.2 Autorisierung von Unterauftragnehmern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.6.2%20Autorisierung%20von%20Unterauftragnehmern.md)
+> > > > > - [BES.5.6.3 Nachverfolgbarkeit der Lieferkette](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.6.3%20Nachverfolgbarkeit%20der%20Lieferkette.md)
+> > > > - [BES.5.7 Schulung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.7%20Schulung.md)
+> > > > - [BES.5.8 Rechte für geistges Eigentum](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.8%20Rechte%20für%20geistges%20Eigentum.md)
+> > > > - [BES.5.9 Umgang mit Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.9%20Umgang%20mit%20Änderungen.md)
+> > > > > - [BES.5.9.1 Autorisierung von Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.9.1%20Autorisierung%20von%20Änderungen.md)
+> > > > - [BES.5.10 Behandlung von Vorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10%20Behandlung%20von%20Vorfällen.md)
+> > > > > - [BES.5.10.1 Erreichbarkeit über Meldewege](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.1%20Erreichbarkeit%20über%20Meldewege.md)
+> > > > > - [BES.5.10.2 Melden von Vorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.2%20Melden%20von%20Vorfällen.md)
+> > > > > - [BES.5.10.3 Schwachstellenbehebung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.3%20Schwachstellenbehebung.md)
+> > > > > > - [BES.5.10.3.1 Schwachstellenmeldeprozess](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.3.1%20Schwachstellenmeldeprozess.md)
+> > > > > - [BES.5.10.4 Konfliktlösungsprozesse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.4%20Konfliktlösungsprozesse.md)
+> > > > > - [BES.5.10.5 Konsequenzen bei Verstößen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.5%20Konsequenzen%20bei%20Verstößen.md)
+> > > > - [BES.5.11 Recht auf Audit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.11%20Recht%20auf%20Audit.md)
+> > > > - [BES.5.12 Informationspflichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.12%20Informationspflichten.md)
+> > > > - [BES.5.13 Bereitstellung von Datensicherungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.13%20Bereitstellung%20von%20Datensicherungen.md)
+> > > > > - [BES.5.13.1 Datenbereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.13.1%20Datenbereitstellung.md)
+> > > > - [BES.5.14 Löschregeln](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.14%20Löschregeln.md)
+> > 
+> > > [!example]+ [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
+> > > > [!example]- Controls:
+> > > > - [BES.6.1 Entziehung der Zugangsberechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.1%20Entziehung%20der%20Zugangsberechtigungen.md)
+> > > > - [BES.6.2 Löschung von Daten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.2%20Löschung%20von%20Daten.md)
+> > > > > - [BES.6.2.1 Löschverfahren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.2.1%20Löschverfahren.md)
+> > > > - [BES.6.3 Übertragbarkeit von Daten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.3%20Übertragbarkeit%20von%20Daten.md)
+> > > > - [BES.6.4 Übertragung von Supportdienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.4%20Übertragung%20von%20Supportdienstleistungen.md)
+> > > > - [BES.6.5 Behandlung aufzubewahrender Aufzeichnungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.5%20Behandlung%20aufzubewahrender%20Aufzeichnungen.md)
+> > > > - [BES.6.6 Rückgewähr von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.6.6%20Rückgewähr%20von%20Assets.md)
+> > 
+> > > [!example]+ [BES.7 Abnahme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.7%20Abnahme.md)
+> > > > [!example]- Controls:
+> > > > - [BES.7.1 Eingangskontrolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.1%20Eingangskontrolle.md)
+> > > > > - [BES.7.1.1 Test der Kompatibilität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.1.1%20Test%20der%20Kompatibilität.md)
+> > > > > - [BES.7.1.2 Netzcheck](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.1.2%20Netzcheck.md)
+> > > > - [BES.7.2 Prozesse vor Netzanbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.2%20Prozesse%20vor%20Netzanbindung.md)
+> > > > - [BES.7.3 Anhörung Prozessbeteiligter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.3%20Anhörung%20Prozessbeteiligter.md)
+> > > > - [BES.7.4 Vollständigkeit der Unterlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4%20Vollständigkeit%20der%20Unterlagen.md)
+> > > > > - [BES.7.4.1 Beschreibung der Sicherheitsarchitektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.1%20Beschreibung%20der%20Sicherheitsarchitektur.md)
+> > > > > - [BES.7.4.2 Beschreibung von Sicherheitsmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.2%20Beschreibung%20von%20Sicherheitsmechanismen.md)
+> > > > > - [BES.7.4.3 Empfohlene Konfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.3%20Empfohlene%20Konfiguration.md)
+> > > > > - [BES.7.4.4 Dokumentation der Komponenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.4%20Dokumentation%20der%20Komponenten.md)
+> > > > > > - [BES.7.4.4.1 Software Bill of Materials (SBOM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.4.1%20Software%20Bill%20of%20Materials%20(SBOM).md)
+> > > > > - [BES.7.4.5 Netzverbindungen ab Werk](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.5%20Netzverbindungen%20ab%20Werk.md)
+> > > > > - [BES.7.4.6 Shared Responsibility](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.6%20Shared%20Responsibility.md)
+> > > > > - [BES.7.4.7 Organisatorische Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.7%20Organisatorische%20Schnittstellen.md)
+> > > > > - [BES.7.4.8 Technische Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.8%20Technische%20Schnittstellen.md)
+> > > > > - [BES.7.4.9 Auslagerungsregister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.9%20Auslagerungsregister.md)
+> > > > > - [BES.7.4.10 Serviceprofil](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.10%20Serviceprofil.md)
+> > > > > - [BES.7.4.11 Dokumentierte Mandantentrennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.11%20Dokumentierte%20Mandantentrennung.md)
+> > > > > - [BES.7.4.12 Software Bill of Materials (SBOM) - Cloud](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.7.4.12%20Software%20Bill%20of%20Materials%20(SBOM)%20-%20Cloud.md)
+> > 
+> > > [!example]+ [BES.8 Kompensierende Kontrollmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md)
+> > > > [!example]- Controls:
+> > > > - [BES.8.1 Bereithaltung alternativer Lieferanten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.8.1%20Bereithaltung%20alternativer%20Lieferanten.md)
+> > > > - [BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.8.2%20Verfahren%20zur%20Übertragung%20von%20Geschäftsprozessen.md)
+> > > > - [BES.8.3 Ressourcensouveränität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.8.3%20Ressourcensouveränität.md)
+> > > > - [BES.8.4 Individuelle Implementierung kritischer Komponenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.8.4%20Individuelle%20Implementierung%20kritischer%20Komponenten.md)
+> > > > - [BES.8.5 Treuhand](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.8.5%20Treuhand.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [DET Detektion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)
+> > > [!example]+ [DET.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [DET.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [DET.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.1.1.1%20Dokumentation.md)
+> > > > > - [DET.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [DET.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.1.1.3%20Bekanntgabe.md)
+> > > > - [DET.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [DET.2 Meldung von Ereignissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.2%20Meldung%20von%20Ereignissen.md)
+> > > > [!example]- Controls:
+> > > > - [DET.2.1 Meldeverfahren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.2.1%20Meldeverfahren.md)
+> > > > > - [DET.2.1.1 Sofortmaßnahmen Nutzender](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.2.1.1%20Sofortmaßnahmen%20Nutzender.md)
+> > > > > - [DET.2.1.2 Meldeformulare](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.2.1.2%20Meldeformulare.md)
+> > > > > - [DET.2.1.3 Rückmeldungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.2.1.3%20Rückmeldungen.md)
+> > > > - [DET.2.2 Security Operations Center](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.2.2%20Security%20Operations%20Center.md)
+> > > > - [DET.2.3 Ständiger Bereitschaftsdienst](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.2.3%20Ständiger%20Bereitschaftsdienst.md)
+> > 
+> > > [!example]+ [DET.3 Protokollierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.3%20Protokollierung.md)
+> > > > [!example]- Controls:
+> > > > - [DET.3.1 Protokollierung sicherheitsrelevanter Ereignisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1%20Protokollierung%20sicherheitsrelevanter%20Ereignisse.md)
+> > > > > - [DET.3.1.1 Authentifizierungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.1%20Authentifizierungen.md)
+> > > > > - [DET.3.1.2 Ausgeführte Kommandozeilenbefehle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.2%20Ausgeführte%20Kommandozeilenbefehle.md)
+> > > > > - [DET.3.1.3 Anbindung von Peripheriegeräten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.3%20Anbindung%20von%20Peripheriegeräten.md)
+> > > > > - [DET.3.1.4 Systemfehler](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.4%20Systemfehler.md)
+> > > > > - [DET.3.1.5 Störungen der Netzerreichbarkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.5%20Störungen%20der%20Netzerreichbarkeit.md)
+> > > > > - [DET.3.1.6 Systemspezifische Ereignisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.6%20Systemspezifische%20Ereignisse.md)
+> > > > > - [DET.3.1.7 Was, Wann, Wo](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.7%20Was,%20Wann,%20Wo.md)
+> > > > > - [DET.3.1.8 Privilegierte Ereignisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.8%20Privilegierte%20Ereignisse.md)
+> > > > > - [DET.3.1.9 Fehler der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.9%20Fehler%20der%20Anwendung.md)
+> > > > > - [DET.3.1.10 Nutzungsstatistik](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.10%20Nutzungsstatistik.md)
+> > > > > - [DET.3.1.11 Anwendungsspezifische Ereignisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.11%20Anwendungsspezifische%20Ereignisse.md)
+> > > > > - [DET.3.1.12 Datenverarbeitungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.12%20Datenverarbeitungen.md)
+> > > > > - [DET.3.1.13 Integration von Cloud-Diensten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.1.13%20Integration%20von%20Cloud-Diensten.md)
+> > > > - [DET.3.2 Filterung nicht benötigter Inhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.2%20Filterung%20nicht%20benötigter%20Inhalte.md)
+> > > > - [DET.3.3 Speicherkapazität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.3%20Speicherkapazität.md)
+> > > > - [DET.3.4 Revisionssicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.4%20Revisionssicherheit.md)
+> > > > - [DET.3.5 Unbestreitbarkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.3.5%20Unbestreitbarkeit.md)
+> > 
+> > > [!example]+ [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
+> > > > [!example]- Controls:
+> > > > - [DET.4.1 Überwachung der Protokollierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.1%20Überwachung%20der%20Protokollierung.md)
+> > > > - [DET.4.2 Automatische Angriffserkennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.2%20Automatische%20Angriffserkennung.md)
+> > > > - [DET.4.3 Überwachung der Angriffserkennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.3%20Überwachung%20der%20Angriffserkennung.md)
+> > > > - [DET.4.4 Änderungen an Sicherheitsrichtlinien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.4%20Änderungen%20an%20Sicherheitsrichtlinien.md)
+> > > > - [DET.4.5 Unerwünschte Datenabflüsse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.5%20Unerwünschte%20Datenabflüsse.md)
+> > > > - [DET.4.6 Anomale Nutzung der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.6%20Anomale%20Nutzung%20der%20Anwendung.md)
+> > > > > - [DET.4.6.1 Verhaltensanalyse von Zugangskonten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.6.1%20Verhaltensanalyse%20von%20Zugangskonten.md)
+> > > > - [DET.4.7 Auslaufen von Domains](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.7%20Auslaufen%20von%20Domains.md)
+> > > > - [DET.4.8 Ausstellung neuer HTTPS-Zertifikate](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.8%20Ausstellung%20neuer%20HTTPS-Zertifikate.md)
+> > > > - [DET.4.9 Manipulations-Checkup](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.9%20Manipulations-Checkup.md)
+> > > > - [DET.4.10 Host-basierte Köder](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.10%20Host-basierte%20Köder.md)
+> > > > - [DET.4.11 Anomalien in Netzen und am Perimeter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
+> > > > > - [DET.4.11.1 Authentifizierungsversuche an externen Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.11.1%20Authentifizierungsversuche%20an%20externen%20Schnittstellen.md)
+> > > > > - [DET.4.11.2 Netzwerk-Honeypots](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.11.2%20Netzwerk-Honeypots.md)
+> > > > > - [DET.4.11.3 Netzverkehrsfluss](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.11.3%20Netzverkehrsfluss.md)
+> > > > - [DET.4.12 Monitoring der Netzverfügbarkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.12%20Monitoring%20der%20Netzverfügbarkeit.md)
+> > > > > - [DET.4.12.1 Auslastung des Netzes](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.12.1%20Auslastung%20des%20Netzes.md)
+> > > > - [DET.4.13 Verfügbarkeit des Hostsystems](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.13%20Verfügbarkeit%20des%20Hostsystems.md)
+> > > > - [DET.4.14 Verfügbarkeit der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.14%20Verfügbarkeit%20der%20Anwendung.md)
+> > > > - [DET.4.15 Ressourcenauslastung von Hostsystemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.15%20Ressourcenauslastung%20von%20Hostsystemen.md)
+> > > > - [DET.4.16 Ressourcenauslastung der Server-Dienste](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.16%20Ressourcenauslastung%20der%20Server-Dienste.md)
+> > > > - [DET.4.17 Anwendungsbasiertes Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.17%20Anwendungsbasiertes%20Kapazitätsmanagement.md)
+> > > > - [DET.4.18 Öffentliche Blocklisten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.18%20Öffentliche%20Blocklisten.md)
+> > > > - [DET.4.19 Unautorisierte Sendeanlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.4.19%20Unautorisierte%20Sendeanlagen.md)
+> > 
+> > > [!example]+ [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md)
+> > > > [!example]- Controls:
+> > > > - [DET.5.1 Zeitnahes Schwachstellenmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.1%20Zeitnahes%20Schwachstellenmanagement.md)
+> > > > > - [DET.5.1.1 Risikobasierte Priorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.1.1%20Risikobasierte%20Priorisierung.md)
+> > > > - [DET.5.2 Schwachstellenregister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.2%20Schwachstellenregister.md)
+> > > > - [DET.5.3 Schwachstellenscans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3%20Schwachstellenscans.md)
+> > > > > - [DET.5.3.1 Autorisierung kritischer Scans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3.1%20Autorisierung%20kritischer%20Scans.md)
+> > > > > - [DET.5.3.2 Korrelation komplexer Angriffswege](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3.2%20Korrelation%20komplexer%20Angriffswege.md)
+> > > > > - [DET.5.3.3 Historische Analyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.3.3%20Historische%20Analyse.md)
+> > > > - [DET.5.4 Regelmäßige Penetrationstests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.4%20Regelmäßige%20Penetrationstests.md)
+> > > > - [DET.5.5 Red Teaming](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.5%20Red%20Teaming.md)
+> > > > - [DET.5.6 Threat Hunting](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.6%20Threat%20Hunting.md)
+> > > > - [DET.5.7 Analyse verdeckter Kanäle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.7%20Analyse%20verdeckter%20Kanäle.md)
+> > > > - [DET.5.8 Bedrohungsanalyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.8%20Bedrohungsanalyse.md)
+> > > > > - [DET.5.8.1 Auswertung öffentlicher Quellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.8.1%20Auswertung%20öffentlicher%20Quellen.md)
+> > > > > > - [DET.5.8.1.1 Unautorisierte Publikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.8.1.1%20Unautorisierte%20Publikation.md)
+> > > > - [DET.5.9 Externe Schwachstellenmeldungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.9%20Externe%20Schwachstellenmeldungen.md)
+> > > > > - [DET.5.9.1 Bonusprogramm](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.9.1%20Bonusprogramm.md)
+> > > > - [DET.5.10 Zeitnahes Patchmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.10%20Zeitnahes%20Patchmanagement.md)
+> > > > > - [DET.5.10.1 Autorisierte Bezugsquellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.10.1%20Autorisierte%20Bezugsquellen.md)
+> > > > > - [DET.5.10.2 Automatisierte Überwachung von Systemupdates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.10.2%20Automatisierte%20Überwachung%20von%20Systemupdates.md)
+> > > > > - [DET.5.10.3 Automatisierte Überwachung von Anwendungsupdates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.10.3%20Automatisierte%20Überwachung%20von%20Anwendungsupdates.md)
+> > > > > - [DET.5.10.4 Integritätsprüfung von Patches](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.10.4%20Integritätsprüfung%20von%20Patches.md)
+> > > > > - [DET.5.10.5 Test gemäß Änderungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.10.5%20Test%20gemäß%20Änderungsmanagement.md)
+> > 
+> > > [!example]+ [DET.6 Vorfallserkennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.6%20Vorfallserkennung.md)
+> > > > [!example]- Controls:
+> > > > - [DET.6.1 Beurteilung von Ereignissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.1%20Beurteilung%20von%20Ereignissen.md)
+> > > > > - [DET.6.1.1 Automatisierte Feststellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.1.1%20Automatisierte%20Feststellung.md)
+> > > > > - [DET.6.1.2 Automatische Alarmierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.1.2%20Automatische%20Alarmierung.md)
+> > > > > - [DET.6.1.3 Dokumentation von Ergebnissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.1.3%20Dokumentation%20von%20Ergebnissen.md)
+> > > > - [DET.6.2 Beurteilung  von Eingängen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.2%20Beurteilung%20von%20Eingängen.md)
+> > > > > - [DET.6.2.1 Dynamische Sandbox-Analyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.2.1%20Dynamische%20Sandbox-Analyse.md)
+> > > > > - [DET.6.2.2 Datenträgerschleuse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.6.2.2%20Datenträgerschleuse.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [DLS Dienstleistersteuerung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS%20Dienstleistersteuerung.md)
+> > > [!example]+ [DLS.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [DLS.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [DLS.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.1.1.1%20Dokumentation.md)
+> > > > > - [DLS.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [DLS.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.1.1.3%20Bekanntgabe.md)
+> > > > - [DLS.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [DLS.2 Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md)
+> > > > [!example]- Controls:
+> > > > - [DLS.2.1 Mehr-Faktor-Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.2.1%20Mehr-Faktor-Authentifizierung.md)
+> > > > - [DLS.2.2 Transportverschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.2.2%20Transportverschlüsselung.md)
+> > > > - [DLS.2.3 Vollverschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.2.3%20Vollverschlüsselung.md)
+> > 
+> > > [!example]+ [DLS.3 Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md)
+> > > > [!example]- Controls:
+> > > > - [DLS.3.1 Einhaltung der Sicherheitsvorgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.1%20Einhaltung%20der%20Sicherheitsvorgaben.md)
+> > > > > - [DLS.3.1.1 Audit oder Zertifikat](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.1.1%20Audit%20oder%20Zertifikat.md)
+> > > > - [DLS.3.2 Checkup](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.2%20Checkup.md)
+> > > > - [DLS.3.3 Strategie-Check](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.3%20Strategie-Check.md)
+> > > > - [DLS.3.4 Anhörung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.4%20Anhörung.md)
+> > > > - [DLS.3.5 Blockierung unzuverlässiger Dienstleister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.5%20Blockierung%20unzuverlässiger%20Dienstleister.md)
+> > > > - [DLS.3.6 Portabilität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.6%20Portabilität.md)
+> > 
+> > > [!example]+ [DLS.4 Dekommissionierung von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.4%20Dekommissionierung%20von%20Dienstleistern.md)
+> > > > [!example]- Controls:
+> > > > - [DLS.4.1 Dekomissionierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.4.1%20Dekomissionierung.md)
+> > > > > - [DLS.4.1.1 Unabhängigkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.4.1.1%20Unabhängigkeit.md)
+> > > > > - [DLS.4.1.2 Berechtigungen deaktivieren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.4.1.2%20Berechtigungen%20deaktivieren.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [DEV Entwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)
+> > > [!example]+ [DEV.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [DEV.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1.1%20Dokumentation.md)
+> > > > > - [DEV.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [DEV.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1.3%20Bekanntgabe.md)
+> > > > - [DEV.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.2.1 Security by Design Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.1%20Security%20by%20Design%20Architektur.md)
+> > > > - [DEV.2.2 Dokumentation der (Software-)Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.2%20Dokumentation%20der%20(Software-)Architektur.md)
+> > > > - [DEV.2.3 Ausführbarkeit mit minimalen Rechten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.3%20Ausführbarkeit%20mit%20minimalen%20Rechten.md)
+> > > > - [DEV.2.4 Einschränkung Zugriffs auf Quellcode](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.4%20Einschränkung%20Zugriffs%20auf%20Quellcode.md)
+> > > > - [DEV.2.5 Einschränkung des Zugriffs auf Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.5%20Einschränkung%20des%20Zugriffs%20auf%20Zugangsdaten.md)
+> > > > - [DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.6%20Widerstandsfähigkeit%20gegen%20gängige%20Angriffsmuster.md)
+> > > > > - [DEV.2.6.1 Eingabevalidierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.6.1%20Eingabevalidierung.md)
+> > > > > - [DEV.2.6.2 Ausgabekodierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.2.6.2%20Ausgabekodierung.md)
+> > 
+> > > [!example]+ [DEV.3 Softwareentwicklung - Härtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.3.1 Replay-Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.3.1%20Replay-Angriffe.md)
+> > > > - [DEV.3.2 Routinen zur Fehlerbehandlung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.3.2%20Routinen%20zur%20Fehlerbehandlung.md)
+> > > > - [DEV.3.3 Deaktivierung der Ausgabe schützenswerter Daten durch Fehlermeldungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.3.3%20Deaktivierung%20der%20Ausgabe%20schützenswerter%20Daten%20durch%20Fehlermeldungen.md)
+> > > > - [DEV.3.4 Passwort-Hashing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.3.4%20Passwort-Hashing.md)
+> > 
+> > > [!example]+ [DEV.4 Softwareentwicklung - Code](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.4%20Softwareentwicklung%20-%20Code.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.4.1 Nutzerinformation bei kritischen Ereignissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.1%20Nutzerinformation%20bei%20kritischen%20Ereignissen.md)
+> > > > - [DEV.4.2 Bibliotheksquellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.2%20Bibliotheksquellen.md)
+> > > > - [DEV.4.3 Softwarebestandteile (SBOM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.3%20Softwarebestandteile%20(SBOM).md)
+> > > > - [DEV.4.4 Integrität externer Softwarebibliotheken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.4%20Integrität%20externer%20Softwarebibliotheken.md)
+> > > > - [DEV.4.5 Updates externer Softwarebibliotheken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.5%20Updates%20externer%20Softwarebibliotheken.md)
+> > > > - [DEV.4.6 Compileroptionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.6%20Compileroptionen.md)
+> > > > - [DEV.4.7 Deterministischer Binärcode](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.7%20Deterministischer%20Binärcode.md)
+> > > > - [DEV.4.8 Default-Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.8%20Default-Zugangsdaten.md)
+> > > > - [DEV.4.9 Voreinstellungen nach dem Prinzip "Security by Default"](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.9%20Voreinstellungen%20nach%20dem%20Prinzip%20Security%20by%20Default%20.md)
+> > > > - [DEV.4.10 Protokollierung von Codeänderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.10%20Protokollierung%20von%20Codeänderungen.md)
+> > > > - [DEV.4.11 Test bei Änderungen am Quellcode](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.4.11%20Test%20bei%20Änderungen%20am%20Quellcode.md)
+> > 
+> > > [!example]+ [DEV.5 Softwareentwicklung - Updates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.5%20Softwareentwicklung%20-%20Updates.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.5.1 Verankerung des Zeitraums für Updates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.5.1%20Verankerung%20des%20Zeitraums%20für%20Updates.md)
+> > > > - [DEV.5.2 Information über Zeitraum für Updates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.5.2%20Information%20über%20Zeitraum%20für%20Updates.md)
+> > > > - [DEV.5.3 Integritätsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.5.3%20Integritätsprüfung.md)
+> > 
+> > > [!example]+ [DEV.6 Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.6%20Freigabe.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.6.1 Freigabe nach Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.6.1%20Freigabe%20nach%20Änderungen%20und%20Tests.md)
+> > 
+> > > [!example]+ [DEV.7 Bereitstellung und Betrieb](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.7%20Bereitstellung%20und%20Betrieb.md)
+> > > > [!example]- Controls:
+> > > > - [DEV.7.1 Sichere Bereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.7.1%20Sichere%20Bereitstellung.md)
+> > > > - [DEV.7.2 Zertifikatsmonitoring](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.7.2%20Zertifikatsmonitoring.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [GEB Gebäudemanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)
+> > > [!example]+ [GEB.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [GEB.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.1.1%20Dokumentation.md)
+> > > > > - [GEB.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [GEB.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.1.3%20Bekanntgabe.md)
+> > > > - [GEB.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.2%20Regelmäßige%20Überprüfung.md)
+> > > > - [GEB.1.3 Autorisierung von Standorten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.3%20Autorisierung%20von%20Standorten.md)
+> > > > > - [GEB.1.3.1 Abnahme von Standorten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.3.1%20Abnahme%20von%20Standorten.md)
+> > > > - [GEB.1.4 Exponierte Bereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.4%20Exponierte%20Bereiche.md)
+> > > > - [GEB.1.5 Strukturpläne](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.1.5%20Strukturpläne.md)
+> > 
+> > > [!example]+ [GEB.2 Physischer Perimeter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.2%20Physischer%20Perimeter.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.2.1 Installation von Perimetern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.2.1%20Installation%20von%20Perimetern.md)
+> > > > - [GEB.2.2 Dokumentation öffentlicher Bereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.2.2%20Dokumentation%20öffentlicher%20Bereiche.md)
+> > > > - [GEB.2.3 Erkundung aus dem öffentlichen Raum](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.2.3%20Erkundung%20aus%20dem%20öffentlichen%20Raum.md)
+> > > > - [GEB.2.4 Elektromagnetische Abschirmung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.2.4%20Elektromagnetische%20Abschirmung.md)
+> > 
+> > > [!example]+ [GEB.3 Physischer Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.3%20Physischer%20Zutritt.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.3.1 Überwachung von Zutrittspunkten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.1%20Überwachung%20von%20Zutrittspunkten.md)
+> > > > > - [GEB.3.1.1 Videoüberwachung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.1.1%20Videoüberwachung.md)
+> > > > > - [GEB.3.1.2 Überprüfung mitgeführter Gegenstände](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.1.2%20Überprüfung%20mitgeführter%20Gegenstände.md)
+> > > > - [GEB.3.2 Anmelde- und Empfangsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.2%20Anmelde-%20und%20Empfangsbereiche.md)
+> > > > - [GEB.3.3 Authentifizierung vor Zutritt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.3%20Authentifizierung%20vor%20Zutritt.md)
+> > > > > - [GEB.3.3.1 Zugangskontrollanlage](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.3.1%20Zugangskontrollanlage.md)
+> > > > > - [GEB.3.3.2 Dokumentation von Zutritten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.3.2%20Dokumentation%20von%20Zutritten.md)
+> > > > > - [GEB.3.3.3 Besucheranmeldung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.3.3%20Besucheranmeldung.md)
+> > > > - [GEB.3.4 Berechtigungsmarkierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.4%20Berechtigungsmarkierung.md)
+> > > > - [GEB.3.5 Einbruchhemmung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.5%20Einbruchhemmung.md)
+> > > > - [GEB.3.6 Einbruchmeldeanlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.6%20Einbruchmeldeanlagen.md)
+> > > > - [GEB.3.7 Kontrolle der Zutrittskontrolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.3.7%20Kontrolle%20der%20Zutrittskontrolle.md)
+> > 
+> > > [!example]+ [GEB.4 Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.4%20Sicherheitsbereiche.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.4.1 Einrichtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.4.1%20Einrichtung.md)
+> > > > - [GEB.4.2 Gesonderte Autorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.4.2%20Gesonderte%20Autorisierung.md)
+> > > > - [GEB.4.3 Schleusen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.4.3%20Schleusen.md)
+> > > > - [GEB.4.4 Vereinzelungsanlage](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.4.4%20Vereinzelungsanlage.md)
+> > 
+> > > [!example]+ [GEB.5 Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.5%20Gemeinsame%20Arbeitsbereiche.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.5.1 Clean Desk](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.5.1%20Clean%20Desk.md)
+> > > > - [GEB.5.2 Screen Lock](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.5.2%20Screen%20Lock.md)
+> > > > - [GEB.5.3 Lieferzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.5.3%20Lieferzugang.md)
+> > > > - [GEB.5.4 Schutz gegen Manipulation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.5.4%20Schutz%20gegen%20Manipulation.md)
+> > > > - [GEB.5.5 Physische Mikrosegmentierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.5.5%20Physische%20Mikrosegmentierung.md)
+> > 
+> > > [!example]+ [GEB.6 Platzierung von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.6%20Platzierung%20von%20Assets.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.6.1 Zugang zu Ausgabesystemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.6.1%20Zugang%20zu%20Ausgabesystemen.md)
+> > > > - [GEB.6.2 Geschützte Aufstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.6.2%20Geschützte%20Aufstellung.md)
+> > > > > - [GEB.6.2.1 Hostsysteme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.6.2.1%20Hostsysteme.md)
+> > > > - [GEB.6.3 Netzkomponenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.6.3%20Netzkomponenten.md)
+> > > > - [GEB.6.4 Normgerechte Rechenzentren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.6.4%20Normgerechte%20Rechenzentren.md)
+> > 
+> > > [!example]+ [GEB.7 Schlüsselverwaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.7%20Schlüsselverwaltung.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.7.1 Schlüsselbeauftragte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.7.1%20Schlüsselbeauftragte.md)
+> > > > - [GEB.7.2 Verwahrung von Schlüsseln](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.7.2%20Verwahrung%20von%20Schlüsseln.md)
+> > > > - [GEB.7.3 Schlüsselaudit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.7.3%20Schlüsselaudit.md)
+> > 
+> > > [!example]+ [GEB.8 Verwahrung von Speichermedien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.8%20Verwahrung%20von%20Speichermedien.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.8.1 Gesonderte Aufbewahrung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.8.1%20Gesonderte%20Aufbewahrung.md)
+> > > > > - [GEB.8.1.1 Archiv](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.8.1.1%20Archiv.md)
+> > > > - [GEB.8.2 Staub und Schmutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.8.2%20Staub%20und%20Schmutz.md)
+> > > > - [GEB.8.3 Schutz der Datenträger vor Brandschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.8.3%20Schutz%20der%20Datenträger%20vor%20Brandschäden.md)
+> > > > - [GEB.8.4 Überwachung schonender Klimatisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.8.4%20Überwachung%20schonender%20Klimatisierung.md)
+> > 
+> > > [!example]+ [GEB.9 Versorgungseinrichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.9%20Versorgungseinrichtungen.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.9.1 Normgerechte Stromversorgung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1%20Normgerechte%20Stromversorgung.md)
+> > > > > - [GEB.9.1.1 Vorausschauende Lastanalyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.1%20Vorausschauende%20Lastanalyse.md)
+> > > > > - [GEB.9.1.2 Dedizierte Elektrounterverteilung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.2%20Dedizierte%20Elektrounterverteilung.md)
+> > > > > - [GEB.9.1.3 Redundante Stromversorgung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.3%20Redundante%20Stromversorgung.md)
+> > > > > - [GEB.9.1.4 Langanhaltende Sekundärversorgung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.1.4%20Langanhaltende%20Sekundärversorgung.md)
+> > > > - [GEB.9.2 Lasttest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.2%20Lasttest.md)
+> > > > - [GEB.9.3 Notaus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.3%20Notaus.md)
+> > > > - [GEB.9.4 Überspannungsschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.4%20Überspannungsschutz.md)
+> > > > - [GEB.9.5 Strukturierte Datenverkabelung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.5%20Strukturierte%20Datenverkabelung.md)
+> > > > > - [GEB.9.5.1 Physisch geschützte Verlegung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.5.1%20Physisch%20geschützte%20Verlegung.md)
+> > > > - [GEB.9.6 Zugang zu Räumen für technische Infrastruktur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.6%20Zugang%20zu%20Räumen%20für%20technische%20Infrastruktur.md)
+> > > > - [GEB.9.7 Zweckentfremdung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.9.7%20Zweckentfremdung.md)
+> > 
+> > > [!example]+ [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md)
+> > > > [!example]- Controls:
+> > > > - [GEB.10.1 Klimatisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.1%20Klimatisierung.md)
+> > > > > - [GEB.10.1.1 Luftstrom-Analyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.1.1%20Luftstrom-Analyse.md)
+> > > > > - [GEB.10.1.2 Klimamessung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.1.2%20Klimamessung.md)
+> > > > > - [GEB.10.1.3 Redundante Klimatisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.1.3%20Redundante%20Klimatisierung.md)
+> > > > - [GEB.10.2 Brandschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2%20Brandschutz.md)
+> > > > > - [GEB.10.2.1 Baulicher Brandschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.1%20Baulicher%20Brandschutz.md)
+> > > > > - [GEB.10.2.2 Brandabschnitte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.2%20Brandabschnitte.md)
+> > > > > - [GEB.10.2.3 Rauchdichtheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.3%20Rauchdichtheit.md)
+> > > > > - [GEB.10.2.4 Brandwiderstandsklassen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.4%20Brandwiderstandsklassen.md)
+> > > > > - [GEB.10.2.5 Vermeidung von Brandlasten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.5%20Vermeidung%20von%20Brandlasten.md)
+> > > > > - [GEB.10.2.6 Brandmeldeanlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.6%20Brandmeldeanlagen.md)
+> > > > > - [GEB.10.2.7 Brandunterdrückung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.7%20Brandunterdrückung.md)
+> > > > > - [GEB.10.2.8 Brandschutzprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2.8%20Brandschutzprüfung.md)
+> > > > - [GEB.10.3 Wasserschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.3%20Wasserschutz.md)
+> > > > > - [GEB.10.3.1 Doppelter baulicher Wasserschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.3.1%20Doppelter%20baulicher%20Wasserschutz.md)
+> > > > > - [GEB.10.3.2 Leckagesensor](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.3.2%20Leckagesensor.md)
+> > > > - [GEB.10.4 Blitzschutzeinrichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.4%20Blitzschutzeinrichtungen.md)
+> > > > > - [GEB.10.4.1 Niederohmigkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.4.1%20Niederohmigkeit.md)
+> > > > - [GEB.10.5 Ableitfähiger Fußbodenbelag](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.5%20Ableitfähiger%20Fußbodenbelag.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
+> > > [!example]+ [GC.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [GC.1.1 Errichtung und Aufrechterhaltung eines ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.1.1%20Errichtung%20und%20Aufrechterhaltung%20eines%20ISMS.md)
+> > 
+> > > [!example]+ [GC.2 Festlegung des Kontextes der Institution](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.2%20Festlegung%20des%20Kontextes%20der%20Institution.md)
+> > > > [!example]- Controls:
+> > > > - [GC.2.1 Festlegung des externen Kontextes der Institution](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.2.1%20Festlegung%20des%20externen%20Kontextes%20der%20Institution.md)
+> > > > - [GC.2.2 Festlegung des internen Kontextes der Institution](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.2.2%20Festlegung%20des%20internen%20Kontextes%20der%20Institution.md)
+> > 
+> > > [!example]+ [GC.3 Analyse der interessierten Parteien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.3%20Analyse%20der%20interessierten%20Parteien.md)
+> > > > [!example]- Controls:
+> > > > - [GC.3.1 Analyse der externen interessierten Parteien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.3.1%20Analyse%20der%20externen%20interessierten%20Parteien.md)
+> > > > - [GC.3.2 Analyse der internen interessierten Parteien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.3.2%20Analyse%20der%20internen%20interessierten%20Parteien.md)
+> > 
+> > > [!example]+ [GC.4 Festlegung des Geltungsbereichs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.4%20Festlegung%20des%20Geltungsbereichs.md)
+> > > > [!example]- Controls:
+> > > > - [GC.4.1 Festlegung des Geltungsbereichs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.4.1%20Festlegung%20des%20Geltungsbereichs.md)
+> > 
+> > > [!example]+ [GC.5 Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md)
+> > > > [!example]- Controls:
+> > > > - [GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.5.1%20Vorgehen%20bei%20der%20Infomationssicherheitseinstufung.md)
+> > > > > - [GC.5.1.1 Festlegung der Geschäftsprozesse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.5.1.1%20Festlegung%20der%20Geschäftsprozesse.md)
+> > > > > - [GC.5.1.2 Festlegung des Schutzbedarfs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.5.1.2%20Festlegung%20des%20Schutzbedarfs.md)
+> > > > > - [GC.5.1.3 Geschäftsprozesse mit hohem Schutzbedarf](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.5.1.3%20Geschäftsprozesse%20mit%20hohem%20Schutzbedarf.md)
+> > 
+> > > [!example]+ [GC.6 Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md)
+> > > > [!example]- Controls:
+> > > > - [GC.6.1 Festlegung von Zielen für die Informationssicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1%20Festlegung%20von%20Zielen%20für%20die%20Informationssicherheit.md)
+> > > > > - [GC.6.1.1 Festlegung einer Sicherheitsstrategie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1.1%20Festlegung%20einer%20Sicherheitsstrategie.md)
+> > > > > - [GC.6.1.2 Verpflichtung der Institutionsleitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1.2%20Verpflichtung%20der%20Institutionsleitung.md)
+> > > > > - [GC.6.1.3 Erstellung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1.3%20Erstellung%20einer%20Sicherheitsleitlinie.md)
+> > > > > - [GC.6.1.4 Freigabe der Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1.4%20Freigabe%20der%20Sicherheitsleitlinie.md)
+> > 
+> > > [!example]+ [GC.7 Implementierung des Compliance-Managements](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md)
+> > > > [!example]- Controls:
+> > > > - [GC.7.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.7.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [GC.7.1.1 Gesetzliche Verpflichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.7.1.1%20Gesetzliche%20Verpflichtungen.md)
+> > > > > - [GC.7.1.2 Anhörung zuständiger Stellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.7.1.2%20Anhörung%20zuständiger%20Stellen.md)
+> > > > > - [GC.7.1.3 Vertragliche Verpflichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.7.1.3%20Vertragliche%20Verpflichtungen.md)
+> > > > > - [GC.7.1.4 Prävention von Verstößen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.7.1.4%20Prävention%20von%20Verstößen.md)
+> > 
+> > > [!example]+ [GC.8 Sicherheitsorganisation und Rollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md)
+> > > > [!example]- Controls:
+> > > > - [GC.8.1 Verfahren zur Ressourcenplanung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1%20Verfahren%20zur%20Ressourcenplanung.md)
+> > > > > - [GC.8.1.1 Festlegung von Rollen und Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.1%20Festlegung%20von%20Rollen%20und%20Zuständigkeiten.md)
+> > > > > > - [GC.8.1.1.1 Informationssicherheitsbeauftragter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.1.1%20Informationssicherheitsbeauftragter.md)
+> > > > > > > - [GC.8.1.1.1.1 Vorspracherecht des Informationssicherheitsbeauftragten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.1.1.1%20Vorspracherecht%20des%20Informationssicherheitsbeauftragten.md)
+> > > > > - [GC.8.1.2 Stellvertreterregelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.2%20Stellvertreterregelungen.md)
+> > > > > - [GC.8.1.3 Vermeidung von Interessenkonflikten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.3%20Vermeidung%20von%20Interessenkonflikten.md)
+> > > > > - [GC.8.1.4 Festlegung einer Sicherheitsorganisation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.4%20Festlegung%20einer%20Sicherheitsorganisation.md)
+> > > > > - [GC.8.1.5 Sicherstellung der Qualifikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.5%20Sicherstellung%20der%20Qualifikation.md)
+> > > > > - [GC.8.1.6 Ressourcen für den Informationssicherheitsbeauftragten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.8.1.6%20Ressourcen%20für%20den%20Informationssicherheitsbeauftragten.md)
+> > 
+> > > [!example]+ [GC.9 Dokumentation und Kommunikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.9%20Dokumentation%20und%20Kommunikation.md)
+> > > > [!example]- Controls:
+> > > > - [GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.9.1%20Festlegung%20eines%20Verfahrens%20zum%20Kommunikationsmanagement.md)
+> > > > > - [GC.9.1.1 Externer Austausch zur Informationssicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.9.1.1%20Externer%20Austausch%20zur%20Informationssicherheit.md)
+> > > > > - [GC.9.1.2 Kommunikation im Projektmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.9.1.2%20Kommunikation%20im%20Projektmanagement.md)
+> > > > > - [GC.9.1.3 Dokumentenlenkung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.9.1.3%20Dokumentenlenkung.md)
+> > 
+> > > [!example]+ [GC.10 Festlegung und Freigabe der Vorgehensweise](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.10%20Festlegung%20und%20Freigabe%20der%20Vorgehensweise.md)
+> > > > [!example]- Controls:
+> > > > - [GC.10.1 Festlegung von Vorgehensweisen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.10.1%20Festlegung%20von%20Vorgehensweisen.md)
+> > > > - [GC.10.2 Freigabe von Vorgehensweisen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.10.2%20Freigabe%20von%20Vorgehensweisen.md)
+> > 
+> > > [!example]+ [GC.11 Initiierung des Risikomanagements](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.11%20Initiierung%20des%20Risikomanagements.md)
+> > > > [!example]- Controls:
+> > > > - [GC.11.1 Methodik für das Risikomanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.11.1%20Methodik%20für%20das%20Risikomanagement.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [ASST Informationen und Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)
+> > > [!example]+ [ASST.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [ASST.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.1.1.1%20Dokumentation.md)
+> > > > > - [ASST.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [ASST.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.1.1.3%20Bekanntgabe.md)
+> > > > - [ASST.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [ASST.2 Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.2.1 Inventar der Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.1%20Inventar%20der%20Informationen.md)
+> > > > > - [ASST.2.1.1 Informationsverantwortung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.1.1%20Informationsverantwortung.md)
+> > > > - [ASST.2.2 Inventar der Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.2%20Inventar%20der%20Systeme.md)
+> > > > > - [ASST.2.2.1 Aufdecken unautorisierter IT-Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.2.1%20Aufdecken%20unautorisierter%20IT-Systeme.md)
+> > > > - [ASST.2.3 Inventar der Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.3%20Inventar%20der%20Anwendungen.md)
+> > > > > - [ASST.2.3.1 Autorisierung von Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.3.1%20Autorisierung%20von%20Anwendungen.md)
+> > > > > - [ASST.2.3.2 Software Bill of Materials (SBOM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.3.2%20Software%20Bill%20of%20Materials%20(SBOM).md)
+> > > > > > - [ASST.2.3.2.1 Software Discovery](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.3.2.1%20Software%20Discovery.md)
+> > > > - [ASST.2.4 Klassifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.4%20Klassifizierung.md)
+> > 
+> > > [!example]+ [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.3.1 Nutzungsvereinbarungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.1%20Nutzungsvereinbarungen.md)
+> > > > > - [ASST.3.1.1 Weitergabe nur bei Erforderlichkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.1.1%20Weitergabe%20nur%20bei%20Erforderlichkeit.md)
+> > > > - [ASST.3.2 Entfernung nicht erforderlicher Rest- oder Zusatzdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.2%20Entfernung%20nicht%20erforderlicher%20Rest-%20oder%20Zusatzdaten.md)
+> > > > - [ASST.3.3 Kennzeichnung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.3%20Kennzeichnung.md)
+> > > > - [ASST.3.4 Kennzeichnung ohne vertrauliche Daten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.4%20Kennzeichnung%20ohne%20vertrauliche%20Daten.md)
+> > > > - [ASST.3.5 Tainting](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.5%20Tainting.md)
+> > > > - [ASST.3.6 Verifikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.6%20Verifikation.md)
+> > > > - [ASST.3.7 Pseudonymisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.7%20Pseudonymisierung.md)
+> > > > - [ASST.3.8 Anonymisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.8%20Anonymisierung.md)
+> > > > - [ASST.3.9 Aktualisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.9%20Aktualisierung.md)
+> > > > - [ASST.3.10 Autorisierung von Datenlokationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.10%20Autorisierung%20von%20Datenlokationen.md)
+> > > > - [ASST.3.11 Autorisierung von Systemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.11%20Autorisierung%20von%20Systemen.md)
+> > > > > - [ASST.3.11.1 Autorisierung von Peripheriegeräten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.11.1%20Autorisierung%20von%20Peripheriegeräten.md)
+> > > > - [ASST.3.12 Autorisierung von Personen oder Institutionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.12%20Autorisierung%20von%20Personen%20oder%20Institutionen.md)
+> > > > - [ASST.3.13 Lagerung physischer Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.13%20Lagerung%20physischer%20Assets.md)
+> > > > - [ASST.3.14 Reserve physischer Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.14%20Reserve%20physischer%20Assets.md)
+> > > > - [ASST.3.15 Ausleihe physischer Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.15%20Ausleihe%20physischer%20Assets.md)
+> > 
+> > > [!example]+ [ASST.4 Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.4.1 Autorisierung von Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.4.1%20Autorisierung%20von%20Schnittstellen.md)
+> > > > - [ASST.4.2 Vertraulichkeit und Integrität beim Transport](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.4.2%20Vertraulichkeit%20und%20Integrität%20beim%20Transport.md)
+> > > > - [ASST.4.3 Autorisierung von Veröffentlichungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.4.3%20Autorisierung%20von%20Veröffentlichungen.md)
+> > > > - [ASST.4.4 Nachweis des Zugangs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.4.4%20Nachweis%20des%20Zugangs.md)
+> > > > - [ASST.4.5 Vereinbarungen zum Austausch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.4.5%20Vereinbarungen%20zum%20Austausch.md)
+> > 
+> > > [!example]+ [ASST.5 Wartung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.5%20Wartung.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.5.1 Wartungsbedarf dokumentieren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.1%20Wartungsbedarf%20dokumentieren.md)
+> > > > - [ASST.5.2 Geregelte Wartungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.2%20Geregelte%20Wartungen.md)
+> > > > - [ASST.5.3 Autorisierung von Wartungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.3%20Autorisierung%20von%20Wartungen.md)
+> > > > - [ASST.5.4 Behandlung als Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.4%20Behandlung%20als%20Änderungen%20und%20Tests.md)
+> > > > - [ASST.5.5 Wartungsfenster](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.5%20Wartungsfenster.md)
+> > > > - [ASST.5.6 Wartung durch Externe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.6%20Wartung%20durch%20Externe.md)
+> > > > - [ASST.5.7 Dokumentation von Wartungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.5.7%20Dokumentation%20von%20Wartungen.md)
+> > 
+> > > [!example]+ [ASST.6 Rücknahme von Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.6%20Rücknahme%20von%20Assets.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.6.1 Abhandenkommen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.6.1%20Abhandenkommen.md)
+> > > > - [ASST.6.2 Rückkehr abhandengekommener Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.6.2%20Rückkehr%20abhandengekommener%20Assets.md)
+> > > > - [ASST.6.3 Konformitätsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.6.3%20Konformitätsprüfung.md)
+> > > > - [ASST.6.4 Zurücksetzen auf Ausgangszustand](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.6.4%20Zurücksetzen%20auf%20Ausgangszustand.md)
+> > 
+> > > [!example]+ [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md)
+> > > > [!example]- Controls:
+> > > > - [ASST.7.1 Nicht mehr benötigte Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.1%20Nicht%20mehr%20benötigte%20Anwendungen.md)
+> > > > - [ASST.7.2 Aufbewahrungs- und Löschfristen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.2%20Aufbewahrungs-%20und%20Löschfristen.md)
+> > > > > - [ASST.7.2.1 Langfristige Archivierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.2.1%20Langfristige%20Archivierung.md)
+> > > > - [ASST.7.3 Geregeltes Löschen oder Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3%20Geregeltes%20Löschen%20oder%20Vernichten.md)
+> > > > > - [ASST.7.3.1 Standardisierte Vernichtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3.1%20Standardisierte%20Vernichtung.md)
+> > > > > - [ASST.7.3.2 Löschverfahren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3.2%20Löschverfahren.md)
+> > > > > - [ASST.7.3.3 Zugelassene Löschanwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3.3%20Zugelassene%20Löschanwendungen.md)
+> > > > - [ASST.7.4 Wiederherstelltest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.4%20Wiederherstelltest.md)
+> > > > - [ASST.7.5 Vernichtungseinrichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.5%20Vernichtungseinrichtungen.md)
+> > > > - [ASST.7.6 Autorisierung von Veräußerungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.6%20Autorisierung%20von%20Veräußerungen.md)
+> > > > - [ASST.7.7 Beschriftungen entfernen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.7%20Beschriftungen%20entfernen.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [KONF Konfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)
+> > > [!example]+ [KONF.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [KONF.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.1.1%20Dokumentation.md)
+> > > > > - [KONF.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [KONF.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.1.3%20Bekanntgabe.md)
+> > > > - [KONF.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.2%20Regelmäßige%20Überprüfung.md)
+> > > > - [KONF.1.3 Management von Werkzeugen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.3%20Management%20von%20Werkzeugen.md)
+> > > > - [KONF.1.4 Einschränkung des Zugriffs auf Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.4%20Einschränkung%20des%20Zugriffs%20auf%20Dokumentation.md)
+> > > > - [KONF.1.5 Verschlüsselung von Konfigurationsgeheimnissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.1.5%20Verschlüsselung%20von%20Konfigurationsgeheimnissen.md)
+> > 
+> > > [!example]+ [KONF.2 Konfiguration von Systemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.2%20Konfiguration%20von%20Systemen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.2.1 Grundkonfiguration für Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.1%20Grundkonfiguration%20für%20Systeme.md)
+> > > > > - [KONF.2.1.1 Versionierung der Systemkonfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.1.1%20Versionierung%20der%20Systemkonfiguration.md)
+> > > > - [KONF.2.2 Kryptographische Verfahren in IT-Systemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.2%20Kryptographische%20Verfahren%20in%20IT-Systemen.md)
+> > > > - [KONF.2.3 Änderung von Default-Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.3%20Änderung%20von%20Default-Zugangsdaten.md)
+> > > > - [KONF.2.4 Deaktivierung nicht benötigter Systemfunktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.4%20Deaktivierung%20nicht%20benötigter%20Systemfunktionen.md)
+> > > > > - [KONF.2.4.1 Nicht benötigte Zertifikate](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.4.1%20Nicht%20benötigte%20Zertifikate.md)
+> > > > > - [KONF.2.4.2 Externe Cloud-Anbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.4.2%20Externe%20Cloud-Anbindungen.md)
+> > > > - [KONF.2.5 Überprüfung der Konfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.5%20Überprüfung%20der%20Konfiguration.md)
+> > > > > - [KONF.2.5.1 Automatische Konfigurationsverwaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.5.1%20Automatische%20Konfigurationsverwaltung.md)
+> > > > > > - [KONF.2.5.1.1 Automatische Konfigurationsverwaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.5.1.1%20Automatische%20Konfigurationsverwaltung.md)
+> > > > - [KONF.2.6 Souveräne Werkzeuge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.6%20Souveräne%20Werkzeuge.md)
+> > > > - [KONF.2.7 Alternative Administrationszugänge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.7%20Alternative%20Administrationszugänge.md)
+> > > > - [KONF.2.8 Abgesicherter und authentisierter Bootprozess](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.2.8%20Abgesicherter%20und%20authentisierter%20Bootprozess.md)
+> > 
+> > > [!example]+ [KONF.3 Physischer Schutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.3%20Physischer%20Schutz.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.3.1 Kryptographischer Hardwarespeicher](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.1%20Kryptographischer%20Hardwarespeicher.md)
+> > > > - [KONF.3.2 Speicherverschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.2%20Speicherverschlüsselung.md)
+> > > > - [KONF.3.3 SIM-PIN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.3%20SIM-PIN.md)
+> > > > - [KONF.3.4 Physischer Diebstahlschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.4%20Physischer%20Diebstahlschutz.md)
+> > > > - [KONF.3.5 Standortbestimmung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.5%20Standortbestimmung.md)
+> > > > - [KONF.3.6 Fernlöschung oder -sperre](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.6%20Fernlöschung%20oder%20-sperre.md)
+> > > > > - [KONF.3.6.1 Automatische Fernlöschung oder -sperre](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.6.1%20Automatische%20Fernlöschung%20oder%20-sperre.md)
+> > > > - [KONF.3.7 Einschränkung angeschlossener Peripherie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.7%20Einschränkung%20angeschlossener%20Peripherie.md)
+> > > > - [KONF.3.8 Einschränkung von Wechselmedien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.3.8%20Einschränkung%20von%20Wechselmedien.md)
+> > 
+> > > [!example]+ [KONF.4 Vertrauenswürdige Basisdienste](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.4%20Vertrauenswürdige%20Basisdienste.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.4.1 Anbindung an Verzeichnisdienst](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.1%20Anbindung%20an%20Verzeichnisdienst.md)
+> > > > > - [KONF.4.1.1 Weiterleitung von Anmeldeinformationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.1.1%20Weiterleitung%20von%20Anmeldeinformationen.md)
+> > > > - [KONF.4.2 DNS-Anbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.2%20DNS-Anbindung.md)
+> > > > > - [KONF.4.2.1 DNS-Verschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.2.1%20DNS-Verschlüsselung.md)
+> > > > - [KONF.4.3 Authentifizierung von Fernwartungsfunktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.3%20Authentifizierung%20von%20Fernwartungsfunktionen.md)
+> > > > - [KONF.4.4 Einschränkung von Fernwartungsfunktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.4%20Einschränkung%20von%20Fernwartungsfunktionen.md)
+> > > > - [KONF.4.5 Zeitquellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.4.5%20Zeitquellen.md)
+> > 
+> > > [!example]+ [KONF.5 Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.5%20Authentifizierung.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.5.1 Authentifizierung am System](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.5.1%20Authentifizierung%20am%20System.md)
+> > > > > - [KONF.5.1.1 Authentifizierung an der Firmware](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.5.1.1%20Authentifizierung%20an%20der%20Firmware.md)
+> > > > > - [KONF.5.1.2 Pre-Boot-Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.5.1.2%20Pre-Boot-Authentifizierung.md)
+> > > > - [KONF.5.2 Keine Mehrfachanmeldung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.5.2%20Keine%20Mehrfachanmeldung.md)
+> > 
+> > > [!example]+ [KONF.6 Rollen und Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.6%20Rollen%20und%20Berechtigungen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.6.1 Minimal erforderliche Berechtigungen für Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.1%20Minimal%20erforderliche%20Berechtigungen%20für%20Anwendungen.md)
+> > > > > - [KONF.6.1.1 Datenkapselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.1.1%20Datenkapselung.md)
+> > > > > - [KONF.6.1.2 Isolierung von Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.1.2%20Isolierung%20von%20Anwendungen.md)
+> > > > > - [KONF.6.1.3 Isolierte Arbeitsumgebungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.1.3%20Isolierte%20Arbeitsumgebungen.md)
+> > > > - [KONF.6.2 Gemeinsam genutzte Verzeichnisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.2%20Gemeinsam%20genutzte%20Verzeichnisse.md)
+> > > > - [KONF.6.3 Kiosk-Modus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.3%20Kiosk-Modus.md)
+> > > > - [KONF.6.4 Privilegierte Systemfunktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.4%20Privilegierte%20Systemfunktionen.md)
+> > > > > - [KONF.6.4.1 Rollenbasierte Privilegierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.4.1%20Rollenbasierte%20Privilegierung.md)
+> > > > - [KONF.6.5 Dynamische Zugriffskontrolle im System](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.5%20Dynamische%20Zugriffskontrolle%20im%20System.md)
+> > > > - [KONF.6.6 Getrennte Datenhaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.6%20Getrennte%20Datenhaltung.md)
+> > > > > - [KONF.6.6.1 Mandantenfähigkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.6.1%20Mandantenfähigkeit.md)
+> > > > - [KONF.6.7 Privilegierte Funktionen der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.7%20Privilegierte%20Funktionen%20der%20Anwendung.md)
+> > > > - [KONF.6.8 Berechtigungen des Webserver-Prozesses](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.8%20Berechtigungen%20des%20Webserver-Prozesses.md)
+> > > > - [KONF.6.9 Zugriff auf Code](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.9%20Zugriff%20auf%20Code.md)
+> > > > - [KONF.6.10 Auflistung von Verzeichnisinhalten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.10%20Auflistung%20von%20Verzeichnisinhalten.md)
+> > > > - [KONF.6.11 Einschränkung von Uploads](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.11%20Einschränkung%20von%20Uploads.md)
+> > > > - [KONF.6.12 Konferenzmoderation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.12%20Konferenzmoderation.md)
+> > > > - [KONF.6.13 Dynamische Zugriffskontrolle in der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.13%20Dynamische%20Zugriffskontrolle%20in%20der%20Anwendung.md)
+> > > > - [KONF.6.14 Browser Sandboxing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.14%20Browser%20Sandboxing.md)
+> > > > - [KONF.6.15 Virtualisierte Browser-Umgebung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.15%20Virtualisierte%20Browser-Umgebung.md)
+> > > > - [KONF.6.16 Datenaustausch in der Virtualisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.6.16%20Datenaustausch%20in%20der%20Virtualisierung.md)
+> > 
+> > > [!example]+ [KONF.7 Schutz vor Schadcode](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.7%20Schutz%20vor%20Schadcode.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.7.1 Echtzeitscanner](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.1%20Echtzeitscanner.md)
+> > > > - [KONF.7.2 Regelmäßige Scans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.2%20Regelmäßige%20Scans.md)
+> > > > - [KONF.7.3 Host-basierte Angriffserkennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.3%20Host-basierte%20Angriffserkennung.md)
+> > > > - [KONF.7.4 Angriffserkennung anhand von Netzverkehr](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.4%20Angriffserkennung%20anhand%20von%20Netzverkehr.md)
+> > > > - [KONF.7.5 Alarmierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.5%20Alarmierung.md)
+> > > > - [KONF.7.6 Automatische Updates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.6%20Automatische%20Updates.md)
+> > > > - [KONF.7.7 Regelmäßiger Funktionstest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.7%20Regelmäßiger%20Funktionstest.md)
+> > > > - [KONF.7.8 Dual-Engine-Strategie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.8%20Dual-Engine-Strategie.md)
+> > > > - [KONF.7.9 Einschränkung der Installation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.9%20Einschränkung%20der%20Installation.md)
+> > > > - [KONF.7.10 Einschränkung der Ausführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.10%20Einschränkung%20der%20Ausführung.md)
+> > > > - [KONF.7.11 Einschränkung von Softwarebibliotheken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.11%20Einschränkung%20von%20Softwarebibliotheken.md)
+> > > > - [KONF.7.12 Einschränkung von Skripten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.12%20Einschränkung%20von%20Skripten.md)
+> > > > - [KONF.7.13 Einschränkung von Systemaufrufen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.13%20Einschränkung%20von%20Systemaufrufen.md)
+> > > > - [KONF.7.14 Code-Signierung im Betriebssystemkern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.14%20Code-Signierung%20im%20Betriebssystemkern.md)
+> > > > - [KONF.7.15 Lokale Firewall](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.15%20Lokale%20Firewall.md)
+> > > > - [KONF.7.16 Anti-Exploit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.16%20Anti-Exploit.md)
+> > > > > - [KONF.7.16.1 Anti-Exploit für den Arbeitsspeicher](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.7.16.1%20Anti-Exploit%20für%20den%20Arbeitsspeicher.md)
+> > 
+> > > [!example]+ [KONF.8 Sicherheitsupdates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.8%20Sicherheitsupdates.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.8.1 Automatische Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.8.1%20Automatische%20Überprüfung.md)
+> > > > > - [KONF.8.1.1 Automatische Sicherheitsupdates](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.8.1.1%20Automatische%20Sicherheitsupdates.md)
+> > > > - [KONF.8.2 Automatische Updates der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.8.2%20Automatische%20Updates%20der%20Anwendung.md)
+> > 
+> > > [!example]+ [KONF.9 Verfügbarkeit von Ressourcen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.9%20Verfügbarkeit%20von%20Ressourcen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.9.1 Speicherplatzbegrenzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.9.1%20Speicherplatzbegrenzung.md)
+> > > > - [KONF.9.2 Begrenzung der Rechenleistung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.9.2%20Begrenzung%20der%20Rechenleistung.md)
+> > > > - [KONF.9.3 Alternative Komponenten für kritische Funktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.9.3%20Alternative%20Komponenten%20für%20kritische%20Funktionen.md)
+> > 
+> > > [!example]+ [KONF.10 Konfiguration von Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.10.1 Grundkonfiguration für Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.1%20Grundkonfiguration%20für%20Anwendungen.md)
+> > > > > - [KONF.10.1.1 Versionierung der Anwendungskonfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.1.1%20Versionierung%20der%20Anwendungskonfiguration.md)
+> > > > - [KONF.10.2 Kryptographische Verfahren in Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.2%20Kryptographische%20Verfahren%20in%20Anwendungen.md)
+> > > > - [KONF.10.3 Änderung von Default-Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.3%20Änderung%20von%20Default-Zugangsdaten.md)
+> > > > - [KONF.10.4 Deaktivierung nicht benötigter Anwendungsfunktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.4%20Deaktivierung%20nicht%20benötigter%20Anwendungsfunktionen.md)
+> > > > - [KONF.10.5 Überprüfung der Konfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.5%20Überprüfung%20der%20Konfiguration.md)
+> > > > > - [KONF.10.5.1 Automatisierte Überprüfung der Konfiguration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.10.5.1%20Automatisierte%20Überprüfung%20der%20Konfiguration.md)
+> > 
+> > > [!example]+ [KONF.11 Vertrauensbeziehungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.11%20Vertrauensbeziehungen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.11.1 Authentifizierung vor dem Zugriff](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.1%20Authentifizierung%20vor%20dem%20Zugriff.md)
+> > > > > - [KONF.11.1.1 Authentifizierung von geplanten Konversationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.1.1%20Authentifizierung%20von%20geplanten%20Konversationen.md)
+> > > > > - [KONF.11.1.2 Authentifizierung von Netzverbindungen - clientseitig](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.1.2%20Authentifizierung%20von%20Netzverbindungen%20-%20clientseitig.md)
+> > > > - [KONF.11.2 Warteraum](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.2%20Warteraum.md)
+> > > > - [KONF.11.3 Alternative Authentifizierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.3%20Alternative%20Authentifizierung.md)
+> > > > - [KONF.11.4 Veröffentlichung von Domain-Infomationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.4%20Veröffentlichung%20von%20Domain-Infomationen.md)
+> > > > - [KONF.11.5 Erraten von Zugriffslinks](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.5%20Erraten%20von%20Zugriffslinks.md)
+> > > > - [KONF.11.6 Einschränkung unauthentifizierter Anschlüsse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.6%20Einschränkung%20unauthentifizierter%20Anschlüsse.md)
+> > > > - [KONF.11.7 Übersicht angemeldeter Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.7%20Übersicht%20angemeldeter%20Verbindungen.md)
+> > > > - [KONF.11.8 Einschränkung von Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.8%20Einschränkung%20von%20Schnittstellen.md)
+> > > > > - [KONF.11.8.1 Einschränkung von Zonentransfers](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.8.1%20Einschränkung%20von%20Zonentransfers.md)
+> > > > > - [KONF.11.8.2 Einschränkung von TK-Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.8.2%20Einschränkung%20von%20TK-Verbindungen.md)
+> > > > > > - [KONF.11.8.2.1 Einschränkung der TK-Gegenstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.8.2.1%20Einschränkung%20der%20TK-Gegenstellen.md)
+> > > > - [KONF.11.9 Verschlüsselung schützenswerter Daten (at-rest)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.11.9%20Verschlüsselung%20schützenswerter%20Daten%20(at-rest).md)
+> > 
+> > > [!example]+ [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.12.1 Eingabevalidierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1%20Eingabevalidierung.md)
+> > > > > - [KONF.12.1.1 Zertifikatsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.1%20Zertifikatsprüfung.md)
+> > > > > - [KONF.12.1.2 Content Security Policy (CSP)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.2%20Content%20Security%20Policy%20(CSP).md)
+> > > > > - [KONF.12.1.3 Same-Origin-Policy](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.3%20Same-Origin-Policy.md)
+> > > > > - [KONF.12.1.4 Subresource Integrity-Prüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.4%20Subresource%20Integrity-Prüfung.md)
+> > > > > - [KONF.12.1.5 HTTP Strict Transport Security (HSTS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.5%20HTTP%20Strict%20Transport%20Security%20(HSTS).md)
+> > > > > - [KONF.12.1.6 JavaScript](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.6%20JavaScript.md)
+> > > > > - [KONF.12.1.7 Filtern schädlicher Webinhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.7%20Filtern%20schädlicher%20Webinhalte.md)
+> > > > > - [KONF.12.1.8 Duplikate im Verzeichnisbaum](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.8%20Duplikate%20im%20Verzeichnisbaum.md)
+> > > > > - [KONF.12.1.9 Journaling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.9%20Journaling.md)
+> > > > > - [KONF.12.1.10 HTTP-Response-Header](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.10%20HTTP-Response-Header.md)
+> > > > > - [KONF.12.1.11 Aktive Dateiinhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.1.11%20Aktive%20Dateiinhalte.md)
+> > > > - [KONF.12.2 Verschlüsselungsstatus der aktuellen Verbindung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.2%20Verschlüsselungsstatus%20der%20aktuellen%20Verbindung.md)
+> > > > - [KONF.12.3 Cookies](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.3%20Cookies.md)
+> > > > - [KONF.12.4 Speicherung von Zugangsdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.4%20Speicherung%20von%20Zugangsdaten.md)
+> > > > - [KONF.12.5 Auto-Vervollständigung von Daten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.5%20Auto-Vervollständigung%20von%20Daten.md)
+> > > > - [KONF.12.6 Browser-Historie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.6%20Browser-Historie.md)
+> > > > - [KONF.12.7 Erweiterte Attribute](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.7%20Erweiterte%20Attribute.md)
+> > > > - [KONF.12.8 Teilnahme per Default ohne Bild und Ton](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.8%20Teilnahme%20per%20Default%20ohne%20Bild%20und%20Ton.md)
+> > > > - [KONF.12.9 Information über Aufzeichnung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.9%20Information%20über%20Aufzeichnung.md)
+> > > > - [KONF.12.10 Cookie-Attribute](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.10%20Cookie-Attribute.md)
+> > > > - [KONF.12.11 Anonyme oder Pseudonyme Kommunikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.11%20Anonyme%20oder%20Pseudonyme%20Kommunikation.md)
+> > > > - [KONF.12.12 Verbindungsprotokoll](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.12%20Verbindungsprotokoll.md)
+> > > > - [KONF.12.13 Sendebericht](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.13%20Sendebericht.md)
+> > > > - [KONF.12.14 DNS-Falschinformationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.12.14%20DNS-Falschinformationen.md)
+> > 
+> > > [!example]+ [KONF.13 Senden und Empfangen von Nachrichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.13.1 Filtern schädlicher Nachrichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.1%20Filtern%20schädlicher%20Nachrichten.md)
+> > > > > - [KONF.13.1.1 SPAM-Filter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.1.1%20SPAM-Filter.md)
+> > > > > - [KONF.13.1.2 Interpretation aktiver Inhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.1.2%20Interpretation%20aktiver%20Inhalte.md)
+> > > > - [KONF.13.2 Authentizität von Nachrichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.2%20Authentizität%20von%20Nachrichten.md)
+> > > > > - [KONF.13.2.1 Verifikation der Sendeberechtigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.2.1%20Verifikation%20der%20Sendeberechtigung.md)
+> > > > > - [KONF.13.2.2 Verifikation der Serversignatur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.2.2%20Verifikation%20der%20Serversignatur.md)
+> > > > - [KONF.13.3 Kryptographische Signatur des Mailservers](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.3%20Kryptographische%20Signatur%20des%20Mailservers.md)
+> > > > - [KONF.13.4 Kryptographische Signatur durch Nutzende](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.4%20Kryptographische%20Signatur%20durch%20Nutzende.md)
+> > > > - [KONF.13.5 Publikation der Sendeberechtigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.5%20Publikation%20der%20Sendeberechtigung.md)
+> > > > > - [KONF.13.5.1 Strenge Senderpolicy](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.5.1%20Strenge%20Senderpolicy.md)
+> > > > - [KONF.13.6 Publikation der Serversignatur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.6%20Publikation%20der%20Serversignatur.md)
+> > > > - [KONF.13.7 TLS-Reports](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.7%20TLS-Reports.md)
+> > > > - [KONF.13.8 DMARC-Reports](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.8%20DMARC-Reports.md)
+> > > > - [KONF.13.9 Publikation der DMARC-Richtlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.9%20Publikation%20der%20DMARC-Richtlinie.md)
+> > > > - [KONF.13.10 Authentifizierung der Server-Zertifikate über DNS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.10%20Authentifizierung%20der%20Server-Zertifikate%20über%20DNS.md)
+> > > > - [KONF.13.11 MTA-STS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.13.11%20MTA-STS.md)
+> > 
+> > > [!example]+ [KONF.14 Verteilte Anwendungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.14%20Verteilte%20Anwendungen.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.14.1 Verschlüsselung beim Transport](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.1%20Verschlüsselung%20beim%20Transport.md)
+> > > > > - [KONF.14.1.1 Obligatorische Verschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.1.1%20Obligatorische%20Verschlüsselung.md)
+> > > > > - [KONF.14.1.2 Ende-zu-Ende-Verschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.1.2%20Ende-zu-Ende-Verschlüsselung.md)
+> > > > - [KONF.14.2 Source Port Randomisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.2%20Source%20Port%20Randomisierung.md)
+> > > > - [KONF.14.3 Iterative Beantwortung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.3%20Iterative%20Beantwortung.md)
+> > > > - [KONF.14.4 Caching](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.4%20Caching.md)
+> > > > - [KONF.14.5 Zeitüberschreitung von Netzverbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.14.5%20Zeitüberschreitung%20von%20Netzverbindungen.md)
+> > 
+> > > [!example]+ [KONF.15 Ressourcenauslastung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.15%20Ressourcenauslastung.md)
+> > > > [!example]- Controls:
+> > > > - [KONF.15.1 Begrenzung des Speicherplatzes](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.15.1%20Begrenzung%20des%20Speicherplatzes.md)
+> > > > - [KONF.15.2 Begrenzung der Rechenleistung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.15.2%20Begrenzung%20der%20Rechenleistung.md)
+> > > > - [KONF.15.3 Denial of Service](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.15.3%20Denial%20of%20Service.md)
+> > > > - [KONF.15.4 Überbuchung von virtualisierten Ressourcen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/KONF.15.4%20Überbuchung%20von%20virtualisierten%20Ressourcen.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [PERF Monitoring-Evaluation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)
+> > > [!example]+ [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [PERF.1.1.1 Auswertung der Gefährdungslage](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1.1%20Auswertung%20der%20Gefährdungslage.md)
+> > > > > - [PERF.1.1.2 Auswertung des Umsetzungsplans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1.2%20Auswertung%20des%20Umsetzungsplans.md)
+> > > > > - [PERF.1.1.3 Auswertung von Auditergebnissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1.3%20Auswertung%20von%20Auditergebnissen.md)
+> > > > > - [PERF.1.1.4 Auswertung von Sicherheitsvorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1.4%20Auswertung%20von%20Sicherheitsvorfällen.md)
+> > 
+> > > [!example]+ [PERF.2 Überwachung der Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.2%20Überwachung%20der%20Compliance.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.2.1 Überwachung der Einhaltung von Verpflichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.2.1%20Überwachung%20der%20Einhaltung%20von%20Verpflichtungen.md)
+> > 
+> > > [!example]+ [PERF.3 Auditprogramm und -durchführung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.3.1 Aufbau und Pflege eines Auditprogramms](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1%20Aufbau%20und%20Pflege%20eines%20Auditprogramms.md)
+> > > > > - [PERF.3.1.1 Erstellen eines Auditsplans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.1%20Erstellen%20eines%20Auditsplans.md)
+> > > > > - [PERF.3.1.2 Planen von internen Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.2%20Planen%20von%20internen%20Audits.md)
+> > > > > - [PERF.3.1.3 Auswahl des Auditteams](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.3%20Auswahl%20des%20Auditteams.md)
+> > > > > - [PERF.3.1.4 Umfang von Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.3.1.4%20Umfang%20von%20Audits.md)
+> > 
+> > > [!example]+ [PERF.4 Bewertungsschema und Auditberichte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.4%20Bewertungsschema%20und%20Auditberichte.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.4.1 Dokumentation von Auditergebnissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.4.1%20Dokumentation%20von%20Auditergebnissen.md)
+> > > > > - [PERF.4.1.1 Einheitliches Bewertungsschema](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.4.1.1%20Einheitliches%20Bewertungsschema.md)
+> > > > > - [PERF.4.1.2 Kommunikation an Stakeholder](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.4.1.2%20Kommunikation%20an%20Stakeholder.md)
+> > 
+> > > [!example]+ [PERF.5 Managementbewertungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.5%20Managementbewertungen.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.5.1 Eignungsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1%20Eignungsprüfung.md)
+> > > > > - [PERF.5.1.1 Ergebnisse von Folgemaßnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.1%20Ergebnisse%20von%20Folgemaßnahmen.md)
+> > > > > - [PERF.5.1.2 Geänderte Rahmenbedingungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.2%20Geänderte%20Rahmenbedingungen.md)
+> > > > > - [PERF.5.1.3 Erfolge und Probleme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.3%20Erfolge%20und%20Probleme.md)
+> > > > > - [PERF.5.1.4 Interne Überprüfungen und Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.4%20Interne%20Überprüfungen%20und%20Audits.md)
+> > > > > - [PERF.5.1.5 Eignungsprüfung bisheriger Sicherheitsmaßnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.5%20Eignungsprüfung%20bisheriger%20Sicherheitsmaßnahmen.md)
+> > > > > - [PERF.5.1.6 Rückmeldung von Stakeholdern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.6%20Rückmeldung%20von%20Stakeholdern.md)
+> > > > > - [PERF.5.1.7 Status des Realisierungsplans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.7%20Status%20des%20Realisierungsplans.md)
+> > > > > - [PERF.5.1.8 Verbesserungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.8%20Verbesserungen.md)
+> > > > > - [PERF.5.1.9 Maßnahmenvorschläge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.1.9%20Maßnahmenvorschläge.md)
+> > > > - [PERF.5.2 Bericht an die Institutionsleitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.5.2%20Bericht%20an%20die%20Institutionsleitung.md)
+> > 
+> > > [!example]+ [PERF.6 Monitoringmethoden und -tools](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.6.1 Sicherheitsvorfälle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.6.1%20Sicherheitsvorfälle.md)
+> > > > > - [PERF.6.1.1 Sicherheitsvorfälle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.6.1.1%20Sicherheitsvorfälle.md)
+> > > > > - [PERF.6.1.2 Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.6.1.2%20Schwachstellen.md)
+> > > > > - [PERF.6.1.3 Bedrohungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.6.1.3%20Bedrohungen.md)
+> > 
+> > > [!example]+ [PERF.7 Validierung der Anforderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.7%20Validierung%20der%20Anforderungen.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.7.1 Aktualität der Anforderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.7.1%20Aktualität%20der%20Anforderungen.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [NOT Notfallplanung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)
+> > > [!example]+ [NOT.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [NOT.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [NOT.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.1%20Dokumentation.md)
+> > > > > - [NOT.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [NOT.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.3%20Bekanntgabe.md)
+> > > > > - [NOT.1.1.4 Business Continuity Management System](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.1.4%20Business%20Continuity%20Management%20System.md)
+> > > > - [NOT.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [NOT.2 Besondere Aufbauorganisation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.2%20Besondere%20Aufbauorganisation.md)
+> > > > [!example]- Controls:
+> > > > - [NOT.2.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.2.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [NOT.2.1.1 Rollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.2.1.1%20Rollen.md)
+> > > > > - [NOT.2.1.2 Alarmierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.2.1.2%20Alarmierung.md)
+> > > > > - [NOT.2.1.3 Stabsraum](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.2.1.3%20Stabsraum.md)
+> > > > > - [NOT.2.1.4 Stabsübung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.2.1.4%20Stabsübung.md)
+> > 
+> > > [!example]+ [NOT.3 Notfallvorsorge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.3%20Notfallvorsorge.md)
+> > > > [!example]- Controls:
+> > > > - [NOT.3.1 Wiederanlaufplan](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.3.1%20Wiederanlaufplan.md)
+> > > > - [NOT.3.2 Geschäftsfortführungsplan](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.3.2%20Geschäftsfortführungsplan.md)
+> > > > - [NOT.3.3 Sensibilisierung zum Vorgehen im Notfall](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.3.3%20Sensibilisierung%20zum%20Vorgehen%20im%20Notfall.md)
+> > > > - [NOT.3.4 Funktionstest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.3.4%20Funktionstest.md)
+> > > > - [NOT.3.5 Ausweich-Telekommunikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.3.5%20Ausweich-Telekommunikation.md)
+> > > > - [NOT.3.6 Sicherheitsmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.3.6%20Sicherheitsmechanismen.md)
+> > 
+> > > [!example]+ [NOT.4 Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md)
+> > > > [!example]- Controls:
+> > > > - [NOT.4.1 Dokumentation der Quellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.1%20Dokumentation%20der%20Quellen.md)
+> > > > - [NOT.4.2 Sicherung des Systems](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.2%20Sicherung%20des%20Systems.md)
+> > > > - [NOT.4.3 Sicherung der Anwendung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.3%20Sicherung%20der%20Anwendung.md)
+> > > > - [NOT.4.4 Automatische Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.4%20Automatische%20Datensicherung.md)
+> > > > - [NOT.4.5 Archivierung langfristig benötigter Daten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.5%20Archivierung%20langfristig%20benötigter%20Daten.md)
+> > > > > - [NOT.4.5.1 Zum Archiv gehörende Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.5.1%20Zum%20Archiv%20gehörende%20Assets.md)
+> > > > > - [NOT.4.5.2 Zum Archiv gehörende Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.5.2%20Zum%20Archiv%20gehörende%20Dokumentation.md)
+> > > > - [NOT.4.6 Geschützte Aufbewahrung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.6%20Geschützte%20Aufbewahrung.md)
+> > > > - [NOT.4.7 Versionierte Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.7%20Versionierte%20Datensicherung.md)
+> > > > - [NOT.4.8 Verschlüsselte Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.8%20Verschlüsselte%20Datensicherung.md)
+> > > > - [NOT.4.9 Speichermedien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.9%20Speichermedien.md)
+> > > > - [NOT.4.10 Getrennte Aufbewahrung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.10%20Getrennte%20Aufbewahrung.md)
+> > > > - [NOT.4.11 Datenträgerarchiv](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.11%20Datenträgerarchiv.md)
+> > > > - [NOT.4.12 Georedundanz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.12%20Georedundanz.md)
+> > > > - [NOT.4.13 Datensouveränität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.13%20Datensouveränität.md)
+> > > > - [NOT.4.14 Offline-Kopie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.14%20Offline-Kopie.md)
+> > > > - [NOT.4.15 Vorgehen zur Wiederherstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.15%20Vorgehen%20zur%20Wiederherstellung.md)
+> > > > - [NOT.4.16 Test der Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.16%20Test%20der%20Datensicherung.md)
+> > > > > - [NOT.4.16.1 Test der Wiederherstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.16.1%20Test%20der%20Wiederherstellung.md)
+> > > > - [NOT.4.17 Anwendungstest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.4.17%20Anwendungstest.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [PERS Personal](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)
+> > > [!example]+ [PERS.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [PERS.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [PERS.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.1.1.1%20Dokumentation.md)
+> > > > > - [PERS.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [PERS.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.1.1.3%20Bekanntgabe.md)
+> > > > - [PERS.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.1.2%20Regelmäßige%20Überprüfung.md)
+> > 
+> > > [!example]+ [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md)
+> > > > [!example]- Controls:
+> > > > - [PERS.2.1 Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.1%20Aufgaben.md)
+> > > > - [PERS.2.2 Rollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.2%20Rollen.md)
+> > > > - [PERS.2.3 Rollentrennung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3%20Rollentrennung.md)
+> > > > > - [PERS.2.3.1 Rollentrennung - Verzeichnisdienst](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.1%20Rollentrennung%20-%20Verzeichnisdienst.md)
+> > > > > - [PERS.2.3.2 Rollentrennung - Virtualisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.2%20Rollentrennung%20-%20Virtualisierung.md)
+> > > > > - [PERS.2.3.3 Rollentrennung - Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.3%20Rollentrennung%20-%20Audits.md)
+> > > > > - [PERS.2.3.4 Rollentrennung - Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.4%20Rollentrennung%20-%20Änderungen%20und%20Tests.md)
+> > > > - [PERS.2.4 Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.4%20Zuständigkeiten.md)
+> > 
+> > > [!example]+ [PERS.3 Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.3%20Personalzugang.md)
+> > > > [!example]- Controls:
+> > > > - [PERS.3.1 Dienst- oder Arbeitsvertrag](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.1%20Dienst-%20oder%20Arbeitsvertrag.md)
+> > > > - [PERS.3.2 Verfahrensanweisungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.2%20Verfahrensanweisungen.md)
+> > > > - [PERS.3.3 Betriebs- und Geschäftsgeheimnisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.3%20Betriebs-%20und%20Geschäftsgeheimnisse.md)
+> > > > - [PERS.3.4 Stellenbeschreibungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.4%20Stellenbeschreibungen.md)
+> > > > - [PERS.3.5 Prüfung der Bewerbungsunterlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.5%20Prüfung%20der%20Bewerbungsunterlagen.md)
+> > > > - [PERS.3.6 Vertrauenswürdigkeit von Bewerbenden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.6%20Vertrauenswürdigkeit%20von%20Bewerbenden.md)
+> > > > > - [PERS.3.6.1 Sicherheitsüberprüfung (intern)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.6.1%20Sicherheitsüberprüfung%20(intern).md)
+> > > > - [PERS.3.7 Einarbeitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.7%20Einarbeitung.md)
+> > 
+> > > [!example]+ [PERS.4 Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md)
+> > > > [!example]- Controls:
+> > > > - [PERS.4.1 Qualifikationsbedarf](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.4.1%20Qualifikationsbedarf.md)
+> > > > - [PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.4.2%20Rollenspezifische%20Schulungen%20und%20Sensibilisierungen.md)
+> > > > > - [PERS.4.2.1 Produktspezifische Schulungen und Sensibilisierungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.4.2.1%20Produktspezifische%20Schulungen%20und%20Sensibilisierungen.md)
+> > 
+> > > [!example]+ [PERS.5 Personalbetreuung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.5%20Personalbetreuung.md)
+> > > > [!example]- Controls:
+> > > > - [PERS.5.1 Maßregelung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.5.1%20Maßregelung.md)
+> > > > - [PERS.5.2 Innentäter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.5.2%20Innentäter.md)
+> > > > - [PERS.5.3 Vertrauens-Check sicherheitskritischer Rollen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.5.3%20Vertrauens-Check%20sicherheitskritischer%20Rollen.md)
+> > 
+> > > [!example]+ [PERS.6 Weggang von Mitarbeitenden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md)
+> > > > [!example]- Controls:
+> > > > - [PERS.6.1 Vorgehensweise für den Weggang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.6.1%20Vorgehensweise%20für%20den%20Weggang.md)
+> > > > > - [PERS.6.1.1 Entzug von Berechtigungen gemäß BER](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.6.1.1%20Entzug%20von%20Berechtigungen%20gemäß%20BER.md)
+> > > > > - [PERS.6.1.2 Neubesetzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.6.1.2%20Neubesetzung.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [RISK Risikomanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK%20Risikomanagement.md)
+> > > [!example]+ [RISK.1 Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md)
+> > > > [!example]- Controls:
+> > > > - [RISK.1.1 Methodik für das Risikomanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/RISK.1.1%20Methodik%20für%20das%20Risikomanagement.md)
+> > > > - [RISK.1.3 Risikoeigentümer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/RISK.1.3%20Risikoeigentümer.md)
+> > > > - [RISK.1.5 Freigabe des Risikomanagements](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/RISK.1.5%20Freigabe%20des%20Risikomanagements.md)
+> > > > - [RISK.1.10 Freigabe der Umsetzungsplanung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/RISK.1.10%20Freigabe%20der%20Umsetzungsplanung.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [SENS Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)
+> > > [!example]+ [SENS.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [SENS.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.1.1.1%20Dokumentation.md)
+> > > > > - [SENS.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [SENS.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.1.1.3%20Bekanntgabe.md)
+> > > > - [SENS.1.2 Erfolgsmessung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.1.2%20Erfolgsmessung.md)
+> > 
+> > > [!example]+ [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.2%20Grundlegende%20Sensibilisierung.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.2.1 Schutzziele](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.1%20Schutzziele.md)
+> > > > - [SENS.2.2 Meldewege](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.2%20Meldewege.md)
+> > > > - [SENS.2.3 Verschlüsselung und Signatur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.3%20Verschlüsselung%20und%20Signatur.md)
+> > > > - [SENS.2.4 Nutzung unautorisierter Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.4%20Nutzung%20unautorisierter%20Assets.md)
+> > > > > - [SENS.2.4.1 Verbindung unautorisierter IT-Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.4.1%20Verbindung%20unautorisierter%20IT-Systeme.md)
+> > > > - [SENS.2.5 Zuständigkeitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.5%20Zuständigkeitsbereiche.md)
+> > > > - [SENS.2.6 Umgehung von Sicherheitsfunktionen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.6%20Umgehung%20von%20Sicherheitsfunktionen.md)
+> > > > - [SENS.2.7 Änderung von Konfigurationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.7%20Änderung%20von%20Konfigurationen.md)
+> > > > - [SENS.2.8 Melden von Ereignissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.8%20Melden%20von%20Ereignissen.md)
+> > > > > - [SENS.2.8.1 Melden von Fehler- und Warnmeldungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.2.8.1%20Melden%20von%20Fehler-%20und%20Warnmeldungen.md)
+> > 
+> > > [!example]+ [SENS.3 Schutz vor Schadprogrammen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.3.1 Schadprogramme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.3.1%20Schadprogramme.md)
+> > > > - [SENS.3.2 Öffnen in der Sandbox](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.3.2%20Öffnen%20in%20der%20Sandbox.md)
+> > > > - [SENS.3.3 Umwandeln verdächtiger Dateien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.3.3%20Umwandeln%20verdächtiger%20Dateien.md)
+> > 
+> > > [!example]+ [SENS.4 Authentisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.4%20Authentisierung.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.4.1 Personengebundene Authentisierungsmittel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1%20Personengebundene%20Authentisierungsmittel.md)
+> > > > > - [SENS.4.1.1 Verdeckte Eingabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1.1%20Verdeckte%20Eingabe.md)
+> > > > > - [SENS.4.1.2 Untersagung von Passwort Recycling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1.2%20Untersagung%20von%20Passwort%20Recycling.md)
+> > > > > - [SENS.4.1.3 Wahl von Passwörtern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1.3%20Wahl%20von%20Passwörtern.md)
+> > > > > - [SENS.4.1.4 Passwörter nur im Passwortmanager](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1.4%20Passwörter%20nur%20im%20Passwortmanager.md)
+> > > > > - [SENS.4.1.5 Biometrische Authentifikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1.5%20Biometrische%20Authentifikation.md)
+> > > > > - [SENS.4.1.6 Keine Weitergabe personengebundener Authentisierungsmittel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1.6%20Keine%20Weitergabe%20personengebundener%20Authentisierungsmittel.md)
+> > > > - [SENS.4.2 Mehrfachnutzung von Zugängen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.2%20Mehrfachnutzung%20von%20Zugängen.md)
+> > > > - [SENS.4.3 Abmelden nach Nutzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.3%20Abmelden%20nach%20Nutzung.md)
+> > 
+> > > [!example]+ [SENS.5 Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.5.1 Datenablage](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.5.1%20Datenablage.md)
+> > > > - [SENS.5.2 Weitergabe von Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.5.2%20Weitergabe%20von%20Informationen.md)
+> > > > - [SENS.5.3 Weitergabe von Erreichbarkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.5.3%20Weitergabe%20von%20Erreichbarkeiten.md)
+> > > > - [SENS.5.4 Rest- und Zusatzdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.5.4%20Rest-%20und%20Zusatzdaten.md)
+> > > > - [SENS.5.5 Löschfristen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.5.5%20Löschfristen.md)
+> > > > - [SENS.5.6 Papiervernichtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.5.6%20Papiervernichtung.md)
+> > 
+> > > [!example]+ [SENS.6 Umgang mit Datenträgern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.6%20Umgang%20mit%20Datenträgern.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.6.1 Scan angenommener Wechseldatenträger](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.6.1%20Scan%20angenommener%20Wechseldatenträger.md)
+> > > > - [SENS.6.2 Verschlüsselung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.6.2%20Verschlüsselung.md)
+> > 
+> > > [!example]+ [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.7.1 Spezifische Sensibilisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.1%20Spezifische%20Sensibilisierung.md)
+> > > > - [SENS.7.2 Virenscan](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.2%20Virenscan.md)
+> > > > - [SENS.7.3 Automatische Antworten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.3%20Automatische%20Antworten.md)
+> > > > - [SENS.7.4 SPAM - Löschen oder Melden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.4%20SPAM%20-%20Löschen%20oder%20Melden.md)
+> > > > - [SENS.7.5 SPAM - Nichtbeantwortung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.5%20SPAM%20-%20Nichtbeantwortung.md)
+> > > > - [SENS.7.6 SPAM - Links](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.6%20SPAM%20-%20Links.md)
+> > > > - [SENS.7.7 SPAM - Anhänge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.7%20SPAM%20-%20Anhänge.md)
+> > > > - [SENS.7.8 Gefälschte E-Mails](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.8%20Gefälschte%20E-Mails.md)
+> > > > - [SENS.7.9 Aktive Inhalte](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.9%20Aktive%20Inhalte.md)
+> > > > - [SENS.7.10 Trennen nicht benötigter Anschlüsse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.10%20Trennen%20nicht%20benötigter%20Anschlüsse.md)
+> > > > - [SENS.7.11 Heimliche Aufzeichnung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.11%20Heimliche%20Aufzeichnung.md)
+> > > > - [SENS.7.12 Öffentliche WLANs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.12%20Öffentliche%20WLANs.md)
+> > > > - [SENS.7.13 Unverschlüsselte WLANs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.13%20Unverschlüsselte%20WLANs.md)
+> > > > - [SENS.7.14 Unautorisierte WLANs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.14%20Unautorisierte%20WLANs.md)
+> > > > - [SENS.7.15 Social Engineering Anrufe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.15%20Social%20Engineering%20Anrufe.md)
+> > > > - [SENS.7.16 Mailbox-PIN und Co.](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.16%20Mailbox-PIN%20und%20Co..md)
+> > > > - [SENS.7.17 Unverschlüsseltes Telefonieren](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.17%20Unverschlüsseltes%20Telefonieren.md)
+> > > > - [SENS.7.18 Mobiltelefone in Sicherheitsbereichen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.18%20Mobiltelefone%20in%20Sicherheitsbereichen.md)
+> > > > - [SENS.7.19 Unverschlüsselte SMS oder MMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.19%20Unverschlüsselte%20SMS%20oder%20MMS.md)
+> > > > - [SENS.7.20 Authentifzierung von Gesprächspartnern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.20%20Authentifzierung%20von%20Gesprächspartnern.md)
+> > > > - [SENS.7.21 Rechtsunsicherheit von Faxen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.21%20Rechtsunsicherheit%20von%20Faxen.md)
+> > > > - [SENS.7.22 Unverschlüsselte Faxleitungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.22%20Unverschlüsselte%20Faxleitungen.md)
+> > > > - [SENS.7.23 Geolokation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.23%20Geolokation.md)
+> > > > - [SENS.7.24 Zertifikatswarnungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.24%20Zertifikatswarnungen.md)
+> > > > - [SENS.7.25 Zugang zum Fahrzeug](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.7.25%20Zugang%20zum%20Fahrzeug.md)
+> > 
+> > > [!example]+ [SENS.8 Physische Sicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.8%20Physische%20Sicherheit.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.8.1 Risiken der Nutzung von mobilen Endgeräten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.1%20Risiken%20der%20Nutzung%20von%20mobilen%20Endgeräten.md)
+> > > > - [SENS.8.2 Schließen von Türen und Fenstern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.2%20Schließen%20von%20Türen%20und%20Fenstern.md)
+> > > > - [SENS.8.3 Mitbringen von IT-Systemen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.3%20Mitbringen%20von%20IT-Systemen.md)
+> > > > - [SENS.8.4 Begleitung Externer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.4%20Begleitung%20Externer.md)
+> > > > > - [SENS.8.4.1 Beaufsichtigung Externer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.4.1%20Beaufsichtigung%20Externer.md)
+> > > > - [SENS.8.5 Verwahrung Intern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.5%20Verwahrung%20Intern.md)
+> > > > - [SENS.8.6 Rückgabe nicht mehr benötigter Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.6%20Rückgabe%20nicht%20mehr%20benötigter%20Assets.md)
+> > > > - [SENS.8.7 Verwendung von Brandschutmitteln](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.7%20Verwendung%20von%20Brandschutmitteln.md)
+> > > > - [SENS.8.8 Verwendung von Wasserschutzmitteln](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.8.8%20Verwendung%20von%20Wasserschutzmitteln.md)
+> > 
+> > > [!example]+ [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.9.1 Verarbeitung in der Öffentlichkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.1%20Verarbeitung%20in%20der%20Öffentlichkeit.md)
+> > > > - [SENS.9.2 Vorsicht vor Mithören](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.2%20Vorsicht%20vor%20Mithören.md)
+> > > > - [SENS.9.3 Verwahrung außer Haus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.3%20Verwahrung%20außer%20Haus.md)
+> > > > - [SENS.9.4 Mobile Arbeit mit Dokumenten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.4%20Mobile%20Arbeit%20mit%20Dokumenten.md)
+> > > > - [SENS.9.5 Mitnahme zur mobilen Arbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.5%20Mitnahme%20zur%20mobilen%20Arbeit.md)
+> > > > - [SENS.9.6 Mitnahme ins Ausland](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.6%20Mitnahme%20ins%20Ausland.md)
+> > > > - [SENS.9.7 Reise- und Sicherheitshinweise](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.9.7%20Reise-%20und%20Sicherheitshinweise.md)
+> > 
+> > > [!example]+ [SENS.10 Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.10.1 Grundprinzipien der Systemadministration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.10.1%20Grundprinzipien%20der%20Systemadministration.md)
+> > > > - [SENS.10.2 Umgang mit privilegierten Berechtigungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.10.2%20Umgang%20mit%20privilegierten%20Berechtigungen.md)
+> > > > - [SENS.10.3 Systemadministration - Sicherheitsvorfälle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.10.3%20Systemadministration%20-%20Sicherheitsvorfälle.md)
+> > > > - [SENS.10.4 Systemadministration - Strukturierte Verkabelung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.10.4%20Systemadministration%20-%20Strukturierte%20Verkabelung.md)
+> > > > - [SENS.10.5 Systemadministration - Internetnutzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.10.5%20Systemadministration%20-%20Internetnutzung.md)
+> > 
+> > > [!example]+ [SENS.11 Sensibilisierung der Leitungsebene](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.11%20Sensibilisierung%20der%20Leitungsebene.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.11.1 Sensibilisierung der Institutionsleitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.11.1%20Sensibilisierung%20der%20Institutionsleitung.md)
+> > > > - [SENS.11.2 Führen als Vorbild](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.11.2%20Führen%20als%20Vorbild.md)
+> > > > - [SENS.11.3 Whaling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.11.3%20Whaling.md)
+> > 
+> > > [!example]+ [SENS.12 Spezifische Risiken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.12%20Spezifische%20Risiken.md)
+> > > > [!example]- Controls:
+> > > > - [SENS.12.1 Hohe Risiken](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.12.1%20Hohe%20Risiken.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [REA Sicherheitsvorfallsbehandlung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)
+> > > [!example]+ [REA.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [REA.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [REA.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.1.1.1%20Dokumentation.md)
+> > > > > - [REA.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [REA.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.1.1.3%20Bekanntgabe.md)
+> > > > - [REA.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.1.2%20Regelmäßige%20Überprüfung.md)
+> > > > - [REA.1.3 Übungen zur Vorfallsbehandlung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.1.3%20Übungen%20zur%20Vorfallsbehandlung.md)
+> > 
+> > > [!example]+ [REA.2 Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md)
+> > > > [!example]- Controls:
+> > > > - [REA.2.1 Triage und Erstreaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.1%20Triage%20und%20Erstreaktion.md)
+> > > > - [REA.2.2 Automatische Erstreaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.2%20Automatische%20Erstreaktion.md)
+> > > > - [REA.2.3 Dokumentation von Vorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.3%20Dokumentation%20von%20Vorfällen.md)
+> > > > - [REA.2.4 Diagnosedaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.4%20Diagnosedaten.md)
+> > > > - [REA.2.5 IT-Forensik](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5%20IT-Forensik.md)
+> > > > > - [REA.2.5.1 Rechtssichere Beweissicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5.1%20Rechtssichere%20Beweissicherung.md)
+> > > > > - [REA.2.5.2 Vier-Augen-Prinzip](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5.2%20Vier-Augen-Prinzip.md)
+> > > > > - [REA.2.5.3 Forensik-Dienstleister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5.3%20Forensik-Dienstleister.md)
+> > > > - [REA.2.6 Ursachenanalyse und Behandlung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6%20Ursachenanalyse%20und%20Behandlung.md)
+> > > > > - [REA.2.6.1 Dokumentation des Vorgehens](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.1%20Dokumentation%20des%20Vorgehens.md)
+> > > > > - [REA.2.6.2 Kommunikation bei Vorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.2%20Kommunikation%20bei%20Vorfällen.md)
+> > > > > > - [REA.2.6.2.1 Information zuständiger Behörden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.2.1%20Information%20zuständiger%20Behörden.md)
+> > > > > - [REA.2.6.3 Koordinierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.3%20Koordinierung.md)
+> > > > > - [REA.2.6.4 Service Level](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.4%20Service%20Level.md)
+> > > > > - [REA.2.6.5 Eskalation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.6.5%20Eskalation.md)
+> > 
+> > > [!example]+ [REA.3 Nachbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.3%20Nachbereitung.md)
+> > > > [!example]- Controls:
+> > > > - [REA.3.1 Verbesserung durch Erkenntnisse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.3.1%20Verbesserung%20durch%20Erkenntnisse.md)
+> > > > > - [REA.3.1.1 Quantitative Analyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.3.1.1%20Quantitative%20Analyse.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)
+> > > [!example]+ [STM.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md)
+> > > > [!example]- Controls:
+> > > > - [STM.1.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.1.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md)
+> > > > - [STM.1.2 Dokumentation der externen Schnittstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.1.2%20Dokumentation%20der%20externen%20Schnittstellen.md)
+> > 
+> > > [!example]+ [STM.2 Erstellung eines Anforderungspakets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.2%20Erstellung%20eines%20Anforderungspakets.md)
+> > > > [!example]- Controls:
+> > > > - [STM.2.1 Erstellung eines Anforderungspakets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.2.1%20Erstellung%20eines%20Anforderungspakets.md)
+> > 
+> > > [!example]+ [STM.3 ISMS-Anforderungen des Informationsverbundes](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.3%20ISMS-Anforderungen%20des%20Informationsverbundes.md)
+> > > > [!example]- Controls:
+> > > > - [STM.3.1 ISMS-Anforderungen des Informationsverbundes](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.3.1%20ISMS-Anforderungen%20des%20Informationsverbundes.md)
+> > 
+> > > [!example]+ [STM.4 Asset-Modellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.4%20Asset-Modellierung.md)
+> > > > [!example]- Controls:
+> > > > - [STM.4.1 Erfassung relevanter Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.4.1%20Erfassung%20relevanter%20Assets.md)
+> > > > - [STM.4.2 Dokumentation relevanter Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.4.2%20Dokumentation%20relevanter%20Assets.md)
+> > > > - [STM.4.3 Mapping des Assets auf die Zielobjektkategorien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.4.3%20Mapping%20des%20Assets%20auf%20die%20Zielobjektkategorien.md)
+> > 
+> > > [!example]+ [STM.5 Anforderungsmodellierung auf die Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.5%20Anforderungsmodellierung%20auf%20die%20Assets.md)
+> > > > [!example]- Controls:
+> > > > - [STM.5.1 Modellierung der Anforderungen mit Zielobjekt](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.5.1%20Modellierung%20der%20Anforderungen%20mit%20Zielobjekt.md)
+> > > > - [STM.5.2 Vererbung von Zielobjektkategorien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.5.2%20Vererbung%20von%20Zielobjektkategorien.md)
+> > > > - [STM.5.3 Konsolidierung und Redundanzprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.5.3%20Konsolidierung%20und%20Redundanzprüfung.md)
+> > > > - [STM.5.4 Modellierung der Anforderungen ohne Zielobjektkategorie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.5.4%20Modellierung%20der%20Anforderungen%20ohne%20Zielobjektkategorie.md)
+> > 
+> > > [!example]+ [STM.6 Anforderungsergänzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.6%20Anforderungsergänzung.md)
+> > > > [!example]- Controls:
+> > > > - [STM.6.1 Auf Grund anforderungsloser Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.6.1%20Auf%20Grund%20anforderungsloser%20Assets.md)
+> > > > - [STM.6.2 Auf Grund externer Verpflichtungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.6.2%20Auf%20Grund%20externer%20Verpflichtungen.md)
+> > 
+> > > [!example]+ [STM.7 Überprüfung des gesetzten Sicherheitsniveaus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.7%20Überprüfung%20des%20gesetzten%20Sicherheitsniveaus.md)
+> > > > [!example]- Controls:
+> > > > - [STM.7.1 Überprüfung des gesetzten Sicherheitsniveaus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.7.1%20Überprüfung%20des%20gesetzten%20Sicherheitsniveaus.md)
+> > 
+> > > [!example]+ [STM.8 Durchführung der Risikobetrachtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.8%20Durchführung%20der%20Risikobetrachtung.md)
+> > > > [!example]- Controls:
+> > > > - [STM.8.1 Risikobetrachtung bei fehlenden Anforderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.8.1%20Risikobetrachtung%20bei%20fehlenden%20Anforderungen.md)
+> > 
+> > > [!example]+ [STM.9 Gestaltungsentscheidungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.9%20Gestaltungsentscheidungen.md)
+> > > > [!example]- Controls:
+> > > > - [STM.9.1 Verteilung der führenden Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.9.1%20Verteilung%20der%20führenden%20Zuständigkeiten.md)
+> > > > - [STM.9.2 Weitere Parameter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/STM.9.2%20Weitere%20Parameter.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [UMS Umsetzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS%20Umsetzung.md)
+> > > [!example]+ [UMS.1 Ermittlung des Umsetzungsstatus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.1%20Ermittlung%20des%20Umsetzungsstatus.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.1.1 Ermittlung des Umsetzungsstatus](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.1.1%20Ermittlung%20des%20Umsetzungsstatus.md)
+> > 
+> > > [!example]+ [UMS.2 Bewertung fehlender Umsetzungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.2%20Bewertung%20fehlender%20Umsetzungen.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.2.1 Bewertung des Restrisikos](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.2.1%20Bewertung%20des%20Restrisikos.md)
+> > 
+> > > [!example]+ [UMS.3 Umsetzungsplanung und Priorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.3%20Umsetzungsplanung%20und%20Priorisierung.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.3.1 Umsetzungsplanung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.3.1%20Umsetzungsplanung.md)
+> > > > - [UMS.3.2 Priorisierung von Maßnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.3.2%20Priorisierung%20von%20Maßnahmen.md)
+> > 
+> > > [!example]+ [UMS.4 Zuständigkeiten und Umsetzungsfristen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.4%20Zuständigkeiten%20und%20Umsetzungsfristen.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.4.1 Benennung von Umsetzungszuständigen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.4.1%20Benennung%20von%20Umsetzungszuständigen.md)
+> > > > - [UMS.4.2 Festlegung von Umsetzungsfristen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.4.2%20Festlegung%20von%20Umsetzungsfristen.md)
+> > 
+> > > [!example]+ [UMS.5 Freigabeverfahren und Ausnahmemanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.5%20Freigabeverfahren%20und%20Ausnahmemanagement.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.5.1 Autorisierung von Ausnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.5.1%20Autorisierung%20von%20Ausnahmen.md)
+> > > > - [UMS.5.2 Dokumentation von Ausnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.5.2%20Dokumentation%20von%20Ausnahmen.md)
+> > 
+> > > [!example]+ [UMS.6 Fortschrittsverfolgung der Realisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.6%20Fortschrittsverfolgung%20der%20Realisierung.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.6.1 Nachverfolgung des Umsetzungsfortschritts](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.6.1%20Nachverfolgung%20des%20Umsetzungsfortschritts.md)
+> > > > - [UMS.6.2 Fortschreibung des Umsetzungsplans](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.6.2%20Fortschreibung%20des%20Umsetzungsplans.md)
+> > 
+> > > [!example]+ [UMS.7 Wahrung von Compliance in der Umsetzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.7%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.7.1 Wahrung von Compliance in der Umsetzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/UMS.7.1%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [VRB Verbesserung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB%20Verbesserung.md)
+> > > [!example]+ [VRB.1 Kontinuierliche Verbesserung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.1%20Kontinuierliche%20Verbesserung.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.1.1 Verfahren zur kontinuierlichen Verbesserung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.1.1%20Verfahren%20zur%20kontinuierlichen%20Verbesserung.md)
+> > > > - [VRB.1.2 Änderungen im ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.1.2%20Änderungen%20im%20ISMS.md)
+> > 
+> > > [!example]+ [VRB.2 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.2.1 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.2.1%20Umgang%20mit%20Nicht-Konformitäten.md)
+> > > > - [VRB.2.2 Anpassung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.2.2%20Anpassung%20des%20ISMS.md)
+> > 
+> > > [!example]+ [VRB.3 Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.3%20Identifikation%20von%20Verbesserungspotenzialen.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.3.1 Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.3.1%20Identifikation%20von%20Verbesserungspotenzialen.md)
+> > 
+> > > [!example]+ [VRB.4 Korrektur- und Verbesserungsvorschläge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.4%20Korrektur-%20und%20Verbesserungsvorschläge.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.4.1 Korrekturmaßnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.4.1%20Korrekturmaßnahmen.md)
+> > > > - [VRB.4.2 Verbesserungsmaßnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.4.2%20Verbesserungsmaßnahmen.md)
+> > 
+> > > [!example]+ [VRB.5 Korrektur- und Verbesserungsplan](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.5%20Korrektur-%20und%20Verbesserungsplan.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.5.1 Priorisierung von Maßnahmen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.5.1%20Priorisierung%20von%20Maßnahmen.md)
+> > 
+> > > [!example]+ [VRB.6 Wirksamkeitsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.6%20Wirksamkeitsprüfung.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.6.1 Wirksamkeitsprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.6.1%20Wirksamkeitsprüfung.md)
+> > 
+> > > [!example]+ [VRB.7 Bewertung der erreichten Verbesserung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.7%20Bewertung%20der%20erreichten%20Verbesserung.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.7.1 Bewertung der erreichten Verbesserung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.7.1%20Bewertung%20der%20erreichten%20Verbesserung.md)
+> > 
+> > > [!example]+ [VRB.8 Behandlung von Compliance-Verstößen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/VRB.8%20Behandlung%20von%20Compliance-Verstößen.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.8.1 Behandlung von Compliance-Verstößen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/VRB.8.1%20Behandlung%20von%20Compliance-Verstößen.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [TEST Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)
+> > > [!example]+ [TEST.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [TEST.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [TEST.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.1.1%20Dokumentation.md)
+> > > > > - [TEST.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.1.2%20Zuweisung%20der%20Aufgaben.md)
+> > > > > - [TEST.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.1.3%20Bekanntgabe.md)
+> > > > - [TEST.1.2 Regelmäßige Überprüfung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.2%20Regelmäßige%20Überprüfung.md)
+> > > > - [TEST.1.3 Einschränkung von Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.1.3%20Einschränkung%20von%20Änderungen.md)
+> > 
+> > > [!example]+ [TEST.2 Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md)
+> > > > [!example]- Controls:
+> > > > - [TEST.2.1 Versionshistorie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.1%20Versionshistorie.md)
+> > > > - [TEST.2.2 Folgenabschätzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.2%20Folgenabschätzung.md)
+> > > > > - [TEST.2.2.1 Kategorisierung von Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.2.1%20Kategorisierung%20von%20Änderungen.md)
+> > > > > - [TEST.2.2.2 Anpassung der Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.2.2%20Anpassung%20der%20Dokumentation.md)
+> > > > > - [TEST.2.2.3 Dokumentation der Abhängigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.2.3%20Dokumentation%20der%20Abhängigkeiten.md)
+> > 
+> > > [!example]+ [TEST.3 Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.3%20Tests.md)
+> > > > [!example]- Controls:
+> > > > - [TEST.3.1 Sicherheitstest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1%20Sicherheitstest.md)
+> > > > > - [TEST.3.1.1 Dokumentation von Testergebnissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.1%20Dokumentation%20von%20Testergebnissen.md)
+> > > > > - [TEST.3.1.2 Integritätstest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.2%20Integritätstest.md)
+> > > > > - [TEST.3.1.3 Testdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.3%20Testdaten.md)
+> > > > > - [TEST.3.1.4 Testumgebung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.4%20Testumgebung.md)
+> > > > > - [TEST.3.1.5 Kontinuierliche Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.5%20Kontinuierliche%20Tests.md)
+> > > > > - [TEST.3.1.6 Chaos Engineering](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.6%20Chaos%20Engineering.md)
+> > > > > - [TEST.3.1.7 Analyse der Zusammensetzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.7%20Analyse%20der%20Zusammensetzung.md)
+> > > > > - [TEST.3.1.8 Fuzzing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.8%20Fuzzing.md)
+> > > > > - [TEST.3.1.9 Lasttest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.9%20Lasttest.md)
+> > > > > - [TEST.3.1.10 Penetrationstest bei Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.10%20Penetrationstest%20bei%20Änderungen.md)
+> > > > - [TEST.3.2 Testabdeckung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.2%20Testabdeckung.md)
+> > 
+> > > [!example]+ [TEST.4 Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.4%20Freigabe.md)
+> > > > [!example]- Controls:
+> > > > - [TEST.4.1 Autorisierung von Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.1%20Autorisierung%20von%20Änderungen.md)
+> > > > > - [TEST.4.1.1 Unabhängigkeit der Autorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.1.1%20Unabhängigkeit%20der%20Autorisierung.md)
+> > > > > > - [TEST.4.1.1.1 Staging](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.1.1.1%20Staging.md)
+> > > > > - [TEST.4.1.2 Dokumentation der Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.1.2%20Dokumentation%20der%20Freigabe.md)
+> > > > - [TEST.4.2 Signatur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.2%20Signatur.md)
+> > > > - [TEST.4.3 Rückfallösung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.3%20Rückfallösung.md)
+> > > > - [TEST.4.4 Geregelte Notfalländerungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.4%20Geregelte%20Notfalländerungen.md)
+> > 
+> > > [!example]+ [TEST.5 Bereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.5%20Bereitstellung.md)
+> > > > [!example]- Controls:
+> > > > - [TEST.5.1 Information betroffener Kreise](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.5.1%20Information%20betroffener%20Kreise.md)
+> > > > - [TEST.5.2 Verschlüsselte Bereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.5.2%20Verschlüsselte%20Bereitstellung.md)
+> > > > - [TEST.5.3 Schrittweiser Rollout](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.5.3%20Schrittweiser%20Rollout.md)
+> > > > - [TEST.5.4 Persistenz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.5.4%20Persistenz.md)
+> > > > - [TEST.5.5 Rückblick](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.5.5%20Rückblick.md)
+> > 
+> > > [!example]- Controls:
+> 

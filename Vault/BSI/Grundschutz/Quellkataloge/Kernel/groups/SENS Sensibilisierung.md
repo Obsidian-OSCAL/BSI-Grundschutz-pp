@@ -6,7 +6,13 @@ group_id: SENS
 
 ** Group **
 # SENS - Sensibilisierung 
-> [!info]+ Untergeordnete Gruppen> [SENS.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.1%20Grundlagen.md)
+> [!info]- Praktik SENS Sensibilisierung:
+> | | |
+> | - | - |
+> | auch bekannt als: | Schulung und Sensibilisierung |
+> | Schwerpunkt: | Organisatorisch |
+>
+> > Die Praktik Sensibilisierung sorgt dafür, dass alle Mitarbeitenden über die Leitlinie zur Informationssicherheit sowie relevanten Informationssicherheitsrichtlinien, -verfahren und -bedrohungen informiert sind. Ziel ist es, ein sicherheitsbewusstes Verhalten im Arbeitsalltag zu fördern und zu verankern.<br><br>Der Fokus liegt auf der Schaffung eines Verständnisses für die Bedeutung der Informationssicherheit innerhalb der Institution. Gleichzeitig wird die notwendige Qualifikation für den sicheren Betrieb und die Nutzung von Anwendungen und IT-Systemen vermittelt, um Fehler zu vermeiden.<br><br>Die Praktik Personalmanagement stellt sicher, dass Informationssicherheitsaspekte während des gesamten Beschäftigungszyklus von Mitarbeitenden berücksichtigt werden, während Sensibilisierung speziell auf die kontinuierliche Weiterbildung und Sensibilisierung im Bereich Informationssicherheit abzielt.> [!example]+ Untergeordnete Gruppen> [SENS.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.1%20Grundlagen.md)
 > [SENS.2 Grundlegende Sensibilisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.2%20Grundlegende%20Sensibilisierung.md)
 > [SENS.3 Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md)
 > [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md)

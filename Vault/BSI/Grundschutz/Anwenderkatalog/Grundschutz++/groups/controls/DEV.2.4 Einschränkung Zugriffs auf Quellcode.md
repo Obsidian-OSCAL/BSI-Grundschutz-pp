@@ -1,21 +1,30 @@
 ---
-tags: Security_by_Design
+tags:
+- security_by_design
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.2.4 Einschränkung Zugriffs auf Quellcode
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Inventar Berechtigungen
+result_reference: Zugriff
+control_effort_level: '1'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.4 - Einschränkung Zugriffs auf Quellcode
-Tags: "[Security by Design](tags_Security by Design)"
+Tag: [[tags_Security by Design|Security by Design]]
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *** |  | SOLLTE | den schreibenden Zugriff auf Quellcode |  | einschränken | Inventar Berechtigungen | >Entwicklung SOLLTE den schreibenden Zugriff auf Quellcode einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den schreibenden Zugriff auf Quellcode |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung SOLLTE den schreibenden Zugriff auf Quellcode einschränken.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugriff](result_Zugriff_00000000-0000-0000-0000-000000000000) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
 >Eine Einschränkung des schreibenden Zugriffes auf den Quellcode auf die zur Aufgabenerfüllung erforderlichen Personen oder IT-Systeme hilft, unbefugte Änderungen am Quellcode zu verhindern. Nach dem Grundsatz der geringstmöglichen Berechtigung benötigen schreibenden Zugriff nur Personen wie Entwickler oder Maintainer, zu deren Aufgaben die Arbeit am Code gehört.

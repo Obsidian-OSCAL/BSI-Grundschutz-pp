@@ -1,23 +1,29 @@
 ---
-tags: Compliance_Management
+tags:
+- compliance_management
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.7.1.2 Anhörung zuständiger Stellen
 parent_control: GC.7.1 Verfahren und Regelungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: anhören
+stmt_documentation: Compliance-Verpflichtungen
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # GC.7.1.2 - Anhörung zuständiger Stellen
-Tags: "[Compliance Management](tags_Compliance Management)"
+Tag: [[tags_Compliance Management|Compliance Management]]
 Gruppe: [GC.7 Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md)
 ---
 
 ** Übergeordnetes Control: ** [GC.7.1 Verfahren und Regelungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md) *** |  | SOLLTE | für die Einhaltung gesetzlicher Verpflichtungen in der Informationsverarbeitung zuständige Stellen in der Institution |  | anhören | Compliance-Verpflichtungen | >Governance und Compliance SOLLTE für die Einhaltung gesetzlicher Verpflichtungen in der Informationsverarbeitung zuständige Stellen in der Institution anhören.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | für die Einhaltung gesetzlicher Verpflichtungen in der Informationsverarbeitung zuständige Stellen in der Institution |  | [anhören](action_words_anhören_b8e9be24-22fb-4f1c-a60c-a2f8f0b4c47d) | [Compliance-Verpflichtungen](documentation_guidelines_Compliance-Verpflichtungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance SOLLTE für die Einhaltung gesetzlicher Verpflichtungen in der Informationsverarbeitung zuständige Stellen in der Institution anhören.</span>
 
 > [!info]- Guidance
 >Für die Einhaltung gesetzlicher Verpflichtungen in der Informationsverarbeitung zuständige Stellen in der Institution wurden bei der Dokumentation der Compliance-Verpflichtungen angehört. Hierunter können z. B. Rechtsabteilung, Datenschutzbeauftragte, Brandschutzbeauftragte oder Fachverantwortliche bei branchenspezifischen Vorschriften fallen.

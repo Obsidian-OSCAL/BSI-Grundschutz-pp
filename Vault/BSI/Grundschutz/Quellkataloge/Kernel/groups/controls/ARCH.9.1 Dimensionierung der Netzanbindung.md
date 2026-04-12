@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.1 Dimensionierung der Netzanbindung
+stmt_target_object_category: Netze
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/grou
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.9%20Kapazitätsmanagement.md) *** | Netze | SOLLTE | eine bedarfsgerechte Netzanbindung |  | installieren | IT-Betriebskonzept | >Architektur für Netze SOLLTE eine bedarfsgerechte Netzanbindung installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Netze](target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine bedarfsgerechte Netzanbindung |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE eine bedarfsgerechte Netzanbindung installieren.</span>
 
 > [!info]- Guidance
 >Für die Verfügbarkeit und Leistungsfähigkeit kritischer Geschäfts‑ und Fachverfahren ist eine bedarfsgerechte Netzanbindung erforderlich. Durch das strukturierte Erfassen des Bedarfes kann eine Institution frühzeitig Engpässe erkennen, Ausfallrisiken minimieren und eine wirtschaftliche Auslegung ihrer Anschlüsse erreichen. Gleichzeitig lässt sich so eine belastbare Grundlage für Kapazitäts‑, Notfall‑ und Budget‑Planungen schaffen, ohne sich allein auf starre Hersteller‑ oder Provider‑Vorgaben zu verlassen. Relevant ist hierbei die gesamte Netzstrecke zwischen Servern und IT-Clients, zumindest bis zum Internet-Anschluss der Institution. Beispiele für den Anwendungsbereich können sehr unterschiedlich ausfallen: In einem Call‑Center kann sich der Bedarf aus der Anzahl zeitgleich aktiver Soft‑Phones ableiten, deren Codec‑Bandbreite sowie der gewünschten Gesprächsqualität (Latenz < Antwortzeit in ms). In einem Forschungslabor kann die Anbindung darauf basieren, dass täglich große Datensätze mit einer bestimmten maximalen Bandbreite in Gbit/s zu Kooperationspartnern repliziert werden. Auch eine E‑Learning‑Plattform kann berücksichtigen, dass zu Semesterbeginn Studierende gleichzeitig parallele Video‑Streams in HD abrufen, während administrative Dienste weiterhin innerhalb einer bestimmten Antwortzeit in ms reagieren sollen. Dabei ist es sinnvoll, die Netzanbindung an realistische Belastungsszenarien anzupassen.

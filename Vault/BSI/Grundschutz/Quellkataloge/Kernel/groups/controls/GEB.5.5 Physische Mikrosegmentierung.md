@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.5.5 Physische Mikrosegmentierung
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.5 Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.5%20Gemeinsame%20Arbeitsbereiche.md) *** | IT-Systeme | KANN | eine physische Mikrosegmentierung |  | installieren | Gebäudedokumentation | >Gebäudemanagement für IT-Systeme KANN eine physische Mikrosegmentierung installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.5%20Gemeinsame%20Arbeitsbereiche.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine physische Mikrosegmentierung |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für IT-Systeme KANN eine physische Mikrosegmentierung installieren.</span>
 
 > [!info]- Guidance
 >Bei der physischen Mikrosegmentierung in der Sicherheitsarchitektur geht es darum, unterschiedliche physische Grenzen innerhalb gemeinsam genutzter Einrichtungen zu schaffen, um verschiedene Sicherheitsbereiche zu isolieren und zu schützen. Dies ist besonders wichtig für Umgebungen, in denen Assets mit verschiedenen Sicherheitseigenschaften nebeneinander existieren. Bei dieser Strategie werden bauliche Maßnahmen eingesetzt, wie z. B. getrennte Eingänge, dedizierte Versorgungssysteme, Fallen, abgeschottete HLK-Anlagen, physisch getrennte Netzwerkinfrastrukturen und zugangskontrollierte Zonen, um die seitliche Bewegung von Bedrohungen zu verhindern und gleichzeitig die Einhaltung von Vorschriften zu gewährleisten. Zu den üblichen Anwendungen gehören Bürogebäude mit mehreren Mietparteien, in denen verschiedene Institutionen eine Trennung benötigen, Colocation-Rechenzentren mit kundenspezifischer Geräteisolierung, gemeinsam genutzte Regierungseinrichtungen mit unterschiedlichen Klassifizierungsanforderungen und Campus-Umgebungen, in denen miteinander verbundene Gebäude unterschiedliche Sicherheitsperimeter aufrechterhalten müssen - all dies unterstützt ein umfassendes Risikomanagement und die Eindämmung von Vorfällen.  Maßnahmen können z.B. intelligenten Schlössern an Käfigtüren und Sensoren an den Seitenwänden von Serverracks sein.

@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.2.4 Elektromagnetische Abschirmung
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: testen
+stmt_documentation: Abnahmeprotokoll
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.2 Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md) *** | Standorte | KANN | die Elektromagnetische Abschirmung |  | testen | Abnahmeprotokoll | >Gebäudemanagement für Standorte KANN die Elektromagnetische Abschirmung testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Elektromagnetische Abschirmung |  | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Abnahmeprotokoll](documentation_guidelines_Abnahmeprotokoll) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN die Elektromagnetische Abschirmung testen.</span>
 
 > [!info]- Guidance
 >Die elektromagnetische Abschirmung von Standorten dient dem Schutz vertraulicher Informationen vor unbefugter Erfassung durch elektromagnetische Abstrahlung. Computersysteme, Netzwerkgeräte und andere elektronische Ausrüstungen senden elektromagnetische Signale aus, die außerhalb des Gebäudes abgefangen werden könnten. Dies könnte zur ungewollten Offenlegung sensibler Daten führen, wie etwa bei Van-Eck-Phreaking, bei dem Bildschirminhalte aus der Ferne rekonstruiert werden können. Ein Angreifer könnte beispielsweise mit speziellem Equipment die ausgesendeten Signale eines Monitors oder Netzwerkkabels abfangen und daraus Passwörter, Finanzdaten oder Geschäftsgeheimnisse extrahieren, ohne physischen Zugang zum Gebäude zu benötigen.  Bei der Umsetzung kann eine mehrstufige Strategie verfolgt werden. Die Räumlichkeiten können mit speziellen abschirmenden Materialien wie metallischen Geweben, leitfähigen Farben oder Folienbeschichtungen ausgekleidet werden, die als "Faradayscher Käfig" wirken. Fenster können mit metallbeschichteten Gläsern oder speziellen Folien versehen werden, die elektromagnetische Strahlung blockieren. Sicherheitsbereiche können nach Sensitivität der dort verarbeiteten Daten in verschiedene Zonen eingeteilt werden, wobei nur die kritischsten Bereiche vollständig abgeschirmt werden.

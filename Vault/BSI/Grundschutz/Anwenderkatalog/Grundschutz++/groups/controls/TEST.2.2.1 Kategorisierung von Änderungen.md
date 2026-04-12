@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.2.2.1 Kategorisierung von Änderungen
 parent_control: TEST.2.2 Folgenabschätzung
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [TEST.2 Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/grou
 
 ** Übergeordnetes Control: ** [TEST.2.2 Folgenabschätzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.2.2%20Folgenabschätzung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md) *** |  | SOLLTE | Änderungsvorhaben einer Kategorie |  | zuweisen | IT-Betriebskonzept | >Änderungen und Tests SOLLTE Änderungsvorhaben einer Kategorie zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Vorbereitung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.2%20Vorbereitung.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Änderungsvorhaben einer Kategorie |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE Änderungsvorhaben einer Kategorie zuweisen.</span>
 
 > [!info]- Guidance
 >Dabei werden Änderungen je nach Abschätzung der Folgen in Kategorien einsortiert, die im Verhältnis zu den möglichen Auswirkungen stehen (z.B. Geringe Auswirkungen, Mittlere Auswirkungen, Hohe Auswirkungen). Umfang und Tiefe der weiterer Prüfungen kann dann nach dieser Einstufung ausgerichtet werden.

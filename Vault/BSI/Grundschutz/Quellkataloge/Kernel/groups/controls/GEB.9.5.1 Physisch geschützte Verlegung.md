@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.9.5.1 Physisch geschützte Verlegung
 parent_control: GEB.9.5 Strukturierte Datenverkabelung
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [GEB.9 Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/gr
 
 ** Übergeordnetes Control: ** [GEB.9.5 Strukturierte Datenverkabelung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.9.5%20Strukturierte%20Datenverkabelung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *** | Standorte | SOLLTE | eine geschützte Kabelverlegung |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE eine geschützte Kabelverlegung installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine geschützte Kabelverlegung |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE eine geschützte Kabelverlegung installieren.</span>
 
 > [!info]- Guidance
 >Freigelegte Glasfaser- oder Kupferleitungen könnten angezapft oder durchtrennt werden.  Die Implementierung kann z.B. Erfolgen durch: Das Verlegen von Backbone-Kabeln in Metallrohren oder verschlossenen Kabelschränken; manipulationssichere Siegel an Stellen, an denen die Kabel die Sicherheitsbereiche verlassen.

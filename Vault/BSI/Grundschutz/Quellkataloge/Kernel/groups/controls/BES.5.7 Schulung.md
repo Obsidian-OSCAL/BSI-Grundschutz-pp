@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten_Kompetenzmanagement
+tags:
+- lieferketten_kompetenzmanagement
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.7 Schulung
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.7 - Schulung
-Tags: "[Lieferketten](tags_Lieferketten)" "[Kompetenzmanagement](tags_Kompetenzmanagement)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Kompetenzmanagement|Kompetenzmanagement]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Einkäufe | KANN | eine Schulung zur Nutzung gelieferter Sicherheitsmechanismen |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe KANN eine Schulung zur Nutzung gelieferter Sicherheitsmechanismen vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine Schulung zur Nutzung gelieferter Sicherheitsmechanismen |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe KANN eine Schulung zur Nutzung gelieferter Sicherheitsmechanismen vereinbaren.</span>
 
 > [!info]- Guidance
 >Sicherheitsmechanismen sind in diesem Kontext technische oder organisatorische Schutzfunktionen, die in gelieferten Produkten, Systemen oder Diensten bereits vorgesehen sind, beispielsweise Verschlüsselungsfunktionen, Zugriffskontrollen oder Protokollierungsfunktionen. Ziel der Anforderung ist es, dass diese Schutzfunktionen von den Mitarbeitenden der Institution auch tatsächlich verstanden und korrekt angewandt werden. Ohne entsprechende Schulung könnte es passieren, dass vorhandene Sicherheitsfunktionen ungenutzt bleiben oder falsch bedient werden, wodurch Daten kompromittiert oder unbefugt zugänglich werden könnten. Durch gezielte Unterweisungen kann das Potenzial solcher Mechanismen ausgeschöpft und die Widerstandsfähigkeit gegenüber Angriffen oder Fehlbedienungen erhöht werden. Die Umsetzung kann pragmatisch gestaltet werden: (1) Eine Institution kann bei der Lieferung von IT-Systemen mit dem Hersteller oder Dienstleister eine kurze Einweisung in die sicherheitsrelevanten Funktionen vereinbaren, beispielsweise zur richtigen Konfiguration einer Multifaktor-Authentisierung. (2) Bei komplexeren Produkten kann die Institution Trainingsmaterialien wie Handbücher, Videos oder interaktive Tutorials anfordern, die auf den Einsatz der bereitgestellten Sicherheitsfunktionen zugeschnitten sind. (3) Zusätzlich kann es hilfreich sein, eine kurze Praxisübung im Rahmen der Abnahme durchzuführen, in der Schlüsselmechanismen wie sichere Passwortänderung oder Rechtevergabe ausprobiert werden. Die Schulung kann je nach Bedarf als Vor-Ort-Einweisung, Remote-Sitzung oder durch strukturierte E-Learning-Module erfolgen.

@@ -1,9 +1,14 @@
 ---
-tags: det531-prm1
+tags:
+- det531-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.3.1 Autorisierung kritischer Scans
 parent_control: DET.5.3 Schwachstellenscans
+stmt_modal_verb: SOLLTE
+stmt_action_word: autorisieren
+control_effort_level: '4'
 ---
 
 
@@ -14,9 +19,9 @@ Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kern
 
 ** Übergeordnetes Control: ** [DET.5.3 Schwachstellenscans](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.5.3%20Schwachstellenscans.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | SOLLTE | kritische Scans | durch {{zuständige Personen oder Rollen}} | autorisieren | Detektions-Konzept | >Detektion SOLLTE kritische Scans durch {{ insert: param, det.5.3.1-prm1 }} autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | kritische Scans | durch {{zuständige Personen oder Rollen}} | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE kritische Scans durch {{ insert: param, det.5.3.1-prm1 }} autorisieren.</span>
 
 > [!info]- Guidance
 >Schwachstellenscans könnten aufgrund ihres Umfangs oder der breiten Abdeckung ihrer Aktivitäten selbst Fehlerzustände provozieren oder Schwachstellen auslösen. Wenn Scans besondere Berechtigungen benötigen - z.B. lokale Administrationsrechte oder Zugriff auf ein abgeschottetes Netz sensibler, betriebskritischer Systeme, so kann eine Autorisierung solcher Scans, vor der eine Abwägung der damit verbundenen Risiken vorgenommen wird, angezeigt sein.

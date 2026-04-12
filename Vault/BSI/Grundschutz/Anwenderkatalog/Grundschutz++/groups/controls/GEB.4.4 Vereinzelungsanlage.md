@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.4.4 Vereinzelungsanlage
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+result_reference: Zugang
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +18,11 @@ Gruppe: [GEB.4 Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz+
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.4%20Sicherheitsbereiche.md) *** | Standorte | KANN | Vereinzelungsanlagen an Zugangspunkten |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte KANN Vereinzelungsanlagen an Zugangspunkten installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Sicherheitsbereiche](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.4%20Sicherheitsbereiche.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Vereinzelungsanlagen an Zugangspunkten |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN Vereinzelungsanlagen an Zugangspunkten installieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >Eine Vereinzelungsanlage ist eine technische Einrichtung, die den gleichzeitigen Zutritt mehrerer Personen verhindert und so den Zugang zu besonders sensiblen Bereichen kontrolliert. Typische Beispiele sind Drehkreuze, Personenschleusen oder Sicherheitsschleusen mit Gewichtssensoren. Der Sinn dieser Maßnahme liegt darin, unbefugtes Betreten durch sogenanntes „Tailgating“ (eine Person folgt unberechtigt einer berechtigten Person) oder durch Einschleusen mehrerer Personen mit einem Zugangsausweis zu verhindern. Ohne solche Einrichtungen könnte es passieren, dass fremde Personen unerkannt in Serverräume oder Entwicklungsbereiche gelangen. Mit einer Vereinzelungsanlage kann hingegen zuverlässig sichergestellt werden, dass nur eine eindeutig identifizierte Person Zutritt erhält.  Für die Umsetzung kann eine Institution mehrere Möglichkeiten nutzen: (1) Drehkreuze oder Sensorschleusen können an Hauptzugängen zu Bereichen mit kritischen Informationen eingesetzt werden, wobei sie mit Zutrittskontrollsystemen wie Chipkarten- oder Biometrie-Lesern kombiniert werden können. (2) Eine Zwei-Türen-Schleuse kann eingerichtet werden, die erst die zweite Tür freigibt, wenn die erste korrekt geschlossen ist und die Person authentifiziert wurde. (3) Sensorische Zusatzkontrollen wie Gewichtserkennung oder Volumendetektion können dabei helfen, dass keine zweite Person unerkannt mit hindurchgeht. Zudem kann die Wirksamkeit erhöht werden, wenn diese Systeme mit klaren Nutzungsregeln, wie Schulungen zum richtigen Durchschreiten und Hinweisschildern, ergänzt werden. Auch ein regelmäßiger Funktionstest der Anlagen kann helfen, Manipulation oder Fehlfunktionen frühzeitig zu erkennen.

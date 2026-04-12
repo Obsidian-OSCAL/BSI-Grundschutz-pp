@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.4.1.1 Unabhängigkeit der Autorisierung
 parent_control: TEST.4.1 Autorisierung von Änderungen
+stmt_modal_verb: KANN
+stmt_action_word: autorisieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '4'
 ---
 
 
@@ -12,11 +17,11 @@ Gruppe: [TEST.4 Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/T
 ---
 
 ** Übergeordnetes Control: ** [TEST.4.1 Autorisierung von Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.1%20Autorisierung%20von%20Änderungen.md)
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [TEST.4.1.1.1 Staging](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.4.1.1.1%20Staging.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.4%20Freigabe.md) *** |  | KANN | kritische Änderungen | auch durch eine von der Implementierung unabhängige Person | autorisieren | IT-Betriebskonzept | >Änderungen und Tests KANN kritische Änderungen auch durch eine von der Implementierung unabhängige Person autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.4%20Freigabe.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | kritische Änderungen | auch durch eine von der Implementierung unabhängige Person | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests KANN kritische Änderungen auch durch eine von der Implementierung unabhängige Person autorisieren.</span>
 
 > [!info]- Guidance
 >Eine Freigabe durch eine unabhängige Person ist die nachweisliche Bestätigung der Testergebnisse durch eine fachlich qualifizierte, aber nicht an der Entwicklung, Durchführung oder unmittelbaren Implementierung der getesteten Änderung beteiligte Person. Ziel ist es, Objektivität und Unvoreingenommenheit sicherzustellen und das Vier-Augen-Prinzip für kritische Änderungen zu wahren. Hierbei genügt es, wenn neben beteiligten Personen auch eine unabhängige Person die Änderung autorisiert hat, wie z.B. bei einem Change Advisory Board, an dem mehrere Personen beteiligt sind. Die geltenden Anforderungen sind alle für das Zielobjekt ausgewählten Sicherheitsanforderungen, z.B. Verifikation korrekter TLS-Konfiguration oder Fertigstellung einer Datensicherung mit korrektem Umfang zu geforderter Zeit gemäß Konzept. Empfehlenswert ist es den Prozess in einem Versionkontrollsystem abzubilden, sodass die Dokumentation der Änderungen und der Freigabe weitestgehend automatisiert stattfindet.

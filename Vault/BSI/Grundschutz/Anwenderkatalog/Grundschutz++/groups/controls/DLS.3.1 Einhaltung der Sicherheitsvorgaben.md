@@ -1,24 +1,30 @@
 ---
 tags:
-- Lieferketten
+- lieferketten
 - dls31-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+stmt_documentation: Liste der Hersteller und Dienstleister
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.1 - Einhaltung der Sicherheitsvorgaben
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [DLS.3 Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DLS.3.1.1 Audit oder Zertifikat](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.1.1%20Audit%20oder%20Zertifikat.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *** | Dienstleistungen | SOLLTE | die Einhaltung der Sicherheitsvorgaben durch den Dienstleister | {{regelmäßig}} | überprüfen | Liste der Hersteller und Dienstleister | >Dienstleistersteuerung für Dienstleistungen SOLLTE die Einhaltung der Sicherheitsvorgaben durch den Dienstleister {{ insert: param, dls.3.1-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Einhaltung der Sicherheitsvorgaben durch den Dienstleister | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Liste der Hersteller und Dienstleister](documentation_guidelines_Liste der Hersteller und Dienstleister) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE die Einhaltung der Sicherheitsvorgaben durch den Dienstleister {{ insert: param, dls.3.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Hierzu ist zu prüfen, ob Anzeichen vorliegen, dass der Dienstleister die im Vertrag geforderten Vorgaben nicht einhält und falls erforderlich Gegenmaßnahmen einzuleiten. Die Prüfung kann z.B. Zertifikate, regelmäßige Stichproben oder das Monitoring von Datenleaks vorsehen.

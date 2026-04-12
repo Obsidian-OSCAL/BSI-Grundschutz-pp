@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.11.2 Führen als Vorbild
+stmt_target_object_category: Führungskräfte
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '1'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.11 Sensibilisierung der Leitungsebene](BSI/Grundschutz/Anwenderkat
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Sensibilisierung der Leitungsebene](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.11%20Sensibilisierung%20der%20Leitungsebene.md) *** | Führungskräfte | SOLLTE | zu ihrer Vorbildfunktion bei der Informationssicherheit |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Führungskräfte SOLLTE zu ihrer Vorbildfunktion bei der Informationssicherheit sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Sensibilisierung der Leitungsebene](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.11%20Sensibilisierung%20der%20Leitungsebene.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Führungskräfte](target_object_categories_Führungskräfte_4779a07f-e7fd-4837-a920-7ab9254b0dd5) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zu ihrer Vorbildfunktion bei der Informationssicherheit |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Führungskräfte SOLLTE zu ihrer Vorbildfunktion bei der Informationssicherheit sensibilisieren.</span>
 
 > [!info]- Guidance
 >Die Vorbildfunktion von Führungskräften ist entscheidend, um eine robuste Sicherheitskultur zu etablieren und die Einhaltung der geschulten Inhalte im Arbeitsalltag zu gewährleisten.

@@ -1,23 +1,30 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.13.1.1 SPAM-Filter
 parent_control: KONF.13.1 Filtern schädlicher Nachrichten
+stmt_target_object_category: Interpersonelle Kommunikation
+stmt_modal_verb: SOLLTE
+stmt_action_word: blockieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.13.1.1 - SPAM-Filter
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
 ---
 
 ** Übergeordnetes Control: ** [KONF.13.1 Filtern schädlicher Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.13.1%20Filtern%20schädlicher%20Nachrichten.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md) *** | Interpersonelle Kommunikation | SOLLTE | die Zustellung unerwünschter Nachrichten |  | blockieren | Konfigurationshistorie | >Konfiguration für Interpersonelle Kommunikation SOLLTE die Zustellung unerwünschter Nachrichten blockieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Interpersonelle Kommunikation](target_object_categories_Interpersonelle Kommunikation_047aa523-6955-423d-924e-8376fb1d5722) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Zustellung unerwünschter Nachrichten |  | [blockieren](action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Interpersonelle Kommunikation SOLLTE die Zustellung unerwünschter Nachrichten blockieren.</span>
 
 > [!info]- Guidance
 >Unter Zustellung unerwünschter Nachrichten ist das Blockieren oder Filtern von Spam, Phishing-Versuchen, Social-Engineering-Nachrichten oder belästigender Kommunikation zu verstehen. Diese Anforderung zielt darauf ab, die Integrität der Kommunikationskanäle zu wahren und das Risiko von Sicherheits- oder Vertrauensbrüchen zu reduzieren. Ohne geeignete Filtermechanismen könnte Schadsoftware per Anhang eingeschleust werden, sensible Informationen könnten durch täuschend echte Phishing-Nachrichten abgegriffen werden oder Mitarbeitende könnten durch gezielte Belästigungen in ihrer Arbeitsfähigkeit eingeschränkt werden. Zur Umsetzung kann eine Institution verschiedene Ansätze kombinieren: (1) Der Einsatz serverseitiger Filtermechanismen auf Mail-Gateways oder Collaboration-Plattformen kann zentral die meisten unerwünschten Nachrichten aussortieren. (2) Ergänzend können clientseitige Filterregeln aktiviert werden, die Benutzern zusätzliche Möglichkeiten zur Sortierung bieten, etwa über Whitelists und Blacklists. Praktisch kann es auch hilfreich sein, Quarantäneordner einzurichten, damit Anwender verdächtige Nachrichten selbständig einsehen und fälschlich blockierte Nachrichten zurückholen können.

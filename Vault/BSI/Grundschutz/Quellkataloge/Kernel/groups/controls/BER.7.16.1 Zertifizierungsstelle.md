@@ -1,25 +1,30 @@
 ---
 tags:
-- Cryptography
+- cryptography
 - ber7161-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.7.16.1 Zertifizierungsstelle
 parent_control: BER.7.16 Vorgaben für die Schlüsselbeglaubigung
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.16.1 - Zertifizierungsstelle
-Tags: "[Cryptography](tags_Cryptography)"
+Tag: [[tags_Cryptography|Cryptography]]
 Gruppe: [BER.7 Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md)
 ---
 
 ** Übergeordnetes Control: ** [BER.7.16 Vorgaben für die Schlüsselbeglaubigung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BER.7.16%20Vorgaben%20für%20die%20Schlüsselbeglaubigung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md) *** |  | SOLLTE | die Beglaubigung von Schlüsseln | {{einer zuständigen Person oder Rolle}} | zuweisen | IT-Betriebskonzept | >Berechtigung SOLLTE die Beglaubigung von Schlüsseln {{ insert: param, ber.7.16.1-prm1 }} zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Beglaubigung von Schlüsseln | {{einer zuständigen Person oder Rolle}} | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die Beglaubigung von Schlüsseln {{ insert: param, ber.7.16.1-prm1 }} zuweisen.</span>
 
 > [!info]- Guidance
 >Die Beglaubigung von Schlüsseln ist technisch komplex. Gleichzeitig hängt von ihr die Vertrauensstellung von Systemen und Anwendungen im Informationsverbund ab. Daher ist es sinnvoll diese Aufgabe konkret bestimmten Personen oder Rollen zuzuweisen.

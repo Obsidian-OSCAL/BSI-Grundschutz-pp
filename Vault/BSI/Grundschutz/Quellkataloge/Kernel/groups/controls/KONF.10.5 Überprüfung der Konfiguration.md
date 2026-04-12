@@ -1,8 +1,15 @@
 ---
-tags: konf105-prm1
+tags:
+- konf105-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.10.5 Überprüfung der Konfiguration
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '4'
 ---
 
 
@@ -11,11 +18,11 @@ control: KONF.10.5 Überprüfung der Konfiguration
 Gruppe: [KONF.10 Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [KONF.10.5.1 Automatisierte Überprüfung der Konfiguration](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.10.5.1%20Automatisierte%20Überprüfung%20der%20Konfiguration.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md) *** | Anwendungen | SOLLTE | die Übereinstimmung der tatsächlichen Konfiguration mit dem Referenzzustand | {{regelmäßig}} | überprüfen | Konfigurationshistorie | >Konfiguration für Anwendungen SOLLTE die Übereinstimmung der tatsächlichen Konfiguration mit dem Referenzzustand {{ insert: param, konf.10.5-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Übereinstimmung der tatsächlichen Konfiguration mit dem Referenzzustand | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen SOLLTE die Übereinstimmung der tatsächlichen Konfiguration mit dem Referenzzustand {{ insert: param, konf.10.5-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Referenzzustand („baseline configuration“) bezeichnet hier die dokumentierte und freigegebene Konfiguration der Anwendung, also die gewünschte und autorisierte Einstellung von Parametern, Diensten und Komponenten. Die tatsächliche Konfiguration ist die aktuelle technische Umsetzung dieser Einstellungen der Anwendung selbst. Der Abgleich beider Zustände dient vor allem der Vermeidung von Configuration Drift – d.h. dass Anwendungen schleichend von der definierten Grundkonfiguration abweichen. Dies könnte auftreten, wenn Änderungen nicht zentral dokumentiert oder automatisierte Installationen nicht einheitlich umgesetzt werden. Ohne diese Kontrolle könnte es zu unbemerkten Fehlkonfigurationen kommen, die Sicherheitslücken öffnen oder Betriebsstörungen verursachen. Durch regelmäßige Vergleiche kann eine Institution sicherstellen, dass Anwendungen konsistent, vertrauenswürdig und wartbar bleiben. Die Umsetzung kann technisch etwa mit Skripten erfolgen, die automatisiert Konfigurationsparameter auslesen und vergleichen. Auch der Einsatz von „Configuration Management“- oder „Compliance Scanning“-Werkzeugen kann unterstützen, indem sie Differenzen visualisieren und Reports erzeugen. Prozessual kann es hilfreich sein, Prüfintervalle nach Kritikalitätsklassen zu staffeln (z. B. sicherheitskritische Anwendungen wöchentlich, weniger kritische vierteljährlich) und Ergebnisse in Change-Management-Prozesse zurückzuführen.

@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.5.1 Einschränkung und Inspektion von Verbindungen
+stmt_target_object_category: Netze
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Firewallregeln
+control_effort_level: '2'
 ---
 
 
@@ -10,11 +16,11 @@ control: ARCH.5.1 Einschränkung und Inspektion von Verbindungen
 Gruppe: [ARCH.5 Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ARCH.5.1.1 Blockieren anfälliger Netzprotokolle](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.1%20Blockieren%20anfälliger%20Netzprotokolle.md)> [ARCH.5.1.2 Netzbasierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.2%20Netzbasierte%20Angriffe.md)> [ARCH.5.1.3 TCP-basierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.3%20TCP-basierte%20Angriffe.md)> [ARCH.5.1.4 UDP-basierte Angriffe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.4%20UDP-basierte%20Angriffe.md)> [ARCH.5.1.5 Deaktivierung von Split Tunneling](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.5%20Deaktivierung%20von%20Split%20Tunneling.md)> [ARCH.5.1.6 Blockieren direkter Management-Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.6%20Blockieren%20direkter%20Management-Verbindungen.md)> [ARCH.5.1.7 Edge-Routing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.7%20Edge-Routing.md)> [ARCH.5.1.8 Inspektion verschlüsselter Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.8%20Inspektion%20verschlüsselter%20Verbindungen.md)> [ARCH.5.1.9 Filterung von DNS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.9%20Filterung%20von%20DNS.md)> [ARCH.5.1.10 Webfilterung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.10%20Webfilterung.md)> [ARCH.5.1.11 P-A-P-Struktur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.11%20P-A-P-Struktur.md)> [ARCH.5.1.12 Software-definierte Verbindungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.12%20Software-definierte%20Verbindungen.md)> [ARCH.5.1.13 Produktdiversität](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.5.1.13%20Produktdiversität.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *** | Netze | SOLLTE | Verbindungen zwischen IT-Systemen |  | einschränken | Firewallregeln | >Architektur für Netze SOLLTE Verbindungen zwischen IT-Systemen einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Perimeterschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.5%20Perimeterschutz.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Netze](target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Verbindungen zwischen IT-Systemen |  | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Firewallregeln](documentation_guidelines_Firewallregeln) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE Verbindungen zwischen IT-Systemen einschränken.</span>
 
 > [!info]- Guidance
 >Über Netverbindungen können unbeabsichtigte Verbindungen aufgebaut werden oder netzbasierte Angriffe über das Internet gegen die Institution erfolgen. Unerwünschter Datenverkehr nach außen können z.B. private IP-Adressen (RFC 1918 leakage), Multicasting, TCP/UDP Ports für veraltete, angreifbare Protokolle oder ICMP-Verkehr sein. Die Beschränkung der Verbindung zwischen IT-Systemen kann sowohl durch zustandsbehaftete Paketfilter, als auch mit Application Layer Gateways umgesetzt werden. Empfehlenswert ist eine Kombination aus Allowlisting, IP-Reputationslisten, Deep Packet Inspection und Durchsatzratenbegrenzung. Hierbei können Verbindungen auch nach Kategorien autorisiert werden (z.B. anhand von IP-Subnetzen oder Voraussetzungen wie per Zertifikat authentifzierten IT-Systemen). Damit dabei keine unnötigen Verbindungen zugelassen werden, ist es wichtig, die Kategorisierung möglich genau zu wählen (z.B. möglichst einzelne Subnetze statt des ganzen Netzes oder nur bestimmte Ports oder Anwendungen zuzulassen).

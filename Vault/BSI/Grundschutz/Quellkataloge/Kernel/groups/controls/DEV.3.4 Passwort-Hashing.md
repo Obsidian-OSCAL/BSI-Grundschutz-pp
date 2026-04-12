@@ -1,21 +1,28 @@
 ---
-tags: Produktbeschreibung_Cryptography
+tags:
+- produktbeschreibung_cryptography
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.3.4 Passwort-Hashing
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: aktivieren
+stmt_documentation: Freigabeplan
+control_effort_level: '1'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.3.4 - Passwort-Hashing
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)" "[Cryptography](tags_Cryptography)"
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Cryptography|Cryptography]]
 Gruppe: [DEV.3 Softwareentwicklung - Härtung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Härtung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md) *** | Anwendungen | SOLLTE | das Hashing von Passwörtern, die zur Authentifizierung an der Anwendung verwendet werden | vor der Verarbeitung oder Speicherung | aktivieren | Freigabeplan | >Entwicklung für Anwendungen SOLLTE das Hashing von Passwörtern, die zur Authentifizierung an der Anwendung verwendet werden vor der Verarbeitung oder Speicherung aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Härtung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | das Hashing von Passwörtern, die zur Authentifizierung an der Anwendung verwendet werden | vor der Verarbeitung oder Speicherung | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Freigabeplan](documentation_guidelines_Freigabeplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE das Hashing von Passwörtern, die zur Authentifizierung an der Anwendung verwendet werden vor der Verarbeitung oder Speicherung aktivieren.</span>
 
 > [!info]- Guidance
 >Ziel ist der Schutz vor Angriffen, welche Passwörter beim Transport oder aus dem Speicher auslesen und sich hiermit anmelden. Dies kann durch Hash und Salt gemäß BSI TR-02102 vermieden werden.

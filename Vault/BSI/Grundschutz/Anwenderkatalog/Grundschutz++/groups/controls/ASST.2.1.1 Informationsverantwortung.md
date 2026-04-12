@@ -1,9 +1,16 @@
 ---
-tags: asst211-prm1
+tags:
+- asst211-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.2.1.1 Informationsverantwortung
 parent_control: ASST.2.1 Inventar der Informationen
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: Inventar Informationen
+control_effort_level: '3'
 ---
 
 
@@ -14,9 +21,9 @@ Gruppe: [ASST.2 Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/
 
 ** Übergeordnetes Control: ** [ASST.2.1 Inventar der Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.2.1%20Inventar%20der%20Informationen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md) *** | Daten | SOLLTE | die Zuständigkeit für deren Verarbeitung | {{einer zuständigen Person oder Rolle}} | zuweisen | Inventar Informationen | >Informationen und Assets für Daten SOLLTE die Zuständigkeit für deren Verarbeitung {{ insert: param, asst.2.1.1-prm1 }} zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Zuständigkeit für deren Verarbeitung | {{einer zuständigen Person oder Rolle}} | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Inventar Informationen](documentation_guidelines_Inventar Informationen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE die Zuständigkeit für deren Verarbeitung {{ insert: param, asst.2.1.1-prm1 }} zuweisen.</span>
 
 > [!info]- Guidance
 >Hiermit ist das Eigentum oder die institutionsinterne Zuständigkeit für die Nutzung und den damit einhergehenden Schutz der jeweiligen Informationen und Assets (Asset Ownership) gemeint. Klare Zuweisungen stellen sicher, dass den Beteiligten nicht nur ihre prozessualen Aufgaben, sondern auch ihre Zuständigkeit für die konkreten Informationen bewusst und die damit verbundenen Pflichten bewusst sind. Dies kann durch dezentrales Nachhalten der Verantwortung nachgehalten werden. Alternativ kann auch eine Gruppierung der Informationen nach Assets wie Anwendungen oder Diensten umgesetzt werden, so dass die Zuständigen für das Asset dadurch auch die Zuständigkeit für die Informationen enthalten, die dort verarbeitet werden.

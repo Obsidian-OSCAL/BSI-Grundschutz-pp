@@ -1,22 +1,28 @@
 ---
-tags: Lieferketten_Advanced_Persistent_Threats_APT
+tags:
+- lieferketten_advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.8 Konformitätsnachweise
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.8 - Konformitätsnachweise
-Tags: "[Lieferketten](tags_Lieferketten)" "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.4.8.1 Zertifizierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.8.1%20Zertifizierung.md)> [BES.4.8.2 Cloud-Konformität](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.8.2%20Cloud-Konformität.md)> [BES.4.8.3 IT-Grundschutz-Analyse der Infrastruktur](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.8.3%20IT-Grundschutz-Analyse%20der%20Infrastruktur.md)> [BES.4.8.4 Offenlegung der Risikoanalyse](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.8.4%20Offenlegung%20der%20Risikoanalyse.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *** | Einkäufe | SOLLTE | Nachweise des Lieferanten zur Erfüllung der Sicherheitskriterien |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE Nachweise des Lieferanten zur Erfüllung der Sicherheitskriterien vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Nachweise des Lieferanten zur Erfüllung der Sicherheitskriterien |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE Nachweise des Lieferanten zur Erfüllung der Sicherheitskriterien vereinbaren.</span>
 
 > [!info]- Guidance
 >Nachweise können z.B. durch eine passende Zertifizierung (etwa nach IT-Grundschutz bei Dienstleistern oder CCRA bei IT-Produkten), ein Testat (z.B. C5-Testat für Cloud-Anbieter), oder durch die Vorlage von Sicherheitskonzepten, Risikoanalysen und Pentesting-Ergebnissen erbracht werden.

@@ -1,21 +1,27 @@
 ---
-tags: Physical_Access_Control
+tags:
+- physical_access_control
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.2 Schließen von Türen und Fenstern
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.2 - Schließen von Türen und Fenstern
-Tags: "[Physical Access Control](tags_Physical Access Control)"
+Tag: [[tags_Physical Access Control|Physical Access Control]]
 Gruppe: [SENS.8 Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md) *** | Nutzende, Gebäude | SOLLTE | zum Verschließen von Fenstern und Türen | beim Verlassen von Räumlichkeiten | anweisen | Arbeitsanweisung | >Sensibilisierung für Nutzende von Gebäuden SOLLTE zum Verschließen von Fenstern und Türen beim Verlassen von Räumlichkeiten anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Nutzende, Gebäude | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zum Verschließen von Fenstern und Türen | beim Verlassen von Räumlichkeiten | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende von Gebäuden SOLLTE zum Verschließen von Fenstern und Türen beim Verlassen von Räumlichkeiten anweisen.</span>
 
 > [!info]- Guidance
 >Durch unverschlossene Türen und Fenster könnten Unbefugte Zutritt erlangen und (in Außenwänden) auch Umwelteinflüsse wirksam werden (Regen, Sturm, Frost), so dass IT, sensible Informationen und andere Werte in Gefahr geraten, zerstört, beschädigt, ausgespäht oder entfernt werden könnten. Sobald die Anwesenheit von Pesonen in einem Raum endet, sind Türen und Fenster daher so  zu schließen, dass von Außen das unbefugte Öffnen und (in Außenwänden) das Eindringen von Umwelteinflüssen verhindert wird. Türen werden z.B. abgeschlossen oder Türschließsysteme in den entsprechenden Betriebszustand gebracht, Fenster ganz geschlossen und verriegelt. Nicht erforderlich ist das Verschließen der Türen von fensterlosen Innenräumen, in denen keine IT, sensible Informationen oder andere Werte aufbewahrt werden, oder wenn Risiken praktisch ausgeschlossen werden können (z.B. Kippen von Außenfenstern in höheren Geschossen bei gutem Wetter vor kurzer Abwesenheit). Dies gilt auch für Gemeinschaftsräume, in denen sich IT-Systeme oder Datenträger befinden, z.B. VK-Konferenzzimmer.

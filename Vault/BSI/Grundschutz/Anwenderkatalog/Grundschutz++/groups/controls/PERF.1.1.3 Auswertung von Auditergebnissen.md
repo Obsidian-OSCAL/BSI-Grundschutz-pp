@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.1.1.3 Auswertung von Auditergebnissen
 parent_control: PERF.1.1 Verfahren und Regelungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Gru
 
 ** Übergeordnetes Control: ** [PERF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERF.1.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *** |  | SOLLTE | die Umsetzung von festgelegten Maßnahmen aus Auditergebnissen |  | überprüfen |  | >Monitoring-Evaluation SOLLTE die Umsetzung von festgelegten Maßnahmen aus Auditergebnissen überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Leistungsbewertung des ISMS](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Umsetzung von festgelegten Maßnahmen aus Auditergebnissen |  | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE die Umsetzung von festgelegten Maßnahmen aus Auditergebnissen überprüfen.</span>
 
 > [!info]- Guidance
 >Die Auswertung von Auditergebnissen dient dazu, systematische Abweichungen, Schwachstellen und Verbesserungspotenziale im Informationssicherheitsmanagement zu identifizieren. Im Audit festgestellte Abweichungen, Hinweise und Empfehlungen werden ausgewertet, nach ihrer Bedeutung geordnet und in konkrete Maßnahmen überführt. Diese Maßnahmen werden anschließend überwacht und ihre Umsetzung nachverfolgt.

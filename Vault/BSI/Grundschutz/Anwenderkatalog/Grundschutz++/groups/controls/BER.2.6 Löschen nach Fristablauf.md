@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.2.6 Löschen nach Fristablauf
+stmt_modal_verb: SOLLTE
+stmt_action_word: löschen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [BER.2 Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschut
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md) *** |  | SOLLTE | nicht mehr benötigte Identitäten | nach Ablauf der Löschfristen | löschen | IT-Betriebskonzept | >Berechtigung SOLLTE nicht mehr benötigte Identitäten nach Ablauf der Löschfristen löschen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | nicht mehr benötigte Identitäten | nach Ablauf der Löschfristen | [löschen](action_words_löschen_78d93859-b886-4145-9dd8-201869ce158e) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE nicht mehr benötigte Identitäten nach Ablauf der Löschfristen löschen.</span>
 
 > [!info]- Guidance
 >Gesetzliche Aufbewahrungs- und Löschfristen ergeben sich aus dem Compliance-Management, z.B. aus Regelungen der DSGVO oder dem Handels- und Steuerrecht. Sicheres Löschen bedeutet, Daten so zu entfernen, dass sie mit vertretbarem Aufwand (auch forensisch) nicht mehr rekonstruierbar sind. Je nach Medium geschieht das z. B. durch verifizierbares Überschreiben, kryptografisches Löschen (Schlüsselvernichtung) oder physische Zerstörung (inklusive zugehöriger Metadaten, Caches und Datensicherungen).

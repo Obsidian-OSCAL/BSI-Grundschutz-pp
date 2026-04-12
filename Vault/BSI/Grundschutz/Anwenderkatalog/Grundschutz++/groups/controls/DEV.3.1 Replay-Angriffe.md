@@ -1,21 +1,28 @@
 ---
-tags: Authentication_and_Authorization_Replay_Attacks_Session_Hijacking_Produktbeschreibung
+tags:
+- authentication_and_authorization_replay_attacks_session_hijacking_produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.3.1 Replay-Angriffe
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: blockieren
+stmt_documentation: Freigabeplan
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.3.1 - Replay-Angriffe
-Tags: "[Authentication and Authorization](tags_Authentication and Authorization)" "[Replay Attacks](tags_Replay Attacks)" "[Session Hijacking](tags_Session Hijacking)" "[Produktbeschreibung](tags_Produktbeschreibung)"
+> [!example]- Tags:> [[tags_Authentication and Authorization|Authentication and Authorization]]> [[tags_Replay Attacks|Replay Attacks]]> [[tags_Session Hijacking|Session Hijacking]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [DEV.3 Softwareentwicklung - Härtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Härtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md) *** | Anwendungen | SOLLTE | Replay-Angriffe |  | blockieren | Freigabeplan | >Entwicklung für Anwendungen SOLLTE Replay-Angriffe blockieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Härtung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.3%20Softwareentwicklung%20-%20Härtung.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Replay-Angriffe |  | [blockieren](action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67) | [Freigabeplan](documentation_guidelines_Freigabeplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE Replay-Angriffe blockieren.</span>
 
 > [!info]- Guidance
 >Wenn die Anwendung Anfragen von anderen Anwendungen oder IT-Systemen entgegennimmt (z.B. per API), dann besteht die Gefahr, dass Angreifer eine vorherige Anfrage erneut verwenden um unbefugt Zugang zu erhalten. Maßnahmen können sein: (1) Identifikatoren, die nur einmal gültig sind (Nonce, Sequenznummern), (2) kryptographische Mechanismen wie MAC und Digitale Signaturen, Challenge-Response-Authentifizierung, OTP.

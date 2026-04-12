@@ -1,22 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.9 Umgang mit Änderungen
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.9 - Umgang mit Änderungen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.5.9.1 Autorisierung von Änderungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.5.9.1%20Autorisierung%20von%20Änderungen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Dienstleistungen | SOLLTE | Regelungen für den Umgang mit Änderungen |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen SOLLTE Regelungen für den Umgang mit Änderungen vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Regelungen für den Umgang mit Änderungen |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE Regelungen für den Umgang mit Änderungen vereinbaren.</span>
 
 > [!info]- Guidance
 >Unkontrollierte oder unklare Änderungen bringen Risiken für die Verfügbarkeit, Integrität oder Vertraulichkeit von Informationen mit sich – etwa wenn ein Dienstleister plötzlich eine neue Softwareversion einführt, ohne die Auswirkungen auf Schnittstellen zu prüfen. Vereinbarte Prozesse für den Umgang mit Änderungen können dagegen sicherstellen, dass Abhängigkeiten transparent bleiben und Risiken im Vorfeld bewertet werden. Zur Umsetzung kann eine Institution mit Dienstleistern definieren, dass Änderungen vorab angekündigt und dokumentiert werden, z. B. durch ein Ticket- oder Freigabe-System, das beide Seiten einsehen können. Es kann hilfreich sein, verschiedene Kategorien von Änderungen (z. B. Standardänderungen, Notfalländerungen, größere Releases) zu vereinbaren und abhängig von der Kritikalität unterschiedliche Prüf- und Genehmigungsschritte festzulegen. Transparenz kann durch regelmäßige Änderungsberichte oder Dashboards erreicht werden, die auch historische Änderungen nachvollziehbar machen. Praktische Maßnahmen können sein: (1) Einführung eines Test- und Abnahmefensters vor produktiven Änderungen, (2) Einsatz von Versionskontrolle oder Änderungsprotokollen, um Auswirkungen gezielt zurückverfolgen zu können, (3) Einrichtung klarer Kommunikationswege, damit die Institution rechtzeitig von geplanten Änderungen erfährt und eigene Schutzmaßnahmen – etwa zusätzliche Backups – vorbereiten kann.

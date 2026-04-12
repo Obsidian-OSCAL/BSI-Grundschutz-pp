@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.6.1.1 Festlegung einer Sicherheitsstrategie
 parent_control: GC.6.1 Festlegung von Zielen für die Informationssicherheit
+stmt_modal_verb: SOLLTE
+stmt_action_word: festlegen
+stmt_documentation: Informationssicherheitsstrategie
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [GC.6 Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderka
 
 ** Übergeordnetes Control: ** [GC.6.1 Festlegung von Zielen für die Informationssicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1%20Festlegung%20von%20Zielen%20für%20die%20Informationssicherheit.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *** |  | SOLLTE | eine grundlegende Strategie zur Erreichung der Ziele für die Informationssicherheit | gemeinsam mit der Institutionsleitung | festlegen | Informationssicherheitsstrategie | >Governance und Compliance SOLLTE eine grundlegende Strategie zur Erreichung der Ziele für die Informationssicherheit gemeinsam mit der Institutionsleitung festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine grundlegende Strategie zur Erreichung der Ziele für die Informationssicherheit | gemeinsam mit der Institutionsleitung | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) | [Informationssicherheitsstrategie](documentation_guidelines_Informationssicherheitsstrategie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance SOLLTE eine grundlegende Strategie zur Erreichung der Ziele für die Informationssicherheit gemeinsam mit der Institutionsleitung festlegen.</span>
 
 > [!info]- Guidance
 >Die Sicherheitsstrategie legt fest, wie die Organisation die Ziele erreichen möchte und fokussiert inbesondere den übergeordneten Ansatz und die Prinzipien.

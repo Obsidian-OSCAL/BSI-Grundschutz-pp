@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.2.3.2 Software Bill of Materials (SBOM)
 parent_control: ASST.2.3 Inventar der Anwendungen
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Inventar Anwendungen
+control_effort_level: '4'
 ---
 
 
@@ -12,11 +18,11 @@ Gruppe: [ASST.2 Inventarisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/AS
 ---
 
 ** Übergeordnetes Control: ** [ASST.2.3 Inventar der Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.2.3%20Inventar%20der%20Anwendungen.md)
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ASST.2.3.2.1 Software Discovery](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.2.3.2.1%20Software%20Discovery.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Inventarisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.2%20Inventarisierung.md) *** | Anwendungen | SOLLTE | die Software Bill of Materials (SBOM) |  | dokumentieren | Inventar Anwendungen | >Informationen und Assets für Anwendungen SOLLTE die Software Bill of Materials (SBOM) dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Inventarisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.2%20Inventarisierung.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Software Bill of Materials (SBOM) |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Inventar Anwendungen](documentation_guidelines_Inventar Anwendungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Anwendungen SOLLTE die Software Bill of Materials (SBOM) dokumentieren.</span>
 
 > [!info]- Guidance
 >Eine Software Bill of Materials (SBOM) ist in diesem Zusammenhang eine strukturierte Liste aller Komponenten, Bibliotheken und Abhängigkeiten, die in einer Anwendung enthalten sind, einschließlich ihrer Versionen und Herkunft. Sie kann dabei sowohl Open-Source- als auch proprietäre Bestandteile erfassen und in maschinenlesbaren Formaten (z. B. SPDX, CycloneDX) vorliegen. Der Zweck dieser Dokumentation liegt darin, Transparenz über die eingesetzten Softwarebestandteile zu schaffen, sodass Abhängigkeiten, potenzielle Schwachstellen oder veraltete Komponenten nachvollziehbar bleiben. Ohne diese Transparenz könnte es bei Sicherheitsvorfällen, Lizenzkonflikten oder fehlender Wartbarkeit zu erheblichen Problemen kommen, während eine gepflegte SBOM die schnelle Identifikation von Risiken, die Minimierung von Vendor Lock-in und die Nachvollziehbarkeit der Software-Lieferkette unterstützen kann. Hierzu kann die BSI TR-03183-2 verwendet werden.

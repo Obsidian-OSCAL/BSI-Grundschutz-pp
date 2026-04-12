@@ -6,11 +6,10 @@ group_id: GC.5
 
 ** Group **
 # GC.5 - Prozess der Informationssicherheitseinstufung 
-** Übergeordnete Gruppe: **
- [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)## Controls
 
-> [!info]+ [[GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung.md|GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung]]
+> [!example]+ [[GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung.md|GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung]]
 >  - [[GC.5.1.1 Festlegung der Geschäftsprozesse.md|GC.5.1.1 Festlegung der Geschäftsprozesse]]
 >  - [[GC.5.1.2 Festlegung des Schutzbedarfs.md|GC.5.1.2 Festlegung des Schutzbedarfs]]
 >  - [[GC.5.1.3 Geschäftsprozesse mit hohem Schutzbedarf.md|GC.5.1.3 Geschäftsprozesse mit hohem Schutzbedarf]]

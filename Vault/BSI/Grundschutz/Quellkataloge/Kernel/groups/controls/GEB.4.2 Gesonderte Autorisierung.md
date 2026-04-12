@@ -1,8 +1,16 @@
 ---
-tags: geb42-prm1
+tags:
+- geb42-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.4.2 Gesonderte Autorisierung
+stmt_target_object_category: Standorte
+stmt_modal_verb: KANN
+stmt_action_word: autorisieren
+stmt_documentation: Prozess Identitäts- und Berechtigungsmanagement
+result_reference: Zutritt
+control_effort_level: '5'
 ---
 
 
@@ -12,9 +20,11 @@ Gruppe: [GEB.4 Sicherheitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Sicherheitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.4%20Sicherheitsbereiche.md) *** | Standorte | KANN | die Zutrittsberechtigung zu diesem Sicherheitsbereich | durch {{eine zuständige Person oder Rolle}} | autorisieren | Prozess Identitäts- und Berechtigungsmanagement | >Gebäudemanagement für Standorte KANN die Zutrittsberechtigung zu diesem Sicherheitsbereich durch {{ insert: param, geb.4.2-prm1 }} autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Sicherheitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.4%20Sicherheitsbereiche.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Zutrittsberechtigung zu diesem Sicherheitsbereich | durch {{eine zuständige Person oder Rolle}} | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Prozess Identitäts- und Berechtigungsmanagement](documentation_guidelines_Prozess Identitäts- und Berechtigungsmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN die Zutrittsberechtigung zu diesem Sicherheitsbereich durch {{ insert: param, geb.4.2-prm1 }} autorisieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zutritt](result_Zutritt_00000000-0000-0000-0000-000000000000) | Mit Zutritt wird das Betreten von abgegrenzten Bereichen wie z. B. Räumen oder geschützten Arealen in einem Gelände bezeichnet. Zutrittsberechtigungen erlauben somit Personen, bestimmte Umgebungen zu betreten, also beispielsweise ein Gelände, ein Gebäude oder definierte Räume eines Gebäudes. |
 
 > [!info]- Guidance
 >Eine zuständige Person oder Rolle kann beispielsweise die Sicherheitsbeauftragte, der Standortleiter, eine definierte Facility-Management-Rolle oder ein zentrales Berechtigungsmanagement sein. Die Anforderung bedeutet, dass der Zutritt zu einem definierten Sicherheitsbereich – also einem räumlich abgegrenzten Bereich, in dem sensible Werte wie IT-Systeme, Netzwerktechnik oder vertrauliche Unterlagen geschützt werden – nicht automatisch, sondern nur durch eine bewusste Autorisierung erteilt werden kann. Sinn und Zweck dieser Regelung liegt darin, unbefugte Zugriffe zu verhindern, die etwa durch unkontrollierte Weitergabe von Schlüsseln oder Zutrittskarten entstehen könnten. Ein Vorfall könnte sein, dass ein ehemaliger Mitarbeiter noch Zugang erhält und vertrauliche Unterlagen entwendet; durch eine klare Autorisierung kann sichergestellt werden, dass nur tatsächlich berechtigte Personen Zutritt erhalten. Zur Umsetzung kann eine Institution ein abgestuftes Verfahren einrichten, bei dem die Autorisierung dokumentiert und nachvollziehbar erfolgt. Dies kann z. B. durch ein zentrales elektronisches Zutrittskontrollsystem erfolgen, bei dem eine zuständige Rolle die Rechte gezielt freischalten und zeitlich begrenzen kann. Auch eine papierbasierte Liste mit Zutrittsberechtigungen kann sinnvoll sein, solange sie regelmäßig geprüft und aktualisiert wird. Praktisch hilfreich kann es sein, wenn (1) jede Berechtigung mit einem Enddatum versehen wird, (2) der Widerruf von Berechtigungen in die Prozesse für Personaländerungen integriert wird, und (3) das Gebäudemanagement regelmäßig Berichte über aktive Berechtigungen an die zuständige Person liefert. So kann sichergestellt werden, dass Zutrittsrechte nicht veralten und jederzeit eine klare Zuordnung von Personen zu Sicherheitsbereichen besteht.

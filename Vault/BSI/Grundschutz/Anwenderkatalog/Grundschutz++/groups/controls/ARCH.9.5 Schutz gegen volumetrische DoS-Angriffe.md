@@ -1,21 +1,28 @@
 ---
-tags: Hochverfügbarkeit_DDoS
+tags:
+- hochverfügbarkeit_ddos
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.5 Schutz gegen volumetrische DoS-Angriffe
+stmt_target_object_category: Netze
+stmt_modal_verb: KANN
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.5 - Schutz gegen volumetrische DoS-Angriffe
-Tags: "[Hochverfügbarkeit](tags_Hochverfügbarkeit)" "[DDoS](tags_DDoS)"
+> [!example]- Tags:> [[tags_Hochverfügbarkeit|Hochverfügbarkeit]]> [[tags_DDoS|DDoS]]
 Gruppe: [ARCH.9 Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md) *** | Netze | KANN | Schutzmaßnahmen gegen volumetrische DoS-Angriffe |  | aktivieren | Konfigurationshistorie | >Architektur für Netze KANN Schutzmaßnahmen gegen volumetrische DoS-Angriffe aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Netze](target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Schutzmaßnahmen gegen volumetrische DoS-Angriffe |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze KANN Schutzmaßnahmen gegen volumetrische DoS-Angriffe aktivieren.</span>
 
 > [!info]- Guidance
 >Volumetrische Angriffe können z.B. durch die Verwendung von Anycast-DNS, Upstream Rate Limiting, On-Premise- oder Cloud-Scrubbing, BGP FlowSpec-Filter, Auto-Null-Routing oder Remotely Triggered Blackholing abgewehrt werden.

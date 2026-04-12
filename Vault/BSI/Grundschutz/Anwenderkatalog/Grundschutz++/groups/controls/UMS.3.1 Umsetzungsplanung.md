@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: UMS.3.1 Umsetzungsplanung
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+stmt_documentation: Umsetzungsplan
+result_reference: Anforderung
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +17,11 @@ Gruppe: [UMS.3 Umsetzungsplanung und Priorisierung](BSI/Grundschutz/Anwenderkata
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Umsetzung (UMS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS%20Umsetzung.md)**<br> ***  &rarr; [Umsetzungsplanung und Priorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.3%20Umsetzungsplanung%20und%20Priorisierung.md) *** |  | MUSS | ein Verfahren zur Festlegung von Maßnahmen für die Umsetzung der bisher nicht umgesetzten Anforderungen | des Anforderungspakets als Ergebnis der Praktik Strukturmodellierung | verankern | Umsetzungsplan | >Umsetzung MUSS ein Verfahren zur Festlegung von Maßnahmen für die Umsetzung der bisher nicht umgesetzten Anforderungen des Anforderungspakets als Ergebnis der Praktik Strukturmodellierung verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Umsetzung (UMS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS%20Umsetzung.md)*<br> *  &rarr; [Umsetzungsplanung und Priorisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/UMS.3%20Umsetzungsplanung%20und%20Priorisierung.md) *</div> | [Umsetzung](practices_Umsetzung_af61e9e7-80ee-4630-b603-c615c6a966ec) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | ein Verfahren zur Festlegung von Maßnahmen für die Umsetzung der bisher nicht umgesetzten Anforderungen | des Anforderungspakets als Ergebnis der Praktik Strukturmodellierung | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Umsetzungsplan](documentation_guidelines_Umsetzungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Umsetzung MUSS ein Verfahren zur Festlegung von Maßnahmen für die Umsetzung der bisher nicht umgesetzten Anforderungen des Anforderungspakets als Ergebnis der Praktik Strukturmodellierung verankern.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Das Verfahren ist auf die Organisation abzustimmen. Dabei empfiehlt es sich zu prüfen, ob Maßnahmen etabliert sind, die mehrere Anforderungen zugleich abdecken. Ebenso kann das Verfahren genutzt werden, um Synergieeffekte zu erschließen, indem ähnliche Defizite in anderen Bereichen identifiziert und mit gemeinsamen Lösungen adressiert werden.

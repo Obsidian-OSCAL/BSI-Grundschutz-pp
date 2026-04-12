@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.7.2 Virenscan
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderka
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md) *** | Nutzende, Interpersonelle Kommunikation | SOLLTE | zum Virenscan von Dateien aus externen Quellen |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende von Interpersoneller Kommunikation SOLLTE zum Virenscan von Dateien aus externen Quellen sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Nutzende, Interpersonelle Kommunikation | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zum Virenscan von Dateien aus externen Quellen |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende von Interpersoneller Kommunikation SOLLTE zum Virenscan von Dateien aus externen Quellen sensibilisieren.</span>
 
 > [!info]- Guidance
 >Dateien aus externen Quellen (z.B. per E-Mail oder Messenger) könnten Schadprogramme enthalten. Bevor diese Dateien geöffnet oder anderweitig verarbeitet werden, ist eine Überprüfung mit einem Virenschutzprogramm oder einem dafür vorgesehenen Prüfsystem (z.B. Datenträgerschleuse) vorzunehmen.

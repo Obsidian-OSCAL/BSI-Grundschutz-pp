@@ -1,21 +1,31 @@
 ---
-tags: Produktbeschreibung
+tags:
+- produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.5.3 Integritätsprüfung
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: informieren
+stmt_documentation: Entwicklungsdokumentation
+result_reference: Integrität
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.5.3 - Integritätsprüfung
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)"
+Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [DEV.5 Softwareentwicklung - Updates](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.5%20Softwareentwicklung%20-%20Updates.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Updates](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.5%20Softwareentwicklung%20-%20Updates.md) *** | Anwendungen | SOLLTE | Nutzende über Möglichkeiten zur Verifikation der Integrität von Installations-, Update- und Patchdateien |  | informieren | Entwicklungsdokumentation | >Entwicklung für Anwendungen SOLLTE Nutzende über Möglichkeiten zur Verifikation der Integrität von Installations-, Update- und Patchdateien informieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Updates](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.5%20Softwareentwicklung%20-%20Updates.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Nutzende über Möglichkeiten zur Verifikation der Integrität von Installations-, Update- und Patchdateien |  | [informieren](action_words_informieren_80cfc5ed-d443-4e59-bb34-bec602457af9) | [Entwicklungsdokumentation](documentation_guidelines_Entwicklungsdokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE Nutzende über Möglichkeiten zur Verifikation der Integrität von Installations-, Update- und Patchdateien informieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Integrität](result_Integrität_00000000-0000-0000-0000-000000000000) | Eigenschaft, dass Informationen nur genau dann geändert oder gelöscht werden, wenn die Institution dies beabsichtigt hat. |
 
 > [!info]- Guidance
 >Dies kann z.B. durch die Veröffentlichung von Prüfsummen über einen authentifizierten Kanal wie eine Webseite mit X.509-Zertifikat erfolgen.

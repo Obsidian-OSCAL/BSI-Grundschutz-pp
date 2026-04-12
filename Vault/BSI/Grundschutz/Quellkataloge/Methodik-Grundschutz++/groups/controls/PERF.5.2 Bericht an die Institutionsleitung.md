@@ -1,8 +1,13 @@
 ---
-tags: perf52-prm1
+tags:
+- perf52-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.5.2 Bericht an die Institutionsleitung
+stmt_modal_verb: MUSS
+stmt_action_word: informieren
+control_effort_level: '0'
 ---
 
 
@@ -12,9 +17,9 @@ Gruppe: [PERF.5 Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *** |  | MUSS | die Institutionsleitung über den Stand des Managementsystems | {{regelmäßig}} anhand des Managementberichtes | informieren |  | >Monitoring-Evaluation MUSS die Institutionsleitung über den Stand des Managementsystems {{ insert: param, perf.5.2-prm1 }} anhand des Managementberichtes informieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Institutionsleitung über den Stand des Managementsystems | {{regelmäßig}} anhand des Managementberichtes | [informieren](action_words_informieren_80cfc5ed-d443-4e59-bb34-bec602457af9) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS die Institutionsleitung über den Stand des Managementsystems {{ insert: param, perf.5.2-prm1 }} anhand des Managementberichtes informieren.</span>
 
 > [!info]- Guidance
 >Sinn und Zweck der Anforderung liegt darin, die Leitungsebene regelmäßig und nachvollziehbar über den Sicherheitsstatus sowie über wesentliche Entwicklungen zu informieren. Damit kann die Leitung faktenbasiert Entscheidungen treffen, Prioritäten setzen und Ressourcen zielgerichtet bereitstellen. Ohne einen solchen Bericht könnte ein kritisches Risiko unbemerkt bleiben oder verspätet adressiert werden, etwa wenn wiederholt unbefugte Zugriffe auf sensible Daten auftreten. Ein gut aufbereiteter Bericht kann hingegen Transparenz schaffen, Verantwortlichkeiten verdeutlichen und Vertrauen in die Steuerung der Institution fördern. Zur Umsetzung ist ein fester Rhythmus für die Erstellung des Managementberichts zu etablieren, etwa quartalsweise oder anlassbezogen nach einem schweren Vorfall. Der Bericht kann eine verdichtete Darstellung enthalten, zum Beispiel in Form von übersichtlichen Kennzahlen (Anzahl relevanter Vorfälle, Zeit bis zur Entdeckung, Erfüllungsgrad definierter Sicherheitsmaßnahmen) und Trendanalysen. Ergänzend kann eine einheitliche Vorlage genutzt werden, die eine klare Struktur vorgibt, sodass die Leitungsebene schnell die entscheidenden Punkte erkennt. Technisch kann dies durch den Einsatz gängiger Office-Tools unterstützt werden, etwa durch die Visualisierung von Trends in Diagrammen. Prozessual können Rückfragen und Diskussionen in einer kurzen Managementrunde eingeplant werden, um den reinen Informationsfluss zu einem aktiven Austausch zu machen.

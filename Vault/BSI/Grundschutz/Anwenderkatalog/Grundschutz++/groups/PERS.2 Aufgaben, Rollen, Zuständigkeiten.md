@@ -6,18 +6,17 @@ group_id: PERS.2
 
 ** Group **
 # PERS.2 - Aufgaben, Rollen, Zuständigkeiten 
-** Übergeordnete Gruppe: **
- [PERS Personal](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [PERS Personal](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)## Controls
 
-> [!info]+ [[PERS.2.1 Aufgaben.md|PERS.2.1 Aufgaben]]
+> [!example]+ [[PERS.2.1 Aufgaben.md|PERS.2.1 Aufgaben]]
 
-> [!info]+ [[PERS.2.2 Rollen.md|PERS.2.2 Rollen]]
+> [!example]+ [[PERS.2.2 Rollen.md|PERS.2.2 Rollen]]
 
-> [!info]+ [[PERS.2.3 Rollentrennung.md|PERS.2.3 Rollentrennung]]
+> [!example]+ [[PERS.2.3 Rollentrennung.md|PERS.2.3 Rollentrennung]]
 >  - [[PERS.2.3.1 Rollentrennung - Verzeichnisdienst.md|PERS.2.3.1 Rollentrennung - Verzeichnisdienst]]
 >  - [[PERS.2.3.2 Rollentrennung - Virtualisierung.md|PERS.2.3.2 Rollentrennung - Virtualisierung]]
 >  - [[PERS.2.3.3 Rollentrennung - Audits.md|PERS.2.3.3 Rollentrennung - Audits]]
 >  - [[PERS.2.3.4 Rollentrennung - Änderungen und Tests.md|PERS.2.3.4 Rollentrennung - Änderungen und Tests]]
 
-> [!info]+ [[PERS.2.4 Zuständigkeiten.md|PERS.2.4 Zuständigkeiten]]
+> [!example]+ [[PERS.2.4 Zuständigkeiten.md|PERS.2.4 Zuständigkeiten]]

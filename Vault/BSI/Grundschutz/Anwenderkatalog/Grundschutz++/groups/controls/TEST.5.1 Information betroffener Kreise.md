@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.5.1 Information betroffener Kreise
+stmt_modal_verb: SOLLTE
+stmt_action_word: informieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [TEST.5 Bereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Bereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.5%20Bereitstellung.md) *** |  | SOLLTE | von der Änderung betroffene Kreise |  | informieren | IT-Betriebskonzept | >Änderungen und Tests SOLLTE von der Änderung betroffene Kreise informieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Bereitstellung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.5%20Bereitstellung.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | von der Änderung betroffene Kreise |  | [informieren](action_words_informieren_80cfc5ed-d443-4e59-bb34-bec602457af9) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE von der Änderung betroffene Kreise informieren.</span>
 
 > [!info]- Guidance
 >Betroffene Kreise können je nach Vorhaben z.B. interne oder externe Nutzende, IT-Betrieb, das Monitoring-Team, die Öffentlichkeitsarbeit oder ISB sein. Erforderliche Informationen können z.B. zu erwartende Ausfallzeiten oder Beginn und Ende des Wartungsfensters, die Vorgehensweise zum Bezug von Sicherheitsupdates oder anzupassende Sicherheitseinstellungen sein, die Nutzende selbst vornehmen können.

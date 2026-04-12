@@ -6,7 +6,13 @@ group_id: GC
 
 ** Group **
 # GC - Governance und Compliance 
-> [!info]+ Untergeordnete Gruppen> [GC.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.1%20Grundlagen.md)
+> [!info]- Praktik GC Governance und Compliance:
+> | | |
+> | - | - |
+> | auch bekannt als: | Corporate/Mission Governance und Compliance |
+> | Schwerpunkt: | Methodik |
+>
+> > Die Praktik Governance und Compliance stellt sicher, dass Informationssicherheitsstrategien mit den übergeordneten Zielen der Institution und regulatorischen Anforderungen im Einklang stehen. Sie vereint die strategische Steuerung der Informationssicherheit mit der systematischen Identifikation und Integration externer sowie interner Anforderungen.<br><br>Diese Praktik definiert den strategischen Rahmen für die Informationssicherheit und beantwortet die Fragen nach dem "Was" und "Warum" von Anforderungen und Sicherheitsmaßnahmen. Sie gewährleistet die Einbindung der obersten Führungsebene in wichtige Entscheidungen zur Informationssicherheit und stellt sicher, dass alle relevanten gesetzlichen, regulatorischen und vertraglichen Vorgaben identifiziert und berücksichtigt werden.<br><br>Während Governance und Compliance die strategische Ausrichtung und die Anforderungen definiert, übernehmen die operativen Praktiken wie Strukturmodellierung und Umsetzung die konkrete Ausgestaltung.> [!example]+ Untergeordnete Gruppen> [GC.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.1%20Grundlagen.md)
 > [GC.2 Festlegung des Kontextes der Institution](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.2%20Festlegung%20des%20Kontextes%20der%20Institution.md)
 > [GC.3 Analyse der interessierten Parteien](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.3%20Analyse%20der%20interessierten%20Parteien.md)
 > [GC.4 Festlegung des Geltungsbereichs](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.4%20Festlegung%20des%20Geltungsbereichs.md)

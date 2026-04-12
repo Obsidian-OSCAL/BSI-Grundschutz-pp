@@ -6,7 +6,13 @@ group_id: ARCH
 
 ** Group **
 # ARCH - Architektur 
-> [!info]+ Untergeordnete Gruppen> [ARCH.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md)
+> [!info]- Praktik ARCH Architektur:
+> | | |
+> | - | - |
+> | auch bekannt als: | Netzarchitektur |
+> | Schwerpunkt: | Technisch |
+>
+> > Die Praktik Architektur definiert die grundlegende Struktur sowie die Sicherheitsprinzipien der IT-Infrastruktur und leitet daraus Anforderungen für einzelne IT-Komponenten ab – etwa für Anwendungen oder IT-Systeme. Ziel ist es, eine sichere und skalierbare Basis zu schaffen.<br><br>Im Rahmen dieser Praktik werden Sicherheitsanforderungen systematisch in die Gesamtarchitektur eingebettet. Dazu gehören die Gestaltung der Netzarchitektur sowie die Entwicklung übergreifender Konzepte, beispielsweise für Kryptografie oder den Schutz vor Schadsoftware.> [!example]+ Untergeordnete Gruppen> [ARCH.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md)
 > [ARCH.2 Netzdesign](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.2%20Netzdesign.md)
 > [ARCH.3 Wireless LAN](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.3%20Wireless%20LAN.md)
 > [ARCH.4 Zugangsbeschränkungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.4%20Zugangsbeschränkungen.md)

@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.9.1 Bonusprogramm
 parent_control: DET.5.9 Externe Schwachstellenmeldungen
+stmt_modal_verb: KANN
+stmt_action_word: verankern
+control_effort_level: '5'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Gr
 
 ** Übergeordnetes Control: ** [DET.5.9 Externe Schwachstellenmeldungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.9%20Externe%20Schwachstellenmeldungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | KANN | ein Bonusprogramm für externe Schwachstellenmeldungen |  | verankern | Detektions-Konzept | >Detektion KANN ein Bonusprogramm für externe Schwachstellenmeldungen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | ein Bonusprogramm für externe Schwachstellenmeldungen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN ein Bonusprogramm für externe Schwachstellenmeldungen verankern.</span>
 
 > [!info]- Guidance
 >Ein Bonusprogramm für externe Schwachstellenmeldungen (englisch häufig Bug Bounty Program) bezeichnet ein strukturiertes Verfahren, bei dem eine Institution freiwilligen Sicherheitsforschenden oder interessierten Dritten eine Belohnung für das Melden bislang unbekannter Sicherheitslücken anbietet. Dabei geht es nicht nur um finanzielle Prämien, sondern auch um nicht-monetäre Anerkennungen wie öffentliche Danksagungen oder Zertifikate. Sinn und Zweck liegt darin, externen Sicherheitsforschern oder -expertenen einen Anreiz zu geben, um Schwachstellen frühzeitig zu finden und zu melden. Zur Umsetzung kann eine Institution (1) transparente Regeln definieren, welche Systeme oder Anwendungen einbezogen sind (in scope) und welche nicht, (2) einen abgestuften Belohnungsrahmen anbieten, der den Schweregrad einer Schwachstelle berücksichtigt, sowie (3) die rechtlichen Rahmenbedingungen durch eine sogenannte „Safe-Harbor-Policy“ festlegen, die den Meldenden Schutz vor rechtlichen Schritten zusichert, solange diese verantwortungsvoll handeln. Ergänzend kann die Institution durch einfache organisatorische Hilfsmittel wie Ticketnummern, automatische Eingangsbestätigungen und zeitnahe Rückmeldungen Vertrauen schaffen und den weiteren Ablauf für externe Meldende nachvollziehbar gestalten.

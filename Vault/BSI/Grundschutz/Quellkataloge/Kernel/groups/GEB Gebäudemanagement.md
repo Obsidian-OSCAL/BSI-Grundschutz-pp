@@ -6,7 +6,13 @@ group_id: GEB
 
 ** Group **
 # GEB - Gebäudemanagement 
-> [!info]+ Untergeordnete Gruppen> [GEB.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.1%20Grundlagen.md)
+> [!info]- Praktik GEB Gebäudemanagement:
+> | | |
+> | - | - |
+> | auch bekannt als: | Gebäudemanagement |
+> | Schwerpunkt: | Organisatorisch |
+>
+> > Das Gebäudemanagement sorgt für die Implementierung von physischen Sicherheitsmaßnahmen in und um das Gebäude. Dazu gehören insbesondere Zutrittskontrollen, Überwachungsmechanismen und die Sicherstellung geeigneter Umgebungsbedingungen, um sensible IT-Systeme und Informationen vor physischen Bedrohungen zu schützen.<br><br>Diese Praktik fokussiert sich auf den Schutz der physischen Umgebung (z.B. Gebäude, Räume), während andere Praktiken wie IT-Betrieb oder Berechtigungen sich mit systemseitigen und personellen Sicherheitsmaßnahmen beschäftigen. Das Gebäudemanagement stellt sicher, dass die physische Infrastruktur so gestaltet ist, dass sie IT-Systeme und sensible Daten bestmöglich schützt.> [!example]+ Untergeordnete Gruppen> [GEB.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.1%20Grundlagen.md)
 > [GEB.2 Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md)
 > [GEB.3 Physischer Zutritt](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.3%20Physischer%20Zutritt.md)
 > [GEB.4 Sicherheitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.4%20Sicherheitsbereiche.md)

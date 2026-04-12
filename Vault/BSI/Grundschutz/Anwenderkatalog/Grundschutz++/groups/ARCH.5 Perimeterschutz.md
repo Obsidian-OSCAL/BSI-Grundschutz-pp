@@ -6,11 +6,10 @@ group_id: ARCH.5
 
 ** Group **
 # ARCH.5 - Perimeterschutz 
-** Übergeordnete Gruppe: **
- [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)## Controls
 
-> [!info]+ [[ARCH.5.1 Einschränkung und Inspektion von Verbindungen.md|ARCH.5.1 Einschränkung und Inspektion von Verbindungen]]
+> [!example]+ [[ARCH.5.1 Einschränkung und Inspektion von Verbindungen.md|ARCH.5.1 Einschränkung und Inspektion von Verbindungen]]
 >  - [[ARCH.5.1.1 Blockieren anfälliger Netzprotokolle.md|ARCH.5.1.1 Blockieren anfälliger Netzprotokolle]]
 >  - [[ARCH.5.1.2 Netzbasierte Angriffe.md|ARCH.5.1.2 Netzbasierte Angriffe]]
 >  - [[ARCH.5.1.3 TCP-basierte Angriffe.md|ARCH.5.1.3 TCP-basierte Angriffe]]
@@ -28,4 +27,4 @@ group_id: ARCH.5
 >  - [[ARCH.5.1.12 Software-definierte Verbindungen.md|ARCH.5.1.12 Software-definierte Verbindungen]]
 >  - [[ARCH.5.1.13 Produktdiversität.md|ARCH.5.1.13 Produktdiversität]]
 
-> [!info]+ [[ARCH.5.2 Blockieren direkter öffentlicher Verbindungen.md|ARCH.5.2 Blockieren direkter öffentlicher Verbindungen]]
+> [!example]+ [[ARCH.5.2 Blockieren direkter öffentlicher Verbindungen.md|ARCH.5.2 Blockieren direkter öffentlicher Verbindungen]]

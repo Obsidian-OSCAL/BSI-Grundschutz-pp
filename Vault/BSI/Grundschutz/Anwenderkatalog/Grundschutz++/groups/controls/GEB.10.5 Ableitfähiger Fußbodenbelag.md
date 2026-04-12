@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.5 Ableitfähiger Fußbodenbelag
+stmt_target_object_category: Räume für technische Infrastruktur
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Räume für technische Infrastruktur | KANN | im Nahfeld von Systemen einen ableitfähigen Fußbodenbelag |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Räume für technische Infrastruktur KANN im Nahfeld von Systemen einen ableitfähigen Fußbodenbelag installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Räume für technische Infrastruktur](target_object_categories_Räume für technische Infrastruktur_564530dd-29ce-4988-9192-3b4dbfef061c) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | im Nahfeld von Systemen einen ableitfähigen Fußbodenbelag |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Räume für technische Infrastruktur KANN im Nahfeld von Systemen einen ableitfähigen Fußbodenbelag installieren.</span>
 
 > [!info]- Guidance
 >Ein ableitfähiger Boden ist ein Fußbodenbelag, der es ermöglicht, statische Aufladungen abzuleiten, beispielsweise durch eine geerdete Verbindung. Er zeichnet sich durch einen elektrischen Widerstand zwischen 10^6 und 10^9 Ohm aus. Ableitfähige Böden werden in Bereichen eingesetzt, in denen elektrostatische Entladungen (ESD) vermieden werden müssen.  Die Umsetzung kann nach DIN EN 14041 oder DIN IEC 61340-4-1 erfolgen.

@@ -6,14 +6,13 @@ group_id: ARCH.3
 
 ** Group **
 # ARCH.3 - Wireless LAN 
-** Übergeordnete Gruppe: **
- [ARCH Architektur](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [ARCH Architektur](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)## Controls
 
-> [!info]+ [[ARCH.3.1 Netzabdeckung.md|ARCH.3.1 Netzabdeckung]]
+> [!example]+ [[ARCH.3.1 Netzabdeckung.md|ARCH.3.1 Netzabdeckung]]
 
-> [!info]+ [[ARCH.3.2 Einschränkung in Sicherheitsbereichen.md|ARCH.3.2 Einschränkung in Sicherheitsbereichen]]
+> [!example]+ [[ARCH.3.2 Einschränkung in Sicherheitsbereichen.md|ARCH.3.2 Einschränkung in Sicherheitsbereichen]]
 
-> [!info]+ [[ARCH.3.3 SSIDs.md|ARCH.3.3 SSIDs]]
+> [!example]+ [[ARCH.3.3 SSIDs.md|ARCH.3.3 SSIDs]]
 
-> [!info]+ [[ARCH.3.4 Verschlüsselte Netzanbindung.md|ARCH.3.4 Verschlüsselte Netzanbindung]]
+> [!example]+ [[ARCH.3.4 Verschlüsselte Netzanbindung.md|ARCH.3.4 Verschlüsselte Netzanbindung]]

@@ -1,21 +1,27 @@
 ---
-tags: Produktbeschreibung_Phishing_Denial_of_Service
+tags:
+- produktbeschreibung_phishing_denial_of_service
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.15.3 Denial of Service
+stmt_modal_verb: KANN
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.15.3 - Denial of Service
-Tags: "[Produktbeschreibung](tags_Produktbeschreibung)" "[Phishing](tags_Phishing)" "[Denial of Service](tags_Denial of Service)"
+> [!example]- Tags:> [[tags_Produktbeschreibung|Produktbeschreibung]]> [[tags_Phishing|Phishing]]> [[tags_Denial of Service|Denial of Service]]
 Gruppe: [KONF.15 Ressourcenauslastung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.15%20Ressourcenauslastung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Ressourcenauslastung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.15%20Ressourcenauslastung.md) *** | Anwendungen, Hostsysteme | KANN | Schutzmaßnahmen gegen Denial of Service |  | aktivieren | Konfigurationshistorie | >Konfiguration für Anwendungen von Hostsystemen KANN Schutzmaßnahmen gegen Denial of Service aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Ressourcenauslastung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/KONF.15%20Ressourcenauslastung.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | Anwendungen, Hostsysteme | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Schutzmaßnahmen gegen Denial of Service |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen von Hostsystemen KANN Schutzmaßnahmen gegen Denial of Service aktivieren.</span>
 
 > [!info]- Guidance
 >Denial-of-Service-Angriffe zielen darauf ab, die Webanwendung für legitime Nutzende nicht mehr erreichbar zu machen. Webanwendungen im öffentlichen Interesse sind häufig Ziel derartiger Angriffe. Mechanismen wie Content Delivery Network und Load Balancer können die Lastfähigkeit der Anwendung erhöhen, während Filterfunktionen Angriffsmuster erkennen und aus den Anfragen herausfiltern können.

@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.5.1.1 Festlegung der Geschäftsprozesse
 parent_control: GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+stmt_documentation: Geschäftsprozesse
+result_reference: Geschäftsprozess
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +19,11 @@ Gruppe: [GC.5 Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Que
 
 ** Übergeordnetes Control: ** [GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1%20Vorgehen%20bei%20der%20Infomationssicherheitseinstufung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md) *** |  | MUSS | die Geschäftsprozesse | die für den Geltungsbereich relevant sind | festlegen | Geschäftsprozesse | >Governance und Compliance MUSS die Geschäftsprozesse die für den Geltungsbereich relevant sind festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Geschäftsprozesse | die für den Geltungsbereich relevant sind | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) | [Geschäftsprozesse](documentation_guidelines_Geschäftsprozesse) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS die Geschäftsprozesse die für den Geltungsbereich relevant sind festlegen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Geschäftsprozess](result_Geschäftsprozess_00000000-0000-0000-0000-000000000000) | Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Arbeitsabläufe), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. |
 
 > [!info]- Guidance
 >Hierbei kann oft auf bestehende Prozesslandkarten und Managementsysteme zurückgegriffen werden. Besteht noch keine Prozessübersicht in der Institution, so können die technischen und organisatorischen Praktiken als  Ausgangsvorschlag für relevante Hilfsprozesse herangezogen werden (siehe Prozessschritt 2 - Anforderungsanalyse)

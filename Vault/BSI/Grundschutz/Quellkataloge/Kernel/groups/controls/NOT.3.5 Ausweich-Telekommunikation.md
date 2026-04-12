@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.3.5 Ausweich-Telekommunikation
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Notfallhandbuch
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [NOT.3 Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md) *** |  | SOLLTE | Ausweich-Telekommunikationsdienste |  | verankern | Notfallhandbuch | >Notfallplanung SOLLTE Ausweich-Telekommunikationsdienste verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Ausweich-Telekommunikationsdienste |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Notfallhandbuch](documentation_guidelines_Notfallhandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung SOLLTE Ausweich-Telekommunikationsdienste verankern.</span>
 
 > [!info]- Guidance
 >„Ausweich-Telekommunikationsdienste“  sind alternative, im Notfall nutzbare Kommunikationswege oder -infrastrukturen, die den Fortbestand kritischer Kommunikationsprozesse gewährleisten können, wenn die primären Dienste kompromittiert oder ausgefallen sind (out-of-band communication). Der Sinn und Zweck der Regelung liegt nicht nur darin, den Informationsaustausch kritischer Geschäftsprozesse im Notfall sicherzustellen, sondern dient auch der sicherheitsbezogenen Koordination und Entscheidungsfindung bei schwerwiegenden Störungen oder Angriffen, etwa bei Ausfällen von Festnetz- oder VoIP-Diensten durch technische Defekte, Naturereignisse oder Cyberangriffe. Eine unzureichende Vorsorge könnte dazu führen, dass im Krisenfall keine Lageabstimmung, Notfallkommunikation oder Meldung an Sicherheitsbehörden möglich ist, oder dass Angreifer die eingeleiteten Gegenmaßnahmen über bereits kompromittierte Dienste mitlesen. Ausweich-Telekommunikationsdienste können z.B. über den Anschluss anderer Anbieter, Mobilfunk oder Satellitenanschlüsse umgesetzt werden. Hierbei ist sowohl an den Netzanschluss kritischer IT-Systeme als auch an die Erreichbarkeit der im Notfall zuständigen Mitarbeiter und Dienstleister zu denken.

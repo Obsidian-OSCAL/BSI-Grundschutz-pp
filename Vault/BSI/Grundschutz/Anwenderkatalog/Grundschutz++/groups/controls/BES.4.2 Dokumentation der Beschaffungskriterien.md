@@ -1,23 +1,28 @@
 ---
 tags:
-- Lieferketten
+- lieferketten
 - bes42-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.2 Dokumentation der Beschaffungskriterien
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.2 - Dokumentation der Beschaffungskriterien
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *** | Einkäufe | SOLLTE | {{Kriterien}} für die Beschaffung |  | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE {{ insert: param, bes.4.2-prm1 }} für die Beschaffung dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | {{Kriterien}} für die Beschaffung |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE {{ insert: param, bes.4.2-prm1 }} für die Beschaffung dokumentieren.</span>
 
 > [!info]- Guidance
 >Beschaffungskriterien sind nachvollziehbare Bewertungsmaßstäbe, die bei der Anschaffung von IT-Produkten und Dienstleistungen berücksichtigt werden, um sicherzustellen, dass diese den Sicherheitsanforderungen der Institution entsprechen. Sie ergeben sich aus dem erfassten Bedarf (z.B. einer Beschreibung der Funktionen von IT-Produkten oder zu leistenden Diensten), sowie den Sicherheitsanforderungen an das zu beschaffende Produkt oder die Dienstleistung, die über das jeweilige Zielobjekt im Katalog gefiltert werden können. Beispiele für Beschaffungskriterien sind die Erfüllung definierter Sicherheitsstandards, Verschlüsselungsfähigkeiten, Authentifizierungsmechanismen, Autorisierungskonzepte, die Stärke der geforderten Mechanismen (z.B. Mehr-Faktor-Authentifizierung), Verfügbarkeitsgarantien (SLAs), Umfang und Qualität der Dokumentation, Regelungen zur Prüfung oder Überwachung der Sicherheitskontrollen, sowie Einsatzbedingungen wie Temperatur oder mobile Konnektivität. Relevant ist dabei der gesamte Lebenszyklus von Vertragsschluss über Entwicklung von Lösungen bis hin zu Regelungen für Kündigungen. Zu den Kriterien können auch Negativkriterien gehören, die eine Beschaffung verhindern würden (z.B. "Keine Komponenten von der unmittelbaren Konkurrenz oder aus Staaten von denen bekannt ist, dass sie Spionage gegen den Sektor der Institution betreiben"). Je nach Beschaffung kann dafür eine Beschreibung von Informationen und Methoden zur Bereitstellung oder zum Abruf der Informationen relevant sein, sowie eine Beschreibung bestimmter technischer Eigenschaften eines Systems oder einer Anwendung.  Zur Umsetzung bietet es sich an, standardisierte Vertragsvorlagen für neue Verträge zu verwenden. Bei individuellen Verträgen, die einzelne Sicherheitskontrollmechanismen festlegen, bietet sich ein Austausch von Beschreibungen der Mechanismen über strukturierte Datenformate wie OSCAL an.  Weitere Informationen zur Festlegung möglicher Kriterien, inklusive einer Risikobeurteilung, können der ISO/IEC 27036-3 entnommen werden.

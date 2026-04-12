@@ -6,10 +6,9 @@ group_id: UMS.3
 
 ** Group **
 # UMS.3 - Umsetzungsplanung und Priorisierung 
-** Übergeordnete Gruppe: **
- [UMS Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [UMS Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)## Controls
 
-> [!info]+ [[UMS.3.1 Umsetzungsplanung.md|UMS.3.1 Umsetzungsplanung]]
+> [!example]+ [[UMS.3.1 Umsetzungsplanung.md|UMS.3.1 Umsetzungsplanung]]
 
-> [!info]+ [[UMS.3.2 Priorisierung von Maßnahmen.md|UMS.3.2 Priorisierung von Maßnahmen]]
+> [!example]+ [[UMS.3.2 Priorisierung von Maßnahmen.md|UMS.3.2 Priorisierung von Maßnahmen]]

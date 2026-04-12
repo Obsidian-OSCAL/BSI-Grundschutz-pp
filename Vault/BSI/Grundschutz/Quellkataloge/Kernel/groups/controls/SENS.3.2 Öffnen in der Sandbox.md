@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.3.2 Öffnen in der Sandbox
+stmt_target_object_category: Nutzende
+stmt_modal_verb: KANN
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.3 Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md) *** | Nutzende | KANN | zum Öffnen verdächtiger Dateien ausschließlich auf einem isolierten IT-System (Sandbox) |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende KANN zum Öffnen verdächtiger Dateien ausschließlich auf einem isolierten IT-System (Sandbox) sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Schutz vor Schadprogrammen](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.3%20Schutz%20vor%20Schadprogrammen.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | zum Öffnen verdächtiger Dateien ausschließlich auf einem isolierten IT-System (Sandbox) |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende KANN zum Öffnen verdächtiger Dateien ausschließlich auf einem isolierten IT-System (Sandbox) sensibilisieren.</span>
 
 > [!info]- Guidance
 >Eine Sandbox ist ein isoliertes IT-System, das bewusst so gestaltet ist, dass Dateien oder Programme in einer abgeschotteten Umgebung geöffnet und ausgeführt werden, ohne die produktive IT-Infrastruktur zu gefährden. Damit wird ein geschützter Bereich geschaffen, in dem verdächtige Dateien getestet und beobachtet werden, ohne dass Schadsoftware unkontrolliert in interne Systeme gelangt. Der Sinn dieser Anforderung liegt darin, das Risiko unbewusster Schadcode-Ausführung zu reduzieren: Ein unbedachtes Öffnen von E-Mail-Anhängen könnte beispielsweise zu Verschlüsselung durch Ransomware führen, oder ein manipuliertes Office-Dokument könnte eine unbemerkte Datenabflussschleuse öffnen. Als Sandbox kann auch ein virtuelles System auf dem Endgerät genutzt werden, wenn dieses von der Betriebssystemumgebung des Endgerätes isoliert ausgeführt wird.

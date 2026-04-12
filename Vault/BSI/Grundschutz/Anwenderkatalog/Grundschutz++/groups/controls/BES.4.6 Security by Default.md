@@ -1,22 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.6 Security by Default
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.6 - Security by Default
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.4.6.1 Authentifizierung des Kunden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6.1%20Authentifizierung%20des%20Kunden.md)> [BES.4.6.2 Verschlüsselung durch den Anbieter](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6.2%20Verschlüsselung%20durch%20den%20Anbieter.md)> [BES.4.6.3 Manipulationsschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.4.6.3%20Manipulationsschutz.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *** | Einkäufe | SOLLTE | Security by Default |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE Security by Default vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Security by Default |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE Security by Default vereinbaren.</span>
 
 > [!info]- Guidance
 >Der Detaillierungsgrad der Kriterien kann sich hierbei nach Umfang und Klassifizierung der Beschaffung richten. Bei einfachen Beschaffungen von geringer Bedeutung kann es ausreichend sein grundlegende Sicherheitsmechanismen wie Verschlüsselung und Authentifizierung zu vereinbaren, während bei umfangreichen oder anderweitig risikobehafteten Beschaffungen eine Vereinbarung einzelner Sicherheitsmechanismen sinnvoll ist.

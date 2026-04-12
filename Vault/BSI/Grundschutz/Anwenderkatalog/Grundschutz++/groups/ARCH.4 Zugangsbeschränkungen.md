@@ -6,14 +6,13 @@ group_id: ARCH.4
 
 ** Group **
 # ARCH.4 - Zugangsbeschränkungen 
-** Übergeordnete Gruppe: **
- [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [ARCH Architektur](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)## Controls
 
-> [!info]+ [[ARCH.4.1 Netzzugangskontrolle.md|ARCH.4.1 Netzzugangskontrolle]]
+> [!example]+ [[ARCH.4.1 Netzzugangskontrolle.md|ARCH.4.1 Netzzugangskontrolle]]
 >  - [[ARCH.4.1.1 Dynamische Netzzugangskontrolle.md|ARCH.4.1.1 Dynamische Netzzugangskontrolle]]
 >  - [[ARCH.4.1.2 Quarantäne.md|ARCH.4.1.2 Quarantäne]]
 
-> [!info]+ [[ARCH.4.2 Autorisiertes Routing.md|ARCH.4.2 Autorisiertes Routing]]
+> [!example]+ [[ARCH.4.2 Autorisiertes Routing.md|ARCH.4.2 Autorisiertes Routing]]
 
-> [!info]+ [[ARCH.4.3 Authentifizierung von Routingprotokollen.md|ARCH.4.3 Authentifizierung von Routingprotokollen]]
+> [!example]+ [[ARCH.4.3 Authentifizierung von Routingprotokollen.md|ARCH.4.3 Authentifizierung von Routingprotokollen]]

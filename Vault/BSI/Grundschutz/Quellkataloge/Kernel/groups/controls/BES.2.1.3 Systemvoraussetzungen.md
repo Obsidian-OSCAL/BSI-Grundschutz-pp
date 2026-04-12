@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.1.3 Systemvoraussetzungen
 parent_control: BES.2.1 Erfassung des Bedarfes
+stmt_target_object_category: IT-Produkte
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.1.3 - Systemvoraussetzungen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.2.1 Erfassung des Bedarfes](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.2.1%20Erfassung%20des%20Bedarfes.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md) *** | IT-Produkte | SOLLTE | Systemvoraussetzungen |  | dokumentieren | Beschaffungskriterien | >Beschaffungsmanagement für IT-Produkte SOLLTE Systemvoraussetzungen dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Systemvoraussetzungen |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte SOLLTE Systemvoraussetzungen dokumentieren.</span>
 
 > [!info]- Guidance
 >Hierzu können sowohl Hardwareparameter gehören (z.B. 8 GB RAM, TPM 2.0), als auch Voraussetzungen an Betriebssysteme (z.B. Lauffähigkeit nur auf bestimmten Betriebssystemen oder bei Unterstützung bestimmter Funktionen), auf denen der Einsatz geplant ist.

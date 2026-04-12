@@ -1,23 +1,29 @@
 ---
-tags: Zero_Trust
+tags:
+- zero_trust
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.5.1.1 Rollenbasierte Berechtigung
 parent_control: BER.5.1 Prinzip der geringsten Berechtigungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: Inventar Berechtigungen
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.5.1.1 - Rollenbasierte Berechtigung
-Tags: "[Zero Trust](tags_Zero Trust)"
+Tag: [[tags_Zero Trust|Zero Trust]]
 Gruppe: [BER.5 Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md)
 ---
 
 ** Übergeordnetes Control: ** [BER.5.1 Prinzip der geringsten Berechtigungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BER.5.1%20Prinzip%20der%20geringsten%20Berechtigungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md) *** |  | SOLLTE | Berechtigungen rollenbasiert |  | zuweisen | Inventar Berechtigungen | >Berechtigung SOLLTE Berechtigungen rollenbasiert zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Berechtigungsmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.5%20Berechtigungsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Berechtigungen rollenbasiert |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE Berechtigungen rollenbasiert zuweisen.</span>
 
 > [!info]- Guidance
 >Aus Gründen der Nachvollziehbarkeit und des administrativen Aufwands wird die direkte Vergabe von Berechtigungen an Einzelkonten vermieden. Berechtigungen werden gemäß dem Least-Privilege-Prinzip in Rollen gebündelt, wobei die Zuweisung und der Entzug ausschließlich über diese Rollen erfolgt. Etwaige Ausnahmen, beispielsweise für temporäre Spezialrechte, werden restriktiv gehandhabt, nachvollziehbar dokumentiert und zeitlich befristet.

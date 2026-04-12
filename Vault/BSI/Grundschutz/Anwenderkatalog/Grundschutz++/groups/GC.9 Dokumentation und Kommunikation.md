@@ -6,11 +6,10 @@ group_id: GC.9
 
 ** Group **
 # GC.9 - Dokumentation und Kommunikation 
-** Übergeordnete Gruppe: **
- [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)## Controls
 
-> [!info]+ [[GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement.md|GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement]]
+> [!example]+ [[GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement.md|GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement]]
 >  - [[GC.9.1.1 Externer Austausch zur Informationssicherheit.md|GC.9.1.1 Externer Austausch zur Informationssicherheit]]
 >  - [[GC.9.1.2 Kommunikation im Projektmanagement.md|GC.9.1.2 Kommunikation im Projektmanagement]]
 >  - [[GC.9.1.3 Dokumentenlenkung.md|GC.9.1.3 Dokumentenlenkung]]

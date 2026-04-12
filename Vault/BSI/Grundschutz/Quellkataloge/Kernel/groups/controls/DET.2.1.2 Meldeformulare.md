@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.2.1.2 Meldeformulare
 parent_control: DET.2.1 Meldeverfahren
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+control_effort_level: '4'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [DET.2 Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/gro
 
 ** Übergeordnetes Control: ** [DET.2.1 Meldeverfahren](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.2.1%20Meldeverfahren.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.2%20Meldung%20von%20Ereignissen.md) *** |  | SOLLTE | Meldeformulare | für Vorfallsmeldungen | installieren | Detektions-Konzept | >Detektion SOLLTE Meldeformulare für Vorfallsmeldungen installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.2%20Meldung%20von%20Ereignissen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Meldeformulare | für Vorfallsmeldungen | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE Meldeformulare für Vorfallsmeldungen installieren.</span>
 
 > [!info]- Guidance
 >Die Angabe des Meldezeitpunktes oder der Name des Meldenden, kann auch durch ein Formular automatisch ausgefüllt werden.

@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.11 Datenträgerarchiv
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Datensicherungskonzept
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/gro
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *** |  | SOLLTE | ein Datenträgerarchiv |  | installieren | Datensicherungskonzept | >Notfallplanung SOLLTE ein Datenträgerarchiv installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Datenträgerarchiv |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung SOLLTE ein Datenträgerarchiv installieren.</span>
 
 > [!info]- Guidance
 >Datenträgerarchive sind verschlossene Räume, die dediziert zur langfristigen Aufbewahrung von Datenträgern bestimmt sind. Die Anforderung gilt auch dann als umgesetzt, wenn zusätzlich zur Datensicherung im Datenträgerarchiv auch noch Kopien existieren, die nicht im Datenträgerarchiv aufbewahrt werden.  Ein wesentlicher Mehrwert von Datenträgerarchiven ist die geschützte Aufbewahrung. Daher zählt ein Datenträgerarchiv nur dann als Mehrwert, wenn das Archiv sich auch in einem anderen Brandabschnitt befindet als die Originaldaten.

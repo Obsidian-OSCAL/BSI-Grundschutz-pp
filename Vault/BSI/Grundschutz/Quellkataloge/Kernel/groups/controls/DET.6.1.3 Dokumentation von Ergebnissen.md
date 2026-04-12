@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.6.1.3 Dokumentation von Ergebnissen
 parent_control: DET.6.1 Beurteilung von Ereignissen
+stmt_modal_verb: KANN
+stmt_action_word: dokumentieren
+control_effort_level: '4'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [DET.6 Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DE
 
 ** Übergeordnetes Control: ** [DET.6.1 Beurteilung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.6.1%20Beurteilung%20von%20Ereignissen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md) *** |  | KANN | Analyseergebnisse |  | dokumentieren | Detektions-Konzept | >Detektion KANN Analyseergebnisse dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Analyseergebnisse |  | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN Analyseergebnisse dokumentieren.</span>
 
 > [!info]- Guidance
 >Die Aufzeichnung von Beurteilungsergebnissen und Entscheidungen bei Sicherheitsvorfällen dient als rechtssichere Nachweisführung und ermöglicht retrospektive Analysen zur kontinuierlichen Prozessverbesserung. Sie stellt außerdem sicher, dass die Vorfälle während und nach der Behandlung strukturiert aufgearbeitet werden können. Zweckmäßig ist es dabei, möglichst viele hilfreiche Informationen automatisch mitzuerfassen, z.B. welche Fehlermeldung genau aufgetreten ist oder welche Schwellwerte bis zu welchem Wert genau überschritten worden sind. Kann auch durch ein SIEM umgesetzt werden, welches Informationen zu kritischen Ereignissen abspeichert.  Die Umsetzung kann mit einem standardisierten Dokumentationssystem erfolgen, das alle relevanten Metadaten erfasst: Zeitstempel, beteiligte Personen, Begründungen für Entscheidungen sowie konkrete Maßnahmen.

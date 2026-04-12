@@ -1,8 +1,15 @@
 ---
-tags: geb71-prm1
+tags:
+- geb71-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.7.1 Schlüsselbeauftragte
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: Geschäftsverteilungsplan
+control_effort_level: '3'
 ---
 
 
@@ -12,9 +19,9 @@ Gruppe: [GEB.7 Schlüsselverwaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schlüsselverwaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.7%20Schlüsselverwaltung.md) *** | Standorte | SOLLTE | die Verwaltung von Schlüsseln | {{zuständigen Personen oder Rollen}} | zuweisen | Geschäftsverteilungsplan | >Gebäudemanagement für Standorte SOLLTE die Verwaltung von Schlüsseln {{ insert: param, geb.7.1-prm1 }} zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schlüsselverwaltung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.7%20Schlüsselverwaltung.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Verwaltung von Schlüsseln | {{zuständigen Personen oder Rollen}} | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Geschäftsverteilungsplan](documentation_guidelines_Geschäftsverteilungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE die Verwaltung von Schlüsseln {{ insert: param, geb.7.1-prm1 }} zuweisen.</span>
 
 > [!info]- Guidance
 >Bei der Verwaltung von Schlüsseln werden physische Schlüssel und digitale Zugangsmittel wie RFIDs für Gebäude, Räume oder Schränke ausgegeben, zurückgenommen und deren Nutzung dokumentiert. Mögliche Ausprägungen für zuständige Personen oder Rollen können (1) Facility-Management, (2) IT-Sicherheitsbeauftragte, (3) Empfangs- oder Pförtnerdienste oder (4) ein zentrales Schlüsselmanagement-Team sein. Der Zweck der Vorschrift liegt darin, Risiken durch unkontrollierte Schlüsselvergabe zu reduzieren. Ohne klare Zuweisung könnte es zu unbefugtem Zutritt, Diebstahl oder Manipulation an kritischen Bereichen kommen. Durch eine geregelte Schlüsselverwaltung kann hingegen nachvollziehbar und kontrolliert gesteuert werden, wer physischen Zugang zu sicherheitsrelevanten Bereichen erhält. Zur Umsetzung können Institutionen (1) Schlüssellisten auf Papier oder in Form einer Berechtigungsmatrix führen, die regelmäßig gepflegt und abgeglichen wird, (2) Reserveschlüssel zentral und sicher verwahren, damit im Verlustfall ein geregelter Ersatz möglich ist, und (3) sicherstellen, dass nicht mehr benötigte Schlüssel zeitnah zurückgenommen und dokumentiert werden. Technisch kann die Verwaltung durch nummerierte Schlüsselanhänger oder anonymisierte Kennzeichnungen unterstützt werden, sodass keine Rückschlüsse auf den Einsatzort möglich sind. Auch ein einfaches Verfahren, bei dem die Rücknahme von Schlüsseln mit Datum und Unterschrift bestätigt wird, kann Transparenz schaffen und spätere Unklarheiten verhindern.

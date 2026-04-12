@@ -6,7 +6,13 @@ group_id: ASST
 
 ** Group **
 # ASST - Informationen und Assets 
-> [!info]+ Untergeordnete Gruppen> [ASST.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.1%20Grundlagen.md)
+> [!info]- Praktik ASST Informationen und Assets:
+> | | |
+> | - | - |
+> | auch bekannt als: | Management von Informationen und Assets |
+> | Schwerpunkt: | Organisatorisch |
+>
+> > Im Rahmen der IT-Komponenten stellt das Asset Management sicher, dass die IT-Komponenten erfasst und inventarisiert werden. Hierbei geht es darum eine Übersicht, über relevante "Assets", wie Server, Clients, Netzwerkkomponenten sowie auch Datenträger sowie deren Verantwortlichkeiten, Besitzer oder auch Produktlebenszyklus zu haben. Des Weiteren soll im Rahmen des Asset Management auch die Ist-Dokumentation der Komponenten (z.B. Konfiguration, Patch-Level, Kritikalitätsstufen) erfasst werden. <br>Während die Praktik "Konfiguration" die Parameter einer IT-Komponenten betrachtet und IT-Betrieb die Vorgehensweisen zu Wartung und Pflege von IT-Komponenten, betrachtet Asset Management die Übersicht und Dokumentation aller IT-Komponenten.> [!example]+ Untergeordnete Gruppen> [ASST.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.1%20Grundlagen.md)
 > [ASST.2 Inventarisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.2%20Inventarisierung.md)
 > [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md)
 > [ASST.4 Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md)

@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.5.1 Rechtssichere Beweissicherung
 parent_control: REA.2.5 IT-Forensik
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Behandlung von Sicherheitsvorfällen
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Rea
 
 ** Übergeordnetes Control: ** [REA.2.5 IT-Forensik](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.5%20IT-Forensik.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)**<br> ***  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *** |  | SOLLTE | rechtlich relevante Beweise | rechtssicher | dokumentieren | Behandlung von Sicherheitsvorfällen | >Sicherheitsvorfallsbehandlung SOLLTE rechtlich relevante Beweise rechtssicher dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | rechtlich relevante Beweise | rechtssicher | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Behandlung von Sicherheitsvorfällen](documentation_guidelines_Behandlung von Sicherheitsvorfällen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung SOLLTE rechtlich relevante Beweise rechtssicher dokumentieren.</span>
 
 > [!info]- Guidance
 >Rechtlich relevant sind Beweise, wenn Anzeichen dafür vorliegen, dass bei einem Sicherheitsvorfall gegen Compliance-Verpflichtungen oder interne Arbeitsanweisungen verstoßen wurde. Beispiele sind Vorfälle wie z.B. unberechtigten Zugriffen oder Manipulationen von Daten.  Beweise sind rechtssicher dokumentiert, wenn nachvollziehbar ist, wie sie erhoben wurden und sie außerdem sowohl gegen unautorisierte Einsicht als auch Veränderung geschützt aufbewahrt werden. Die Nachvollziehbarkeit von Veränderungen kann z.B. durch eine kryptografische Signatur oder getrennt aufbewahrte Checksummen sichergestellt werden. Außerdem ist es sinnvoll, die Originaldaten aufzubewahren, z.B. als Originaldatenträger oder Sicherungskopie. Für Details siehe BSI-Leitfaden „IT-Forensik“.

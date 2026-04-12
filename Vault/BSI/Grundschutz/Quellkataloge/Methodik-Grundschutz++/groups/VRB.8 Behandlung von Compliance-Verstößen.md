@@ -6,8 +6,7 @@ group_id: VRB.8
 
 ** Group **
 # VRB.8 - Behandlung von Compliance-Verstößen 
-** Übergeordnete Gruppe: **
- [VRB Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [VRB Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)## Controls
 
-> [!info]+ [[VRB.8.1 Behandlung von Compliance-Verstößen.md|VRB.8.1 Behandlung von Compliance-Verstößen]]
+> [!example]+ [[VRB.8.1 Behandlung von Compliance-Verstößen.md|VRB.8.1 Behandlung von Compliance-Verstößen]]

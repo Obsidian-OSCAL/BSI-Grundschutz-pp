@@ -6,8 +6,7 @@ group_id: STM.3
 
 ** Group **
 # STM.3 - ISMS-Anforderungen des Informationsverbundes 
-** Übergeordnete Gruppe: **
- [STM Strukturmodellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [STM Strukturmodellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)## Controls
 
-> [!info]+ [[STM.3.1 ISMS-Anforderungen des Informationsverbundes.md|STM.3.1 ISMS-Anforderungen des Informationsverbundes]]
+> [!example]+ [[STM.3.1 ISMS-Anforderungen des Informationsverbundes.md|STM.3.1 ISMS-Anforderungen des Informationsverbundes]]

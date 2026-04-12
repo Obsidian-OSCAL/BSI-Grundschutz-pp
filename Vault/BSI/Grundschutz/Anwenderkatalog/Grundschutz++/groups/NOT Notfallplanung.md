@@ -6,7 +6,13 @@ group_id: NOT
 
 ** Group **
 # NOT - Notfallplanung 
-> [!info]+ Untergeordnete Gruppen> [NOT.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md)
+> [!info]- Praktik NOT Notfallplanung:
+> | | |
+> | - | - |
+> | auch bekannt als: | Betriebliches Kontinuitätsmanagement |
+> | Schwerpunkt: | Organisatorisch |
+>
+> > Die Notfallplanung stellt sicher, dass bei schwerwiegenden Störungen oder Krisen schnell und koordiniert reagiert wird, um den Fortbestand kritischer Geschäftsprozesse und die Wiederherstellung der betroffenen Systeme zu gewährleisten.<br><br>Notfallplanung adressiert umfassende Notfälle und Krisensituationen, während die Sicherheitsvorfallbehandlung spezifisch auf Informationssicherheitsvorfälle fokussiert ist. Notfallmanagement ist strategisch und organisatorisch umfassender, während die Vorfallbehandlung auf operative Sicherheitsprobleme eingeht.> [!example]+ Untergeordnete Gruppen> [NOT.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.1%20Grundlagen.md)
 > [NOT.2 Besondere Aufbauorganisation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.2%20Besondere%20Aufbauorganisation.md)
 > [NOT.3 Notfallvorsorge](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.3%20Notfallvorsorge.md)
 > [NOT.4 Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md)

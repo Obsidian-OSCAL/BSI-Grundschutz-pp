@@ -1,8 +1,14 @@
 ---
-tags: not34-prm1
+tags:
+- not34-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.3.4 Funktionstest
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+stmt_documentation: Übungsplan
+control_effort_level: '5'
 ---
 
 
@@ -12,9 +18,9 @@ Gruppe: [NOT.3 Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md) *** |  | KANN | die tatsächliche Funktionstüchtigkeit von Notfallplänen | {{regelmäßig}} | überprüfen | Übungsplan | >Notfallplanung KANN die tatsächliche Funktionstüchtigkeit von Notfallplänen {{ insert: param, not.3.4-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die tatsächliche Funktionstüchtigkeit von Notfallplänen | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Übungsplan](documentation_guidelines_Übungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung KANN die tatsächliche Funktionstüchtigkeit von Notfallplänen {{ insert: param, not.3.4-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Eine regelmäßige Überprüfung hilft zu erkennen, ob die verschiedenen Notfallpläne (z. B. Wiederanlaufplan, Geschäftsfortführungsplan) und Notbetriebsressourcen tatsächlich funktionieren und die Zuständigen die Verfahrensweisen beherrschen. Mit der tatsächlichen Funktionstüchtigkeit ist gemeint, dass nicht nur die Aktualität der Pläne betrachtet wird, sondern soweit möglich auch die konkreten Ressourcen geprüft werden (z.B. laufen die Meldewege wie vorgesehen, lassen sich Ausfallleitungen aktivieren, sind Ersatzgeräte nutzbar). Ist hierzu noch nicht die erforderliche Reife erlangt, können in einem ersten Schritt Planbesprechungen, die nur virtuell einen Plan überprüfen, eingesetzt werden. Nähere Informationen können dem BSI-Standard 200-4 Kapitel 13.9 Funktionstest (R optional +AS) und 13.5 Planbesprechung (R optional +AS) entnommen werden.

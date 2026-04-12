@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Anforderungen-zum-Risikomanagement
 type: control
 control: RISK.1.5 Freigabe des Risikomanagements
+stmt_modal_verb: MUSS
+stmt_action_word: autorisieren
+stmt_documentation: Richtlinie zur Risikoanalyse
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [RISK.1 Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RIS
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Risikomanagement (RISK)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK%20Risikomanagement.md)**<br> ***  &rarr; [Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md) *** |  | MUSS | Verfahren, Rollendefinitionen und Kriterien | durch die Institutionsleitung | autorisieren | Richtlinie zur Risikoanalyse | >Risikomanagement MUSS Verfahren, Rollendefinitionen und Kriterien durch die Institutionsleitung autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Risikomanagement (RISK)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK%20Risikomanagement.md)*<br> *  &rarr; [Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md) *</div> | [Risikomanagement](practices_Risikomanagement_906e6304-5a16-4251-b225-324d4945100a) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren, Rollendefinitionen und Kriterien | durch die Institutionsleitung | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Richtlinie zur Risikoanalyse](documentation_guidelines_Richtlinie zur Risikoanalyse) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Risikomanagement MUSS Verfahren, Rollendefinitionen und Kriterien durch die Institutionsleitung autorisieren.</span>
 
 > [!info]- Guidance
 >Diese Dokumentation der Autorisierung dient der Nachvollziehbarkeit und Verbindlichkeit.

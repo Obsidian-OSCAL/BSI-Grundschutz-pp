@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.1.1 Weitergabe nur bei Erforderlichkeit
 parent_control: ASST.3.1 Nutzungsvereinbarungen
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundsc
 
 ** Übergeordnetes Control: ** [ASST.3.1 Nutzungsvereinbarungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.3.1%20Nutzungsvereinbarungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** | Nutzende | SOLLTE | zur Weitergabe von Informationen nur bei Erforderlichkeit |  | anweisen | Arbeitsanweisung | >Informationen und Assets für Nutzende SOLLTE zur Weitergabe von Informationen nur bei Erforderlichkeit anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Weitergabe von Informationen nur bei Erforderlichkeit |  | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Nutzende SOLLTE zur Weitergabe von Informationen nur bei Erforderlichkeit anweisen.</span>
 
 > [!info]- Guidance
 >Das Need-to-Know-Prinzip ist ein Sicherheitskonzept, das den Zugriff auf Informationen auf das absolut notwendige Maß beschränkt. Es besagt, dass Personen nur dann Zugang zu bestimmten Daten enthalten, wenn diese Informationen für die Erfüllung ihrer konkreten Aufgaben erforderlich sind. Ziel ist es, das Risiko von Datenmissbrauch, -verlust oder unbefugtem Zugriff zu minimieren.

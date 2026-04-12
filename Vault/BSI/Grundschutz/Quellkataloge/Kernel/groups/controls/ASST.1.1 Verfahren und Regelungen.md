@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+stmt_documentation: IT-Betriebskonzept
+result_reference: Asset
+control_effort_level: '0'
 ---
 
 
@@ -10,11 +16,13 @@ control: ASST.1.1 Verfahren und Regelungen
 Gruppe: [ASST.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ASST.1.1.1 Dokumentation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.1.1.1%20Dokumentation.md)> [ASST.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [ASST.1.1.3 Bekanntgabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.1.1.3%20Bekanntgabe.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zum Management von Informationen und damit verbundener Assets |  | verankern | IT-Betriebskonzept | >Informationen und Assets MUSS Verfahren und Regelungen zum Management von Informationen und damit verbundener Assets verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.1%20Grundlagen.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren und Regelungen zum Management von Informationen und damit verbundener Assets |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets MUSS Verfahren und Regelungen zum Management von Informationen und damit verbundener Assets verankern.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Informationsmanagement ist der systematische Umgang mit Informationen während ihres gesamten Lebenszyklus, einschließlich von Regelungen, Prozessen und technischen Verfahren zur Erhebung, Verarbeitung, Speicherung, sowie Löschung und Vernichtung. Dazu gehören z.B. Schutzbedarf, Verarbeitung in den Geschäftsprozessen, Aufbewahrungs- und Löschfristen. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den Anforderungen dieser Praktik.

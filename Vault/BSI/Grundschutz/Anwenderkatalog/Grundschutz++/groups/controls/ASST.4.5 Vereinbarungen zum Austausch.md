@@ -1,21 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.4.5 Vereinbarungen zum Austausch
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Verträge
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.4.5 - Vereinbarungen zum Austausch
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [ASST.4 Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md) *** | Daten | SOLLTE | Regelungen zum Transfer |  | verankern | Verträge | >Informationen und Assets für Daten SOLLTE Regelungen zum Transfer verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Transfer](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.4%20Regelungen%20zum%20Transfer.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Regelungen zum Transfer |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Verträge](documentation_guidelines_Verträge) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE Regelungen zum Transfer verankern.</span>
 
 > [!info]- Guidance
 >Beispielsweise kann es für Geschäfts- und Betriebsgeheimnisse wie Patente sinnvoll sein, eine explizite Vertraulichkeitsvereinbarung abzuschließen, bevor genaue Informationen weitergegeben werden. Hierzu kann z.B. gehören nach welchen Kriterien ausgetausche Informationen zu klassifizieren sind oder wie in eine bestimme Klasse eingestufte Daten zu schützen oder verarbeiten sind. Die Vereinbarung über anzuwendende Sicherheitsanforderungen kann anhand von vorformulierten Vertragstexten erfolgen oder über den Austausch von Sicherheitsanforderungen in strukturierten Datenformaten wie OSCAL. Letzteres hat den Vorteil, dass weiterführende Daten etwa zum Umsetzungsstand ebenfalls leichter gepflegt und ausgetauscht werden können.

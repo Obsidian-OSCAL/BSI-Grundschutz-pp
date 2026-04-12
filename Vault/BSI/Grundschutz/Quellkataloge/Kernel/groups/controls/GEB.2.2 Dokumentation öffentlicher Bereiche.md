@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.2.2 Dokumentation öffentlicher Bereiche
+stmt_target_object_category: Gebäude
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.2 Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md) *** | Gebäude | SOLLTE | Bereiche, die ohne Authentifizierung zugänglich sind, | mit Begründung | dokumentieren | Gebäudedokumentation | >Gebäudemanagement für Gebäude SOLLTE Bereiche, die ohne Authentifizierung zugänglich sind, mit Begründung dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Gebäude](target_object_categories_Gebäude_422401b2-2c71-4ea5-a71c-6f386ba16cfc) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Bereiche, die ohne Authentifizierung zugänglich sind, | mit Begründung | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Gebäude SOLLTE Bereiche, die ohne Authentifizierung zugänglich sind, mit Begründung dokumentieren.</span>
 
 > [!info]- Guidance
 >Gebäude sind als stabiler und klar ersichtlicher Sicherheitsperimeter besonders geeignet. Viele Institutionen benötigen für ihre Aufgaben jedoch Bereiche, die ohne Authentifizierung zugänglich sind, z.B. Empfangs- oder Lieferzonen, Bürgerbüros, Kundenräume. Hierdurch könnte es leicht zu versehentlichen oder zielgerichteten Schäden an Assets, unbefugten Zutritten oder dem Abfluss vertraulicher Daten kommen. Daher ist es sinnvoll, diese Bereiche zu dokumentieren und die Gründe für ihre Bereitstellung nachzuhalten, um sicherzustellen, dass der Sicherheitsperimeter auch im Gebäude korrekt verläuft und geschützt ist.

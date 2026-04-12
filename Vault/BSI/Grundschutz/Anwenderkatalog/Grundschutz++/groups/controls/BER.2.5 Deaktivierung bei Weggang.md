@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.2.5 Deaktivierung bei Weggang
+stmt_modal_verb: SOLLTE
+stmt_action_word: deaktivieren
+stmt_documentation: Inventar Berechtigungen
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [BER.2 Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschut
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md) *** |  | SOLLTE | die zugeordnete Identität | bei Weggang von Nutzenden | deaktivieren | Inventar Berechtigungen | >Berechtigung SOLLTE die zugeordnete Identität bei Weggang von Nutzenden deaktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Identitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.2%20Identitätsmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die zugeordnete Identität | bei Weggang von Nutzenden | [deaktivieren](action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die zugeordnete Identität bei Weggang von Nutzenden deaktivieren.</span>
 
 > [!info]- Guidance
 >Weggang meint hier die nicht nur kurzfristige Beendigung der Aktivitäten der Identität, z.B. bei Kündigung, Elternzeit, Sabbatical. Die Anforderung ist auch umgesetzt, wenn die Identität gelöscht wird. Empfehlenswert ist die Löschung jedoch erst nach Ablauf längerer Löschfristen, um die Nachvollziehbarkeit von Aktionen im Audit Log zu erhalten.

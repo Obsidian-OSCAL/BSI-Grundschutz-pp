@@ -1,8 +1,15 @@
 ---
-tags: arch71-prm1
+tags:
+- arch71-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.7.1 Dedizierte Hostsysteme für Server
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: platzieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
@@ -12,9 +19,9 @@ Gruppe: [ARCH.7 Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz+
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.7%20Dedizierte%20Systeme.md) *** | Anwendungen | SOLLTE | Serverdienste ausschließlich auf für die Anwendung dedizierten {{virtuellen oder physischen}} Hostsystemen |  | platzieren | Konfigurationshistorie | >Architektur für Anwendungen SOLLTE Serverdienste ausschließlich auf für die Anwendung dedizierten {{ insert: param, arch.7.1-prm1 }} Hostsystemen platzieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.7%20Dedizierte%20Systeme.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Serverdienste ausschließlich auf für die Anwendung dedizierten {{virtuellen oder physischen}} Hostsystemen |  | [platzieren](action_words_platzieren_fec950b7-8c2d-4060-b4ff-d7276f0f9a56) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen SOLLTE Serverdienste ausschließlich auf für die Anwendung dedizierten {{ insert: param, arch.7.1-prm1 }} Hostsystemen platzieren.</span>
 
 > [!info]- Guidance
 >„Serverdienste“ bezeichnen hier die logisch oder physisch abgegrenzten IT-Services (engl. server services), die bestimmte Funktionalitäten einer Anwendung bereitstellen, etwa Datenbankinstanzen, Webserver-Komponenten oder API-Endpunkte. Ein „dediziertes Hostsystem“ (engl. dedicated host system) ist dabei ein physischer oder virtueller Server, der ausschließlich für eine einzelne Anwendung und deren zugehörige Serverdienste betrieben wird, ohne dass darauf weitere fachfremde oder von der Anwendung unabhängige Dienste ausgeführt werden. Mögliche Bereitstellungsformen können virtualisierte Maschinen, Container-fähige Hypervisor-Instanzen, Bare-Metal-Server oder Appliances sein. Diese Abgrenzung dient der klaren Trennung von Verantwortlichkeiten, Konfigurationen und Ressourcen und reduziert die Komplexität innerhalb der Systemlandschaft. Sie schafft eine saubere Zuordnung zwischen Anwendung und ihrer technischen Plattform, was die Nachvollziehbarkeit, Wartbarkeit und Sicherheit der jeweiligen Lösung deutlich erhöht. Ziel ist, dass nicht mehrere Server-Anwendungen auf einem Betriebssystem (oder sogar auf Endgeräten) laufen, um systemische Risiken zu minimieren, die aus Mehrfachnutzung oder unklarer Ressourcenteilung entstehen könnten. Sonst könnte es etwa durch unerwartete Wechselwirkungen zwischen Diensten, fehlerhafte Berechtigungszuweisungen, unbeabsichtigte Seitenkanäle, unkontrollierte Ressourcenkonflikte oder Abhängigkeiten bei Systemupdates zu Betriebsproblemen oder lateralen Bewegungen von Angreifenden kommen. Die Anforderung kann auch durch die Verwendung von virtuellen Maschinen oder Containern realisiert werden.

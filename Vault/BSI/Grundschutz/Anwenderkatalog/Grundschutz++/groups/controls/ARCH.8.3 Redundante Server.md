@@ -1,21 +1,28 @@
 ---
-tags: Hochverfügbarkeit_Failover
+tags:
+- hochverfügbarkeit_failover
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.8.3 Redundante Server
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.8.3 - Redundante Server
-Tags: "[Hochverfügbarkeit](tags_Hochverfügbarkeit)" "[Failover](tags_Failover)"
+> [!example]- Tags:> [[tags_Hochverfügbarkeit|Hochverfügbarkeit]]> [[tags_Failover|Failover]]
 Gruppe: [ARCH.8 Ausfallsicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.8%20Ausfallsicherheit.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Ausfallsicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.8%20Ausfallsicherheit.md) *** | Anwendungen | KANN | für die Funktionsfähigkeit der Anwendung erforderliche Hostsysteme redundant |  | installieren | Konfigurationshistorie | >Architektur für Anwendungen KANN für die Funktionsfähigkeit der Anwendung erforderliche Hostsysteme redundant installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Ausfallsicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.8%20Ausfallsicherheit.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | für die Funktionsfähigkeit der Anwendung erforderliche Hostsysteme redundant |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN für die Funktionsfähigkeit der Anwendung erforderliche Hostsysteme redundant installieren.</span>
 
 > [!info]- Guidance
 >Redundanz ist gegeben, wenn sowohl das System als auch seine Netzanbindung redundant vorhanden sind. Das System selbst ist nur redundant, wenn auch seine Datenspeicher und Stromversorgung redundant ausgelegt sind. Automatische Umschaltung meint das Failover. Die Anforderung kann durch netzbasierte Load Balancer oder serverseitige automatisch Umschaltung umgesetzt werden (z.B. durch Hello-Pakete).

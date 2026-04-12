@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.6.2 Rückkehr abhandengekommener Assets
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Arbeitsanweisung
+result_reference: Asset
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,11 @@ Gruppe: [ASST.6 Rücknahme von Assets](BSI/Grundschutz/Quellkataloge/Kernel/grou
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Rücknahme von Assets](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.6%20Rücknahme%20von%20Assets.md) *** |  | SOLLTE | eine Vorgehensweise bei Rückkehr von abhandengekommenen Assets |  | verankern | Arbeitsanweisung | >Informationen und Assets SOLLTE eine Vorgehensweise bei Rückkehr von abhandengekommenen Assets verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Rücknahme von Assets](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.6%20Rücknahme%20von%20Assets.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Vorgehensweise bei Rückkehr von abhandengekommenen Assets |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE eine Vorgehensweise bei Rückkehr von abhandengekommenen Assets verankern.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >"Abhandengekommene Assets" bezeichnen Informationswerte, die ungewollt oder ungeplant außerhalb der direkten Kontrolle der Institution geraten sind - beispielsweise durch Verlust, Diebstahl, vergessene Mitnahme oder andere unbeabsichtigte Ereignisse. Eine "Vorgehensweise bei Rückkehr" meint einen strukturierten Prozess zur systematischen Wiederaufnahme und sicherheitstechnischen Bewertung solcher Assets nach ihrer Wiederbeschaffung oder ihrem Wiederauffinden. Diese Anforderung zielt auf die Risikominimierung bei der Wiederintegration potenziell kompromittierter Assets ab, da während der unkontrollierten Abwesenheit Manipulationen, unautorisierten Zugriffe oder Datenabflüsse aufgetreten sein könnten. Ohne strukturierte Rückkehrprozesse kann die unkontrollierte Wiederverwendung zurückgekehrter Assets zu Sicherheitslücken, Malware-Infektionen oder Datenschutzverletzungen führen. Umsetzungen können bei der Asset-Rückkehr (1) eine vollständige Identitätsprüfung anhand eindeutiger Kennzeichnungen wie Seriennummern oder Asset-Tags, (2) eine technische Integritätsprüfung durch Malware-Scans, Firmware-Vergleiche und Hardwareanalysen sowie (3) eine Datenintegrität-Bewertung mittels kryptografischer Prüfsummen oder forensischer Analysen umfassen. Als Alternative zur tiefergehenden Analyse von Systemen und Daten bietet sich auch die Löschung oder Entsorgung an. Prozessual kann die Einrichtung einer zentralen Asset-Return-Stelle mit definierten Eskalationswegen bei Auffälligkeiten, die Dokumentation aller Rückkehrfälle in einem Asset-Management-System und die Implementierung von Quarantäne-Verfahren für verdächtige Assets erfolgen.

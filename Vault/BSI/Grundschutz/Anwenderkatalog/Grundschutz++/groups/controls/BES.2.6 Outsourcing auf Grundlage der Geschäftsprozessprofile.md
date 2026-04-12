@@ -1,21 +1,31 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.2.6 Outsourcing auf Grundlage der Geschäftsprozessprofile
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: KANN
+stmt_action_word: autorisieren
+stmt_documentation: Geschäftsprozesse
+result_reference: Geschäftsprozess
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.2.6 - Outsourcing auf Grundlage der Geschäftsprozessprofile
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.2 Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *** | Outsourcing | KANN | Outsourcingverträge auf Grundlage der Geschäftsprozessprofile | durch die Leitung | autorisieren | Geschäftsprozesse | >Beschaffungsmanagement für Outsourcing KANN Outsourcingverträge auf Grundlage der Geschäftsprozessprofile durch die Leitung autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Bedarfserfassung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.2%20Bedarfserfassung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Outsourcingverträge auf Grundlage der Geschäftsprozessprofile | durch die Leitung | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Geschäftsprozesse](documentation_guidelines_Geschäftsprozesse) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing KANN Outsourcingverträge auf Grundlage der Geschäftsprozessprofile durch die Leitung autorisieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Geschäftsprozess](result_Geschäftsprozess_00000000-0000-0000-0000-000000000000) | Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Arbeitsabläufe), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. |
 
 > [!info]- Guidance
 >Das Outsourcing eigener (Teil-)Prozesse ist eine bewusste und häufig folgenreiche Entscheidung - auch für die die eigene Kontrolle der Informationssicherheit. Die Entscheidung kann sich am festgestellten Schutzbedarf oder Risikoprofil der Institution und der betroffenen Geschäftsprozesse orientieren. Die Entscheidung durch die Leitung bezieht sich hier auf die Frage, ob Outsourcing von der Institution grundsätzlich gewollt ist und welche (Teil-)Prozesse ausgelagert werden können oder in der Institution verbleiben. Diese kann konkrete Geschäftsprozesse benennen, aber auch anhand allgemeiner Kriterien getroffen werden (z.B. Keine Auslagerung von Geschäftsprozessen mit hohem Schutzbedarf).

@@ -1,23 +1,30 @@
 ---
-tags: Security_by_Design_Produktbeschreibung
+tags:
+- security_by_design_produktbeschreibung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.2.6.1 Eingabevalidierung
 parent_control: DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: testen
+stmt_documentation: Freigabeplan
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.6.1 - Eingabevalidierung
-Tags: "[Security by Design](tags_Security by Design)" "[Produktbeschreibung](tags_Produktbeschreibung)"
+> [!example]- Tags:> [[tags_Security by Design|Security by Design]]> [[tags_Produktbeschreibung|Produktbeschreibung]]
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
 ** Übergeordnetes Control: ** [DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DEV.2.6%20Widerstandsfähigkeit%20gegen%20gängige%20Angriffsmuster.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *** | Anwendungen | SOLLTE | Eingabedaten | auf eingeschleuste Befehle | testen | Freigabeplan | >Entwicklung für Anwendungen SOLLTE Eingabedaten auf eingeschleuste Befehle testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Security by Design](BSI/Grundschutz/Quellkataloge/Kernel/groups/DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Eingabedaten | auf eingeschleuste Befehle | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Freigabeplan](documentation_guidelines_Freigabeplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE Eingabedaten auf eingeschleuste Befehle testen.</span>
 
 > [!info]- Guidance
 >Bei der Eingabevalidierung (Input Validation) wird getestet, ob die Eingabedaten eingeschleuste Befehle enthalten, z.B. SQL-Injection, Kommandozeilenbefehle oder Prompt Injection bei generativer KI.   Welche Eingaben betroffen sein könnten, kann durch eine Taint Analyse herausgefunden werden. Alternativ können auch alle Eingabedaten validiert werden (Server Side Validation).

@@ -6,8 +6,7 @@ group_id: STM.7
 
 ** Group **
 # STM.7 - Überprüfung des gesetzten Sicherheitsniveaus 
-** Übergeordnete Gruppe: **
- [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)## Controls
 
-> [!info]+ [[STM.7.1 Überprüfung des gesetzten Sicherheitsniveaus.md|STM.7.1 Überprüfung des gesetzten Sicherheitsniveaus]]
+> [!example]+ [[STM.7.1 Überprüfung des gesetzten Sicherheitsniveaus.md|STM.7.1 Überprüfung des gesetzten Sicherheitsniveaus]]

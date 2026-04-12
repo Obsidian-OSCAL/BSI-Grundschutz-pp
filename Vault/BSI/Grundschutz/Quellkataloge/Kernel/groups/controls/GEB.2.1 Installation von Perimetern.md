@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.2.1 Installation von Perimetern
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [GEB.2 Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md) *** | Standorte | SOLLTE | Sicherheitsperimeter |  | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE Sicherheitsperimeter installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Physischer Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.2%20Physischer%20Perimeter.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Sicherheitsperimeter |  | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE Sicherheitsperimeter installieren.</span>
 
 > [!info]- Guidance
 >Die Installation physischer Sicherheitsperimeter dient dem grundlegenden Schutz von Informationsressourcen und kritischer Infrastruktur vor unbefugtem Zugriff und physischen Bedrohungen. Ein effektiver Sicherheitsperimeter kann als mehrschichtige Barriere fungieren, die sensible Bereiche vor verschiedenen Risiken wie Einbruch, Diebstahl oder Sabotage schützt. Ohne angemessene physische Sicherheitsmaßnahmen könnten unbefugte Personen z.B. Zugang zu Serverräumen erlangen und dort Datenträger entwenden, Schadcode installieren oder Hardwarekomponenten manipulieren. Auch Naturereignisse wie Überschwemmungen oder Brände könnten ohne geeignete Perimeter leichter zu Datenverlust oder Betriebsunterbrechungen führen.  Bei der Implementierung physischer Sicherheitsperimeter kann eine Kombination verschiedener Sicherheitsebenen erwogen werden, beginnend mit äußeren Barrieren wie Zäunen, Schranken oder gesicherten Eingangsbereichen, die den Zugang zum Gelände regulieren. Im Gebäudeinneren können Zugangskontrollsysteme mit unterschiedlichen Authentifizierungsmethoden (Chipkarten, biometrische Verfahren, PIN-Codes) eingesetzt werden, um den Zutritt zu sensiblen Bereichen auf autorisierte Mitarbeiter zu beschränken. Die Effektivität dieser Maßnahmen kann durch ergänzende Systeme wie Videoüberwachung, Alarmanlagen oder Bewegungsmelder verstärkt werden, wobei ein ausgewogenes Verhältnis zwischen Sicherheitsanforderungen und Praktikabilität für den Arbeitsalltag zu finden ist. Bei der Planung kann eine Risikobewertung helfen, um festzulegen, welche Bereiche besonders schutzbedürftig sind und entsprechend abgesichert werden, etwa durch Sicherheitszonen mit gestaffelten Zugangsrechten oder spezielle Brandschutzbereiche für kritische IT-Infrastruktur.

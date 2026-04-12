@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: VRB.2.1 Umgang mit Nicht-Konformitäten
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [VRB.2 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Me
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)**<br> ***  &rarr; [Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md) *** |  | MUSS | eine Methode zur Überprüfung von Nicht-Konformitäten | hinsichtlich Ursachen und Wiederauftreten | festlegen |  | >Verbesserung MUSS eine Methode zur Überprüfung von Nicht-Konformitäten hinsichtlich Ursachen und Wiederauftreten festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)*<br> *  &rarr; [Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md) *</div> | [Verbesserung](practices_Verbesserung_662fb453-caf1-4e01-8152-b88027b71438) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | eine Methode zur Überprüfung von Nicht-Konformitäten | hinsichtlich Ursachen und Wiederauftreten | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Verbesserung MUSS eine Methode zur Überprüfung von Nicht-Konformitäten hinsichtlich Ursachen und Wiederauftreten festlegen.</span>
 
 > [!info]- Guidance
 >Die Methode sollte eine systematische Erfassung und Dokumentation aller identifizierten Nicht-Konformitäten, unabhängig davon, ob sie durch interne Audits, externe Prüfungen, Vorfälle oder im Rahmen des regulären Betriebs entdeckt wurden, enthalten. Außerdem sollte sie sich auf eine gründliche Ursachenanalyse stützen, die nicht nur die unmittelbaren, sondern auch die grundlegenden Ursachen der Nicht-Konformität identifiziert (Root-Cause-Analysis).

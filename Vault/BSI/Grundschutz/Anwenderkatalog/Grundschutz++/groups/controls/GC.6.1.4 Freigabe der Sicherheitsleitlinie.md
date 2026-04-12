@@ -1,23 +1,29 @@
 ---
-tags: Führungsverantwortung
+tags:
+- führungsverantwortung
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.6.1.4 Freigabe der Sicherheitsleitlinie
 parent_control: GC.6.1 Festlegung von Zielen für die Informationssicherheit
+stmt_modal_verb: MUSS
+stmt_action_word: autorisieren
+stmt_documentation: Informationssicherheitsleitlinie
+control_effort_level: '0'
 ---
 
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # GC.6.1.4 - Freigabe der Sicherheitsleitlinie
-Tags: "[Führungsverantwortung](tags_Führungsverantwortung)"
+Tag: [[tags_Führungsverantwortung|Führungsverantwortung]]
 Gruppe: [GC.6 Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md)
 ---
 
 ** Übergeordnetes Control: ** [GC.6.1 Festlegung von Zielen für die Informationssicherheit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.6.1%20Festlegung%20von%20Zielen%20für%20die%20Informationssicherheit.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *** |  | MUSS | die festgelegte Sicherheitsleitlinie | durch die Institutionsleitung | autorisieren | Informationssicherheitsleitlinie | >Governance und Compliance MUSS die festgelegte Sicherheitsleitlinie durch die Institutionsleitung autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die festgelegte Sicherheitsleitlinie | durch die Institutionsleitung | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Informationssicherheitsleitlinie](documentation_guidelines_Informationssicherheitsleitlinie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS die festgelegte Sicherheitsleitlinie durch die Institutionsleitung autorisieren.</span>
 ### Weitere Informationen
 
 

@@ -6,4 +6,10 @@ group_id: RISK
 
 ** Group **
 # RISK - Risikomanagement 
-> [!info]+ Untergeordnete Gruppen> [RISK.1 Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md)
+> [!info]- Praktik RISK Risikomanagement:
+> | | |
+> | - | - |
+> | auch bekannt als: | Risk Management |
+> | Schwerpunkt: | Methodik |
+>
+> > Risikomanagement ist ein systematischer, wiederkehrender Zyklus, mit dem Ziel, Risiken für die Vertraulichkeit, Integrität und Verfügbarkeit von Informationen zu identifizieren, zu bewerten, zu steuern und kontinuierlich zu überwachen. Es dient dazu, Risiken auf ein akzeptables Maß zu reduzieren.> [!example]+ Untergeordnete Gruppen> [RISK.1 Risiko](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RISK.1%20Risiko.md)

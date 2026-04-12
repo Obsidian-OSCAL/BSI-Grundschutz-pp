@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.4.3 Abmelden nach Nutzung
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SEN
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md) *** | Nutzende | SOLLTE | zum Abmelden | nach Nutzung | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE zum Abmelden nach Nutzung sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Authentisierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.4%20Authentisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zum Abmelden | nach Nutzung | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zum Abmelden nach Nutzung sensibilisieren.</span>
 
 > [!info]- Guidance
 >Bleibt eine Sitzung unbeaufsichtigt angemeldet, könnte dies ausgenutzt werden, um Daten zu manipulieren, zu kopieren oder unbemerkt schädliche Aktionen auszuführen. Ein solches Risiko könnte z.B. in offenen Büroflächen, gemeinsam genutzten Arbeitsplätzen oder bei externen Einsätzen entstehen, etwa wenn jemand kurz den Platz verlässt und ein Dritter die Gelegenheit nutzt, um sensible Unterlagen herunterzuladen oder interne Kommunikationskanäle zu durchsuchen. Dies beinhaltet auch die Sperrung des genutzten IT-Systems nach Nutzung. „Abmelden“ bedeutet in diesem Kontext das gezielte Beenden einer aktiven Benutzeranmeldung – etwa durch Ausloggen aus einer Anwendung, Sperren des Betriebssystems oder Abmelden von einem Fernzugriff –, sodass keine offenen Berechtigungen mehr genutzt werden können. Technische Hinweise wie Tastenkombinationen zum schnellen Sperren des Bildschirms oder kurze Anleitungen für den Logout-Prozess in wichtigen Fachanwendungen können in der Nähe von Arbeitsplätzen, auf Intranetseiten oder in E-Learning-Modulen platziert werden, um die Erinnerung daran wachzuhalten.

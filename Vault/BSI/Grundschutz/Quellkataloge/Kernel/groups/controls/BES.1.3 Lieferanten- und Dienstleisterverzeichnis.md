@@ -1,22 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.1.3 Lieferanten- und Dienstleisterverzeichnis
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Liste der Hersteller und Dienstleister
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.3 - Lieferanten- und Dienstleisterverzeichnis
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [BES.1.3.1 Gesamte Lieferkette](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.1.3.1%20Gesamte%20Lieferkette.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md) *** | Einkäufe | SOLLTE | alle direkten Zulieferer und Dienstleister | inklusive der jeweiligen Kontaktdaten und den bezogenen Lieferungen | dokumentieren | Liste der Hersteller und Dienstleister | >Beschaffungsmanagement für Einkäufe SOLLTE alle direkten Zulieferer und Dienstleister inklusive der jeweiligen Kontaktdaten und den bezogenen Lieferungen dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | alle direkten Zulieferer und Dienstleister | inklusive der jeweiligen Kontaktdaten und den bezogenen Lieferungen | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Liste der Hersteller und Dienstleister](documentation_guidelines_Liste der Hersteller und Dienstleister) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE alle direkten Zulieferer und Dienstleister inklusive der jeweiligen Kontaktdaten und den bezogenen Lieferungen dokumentieren.</span>
 
 > [!info]- Guidance
 >Direkte Zulieferer sind hier alle Vertragspartner, von denen IT-Produkte bezogen werden. Dienstleister sind alle Vertragspartner, die schützenswerte Informationen des Informationsverbundes verarbeiten.

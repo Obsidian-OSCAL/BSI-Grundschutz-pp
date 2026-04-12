@@ -6,8 +6,7 @@ group_id: STM.8
 
 ** Group **
 # STM.8 - Durchführung der Risikobetrachtung 
-** Übergeordnete Gruppe: **
- [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)## Controls
 
-> [!info]+ [[STM.8.1 Risikobetrachtung bei fehlenden Anforderungen.md|STM.8.1 Risikobetrachtung bei fehlenden Anforderungen]]
+> [!example]+ [[STM.8.1 Risikobetrachtung bei fehlenden Anforderungen.md|STM.8.1 Risikobetrachtung bei fehlenden Anforderungen]]

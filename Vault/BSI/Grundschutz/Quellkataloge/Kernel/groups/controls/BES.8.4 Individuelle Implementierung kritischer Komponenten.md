@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.8.4 Individuelle Implementierung kritischer Komponenten
+stmt_target_object_category: IT-Produkte
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.8.4 - Individuelle Implementierung kritischer Komponenten
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.8 Kompensierende Kontrollmechanismen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Kompensierende Kontrollmechanismen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md) *** | IT-Produkte | KANN | eine eigens für die Institution entwickelte Implementierung kritischer Komponenten |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für IT-Produkte KANN eine eigens für die Institution entwickelte Implementierung kritischer Komponenten vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Kompensierende Kontrollmechanismen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine eigens für die Institution entwickelte Implementierung kritischer Komponenten |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN eine eigens für die Institution entwickelte Implementierung kritischer Komponenten vereinbaren.</span>
 
 > [!info]- Guidance
 >Dient dazu das Risiko zu mindern, dass sicherheitsrelevante Funktionen oder Integrationspunkte ungeeignet, unvollständig oder von Drittanbietern unzureichend abgesichert bereitgestellt werden. Kritische Komponenten sind dabei jene Hardware- oder Software-Bestandteile, deren Ausfall, Kompromittierung oder Fehlfunktion wesentliche Geschäftsprozesse beeinträchtigen oder sensible Daten gefährden könnte – etwa Kryptomodule, Authentifizierungsmechanismen, Schnittstellen zur Anbindung an interne Systeme oder sicherheitsrelevante Konfigurationsbausteine. Ohne gezielte Einflussnahme bei der Beschaffung könnte es beispielsweise vorkommen, dass ein Standardprodukt mit unsicheren Voreinstellungen geliefert wird, ein Modul nicht die für den Einsatzzweck erforderliche Verschlüsselung unterstützt oder herstellerseitige Updates nicht zeitnah bereitgestellt werden. Andererseits bergen selbst entwickelte Komponenten gegenüber Standardbeschaffungen das Risiko, dass die Eigenentwicklungen unzureichend getestet oder im Einsatz erprobt wurden. Daher ist vor einer Eigenentwicklung eine Risikoabschätzung sinnvoll. Typischerweise lohnt eine Eigenentwicklung sich nur wenn erhebliche Ressourcen für deren Absicherung vorhanden sind und der Vertraulichkeit oder Integrität eine stark erhöhte Bedeutung im Vergleich zu Standardprodukten zukommt. Eine Institution kann bei der Umsetzung dieser Anforderung gezielt in den Beschaffungsvertrag aufnehmen, dass bestimmte Komponenten nach definierten Vorgaben angepasst, gehärtet oder erweitert werden – beispielsweise eine erweiterte Protokollierungsfunktion in einer Verwaltungssoftware, eine abgesicherte Firmware-Konfiguration bei Netzwerkgeräten oder die Integration zusätzlicher Prüfmechanismen in eine Schnittstellen-API.

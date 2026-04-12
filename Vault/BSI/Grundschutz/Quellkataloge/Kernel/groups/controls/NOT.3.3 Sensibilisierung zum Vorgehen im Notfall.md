@@ -1,21 +1,28 @@
 ---
-tags: Kompetenzmanagement
+tags:
+- kompetenzmanagement
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.3.3 Sensibilisierung zum Vorgehen im Notfall
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # NOT.3.3 - Sensibilisierung zum Vorgehen im Notfall
-Tags: "[Kompetenzmanagement](tags_Kompetenzmanagement)"
+Tag: [[tags_Kompetenzmanagement|Kompetenzmanagement]]
 Gruppe: [NOT.3 Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md) *** | Nutzende | SOLLTE | zur Vorgehensweise in Notfällen und Krisen |  | sensibilisieren | Schulungsplan | >Notfallplanung für Nutzende SOLLTE zur Vorgehensweise in Notfällen und Krisen sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Notfallvorsorge](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.3%20Notfallvorsorge.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Vorgehensweise in Notfällen und Krisen |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung für Nutzende SOLLTE zur Vorgehensweise in Notfällen und Krisen sensibilisieren.</span>
 
 > [!info]- Guidance
 >Eine Sensibilisierung für die Vorgehensweise in Notfällen und Krisen (Contingency Training) stellt sicher, dass alle zuständigen Stellen ihre Aufgaben bei einem Schadensereignis kennen. Zweckmäßig ist es, die Detailtiefe der Sensibilisierung auf die unterschiedlichen Aufgaben bei einem Schadensereignis zuzuschneiden. Beispielsweise genügt es für manche Mitarbeitenden zu wissen, welche Erreichbarkeit bei einem Schadensereignis von ihnen erwartet wird.

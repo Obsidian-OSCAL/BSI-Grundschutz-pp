@@ -1,8 +1,15 @@
 ---
-tags: geb104-prm1
+tags:
+- geb104-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.4 Blitzschutzeinrichtungen
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '3'
 ---
 
 
@@ -11,11 +18,11 @@ control: GEB.10.4 Blitzschutzeinrichtungen
 Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [GEB.10.4.1 Niederohmigkeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.4.1%20Niederohmigkeit.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *** | Standorte | SOLLTE | Blitzschutzeinrichtungen | nach {{einem anerkannten Standard}} | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE Blitzschutzeinrichtungen nach {{ insert: param, geb.10.4-prm1 }} installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Blitzschutzeinrichtungen | nach {{einem anerkannten Standard}} | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE Blitzschutzeinrichtungen nach {{ insert: param, geb.10.4-prm1 }} installieren.</span>
 
 > [!info]- Guidance
 >Blitzschutzeinrichtungen sind bauliche oder technische Maßnahmen, die Gebäude, Anlagen und darin befindliche Systeme vor den direkten und indirekten Auswirkungen eines Blitzeinschlags schützen. Der Zweck dieser Regelung liegt darin, Risiken durch Blitzeinschläge zu reduzieren: Ein direkter Einschlag könnte Gebäudestrukturen beschädigen, Brände verursachen oder elektrische Systeme zerstören. Indirekte Einschläge könnten durch Überspannungen Datenverluste oder den Ausfall kritischer Systeme hervorrufen. Die Installation nach anerkannten Standards kann hier Schäden an Bausubstanz, Stromversorgung und Informationssystemen verhindern und die Verfügbarkeit sensibler Infrastruktur sichern. Ein anerkannter Standard ist hier die DIN EN 62305, die Anforderungen an Planung, Errichtung und Prüfung von Einrichtungen wie Fangstangen oder Erdungsanlagen definiert. Sie kennt verschiedene Schutzklassen. Für Standorte mit normalem Schutzbedarf wird Schutzklasse II oder besser gemäß DIN EN 62305 empfohlen. Für Räume für technische Infrastruktur oder Rechenzentren ist mindestens die Blitzschutzzone 2 (LPZ 2) sinnvoll.

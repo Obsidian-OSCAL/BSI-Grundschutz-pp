@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.14 Reserve physischer Assets
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: IT-Betriebskonzept
+result_reference: Asset
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +17,11 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** |  | SOLLTE | eine Reserve physischer Assets |  | verankern | IT-Betriebskonzept | >Informationen und Assets SOLLTE eine Reserve physischer Assets verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Reserve physischer Assets |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE eine Reserve physischer Assets verankern.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
 >Die Beschaffung und Installation von Systemen und deren Peripherie nimmt gewöhnlich eine längere Zeit in Anspruch, weshalb es sinnvoll ist, Ersatzgeräte für Ausfälle bereitzuhalten. Die Menge der Ersatzgeräte reicht aus, wenn sie den voraussichtlichen Bedarf deckt, der bis zur Lieferung und Installation der nächsten Beschaffung vergeht. Der voraussichtliche Bedarf kann aus dem bisherigen Bedarf unter Anpassung an Veränderungen (z.B. Wachstum der Nutzerzahlen) berechnet werden. Typische Assets wären hier z.B. IT-Clients (Desktop PCs/Laptops), Smartphones oder andere häufig genutzte Endgeräte.

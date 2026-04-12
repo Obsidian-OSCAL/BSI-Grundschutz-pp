@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.7.9 Aktive Inhalte
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderka
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md) *** | Nutzende, Office-Anwendungen | SOLLTE | zur Überprüfung aktiver Inhalte vor der Aktivierung |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende von Office-Anwendungen SOLLTE zur Überprüfung aktiver Inhalte vor der Aktivierung sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Nutzende, Office-Anwendungen | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Überprüfung aktiver Inhalte vor der Aktivierung |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende von Office-Anwendungen SOLLTE zur Überprüfung aktiver Inhalte vor der Aktivierung sensibilisieren.</span>
 
 > [!info]- Guidance
 >Office-Dateien mit aktiven Inhalten (z.B. Makros) können Schadprogramme enthalten. In diesem Kontext bedeutet „aktive Inhalte“ jegliche Funktionen in Office-Dokumenten, die über reine Text- oder Datenanzeige hinaus eigenständig Code ausführen oder externe Ressourcen ansprechen können. Bei unbekannten oder unerwarteten Dokumenten mit solchen Inhalten ist es sinnvoll, zunächst Rücksprache mit der absendenden Person zu halten, um die Echtheit des Dokumentes zu bestätigen und zu klären, ob die aktiven Inhalte für die Kommunikation zwingend erforderlich sind. Werden aktive Inhalte tatsächlich benötigt, so ist eine Prüfung des Quellcodes vor der Ausführung sinnvoll, die über die Meldewege angestoßen werden kann. Wurde für bestimmte aktive Inhalte bereits eine Freigabe erteilt, so kann deren erneute Prüfung bei jedem Öffnen des Dokumenten entfallen.

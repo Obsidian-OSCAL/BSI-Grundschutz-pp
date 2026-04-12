@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.1.4.1 Freigabe der Strategie
 parent_control: BES.1.4 Outsourcing-Strategie
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: SOLLTE
+stmt_action_word: autorisieren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.4.1 - Freigabe der Strategie
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.1.4 Outsourcing-Strategie](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.1.4%20Outsourcing-Strategie.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md) *** | Outsourcing | SOLLTE | die Strategie | durch die Institutionsleitung | autorisieren | Outsourcing Strategie | >Beschaffungsmanagement für Outsourcing SOLLTE die Strategie durch die Institutionsleitung autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.1%20Grundlagen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Strategie | durch die Institutionsleitung | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | Outsourcing Strategie | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing SOLLTE die Strategie durch die Institutionsleitung autorisieren.</span>
 
 > [!info]- Guidance
 >Ziel ist es sicherzustellen, dass Auslagerungen dem Risikoverständnis, den gesetzlichen Rahmenbedingungen und den geschäftlichen Zielen entsprechen und Verantwortlichkeiten eindeutig verankert sind. Fehlende oder uneinheitliche Leitentscheidungen könnten zu Schattenbeschaffungen, regulatorischen Beanstandungen, Konzentrationsrisiken oder unkontrollierten Datenabflüssen führen; etwa könnte ein Fachbereich ohne strategischen Rahmen einen Dienst in einer problematischen Jurisdiktion beauftragen oder mehrere kritische Leistungen bei einem einzigen Anbieter bündeln, was bei dessen Ausfall zu erheblichen Betriebsunterbrechungen führen könnte.

@@ -1,22 +1,27 @@
 ---
-tags: Security_by_Design
+tags:
+- security_by_design
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.1.1 - Verfahren und Regelungen
-Tags: "[Security by Design](tags_Security by Design)"
+Tag: [[tags_Security by Design|Security by Design]]
 Gruppe: [DEV.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DEV.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1.1%20Dokumentation.md)> [DEV.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [DEV.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DEV.1.1.3%20Bekanntgabe.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zur Entwicklung von IT-Produkten |  | verankern |  | >Entwicklung MUSS Verfahren und Regelungen zur Entwicklung von IT-Produkten verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.1%20Grundlagen.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren und Regelungen zur Entwicklung von IT-Produkten |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung MUSS Verfahren und Regelungen zur Entwicklung von IT-Produkten verankern.</span>
 
 > [!info]- Guidance
 >Für ein Verfahren zur Softwareentwicklung siehe BSI TR-03185. Entwickelt die Institution im Informationsverbund keine IT-Produkte, so sind diese und alle anderen Anforderungen der Praktik entbehrlich. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den Anforderungen dieser Praktik.

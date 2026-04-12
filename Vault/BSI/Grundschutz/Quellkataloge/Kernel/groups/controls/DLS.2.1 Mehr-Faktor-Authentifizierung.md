@@ -1,21 +1,28 @@
 ---
-tags: Advanced_Persistent_Threats_APT
+tags:
+- advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.2.1 Mehr-Faktor-Authentifizierung
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.2.1 - Mehr-Faktor-Authentifizierung
-Tags: "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [DLS.2 Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md) *** | Dienstleistungen | SOLLTE | Mehr-Faktor-Authentifizierung | bei Login in Online-Dienste | aktivieren | Konfigurationshistorie | >Dienstleistersteuerung für Dienstleistungen SOLLTE Mehr-Faktor-Authentifizierung bei Login in Online-Dienste aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Mehr-Faktor-Authentifizierung | bei Login in Online-Dienste | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE Mehr-Faktor-Authentifizierung bei Login in Online-Dienste aktivieren.</span>
 
 > [!info]- Guidance
 >Online-Dienste wie die Verwaltung von TK-Rufnummern oder Cloud-Office-Anwendungen sind ein beliebtes Ziel für Angriffe durch Phishing oder Datenleaks. Sichern Sie diese Zugänge mit Mehr-Faktor-Authentifizierung (z.B. OTP) ab.

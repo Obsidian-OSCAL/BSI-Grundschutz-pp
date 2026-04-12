@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.1.3 Management von Werkzeugen
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [KONF.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.1%2
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.1%20Grundlagen.md) *** |  | SOLLTE | verwendete Konfigurationswerkzeuge | einschließlich Verwendungszweck und Herkunft | dokumentieren | IT-Betriebskonzept | >Konfiguration SOLLTE verwendete Konfigurationswerkzeuge einschließlich Verwendungszweck und Herkunft dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.1%20Grundlagen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | verwendete Konfigurationswerkzeuge | einschließlich Verwendungszweck und Herkunft | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration SOLLTE verwendete Konfigurationswerkzeuge einschließlich Verwendungszweck und Herkunft dokumentieren.</span>
 
 > [!info]- Guidance
 >Der Begriff Konfigurationswerkzeuge bezeichnet in diesem Zusammenhang alle technischen Hilfsmittel, mit denen Systemeinstellungen erstellt, verändert oder verwaltet werden – beispielsweise Skriptsprachen, Automatisierungs-Frameworks, Versionsverwaltungswerkzeuge oder grafische Konfigurationsoberflächen. Unter Verwendungszweck wird verstanden, welche Funktion das jeweilige Werkzeug innerhalb des Betriebs erfüllt, etwa für automatisierte Serverbereitstellung, Netzwerkkonfiguration oder Datenbankparametersteuerung. Mit Herkunft ist die Herkunft des Werkzeugs gemeint, d. h. ob es sich um Eigenentwicklungen, quelloffene Software oder kommerzielle Produkte handelt und aus welchen Quellen diese bezogen werden. Die Dokumentation dieser Punkte kann Transparenz schaffen und Nachvollziehbarkeit erhöhen, wodurch Fehlkonfigurationen oder Manipulationen schneller erkannt werden können. Ohne klare Übersicht könnte unklar bleiben, mit welchen Mitteln kritische Systeme verändert wurden, was die Ursachenanalyse im Störungsfall erheblich erschweren könnte. Eine saubere Dokumentation kann verhindern, dass nicht vertrauenswürdige oder nicht mehr gepflegte Werkzeuge unbemerkt im Betrieb verbleiben und so potenzielle Angriffsvektoren entstehen. Für die Umsetzung kann die Institution eine strukturierte Werkzeugliste führen, in der pro Eintrag neben Name, Version und Hersteller auch Zweck und Beschaffungsquelle vermerkt werden. Diese Liste kann in einem Konfigurations- oder Inventarsystem gepflegt werden, sodass Aktualisierungen automatisiert oder zumindest standardisiert erfolgen können. Praktisch kann es helfen, jedes neue Werkzeug vor Einsatz über ein Freigabeverfahren einzutragen und zu kennzeichnen, ob es intern geprüft wurde. Eine einfache Möglichkeit besteht darin, bestehende Versionskontrollsysteme oder zentrale Wiki-Seiten zu nutzen, die alle relevanten Informationen versioniert und nachvollziehbar speichern können. Dies kann auch durch eine Markierung der administrativen Werkzeuge im Inventar der Anwendungen umgesetzt werden.

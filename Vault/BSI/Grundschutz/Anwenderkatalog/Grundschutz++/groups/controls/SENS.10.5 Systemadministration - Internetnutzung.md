@@ -1,21 +1,31 @@
 ---
-tags: Privilege_Escalation_Insider_Threat_Privilegierte_Rechte
+tags:
+- privilege_escalation_insider_threat_privilegierte_rechte
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.10.5 Systemadministration - Internetnutzung
+stmt_target_object_category: Administrierende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+result_reference: Zugriff
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.10.5 - Systemadministration - Internetnutzung
-Tags: "[Privilege Escalation](tags_Privilege Escalation)" "[Insider Threat](tags_Insider Threat)" "[Privilegierte Rechte](tags_Privilegierte Rechte)"
+> [!example]- Tags:> [[tags_Privilege Escalation|Privilege Escalation]]> [[tags_Insider Threat|Insider Threat]]> [[tags_Privilegierte Rechte|Privilegierte Rechte]]
 Gruppe: [SENS.10 Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md) *** | Administrierende | SOLLTE | gegen den Internetzugriff über ein Administrationskonto |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Administrierende SOLLTE gegen den Internetzugriff über ein Administrationskonto sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Administration](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.10%20Administration.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Administrierende](target_object_categories_Administrierende_efd76832-f5a1-432a-836d-c8d5c6d212cc) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | gegen den Internetzugriff über ein Administrationskonto |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Administrierende SOLLTE gegen den Internetzugriff über ein Administrationskonto sensibilisieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugriff](result_Zugriff_00000000-0000-0000-0000-000000000000) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
 >Administrationskonten sind im konkreten Kontext privilegierte Benutzerkonten, die erweiterte Rechte für Konfigurations-, Installations- oder Wartungsaufgaben besitzen. Internetzugriff bezeichnet dabei das Herstellen von Verbindungen zu externen Diensten oder Webseiten außerhalb der institutionseigenen Netze. Ein solcher Zugriff mit einem Administrationskonto stellt ein erhebliches Risiko dar: Schadsoftware könnte mit denselben hohen Rechten ausgeführt werden oder Anmeldedaten könnten über unsichere Webseiten abgegriffen werden. Hiervon können Zugriffe ausgenommen werden, die zur Administration des Systems mit diesen Rechten erforderlich sind, z.B. Download von Sicherheitsupdates durch Applikationen, die zur Ausführung administrative Rechte benötigen.

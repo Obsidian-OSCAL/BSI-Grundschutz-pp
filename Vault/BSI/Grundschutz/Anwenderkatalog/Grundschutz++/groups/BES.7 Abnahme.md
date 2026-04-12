@@ -6,19 +6,18 @@ group_id: BES.7
 
 ** Group **
 # BES.7 - Abnahme 
-** Übergeordnete Gruppe: **
- [BES Beschaffungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [BES Beschaffungsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)## Controls
 
-> [!info]+ [[BES.7.1 Eingangskontrolle.md|BES.7.1 Eingangskontrolle]]
+> [!example]+ [[BES.7.1 Eingangskontrolle.md|BES.7.1 Eingangskontrolle]]
 >  - [[BES.7.1.1 Test der Kompatibilität.md|BES.7.1.1 Test der Kompatibilität]]
 >  - [[BES.7.1.2 Netzcheck.md|BES.7.1.2 Netzcheck]]
 
-> [!info]+ [[BES.7.2 Prozesse vor Netzanbindung.md|BES.7.2 Prozesse vor Netzanbindung]]
+> [!example]+ [[BES.7.2 Prozesse vor Netzanbindung.md|BES.7.2 Prozesse vor Netzanbindung]]
 
-> [!info]+ [[BES.7.3 Anhörung Prozessbeteiligter.md|BES.7.3 Anhörung Prozessbeteiligter]]
+> [!example]+ [[BES.7.3 Anhörung Prozessbeteiligter.md|BES.7.3 Anhörung Prozessbeteiligter]]
 
-> [!info]+ [[BES.7.4 Vollständigkeit der Unterlagen.md|BES.7.4 Vollständigkeit der Unterlagen]]
+> [!example]+ [[BES.7.4 Vollständigkeit der Unterlagen.md|BES.7.4 Vollständigkeit der Unterlagen]]
 >  - [[BES.7.4.1 Beschreibung der Sicherheitsarchitektur.md|BES.7.4.1 Beschreibung der Sicherheitsarchitektur]]
 >  - [[BES.7.4.2 Beschreibung von Sicherheitsmechanismen.md|BES.7.4.2 Beschreibung von Sicherheitsmechanismen]]
 >  - [[BES.7.4.3 Empfohlene Konfiguration.md|BES.7.4.3 Empfohlene Konfiguration]]

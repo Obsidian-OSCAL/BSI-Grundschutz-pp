@@ -6,15 +6,14 @@ group_id: DET.6
 
 ** Group **
 # DET.6 - Vorfallserkennung 
-** Übergeordnete Gruppe: **
- [DET Detektion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [DET Detektion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)## Controls
 
-> [!info]+ [[DET.6.1 Beurteilung von Ereignissen.md|DET.6.1 Beurteilung von Ereignissen]]
+> [!example]+ [[DET.6.1 Beurteilung von Ereignissen.md|DET.6.1 Beurteilung von Ereignissen]]
 >  - [[DET.6.1.1 Automatisierte Feststellung.md|DET.6.1.1 Automatisierte Feststellung]]
 >  - [[DET.6.1.2 Automatische Alarmierung.md|DET.6.1.2 Automatische Alarmierung]]
 >  - [[DET.6.1.3 Dokumentation von Ergebnissen.md|DET.6.1.3 Dokumentation von Ergebnissen]]
 
-> [!info]+ [[DET.6.2 Beurteilung von Eingängen.md|DET.6.2 Beurteilung  von Eingängen]]
+> [!example]+ [[DET.6.2 Beurteilung von Eingängen.md|DET.6.2 Beurteilung  von Eingängen]]
 >  - [[DET.6.2.1 Dynamische Sandbox-Analyse.md|DET.6.2.1 Dynamische Sandbox-Analyse]]
 >  - [[DET.6.2.2 Datenträgerschleuse.md|DET.6.2.2 Datenträgerschleuse]]

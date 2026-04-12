@@ -1,23 +1,33 @@
 ---
-tags: Shoulder_Surfing
+tags:
+- shoulder_surfing
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.4.1.1 Verdeckte Eingabe
 parent_control: SENS.4.1 Personengebundene Authentisierungsmittel
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+result_reference: Zugang
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.1 - Verdeckte Eingabe
-Tags: "[Shoulder Surfing](tags_Shoulder Surfing)"
+Tag: [[tags_Shoulder Surfing|Shoulder Surfing]]
 Gruppe: [SENS.4 Authentisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.4%20Authentisierung.md)
 ---
 
 ** Übergeordnetes Control: ** [SENS.4.1 Personengebundene Authentisierungsmittel](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/SENS.4.1%20Personengebundene%20Authentisierungsmittel.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Authentisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.4%20Authentisierung.md) *** | Nutzende | SOLLTE | zur verdeckten Eingabe von Zugangsdaten |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE zur verdeckten Eingabe von Zugangsdaten sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Authentisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.4%20Authentisierung.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur verdeckten Eingabe von Zugangsdaten |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zur verdeckten Eingabe von Zugangsdaten sensibilisieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >Werden Zugangsdaten unverdeckt eingegeben, so könnten diese durch Shoulder Surfing kompromittiert werden, etwa in überfüllten Bereichen, Aufzügen oder während Videokonferenzen. Die verdeckte Eingabe umfasst dabei alle Tätigkeiten, die verhindern, dass Unbefugte die Eingabe von Passwörtern, PINs oder anderen Authentifizierungsdaten visuell erfassen können, sei es durch direkte Sichtbarkeit oder durch das Verfolgen von Handbewegungen und Tastaturanschlägen. Beispiele sind die bewusste Positionierung des Körpers oder der Hand als natürlicher Sichtschutz bei der Eingabe, sowie die Nutzung von Sichtschutzfolien auf Bildschirmen in öffentlichen Bereichen oder beim mobilen Arbeiten.

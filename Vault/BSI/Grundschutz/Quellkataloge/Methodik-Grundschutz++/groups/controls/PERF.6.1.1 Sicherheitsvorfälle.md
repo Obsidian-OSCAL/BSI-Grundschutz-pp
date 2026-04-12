@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.6.1.1 Sicherheitsvorfälle
 parent_control: PERF.6.1 Sicherheitsvorfälle
+stmt_modal_verb: MUSS
+stmt_action_word: überwachen
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [PERF.6 Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Met
 
 ** Übergeordnetes Control: ** [PERF.6.1 Sicherheitsvorfälle](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1%20Sicherheitsvorfälle.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md) *** |  | MUSS | Sicherheitsvorfälle |  | überwachen |  | >Monitoring-Evaluation MUSS Sicherheitsvorfälle überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Sicherheitsvorfälle |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS Sicherheitsvorfälle überwachen.</span>
 
 > [!info]- Guidance
 >Die frühzeitige Identifikation und Meldung von Vorfällen muss ermöglicht werden. Dies kann von manuellen Prozessen bis hin zu automatisierten Erkennungssystemen reichen. Es sollen klare Meldewege, technische Überwachungsmechanismen (z. B. Log-Analyse, Intrusion Detection), Verantwortlichkeiten sowie Kriterien zur Klassifikation von Vorfällen vorliegen. So wird gewährleistet, dass sicherheitsrelevante Ereignisse frühzeitig erkannt, bewertet und in den ISMS-Verbesserungsprozess eingebunden werden.

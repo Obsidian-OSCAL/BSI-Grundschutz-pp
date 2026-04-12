@@ -1,23 +1,30 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.1.1 Test der Kompatibilität
 parent_control: BES.7.1 Eingangskontrolle
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: SOLLTE
+stmt_action_word: testen
+stmt_documentation: Abnahmeprotokoll
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.1.1 - Test der Kompatibilität
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.7.1 Eingangskontrolle](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.7.1%20Eingangskontrolle.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *** | Outsourcing | SOLLTE | die Kompatibilität des Dienstes mit dem Informationsverbund | im Hinblick auf die Schnittstellen, die Netzanbindung, das Administrationsmodell und das Datenmanagementmodell | testen | Abnahmeprotokoll | >Beschaffungsmanagement für Outsourcing SOLLTE die Kompatibilität des Dienstes mit dem Informationsverbund im Hinblick auf die Schnittstellen, die Netzanbindung, das Administrationsmodell und das Datenmanagementmodell testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Kompatibilität des Dienstes mit dem Informationsverbund | im Hinblick auf die Schnittstellen, die Netzanbindung, das Administrationsmodell und das Datenmanagementmodell | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Abnahmeprotokoll](documentation_guidelines_Abnahmeprotokoll) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing SOLLTE die Kompatibilität des Dienstes mit dem Informationsverbund im Hinblick auf die Schnittstellen, die Netzanbindung, das Administrationsmodell und das Datenmanagementmodell testen.</span>
 
 > [!info]- Guidance
 >Die Regelung dient dazu, ungewollte Brüche oder Inkompatibilitäten zu vermeiden, die im Betrieb zu Sicherheits- oder Funktionsproblemen führen können. Ohne eine solche Überprüfung könnte z. B. eine unklare Rechtevergabe dazu führen, dass ein Dienstleister umfassendere Zugriffe erhält als notwendig, oder eine fehlerhafte Schnittstellenintegration könnte den Ausfall wichtiger Anwendungen nach sich ziehen. Umgekehrt kann eine saubere Prüfung sicherstellen, dass Outsourcing-Dienste nahtlos integriert, technisch handhabbar und im Betrieb kontrollierbar bleiben. Für die Bewertung der Kompatibilität sind dabei vier Aspekte besonders kritisch: Schnittstellen sind die technischen Übergabepunkte, an denen Systeme Daten austauschen oder Funktionen ansprechen; Netzanbindung bezeichnet die physische oder logische Verbindung zwischen dem Dienstleister und dem Informationsverbund der Institution; das Administrationsmodell beschreibt, wer welche Rechte zur Einrichtung, Änderung und Überwachung von Systemkomponenten hat; und das Datenmanagementmodell legt fest, wie Daten gespeichert, strukturiert, repliziert und gelöscht werden.

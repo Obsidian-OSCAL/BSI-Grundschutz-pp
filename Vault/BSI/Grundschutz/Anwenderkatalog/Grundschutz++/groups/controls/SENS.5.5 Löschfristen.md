@@ -1,21 +1,28 @@
 ---
-tags: Password_Policy
+tags:
+- password_policy
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.5.5 Löschfristen
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: anweisen
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.5.5 - Löschfristen
-Tags: "[Password Policy](tags_Password Policy)"
+Tag: [[tags_Password Policy|Password Policy]]
 Gruppe: [SENS.5 Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md) *** | Nutzende | SOLLTE | zum Löschen oder Vernichten | nach Ablauf der festgelegten Löschfristen | anweisen | Arbeitsanweisung | >Sensibilisierung für Nutzende SOLLTE zum Löschen oder Vernichten nach Ablauf der festgelegten Löschfristen anweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zum Löschen oder Vernichten | nach Ablauf der festgelegten Löschfristen | [anweisen](action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zum Löschen oder Vernichten nach Ablauf der festgelegten Löschfristen anweisen.</span>
 
 > [!info]- Guidance
 >Werden sensible Informationen über die erforderliche Dauer hinaus gespeichert, könnte die Institution unnötigen Haftungsrisiken ausgesetzt sein – beispielsweise könnte eine Datenschutzbehörde Bußgelder verhängen, wenn personenbezogene Daten entgegen gesetzlicher Vorgaben zu lange vorgehalten werden. Darüber hinaus könnten nicht rechtzeitig gelöschte Geschäftsgeheimnisse oder Kundendaten bei einem Sicherheitsvorfall in falsche Hände geraten, was zu Reputationsschäden, Vertrauensverlust bei Kunden oder sogar zu Wirtschaftsspionage führen kann. Dies ist insbesondere wichtig bei sensiblen Daten wie Passwörtern im Passwortmanager oder Bankzugangsdaten in einer Kundendatenbank. Relevant ist dabei auch das Verständnis dafür, welche Löschfristen für welche Kategorien von Informationen konkret festgelegt sind und wie die Löschung oder Vernichtung vorzunehmen ist. Zu Details der Vorgehensweise siehe auch Praktik "Informations- und Assetmanagement". Dies gilt auch für den Umgang mit physischen Medien und auch an anderen Standorten, wie z.B. am Mobilen Arbeitsplatz.

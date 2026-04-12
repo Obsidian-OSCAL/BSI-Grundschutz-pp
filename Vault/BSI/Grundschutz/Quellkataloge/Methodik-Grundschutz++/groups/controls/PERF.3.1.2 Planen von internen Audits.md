@@ -1,8 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.3.1.2 Planen von internen Audits
 parent_control: PERF.3.1 Aufbau und Pflege eines Auditprogramms
+stmt_modal_verb: MUSS
+stmt_action_word: ausführen
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +17,9 @@ Gruppe: [PERF.3 Auditprogramm und -durchführung](BSI/Grundschutz/Quellkataloge/
 
 ** Übergeordnetes Control: ** [PERF.3.1 Aufbau und Pflege eines Auditprogramms](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.3.1%20Aufbau%20und%20Pflege%20eines%20Auditprogramms.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Auditprogramm und -durchführung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md) *** |  | MUSS | die Planung der internen Audits im Auditprogramm | risikoorientiert | ausführen |  | >Monitoring-Evaluation MUSS die Planung der internen Audits im Auditprogramm risikoorientiert ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Auditprogramm und -durchführung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Planung der internen Audits im Auditprogramm | risikoorientiert | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS die Planung der internen Audits im Auditprogramm risikoorientiert ausführen.</span>
 
 > [!info]- Guidance
 >Ziel ist es, die Einhaltung von Sicherheitsanforderungen, die Wirksamkeit von Maßnahmen sowie mögliche Schwachstellen zu prüfen. Dabei wird die Effektivität und Effizienz aller angewandten Anforderungen sinnvoll geprüft. Risikoorientiert bedeutet hierbei, dass die Auswahl von Prüfobjekten sowie die Prüftiefe sich nach einer Risikobetrachtung richtet, also besonders risikorelevante Fragen vertieft betrachtet werden. Beispielsweise ist es sinnvoll bei automatisierten Richtlinien (Policies) nicht nur deren tatsächliche Aktivierung, sondern vor allem die erlaubten Ausnahmeregelungen auf Begründung, Befristung und Umfang zu prüfen, damit vermeintliche effektive Maßnahmen nicht durch zu weite Ausnahmeregelungen ausgehölt werden. Die Planung muss dokumentiert werden.

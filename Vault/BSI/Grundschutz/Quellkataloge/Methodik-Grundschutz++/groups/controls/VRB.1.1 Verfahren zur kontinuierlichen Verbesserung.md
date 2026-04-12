@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: VRB.1.1 Verfahren zur kontinuierlichen Verbesserung
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [VRB.1 Kontinuierliche Verbesserung](BSI/Grundschutz/Quellkataloge/Metho
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)**<br> ***  &rarr; [Kontinuierliche Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.1%20Kontinuierliche%20Verbesserung.md) *** |  | MUSS | ein Verfahren zur kontinuierlichen Verbesserung des ISMS |  | verankern |  | >Verbesserung MUSS ein Verfahren zur kontinuierlichen Verbesserung des ISMS verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)*<br> *  &rarr; [Kontinuierliche Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.1%20Kontinuierliche%20Verbesserung.md) *</div> | [Verbesserung](practices_Verbesserung_662fb453-caf1-4e01-8152-b88027b71438) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | ein Verfahren zur kontinuierlichen Verbesserung des ISMS |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Verbesserung MUSS ein Verfahren zur kontinuierlichen Verbesserung des ISMS verankern.</span>
 
 > [!info]- Guidance
 >In diesem Prozessschritt werden Erkenntnisse aus der Überwachung in konkrete Verbesserungsmaßnahmen umgesetzt. Dieses Verfahren ist ein Prozess, welcher sich im PDCA-Zyklus von der Praktik Strukturmodellierung über die Umsetzung bis hin zum Monitoring und der Evaluierung erstreckt.

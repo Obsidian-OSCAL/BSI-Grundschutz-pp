@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.4.1 Festlegung des Geltungsbereichs
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [GC.4 Festlegung des Geltungsbereichs](BSI/Grundschutz/Anwenderkatalog/G
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Festlegung des Geltungsbereichs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.4%20Festlegung%20des%20Geltungsbereichs.md) *** |  | MUSS | den nachvollziehbar abgegrenzten Geltungsbereich | nach Freigabe der Institutionsleitung | festlegen |  | >Governance und Compliance MUSS den nachvollziehbar abgegrenzten Geltungsbereich nach Freigabe der Institutionsleitung festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Festlegung des Geltungsbereichs](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.4%20Festlegung%20des%20Geltungsbereichs.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | den nachvollziehbar abgegrenzten Geltungsbereich | nach Freigabe der Institutionsleitung | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS den nachvollziehbar abgegrenzten Geltungsbereich nach Freigabe der Institutionsleitung festlegen.</span>
 
 > [!info]- Guidance
 >Definieren und dokumentieren Sie den Geltungsbereich Ihres ISMS. Dieser legt den formalen und organisatorischen Umfang (Scope) fest, in dem das ISMS angewendet wird. Legen Sie fest, welche Institutionsbereiche, Geschäftsprozesse und Tätigkeiten formell zum Geltungsbereich gehören und grenzen Sie infrastrukturell ab, welche Standorte und Systeme  innerhalb des Geltungsbereichs liegen; welche externen Partner oder Dienstleister in das ISMS einzubeziehen sind und welche Bereiche bewusst nicht Bestandteil des Geltungsbereichs sind.

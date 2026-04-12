@@ -1,21 +1,27 @@
 ---
-tags: Zero_Trust
+tags:
+- zero_trust
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.1.4 Inventar der Berechtigungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Inventar Berechtigungen
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.1.4 - Inventar der Berechtigungen
-Tags: "[Zero Trust](tags_Zero Trust)"
+Tag: [[tags_Zero Trust|Zero Trust]]
 Gruppe: [BER.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.1%20Grundlagen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.1%20Grundlagen.md) *** |  | SOLLTE | ein Inventar der Berechtigungen | mit Personen, Identitäten, Zugangskonten, Berechtigungen und deren jeweiliger Zuordnung | dokumentieren | Inventar Berechtigungen | >Berechtigung SOLLTE ein Inventar der Berechtigungen mit Personen, Identitäten, Zugangskonten, Berechtigungen und deren jeweiliger Zuordnung dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BER.1%20Grundlagen.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Inventar der Berechtigungen | mit Personen, Identitäten, Zugangskonten, Berechtigungen und deren jeweiliger Zuordnung | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE ein Inventar der Berechtigungen mit Personen, Identitäten, Zugangskonten, Berechtigungen und deren jeweiliger Zuordnung dokumentieren.</span>
 
 > [!info]- Guidance
 >Ein Inventar der Berechtigungen kann helfen, Zugriffsrechte innerhalb einer Institution transparent zu machen und unnötige oder riskante Berechtigungen zu erkennen. Es dokumentiert, welche Identitäten – also digitale Repräsentationen von Personen oder Systemen – über welche Konten und Berechtigungen verfügen. So können potenzielle Risiken wie verwaiste Konten oder unautorisierte Privilegien sichtbar werden. Beispielsweise könnte ein ehemaliger Mitarbeitender noch aktive Zugänge besitzen, oder ein Dienstkonto könnte über weitreichende Rechte verfügen, obwohl der Einsatz längst beendet ist – beides kann ein Einfallstor für Missbrauch sein. Relevant sind neben den Berechtigungen von Personen auch Dienstekonten, Cloud-Zugänge und physische Zugangsberechtigungen wie Schlüssel-Schließpläne.  Berechtigungen bezeichnen konkrete Zugriffsrechte auf Ressourcen (z. B. Lesen oder Administrieren). Eine Institution kann dies etwa durch einen Verzeichnisdienst, ein zentrales Berechtigungsmanagement oder gepflegte Berechtigungsverzeichnisse abbilden. Die Benennung von Zuständigen je Fachbereich, regelmäßige Überprüfungen und der Einsatz von klaren Rollenkennzeichnungen (z. B. „temporär“, „Admin“) können helfen, das Inventar aktuell und verständlich zu halten. Auch eine strukturierte Offboarding-Checkliste kann sicherstellen, dass veraltete Zugänge rechtzeitig entfernt werden.

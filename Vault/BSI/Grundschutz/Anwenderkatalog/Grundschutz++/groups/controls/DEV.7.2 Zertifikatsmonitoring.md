@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.7.2 Zertifikatsmonitoring
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: überwachen
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [DEV.7 Bereitstellung und Betrieb](BSI/Grundschutz/Anwenderkatalog/Grund
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Bereitstellung und Betrieb](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.7%20Bereitstellung%20und%20Betrieb.md) *** | Anwendungen | SOLLTE | die Ausstellung neuer Zertifikate | für die von der Anwendung verwendeten Domains | überwachen | Detektions-Konzept | >Entwicklung für Anwendungen SOLLTE die Ausstellung neuer Zertifikate für die von der Anwendung verwendeten Domains überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Bereitstellung und Betrieb](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.7%20Bereitstellung%20und%20Betrieb.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Ausstellung neuer Zertifikate | für die von der Anwendung verwendeten Domains | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE die Ausstellung neuer Zertifikate für die von der Anwendung verwendeten Domains überwachen.</span>
 
 > [!info]- Guidance
 >Anwendungen die über das Netz kommunizieren nutzen typischerweise X.509-Zertifikate zur Authentifizierung (z.B. per TLS). Die Ausstellung neuer Zertifikate bei Zertifizierungsstellen kann ein Angriffsversuch Dritter sein, die vorgeben wollen die Anwendung zu betreiben. Dies kann mittels Certificate Transparency automatisiert werden.

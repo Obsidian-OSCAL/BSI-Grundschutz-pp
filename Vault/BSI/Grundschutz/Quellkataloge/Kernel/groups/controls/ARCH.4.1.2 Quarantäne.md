@@ -1,23 +1,30 @@
 ---
-tags: Network_Access_Control_Rogue_Access_Point_Zero_Trust
+tags:
+- network_access_control_rogue_access_point_zero_trust
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.4.1.2 Quarantäne
 parent_control: ARCH.4.1 Netzzugangskontrolle
+stmt_target_object_category: Interne Netzsegmente
+stmt_modal_verb: KANN
+stmt_action_word: installieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.4.1.2 - Quarantäne
-Tags: "[Network Access Control](tags_Network Access Control)" "[Rogue Access Point](tags_Rogue Access Point)" "[Zero Trust](tags_Zero Trust)"
+> [!example]- Tags:> [[tags_Network Access Control|Network Access Control]]> [[tags_Rogue Access Point|Rogue Access Point]]> [[tags_Zero Trust|Zero Trust]]
 Gruppe: [ARCH.4 Zugangsbeschränkungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.4%20Zugangsbeschränkungen.md)
 ---
 
 ** Übergeordnetes Control: ** [ARCH.4.1 Netzzugangskontrolle](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ARCH.4.1%20Netzzugangskontrolle.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Zugangsbeschränkungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.4%20Zugangsbeschränkungen.md) *** | Interne Netzsegmente | KANN | ein Quarantänenetz | für nicht authentifizierte IT-Systeme | installieren | Konfigurationshistorie | >Architektur für Interne Netzsegmente KANN ein Quarantänenetz für nicht authentifizierte IT-Systeme installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Zugangsbeschränkungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/ARCH.4%20Zugangsbeschränkungen.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Interne Netzsegmente](target_object_categories_Interne Netzsegmente_8ef347e7-ea3f-4624-b0f3-2af728443301) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | ein Quarantänenetz | für nicht authentifizierte IT-Systeme | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Interne Netzsegmente KANN ein Quarantänenetz für nicht authentifizierte IT-Systeme installieren.</span>
 
 > [!info]- Guidance
 >Wenn Systeme aufgrund bestimmter Voraussetzungen sich nicht authentifizieren (z.B. installierte Sicherheitsupdates oder weil sie keine 802.1X-Anmeldung unterstützen), kann ein vollständiges blockieren aller Netzverbindungen die Verfügbarkeit erforderlicher Geschäftsprozesse unmöglich machen. Um IT-Systemen einen eingeschränkten Zugang zu Netzressourcen zu ermöglichen – etwa damit diese die Voraussetzungen durch den Download von Updates erfüllen können – kann ein Quarantänenetz eingerichtet werden, das z.B. Zugang zu bestimmten Downloadservern oder eine Meldung des Problems ermöglicht.

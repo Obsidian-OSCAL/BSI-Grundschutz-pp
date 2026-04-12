@@ -1,8 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.5.1.3 Erfolge und Probleme
 parent_control: PERF.5.1 Eignungsprüfung
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+stmt_documentation: Managementbericht
+control_effort_level: '1'
 ---
 
 
@@ -13,9 +18,9 @@ Gruppe: [PERF.5 Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Gr
 
 ** Übergeordnetes Control: ** [PERF.5.1 Eignungsprüfung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1%20Eignungsprüfung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *** |  | SOLLTE | die Ergebnisse dieser Überprüfungen in einem Managementbericht, | der bisherige Erfolge und Probleme (z. B. Sicherheitsvorfälle) beim Informationssicherheitsprozess berücksichtigt, | dokumentieren | Managementbericht | >Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der bisherige Erfolge und Probleme (z. B. Sicherheitsvorfälle) beim Informationssicherheitsprozess berücksichtigt, dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Ergebnisse dieser Überprüfungen in einem Managementbericht, | der bisherige Erfolge und Probleme (z. B. Sicherheitsvorfälle) beim Informationssicherheitsprozess berücksichtigt, | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Managementbericht](documentation_guidelines_Managementbericht) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der bisherige Erfolge und Probleme (z. B. Sicherheitsvorfälle) beim Informationssicherheitsprozess berücksichtigt, dokumentieren.</span>
 
 > [!info]- Guidance
 >Die Ergebnisse müssen im ISMS-Prozess berücksichtigt werden, um daraus gezielte Verbesserungen abzuleiten. Sie dienen als wichtige Eingaben für die Managementbewertung und unterstützen die Weiterentwicklung der Sicherheitsstrategie. Zu Erfolgen zählen z. B. wirksam umgesetzte Maßnahmen, erreichte Sicherheitsziele, erfolgreiche Audits/Prüfungen oder eine nachweisbare Reduktion von Risiken. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung.

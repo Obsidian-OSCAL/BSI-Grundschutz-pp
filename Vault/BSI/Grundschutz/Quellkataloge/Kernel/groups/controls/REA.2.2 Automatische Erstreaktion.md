@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.2 Automatische Erstreaktion
+stmt_modal_verb: KANN
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Rea
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)**<br> ***  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *** |  | KANN | eine automatische Erstreaktion |  | aktivieren | Konfigurationshistorie | >Sicherheitsvorfallsbehandlung KANN eine automatische Erstreaktion aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine automatische Erstreaktion |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN eine automatische Erstreaktion aktivieren.</span>
 
 > [!info]- Guidance
 >Die automatische Erstreaktion kann je nach Risikoprofil durch institutionseigene Host- oder Network Intrusion Prevention Systeme (HIPS / NIPS) oder eine vergleichbare Cloud-Lösung umgesetzt werden.

@@ -1,25 +1,31 @@
 ---
 tags:
-- Lieferketten
+- lieferketten
 - bes7441-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.4.4.1 Software Bill of Materials (SBOM)
 parent_control: BES.7.4.4 Dokumentation der Komponenten
+stmt_target_object_category: IT-Produkte
+stmt_modal_verb: KANN
+stmt_action_word: dokumentieren
+stmt_documentation: Betriebshandbuch
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.4.4.1 - Software Bill of Materials (SBOM)
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.7.4.4 Dokumentation der Komponenten](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.7.4.4%20Dokumentation%20der%20Komponenten.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *** | IT-Produkte | KANN | für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | dokumentieren | Betriebshandbuch | >Beschaffungsmanagement für IT-Produkte KANN für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.4.1-prm1 }} dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Betriebshandbuch](documentation_guidelines_Betriebshandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.4.1-prm1 }} dokumentieren.</span>
 
 > [!info]- Guidance
 >Je nach Produkt können hierzu auch die Firmware, das Betriebssystem oder mehrere Softwarebestandteile einer Anwendung gehören. Ein anerkannter Standard für SBOM ist die BSI TR-03183-2.

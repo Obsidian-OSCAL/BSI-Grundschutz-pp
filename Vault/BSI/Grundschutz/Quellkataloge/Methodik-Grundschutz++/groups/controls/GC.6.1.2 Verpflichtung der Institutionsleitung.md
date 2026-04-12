@@ -1,23 +1,29 @@
 ---
-tags: Führungsverantwortung
+tags:
+- führungsverantwortung
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.6.1.2 Verpflichtung der Institutionsleitung
 parent_control: GC.6.1 Festlegung von Zielen für die Informationssicherheit
+stmt_modal_verb: MUSS
+stmt_action_word: zuweisen
+stmt_documentation: Leitungsentscheidung
+control_effort_level: '0'
 ---
 
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # GC.6.1.2 - Verpflichtung der Institutionsleitung
-Tags: "[Führungsverantwortung](tags_Führungsverantwortung)"
+Tag: [[tags_Führungsverantwortung|Führungsverantwortung]]
 Gruppe: [GC.6 Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md)
 ---
 
 ** Übergeordnetes Control: ** [GC.6.1 Festlegung von Zielen für die Informationssicherheit](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1%20Festlegung%20von%20Zielen%20für%20die%20Informationssicherheit.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *** |  | MUSS | die Verpflichtung der Institutionsleitung | formal | zuweisen | Leitungsentscheidung | >Governance und Compliance MUSS die Verpflichtung der Institutionsleitung formal zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Verpflichtung der Institutionsleitung | formal | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Leitungsentscheidung](documentation_guidelines_Leitungsentscheidung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS die Verpflichtung der Institutionsleitung formal zuweisen.</span>
 
 > [!info]- Guidance
 >Die Verpflichtung der Institutionsleitung beinhaltet die Übernahme der Gesamtverantwortung, die Bestätigung und Überwachung der Informationssicherheitsziele bezüglich der Organisationsziele und die Förderung des ISMS. Die Förderung des ISMS erfolgt durch Beteiligung (z. B. Führungsentscheidungen), Bestätigung der Informationssicherheitsorganisation, Unterstützung der Integration des ISMS, Bereitstellung von Ressourcen (z. B. finanzielle, personelle, technische, infrastrukturelle) und die Unterstützung der kontinuierlichen Verbesserung.

@@ -1,8 +1,15 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.6.1.1 Entzug von Berechtigungen gemäß BER
 parent_control: PERS.6.1 Vorgehensweise für den Weggang
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Prozess Personalmanagement
+result_reference: Zugriff
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +20,11 @@ Gruppe: [PERS.6 Weggang von Mitarbeitenden](BSI/Grundschutz/Anwenderkatalog/Grun
 
 ** Übergeordnetes Control: ** [PERS.6.1 Vorgehensweise für den Weggang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.6.1%20Vorgehensweise%20für%20den%20Weggang.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Weggang von Mitarbeitenden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md) *** | Nutzende | SOLLTE | bei Weggang den unverzüglichen Entzug aller Zugriffsrechte | im Einklang mit den Regelungen und Verfahren zum Berechtigungs- und Identitätsmanagement | verankern | Prozess Personalmanagement | >Personal für Nutzende SOLLTE bei Weggang den unverzüglichen Entzug aller Zugriffsrechte im Einklang mit den Regelungen und Verfahren zum Berechtigungs- und Identitätsmanagement verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Weggang von Mitarbeitenden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | bei Weggang den unverzüglichen Entzug aller Zugriffsrechte | im Einklang mit den Regelungen und Verfahren zum Berechtigungs- und Identitätsmanagement | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Prozess Personalmanagement](documentation_guidelines_Prozess Personalmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Nutzende SOLLTE bei Weggang den unverzüglichen Entzug aller Zugriffsrechte im Einklang mit den Regelungen und Verfahren zum Berechtigungs- und Identitätsmanagement verankern.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugriff](result_Zugriff_00000000-0000-0000-0000-000000000000) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
 >Der unverzügliche Entzug bedeutet in diesem Kontext die sofortige und vollständige Deaktivierung aller Zugriffsrechte, sowohl auf physische Ressourcen (z. B. Gebäude, Serverräume, Schränke mit vertraulichen Unterlagen) als auch auf logische Systeme (z. B. Benutzerkonten in E-Mail-Diensten, ERP-Systemen, Cloud-Speichern). Physische Zugriffsrechte umfassen Schlüssel, Zugangskarten oder Codes, die eine Person nutzen kann, um in geschützte Bereiche zu gelangen. Logische Zugriffsrechte beziehen sich auf digitale Berechtigungen wie Passwörter, Tokens, VPN-Profile oder Single-Sign-On-Zugänge. Der Sinn dieser Vorgabe liegt darin, das Risiko unbefugter Zugriffe nach dem Ausscheiden von Mitarbeitenden oder externen Nutzenden zu minimieren. Ein entlassener Mitarbeitender könnte ansonsten noch Daten aus einer Cloud-Anwendung kopieren oder mit einer Zutrittskarte ein Rechenzentrum betreten. Werden die Rechte dagegen sofort entzogen, kann die Institution die Vertraulichkeit und Integrität sensibler Informationen sichern und zugleich Haftungsrisiken reduzieren. Eine Institution kann diese Anforderung durch abgestimmte technische und prozessuale Maßnahmen umsetzen. Dazu kann ein standardisierter Offboarding-Prozess etabliert werden, der mit der Personalabteilung synchronisiert ist und automatisch IT und Facility-Management informiert.

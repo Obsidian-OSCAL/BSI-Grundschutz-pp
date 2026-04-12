@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.10.4 Systemadministration - Strukturierte Verkabelung
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [SENS.10 Administration](BSI/Grundschutz/Quellkataloge/Kernel/groups/SEN
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Administration](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.10%20Administration.md) *** | Administrierende, Netze | SOLLTE | zur strukturierten Verkabelung |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Administrierende von Netzen SOLLTE zur strukturierten Verkabelung sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Administration](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.10%20Administration.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Administrierende, Netze | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur strukturierten Verkabelung |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Administrierende von Netzen SOLLTE zur strukturierten Verkabelung sensibilisieren.</span>
 
 > [!info]- Guidance
 >Eine strukturierte Verkabelung kann die Übersichtlichkeit, Fehlertoleranz und Betriebssicherheit von Netzwerken erheblich verbessern. Sie dient dazu, Kabelwege und -anschlüsse einheitlich zu planen, zu dokumentieren und physisch so zu gestalten, dass Fehlverkabelungen, Kabelschäden oder unbefugte Eingriffe erschwert werden. Ohne solche Maßnahmen kann es zu chaotischen Verkabelungen kommen, die Fehlerdiagnosen erschweren, längere Ausfallzeiten verursachen oder im schlimmsten Fall unbemerkt unautorisierte Geräte ins Netz einschleusen lassen. So könnte etwa ein unbeschriftetes Patchkabel versehentlich abgezogen werden, wodurch kritische Systeme offline gehen, oder ein Kabelbündel könnte bei einer unachtsamen Bewegung beschädigt werden, was zu intermittierenden Netzwerkausfällen führt.  Im konkreten Kontext bezeichnet „strukturierte Verkabelung“ ein einheitlich aufgebautes und dokumentiertes System von Kabeln, Anschlüssen und Patchfeldern, das nach anerkannten Standards (z. B. nach DIN EN 50173 und 50174) geplant und umgesetzt wird. Dazu gehören die Auswahl geeigneter Kabel, normgerechte Verlegungswege unter Berücksichtigung von EN 50310 sowie die Einhaltung von Mindestbiegeradien und Trennungsabständen zu elektrischen Leitungen. Administrierende können durch klare Kabelführung, Farbcodierungen, eindeutige Beschriftungen und eine nachvollziehbare Dokumentation ihre Arbeitsumgebung übersichtlicher und sicherer gestalten.

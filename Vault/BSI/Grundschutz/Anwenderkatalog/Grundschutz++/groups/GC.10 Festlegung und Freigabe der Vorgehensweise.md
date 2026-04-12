@@ -6,10 +6,9 @@ group_id: GC.10
 
 ** Group **
 # GC.10 - Festlegung und Freigabe der Vorgehensweise 
-** Übergeordnete Gruppe: **
- [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [GC Governance und Compliance](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)## Controls
 
-> [!info]+ [[GC.10.1 Festlegung von Vorgehensweisen.md|GC.10.1 Festlegung von Vorgehensweisen]]
+> [!example]+ [[GC.10.1 Festlegung von Vorgehensweisen.md|GC.10.1 Festlegung von Vorgehensweisen]]
 
-> [!info]+ [[GC.10.2 Freigabe von Vorgehensweisen.md|GC.10.2 Freigabe von Vorgehensweisen]]
+> [!example]+ [[GC.10.2 Freigabe von Vorgehensweisen.md|GC.10.2 Freigabe von Vorgehensweisen]]

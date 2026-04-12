@@ -1,22 +1,28 @@
 ---
-tags: Insider_Threat
+tags:
+- insider_threat
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.2.3 Rollentrennung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Geschäftsverteilungsplan
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.2.3 - Rollentrennung
-Tags: "[Insider Threat](tags_Insider Threat)"
+Tag: [[tags_Insider Threat|Insider Threat]]
 Gruppe: [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERS.2.3.1 Rollentrennung - Verzeichnisdienst](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.1%20Rollentrennung%20-%20Verzeichnisdienst.md)> [PERS.2.3.2 Rollentrennung - Virtualisierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.2%20Rollentrennung%20-%20Virtualisierung.md)> [PERS.2.3.3 Rollentrennung - Audits](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.3%20Rollentrennung%20-%20Audits.md)> [PERS.2.3.4 Rollentrennung - Änderungen und Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.2.3.4%20Rollentrennung%20-%20Änderungen%20und%20Tests.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *** |  | SOLLTE | für unvereinbare Aufgaben eine Rollentrennung |  | verankern | Geschäftsverteilungsplan | >Personal SOLLTE für unvereinbare Aufgaben eine Rollentrennung verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | für unvereinbare Aufgaben eine Rollentrennung |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Geschäftsverteilungsplan](documentation_guidelines_Geschäftsverteilungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal SOLLTE für unvereinbare Aufgaben eine Rollentrennung verankern.</span>
 
 > [!info]- Guidance
 >Bei einer Aufgabentrennung (Separation of Duties) werden miteinander in Konflikt stehende Aufgaben und Verantwortlichkeitsbereiche getrennt, um die Möglichkeiten zu unbefugter oder unbeabsichtigter Änderung oder zum Missbrauch zu reduzieren. Unvereinbar sind zwei Aufgaben insbesondere, wenn zwischen ihnen (1.) ein Interessenkonflikt oder (2.) ein erhöhtes Risiko für Datenmissbrauch vorliegt. (1.) Interessenkonflikte können z.B. die Auditierung der eigenen Aufgaben oder der Ergebnisse von Vorgesetzten sein. (2.) Ein erhöhtes Risiko für Datenmissbrauch liegt z.B. vor, wenn sowohl Rechnungsstellung als auch -genehmigung in einer Hand liegen.

@@ -1,21 +1,27 @@
 ---
-tags: Cryptography
+tags:
+- cryptography
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.5.2 Verschlüsselte Bereitstellung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verschlüsseln
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # TEST.5.2 - Verschlüsselte Bereitstellung
-Tags: "[Cryptography](tags_Cryptography)"
+Tag: [[tags_Cryptography|Cryptography]]
 Gruppe: [TEST.5 Bereitstellung](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.5%20Bereitstellung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Bereitstellung](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.5%20Bereitstellung.md) *** |  | SOLLTE | die Bereitstellung |  | verschlüsseln | Konfigurationshistorie | >Änderungen und Tests SOLLTE die Bereitstellung verschlüsseln.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Bereitstellung](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.5%20Bereitstellung.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Bereitstellung |  | [verschlüsseln](action_words_verschlüsseln_4dc9ef92-2124-449a-9a99-61095d271599) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE die Bereitstellung verschlüsseln.</span>
 
 > [!info]- Guidance
 >Das Konzept der Bereitstellung (engl. Deployment oder Provisioning) bezieht sich hier auf den Vorgang des Übertragens, Installierens oder Aktivierens von Software-Artefakten, Konfigurationen, Skripten oder anderen digitalen Gütern von einer gesicherten Umgebung (z.B. Test- oder Staging-Umgebung) in die Ziel- oder Produktionsumgebung. Die Verschlüsselung dieser Bereitstellung meint dabei die kryptografische Sicherung des Datenstroms oder der übertragenen Daten während des Transports, sodass diese für unbefugte Dritte unlesbar sind. Diese Vorschrift dient primär dem Schutz vor der Offenlegung sensibler Daten oder der Manipulation der ausgelieferten Artefakte: Ein Angreifer, der den Übertragungsweg abhört, könnte ohne Verschlüsselung leicht auf vertrauliche Informationen zugreifen, etwa proprietären Quellcode oder sensible Konfigurationsparameter (wie Passwörter oder API-Schlüssel), was zur Geheimhaltung (Confidentiality) in der Institution im Widerspruch stünde. Außerdem könnte ein Man-in-the-Middle-Angriff die übertragenen Daten manipulieren und so bösartigen Code in die Produktionsumgebung einschleusen, bevor die Integrity-Checks greifen, was die Integrität der bereitgestellten Lösungen gefährden könnte. Technisch kann die Institution dies gewährleisten, indem alle Deployment-Pipelines ausschließlich gesicherte Kommunikationsprotokolle nutzen. Zusätzlich ist es sinnvoll die Bereitstellungs-Artefakte digital zu signieren und diese Signatur erst nach erfolgreicher End-zu-End-Integritätsprüfung (z.B. durch Prüfsummen wie SHA-256) auf dem Zielsystem zur Installation freigeben, was einen Manipulationsversuch im Transit erschwert.

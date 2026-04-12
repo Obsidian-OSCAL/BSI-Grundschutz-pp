@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.3.2 Löschverfahren
 parent_control: ASST.7.3 Geregeltes Löschen oder Vernichten
+stmt_target_object_category: Daten
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundsc
 
 ** Übergeordnetes Control: ** [ASST.7.3 Geregeltes Löschen oder Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ASST.7.3%20Geregeltes%20Löschen%20oder%20Vernichten.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md) *** | Daten | SOLLTE | ein Verfahren zur endgültigen Löschung |  | verankern | IT-Betriebskonzept | >Informationen und Assets für Daten SOLLTE ein Verfahren zur endgültigen Löschung verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | ein Verfahren zur endgültigen Löschung |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE ein Verfahren zur endgültigen Löschung verankern.</span>
 
 > [!info]- Guidance
 >Hierunter ist ein nachvollziehbarer, dokumentierter technischer und prozessualer Ablauf zur endgültigen Entfernung oder Unkenntlichmachung von Informationen zu verstehen; „Endgültig“ bedeutet, dass Daten mit vertretbarem Aufwand nicht wiederhergestellt werden können. Ohne klare Verfahren könnte Alt- oder Schattendatenbestand bei Geräteweitergabe, in Backups oder Cloud-Objektspeichern verbleiben, was zu Datenschutzverletzungen, Erpressungsversuchen oder regulatorischen Sanktionen führen könnte. Hierzu gehören sowohl Nutzdaten von IT-Systemen und Anwendungen, als auch Konfigurationsdateien oder Daten, die in begleitenden Dokumenten wie Betriebshandbüchern oder Informationswikis abgelegt sind.

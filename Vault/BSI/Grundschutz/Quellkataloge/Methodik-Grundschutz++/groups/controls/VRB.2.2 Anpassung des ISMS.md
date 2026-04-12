@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: VRB.2.2 Anpassung des ISMS
+stmt_modal_verb: SOLLTE
+stmt_action_word: überprüfen
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [VRB.2 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Me
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)**<br> ***  &rarr; [Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md) *** |  | SOLLTE | Notwendigkeit zur Anpassung des ISMS | hinsichtlich der Nicht-Konformitäten | überprüfen |  | >Verbesserung SOLLTE Notwendigkeit zur Anpassung des ISMS hinsichtlich der Nicht-Konformitäten überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)*<br> *  &rarr; [Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md) *</div> | [Verbesserung](practices_Verbesserung_662fb453-caf1-4e01-8152-b88027b71438) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Notwendigkeit zur Anpassung des ISMS | hinsichtlich der Nicht-Konformitäten | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Verbesserung SOLLTE Notwendigkeit zur Anpassung des ISMS hinsichtlich der Nicht-Konformitäten überprüfen.</span>
 
 > [!info]- Guidance
 >Hier erfolgt eine Bewertung der Wahrscheinlichkeit des Wiederauftretens von Nicht-Konformitäten und der potenziellen  Auswirkungen bei erneutem Auftreten, eine Überprüfung, ob ähnliche Nicht-Konformitäten in anderen Bereichen der Institution bestehen oder auftreten könnten und eine Analyse, inwieweit die Nicht-Konformität auf systemische Schwächen im ISMS hinweist und ob grundlegende Anpassungen des ISMS erforderlich sind.  Bei wiederholten oder systematischen Nicht-Konformitäten sollten jedoch die zugrundeliegenden Prozesse, Richtlinien oder Verantwortlichkeiten überprüft und bei Bedarf angepasst werden.

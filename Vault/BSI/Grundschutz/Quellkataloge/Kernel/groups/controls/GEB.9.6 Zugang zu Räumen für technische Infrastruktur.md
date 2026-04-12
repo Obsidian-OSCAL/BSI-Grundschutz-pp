@@ -1,8 +1,16 @@
 ---
-tags: geb96-prm1
+tags:
+- geb96-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.9.6 Zugang zu Räumen für technische Infrastruktur
+stmt_target_object_category: Räume für technische Infrastruktur
+stmt_modal_verb: SOLLTE
+stmt_action_word: einschränken
+stmt_documentation: Inventar Berechtigungen
+result_reference: Zugang
+control_effort_level: '3'
 ---
 
 
@@ -12,9 +20,11 @@ Gruppe: [GEB.9 Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *** | Räume für technische Infrastruktur | SOLLTE | den Zugang zu Räumen für technische Infrastruktur | auf {{für den Betrieb zuständige Personen oder Rollen}} | einschränken | Inventar Berechtigungen | >Gebäudemanagement für Räume für technische Infrastruktur SOLLTE den Zugang zu Räumen für technische Infrastruktur auf {{ insert: param, geb.9.6-prm1 }} einschränken.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Versorgungseinrichtungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.9%20Versorgungseinrichtungen.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Räume für technische Infrastruktur](target_object_categories_Räume für technische Infrastruktur_564530dd-29ce-4988-9192-3b4dbfef061c) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Zugang zu Räumen für technische Infrastruktur | auf {{für den Betrieb zuständige Personen oder Rollen}} | [einschränken](action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad) | [Inventar Berechtigungen](documentation_guidelines_Inventar Berechtigungen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Räume für technische Infrastruktur SOLLTE den Zugang zu Räumen für technische Infrastruktur auf {{ insert: param, geb.9.6-prm1 }} einschränken.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >HIerzu gehören insbesondere Versorgungsverteiler, z.B. für Netzverteilung, Frischwasser, Abwasser, Stromversorgung und andere zentrale Versorgungseinrichtungen. sind essenziell für die Einsatzfähigkeit und den Schutz des Gebäudes. Der Zugang zu diesen Verteilern kann z.B. durch Schließanlagen, Bewachung und Einbruchmeldesysteme realisiert werden.

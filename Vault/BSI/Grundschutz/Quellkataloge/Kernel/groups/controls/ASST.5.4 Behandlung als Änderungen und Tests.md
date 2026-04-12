@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.5.4 Behandlung als Änderungen und Tests
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Betriebshandbuch
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ASST.5 Wartung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.5%20Wa
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Wartung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.5%20Wartung.md) *** | IT-Systeme | SOLLTE | zur Wartung erforderliche Änderungen | im Einklang mit den Verfahren und Regelungen zum Management von Änderungen | verankern | Betriebshandbuch | >Informationen und Assets für IT-Systeme SOLLTE zur Wartung erforderliche Änderungen im Einklang mit den Verfahren und Regelungen zum Management von Änderungen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Wartung](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.5%20Wartung.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zur Wartung erforderliche Änderungen | im Einklang mit den Verfahren und Regelungen zum Management von Änderungen | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Betriebshandbuch](documentation_guidelines_Betriebshandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für IT-Systeme SOLLTE zur Wartung erforderliche Änderungen im Einklang mit den Verfahren und Regelungen zum Management von Änderungen verankern.</span>
 
 > [!info]- Guidance
 >Werden bei Wartungsarbeiten Änderungen vorgenommen, so sind die Verfahren und Regelungen zum Management von Änderungen auch hier anzuwenden. Ein nicht abgestimmter oder ungetesteter Eingriff könnte etwa zu Systemausfällen, Datenverlust oder dem Einbringen von Schwachstellen führen, während ein geordnetes Änderungsmanagement solche Risiken deutlich reduzieren kann. Sinnvoll ist oft ein kurzer Wartungsleitfaden, in dem typische Abläufe (z. B. Vorab‑Backup, Rollback‑Option, Dokumentation des Ergebnisses) hinterlegt werden. Auf diese Weise kann jede Wartung reproduzierbar, überprüfbar und ressourcenschonend gestaltet werden, ohne sich auf konkrete Herstellerprodukte festzulegen.

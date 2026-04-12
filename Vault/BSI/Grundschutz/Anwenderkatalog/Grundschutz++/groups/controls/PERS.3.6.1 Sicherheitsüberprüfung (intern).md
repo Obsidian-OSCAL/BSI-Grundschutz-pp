@@ -1,23 +1,29 @@
 ---
-tags: Insider_Threat
+tags:
+- insider_threat
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.3.6.1 Sicherheitsüberprüfung (intern)
 parent_control: PERS.3.6 Vertrauenswürdigkeit von Bewerbenden
+stmt_modal_verb: KANN
+stmt_action_word: ausführen
+stmt_documentation: Prozess Personalmanagement
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.3.6.1 - Sicherheitsüberprüfung (intern)
-Tags: "[Insider Threat](tags_Insider Threat)"
+Tag: [[tags_Insider Threat|Insider Threat]]
 Gruppe: [PERS.3 Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.3%20Personalzugang.md)
 ---
 
 ** Übergeordnetes Control: ** [PERS.3.6 Vertrauenswürdigkeit von Bewerbenden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.3.6%20Vertrauenswürdigkeit%20von%20Bewerbenden.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.3%20Personalzugang.md) *** |  | KANN | eine Sicherheitsüberprüfung | vor der Besetzung von sicherheitsrelevanten Stellen | ausführen | Prozess Personalmanagement | >Personal KANN eine Sicherheitsüberprüfung vor der Besetzung von sicherheitsrelevanten Stellen ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalzugang](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.3%20Personalzugang.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine Sicherheitsüberprüfung | vor der Besetzung von sicherheitsrelevanten Stellen | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Prozess Personalmanagement](documentation_guidelines_Prozess Personalmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal KANN eine Sicherheitsüberprüfung vor der Besetzung von sicherheitsrelevanten Stellen ausführen.</span>
 
 > [!info]- Guidance
 >Eine Sicherheitsüberprüfung meint die Verifikation von Identität, beruflicher Qualifikation und Verlässlichkeit von allen Personen mit Zugriff auf schützenswerte Informationen, hier konkret der Mitarbeitenden. Bei einer Sicherheitsüberprüfung kann je nach Art der Tätigkeit ein Polizeiliches Führungszeugnis, eine finanzielle Hintergrundprüfung, ein Sicherheitsinterview, eine psychologische Eignungsprüfung, sowie eine Überprüfung von sozialen Beziehungen und Netzwerken sinnvoll sein. Hierbei besteht ein enger Bezug zum Persönlichkeits- und Datenschutzrecht der Betroffenen. Eine sicherheitsrelevante Stelle ist eine Funktion oder Rolle innerhalb einer Institution, die direkt Zugang zu sicherheitskritischen Informationen, IT-Systemen oder Konfigurationen hat und deren Handlungen die Vertraulichkeit, Integrität oder Verfügbarkeit dieser Systeme maßgeblich beeinflussen könnten. Dazu zählen insbesondere (1) der bzw. die Informationssicherheitsbeauftragte, (2) System-, Netzwerk- und Serveradministratoren sowie (3) weitere Administrator*innen mit erhöhten Rechten wie Domain-Admins, Datenbank-Admins oder Security-Engineers, ebenso wie (4) Personen mit Zugriff auf sicherheitskritische Schlüsselmaterialien etwa im Kryptografie- oder Identitätsmanagement. Nicht darunter fallen hingegen Tätigkeiten ohne sicherheitskritischen Systemzugang oder ohne Einfluss auf Sicherheitsfunktionen, etwa Reinigungs- oder Empfangstätigkeiten.

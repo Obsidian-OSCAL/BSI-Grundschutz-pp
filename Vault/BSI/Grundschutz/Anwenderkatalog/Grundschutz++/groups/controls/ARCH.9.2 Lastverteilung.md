@@ -1,23 +1,29 @@
 ---
 tags:
-- Hochverfügbarkeit
+- hochverfügbarkeit
 - arch92-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.2 Lastverteilung
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: KANN
+stmt_action_word: aktivieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.2 - Lastverteilung
-Tags: "[Hochverfügbarkeit](tags_Hochverfügbarkeit)"
+Tag: [[tags_Hochverfügbarkeit|Hochverfügbarkeit]]
 Gruppe: [ARCH.9 Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md) *** | Anwendungen | KANN | eine {{netzbasierte oder serverbasierte}} automatische Lastverteilung |  | aktivieren | Konfigurationshistorie | >Architektur für Anwendungen KANN eine {{ insert: param, arch.9.2-prm1 }} automatische Lastverteilung aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine {{netzbasierte oder serverbasierte}} automatische Lastverteilung |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN eine {{ insert: param, arch.9.2-prm1 }} automatische Lastverteilung aktivieren.</span>
 
 > [!info]- Guidance
 >Netzbasierte Lastverteilung bedeutet hier, dass ein dedizierter Netzwerkdienst – z. B. über Load-Balancer oder Layer-4/Layer-7-Komponenten – den eingehenden Datenverkehr dynamisch auf mehrere Server oder Dienste verteilt. Serverbasierte Lastverteilung bedeutet dagegen, dass die beteiligten Systeme selbst Mechanismen bereitstellen, um Anfragen untereinander weiterzugeben oder zu koordinieren, etwa durch eingebaute Proxy- oder Cluster-Funktionalitäten. Der Zweck einer solchen Verteilung liegt in der Absicherung der Verfügbarkeit: Ein plötzlicher Anstieg von Benutzeranfragen könnte ansonsten einzelne Systeme überlasten und zu Ausfällen führen; ebenso könnte ein Defekt in einem Knoten die Gesamtleistung stark beeinträchtigen. Mit geeigneter Lastverteilung kann die Stabilität der Anwendung verbessert und ein unterbrechungsfreier Betrieb unterstützt werden. Zur Umsetzung kann die Institution netzbasierte Verfahren einsetzen, etwa (1) hardware- oder softwaregestützte Load-Balancer, die eingehende Verbindungen nach konfigurierbaren Regeln verteilen, (2) DNS-basierte Verfahren, bei denen Abfragen gezielt auf unterschiedliche Zielsysteme geleitet werden, oder (3) virtuelle Appliances in virtualisierten oder Cloud-nahen Umgebungen. Serverbasierte Verfahren können etwa durch den Einsatz von Cluster-Software, eingebaute Reverse-Proxy-Funktionen in Webservern oder den Einsatz von Message-Queues realisiert werden. Dabei kann eine Institution darauf achten, dass Monitoring-Funktionen integriert sind, um Engpässe frühzeitig zu erkennen, und dass Konfigurationen für Failover-Szenarien getestet werden. Auch ein gestuftes Testen der Lastverteilung unter realitätsnahen Bedingungen kann helfen, die Wirksamkeit sicherzustellen.

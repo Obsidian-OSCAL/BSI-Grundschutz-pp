@@ -1,8 +1,15 @@
 ---
-tags: not43-prm1
+tags:
+- not43-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.3 Sicherung der Anwendung
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: SOLLTE
+stmt_action_word: ausführen
+stmt_documentation: Datensicherungskonzept
+control_effort_level: '3'
 ---
 
 
@@ -12,9 +19,9 @@ Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/gro
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *** | Anwendungen | SOLLTE | deren Datensicherung | {{regelmäßig}} | ausführen | Datensicherungskonzept | >Notfallplanung für Anwendungen SOLLTE deren Datensicherung {{ insert: param, not.4.3-prm1 }} ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | deren Datensicherung | {{regelmäßig}} | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung für Anwendungen SOLLTE deren Datensicherung {{ insert: param, not.4.3-prm1 }} ausführen.</span>
 
 > [!info]- Guidance
 >Hierzu können z.B. sowohl die Daten einer Backend-Datenbank, als auch Konfigurationsdateien oder Sicherheitseinstellungen gehören. Bei einer Verzeichnisdatenbank z.B. sind typischerweise sowohl die eigentlichen Verzeichniseinträge wie Benutzer & Gruppenzugehörigkeiten, als auch Metadaten wie Benutzerattribute, Gruppenrichtlinien und Informationen zur Integration von Drittdiensten erforderlich, um die Verzeichnisdatenbank funktionsfähig wiederherzustellen.

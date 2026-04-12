@@ -1,8 +1,13 @@
 ---
-tags: gc11-prm1
+tags:
+- gc11-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.1.1 Errichtung und Aufrechterhaltung eines ISMS
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
@@ -12,9 +17,9 @@ Gruppe: [GC.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/G
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zur Errichtung und Aufrechterhaltung eines ISMS | nach {{einem anerkannten Standard}} | verankern |  | >Governance und Compliance MUSS Verfahren und Regelungen zur Errichtung und Aufrechterhaltung eines ISMS nach {{ insert: param, gc.1.1-prm1 }} verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.1%20Grundlagen.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren und Regelungen zur Errichtung und Aufrechterhaltung eines ISMS | nach {{einem anerkannten Standard}} | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS Verfahren und Regelungen zur Errichtung und Aufrechterhaltung eines ISMS nach {{ insert: param, gc.1.1-prm1 }} verankern.</span>
 
 > [!info]- Guidance
 >Diese Anforderung ist der Ausgangs- und Endpunkt für ein Informationssicherheitsmanagementsystem (ISMS). Ein ISMS besteht aus Verfahren (d.h. bestimmten Abläufen, die mit Zuständigkeiten und Ressourcen versehen sind) und Regelungen (also festgelegten Regeln, die von allen Mitarbeitenden und sonstigen Verpflichteten einzuhalten oder technisch umgesetzt sind). Die Anforderung ist erst dann als erfüllt anzusehen, wenn die komplette Vorgehensweise mindestens einmal vollständig durchlaufen wurde. Unter „etabliert“ bzw. „errichtet“ ist hier zu verstehen, dass die Anforderungen an das ISMS standardkonform umgesetzt wurden. Unter "aufrechterhalten" ist hier zu verstehen, dass die Einhaltung der Anforderungen kontinuierlich überprüft wird und bei Bedarf Gegenmaßnahmen eingeleitet werden. Die bei der Festlegung der Verfahren und Regelungen im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den weiteren Anforderungen dieses Anwenderkataloges.

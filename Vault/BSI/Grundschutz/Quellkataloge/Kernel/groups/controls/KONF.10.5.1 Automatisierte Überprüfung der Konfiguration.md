@@ -1,9 +1,15 @@
 ---
-tags: konf1051-prm1
+tags:
+- konf1051-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.10.5.1 Automatisierte Überprüfung der Konfiguration
 parent_control: KONF.10.5 Überprüfung der Konfiguration
+stmt_target_object_category: Anwendungen
+stmt_modal_verb: KANN
+stmt_action_word: aktivieren
+control_effort_level: '5'
 ---
 
 
@@ -14,9 +20,9 @@ Gruppe: [KONF.10 Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Ke
 
 ** Übergeordnetes Control: ** [KONF.10.5 Überprüfung der Konfiguration](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.10.5%20Überprüfung%20der%20Konfiguration.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)**<br> ***  &rarr; [Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md) *** | Anwendungen | KANN | die Überprüfung der Konfiguration durch {{einen automatisierten Mechanismus}} |  | aktivieren | Detektions-Konzept | >Konfiguration für Anwendungen KANN die Überprüfung der Konfiguration durch {{ insert: param, konf.10.5.1-prm1 }} aktivieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Konfiguration von Anwendungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.10%20Konfiguration%20von%20Anwendungen.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Überprüfung der Konfiguration durch {{einen automatisierten Mechanismus}} |  | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen KANN die Überprüfung der Konfiguration durch {{ insert: param, konf.10.5.1-prm1 }} aktivieren.</span>
 
 > [!info]- Guidance
 >Die automatische Auditierung der Systemkonfiguration ermöglicht eine kontinuierliche und effiziente Überprüfung, ob IT-Systeme sicher und regelkonform konfiguriert sind. Dabei wird die aktuelle Konfiguration automatisiert mit vordefinierten Soll-Vorgaben (etwa unternehmensinternen Richtlinien oder externen Benchmarks wie denen des Center for Internet Security (CIS)) abgeglichen. Dies ist besonders sinnvoll, da manuelle Prüfungen fehleranfällig, zeitaufwändig und in großen Infrastrukturen kaum durchführbar sind. Automatisierte Audits erhöhen die Transparenz, erkennen Abweichungen frühzeitig und erleichtern die Einhaltung von Compliance-Vorgaben. So wird die Angriffsfläche durch fehlerhafte oder unsichere Einstellungen erheblich reduziert.

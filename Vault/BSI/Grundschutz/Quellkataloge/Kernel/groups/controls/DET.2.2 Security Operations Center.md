@@ -1,8 +1,13 @@
 ---
-tags: det22-prm1
+tags:
+- det22-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.2.2 Security Operations Center
+stmt_modal_verb: KANN
+stmt_action_word: zuweisen
+control_effort_level: '4'
 ---
 
 
@@ -12,9 +17,9 @@ Gruppe: [DET.2 Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/gro
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.2%20Meldung%20von%20Ereignissen.md) *** |  | KANN | die Erkennung, Beurteilung und initiale Behandlung von Vorfällen | {{dediziertem Personal}} | zuweisen | Detektions-Konzept | >Detektion KANN die Erkennung, Beurteilung und initiale Behandlung von Vorfällen {{ insert: param, det.2.2-prm1 }} zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Meldung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.2%20Meldung%20von%20Ereignissen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Erkennung, Beurteilung und initiale Behandlung von Vorfällen | {{dediziertem Personal}} | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN die Erkennung, Beurteilung und initiale Behandlung von Vorfällen {{ insert: param, det.2.2-prm1 }} zuweisen.</span>
 
 > [!info]- Guidance
 >Ein Security Operations Center (SOC) ist eine organisatorische Einheit, deren dedizierte Aufgabe die Überwachung von sicherheitskritischen Ereignissen, sowie die Reaktion auf Sicherheitsvorfälle ist. Für die Definition eines sicherheitskritischen Ereignisses, siehe Glossar (Namensräume des Grundschutz++). Aufgrund der Komplexität und besonderen Bedeutung der Aufgabe leisten Spezialisten für Detektion und Reaktion auf Sicherheitsvorfälle einen wichtigen Beitrag zur effektiven Informationssicherheit einer Institution. Werden diese Aufgaben von speziell hierfür geschultem Personal übernommen und nicht „nebenbei“ von Betriebspersonal, so werden Zielkonflikte zwischen Informationssicherheit und reibungslosem Betrieb vermieden und die Qualität der Sicherheitsbeurteilungen steigt. Kann durch ein selbst betriebenes SOC oder einen Dienstleister realisiert werden.

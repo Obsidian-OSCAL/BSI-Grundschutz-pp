@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.6.2.1 Hostsysteme
 parent_control: GEB.6.2 Geschützte Aufstellung
+stmt_target_object_category: Hostsysteme
+stmt_modal_verb: SOLLTE
+stmt_action_word: platzieren
+stmt_documentation: Gebäudedokumentation
+control_effort_level: '3'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [GEB.6 Platzierung von Assets](BSI/Grundschutz/Quellkataloge/Kernel/grou
 
 ** Übergeordnetes Control: ** [GEB.6.2 Geschützte Aufstellung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/GEB.6.2%20Geschützte%20Aufstellung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Platzierung von Assets](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.6%20Platzierung%20von%20Assets.md) *** | Hostsysteme | SOLLTE | diese ausschließlich in Serverräumen |  | platzieren | Gebäudedokumentation | >Gebäudemanagement für Hostsysteme SOLLTE diese ausschließlich in Serverräumen platzieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Platzierung von Assets](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.6%20Platzierung%20von%20Assets.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Hostsysteme](target_object_categories_Hostsysteme_19c946fc-e991-44ee-87c5-7bbe5d5aaf55) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | diese ausschließlich in Serverräumen |  | [platzieren](action_words_platzieren_fec950b7-8c2d-4060-b4ff-d7276f0f9a56) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Hostsysteme SOLLTE diese ausschließlich in Serverräumen platzieren.</span>
 
 > [!info]- Guidance
 >Sinn und Zweck dieser Anforderung liegt darin, die Risiken durch unkontrollierten physischen Zugriff oder Umwelteinflüsse zu reduzieren: Ohne räumliche Trennung könnte ein Mitarbeiter versehentlich gegen ein frei im Büro aufgestelltes Hostsystem stoßen und es beschädigen, oder ein Besucher könnte unbemerkt Manipulationen vornehmen. Durch Platzierung in einem Serverraum kann hingegen erreicht werden, dass Geräte vor unbefugtem Zugriff geschützt sind und kontrollierte Umgebungsbedingungen wie Temperatur oder Luftfeuchtigkeit den zuverlässigen Betrieb fördern. Praktisch kann es hilfreich sein, Hostsysteme in standardisierten Serverschränken unterzubringen, die zusätzlich verschließbar sind, und regelmäßig zu prüfen, ob keine Fremdgeräte unautorisiert im Serverraum abgestellt wurden. Auf diese Weise kann die Institution sicherstellen, dass Hostsysteme physisch geschützt und unter stabilen Betriebsbedingungen betrieben werden.

@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: VRB.3.1 Identifikation von Verbesserungspotenzialen
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [VRB.3 Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Quel
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)**<br> ***  &rarr; [Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.3%20Identifikation%20von%20Verbesserungspotenzialen.md) *** |  | SOLLTE | eine Methode zur Überprüfung und Bewertung von Verbesserungspotentialen | unter Berücksichtigung der damit verbundenen Risiken | verankern |  | >Verbesserung SOLLTE eine Methode zur Überprüfung und Bewertung von Verbesserungspotentialen unter Berücksichtigung der damit verbundenen Risiken verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Verbesserung (VRB)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)*<br> *  &rarr; [Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.3%20Identifikation%20von%20Verbesserungspotenzialen.md) *</div> | [Verbesserung](practices_Verbesserung_662fb453-caf1-4e01-8152-b88027b71438) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Methode zur Überprüfung und Bewertung von Verbesserungspotentialen | unter Berücksichtigung der damit verbundenen Risiken | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Verbesserung SOLLTE eine Methode zur Überprüfung und Bewertung von Verbesserungspotentialen unter Berücksichtigung der damit verbundenen Risiken verankern.</span>
 
 > [!info]- Guidance
 >Die Methode beinhaltet beispielsweise die Bewertung des Umfelds der Institution (einschließlich der Bewertung der Gefährdungslage), die Auswertung des Umsetzungsplans, die Auswertung von Auditergebnissen und Sicherheitsvorfällen sowie die Berücksichtigung von Ad hoc-Eingaben (z. B. akute Verbesserungspotentiale).

@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.3.1 Sicherheitstest
+stmt_modal_verb: SOLLTE
+stmt_action_word: testen
+stmt_documentation: Freigabeplan
+result_reference: Anforderung
+control_effort_level: '3'
 ---
 
 
@@ -10,11 +16,13 @@ control: TEST.3.1 Sicherheitstest
 Gruppe: [TEST.3 Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.3%20Tests.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [TEST.3.1.1 Dokumentation von Testergebnissen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.1%20Dokumentation%20von%20Testergebnissen.md)> [TEST.3.1.2 Integritätstest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.2%20Integritätstest.md)> [TEST.3.1.3 Testdaten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.3%20Testdaten.md)> [TEST.3.1.4 Testumgebung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.4%20Testumgebung.md)> [TEST.3.1.5 Kontinuierliche Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.5%20Kontinuierliche%20Tests.md)> [TEST.3.1.6 Chaos Engineering](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.6%20Chaos%20Engineering.md)> [TEST.3.1.7 Analyse der Zusammensetzung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.7%20Analyse%20der%20Zusammensetzung.md)> [TEST.3.1.8 Fuzzing](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.8%20Fuzzing.md)> [TEST.3.1.9 Lasttest](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.9%20Lasttest.md)> [TEST.3.1.10 Penetrationstest bei Änderungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/TEST.3.1.10%20Penetrationstest%20bei%20Änderungen.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.3%20Tests.md) *** |  | SOLLTE | vor wesentlichen Änderungen die Einhaltung der Sicherheitsanforderungen |  | testen | Freigabeplan | >Änderungen und Tests SOLLTE vor wesentlichen Änderungen die Einhaltung der Sicherheitsanforderungen testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Tests](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/TEST.3%20Tests.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | vor wesentlichen Änderungen die Einhaltung der Sicherheitsanforderungen |  | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Freigabeplan](documentation_guidelines_Freigabeplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests SOLLTE vor wesentlichen Änderungen die Einhaltung der Sicherheitsanforderungen testen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Änderungen sind wesentlich, wenn sie die Informationssicherheit von Produktivsystemen und -anwendungen betreffen und über eine geringe Anzahl von Nutzenden hinaus Auswirkungen haben können. Dabei sind sowohl die Sicherheitsanforderungen relevant, die direkt durch IT-Produkte umgesetzt werden (technische Anforderungen), als auch die prozessualen Anforderungen, die von der Änderung betroffen sind, etwa zur Überwachung von Ereignissen oder zur Sensibilisierung des Personals. Die Sicherheitsanforderungen ergeben sich aus den für das jeweilige Zielobjekt geltenden Vorgaben aus allen Praktiken. Sowohl die Funktionalität einzelner Module als auch das Zusammenspiel von Schnittstellen ist wichtig, um Sicherheitslücken frühzeitig zu erkennen.

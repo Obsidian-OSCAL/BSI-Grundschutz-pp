@@ -1,21 +1,28 @@
 ---
-tags: Physical_Access_Control_Shoulder_Surfing
+tags:
+- physical_access_control_shoulder_surfing
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.1 Verarbeitung in der Öffentlichkeit
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.1 - Verarbeitung in der Öffentlichkeit
-Tags: "[Physical Access Control](tags_Physical Access Control)" "[Shoulder Surfing](tags_Shoulder Surfing)"
+> [!example]- Tags:> [[tags_Physical Access Control|Physical Access Control]]> [[tags_Shoulder Surfing|Shoulder Surfing]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md) *** | Nutzende | SOLLTE | gegen die Verarbeitung von vertraulichen Informationen in der Öffentlichkeit |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE gegen die Verarbeitung von vertraulichen Informationen in der Öffentlichkeit sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | gegen die Verarbeitung von vertraulichen Informationen in der Öffentlichkeit |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE gegen die Verarbeitung von vertraulichen Informationen in der Öffentlichkeit sensibilisieren.</span>
 
 > [!info]- Guidance
 >Die Anforderung zielt darauf ab, das Risiko unbeabsichtigter Informationsabflüsse in öffentlichen Räumen zu reduzieren. Ohne entsprechende Aufmerksamkeit könnte etwa ein unbefugter Dritter vertrauliche Daten über die Schulter mitlesen, Fotos von Bildschirmen aufnehmen oder Gesprächsinhalte mithören, was im schlimmsten Fall zu Identitätsdiebstahl oder geschäftsschädigender Weitergabe von Insiderinformationen führen könnte. Unachtsamkeit könnte dabei z.B. einen Verstoß gegen Arbeitsanweisungen und das Gesetz zum Schutz von Geschäftsgeheimnissen (GeschGehG) darstellen. Im vorliegenden Kontext bedeutet „öffentliche Verarbeitung“ die Nutzung mobiler Geräte wie Laptops, Tablets oder Smartphones in frei zugänglichen Umgebungen, in denen unbekannte Personen mitlesen oder mithören könnten, zum Beispiel in Verkehrsmitteln, Cafés, Flughäfen oder Co-Working-Spaces. Zudem helfen Schutzmaßnahmen wie das Sitzen mit dem Rücken zur Wand oder die Verwendung von Displayschutzfolien und abdeckenden Kopfhörern.

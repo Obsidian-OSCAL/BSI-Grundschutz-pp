@@ -1,21 +1,27 @@
 ---
-tags: Lieferketten_Exit-Strategie
+tags:
+- lieferketten_exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.4 Übertragung von Supportdienstleistungen
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.4 - Übertragung von Supportdienstleistungen
-Tags: "[Lieferketten](tags_Lieferketten)" "[Exit-Strategie](tags_Exit-Strategie)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *** | Dienstleistungen | KANN | die Übergabe der Supportdienstleistungen | für den Fall einer Kündigung | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen KANN die Übergabe der Supportdienstleistungen für den Fall einer Kündigung vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Übergabe der Supportdienstleistungen | für den Fall einer Kündigung | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen KANN die Übergabe der Supportdienstleistungen für den Fall einer Kündigung vereinbaren.</span>
 
 > [!info]- Guidance
 >Die Übergabe der Supportdienstleistungen beschreibt in diesem Kontext die geordnete und dokumentierte Weitergabe von relevanten Informationen, Ressourcen und Zugängen durch einen externen Dienstleister an die Institution oder einen neuen Dienstleister, wenn ein Vertrag endet. Dazu gehören z. B. Dokumentationen zu Konfigurationen, Wartungsprotokolle, Zugangsdaten, Lizenzinformationen oder Ansprechpartnerketten. Ziel ist es, dass der Betrieb der unterstützten Systeme nach Vertragsende ohne Unterbrechung oder Informationsverlust fortgesetzt werden kann. Die Anforderung dient dazu, Risiken abzufedern, die entstehen, wenn bei einer Kündigung der Dienstleister abrupt ausscheidet. Ohne geregelte Übergabe könnte es passieren, dass wichtige Betriebsinformationen verloren gehen, der Zugriff auf Systeme blockiert wird oder die Institution abhängig von individuellem Wissen einzelner Personen bleibt. Die Übergabe kann entweder an die Institution selbst oder an einen von der Institution gewählten neuen Vertragspartner erfolgen. Um die Anforderung praktisch umzusetzen, kann eine Institution in Verträgen explizit eine Exit- oder Übergabeklausel verankern, die Inhalte, Formate und Fristen der Übergabe beschreibt. Diese Klausel kann beispielsweise definieren, dass (1) aktuelle System- und Betriebsdokumentationen vollständig zu übergeben sind, (2) Zugangsdaten in einem abgestimmten Verfahren gesichert bereitgestellt werden und (3) technische Ansprechpartner für eine Übergangsphase verfügbar bleiben.

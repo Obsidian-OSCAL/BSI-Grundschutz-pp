@@ -1,7 +1,16 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.5.1 Modellierung der Anforderungen mit Zielobjekt
+stmt_modal_verb: MUSS
+stmt_action_word: ausführen
+result_reference:
+- Anforderung
+- Asset
+- Zielobjekt
+- Zielobjektkategorie
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +20,11 @@ Gruppe: [STM.5 Anforderungsmodellierung auf die Assets](BSI/Grundschutz/Anwender
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Anforderungsmodellierung auf die Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.5%20Anforderungsmodellierung%20auf%20die%20Assets.md) *** |  | MUSS | die Modellierung der Anforderung aus den Zielobjektkategorien auf die zugeordeten Assets |  | ausführen |  | >Strukturmodellierung MUSS die Modellierung der Anforderung aus den Zielobjektkategorien auf die zugeordeten Assets ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Anforderungsmodellierung auf die Assets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.5%20Anforderungsmodellierung%20auf%20die%20Assets.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Modellierung der Anforderung aus den Zielobjektkategorien auf die zugeordeten Assets |  | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS die Modellierung der Anforderung aus den Zielobjektkategorien auf die zugeordeten Assets ausführen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |> > | [Asset](result_Asset_00000000-0000-0000-0000-000000000000) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |> > | [Zielobjekt](result_Zielobjekt_00000000-0000-0000-0000-000000000000) | Zielobjekte sind alle Werte des Informationsverbunds, denen im Rahmen der Modellierung auf der Grundlage der Zielobjektkategorien ein oder mehrere Anforderungen zugeordnet werden. Zielobjekte können dabei physische Objekte sein, z. B. Notebook als Instanz eines IT-Systems. Häufig sind Zielobjekte jedoch logische Objekte, wie beispielsweise Organisationseinheiten, Anwendungen oder der gesamte Informationsverbund. Auch Personen (z.B. Nutzende) können Zielobjekte sein, obwohl sie im sonstigen Sprachgebrauch als Subjekte bezeichnet werden. |> > | [Zielobjektkategorie](result_Zielobjektkategorie_00000000-0000-0000-0000-000000000000) | Zielobjektkategorien sind Arten von Assets, die bei der Modellierung für die Abbildung von Anforderungen auf einzelne Zielobjekte verwendet werden. Eine Liste der im Grundschutz++ definierten Zielobjektkategorien ist in der Liste “Zielobjektkategorien.csv” zu finden. |
 
 > [!info]- Guidance
 >Nun werden die Anforderungen aus dem GS++ auf die identifizierten Zielobjekte modelliert. Gemäß dem Schutzbedarf der Institution für den Geschäftsprozess, werden die Anforderungen für eine entsprechendes Sicherheitsniveau gewählt. Die modellierten Anforderungen bilden das individuelle Anforderungspaket des festgelegten Informationsverbund in Bezug auf den ausgewählten Geschäftsprozess.

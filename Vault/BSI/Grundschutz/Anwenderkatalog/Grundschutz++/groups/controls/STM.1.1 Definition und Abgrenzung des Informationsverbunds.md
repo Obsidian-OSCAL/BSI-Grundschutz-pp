@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: STM.1.1 Definition und Abgrenzung des Informationsverbunds
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+stmt_documentation: Informationsverbund
+control_effort_level: '0'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [STM.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschu
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Strukturmodellierung (STM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)**<br> ***  &rarr; [Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md) *** |  | MUSS | den nachvollziehbar abgegrenzten Informationsverbund | auf Basis des Geltungsbereichs | festlegen | Informationsverbund | >Strukturmodellierung MUSS den nachvollziehbar abgegrenzten Informationsverbund auf Basis des Geltungsbereichs festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Strukturmodellierung (STM)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)*<br> *  &rarr; [Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md) *</div> | [Strukturmodellierung](practices_Strukturmodellierung_deba3c17-15a1-450e-84a9-129ac73b0b84) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | den nachvollziehbar abgegrenzten Informationsverbund | auf Basis des Geltungsbereichs | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) | [Informationsverbund](documentation_guidelines_Informationsverbund) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Strukturmodellierung MUSS den nachvollziehbar abgegrenzten Informationsverbund auf Basis des Geltungsbereichs festlegen.</span>
 
 > [!info]- Guidance
 >Definieren und dokumentieren Sie den Informationsverbund. Dieser bildet den Geltungsbereich inhaltlich-technisch ab und umfasst die informationsverarbeitenden Systeme, Prozesse und Komponenten, die innerhalb des festgelegten Geltungsbereichs betrachtet werden. Dokumentieren Sie, welche Institutionsbereiche, Rollen und Personen zum Informationsverbund gehören für die organisatorische Abgrenzung. Grenzen Sie zusätzlich aus technischer Perspektive ab, welche Anwendungen, Systeme und Netze Bestandteil Ihres Informationsverbundes sind. Dokumentieren Sie weiterhin, welche Betriebsanteile an externe Parteien outgessourced - bsw. welche Cloud-Dienste genutzt - werden.  In der Praxis kann es in einem Geltungsbereich auch mehrere Informationsverbünde geben.

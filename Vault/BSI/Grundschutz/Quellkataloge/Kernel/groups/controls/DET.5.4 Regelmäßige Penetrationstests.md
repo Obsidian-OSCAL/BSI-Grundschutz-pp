@@ -1,24 +1,29 @@
 ---
 tags:
-- Pentest_Advanced_Persistent_Threats_APT
+- pentest_advanced_persistent_threats_apt
 - det54-prm1
 - det54-prm2
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.4 Regelmäßige Penetrationstests
+stmt_target_object_category: IT-Systeme
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.4 - Regelmäßige Penetrationstests
-Tags: "[Pentest](tags_Pentest)" "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+> [!example]- Tags:> [[tags_Pentest|Pentest]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *** | IT-Systeme | KANN | die tatsächliche Abwehrfähigkeit | nach {{einer anerkannten Vorgehensweise}} {{regelmäßig}} | überprüfen | Detektions-Konzept | >Detektion für IT-Systeme KANN die tatsächliche Abwehrfähigkeit nach {{ insert: param, det.5.4-prm1 }} {{ insert: param, det.5.4-prm2 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [IT-Systeme](target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die tatsächliche Abwehrfähigkeit | nach {{einer anerkannten Vorgehensweise}} {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für IT-Systeme KANN die tatsächliche Abwehrfähigkeit nach {{ insert: param, det.5.4-prm1 }} {{ insert: param, det.5.4-prm2 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Ein Penetrationstest, oft auch als Pentest bezeichnet, ist eine von Sicherheitsexperten simulierte Cyberattacke, um Schwachstellen und Sicherheitslücken aufzudecken. Ziel ist es, komplexe Schwachstellen in konkreten Informationsumgebungen aufzuspüren, bevor sie von echten Angreifern ausgenutzt werden könnten. Dabei werden verschiedene Methoden und Techniken eingesetzt, die auch von Angreifern verwendet werden könnten, z.B. Informationssammlung, Scan und Ausnutzen von Schwachstellen, seitliches Ausbreiten über das Netz, sowie Versuche, durch Täuschung und Manipulation von Personen an Informationen oder Zugriff zu gelangen. Anerkannte Vorgehensweisen, die für Penetrationstests angewendet werden können, sind z.B. der BSI Praxis-Leitfaden für IS-Penetrationstests, OSSTMM, NIST SP 800-115, PTES (Penetration Testing Execution Standard), OWASP für Webanwendungen oder der Leitfaden für Penetrationstests von Large-Language-Modellen des Expertenkreises KI-Sicherheit. Pentests können von externen Dienstleistern oder internem Personal vorgenommen werden. Entscheidend für ein gutes Ergebnis ist hierbei neben einer standardisierten, strukturierten Vorgehensweise die Qualifikation der ausführenden Personen, da Penetrationstests die Ausforschung komplexer Angriffsmöglickeiten erfordern, die weit über den isolierten Einsatz einzelner Werkzeuge hinausgehen können. Pentesting von Außen enthält sowohl die Suche nach angreifbaren Schwachstellen aus dem Internet, als auch die vorhergehende Recherche, um angreifbare Informationen aufzuspüren (Open Source Intelligence). Zur konsequenten Überprüfung gehört auch, dass deren gefundene Schwachstellen im Rahmen des Schwachstellenmanagements zeitnah behandelt werden. Zweckmäßig ist es daher, gefundene Schwachstellen bestimmten zuständigen Personen oder Rollen zur Behebung zuzuweisen und diese innerhalb der Fristen des Schwachstellenmanagements zu schließen.

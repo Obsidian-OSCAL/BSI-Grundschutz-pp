@@ -1,9 +1,15 @@
 ---
-tags: not214-prm1
+tags:
+- not214-prm1
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.2.1.4 Stabsübung
 parent_control: NOT.2.1 Verfahren und Regelungen
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+stmt_documentation: Notfallhandbuch
+control_effort_level: '5'
 ---
 
 
@@ -14,9 +20,9 @@ Gruppe: [NOT.2 Besondere Aufbauorganisation](BSI/Grundschutz/Anwenderkatalog/Gru
 
 ** Übergeordnetes Control: ** [NOT.2.1 Verfahren und Regelungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/NOT.2.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Besondere Aufbauorganisation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.2%20Besondere%20Aufbauorganisation.md) *** |  | KANN | die Funktionsfähigkeit der BAO | {{regelmäßig}}  durch Stabsübungen | überprüfen | Notfallhandbuch | >Notfallplanung KANN die Funktionsfähigkeit der BAO {{ insert: param, not.2.1.4-prm1 }}  durch Stabsübungen überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Besondere Aufbauorganisation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/NOT.2%20Besondere%20Aufbauorganisation.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Funktionsfähigkeit der BAO | {{regelmäßig}}  durch Stabsübungen | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Notfallhandbuch](documentation_guidelines_Notfallhandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung KANN die Funktionsfähigkeit der BAO {{ insert: param, not.2.1.4-prm1 }}  durch Stabsübungen überprüfen.</span>
 
 > [!info]- Guidance
 >Da Notfälle nur selten vorkommen, die tatsächliche Funktionstüchtigkeit der BAO dann aber von großer Bedeutung für die Informationssicherheit ist, sind regelmäßige Übungen der BAO sinnvoll. Insbesondere die festgelegte Stabsstruktur (Aufgaben und Rollen), sowie das Funktionieren der Ausstattung sind im Ernstfall von großer Bedeutung. Zur Erprobung ist es zweckmäßig bei jeder Übung typische Szenarien im vollständig besetzten Stab durchzuführen und Notfallteams nur je nach passendem Szenario in die Übung einzubeziehen. Ist eine BAO erst aufgebaut worden, genügen für die Stabsübung in der Regel relativ simple Übungsszenarien wie ein Brand im Rechenzentrum oder ein Ransomware-Vorfall. Mit wachsendem Reifegrad der BAO kann anschließend die Komplexität und Realitätsnähe der Übung steigen. Nähere Informationen können dem BSI-Standard 200-4 Kapitel 13.6 Stabsübung (R+AS) entnommen werden.

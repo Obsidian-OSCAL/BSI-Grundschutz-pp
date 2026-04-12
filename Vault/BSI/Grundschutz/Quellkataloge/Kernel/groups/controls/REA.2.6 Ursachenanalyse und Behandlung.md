@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.6 Ursachenanalyse und Behandlung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '2'
 ---
 
 
@@ -10,11 +15,11 @@ control: REA.2.6 Ursachenanalyse und Behandlung
 Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [REA.2.6.1 Dokumentation des Vorgehens](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.6.1%20Dokumentation%20des%20Vorgehens.md)> [REA.2.6.2 Kommunikation bei Vorfällen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.6.2%20Kommunikation%20bei%20Vorfällen.md)> [REA.2.6.3 Koordinierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.6.3%20Koordinierung.md)> [REA.2.6.4 Service Level](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.6.4%20Service%20Level.md)> [REA.2.6.5 Eskalation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/REA.2.6.5%20Eskalation.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)**<br> ***  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *** |  | SOLLTE | eine Vorgehensweise zur Ursachenanalyse und Behandlung |  | verankern | Arbeitsanweisung | >Sicherheitsvorfallsbehandlung SOLLTE eine Vorgehensweise zur Ursachenanalyse und Behandlung verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Quellkataloge/Kernel/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Vorgehensweise zur Ursachenanalyse und Behandlung |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung SOLLTE eine Vorgehensweise zur Ursachenanalyse und Behandlung verankern.</span>
 
 > [!info]- Guidance
 >Um einen Vorfall vollständig beheben zu können, ist es zweckmäßig, zunächst zu analysieren, wie der Vorfall zustande kam (Root Cause Analysis): Welche Personen und Systeme sind betroffen? Welche systematischen Schwachstellen haben zu dem Vorfall geführt? Die Behebung des Vorfalls orientiert sich dann an diesen Erkenntnissen, z.B. durch Schließen der Sicherheitslücken und Wiederherstellung von Daten und Anwendungen.  Je nach Vorfall kann die Behandlung durch das Schließen ausgenutzter Sicherheitslücken, einem Test anderer IT-Systeme auf vergleichbare Schwachstellen oder dem Austausch betroffener IT-Systeme, Anwendungen oder Datenbestände umgesetzt werden. Sind die Originaldaten oder -Systeme nicht mehr zu retten, so kann die Neuinstallation betroffener Systeme und die Wiederherstellung von Daten aus Backups eine Möglichkeit der Behandlung sein.

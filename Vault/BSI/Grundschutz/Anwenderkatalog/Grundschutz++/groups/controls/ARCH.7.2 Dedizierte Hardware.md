@@ -1,7 +1,13 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.7.2 Dedizierte Hardware
+stmt_target_object_category: Hostsysteme
+stmt_modal_verb: KANN
+stmt_action_word: platzieren
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +17,9 @@ Gruppe: [ARCH.7 Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz+
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.7%20Dedizierte%20Systeme.md) *** | Hostsysteme | KANN | diese auf dedizierter Hardware |  | platzieren | Konfigurationshistorie | >Architektur für Hostsysteme KANN diese auf dedizierter Hardware platzieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Dedizierte Systeme](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.7%20Dedizierte%20Systeme.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) | [Hostsysteme](target_object_categories_Hostsysteme_19c946fc-e991-44ee-87c5-7bbe5d5aaf55) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | diese auf dedizierter Hardware |  | [platzieren](action_words_platzieren_fec950b7-8c2d-4060-b4ff-d7276f0f9a56) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Hostsysteme KANN diese auf dedizierter Hardware platzieren.</span>
 
 > [!info]- Guidance
 >Um die Verfügbarkeit ausreichender Ressourcen sicherzustellen und zyklische Abhängigkeiten zu vermeiden (z.B. einen VM-Host, dessen Domain Controller auf ihm selbst virtualisiert wird).

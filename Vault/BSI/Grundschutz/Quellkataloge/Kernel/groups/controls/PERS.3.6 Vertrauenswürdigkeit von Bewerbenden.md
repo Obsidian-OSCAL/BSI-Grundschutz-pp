@@ -1,22 +1,28 @@
 ---
-tags: Insider_Threat
+tags:
+- insider_threat
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.3.6 Vertrauenswürdigkeit von Bewerbenden
+stmt_modal_verb: SOLLTE
+stmt_action_word: testen
+stmt_documentation: Prozess Personalmanagement
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.3.6 - Vertrauenswürdigkeit von Bewerbenden
-Tags: "[Insider Threat](tags_Insider Threat)"
+Tag: [[tags_Insider Threat|Insider Threat]]
 Gruppe: [PERS.3 Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERS.3.6.1 Sicherheitsüberprüfung (intern)](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/PERS.3.6.1%20Sicherheitsüberprüfung%20(intern).md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md) *** |  | SOLLTE | die Vertrauenswürdigkeit von Bewerbenden | vor der Besetzung von Stellen | testen | Prozess Personalmanagement | >Personal SOLLTE die Vertrauenswürdigkeit von Bewerbenden vor der Besetzung von Stellen testen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalzugang](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.3%20Personalzugang.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Vertrauenswürdigkeit von Bewerbenden | vor der Besetzung von Stellen | [testen](action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165) | [Prozess Personalmanagement](documentation_guidelines_Prozess Personalmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal SOLLTE die Vertrauenswürdigkeit von Bewerbenden vor der Besetzung von Stellen testen.</span>
 
 > [!info]- Guidance
 >Hierbei sind sowohl die Identität der Person, als auch ihre Qualifikation anhand von Nachweisen zu verifizieren. Insbesondere ist zu prüfen, ob der vorgelegte Lebenslauf korrekt, plausibel und vollständig ist. Bei Unklarheiten oder Widersprüchen können die Angaben durch Rückfragen bei der Quelle der Qualifikationsnachweise verifiziert werden.

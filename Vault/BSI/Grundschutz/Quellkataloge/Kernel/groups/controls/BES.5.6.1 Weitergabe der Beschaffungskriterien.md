@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.6.1 Weitergabe der Beschaffungskriterien
 parent_control: BES.5.6 Vergabe von Unteraufträgen
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.6.1 - Weitergabe der Beschaffungskriterien
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.5.6 Vergabe von Unteraufträgen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Einkäufe | SOLLTE | die Weitergabe der Beschaffungskriterien an Unterauftragnehmer |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE die Weitergabe der Beschaffungskriterien an Unterauftragnehmer vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Weitergabe der Beschaffungskriterien an Unterauftragnehmer |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE die Weitergabe der Beschaffungskriterien an Unterauftragnehmer vereinbaren.</span>
 
 > [!info]- Guidance
 >Dient dazu, sicherzustellen, dass die bei der Auswahl von Produkten, Dienstleistungen oder Lieferanten berücksichtigten Anforderungen entlang der gesamten Lieferkette eingehalten werden. Werden diese Kriterien nicht weitergegeben, kann es dazu kommen, dass sicherheitsrelevante Eigenschaften verloren gehen, etwa wenn ein Unterauftragnehmer günstigere, aber unsichere oder nicht konforme Komponenten beschafft. So könnte beispielsweise ein IT-Dienstleister ohne Kenntnis der geforderten Verschlüsselungsstandards Speichermedien einsetzen, die keine wirksame Datenverschlüsselung bieten, oder ein Bauunternehmen minderwertige Zutrittskontrollsysteme verbauen, weil die eigentlichen Sicherheitsvorgaben nicht bekannt waren. Auch Lieferverzögerungen, rechtliche Probleme durch fehlende Zertifizierungen oder das Einschleusen von Schadsoftware über ungesicherte Lieferungen können die Folge sein. Um die Weitergabe zu vereinfachen, können die Kriterien in einem maschinell verarbeitbaren Format (z.B. OSCAL Catalog oder Profile) ausgetauscht werden.

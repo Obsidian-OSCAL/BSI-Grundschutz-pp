@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.2.4 Zuständigkeiten
+stmt_modal_verb: SOLLTE
+stmt_action_word: zuweisen
+stmt_documentation: Geschäftsverteilungsplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [PERS.2 Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkatalog
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)**<br> ***  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *** |  | SOLLTE | Zuständigkeiten für die Rollen |  | zuweisen | Geschäftsverteilungsplan | >Personal SOLLTE Zuständigkeiten für die Rollen zuweisen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Aufgaben, Rollen, Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.2%20Aufgaben,%20Rollen,%20Zuständigkeiten.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Zuständigkeiten für die Rollen |  | [zuweisen](action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020) | [Geschäftsverteilungsplan](documentation_guidelines_Geschäftsverteilungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal SOLLTE Zuständigkeiten für die Rollen zuweisen.</span>
 
 > [!info]- Guidance
 >Damit die mit jeder Rolle verbundenen Aufgaben auch tatsächlich bearbeitet werden, ist es erforderlich, jeder Rolle eine oder mehrere Personen oder Organisationseinheiten zuzuweisen, die für die mit der Rolle verbundenen Aufgaben zuständig sind. Hierbei ist es wichtig darauf zu achten, dass alle Rollen von ausreichenden Personalressourcen abgedeckt werden. Je nach Rolle können dafür auch Vertretungsregelungen erforderlich sein.

@@ -1,0 +1,255 @@
+---
+tags: oscal_catalog_tree
+catalog: BSI Methodik Grundschutz++
+source: C:\developement\obsidian\OSCAL\BSI\Grundschutz\Quellkataloge\Methodik-Grundschutz++\input\BSI-Methodik-Grundschutz++-catalog.json
+---
+
+
+# BSI Methodik Grundschutz++ Baumansicht
+> [!example] [[BSI Methodik Grundschutz++.md|BSI Methodik Grundschutz++]]
+> > [!example]+ [GC Governance und Compliance](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)
+> > > [!example]+ [GC.1 Grundlagen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.1%20Grundlagen.md)
+> > > > [!example]- Controls:
+> > > > - [GC.1.1 Errichtung und Aufrechterhaltung eines ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.1.1%20Errichtung%20und%20Aufrechterhaltung%20eines%20ISMS.md)
+> > 
+> > > [!example]+ [GC.2 Festlegung des Kontextes der Institution](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.2%20Festlegung%20des%20Kontextes%20der%20Institution.md)
+> > > > [!example]- Controls:
+> > > > - [GC.2.1 Festlegung des externen Kontextes der Institution](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.2.1%20Festlegung%20des%20externen%20Kontextes%20der%20Institution.md)
+> > > > - [GC.2.2 Festlegung des internen Kontextes der Institution](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.2.2%20Festlegung%20des%20internen%20Kontextes%20der%20Institution.md)
+> > 
+> > > [!example]+ [GC.3 Analyse der interessierten Parteien](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.3%20Analyse%20der%20interessierten%20Parteien.md)
+> > > > [!example]- Controls:
+> > > > - [GC.3.1 Analyse der externen interessierten Parteien](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.3.1%20Analyse%20der%20externen%20interessierten%20Parteien.md)
+> > > > - [GC.3.2 Analyse der internen interessierten Parteien](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.3.2%20Analyse%20der%20internen%20interessierten%20Parteien.md)
+> > 
+> > > [!example]+ [GC.4 Festlegung des Geltungsbereichs](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.4%20Festlegung%20des%20Geltungsbereichs.md)
+> > > > [!example]- Controls:
+> > > > - [GC.4.1 Festlegung des Geltungsbereichs](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.4.1%20Festlegung%20des%20Geltungsbereichs.md)
+> > 
+> > > [!example]+ [GC.5 Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md)
+> > > > [!example]- Controls:
+> > > > - [GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1%20Vorgehen%20bei%20der%20Infomationssicherheitseinstufung.md)
+> > > > > - [GC.5.1.1 Festlegung der Geschäftsprozesse](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1.1%20Festlegung%20der%20Geschäftsprozesse.md)
+> > > > > - [GC.5.1.2 Festlegung des Schutzbedarfs](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1.2%20Festlegung%20des%20Schutzbedarfs.md)
+> > > > > - [GC.5.1.3 Geschäftsprozesse mit hohem Schutzbedarf](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.5.1.3%20Geschäftsprozesse%20mit%20hohem%20Schutzbedarf.md)
+> > 
+> > > [!example]+ [GC.6 Entwicklung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.6%20Entwicklung%20einer%20Sicherheitsleitlinie.md)
+> > > > [!example]- Controls:
+> > > > - [GC.6.1 Festlegung von Zielen für die Informationssicherheit](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1%20Festlegung%20von%20Zielen%20für%20die%20Informationssicherheit.md)
+> > > > > - [GC.6.1.1 Festlegung einer Sicherheitsstrategie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.1%20Festlegung%20einer%20Sicherheitsstrategie.md)
+> > > > > - [GC.6.1.2 Verpflichtung der Institutionsleitung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.2%20Verpflichtung%20der%20Institutionsleitung.md)
+> > > > > - [GC.6.1.3 Erstellung einer Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.3%20Erstellung%20einer%20Sicherheitsleitlinie.md)
+> > > > > - [GC.6.1.4 Freigabe der Sicherheitsleitlinie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.6.1.4%20Freigabe%20der%20Sicherheitsleitlinie.md)
+> > 
+> > > [!example]+ [GC.7 Implementierung des Compliance-Managements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.7%20Implementierung%20des%20Compliance-Managements.md)
+> > > > [!example]- Controls:
+> > > > - [GC.7.1 Verfahren und Regelungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [GC.7.1.1 Gesetzliche Verpflichtungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.1%20Gesetzliche%20Verpflichtungen.md)
+> > > > > - [GC.7.1.2 Anhörung zuständiger Stellen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.2%20Anhörung%20zuständiger%20Stellen.md)
+> > > > > - [GC.7.1.3 Vertragliche Verpflichtungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.3%20Vertragliche%20Verpflichtungen.md)
+> > > > > - [GC.7.1.4 Prävention von Verstößen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.7.1.4%20Prävention%20von%20Verstößen.md)
+> > 
+> > > [!example]+ [GC.8 Sicherheitsorganisation und Rollen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.8%20Sicherheitsorganisation%20und%20Rollen.md)
+> > > > [!example]- Controls:
+> > > > - [GC.8.1 Verfahren zur Ressourcenplanung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1%20Verfahren%20zur%20Ressourcenplanung.md)
+> > > > > - [GC.8.1.1 Festlegung von Rollen und Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.1%20Festlegung%20von%20Rollen%20und%20Zuständigkeiten.md)
+> > > > > > - [GC.8.1.1.1 Informationssicherheitsbeauftragter](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.1.1%20Informationssicherheitsbeauftragter.md)
+> > > > > > > - [GC.8.1.1.1.1 Vorspracherecht des Informationssicherheitsbeauftragten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.1.1.1%20Vorspracherecht%20des%20Informationssicherheitsbeauftragten.md)
+> > > > > - [GC.8.1.2 Stellvertreterregelungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.2%20Stellvertreterregelungen.md)
+> > > > > - [GC.8.1.3 Vermeidung von Interessenkonflikten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.3%20Vermeidung%20von%20Interessenkonflikten.md)
+> > > > > - [GC.8.1.4 Festlegung einer Sicherheitsorganisation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.4%20Festlegung%20einer%20Sicherheitsorganisation.md)
+> > > > > - [GC.8.1.5 Sicherstellung der Qualifikation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.5%20Sicherstellung%20der%20Qualifikation.md)
+> > > > > - [GC.8.1.6 Ressourcen für den Informationssicherheitsbeauftragten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.8.1.6%20Ressourcen%20für%20den%20Informationssicherheitsbeauftragten.md)
+> > 
+> > > [!example]+ [GC.9 Dokumentation und Kommunikation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.9%20Dokumentation%20und%20Kommunikation.md)
+> > > > [!example]- Controls:
+> > > > - [GC.9.1 Festlegung eines Verfahrens zum Kommunikationsmanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.9.1%20Festlegung%20eines%20Verfahrens%20zum%20Kommunikationsmanagement.md)
+> > > > > - [GC.9.1.1 Externer Austausch zur Informationssicherheit](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.9.1.1%20Externer%20Austausch%20zur%20Informationssicherheit.md)
+> > > > > - [GC.9.1.2 Kommunikation im Projektmanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.9.1.2%20Kommunikation%20im%20Projektmanagement.md)
+> > > > > - [GC.9.1.3 Dokumentenlenkung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.9.1.3%20Dokumentenlenkung.md)
+> > 
+> > > [!example]+ [GC.10 Festlegung und Freigabe der Vorgehensweise](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.10%20Festlegung%20und%20Freigabe%20der%20Vorgehensweise.md)
+> > > > [!example]- Controls:
+> > > > - [GC.10.1 Festlegung von Vorgehensweisen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.10.1%20Festlegung%20von%20Vorgehensweisen.md)
+> > > > - [GC.10.2 Freigabe von Vorgehensweisen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.10.2%20Freigabe%20von%20Vorgehensweisen.md)
+> > 
+> > > [!example]+ [GC.11 Initiierung des Risikomanagements](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/GC.11%20Initiierung%20des%20Risikomanagements.md)
+> > > > [!example]- Controls:
+> > > > - [GC.11.1 Methodik für das Risikomanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/GC.11.1%20Methodik%20für%20das%20Risikomanagement.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [PERF Monitoring-Evaluation](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)
+> > > [!example]+ [PERF.1 Leistungsbewertung des ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.1%20Leistungsbewertung%20des%20ISMS.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.1.1 Verfahren und Regelungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1%20Verfahren%20und%20Regelungen.md)
+> > > > > - [PERF.1.1.1 Auswertung der Gefährdungslage](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1.1%20Auswertung%20der%20Gefährdungslage.md)
+> > > > > - [PERF.1.1.2 Auswertung des Umsetzungsplans](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1.2%20Auswertung%20des%20Umsetzungsplans.md)
+> > > > > - [PERF.1.1.3 Auswertung von Auditergebnissen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1.3%20Auswertung%20von%20Auditergebnissen.md)
+> > > > > - [PERF.1.1.4 Auswertung von Sicherheitsvorfällen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.1.1.4%20Auswertung%20von%20Sicherheitsvorfällen.md)
+> > 
+> > > [!example]+ [PERF.2 Überwachung der Compliance](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.2%20Überwachung%20der%20Compliance.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.2.1 Überwachung der Einhaltung von Verpflichtungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.2.1%20Überwachung%20der%20Einhaltung%20von%20Verpflichtungen.md)
+> > 
+> > > [!example]+ [PERF.3 Auditprogramm und -durchführung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.3%20Auditprogramm%20und%20-durchführung.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.3.1 Aufbau und Pflege eines Auditprogramms](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.3.1%20Aufbau%20und%20Pflege%20eines%20Auditprogramms.md)
+> > > > > - [PERF.3.1.1 Erstellen eines Auditsplans](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.3.1.1%20Erstellen%20eines%20Auditsplans.md)
+> > > > > - [PERF.3.1.2 Planen von internen Audits](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.3.1.2%20Planen%20von%20internen%20Audits.md)
+> > > > > - [PERF.3.1.3 Auswahl des Auditteams](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.3.1.3%20Auswahl%20des%20Auditteams.md)
+> > > > > - [PERF.3.1.4 Umfang von Audits](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.3.1.4%20Umfang%20von%20Audits.md)
+> > 
+> > > [!example]+ [PERF.4 Bewertungsschema und Auditberichte](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.4%20Bewertungsschema%20und%20Auditberichte.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.4.1 Dokumentation von Auditergebnissen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.4.1%20Dokumentation%20von%20Auditergebnissen.md)
+> > > > > - [PERF.4.1.1 Einheitliches Bewertungsschema](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.4.1.1%20Einheitliches%20Bewertungsschema.md)
+> > > > > - [PERF.4.1.2 Kommunikation an Stakeholder](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.4.1.2%20Kommunikation%20an%20Stakeholder.md)
+> > 
+> > > [!example]+ [PERF.5 Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.5.1 Eignungsprüfung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1%20Eignungsprüfung.md)
+> > > > > - [PERF.5.1.1 Ergebnisse von Folgemaßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.1%20Ergebnisse%20von%20Folgemaßnahmen.md)
+> > > > > - [PERF.5.1.2 Geänderte Rahmenbedingungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.2%20Geänderte%20Rahmenbedingungen.md)
+> > > > > - [PERF.5.1.3 Erfolge und Probleme](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.3%20Erfolge%20und%20Probleme.md)
+> > > > > - [PERF.5.1.4 Interne Überprüfungen und Audits](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.4%20Interne%20Überprüfungen%20und%20Audits.md)
+> > > > > - [PERF.5.1.5 Eignungsprüfung bisheriger Sicherheitsmaßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.5%20Eignungsprüfung%20bisheriger%20Sicherheitsmaßnahmen.md)
+> > > > > - [PERF.5.1.6 Rückmeldung von Stakeholdern](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.6%20Rückmeldung%20von%20Stakeholdern.md)
+> > > > > - [PERF.5.1.7 Status des Realisierungsplans](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.7%20Status%20des%20Realisierungsplans.md)
+> > > > > - [PERF.5.1.8 Verbesserungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.8%20Verbesserungen.md)
+> > > > > - [PERF.5.1.9 Maßnahmenvorschläge](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.9%20Maßnahmenvorschläge.md)
+> > > > - [PERF.5.2 Bericht an die Institutionsleitung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.2%20Bericht%20an%20die%20Institutionsleitung.md)
+> > 
+> > > [!example]+ [PERF.6 Monitoringmethoden und -tools](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.6%20Monitoringmethoden%20und%20-tools.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.6.1 Sicherheitsvorfälle](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1%20Sicherheitsvorfälle.md)
+> > > > > - [PERF.6.1.1 Sicherheitsvorfälle](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1.1%20Sicherheitsvorfälle.md)
+> > > > > - [PERF.6.1.2 Schwachstellen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1.2%20Schwachstellen.md)
+> > > > > - [PERF.6.1.3 Bedrohungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.6.1.3%20Bedrohungen.md)
+> > 
+> > > [!example]+ [PERF.7 Validierung der Anforderungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.7%20Validierung%20der%20Anforderungen.md)
+> > > > [!example]- Controls:
+> > > > - [PERF.7.1 Aktualität der Anforderungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.7.1%20Aktualität%20der%20Anforderungen.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [STM Strukturmodellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM%20Strukturmodellierung.md)
+> > > [!example]+ [STM.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md)
+> > > > [!example]- Controls:
+> > > > - [STM.1.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.1.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md)
+> > > > - [STM.1.2 Dokumentation der externen Schnittstellen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.1.2%20Dokumentation%20der%20externen%20Schnittstellen.md)
+> > 
+> > > [!example]+ [STM.2 Erstellung eines Anforderungspakets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.2%20Erstellung%20eines%20Anforderungspakets.md)
+> > > > [!example]- Controls:
+> > > > - [STM.2.1 Erstellung eines Anforderungspakets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.2.1%20Erstellung%20eines%20Anforderungspakets.md)
+> > 
+> > > [!example]+ [STM.3 ISMS-Anforderungen des Informationsverbundes](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.3%20ISMS-Anforderungen%20des%20Informationsverbundes.md)
+> > > > [!example]- Controls:
+> > > > - [STM.3.1 ISMS-Anforderungen des Informationsverbundes](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.3.1%20ISMS-Anforderungen%20des%20Informationsverbundes.md)
+> > 
+> > > [!example]+ [STM.4 Asset-Modellierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.4%20Asset-Modellierung.md)
+> > > > [!example]- Controls:
+> > > > - [STM.4.1 Erfassung relevanter Assets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.4.1%20Erfassung%20relevanter%20Assets.md)
+> > > > - [STM.4.2 Dokumentation relevanter Assets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.4.2%20Dokumentation%20relevanter%20Assets.md)
+> > > > - [STM.4.3 Mapping des Assets auf die Zielobjektkategorien](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.4.3%20Mapping%20des%20Assets%20auf%20die%20Zielobjektkategorien.md)
+> > 
+> > > [!example]+ [STM.5 Anforderungsmodellierung auf die Assets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.5%20Anforderungsmodellierung%20auf%20die%20Assets.md)
+> > > > [!example]- Controls:
+> > > > - [STM.5.1 Modellierung der Anforderungen mit Zielobjekt](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.5.1%20Modellierung%20der%20Anforderungen%20mit%20Zielobjekt.md)
+> > > > - [STM.5.2 Vererbung von Zielobjektkategorien](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.5.2%20Vererbung%20von%20Zielobjektkategorien.md)
+> > > > - [STM.5.3 Konsolidierung und Redundanzprüfung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.5.3%20Konsolidierung%20und%20Redundanzprüfung.md)
+> > > > - [STM.5.4 Modellierung der Anforderungen ohne Zielobjektkategorie](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.5.4%20Modellierung%20der%20Anforderungen%20ohne%20Zielobjektkategorie.md)
+> > 
+> > > [!example]+ [STM.6 Anforderungsergänzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.6%20Anforderungsergänzung.md)
+> > > > [!example]- Controls:
+> > > > - [STM.6.1 Auf Grund anforderungsloser Assets](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.6.1%20Auf%20Grund%20anforderungsloser%20Assets.md)
+> > > > - [STM.6.2 Auf Grund externer Verpflichtungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.6.2%20Auf%20Grund%20externer%20Verpflichtungen.md)
+> > 
+> > > [!example]+ [STM.7 Überprüfung des gesetzten Sicherheitsniveaus](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.7%20Überprüfung%20des%20gesetzten%20Sicherheitsniveaus.md)
+> > > > [!example]- Controls:
+> > > > - [STM.7.1 Überprüfung des gesetzten Sicherheitsniveaus](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.7.1%20Überprüfung%20des%20gesetzten%20Sicherheitsniveaus.md)
+> > 
+> > > [!example]+ [STM.8 Durchführung der Risikobetrachtung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.8%20Durchführung%20der%20Risikobetrachtung.md)
+> > > > [!example]- Controls:
+> > > > - [STM.8.1 Risikobetrachtung bei fehlenden Anforderungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.8.1%20Risikobetrachtung%20bei%20fehlenden%20Anforderungen.md)
+> > 
+> > > [!example]+ [STM.9 Gestaltungsentscheidungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/STM.9%20Gestaltungsentscheidungen.md)
+> > > > [!example]- Controls:
+> > > > - [STM.9.1 Verteilung der führenden Zuständigkeiten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.9.1%20Verteilung%20der%20führenden%20Zuständigkeiten.md)
+> > > > - [STM.9.2 Weitere Parameter](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/STM.9.2%20Weitere%20Parameter.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [UMS Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS%20Umsetzung.md)
+> > > [!example]+ [UMS.1 Ermittlung des Umsetzungsstatus](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.1%20Ermittlung%20des%20Umsetzungsstatus.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.1.1 Ermittlung des Umsetzungsstatus](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.1.1%20Ermittlung%20des%20Umsetzungsstatus.md)
+> > 
+> > > [!example]+ [UMS.2 Bewertung fehlender Umsetzungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.2%20Bewertung%20fehlender%20Umsetzungen.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.2.1 Bewertung des Restrisikos](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.2.1%20Bewertung%20des%20Restrisikos.md)
+> > 
+> > > [!example]+ [UMS.3 Umsetzungsplanung und Priorisierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.3%20Umsetzungsplanung%20und%20Priorisierung.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.3.1 Umsetzungsplanung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.3.1%20Umsetzungsplanung.md)
+> > > > - [UMS.3.2 Priorisierung von Maßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.3.2%20Priorisierung%20von%20Maßnahmen.md)
+> > 
+> > > [!example]+ [UMS.4 Zuständigkeiten und Umsetzungsfristen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.4%20Zuständigkeiten%20und%20Umsetzungsfristen.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.4.1 Benennung von Umsetzungszuständigen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.4.1%20Benennung%20von%20Umsetzungszuständigen.md)
+> > > > - [UMS.4.2 Festlegung von Umsetzungsfristen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.4.2%20Festlegung%20von%20Umsetzungsfristen.md)
+> > 
+> > > [!example]+ [UMS.5 Freigabeverfahren und Ausnahmemanagement](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.5%20Freigabeverfahren%20und%20Ausnahmemanagement.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.5.1 Autorisierung von Ausnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.5.1%20Autorisierung%20von%20Ausnahmen.md)
+> > > > - [UMS.5.2 Dokumentation von Ausnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.5.2%20Dokumentation%20von%20Ausnahmen.md)
+> > 
+> > > [!example]+ [UMS.6 Fortschrittsverfolgung der Realisierung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.6%20Fortschrittsverfolgung%20der%20Realisierung.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.6.1 Nachverfolgung des Umsetzungsfortschritts](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.6.1%20Nachverfolgung%20des%20Umsetzungsfortschritts.md)
+> > > > - [UMS.6.2 Fortschreibung des Umsetzungsplans](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.6.2%20Fortschreibung%20des%20Umsetzungsplans.md)
+> > 
+> > > [!example]+ [UMS.7 Wahrung von Compliance in der Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/UMS.7%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
+> > > > [!example]- Controls:
+> > > > - [UMS.7.1 Wahrung von Compliance in der Umsetzung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/UMS.7.1%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
+> > 
+> > > [!example]- Controls:
+> 
+> > [!example]+ [VRB Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB%20Verbesserung.md)
+> > > [!example]+ [VRB.1 Kontinuierliche Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.1%20Kontinuierliche%20Verbesserung.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.1.1 Verfahren zur kontinuierlichen Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.1.1%20Verfahren%20zur%20kontinuierlichen%20Verbesserung.md)
+> > > > - [VRB.1.2 Änderungen im ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.1.2%20Änderungen%20im%20ISMS.md)
+> > 
+> > > [!example]+ [VRB.2 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.2%20Umgang%20mit%20Nicht-Konformitäten.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.2.1 Umgang mit Nicht-Konformitäten](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.2.1%20Umgang%20mit%20Nicht-Konformitäten.md)
+> > > > - [VRB.2.2 Anpassung des ISMS](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.2.2%20Anpassung%20des%20ISMS.md)
+> > 
+> > > [!example]+ [VRB.3 Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.3%20Identifikation%20von%20Verbesserungspotenzialen.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.3.1 Identifikation von Verbesserungspotenzialen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.3.1%20Identifikation%20von%20Verbesserungspotenzialen.md)
+> > 
+> > > [!example]+ [VRB.4 Korrektur- und Verbesserungsvorschläge](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.4%20Korrektur-%20und%20Verbesserungsvorschläge.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.4.1 Korrekturmaßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.4.1%20Korrekturmaßnahmen.md)
+> > > > - [VRB.4.2 Verbesserungsmaßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.4.2%20Verbesserungsmaßnahmen.md)
+> > 
+> > > [!example]+ [VRB.5 Korrektur- und Verbesserungsplan](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.5%20Korrektur-%20und%20Verbesserungsplan.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.5.1 Priorisierung von Maßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.5.1%20Priorisierung%20von%20Maßnahmen.md)
+> > 
+> > > [!example]+ [VRB.6 Wirksamkeitsprüfung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.6%20Wirksamkeitsprüfung.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.6.1 Wirksamkeitsprüfung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.6.1%20Wirksamkeitsprüfung.md)
+> > 
+> > > [!example]+ [VRB.7 Bewertung der erreichten Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.7%20Bewertung%20der%20erreichten%20Verbesserung.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.7.1 Bewertung der erreichten Verbesserung](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.7.1%20Bewertung%20der%20erreichten%20Verbesserung.md)
+> > 
+> > > [!example]+ [VRB.8 Behandlung von Compliance-Verstößen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/VRB.8%20Behandlung%20von%20Compliance-Verstößen.md)
+> > > > [!example]- Controls:
+> > > > - [VRB.8.1 Behandlung von Compliance-Verstößen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/VRB.8.1%20Behandlung%20von%20Compliance-Verstößen.md)
+> > 
+> > > [!example]- Controls:
+> 

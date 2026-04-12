@@ -1,8 +1,14 @@
 ---
-tags: perf71-prm1
+tags:
+- perf71-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.7.1 Aktualität der Anforderungen
+stmt_modal_verb: MUSS
+stmt_action_word: überprüfen
+result_reference: Anforderung
+control_effort_level: '0'
 ---
 
 
@@ -12,9 +18,11 @@ Gruppe: [PERF.7 Validierung der Anforderungen](BSI/Grundschutz/Quellkataloge/Met
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Validierung der Anforderungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.7%20Validierung%20der%20Anforderungen.md) *** |  | MUSS | die Aktualität der Anforderungen | {{regelmäßig}} | überprüfen |  | >Monitoring-Evaluation MUSS die Aktualität der Anforderungen {{ insert: param, perf.7.1-prm1 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Validierung der Anforderungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.7%20Validierung%20der%20Anforderungen.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | die Aktualität der Anforderungen | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS die Aktualität der Anforderungen {{ insert: param, perf.7.1-prm1 }} überprüfen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Anforderung](result_Anforderung_00000000-0000-0000-0000-000000000000) | Eine Anforderung im Sinne des Kompendiums (engl. Control oder Requirement) ist ein zu erreichender Zielzustand oder ein allgemeines Grundprinzip der Informations- und Cybersicherheit, dessen Erreichung zur Erhöhung der Informationssicherheit notwendig ist oder zumindest dazu beiträgt. Eine Anforderung beschreibt, was getan werden muss, um ein bestimmtes Niveau bezüglich der Informationssicherheit zu erreichen. Wie die Anforderungen im konkreten Fall erfüllt werden können, ist<br>in entsprechenden Sicherheitsmaßnahmen beschrieben (siehe dort). Anforderungen bei erhöhtem Schutzbedarf übersteigen den Stand der Technik für typische Verarbeitungssituationen und sind nur als exemplarische Vorschläge zu sehen, was bei entsprechendem Schutzbedarf zur Absicherung sinnvoll umzusetzen ist. |
 
 > [!info]- Guidance
 >Die Verifikation sollte folgende Aspekte umfassen: Das Anforderungspaket sollte regelmäßig (i.A. jährlich, je nach Organisationsgröße, Parameter und Prüftiefe) in Hinblick auf die Modellierung überprüft werden, um ihre Aktualität und Angemessenheit in Bezug auf den Informationsverbund zu bewerten. Bei der Überprüfung sollten veränderte Geschäftsprozesse, neue IT-Komponenten, organisatorische Änderungen und externe Faktoren wie neue regulatorische Anforderungen oder veränderte Bedrohungslandschaften berücksichtigt werden. Die Überprüfung sollte in Abstimmung mit den zuständigen Bereichen erfolgen, um sicherzustellen, dass alle relevanten Perspektiven einbezogen werden. Bei Bedarf sollten Anpassungen der Auswahl der Anforderungen vorgenommen werden, um den aktuellen Anforderungen gerecht zu werden. Wenn signifikante Anpassungen erforderlich sind, können diese zu einer Neumodellierung oder Erweiterung des Anforderungspakets führen, was wiederum den gesamten Zyklus der Strukturmodellierung und Umsetzung beeinflusst. Die Verifikation sollte dokumentiert werden.

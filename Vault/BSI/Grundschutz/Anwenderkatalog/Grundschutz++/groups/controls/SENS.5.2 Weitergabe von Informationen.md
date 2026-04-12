@@ -1,21 +1,27 @@
 ---
-tags: Advanced_Persistent_Threats_APT
+tags:
+- advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.5.2 Weitergabe von Informationen
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.5.2 - Weitergabe von Informationen
-Tags: "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+Tag: [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.5 Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md) *** | Nutzende, Informationen | SOLLTE | zu den Voraussetzungen der Weitergabe von Informationen |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende von Informationen SOLLTE zu den Voraussetzungen der Weitergabe von Informationen sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit Informationen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/SENS.5%20Umgang%20mit%20Informationen.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Nutzende, Informationen | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zu den Voraussetzungen der Weitergabe von Informationen |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende von Informationen SOLLTE zu den Voraussetzungen der Weitergabe von Informationen sensibilisieren.</span>
 
 > [!info]- Guidance
 >Als "Voraussetzungen der Weitergabe" werden die rechtlichen, vertraglichen, technischen und organisatorischen Bedingungen verstanden, die vor der Übermittlung von Informationen an interne oder externe Empfänger erfüllt sein müssen, um Vertraulichkeit und Compliance zu gewährleisten. So werden unkontrollierte Informationslecks und Compliance-Verletzungen verhindert, indem ein Bewusstsein für die Voraussetzungen geschaffen wird, unter denen Informationen an Dritte übermittelt werden dürfen. Hierzu gehört insbesondere, welche Kategorien von Informationen (z.B. Kundendaten) welchen internen und externen Personengruppen (z.B. Dienstleister) über welche Kommunikationskanäle (z.B. E-Mail, telefonisch) unter welchen Voraussetzungen (z.B. Nennung des Kundenkennwortes) weitergegeben werden dürfen.

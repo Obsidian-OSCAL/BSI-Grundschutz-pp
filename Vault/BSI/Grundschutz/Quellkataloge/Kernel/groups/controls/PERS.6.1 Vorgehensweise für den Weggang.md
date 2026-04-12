@@ -1,22 +1,29 @@
 ---
-tags: Insider_Threat_Kompetenzmanagement
+tags:
+- insider_threat_kompetenzmanagement
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.6.1 Vorgehensweise für den Weggang
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Prozess Personalmanagement
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.6.1 - Vorgehensweise für den Weggang
-Tags: "[Insider Threat](tags_Insider Threat)" "[Kompetenzmanagement](tags_Kompetenzmanagement)"
+> [!example]- Tags:> [[tags_Insider Threat|Insider Threat]]> [[tags_Kompetenzmanagement|Kompetenzmanagement]]
 Gruppe: [PERS.6 Weggang von Mitarbeitenden](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERS.6.1.1 Entzug von Berechtigungen gemäß BER](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/PERS.6.1.1%20Entzug%20von%20Berechtigungen%20gemäß%20BER.md)> [PERS.6.1.2 Neubesetzung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/PERS.6.1.2%20Neubesetzung.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)**<br> ***  &rarr; [Weggang von Mitarbeitenden](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md) *** | Nutzende | SOLLTE | eine Vorgehensweise für den Weggang |  | verankern | Prozess Personalmanagement | >Personal für Nutzende SOLLTE eine Vorgehensweise für den Weggang verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Weggang von Mitarbeitenden](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.6%20Weggang%20von%20Mitarbeitenden.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Vorgehensweise für den Weggang |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Prozess Personalmanagement](documentation_guidelines_Prozess Personalmanagement) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Nutzende SOLLTE eine Vorgehensweise für den Weggang verankern.</span>
 
 > [!info]- Guidance
 >Wenn Nutzende ohne gesteuertes Vorgehen aus dem Informationsverbund ausscheiden, könnten Zugänge oder Aufgaben unkontrolliert zurückgelassen werden, oder Informationen ungewollt an Dritte abfließen. Hierzu gehört z.B. Mitarbeitende an die Wahrung von Betriebs- und Geschäftsgeheimnissen zu erinnern. Außerdem sind von ausscheidenden Mitarbeitenden alle im Rahmen ihrer Tätigkeit erhaltenen Unterlagen, Schlüssel und Geräte sowie Ausweise und Zutrittsberechtigungen einzuziehen. Hierbei besteht ein enger Zusammenhang zum Berechtigungsmanagement.

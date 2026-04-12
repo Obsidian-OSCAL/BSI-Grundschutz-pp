@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.4.2.1 Produktspezifische Schulungen und Sensibilisierungen
 parent_control: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
+stmt_target_object_category: Administrierende
+stmt_modal_verb: SOLLTE
+stmt_action_word: ausführen
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
@@ -13,9 +19,9 @@ Gruppe: [PERS.4 Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz
 
 ** Übergeordnetes Control: ** [PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/PERS.4.2%20Rollenspezifische%20Schulungen%20und%20Sensibilisierungen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)**<br> ***  &rarr; [Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md) *** | Administrierende | SOLLTE | produktspezifische Schulungen zum Umgang mit administrativen Werkzeugen | bei Neuzugang und dem Einsatz neuer IT-Produkte | ausführen | Schulungsplan | >Personal für Administrierende SOLLTE produktspezifische Schulungen zum Umgang mit administrativen Werkzeugen bei Neuzugang und dem Einsatz neuer IT-Produkte ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/PERS.4%20Personalentwicklung.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Administrierende](target_object_categories_Administrierende_efd76832-f5a1-432a-836d-c8d5c6d212cc) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | produktspezifische Schulungen zum Umgang mit administrativen Werkzeugen | bei Neuzugang und dem Einsatz neuer IT-Produkte | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Administrierende SOLLTE produktspezifische Schulungen zum Umgang mit administrativen Werkzeugen bei Neuzugang und dem Einsatz neuer IT-Produkte ausführen.</span>
 
 > [!info]- Guidance
 >Ziel ist es, den sicheren Umgang mit den in der Institution genutzten administrativen Werkzeugen zu erlernen (z.B. dem genutzten Verzeichnisdienst, Kommandozeilenbefehlen der genutzten Betriebssysteme, Wireshark oder Netzmanagement-Software). Hierzu gehört die Bedienung der jeweiligen Werkzeuge, Aspekte der sicheren Nutzung wie Verschlüsselung und Authentifizierung, die Vermeidung typischer Fehler, sowie der Umgang mit typischen Problemstellungen (Bugfixing). Verfügt die jeweilige Person bereits nachweislich über die Kenntnisse (z.B. passendes Zertifikat) so ist die Schulung für diese Person entbehrlich.

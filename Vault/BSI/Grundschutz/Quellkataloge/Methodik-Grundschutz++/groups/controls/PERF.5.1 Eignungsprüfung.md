@@ -1,8 +1,14 @@
 ---
-tags: perf51-prm1
+tags:
+- perf51-prm1
+- oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.5.1 Eignungsprüfung
+stmt_modal_verb: MUSS
+stmt_action_word: überprüfen
+stmt_documentation: Managementbericht
+control_effort_level: '0'
 ---
 
 
@@ -11,11 +17,11 @@ control: PERF.5.1 Eignungsprüfung
 Gruppe: [PERF.5 Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [PERF.5.1.1 Ergebnisse von Folgemaßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.1%20Ergebnisse%20von%20Folgemaßnahmen.md)> [PERF.5.1.2 Geänderte Rahmenbedingungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.2%20Geänderte%20Rahmenbedingungen.md)> [PERF.5.1.3 Erfolge und Probleme](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.3%20Erfolge%20und%20Probleme.md)> [PERF.5.1.4 Interne Überprüfungen und Audits](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.4%20Interne%20Überprüfungen%20und%20Audits.md)> [PERF.5.1.5 Eignungsprüfung bisheriger Sicherheitsmaßnahmen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.5%20Eignungsprüfung%20bisheriger%20Sicherheitsmaßnahmen.md)> [PERF.5.1.6 Rückmeldung von Stakeholdern](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.6%20Rückmeldung%20von%20Stakeholdern.md)> [PERF.5.1.7 Status des Realisierungsplans](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.7%20Status%20des%20Realisierungsplans.md)> [PERF.5.1.8 Verbesserungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.8%20Verbesserungen.md)> [PERF.5.1.9 Maßnahmenvorschläge](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/controls/PERF.5.1.9%20Maßnahmenvorschläge.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)**<br> ***  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *** |  | MUSS | das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit | {{regelmäßig}} sowie anlassbezogen | überprüfen | Managementbericht | >Monitoring-Evaluation MUSS das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit {{ insert: param, perf.5.1-prm1 }} sowie anlassbezogen überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Managementbewertungen](BSI/Grundschutz/Quellkataloge/Methodik-Grundschutz++/groups/PERF.5%20Managementbewertungen.md) *</div> | [Monitoring-Evaluation](practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit | {{regelmäßig}} sowie anlassbezogen | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Managementbericht](documentation_guidelines_Managementbericht) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation MUSS das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit {{ insert: param, perf.5.1-prm1 }} sowie anlassbezogen überprüfen.</span>
 
 > [!info]- Guidance
 >Damit die Institutionsleitung fundierte Entscheidungen zur Steuerung des Informationssicherheitsprozesses treffen kann, ist ein prägnanter Managementbericht erforderlich. Darin werden die wesentlichen Eckpunkte zum Stand der Informationssicherheit übersichtlich aufbereitet. Der Bericht SOLL: kurz, klar und verständlich sein, relevante Informationen bzw. Entwicklungen enthalten, nicht überfrachtet sein d.h. den Fokus auf das Wesentliche legen. So kann die Leitung gezielt Maßnahmen priorisieren und Ressourcen effektiv einsetzen. Es muss unter anderem deutlich werden, ob der beabsichtigte Sicherheitszweck wirksam erfüllt wird.

@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.7.17 Unverschlüsseltes Telefonieren
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [SENS.7 Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Quellkatal
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md) *** | Nutzende, TK-Anwendungen | SOLLTE | gegen die Kommunikation über unverschlüsselte Telekommunikationsverbindungen |  | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende von TK-Anwendungen SOLLTE gegen die Kommunikation über unverschlüsselte Telekommunikationsverbindungen sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Umgang mit spezifischen Zielobjekten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.7%20Umgang%20mit%20spezifischen%20Zielobjekten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | Nutzende, TK-Anwendungen | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | gegen die Kommunikation über unverschlüsselte Telekommunikationsverbindungen |  | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende von TK-Anwendungen SOLLTE gegen die Kommunikation über unverschlüsselte Telekommunikationsverbindungen sensibilisieren.</span>
 
 > [!info]- Guidance
 >Hilfreich ist es hierbei darüber zu informieren, zu welchen Empfängerkreisen mit welchem Schutzniveau über welche Anwendungen kommuniziert werden kann. Telefonie über das öffentliche Telefonnetz ist noch immer häufig unverschlüsselt, während z.B. viele moderne Messenger-Apps eine Ende-zu-Ende-Verschlüsselung ermöglichen. Relevant ist dabei auch der Aufbau von Konferenzschaltungen: Wählt sich z.B. ein Teilnehmer über das öffentliche Telefonnetz ein, so ist diese Verbindung typischerweise unverschlüsselt, wodurch die Gespräche aller Konferenzteilnehmer abgehört werden können, auch wenn die anderen Teilnehmer über eine verschlüsselte Verbindung in der Konferenz sind.

@@ -1,21 +1,27 @@
 ---
-tags: Exit-Strategie
+tags:
+- exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.8.5 Treuhand
+stmt_target_object_category: Dienstleistungen
+stmt_modal_verb: KANN
+stmt_action_word: vereinbaren
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.8.5 - Treuhand
-Tags: "[Exit-Strategie](tags_Exit-Strategie)"
+Tag: [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [BES.8 Kompensierende Kontrollmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Kompensierende Kontrollmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md) *** | Dienstleistungen | KANN | ESCROW- bzw. Treuhandverträge |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Dienstleistungen KANN ESCROW- bzw. Treuhandverträge vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Kompensierende Kontrollmechanismen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | ESCROW- bzw. Treuhandverträge |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen KANN ESCROW- bzw. Treuhandverträge vereinbaren.</span>
 
 > [!info]- Guidance
 >ESCROW- bzw. Treuhandverträge regeln die Verwertungs- und Bearbeitungsrechte (z.B. für eine Software sowie Herausgabefälle des Quellcodes) für den Fall, dass es zu Streitigkeiten oder Ausfällen der Dienstleister kommt. Hierzu gehören auch ggf. zur Nutzung erforderliche Begleitunterlagen oder Zugangsmittel wie Schlüssel oder Passwörter. Außerdem ist es zweckmäßig, vertraglich festzulegen, wie häufig Daten (z.B. Quellcode) hinterlegt und dokumentiert werden. Auch eine Regelung bzgl. der Geheimhaltungspflichten im Vertrag ist zu empfehlen.

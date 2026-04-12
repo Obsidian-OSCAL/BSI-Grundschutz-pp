@@ -6,7 +6,13 @@ group_id: STM
 
 ** Group **
 # STM - Strukturmodellierung 
-> [!info]+ Untergeordnete Gruppen> [STM.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md)
+> [!info]- Praktik STM Strukturmodellierung:
+> | | |
+> | - | - |
+> | auch bekannt als: | Modellierung |
+> | Schwerpunkt: | Methodik |
+>
+> > Die Praktik Strukturmodellierung bildet die Grundlage für eine systematische Analyse der Informationssicherheit einer Institution. <br><br>Ziel der Strukturmodellierung ist aus dem Stand-der-Technik-Kompendium ein individuelles Anforderungspaket für die Institution zu generieren. Auf Basis der Geschäftsprozesse und Informationen wird der individuelle Schutzbedarf festgelegt. Mit der Zuordnung einzelner Praktiken und Zielobjekte erfolgen eine Auswahl von Anforderungen auf der Grundlage des vorgegebenen Schutzniveaus. Blaupausen unterstützen die Filterung der Anforderungen. Eine Klassifizierung des Schutzbedarfs der Zielobjekte erfolgt auf Anforderungsebene. Die individuelle Anpassung der Anforderungen durch Auswahlmöglichkeiten erleichtern eine Skalierung. Eine Erweiterung des Anforderungspakets durch spezifische Anforderungen erhöht die Flexibilität. Für diese Anforderungen ist eine Risikobetrachtung erforderlich.<br>Die Strukturmodellierung liefert essentielle Eingangsdaten für die nachgelagerten Praktiken wie Umsetzung und Monitoring-Evaluation und ermöglicht eine zielgerichtete und risikoorientierte Planung von Anforderungen und Sicherheitsmaßnahmen.> [!example]+ Untergeordnete Gruppen> [STM.1 Definition und Abgrenzung des Informationsverbunds](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.1%20Definition%20und%20Abgrenzung%20des%20Informationsverbunds.md)
 > [STM.2 Erstellung eines Anforderungspakets](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.2%20Erstellung%20eines%20Anforderungspakets.md)
 > [STM.3 ISMS-Anforderungen des Informationsverbundes](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.3%20ISMS-Anforderungen%20des%20Informationsverbundes.md)
 > [STM.4 Asset-Modellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM.4%20Asset-Modellierung.md)

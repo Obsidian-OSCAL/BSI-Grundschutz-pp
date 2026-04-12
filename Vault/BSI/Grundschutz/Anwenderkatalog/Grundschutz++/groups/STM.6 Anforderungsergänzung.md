@@ -6,10 +6,9 @@ group_id: STM.6
 
 ** Group **
 # STM.6 - Anforderungsergänzung 
-** Übergeordnete Gruppe: **
- [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)
-## Controls
+> ** Übergeordnete Gruppe: **
+ [STM Strukturmodellierung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/STM%20Strukturmodellierung.md)## Controls
 
-> [!info]+ [[STM.6.1 Auf Grund anforderungsloser Assets.md|STM.6.1 Auf Grund anforderungsloser Assets]]
+> [!example]+ [[STM.6.1 Auf Grund anforderungsloser Assets.md|STM.6.1 Auf Grund anforderungsloser Assets]]
 
-> [!info]+ [[STM.6.2 Auf Grund externer Verpflichtungen.md|STM.6.2 Auf Grund externer Verpflichtungen]]
+> [!example]+ [[STM.6.2 Auf Grund externer Verpflichtungen.md|STM.6.2 Auf Grund externer Verpflichtungen]]

@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.1.1 Verfahren und Regelungen
+stmt_modal_verb: MUSS
+stmt_action_word: verankern
+control_effort_level: '0'
 ---
 
 
@@ -10,11 +14,11 @@ control: ARCH.1.1 Verfahren und Regelungen
 Gruppe: [ARCH.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md)
 ---
 
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [ARCH.1.1.1 Dokumentation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1.1%20Dokumentation.md)> [ARCH.1.1.2 Zuweisung der Aufgaben](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1.2%20Zuweisung%20der%20Aufgaben.md)> [ARCH.1.1.3 Bekanntgabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/ARCH.1.1.3%20Bekanntgabe.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)**<br> ***  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md) *** |  | MUSS | Verfahren und Regelungen zur Architektur des Netzes und damit verbundener Infrastrukturen |  | verankern |  | >Architektur MUSS Verfahren und Regelungen zur Architektur des Netzes und damit verbundener Infrastrukturen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Architektur (ARCH)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH%20Architektur.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ARCH.1%20Grundlagen.md) *</div> | [Architektur](practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | Verfahren und Regelungen zur Architektur des Netzes und damit verbundener Infrastrukturen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur MUSS Verfahren und Regelungen zur Architektur des Netzes und damit verbundener Infrastrukturen verankern.</span>
 
 > [!info]- Guidance
 >Die Netzarchitektur ist der strukturierte Entwurf einer Netzinfrastruktur, einschließlich der IT-Systeme und verbundsbezogenen Schutzmechanismen darin. Hierzu gehören die Segmentierung und Filterung von kabelgebundenen und kabellosen Netzen, Netzmanagement sowie die Redundanz wichtiger Systeme für eine ausreichende Gewährleistung der Verfügbarkeit. Die bei der Festlegung des Verfahrens im Einzelnen zu berücksichtigenden Inhalte ergeben sich aus den Anforderungen dieser Praktik. Empfehlenswert ist ein Design des Netzes nach dem Zero-Trust-Prinzip (siehe BSI Positionspapier Zero-Trust). Dennoch sind Netzgrenzen zur Isolierung durch Filterung oder Zugbrücken bei Angriffen weiterhin sinnvoll. Weitere Informationen zur Absicherung von Netzen sind in ISO/IEC 27033 zu finden.

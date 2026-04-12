@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.8 Ausstellung neuer HTTPS-Zertifikate
+stmt_target_object_category: Webserver
+stmt_modal_verb: KANN
+stmt_action_word: überwachen
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *** | Webserver | KANN | die rechtzeitige Ausstellung neuer HTTPS-Zertifikate für Server, die im Internet erreichbar sind, |  | überwachen | Detektions-Konzept | >Detektion für Webserver KANN die rechtzeitige Ausstellung neuer HTTPS-Zertifikate für Server, die im Internet erreichbar sind, überwachen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [Webserver](target_object_categories_Webserver_b1411d0f-ffd1-45b7-837b-cd97ba4ed9e7) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die rechtzeitige Ausstellung neuer HTTPS-Zertifikate für Server, die im Internet erreichbar sind, |  | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Webserver KANN die rechtzeitige Ausstellung neuer HTTPS-Zertifikate für Server, die im Internet erreichbar sind, überwachen.</span>
 
 > [!info]- Guidance
 >Dies kann mittels Certificate Transparency teilautomatisiert werden. Mit "rechtzeitig" ist hier vor Ablauf des Zertifikats gemeint.

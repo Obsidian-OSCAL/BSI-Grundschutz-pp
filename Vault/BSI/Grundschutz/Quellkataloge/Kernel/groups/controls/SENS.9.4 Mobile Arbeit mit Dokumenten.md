@@ -1,21 +1,28 @@
 ---
-tags: Physical_Access_Control
+tags:
+- physical_access_control
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.4 Mobile Arbeit mit Dokumenten
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '2'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.4 - Mobile Arbeit mit Dokumenten
-Tags: "[Physical Access Control](tags_Physical Access Control)"
+Tag: [[tags_Physical Access Control|Physical Access Control]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md) *** | Nutzende | SOLLTE | über den sicheren Umgang mit analogen Dokumenten | beim mobilen Arbeiten | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE über den sicheren Umgang mit analogen Dokumenten beim mobilen Arbeiten sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | über den sicheren Umgang mit analogen Dokumenten | beim mobilen Arbeiten | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE über den sicheren Umgang mit analogen Dokumenten beim mobilen Arbeiten sensibilisieren.</span>
 
 > [!info]- Guidance
 >Unter analogen Dokumenten sind hier alle physischen Informations- und Datenträger wie Ausdrucke, Notizbücher oder Verträge zu verstehen, die sensible oder vertrauliche Inhalte enthalten. Unbeaufsichtigte oder ungeschützte Dokumente könnten unterwegs leicht verloren gehen oder in unbefugte Hände gelangen, was zu ungewollter Preisgabe interner Informationen führt. Daher ist es sinnvoll (1) Unterlagen unterwegs stets in verschließbaren Taschen oder Mappen zu transportieren und so vor unbefugtem Zugriff zu schützen, (2) beim Arbeiten außerhalb der Institution nur die wirklich notwendigen Ausdrucke mitzunehmen und alle übrigen Dokumente in gesicherten Ablagen zu belassen. (3) Papierstapel durch neutrale Umschläge abzudecken oder in blickdichten Aktenhüllen mitzuführen, sodass neugierige Blicke verhindert werden, (4) temporäre Notizen nach Gebrauch einer sicheren Vernichtung zuzuführen, etwa durch mobile Reißwolf-Lösungen oder durch Rückgabe an eine zentrale Aktenvernichtung. Auch für mitgenommene analoge Dokumente gelten zudem die Regelungen und Verfahren zum Löschen und Vernichten.

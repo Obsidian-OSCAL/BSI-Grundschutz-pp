@@ -1,21 +1,31 @@
 ---
-tags: Lieferketten_Exit-Strategie
+tags:
+- lieferketten_exit-strategie
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen
+stmt_target_object_category: Outsourcing
+stmt_modal_verb: KANN
+stmt_action_word: verankern
+stmt_documentation: Geschäftsprozesse
+result_reference: Geschäftsprozess
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.8.2 - Verfahren zur Übertragung von Geschäftsprozessen
-Tags: "[Lieferketten](tags_Lieferketten)" "[Exit-Strategie](tags_Exit-Strategie)"
+> [!example]- Tags:> [[tags_Lieferketten|Lieferketten]]> [[tags_Exit-Strategie|Exit-Strategie]]
 Gruppe: [BES.8 Kompensierende Kontrollmechanismen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Kompensierende Kontrollmechanismen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md) *** | Outsourcing | KANN | Verfahren zur Übertragung von Geschäftsprozessen | für den Fall einer geplanten oder ungeplanten Beendigung des Vertrages | verankern | Geschäftsprozesse | >Beschaffungsmanagement für Outsourcing KANN Verfahren zur Übertragung von Geschäftsprozessen für den Fall einer geplanten oder ungeplanten Beendigung des Vertrages verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Kompensierende Kontrollmechanismen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.8%20Kompensierende%20Kontrollmechanismen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Outsourcing](target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Verfahren zur Übertragung von Geschäftsprozessen | für den Fall einer geplanten oder ungeplanten Beendigung des Vertrages | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Geschäftsprozesse](documentation_guidelines_Geschäftsprozesse) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing KANN Verfahren zur Übertragung von Geschäftsprozessen für den Fall einer geplanten oder ungeplanten Beendigung des Vertrages verankern.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Geschäftsprozess](result_Geschäftsprozess_00000000-0000-0000-0000-000000000000) | Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Arbeitsabläufe), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. |
 
 > [!info]- Guidance
 >Es empfiehlt sich diese Alternativen in einem Maßnahmenkatalog zu dokumentieren. Darin können z.B. alternative Dienstleister festgehalten werden, welche über das notwendige Niveau an Informationssicherheit verfügen, um den Prozess, welcher an den bisherigen Dienstleister ausgelagert wird, in gleichem Maße umzusetzen.

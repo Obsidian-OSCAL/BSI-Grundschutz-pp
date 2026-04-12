@@ -1,21 +1,28 @@
 ---
-tags: Auslandsreisen_Advanced_Persistent_Threats_APT
+tags:
+- auslandsreisen_advanced_persistent_threats_apt
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.7 Reise- und Sicherheitshinweise
+stmt_target_object_category: Nutzende
+stmt_modal_verb: SOLLTE
+stmt_action_word: sensibilisieren
+stmt_documentation: Schulungsplan
+control_effort_level: '4'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.7 - Reise- und Sicherheitshinweise
-Tags: "[Auslandsreisen](tags_Auslandsreisen)" "[Advanced Persistent Threats (APT)](tags_Advanced Persistent Threats (APT))"
+> [!example]- Tags:> [[tags_Auslandsreisen|Auslandsreisen]]> [[tags_Advanced Persistent Threats (APT)|Advanced Persistent Threats (APT)]]
 Gruppe: [SENS.9 Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)**<br> ***  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md) *** | Nutzende | SOLLTE | zu Reise- und Sicherheitshinweisen des Auswärtigen Amtes | bei Auslandsreisen ins außereuropäische Ausland | sensibilisieren | Schulungsplan | >Sensibilisierung für Nutzende SOLLTE zu Reise- und Sicherheitshinweisen des Auswärtigen Amtes bei Auslandsreisen ins außereuropäische Ausland sensibilisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Sensibilisierung (SENS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](BSI/Grundschutz/Quellkataloge/Kernel/groups/SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e) | [Nutzende](target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | zu Reise- und Sicherheitshinweisen des Auswärtigen Amtes | bei Auslandsreisen ins außereuropäische Ausland | [sensibilisieren](action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zu Reise- und Sicherheitshinweisen des Auswärtigen Amtes bei Auslandsreisen ins außereuropäische Ausland sensibilisieren.</span>
 
 > [!info]- Guidance
 >Dies kann dazu beitragen, frühzeitig potenzielle Gefahren zu erkennen und das Verhalten an die spezifischen Risiken des Ziellandes anzupassen. Dies umfasst unter anderem Hinweise zu politischen Unruhen, Naturkatastrophen, Kriminalitätslagen oder besonderen Einreise- und Sicherheitsbestimmungen. Ohne solche Kenntnisse könnten Reisende unvorbereitet in Situationen geraten, in denen dienstliche Geräte kompromittiert werden, wenn unsichere Netzwerke genutzt werden. Ebenso könnten fehlende Kenntnisse über lokale Gesetze dazu führen, dass mitgeführte elektronische Geräte bei der Einreise beschlagnahmt oder inspiziert werden. Sinnvoll ist es, sich vor der Arbeitsreisen in das außereuropäische Ausland über aktuelle Reise- und Sicherheitshinweise beim [Auswärtigen Amt](https://www.auswaertiges-amt.de/de/reiseundsicherheit/reise-und-sicherheitshinweise) zu informieren. Ist die Nutzung von Informationen oder Assets der Institution im Ausland nicht vorgesehen (vgl. Anforderung Datenlokationen), dann ist die Anforderung entbehrlich.

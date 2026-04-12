@@ -1,7 +1,11 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.2 Schwachstellenregister
+stmt_modal_verb: SOLLTE
+stmt_action_word: dokumentieren
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +15,9 @@ Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Gr
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | SOLLTE | Schwachstellen bei Entdeckung | inklusive betroffener Komponenten, Kritikalität und Status | dokumentieren | Schwachstellenregister | >Detektion SOLLTE Schwachstellen bei Entdeckung inklusive betroffener Komponenten, Kritikalität und Status dokumentieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Schwachstellen bei Entdeckung | inklusive betroffener Komponenten, Kritikalität und Status | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | Schwachstellenregister | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE Schwachstellen bei Entdeckung inklusive betroffener Komponenten, Kritikalität und Status dokumentieren.</span>
 
 > [!info]- Guidance
 >Da die Aktualität des Schwachstellenregisters von großer Bedeutung ist, ist die manuelle Pflege von Schwachstellen in einem Dokument nicht empfehlenswert. Stattdessen können automatisiert gepflegte Datenbanken oder spezielle Schwachstellenmanagement-Tools genutzt werden. Das Schwachstellenregister kann auch als verteiltes Register gepflegt werden (z.B. in Schwachstellenscannern, Patchmanagement-Servern, etc.), allerdings ist hierbei eine einheitliche Beurteilung und Priorisierung aufwändiger.

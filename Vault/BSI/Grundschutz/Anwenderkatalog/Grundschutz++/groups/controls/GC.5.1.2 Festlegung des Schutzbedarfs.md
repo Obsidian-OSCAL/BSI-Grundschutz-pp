@@ -1,8 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.5.1.2 Festlegung des Schutzbedarfs
 parent_control: GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung
+stmt_modal_verb: MUSS
+stmt_action_word: festlegen
+stmt_documentation: Schutzbedarfsfeststellung
+result_reference: Geschäftsprozess
+control_effort_level: '0'
 ---
 
 
@@ -13,9 +19,11 @@ Gruppe: [GC.5 Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Anw
 
 ** Übergeordnetes Control: ** [GC.5.1 Vorgehen bei der Infomationssicherheitseinstufung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GC.5.1%20Vorgehen%20bei%20der%20Infomationssicherheitseinstufung.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)**<br> ***  &rarr; [Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md) *** |  | MUSS | eine Einstufung des Schutzbedarfs der relevanten Geschäftsprozesse und Informationsarten | unter Berücksichtigung der Geschäftsziele und in Absprache mit der Institutionsleitung | festlegen | Schutzbedarfsfeststellung | >Governance und Compliance MUSS eine Einstufung des Schutzbedarfs der relevanten Geschäftsprozesse und Informationsarten unter Berücksichtigung der Geschäftsziele und in Absprache mit der Institutionsleitung festlegen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Governance und Compliance (GC)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Prozess der Informationssicherheitseinstufung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GC.5%20Prozess%20der%20Informationssicherheitseinstufung.md) *</div> | [Governance und Compliance](practices_Governance und Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138) |  | [MUSS](modal_verbs_MUSS_73399306-1761-4311-886f-85611a8aa31d) | eine Einstufung des Schutzbedarfs der relevanten Geschäftsprozesse und Informationsarten | unter Berücksichtigung der Geschäftsziele und in Absprache mit der Institutionsleitung | [festlegen](action_words_festlegen_83ddc27c-b10e-46da-b976-0dc74127df24) | [Schutzbedarfsfeststellung](documentation_guidelines_Schutzbedarfsfeststellung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance MUSS eine Einstufung des Schutzbedarfs der relevanten Geschäftsprozesse und Informationsarten unter Berücksichtigung der Geschäftsziele und in Absprache mit der Institutionsleitung festlegen.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Geschäftsprozess](result_Geschäftsprozess_00000000-0000-0000-0000-000000000000) | Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Arbeitsabläufe), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. |
 
 > [!info]- Guidance
 >Das Ergebnis der  Schutzbedarfsfeststellung ist eine Übersicht des Schutzbedarfs der zu verarbeitenden Informationen,  sowie der Relevanz der Geschäftsprozesse. Die Einstufung erfolgt dabei in den Stufen „normal“ oder „hoch“. Die Einstufung richtet sich nach der Bedeutung des Geschäftsprozess für die Geschäftsziele oder den gesetzlichen Auftrag der Institution. Priorität für die weitere Abarbeitung hat zunächst der wichtigste Geschäftsprozess, d.h. derjenige Geschäftsprozess, dessen Informationsschutz für den Fortbestand der Institution von essentieller Bedeutung ist. Die Entscheidung darüber, welcher Geschäftsprozess am wichtigsten ist, obliegt der Institutionsleitung. Droht bei einer Verletzung der Vertraulichkeit, Integrität oder Verfügbarkeit von Informationen in diesem Geschäftsprozess ein existenzbedrohender finanzieller oder existenzbedrohender Reputationsschaden, so ist der Schutzbedarf des Prozesses als hoch einzustufen. Das gleiche gilt, wenn ein Geschäftsprozess oder eine Information, als (VS-)Vertraulich eingestuft wird.

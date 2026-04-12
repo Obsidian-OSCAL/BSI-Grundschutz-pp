@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.15 Ausleihe physischer Assets
+stmt_modal_verb: KANN
+stmt_action_word: verankern
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundsc
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** |  | KANN | einen ausreichenden Ausleihbestand |  | verankern | IT-Betriebskonzept | >Informationen und Assets KANN einen ausreichenden Ausleihbestand verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | einen ausreichenden Ausleihbestand |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets KANN einen ausreichenden Ausleihbestand verankern.</span>
 
 > [!info]- Guidance
 >Wenn bei bestimmten Ereignissen wie Auslandsreisen, Veranstaltungen oder Sicherheitsvorfällen die regulären Endgeräte nicht verwendet werden können (z.B. aufgrund der Regelungen zu Datenlokationen oder der Vorfallsbehandlung), dann ist es sinnvoll Endgeräte bereitzuhalten, die nur mit den für die Ereignisse notwendigen Anwendungen und Daten ausgestattet sind. Die Menge der Ausleihgeräte ist ausreichend, wenn sie den Bedarf deckt. Der Bedarf kann anhand einer Prognose ermittelt werden, die sich wiederum auf bekannte Statistiken (z.B. Anzahl der Nutzenden, Anzahl der Teilnehmer von Schulungsveranstaltungen, Anzahl Auslandsreisen pro Jahr) stützen kann.

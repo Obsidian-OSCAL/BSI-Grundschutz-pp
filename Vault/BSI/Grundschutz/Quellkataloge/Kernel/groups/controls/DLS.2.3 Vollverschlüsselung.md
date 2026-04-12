@@ -1,21 +1,28 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.2.3 Vollverschlüsselung
+stmt_target_object_category: Daten
+stmt_modal_verb: KANN
+stmt_action_word: verschlüsseln
+stmt_documentation: Konfigurationshistorie
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.2.3 - Vollverschlüsselung
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [DLS.2 Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)**<br> ***  &rarr; [Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md) *** | Daten | KANN | diese, wenn der Anbieter deren Inhalt zur Vertragserbringung nicht kennen muss, für diesen nicht entschlüsselbar | vor der Übertragung zum Dienstleister | verschlüsseln | Konfigurationshistorie | >Dienstleistersteuerung für Daten KANN diese, wenn der Anbieter deren Inhalt zur Vertragserbringung nicht kennen muss, für diesen nicht entschlüsselbar vor der Übertragung zum Dienstleister verschlüsseln.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Nutzung von digitalen Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | diese, wenn der Anbieter deren Inhalt zur Vertragserbringung nicht kennen muss, für diesen nicht entschlüsselbar | vor der Übertragung zum Dienstleister | [verschlüsseln](action_words_verschlüsseln_4dc9ef92-2124-449a-9a99-61095d271599) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Daten KANN diese, wenn der Anbieter deren Inhalt zur Vertragserbringung nicht kennen muss, für diesen nicht entschlüsselbar vor der Übertragung zum Dienstleister verschlüsseln.</span>
 
 > [!info]- Guidance
 >Hierbei handelt es sich um eine Verschlüsselung at-rest, bei welcher der Dienstleister keinen Zugang zum Schlüssel erhält. Die Umsetzung kann z.B. auf Dateiebene oder durch Container erfolgen.

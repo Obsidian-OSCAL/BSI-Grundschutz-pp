@@ -1,27 +1,31 @@
 ---
 tags:
-- Data_Leak
+- data_leak
 - det581-prm1
 - det581-prm2
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.8.1 Auswertung öffentlicher Quellen
 parent_control: DET.5.8 Bedrohungsanalyse
+stmt_modal_verb: KANN
+stmt_action_word: überprüfen
+control_effort_level: '5'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.8.1 - Auswertung öffentlicher Quellen
-Tags: "[Data Leak](tags_Data Leak)"
+Tag: [[tags_Data Leak|Data Leak]]
 Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
 ** Übergeordnetes Control: ** [DET.5.8 Bedrohungsanalyse](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.8%20Bedrohungsanalyse.md)
-> [!info]- Untergeordnete Controls
+> [!example]- Untergeordnete Controls
 > [DET.5.8.1.1 Unautorisierte Publikation](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DET.5.8.1.1%20Unautorisierte%20Publikation.md)### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)**<br> ***  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *** |  | KANN | öffentliche Quellen auf Hinweise zu eigenen Schwachstellen | anhand von {{Kriterien zur Suche}} {{regelmäßig}} | überprüfen | Detektions-Konzept | >Detektion KANN öffentliche Quellen auf Hinweise zu eigenen Schwachstellen anhand von {{ insert: param, det.5.8.1-prm1 }} {{ insert: param, det.5.8.1-prm2 }} überprüfen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | öffentliche Quellen auf Hinweise zu eigenen Schwachstellen | anhand von {{Kriterien zur Suche}} {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN öffentliche Quellen auf Hinweise zu eigenen Schwachstellen anhand von {{ insert: param, det.5.8.1-prm1 }} {{ insert: param, det.5.8.1-prm2 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Öffentliche Quellen können Hinweise zu aktuellen Schwachstellen geben oder sogar auf die Vorbereitung von Angriffen geben, beispielsweise auf die Nachahmung von Webseiten oder Marken, sowie Typosquatting. Auch Datenleaks wie API-Keys oder falsch konfigurierte Cloud-Systeme können hierüber aufgedeckt werden.  Relevante öffentliche Quellen können z.B. Schwachstellendatenbanken, Fachmedien, Security Mailing Listen, Dark Web Foren, Code Repositories, Suchmaschinen oder Soziale Medien sein. Als Kriterien zur Auswahl können verschiedene Suchbegriffe oder Suchmuster herangezogen werden, z.B. Bezeichnungen verwendeter Betriebssysteme oder Komponenten, eigene DNS-Domains, E-Mailadressen, API-Schnittstellen, Markennamen.  Die Umsetzung kann durch eigenes Personal oder Threat Intelligence Dienstleister erfolgen.

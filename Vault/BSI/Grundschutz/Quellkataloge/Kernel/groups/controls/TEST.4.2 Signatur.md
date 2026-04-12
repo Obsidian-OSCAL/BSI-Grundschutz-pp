@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: TEST.4.2 Signatur
+stmt_modal_verb: KANN
+stmt_action_word: ausführen
+stmt_documentation: IT-Betriebskonzept
+control_effort_level: '5'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [TEST.4 Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20F
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)**<br> ***  &rarr; [Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md) *** |  | KANN | eine Signatur der Freigabeerklärung |  | ausführen | IT-Betriebskonzept | >Änderungen und Tests KANN eine Signatur der Freigabeerklärung ausführen.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Änderungen und Tests (TEST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST%20Änderungen%20und%20Tests.md)*<br> *  &rarr; [Freigabe](BSI/Grundschutz/Quellkataloge/Kernel/groups/TEST.4%20Freigabe.md) *</div> | [Änderungen und Tests](practices_Änderungen und Tests_554ba2da-7317-4792-8548-141250039260) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine Signatur der Freigabeerklärung |  | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Änderungen und Tests KANN eine Signatur der Freigabeerklärung ausführen.</span>
 
 > [!info]- Guidance
 >Die Signatur der Freigabeerklärung ist hier als eine digitale oder handschriftliche Unterschrift zu verstehen, die dokumentiert, dass eine geplante Änderung oder ein Test geprüft, bewertet und zur Umsetzung freigegeben wurde. Die Signatur kann damit sowohl eine elektronische Signatur nach gängigen Standards (z. B. qualifizierte elektronische Signatur im Ticketsystem) als auch eine händische Unterschrift sein. Sie stellt nicht nur eine rechtliche, sondern vor allem eine technische und organisatorische Nachvollziehbarkeit sicher, indem eindeutig erkennbar wird, wer eine Entscheidung zur Durchführung von Änderungen verantwortet hat. Die Freigabe durch eine Signatur kann dazu beitragen, dass unbeabsichtigte oder fehlerhafte Änderungen nicht unkontrolliert in den Betrieb gelangen. Ein fehlender Nachweis könnte im Vorfallfall zu Streitigkeiten über Verantwortlichkeiten führen oder die forensische Nachvollziehbarkeit erschweren. Ebenso könnte ohne dokumentierte Freigabe eine ungetestete Änderung produktive Systeme beeinträchtigen und Ausfälle oder Datenverlust verursachen. Durch eine dokumentierte Signatur kann hingegen nachvollziehbar gemacht werden, dass fachliche, technische und sicherheitsrelevante Prüfungen stattgefunden haben und die Entscheidung zur Umsetzung bewusst und überprüfbar getroffen wurde.

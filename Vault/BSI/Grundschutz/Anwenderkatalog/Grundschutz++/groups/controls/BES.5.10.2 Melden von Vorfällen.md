@@ -1,23 +1,29 @@
 ---
-tags: Lieferketten
+tags:
+- lieferketten
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.10.2 Melden von Vorfällen
 parent_control: BES.5.10 Behandlung von Vorfällen
+stmt_target_object_category: Einkäufe
+stmt_modal_verb: SOLLTE
+stmt_action_word: vereinbaren
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.10.2 - Melden von Vorfällen
-Tags: "[Lieferketten](tags_Lieferketten)"
+Tag: [[tags_Lieferketten|Lieferketten]]
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
 ** Übergeordnetes Control: ** [BES.5.10 Behandlung von Vorfällen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10%20Behandlung%20von%20Vorfällen.md)
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)**<br> ***  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *** | Einkäufe | SOLLTE | eine Verpflichtung zur unverzüglichen Information des Auftraggebers über ihn betreffende Vorfälle |  | vereinbaren | Beschaffungskriterien | >Beschaffungsmanagement für Einkäufe SOLLTE eine Verpflichtung zur unverzüglichen Information des Auftraggebers über ihn betreffende Vorfälle vereinbaren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | eine Verpflichtung zur unverzüglichen Information des Auftraggebers über ihn betreffende Vorfälle |  | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE eine Verpflichtung zur unverzüglichen Information des Auftraggebers über ihn betreffende Vorfälle vereinbaren.</span>
 
 > [!info]- Guidance
 >Der Sinn dieser Regelung liegt darin, dass der Auftraggeber seine Handlungsfähigkeit behält und Risiken frühzeitig einschätzen kann. Ein verzögerter Informationsfluss könnte dazu führen, dass Schäden sich unbemerkt ausweiten oder notwendige Reaktionen, wie etwa die Unterbindung von Angriffspfaden, verspätet erfolgen. Eine rechtzeitige Mitteilung kann hingegen Transparenz schaffen und es ermöglichen, dass Gegenmaßnahmen in Koordination mit dem Auftraggeber wirksam eingeleitet werden. Die praktische Umsetzung kann durch klare vertragliche Regelungen erfolgen, in denen Eskalationswege und Fristen für Meldungen definiert werden. Dazu kann ein gemeinsames Kontakt- und Kommunikationsverfahren etabliert werden, etwa ein 24/7 erreichbarer Ansprechpartner oder eine dedizierte Notfalladresse für sicherheitsrelevante Meldungen. Technisch kann eine Schnittstelle (z. B. ein abgesicherter Meldekanal oder Ticket-System) eingerichtet werden, über die Vorfälle dokumentiert und weitergeleitet werden können.

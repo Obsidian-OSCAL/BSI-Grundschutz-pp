@@ -1,21 +1,27 @@
 ---
-tags: Archivierung
+tags:
+- archivierung
+- oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.3 Kennzeichnung
+stmt_modal_verb: SOLLTE
+stmt_action_word: verankern
+stmt_documentation: Arbeitsanweisung
+control_effort_level: '3'
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.3.3 - Kennzeichnung
-Tags: "[Archivierung](tags_Archivierung)"
+Tag: [[tags_Archivierung|Archivierung]]
 Gruppe: [ASST.3 Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md)
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)**<br> ***  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *** |  | SOLLTE | die Kennzeichnung von Informationen |  | verankern | Arbeitsanweisung | >Informationen und Assets SOLLTE die Kennzeichnung von Informationen verankern.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](practices_Informationen und Assets_02088622-573d-4225-883c-9afe0c7dc69b) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Kennzeichnung von Informationen |  | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets SOLLTE die Kennzeichnung von Informationen verankern.</span>
 
 > [!info]- Guidance
 >Kennzeichnungen helfen dabei sicherzustellen, dass vertrauliche, personenbezogene oder besonders kritische Daten im gesamten Lebenszyklus angemessen behandelt werden – von der Erstellung über die Verarbeitung bis hin zur Archivierung oder Löschung. Hierzu gehört sowohl die Kennzeichnung physikalischer Systeme oder Speichermedien als auch die virtuelle Kennzeichnung, z.B. durch Metadaten oder die Kopfzeile eines Dokumentes. Eine klare Kennzeichnung kann dazu beitragen, unbeabsichtigte Offenlegung, unsachgemäße Weitergabe oder unsichere Verarbeitung zu vermeiden, die Sensibilisierung für den Umgang mit verschiedenen Informationsarten fördern und rechtlichen oder regulatorischen Anforderungen (z. B. DSGVO, Geheimschutz) Rechnung tragen. Beispiele sind Informationen, die einer bestimmten Schutzbedarfsklasse (z. B. „vertraulich“, „intern“) zugeordnet sind. Auch personenbezogene Daten, Forschungsergebnisse, Finanzinformationen, Sicherheitskonzepte oder technische Spezifikationen können einer Kennzeichnungspflicht unterliegen. Die Art der Kennzeichnung kann visuell erfolgen, etwa durch Wasserzeichen, farbige Markierungen, Aufkleber, sowie Kopf-/Fußzeilen oder Metadaten in Dateien. Wichtig ist, dass die Kennzeichnung verständlich, konsistent und leicht erkennbar ist, um ihre Schutzwirkung zu entfalten. Zur Umsetzung ist es nicht erforderlich, dass alle Daten, Systeme oder Speichermedien gekennzeichnet sind sondern nur solche, deren Risikoprofil eine solche Kennzeichnung erforderlich macht - hier ist insbesondere die Vertraulichkeit oder Verfügbarkeit relevant. Dokumentvorlagen, automatisierte Klassifizierungsfunktionen in gängigen Office-Programmen oder Richtlinien in einem DMS können helfen die Einhaltung zu gewährleisten.

@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: NOT.4.9 Speichermedien
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Datensicherungskonzept
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [NOT.4 Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)**<br> ***  &rarr; [Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md) *** |  | SOLLTE | dedizierte Speichermedien, | die für den festgelegten Aufbewahrungszeitraum geeignet sind, | installieren | Datensicherungskonzept | >Notfallplanung SOLLTE dedizierte Speichermedien, die für den festgelegten Aufbewahrungszeitraum geeignet sind, installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Notfallplanung (NOT)](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT%20Notfallplanung.md)*<br> *  &rarr; [Datensicherung](BSI/Grundschutz/Quellkataloge/Kernel/groups/NOT.4%20Datensicherung.md) *</div> | [Notfallplanung](practices_Notfallplanung_723219b0-d58a-432d-bce2-2bf16c5874ae) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | dedizierte Speichermedien, | die für den festgelegten Aufbewahrungszeitraum geeignet sind, | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Datensicherungskonzept](documentation_guidelines_Datensicherungskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Notfallplanung SOLLTE dedizierte Speichermedien, die für den festgelegten Aufbewahrungszeitraum geeignet sind, installieren.</span>
 
 > [!info]- Guidance
 >Dedizierte Speichermedien (engl. dedicated storage media) sind physische oder virtuelle Datenträger, die ausschließlich für Sicherungs- oder Wiederherstellungszwecke genutzt werden und nicht mit produktiven Systemen vermischt sind. Der festgelegte Aufbewahrungszeitraum (engl. retention period) bezeichnet den Zeitraum, in dem gespeicherte Sicherungen oder Kopien revisionssicher und lesbar verfügbar bleiben sollen, beispielsweise mehrere Monate für kurzfristige Recovery-Szenarien oder mehrere Jahre zur Abdeckung regulatorischer Anforderungen. Die Vorschrift zielt darauf ab, dass im Notfall tatsächlich auf funktionierende und vollständige Sicherungen zurückgegriffen werden kann; sie adressiert Risiken wie, dass Daten im Ernstfall durch unzuverlässige oder beschädigte Medien unbrauchbar sein könnten, oder dass durch unzureichende Haltbarkeit von Speichermedien eine Wiederherstellung scheitern könnte. Je nach Zeitraum und Platzbedarf bieten sich z.B. solider Festspeicher, Festplatten, Magnetbänder oder Cloudspeicher an. Bei der Nutzung von Cloudspeichern sind allerdings auch die zusätzlichen Anforderungen an Cloud-Dienste zu berücksichtigen.

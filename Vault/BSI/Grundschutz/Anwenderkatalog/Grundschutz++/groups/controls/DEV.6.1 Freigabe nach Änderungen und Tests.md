@@ -1,7 +1,12 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.6.1 Freigabe nach Änderungen und Tests
+stmt_modal_verb: SOLLTE
+stmt_action_word: autorisieren
+stmt_documentation: Entwicklungsdokumentation
+control_effort_level: '3'
 ---
 
 
@@ -11,9 +16,9 @@ Gruppe: [DEV.6 Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DE
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)**<br> ***  &rarr; [Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.6%20Freigabe.md) *** |  | SOLLTE | die Freigabe zur Nutzung | im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests | autorisieren | Entwicklungsdokumentation | >Entwicklung SOLLTE die Freigabe zur Nutzung im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests autorisieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Entwicklung (DEV)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV%20Entwicklung.md)*<br> *  &rarr; [Freigabe](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DEV.6%20Freigabe.md) *</div> | [Entwicklung](practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Freigabe zur Nutzung | im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Entwicklungsdokumentation](documentation_guidelines_Entwicklungsdokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung SOLLTE die Freigabe zur Nutzung im Einklang mit den entsprechenden Verfahren und Regelungen für Änderungen und Tests autorisieren.</span>
 
 > [!info]- Guidance
 >Eine Freigabe zur Nutzung (Release) meint hier die formelle und autorisierte Überführung einer entwickelten oder geänderten IT-Komponente (wie Software, Systemkonfiguration, Dienstleistung) von einer Test- oder Entwicklungsumgebung in eine Produktions- oder Betriebsumgebung, um den Endbenutzern zur Verfügung zu stehen. Die Vorschrift zielt darauf ab, sicherzustellen, dass nur getestete und abgestimmte Änderungen in den Betrieb gelangen. Ohne diese Autorisierung könnte ungetesteter Code oder eine nicht genehmigte Systemänderung zu schwerwiegenden Betriebsunterbrechungen, Datenverlust oder Sicherheitslücken führen. Eine formalisierte Freigabe kann die Integrität und Verfügbarkeit von Systemen schützen, indem sie die Einhaltung der etablierten Verfahren und Regelungen für Änderungen und Tests sicherstellt.

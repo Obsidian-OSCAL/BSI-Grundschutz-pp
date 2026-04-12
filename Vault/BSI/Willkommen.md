@@ -16,7 +16,7 @@ Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi
 Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu gehört auch der Einsatz von Plugins, die installiert und aktiviert werden müssen. Die aktuell notwendigen Plugins finden Sie in der folgenden Liste.
 
 ### Notwendige Plugins
-* [Dataview](https://obsidian.md/plugins?id=dataview)
+* [Dataview](https://obsidian.md/plugins?id=dataview) - In den Einstellungen zum Plugin muss Javascriptaktiviert sein (dataviewjs)
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 
 ## Lizenzinformationen

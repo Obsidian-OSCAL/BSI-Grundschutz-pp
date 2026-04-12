@@ -1,7 +1,14 @@
 ---
+tags: oscal_control
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.5.3 Lieferzugang
+stmt_target_object_category: Standorte
+stmt_modal_verb: SOLLTE
+stmt_action_word: installieren
+stmt_documentation: Gebäudedokumentation
+result_reference: Zugang
+control_effort_level: '4'
 ---
 
 
@@ -11,9 +18,11 @@ Gruppe: [GEB.5 Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/
 ---
 
 ### Statement
-|  Praktik / Gruppe | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
-| - | - | - | - | - | - | - |
-| **[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)**<br> ***  &rarr; [Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.5%20Gemeinsame%20Arbeitsbereiche.md) *** | Standorte | SOLLTE | einen Zugang für die Abwicklung von Lieferungen | ohne unbefugten Zugang zum restlichen Standort | installieren | Gebäudedokumentation | >Gebäudemanagement für Standorte SOLLTE einen Zugang für die Abwicklung von Lieferungen ohne unbefugten Zugang zum restlichen Standort installieren.
+|  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
+| - | - | - | - | - | - | - | - |
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Gemeinsame Arbeitsbereiche](BSI/Grundschutz/Quellkataloge/Kernel/groups/GEB.5%20Gemeinsame%20Arbeitsbereiche.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | einen Zugang für die Abwicklung von Lieferungen | ohne unbefugten Zugang zum restlichen Standort | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE einen Zugang für die Abwicklung von Lieferungen ohne unbefugten Zugang zum restlichen Standort installieren.</span>
+> > [!example]- im Ergebnis referenzierte Begriffe
+> > | Begriff | Definition |> > | - | - |> > | [Zugang](result_Zugang_00000000-0000-0000-0000-000000000000) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
 >Ein Zugang für die Abwicklung von Lieferungen ist ein baulich abgegrenzter Bereich (engl. delivery access point), der es ermöglicht, Waren, Material oder technische Geräte geschützt vor sonstigen äußeren Einflüssen anzunehmen bzw. abzugeben, ohne dass Lieferpersonal oder externe Dienstleister unkontrollierten Zutritt zu sicherheitsrelevanten Bereichen in der Institution erhalten. Unbefugter Zugang meint hierbei jeden Zutritt durch Personen, die für den betroffenen Standort oder bestimmte Schutzbereiche keine Zutrittsberechtigung besitzen (engl. unauthorized access). Der Sinn dieser Vorgabe liegt darin, Risiken durch unkontrollierte physische Zugänge zu minimieren: Ein Lieferant könnte etwa versehentlich oder absichtlich in interne Büro- oder Technikbereiche gelangen und dadurch vertrauliche Informationen, IT-Geräte oder Zugangsdaten einsehen oder entwenden. Eine bauliche und organisatorische Trennung kann dagegen gewährleisten, dass Lieferungen gesteuert angenommen, geprüft und weiterverarbeitet werden, ohne sicherheitskritische Bereiche zu gefährden. Beispielsweise kann es je nach Standort sinnvoll sein: (1) separate Schleusen- oder Annahmebereiche mit kontrollierter Türverriegelung, (2) Gegensprechanlagen oder Kameraeinrichtungen zur Identifikation von Lieferanten, (3) zeitlich begrenzte oder zonenbeschränkte Zutrittsberechtigungen über elektronische Zugangssysteme, sowie (4) baulich getrennte Lieferzonen mit Sichtschutz und gesichertem Übergabepunkt einzurichten.

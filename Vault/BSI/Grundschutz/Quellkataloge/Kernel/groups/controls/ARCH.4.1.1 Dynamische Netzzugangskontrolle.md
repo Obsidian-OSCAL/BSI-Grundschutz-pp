@@ -5,7 +5,7 @@ tags:
 - network_access_control_rogue_access_point_zero_trust
 - arch411-prm1
 - oscal_control
-created: Mon Apr 13 16:09:07 CEST 2026
+created: Mon Apr 13 16:41:11 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.4.1.1 Dynamische Netzzugangskontrolle

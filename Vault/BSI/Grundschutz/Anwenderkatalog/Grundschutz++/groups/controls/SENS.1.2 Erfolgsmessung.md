@@ -5,7 +5,7 @@ tags:
 - sens12-prm1
 - sens12-prm2
 - oscal_control
-created: Mon Apr 13 16:09:04 CEST 2026
+created: Mon Apr 13 16:41:09 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.1.2 Erfolgsmessung

@@ -6,7 +6,7 @@ tags:
 - konf151-prm1
 - konf151-prm2
 - oscal_control
-created: Mon Apr 13 16:09:04 CEST 2026
+created: Mon Apr 13 16:41:09 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.15.1 Begrenzung des Speicherplatzes

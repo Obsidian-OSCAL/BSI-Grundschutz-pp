@@ -5,7 +5,7 @@ tags:
 - asst731-prm1
 - asst731-prm2
 - oscal_control
-created: Mon Apr 13 16:09:08 CEST 2026
+created: Mon Apr 13 16:41:11 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.3.1 Standardisierte Vernichtung

@@ -5,7 +5,7 @@ tags:
 - compliance-management
 - perf21-prm1
 - oscal_control
-created: Mon Apr 13 16:09:10 CEST 2026
+created: Mon Apr 13 16:41:12 CEST 2026
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.2.1 Überwachung der Einhaltung von Verpflichtungen

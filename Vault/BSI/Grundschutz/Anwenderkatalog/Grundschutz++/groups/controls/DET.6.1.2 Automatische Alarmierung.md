@@ -5,7 +5,7 @@ tags:
 - det612-prm1
 - det612-prm2
 - oscal_control
-created: Mon Apr 13 16:09:03 CEST 2026
+created: Mon Apr 13 16:41:08 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.6.1.2 Automatische Alarmierung

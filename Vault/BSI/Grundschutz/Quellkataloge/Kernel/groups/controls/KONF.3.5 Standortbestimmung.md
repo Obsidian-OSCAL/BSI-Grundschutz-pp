@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - konf35-prm1
 - oscal_control
-created: Mon Apr 13 16:09:08 CEST 2026
+created: Mon Apr 13 16:41:11 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.3.5 Standortbestimmung

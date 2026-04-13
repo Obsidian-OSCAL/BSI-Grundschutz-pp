@@ -5,7 +5,7 @@ tags:
 - credential_stuffing_brute-force-attacke
 - ber39-prm1
 - oscal_control
-created: Mon Apr 13 16:09:07 CEST 2026
+created: Mon Apr 13 16:41:11 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.9 Anmeldeversuchsgrenze am System

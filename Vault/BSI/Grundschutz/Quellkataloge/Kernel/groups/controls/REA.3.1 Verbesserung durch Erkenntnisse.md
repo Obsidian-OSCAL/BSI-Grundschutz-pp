@@ -5,7 +5,7 @@ tags:
 - kompetenzmanagement
 - rea31-prm1
 - oscal_control
-created: Mon Apr 13 16:09:09 CEST 2026
+created: Mon Apr 13 16:41:12 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.3.1 Verbesserung durch Erkenntnisse

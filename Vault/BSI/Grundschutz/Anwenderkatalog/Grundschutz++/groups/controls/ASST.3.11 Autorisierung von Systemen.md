@@ -5,7 +5,7 @@ tags:
 - data_leak_shadow_it
 - asst311-prm1
 - oscal_control
-created: Mon Apr 13 16:09:04 CEST 2026
+created: Mon Apr 13 16:41:09 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.11 Autorisierung von Systemen

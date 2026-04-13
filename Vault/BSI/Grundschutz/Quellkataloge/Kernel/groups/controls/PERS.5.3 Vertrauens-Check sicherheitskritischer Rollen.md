@@ -6,7 +6,7 @@ tags:
 - pers53-prm1
 - pers53-prm2
 - oscal_control
-created: Mon Apr 13 16:09:09 CEST 2026
+created: Mon Apr 13 16:41:11 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.5.3 Vertrauens-Check sicherheitskritischer Rollen

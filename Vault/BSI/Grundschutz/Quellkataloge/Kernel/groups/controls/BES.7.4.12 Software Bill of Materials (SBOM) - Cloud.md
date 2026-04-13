@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - bes7412-prm1
 - oscal_control
-created: Mon Apr 13 16:09:08 CEST 2026
+created: Mon Apr 13 16:41:11 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.4.12 Software Bill of Materials (SBOM) - Cloud

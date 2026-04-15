@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Obsidian-OSCAL/BSI-Grundschutz-pp/blob/a1c1aa7a434da08af20f2f96284af9a3e7fc3d51/obsidian_net.png" align="right" width="200" />
 
-Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für [Obsidian](https://obsidian.md/) bereit.
+Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/) hat mit dem Grundschutz++ einen maschinenlesbaren Grundschutzkatalog in OSCAL veröffentlicht. Dieses Vault stellt eine automatisch generierte Darstellung des Katalogs für [Obsidian](https://obsidian.md/) bereit. **Das Repository ist nicht mit Obsidian verbunden, nicht von Obsidian unterstützt oder empfohlen**.
 
 Obsidian ist eine Software für Wissensmanagement basierend auf Notizen, vergleichbar mit einem privaten Wiki mit Zusatzfunktionen. Ich nutze diese Software privat seit mehreren Jahren zur persönlichen Dokumentation von regulatorischen Anforderungen, daher wollte ich auch den neuen BSI Grundschutz++ einbinden. Da dieser netterweise ein OSCAL Format hat, kann man dies auch automatisieren ... was hier geschehen ist.
 

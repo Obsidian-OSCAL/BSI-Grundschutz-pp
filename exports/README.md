@@ -13,41 +13,99 @@ exports/
 └── pdf/
 ```
 
-### `html/`
-Enthält die HTML-Versionen der generierten Dokumente.
+---
 
-Vorhandene Inhalte:
+# HTML-Exporte
 
-- `Anwenderkatalog Grundschutz++ Gesamt.html`
-- `Anwenderkatalog Grundschutz++ Gesamt kurz.html`
-- `BSI Anforderungen zum Risikomanagement Gesamt.html`
-- `BSI Anforderungen zum Risikomanagement Gesamt kurz.html`
-- `BSI Methodik Grundschutz++ Gesamt.html`
-- `BSI Methodik Grundschutz++ Gesamt kurz.html`
-- `BSI Stand der Technik Kernel Gesamt.html`
-- `BSI Stand der Technik Kernel Gesamt kurz.html`
-- `bsi-grundschutz-styles.css` 
-- `toc.js` 
+Im Ordner [`html/`](./html/) befinden sich browserfähige Versionen der Dokumente.
+
+## Dokumente
+
+- [Anwenderkatalog Grundschutz++ Gesamt.html](./html/Anwenderkatalog%20Grundschutz%2B%2B%20Gesamt.html)
+- [Anwenderkatalog Grundschutz++ Gesamt kurz.html](./html/Anwenderkatalog%20Grundschutz%2B%2B%20Gesamt%20kurz.html)
+
+- [BSI Anforderungen zum Risikomanagement Gesamt.html](./html/BSI%20Anforderungen%20zum%20Risikomanagement%20Gesamt.html)
+- [BSI Anforderungen zum Risikomanagement Gesamt kurz.html](./html/BSI%20Anforderungen%20zum%20Risikomanagement%20Gesamt%20kurz.html)
+
+- [BSI Methodik Grundschutz++ Gesamt.html](./html/BSI%20Methodik%20Grundschutz%2B%2B%20Gesamt.html)
+- [BSI Methodik Grundschutz++ Gesamt kurz.html](./html/BSI%20Methodik%20Grundschutz%2B%2B%20Gesamt%20kurz.html)
+
+- [BSI Stand der Technik Kernel Gesamt.html](./html/BSI%20Stand%20der%20Technik%20Kernel%20Gesamt.html)
+- [BSI Stand der Technik Kernel Gesamt kurz.html](./html/BSI%20Stand%20der%20Technik%20Kernel%20Gesamt%20kurz.html)
+
+## Ressourcen
+
+- [bsi-grundschutz-styles.css](./html/bsi-grundschutz-styles.css)
+- [toc.js](./html/toc.js)
+
+## Zweck
+
+Die HTML-Dateien eignen sich besonders für:
+
+- Lesen im Browser
+- schnelle Navigation
+- Inhaltsverzeichnisse und Verlinkungen
+- einfache Weitergabe ohne Spezialsoftware
 
 Hinweis:
 - Die HTML-Dateien sind für die direkte Ansicht im Browser gedacht.
 - `bsi-grundschutz-styles.css` enthält die gemeinsame Formatierung.
-- `toc.js` unterstützt die Navigation, z. B. über Inhaltsverzeichnisse.
+- `toc.js` unterstützt die Navigation, über automatische Inhaltsverzeichnisse.
 
-### `pdf/`
-Enthält die PDF-Versionen der generierten Dokumente.
+---
 
-Vorhandene Inhalte:
+# PDF-Exporte
 
-- `Anwenderkatalog Grundschutz++ Gesamt.pdf`
-- `Anwenderkatalog Grundschutz++ Gesamt kurz.pdf`
-- `BSI Anforderungen zum Risikomanagement Gesamt.pdf`
-- `BSI Anforderungen zum Risikomanagement Gesamt kurz.pdf`
-- `BSI Methodik Grundschutz++ Gesamt.pdf`
-- `BSI Methodik Grundschutz++ Gesamt kurz.pdf`
-- `BSI Stand der Technik Kernel Gesamt.pdf`
-- `BSI Stand der Technik Kernel Gesamt kurz.pdf`
-- `Grundschutz++ Namespaces x Controls.pdf`
+Im Ordner [`pdf/`](./pdf/) befinden sich druck- und archivfähige Versionen der Dokumente.
+
+## Dokumente
+
+- [Anwenderkatalog Grundschutz++ Gesamt.pdf](./pdf/Anwenderkatalog%20Grundschutz%2B%2B%20Gesamt.pdf)
+- [Anwenderkatalog Grundschutz++ Gesamt kurz.pdf](./pdf/Anwenderkatalog%20Grundschutz%2B%2B%20Gesamt%20kurz.pdf)
+
+- [BSI Anforderungen zum Risikomanagement Gesamt.pdf](./pdf/BSI%20Anforderungen%20zum%20Risikomanagement%20Gesamt.pdf)
+- [BSI Anforderungen zum Risikomanagement Gesamt kurz.pdf](./pdf/BSI%20Anforderungen%20zum%20Risikomanagement%20Gesamt%20kurz.pdf)
+
+- [BSI Methodik Grundschutz++ Gesamt.pdf](./pdf/BSI%20Methodik%20Grundschutz%2B%2B%20Gesamt.pdf)
+- [BSI Methodik Grundschutz++ Gesamt kurz.pdf](./pdf/BSI%20Methodik%20Grundschutz%2B%2B%20Gesamt%20kurz.pdf)
+
+- [BSI Stand der Technik Kernel Gesamt.pdf](./pdf/BSI%20Stand%20der%20Technik%20Kernel%20Gesamt.pdf)
+- [BSI Stand der Technik Kernel Gesamt kurz.pdf](./pdf/BSI%20Stand%20der%20Technik%20Kernel%20Gesamt%20kurz.pdf)
+
+- [Grundschutz++ Namespaces x Controls.pdf](./pdf/Grundschutz%2B%2B%20Namespaces%20x%20Controls.pdf)
+
+## Zweck
+
+Die PDF-Dateien eignen sich besonders für:
+
+- Review und Abstimmung
+- Offline-Nutzung
+- Druck
+- Audit-Unterlagen
+- Archivierung
+- formale Dokumentation
+
+---
+
+# Namenslogik
+
+- **Gesamt** = vollständige Fassung
+- **kurz** = kompaktere Version
+- thematische Präfixe beschreiben den Dokumenttyp
+
+Beispiele:
+
+- **Anwenderkatalog**
+- **Methodik**
+- **Risikomanagement**
+- **Stand der Technik Kernel**
+
+---
+
+# Hinweis
+
+Für die tägliche Arbeit, Navigation und Pflege ist der Obsidian Vault weiterhin die bessere Umgebung.  
+Die Inhalte in diesem Ordner sind abgeleitete, lesbare Exportformate.
 
 ## Inhaltliche Einordnung
 
@@ -58,20 +116,6 @@ Während der Obsidian Vault vor allem für Navigation, Verlinkung und tägliche 
 - Lesefassungen für Review und Abstimmung
 - Druck- oder Archivversionen
 - Referenzdokumente für Audits, Analysen und Dokumentation
-
-## Namenskonvention
-
-Die Dateinamen folgen einer einfachen Systematik:
-
-- **Gesamt** = vollständige Fassung des jeweiligen Dokuments
-- **kurz** = verkürzte bzw. kompaktere Fassung
-- thematische Präfixe wie **Anwenderkatalog**, **Methodik**, **Risikomanagement** oder **Stand der Technik Kernel** kennzeichnen den jeweiligen Dokumenttyp
-
-## Beziehung zum restlichen Repository
-
-Dieses Verzeichnis enthält nur die erzeugten Ausgabeformate.  
-Die eigentliche inhaltliche Aufbereitung für Obsidian befindet sich im übrigen Repository, insbesondere im Vault-Bereich.  
-Die Exporte sind damit als abgeleitete Artefakte der zugrunde liegenden OSCAL-/Obsidian-Aufbereitung zu verstehen.
 
 ## Lizenz und Herkunft
 

@@ -52,11 +52,11 @@ Die in diesem Vault bereitgestellte aufbereitete Version stellt eine Bearbeitung
 
 ### Screenshots 
 **Einstieg über Katalog und Gruppen**
-<img src="obsidian_window.png"/>
+<img src="./docs/images/obsidian_window.png"/>
 
 **Darstellung eines Control**
-<img src="obsidian_control.png"/>
+<img src="./docs/images/obsidian_control.png"/>
 
 **Darstellung der Verlinkung der Notizen im Vault**
-<img src="obsidian_graph.png"/>
+<img src="./docs/images/obsidian_graph.png"/>
 </div>

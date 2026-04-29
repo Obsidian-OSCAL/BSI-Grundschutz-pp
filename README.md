@@ -16,6 +16,8 @@ Die Inhalte sind für Obsidian aufbereitet und nutzen spezielle Funktionen, dazu
 * [Dataview](https://obsidian.md/plugins?id=dataview) <br> Zusätzlich muss in der Konfiguration des Plugins Javascript aktiviert sein (dataviewjs)
 * [Enhanced Tables](https://obsidian.md/plugins?id=enhanced-tables)
 
+Weitere Informationen: [Konfigurationshinweise Obsidian](docs/OBSIDIAN-CONFIG.md)
+
 ## Lizenzinformationen
 Dieses Vault basiert auf Inhalten des Bundesamt für Sicherheit in der Informationstechnik (BSI) aus dem Projekt „Stand der Technik Bibliothek“ (Grundschutz++).  
 Originalquelle: [https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek](https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek)

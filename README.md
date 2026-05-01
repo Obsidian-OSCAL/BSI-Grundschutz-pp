@@ -6,7 +6,9 @@ Das [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi
 
 Obsidian ist eine Software für Wissensmanagement basierend auf Notizen, vergleichbar mit einem privaten Wiki mit Zusatzfunktionen. Ich nutze diese Software privat seit mehreren Jahren zur persönlichen Dokumentation von regulatorischen Anforderungen, daher wollte ich auch den neuen BSI Grundschutz++ einbinden. Da dieser netterweise ein OSCAL Format hat, kann man dies auch automatisieren ... was hier geschehen ist.
 
-**Status (12.4.2026)** : Verbesserte Verlinkung zwischen Controls und Namespaces.
+**Wichtig**: Auch wenn die meisten Dateien in github direkt angezeigt werden und auch die Verlinkung innerhalb von github funktioniert, sind die Dateien für Obsidian mit Plugins optimiert.
+
+**Status (1.5.2026)** : Relative Verlinkung zwischen den Dateien, so dass eine Kopie in ein bestehdes Vault einfacher ist. Weiter Verlinkungen zwsichen Namespaces und Controls/Groups.
 
 <br clear="right"/>
 

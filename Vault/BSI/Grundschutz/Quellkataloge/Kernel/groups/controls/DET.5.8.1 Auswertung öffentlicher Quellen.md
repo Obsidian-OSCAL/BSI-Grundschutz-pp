@@ -6,29 +6,31 @@ tags:
 - det581-prm1
 - det581-prm2
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.8.1 Auswertung öffentlicher Quellen
 parent_control: DET.5.8 Bedrohungsanalyse
-stmt_modal_verb: KANN
+stmt_practice: Detektion
 stmt_action_word: überprüfen
+stmt_modal_verb: KANN
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.8.1 - Auswertung öffentlicher Quellen
-Tag: [[tags_Data_Leak|Data Leak]]
-Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md)
+Tag: [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
-** Übergeordnetes Control: ** [DET.5.8 Bedrohungsanalyse](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.5.8%20Bedrohungsanalyse.md)
+Übergeordnetes Control:<br> [DET.5.8 Bedrohungsanalyse](./DET.5.8%20Bedrohungsanalyse.md)
 > [!example]- Untergeordnete Controls
-> [DET.5.8.1.1 Unautorisierte Publikation](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.5.8.1.1%20Unautorisierte%20Publikation.md)### Statement
+> [DET.5.8.1.1 Unautorisierte Publikation](./DET.5.8.1.1%20Unautorisierte%20Publikation.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | öffentliche Quellen auf Hinweise zu eigenen Schwachstellen | anhand von {{Kriterien zur Suche}} {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN öffentliche Quellen auf Hinweise zu eigenen Schwachstellen anhand von {{ insert: param, det.5.8.1-prm1 }} {{ insert: param, det.5.8.1-prm2 }} überprüfen.</span>
+| <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) |  | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | öffentliche Quellen auf Hinweise zu eigenen Schwachstellen | anhand von {{Kriterien zur Suche}} {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN öffentliche Quellen auf Hinweise zu eigenen Schwachstellen anhand von {{ insert: param, det.5.8.1-prm1 }} {{ insert: param, det.5.8.1-prm2 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Öffentliche Quellen können Hinweise zu aktuellen Schwachstellen geben oder sogar auf die Vorbereitung von Angriffen geben, beispielsweise auf die Nachahmung von Webseiten oder Marken, sowie Typosquatting. Auch Datenleaks wie API-Keys oder falsch konfigurierte Cloud-Systeme können hierüber aufgedeckt werden.  Relevante öffentliche Quellen können z.B. Schwachstellendatenbanken, Fachmedien, Security Mailing Listen, Dark Web Foren, Code Repositories, Suchmaschinen oder Soziale Medien sein. Als Kriterien zur Auswahl können verschiedene Suchbegriffe oder Suchmuster herangezogen werden, z.B. Bezeichnungen verwendeter Betriebssysteme oder Komponenten, eigene DNS-Domains, E-Mailadressen, API-Schnittstellen, Markennamen.  Die Umsetzung kann durch eigenes Personal oder Threat Intelligence Dienstleister erfolgen.
@@ -36,4 +38,4 @@ Gruppe: [DET.5 Management von Schwachstellen](BSI/Grundschutz/Quellkataloge/Kern
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 42bf3e91-d270-4a79-8ae9-a22918f94ad7 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 42bf3e91-d270-4a79-8ae9-a22918f94ad7 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 42bf3e91-d270-4a79-8ae9-a22918f94ad7 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 42bf3e91-d270-4a79-8ae9-a22918f94ad7 |

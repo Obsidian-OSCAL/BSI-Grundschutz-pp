@@ -5,28 +5,30 @@ tags:
 - langzeitarchivierung
 - geb83-prm1
 - oscal_control
-created: Mon Apr 13 16:41:09 CEST 2026
+created: Fri May 01 21:44:27 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.8.3 Schutz der Datenträger vor Brandschäden
-stmt_target_object_category: Standorte
-stmt_modal_verb: KANN
+stmt_practice: Gebäudemanagement
 stmt_action_word: installieren
+stmt_modal_verb: KANN
+stmt_target_object_category: Standorte
 stmt_documentation: Gebäudedokumentation
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # GEB.8.3 - Schutz der Datenträger vor Brandschäden
-Tag: [[tags_Langzeitarchivierung|Langzeitarchivierung]]
-Gruppe: [GEB.8 Verwahrung von Speichermedien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.8%20Verwahrung%20von%20Speichermedien.md)
+Tag: [Langzeitarchivierung](../../../../namespaces/entries/tags_Langzeitarchivierung.md)
+Gruppe: [GEB.8 Verwahrung von Speichermedien](../GEB.8%20Verwahrung%20von%20Speichermedien.md)
 ---
 
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Verwahrung von Speichermedien](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.8%20Verwahrung%20von%20Speichermedien.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | feuerfeste Behältnisse | nach {{einem anerkannten Standard}} | [installieren](action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575) | [Gebäudedokumentation](documentation_guidelines_Gebäudedokumentation) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN feuerfeste Behältnisse nach {{ insert: param, geb.8.3-prm1 }} installieren.</span>
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](../GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Verwahrung von Speichermedien](../GEB.8%20Verwahrung%20von%20Speichermedien.md) *</div> | [Gebäudemanagement](../../../../namespaces/entries/practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2.md) | [Standorte](../../../../namespaces/entries/target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | feuerfeste Behältnisse | nach {{einem anerkannten Standard}} | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Gebäudedokumentation](../../../../namespaces/entries/documentation_guidelines_Gebäudedokumentation.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN feuerfeste Behältnisse nach {{ insert: param, geb.8.3-prm1 }} installieren.</span>
 
 > [!info]- Guidance
 >Datenträgerarchive sind bei Bränden besonders schützenswert, da hier häufig die langzeitig kritischen Daten gelagert werden. Kann durch Brandschutzschränke oder Datensafes umgesetzt werden, die nach DIN EN 1047-1 oder ISO 11799 zertifiziert sind.
@@ -34,4 +36,4 @@ Gruppe: [GEB.8 Verwahrung von Speichermedien](BSI/Grundschutz/Anwenderkatalog/Gr
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be |

@@ -5,29 +5,31 @@ tags:
 - lieferketten
 - dls31-prm1
 - oscal_control
-created: Mon Apr 13 16:41:09 CEST 2026
+created: Fri May 01 21:44:27 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
-stmt_target_object_category: Dienstleistungen
-stmt_modal_verb: SOLLTE
+stmt_practice: Dienstleistersteuerung
 stmt_action_word: überprüfen
+stmt_modal_verb: SOLLTE
+stmt_target_object_category: Dienstleistungen
 stmt_documentation: Liste der Hersteller und Dienstleister
 control_effort_level: '3'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.1 - Einhaltung der Sicherheitsvorgaben
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [DLS.3 Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
 > [!example]- Untergeordnete Controls
-> [DLS.3.1.1 Audit oder Zertifikat](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/DLS.3.1.1%20Audit%20oder%20Zertifikat.md)### Statement
+> [DLS.3.1.1 Audit oder Zertifikat](./DLS.3.1.1%20Audit%20oder%20Zertifikat.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/DLS.3%20Kontrolle%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Einhaltung der Sicherheitsvorgaben durch den Dienstleister | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Liste der Hersteller und Dienstleister](documentation_guidelines_Liste_der_Hersteller_und_Dienstleister) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE die Einhaltung der Sicherheitsvorgaben durch den Dienstleister {{ insert: param, dls.3.1-prm1 }} überprüfen.</span>
+| <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](../DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](../../../../namespaces/entries/practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Einhaltung der Sicherheitsvorgaben durch den Dienstleister | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | [Liste der Hersteller und Dienstleister](../../../../namespaces/entries/documentation_guidelines_Liste_der_Hersteller_und_Dienstleister.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE die Einhaltung der Sicherheitsvorgaben durch den Dienstleister {{ insert: param, dls.3.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Hierzu ist zu prüfen, ob Anzeichen vorliegen, dass der Dienstleister die im Vertrag geforderten Vorgaben nicht einhält und falls erforderlich Gegenmaßnahmen einzuleiten. Die Prüfung kann z.B. Zertifikate, regelmäßige Stichproben oder das Monitoring von Datenleaks vorsehen.
@@ -35,4 +37,4 @@ Gruppe: [DLS.3 Kontrolle von Dienstleistern](BSI/Grundschutz/Anwenderkatalog/Gru
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [3](effort_level_3) |> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |

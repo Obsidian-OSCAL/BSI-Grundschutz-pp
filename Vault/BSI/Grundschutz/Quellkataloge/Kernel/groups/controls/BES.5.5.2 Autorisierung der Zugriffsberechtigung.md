@@ -5,34 +5,36 @@ tags:
 - lieferketten
 - bes552-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.5.2 Autorisierung der Zugriffsberechtigung
 parent_control: BES.5.5 Nutzungsregelungen
-stmt_target_object_category: Dienstleistungen
-stmt_modal_verb: SOLLTE
+stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
+stmt_modal_verb: SOLLTE
+stmt_target_object_category: Dienstleistungen
 result_reference:
 - Autorisierung
 - Zugriff
 control_effort_level: '4'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.5.2 - Autorisierung der Zugriffsberechtigung
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-** Übergeordnetes Control: ** [BES.5.5 Nutzungsregelungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.5.5%20Nutzungsregelungen.md)
+Übergeordnetes Control:<br> [BES.5.5 Nutzungsregelungen](./BES.5.5%20Nutzungsregelungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Dienstleistungen](target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | Regelungen zur Autorisierung der Zugriffsberechtigung für Personal des Lieferanten | anhand von {{Kriterien}} | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE Regelungen zur Autorisierung der Zugriffsberechtigung für Personal des Lieferanten anhand von {{ insert: param, bes.5.5.2-prm1 }} vereinbaren.</span>
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Regelungen zur Autorisierung der Zugriffsberechtigung für Personal des Lieferanten | anhand von {{Kriterien}} | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE Regelungen zur Autorisierung der Zugriffsberechtigung für Personal des Lieferanten anhand von {{ insert: param, bes.5.5.2-prm1 }} vereinbaren.</span>
 > > [!example]- im Ergebnis referenzierte Begriffe
-> > | Begriff | Definition |> > | - | - |> > | [Autorisierung](result_Autorisierung_00000000-0000-0000-0000-000000000000) | Bei einer Autorisierung wird geprüft, ob eine Person, IT-Komponente oder Anwendung zur Durchführung einer bestimmten Aktion berechtigt ist. |> > | [Zugriff](result_Zugriff_00000000-0000-0000-0000-000000000000) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
+> > | Begriff | Definition |> > | - | - |> > | [Autorisierung](../../../../namespaces/entries/result_Autorisierung_00000000-0000-0000-0000-000000000000.md) | Bei einer Autorisierung wird geprüft, ob eine Person, IT-Komponente oder Anwendung zur Durchführung einer bestimmten Aktion berechtigt ist. |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
 >Dies kann beispielsweise durch eine explizite Liste der Personen oder Rollen des Zulieferers, welche berechtigt sind, die Informationen der Institution und andere zugehörige Vermögenswerte zu nutzen, umgesetzt werden.
@@ -40,4 +42,4 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [4](effort_level_4) |> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |

@@ -5,30 +5,32 @@ tags:
 - det612-prm1
 - det612-prm2
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.6.1.2 Automatische Alarmierung
 parent_control: DET.6.1 Beurteilung von Ereignissen
-stmt_modal_verb: SOLLTE
+stmt_practice: Detektion
 stmt_action_word: ausführen
+stmt_modal_verb: SOLLTE
 result_reference: Alarmierung
 control_effort_level: '3'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.6.1.2 - Automatische Alarmierung
-Gruppe: [DET.6 Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md)
+Gruppe: [DET.6 Vorfallserkennung](../DET.6%20Vorfallserkennung.md)
 ---
 
-** Übergeordnetes Control: ** [DET.6.1 Beurteilung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.6.1%20Beurteilung%20von%20Ereignissen.md)
+Übergeordnetes Control:<br> [DET.6.1 Beurteilung von Ereignissen](./DET.6.1%20Beurteilung%20von%20Ereignissen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | bei sicherheitskritischen Ereignissen eine Alarmierung von {{für die Vorfallsbehandlung zuständigen Personen oder Rollen}} | durch {{einen automatisierten Mechanismus}} | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE bei sicherheitskritischen Ereignissen eine Alarmierung von {{ insert: param, det.6.1.2-prm1 }} durch {{ insert: param, det.6.1.2-prm2 }} ausführen.</span>
+| <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Vorfallserkennung](../DET.6%20Vorfallserkennung.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | bei sicherheitskritischen Ereignissen eine Alarmierung von {{für die Vorfallsbehandlung zuständigen Personen oder Rollen}} | durch {{einen automatisierten Mechanismus}} | [ausführen](../../../../namespaces/entries/action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE bei sicherheitskritischen Ereignissen eine Alarmierung von {{ insert: param, det.6.1.2-prm1 }} durch {{ insert: param, det.6.1.2-prm2 }} ausführen.</span>
 > > [!example]- im Ergebnis referenzierte Begriffe
-> > | Begriff | Definition |> > | - | - |> > | [Alarmierung](result_Alarmierung_00000000-0000-0000-0000-000000000000) | Handlungsschema, in dem verantwortliche Entscheidende und Akteure unverzüglich benachrichtigt und in Einsatzbereitschaft versetzt werden. |
+> > | Begriff | Definition |> > | - | - |> > | [Alarmierung](../../../../namespaces/entries/result_Alarmierung_00000000-0000-0000-0000-000000000000.md) | Handlungsschema, in dem verantwortliche Entscheidende und Akteure unverzüglich benachrichtigt und in Einsatzbereitschaft versetzt werden. |
 
 > [!info]- Guidance
 >Für die Definition eines sicherheitskritischen Ereignisses, siehe Glossar (Namensräume des Grundschutz++). Bewährt hat sich hierzu der Einsatz eines Security Information and Event Management Systems (SIEM), das die Audit Logs verschiedener Hersteller auf Ereignisse überprüfen und diese korrelieren kann. Passen Sie Schwellwerte und Kriterien so an, dass keine Alarmmüdigkeit (alert fatigue) beim Personal aufkommt.
@@ -36,6 +38,6 @@ Gruppe: [DET.6 Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DE
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | f45e08b7-8f42-469a-aa22-63b93daba60e |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [3](effort_level_3) |> | ** Alternate Identifier ** | f45e08b7-8f42-469a-aa22-63b93daba60e |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | f45e08b7-8f42-469a-aa22-63b93daba60e |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | f45e08b7-8f42-469a-aa22-63b93daba60e |
 
-> [!info]- Links> > required: [DET.6.1.1 Automatisierte Feststellung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.6.1.1%20Automatisierte%20Feststellung.md)
+> [!info]- Links> > required: [DET.6.1.1 Automatisierte Feststellung](./DET.6.1.1%20Automatisierte%20Feststellung.md)

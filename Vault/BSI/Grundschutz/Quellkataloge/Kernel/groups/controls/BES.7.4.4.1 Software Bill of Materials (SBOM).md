@@ -5,30 +5,32 @@ tags:
 - lieferketten
 - bes7441-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.4.4.1 Software Bill of Materials (SBOM)
 parent_control: BES.7.4.4 Dokumentation der Komponenten
-stmt_target_object_category: IT-Produkte
-stmt_modal_verb: KANN
+stmt_practice: Beschaffungsmanagement
 stmt_action_word: dokumentieren
+stmt_modal_verb: KANN
+stmt_target_object_category: IT-Produkte
 stmt_documentation: Betriebshandbuch
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.4.4.1 - Software Bill of Materials (SBOM)
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 ---
 
-** Übergeordnetes Control: ** [BES.7.4.4 Dokumentation der Komponenten](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.7.4.4%20Dokumentation%20der%20Komponenten.md)
+Übergeordnetes Control:<br> [BES.7.4.4 Dokumentation der Komponenten](./BES.7.4.4%20Dokumentation%20der%20Komponenten.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | [dokumentieren](action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8) | [Betriebshandbuch](documentation_guidelines_Betriebshandbuch) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.4.1-prm1 }} dokumentieren.</span>
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](../BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [IT-Produkte](../../../../namespaces/entries/target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | [dokumentieren](../../../../namespaces/entries/action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8.md) | [Betriebshandbuch](../../../../namespaces/entries/documentation_guidelines_Betriebshandbuch.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN für jede gelieferte Software die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.4.1-prm1 }} dokumentieren.</span>
 
 > [!info]- Guidance
 >Je nach Produkt können hierzu auch die Firmware, das Betriebssystem oder mehrere Softwarebestandteile einer Anwendung gehören. Ein anerkannter Standard für SBOM ist die BSI TR-03183-2.
@@ -36,6 +38,6 @@ Gruppe: [BES.7 Abnahme](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.7%20Abna
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | f89b0154-ccb8-401f-b352-9135e685a4e7 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | f89b0154-ccb8-401f-b352-9135e685a4e7 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | f89b0154-ccb8-401f-b352-9135e685a4e7 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | f89b0154-ccb8-401f-b352-9135e685a4e7 |
 
-> [!info]- Links> > related: [DEV.4.3 Softwarebestandteile (SBOM)](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DEV.4.3%20Softwarebestandteile%20(SBOM).md)> > related: [TEST.3.1.7 Analyse der Zusammensetzung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/TEST.3.1.7%20Analyse%20der%20Zusammensetzung.md)
+> [!info]- Links> > related: [DEV.4.3 Softwarebestandteile (SBOM)](./DEV.4.3%20Softwarebestandteile%20(SBOM).md)> > related: [TEST.3.1.7 Analyse der Zusammensetzung](./TEST.3.1.7%20Analyse%20der%20Zusammensetzung.md)

@@ -5,27 +5,29 @@ tags:
 - det611-prm1
 - det611-prm2
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.6.1.1 Automatisierte Feststellung
 parent_control: DET.6.1 Beurteilung von Ereignissen
-stmt_modal_verb: SOLLTE
+stmt_practice: Detektion
 stmt_action_word: protokollieren
+stmt_modal_verb: SOLLTE
 control_effort_level: '4'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.6.1.1 - Automatisierte Feststellung
-Gruppe: [DET.6 Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md)
+Gruppe: [DET.6 Vorfallserkennung](../DET.6%20Vorfallserkennung.md)
 ---
 
-** Übergeordnetes Control: ** [DET.6.1 Beurteilung von Ereignissen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.6.1%20Beurteilung%20von%20Ereignissen.md)
+Übergeordnetes Control:<br> [DET.6.1 Beurteilung von Ereignissen](./DET.6.1%20Beurteilung%20von%20Ereignissen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.6%20Vorfallserkennung.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | kritische Vorfälle | anhand von {{Kriterien}} durch {{einen automatisierten Mechanismus}} | [protokollieren](action_words_protokollieren_fe0c8466-8c0d-450b-a649-02c11e0231f8) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE kritische Vorfälle anhand von {{ insert: param, det.6.1.1-prm1 }} durch {{ insert: param, det.6.1.1-prm2 }} protokollieren.</span>
+| <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Vorfallserkennung](../DET.6%20Vorfallserkennung.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | kritische Vorfälle | anhand von {{Kriterien}} durch {{einen automatisierten Mechanismus}} | [protokollieren](../../../../namespaces/entries/action_words_protokollieren_fe0c8466-8c0d-450b-a649-02c11e0231f8.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion SOLLTE kritische Vorfälle anhand von {{ insert: param, det.6.1.1-prm1 }} durch {{ insert: param, det.6.1.1-prm2 }} protokollieren.</span>
 
 > [!info]- Guidance
 >Zur Erfüllung der Anforderung ist es nicht erforderlich, dass alle denkbaren Sicherheitsvorfälle automatisch erkannt werden, sondern nur, dass diejenigen Vorfälle, die in der vorhandenen Infrastruktur automatisch feststellbar sind und mit einem hohen Risiko verbunden sind, automatisch festgestellt werden. Beispiele sind hier ein Virenbefall des zentralen Verzeichnisdienstes, unautorisierte Datenabflüsse oder das Aufbrechen eines Fensters im Sicherheitsbereich. Ressourcen meint hier z.B. Systeme, Zugangskonten, Datenkategorien.
@@ -33,4 +35,4 @@ Gruppe: [DET.6 Vorfallserkennung](BSI/Grundschutz/Quellkataloge/Kernel/groups/DE
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [4](effort_level_4) |> | ** Alternate Identifier ** | 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb |

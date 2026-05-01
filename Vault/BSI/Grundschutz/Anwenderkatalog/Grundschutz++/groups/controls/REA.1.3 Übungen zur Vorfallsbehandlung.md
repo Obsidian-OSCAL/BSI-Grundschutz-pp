@@ -5,27 +5,29 @@ tags:
 - kompetenzmanagement
 - rea13-prm1
 - oscal_control
-created: Mon Apr 13 16:41:09 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.1.3 Übungen zur Vorfallsbehandlung
-stmt_modal_verb: KANN
+stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: überprüfen
+stmt_modal_verb: KANN
 stmt_documentation: Übungsplan
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # REA.1.3 - Übungen zur Vorfallsbehandlung
-Tag: [[tags_Kompetenzmanagement|Kompetenzmanagement]]
-Gruppe: [REA.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.1%20Grundlagen.md)
+Tag: [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+Gruppe: [REA.1 Grundlagen](../REA.1%20Grundlagen.md)
 ---
 
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.1%20Grundlagen.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Abwehrfähigkeit durch Übungen | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Übungsplan](documentation_guidelines_Übungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN die Abwehrfähigkeit durch Übungen {{ insert: param, rea.1.3-prm1 }} überprüfen.</span>
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](../REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Grundlagen](../REA.1%20Grundlagen.md) *</div> | [Sicherheitsvorfallsbehandlung](../../../../namespaces/entries/practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04.md) |  | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die Abwehrfähigkeit durch Übungen | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | [Übungsplan](../../../../namespaces/entries/documentation_guidelines_Übungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN die Abwehrfähigkeit durch Übungen {{ insert: param, rea.1.3-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Komplexere Sicherheitsvorfälle treten auch in größeren Institutionen relativ selten auf. Gleichzeitig erfordern sie dann eine schnelle und kompetente Beurteilung und Behandlung. Um diese sicherzustellen, bietet sich eine regelmäßige Übung an, bei welcher der gesamte Lebenszyklus eines Vorfalls (von der Alarmierung über die Beweissicherung bis zur Nachbehandlung) geübt wird. Beispiele sind Simulationen von Datenleaks, Hacking-Angriffen oder des Ausfalls eines Rechenzentrums. Hierbei sind Übungen effektiver, wenn sie nicht nur theoretisch („nach Papierlage“) vorgenommen werden, sondern soweit wie möglich unter Realbedingungen, z.B. durch das Schwenken auf einen Ausweichsitz zu Zeiten, in denen dadurch keine Geschäftsprozesse beeinträchtigt werden. Zu einer Übung kann sowohl der Umgang mit technischen Werkzeugen als auch mit Verfahrensweisen, Zuständigkeiten im Team und Vertretungsregelungen gehören.
@@ -33,4 +35,4 @@ Gruppe: [REA.1 Grundlagen](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3dc90c0b-c5bb-49e1-bb56-10397acc8be9 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 3dc90c0b-c5bb-49e1-bb56-10397acc8be9 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3dc90c0b-c5bb-49e1-bb56-10397acc8be9 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 3dc90c0b-c5bb-49e1-bb56-10397acc8be9 |

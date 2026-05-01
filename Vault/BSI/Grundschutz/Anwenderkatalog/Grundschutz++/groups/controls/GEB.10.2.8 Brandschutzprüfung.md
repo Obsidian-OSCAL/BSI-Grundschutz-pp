@@ -5,29 +5,31 @@ tags:
 - inspektion
 - geb1028-prm1
 - oscal_control
-created: Mon Apr 13 16:41:09 CEST 2026
+created: Fri May 01 21:44:27 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.2.8 Brandschutzprüfung
 parent_control: GEB.10.2 Brandschutz
-stmt_target_object_category: Standorte
-stmt_modal_verb: SOLLTE
+stmt_practice: Gebäudemanagement
 stmt_action_word: überprüfen
+stmt_modal_verb: SOLLTE
+stmt_target_object_category: Standorte
 control_effort_level: '3'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # GEB.10.2.8 - Brandschutzprüfung
-Tag: [[tags_Inspektion|Inspektion]]
-Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md)
+Tag: [Inspektion](../../../../namespaces/entries/tags_Inspektion.md)
+Gruppe: [GEB.10 Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Elementarschäden.md)
 ---
 
-** Übergeordnetes Control: ** [GEB.10.2 Brandschutz](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/GEB.10.2%20Brandschutz.md)
+Übergeordnetes Control:<br> [GEB.10.2 Brandschutz](./GEB.10.2%20Brandschutz.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2) | [Standorte](target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Wirksamkeit der Brandschutzmaßnahmen | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | Übungs- und Prüfplan | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE die Wirksamkeit der Brandschutzmaßnahmen {{ insert: param, geb.10.2.8-prm1 }} überprüfen.</span>
+| <div style="background:#cccccc">*[Gebäudemanagement (GEB)](../GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](../../../../namespaces/entries/practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2.md) | [Standorte](../../../../namespaces/entries/target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Wirksamkeit der Brandschutzmaßnahmen | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | Übungs- und Prüfplan | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte SOLLTE die Wirksamkeit der Brandschutzmaßnahmen {{ insert: param, geb.10.2.8-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Eine regelmäßige Überprüfung von Brandmeldeanlagen, Rauchmeldern und organisatorische Maßnahmen stellt sicher, dass diese weiterhin funktionieren.  Hier besteht ein enger Zusammenhang zu Compliance-Verpflichtungen, die Brandschutzprüfungen fordern.
@@ -35,4 +37,4 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](BSI/Grundschutz/Anwenderkatalog/Gr
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3b904a6b-c440-4360-ab4a-37b76fc639a7 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [3](effort_level_3) |> | ** Alternate Identifier ** | 3b904a6b-c440-4360-ab4a-37b76fc639a7 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3b904a6b-c440-4360-ab4a-37b76fc639a7 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 3b904a6b-c440-4360-ab4a-37b76fc639a7 |

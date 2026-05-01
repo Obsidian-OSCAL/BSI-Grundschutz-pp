@@ -5,29 +5,31 @@ tags:
 - lieferketten
 - bes51031-prm1
 - oscal_control
-created: Mon Apr 13 16:41:08 CEST 2026
+created: Fri May 01 21:44:27 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.10.3.1 Schwachstellenmeldeprozess
 parent_control: BES.5.10.3 Schwachstellenbehebung
-stmt_target_object_category: IT-Produkte
-stmt_modal_verb: KANN
+stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
+stmt_modal_verb: KANN
+stmt_target_object_category: IT-Produkte
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.10.3.1 - Schwachstellenmeldeprozess
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-** Übergeordnetes Control: ** [BES.5.10.3 Schwachstellenbehebung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/BES.5.10.3%20Schwachstellenbehebung.md)
+Übergeordnetes Control:<br> [BES.5.10.3 Schwachstellenbehebung](./BES.5.10.3%20Schwachstellenbehebung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | einen Schwachstellenmeldeprozess | nach {{einem anerkannten Standard}} | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN einen Schwachstellenmeldeprozess nach {{ insert: param, bes.5.10.3.1-prm1 }} vereinbaren.</span>
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [IT-Produkte](../../../../namespaces/entries/target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | einen Schwachstellenmeldeprozess | nach {{einem anerkannten Standard}} | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN einen Schwachstellenmeldeprozess nach {{ insert: param, bes.5.10.3.1-prm1 }} vereinbaren.</span>
 
 > [!info]- Guidance
 >Die Anforderung ist erfüllt, wenn der Prozess zur Meldung und Behandlung von Schwachstellen für das zu beschaffende Produkt vertraglich zugesichert ist, unabhängig von der Frage durch wen die Klausel in den Vertrag eingebracht wurde. Der Schwachstellenmeldeprozess kann direkt durch den Lieferanten oder durch Weitergabe der Verpflichtung an den Hersteller gewährleistet sein. Für Details siehe BSI TR-03183-3.
@@ -35,4 +37,4 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ebc08e41-e728-4447-93fa-233fbad7f2fa |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | ebc08e41-e728-4447-93fa-233fbad7f2fa |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ebc08e41-e728-4447-93fa-233fbad7f2fa |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | ebc08e41-e728-4447-93fa-233fbad7f2fa |

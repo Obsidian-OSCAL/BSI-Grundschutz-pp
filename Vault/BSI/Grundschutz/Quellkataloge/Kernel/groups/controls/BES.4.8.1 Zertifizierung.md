@@ -5,29 +5,31 @@ tags:
 - lieferketten
 - bes481-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.8.1 Zertifizierung
 parent_control: BES.4.8 Konformitätsnachweise
-stmt_target_object_category: Einkäufe
-stmt_modal_verb: KANN
+stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
+stmt_modal_verb: KANN
+stmt_target_object_category: Einkäufe
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.8.1 - Zertifizierung
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
-** Übergeordnetes Control: ** [BES.4.8 Konformitätsnachweise](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.4.8%20Konformitätsnachweise.md)
+Übergeordnetes Control:<br> [BES.4.8 Konformitätsnachweise](./BES.4.8%20Konformitätsnachweise.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [Einkäufe](target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | ein Zertifikat oder Testat | nach {{einem passenden Sicherheitsstandard}} | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe KANN ein Zertifikat oder Testat nach {{ insert: param, bes.4.8.1-prm1 }} vereinbaren.</span>
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | ein Zertifikat oder Testat | nach {{einem passenden Sicherheitsstandard}} | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe KANN ein Zertifikat oder Testat nach {{ insert: param, bes.4.8.1-prm1 }} vereinbaren.</span>
 
 > [!info]- Guidance
 >Ein Zertifikat ist eine unabhängige Bestätigung der Konformität, die von einer akkreditierten Konformitätsbewertungsstelle (wie z.B. einer Zertifizierungsstelle) ausgestellt wird, nachdem diese die Konformität eines Produkts, einer Dienstleistung, eines Prozesses oder eines Managementsystems mit bestimmten Normen oder Anforderungen bestätigt hat. Die Art des Zertifikates richtet sich dabei nach der Art der geplanten Beschaffung. IT-Produkte können z.B. nach Common Criteria zertifiziert werden. Bei Dienstleistungen kann ein zertifiziertes Managementsystem für Informationssicherheit (nach IT-Grundschutz oder ISO/IEC 27001) vereinbart werden. Ein Testat wäre z.B. C5.
@@ -35,4 +37,4 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](BSI/Grundschutz/Quell
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 6cecab39-d08d-49a1-922e-b3f9ea7d5af4 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 6cecab39-d08d-49a1-922e-b3f9ea7d5af4 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 6cecab39-d08d-49a1-922e-b3f9ea7d5af4 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 6cecab39-d08d-49a1-922e-b3f9ea7d5af4 |

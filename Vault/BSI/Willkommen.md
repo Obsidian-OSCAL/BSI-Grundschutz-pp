@@ -1,4 +1,4 @@
-<img src="obsidian_net.png" style="float: right; margin: 0 0 10px 15px; width: 200px;">
+
 
 # BSI Grundschutz++
 

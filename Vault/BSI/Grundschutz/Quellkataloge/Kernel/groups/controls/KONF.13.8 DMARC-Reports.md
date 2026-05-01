@@ -5,28 +5,30 @@ tags:
 - produktbeschreibung
 - konf138-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.13.8 DMARC-Reports
-stmt_target_object_category: E-Mail
-stmt_modal_verb: KANN
+stmt_practice: Konfiguration
 stmt_action_word: überprüfen
+stmt_modal_verb: KANN
+stmt_target_object_category: E-Mail
 stmt_documentation: Konfigurationshistorie
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.13.8 - DMARC-Reports
-Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
-Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
+Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
 ---
 
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [E-Mail](target_object_categories_E-Mail_7aa03e0c-a417-4b08-a6d5-b89bd63c6a83) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | DMARC-Reports | {{regelmäßig oder bei Eingang}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für E-Mail KANN DMARC-Reports {{ insert: param, konf.13.8-prm1 }} überprüfen.</span>
+| <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [E-Mail](../../../../namespaces/entries/target_object_categories_E-Mail_7aa03e0c-a417-4b08-a6d5-b89bd63c6a83.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | DMARC-Reports | {{regelmäßig oder bei Eingang}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für E-Mail KANN DMARC-Reports {{ insert: param, konf.13.8-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Mit DMARC kann der Empfänger dem Sender automatische Berichte über den DMARC-Status empfangener E-Mails bereitstellen. Diese Berichte liefern Hinweise auf fehlgeschlagene Authentifizierungsprüfungen, Fehlkonfigurationen oder Missbrauchsversuche. Eine automatisierte Auswertung unterstützt dabei, Zustellprobleme frühzeitig zu erkennen und geeignete Korrekturmaßnahmen abzuleiten.
@@ -34,4 +36,4 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](BSI/Grundschutz/Quellkata
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 96dd928d-e5ac-47ec-a2a2-320ae0359e73 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 96dd928d-e5ac-47ec-a2a2-320ae0359e73 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 96dd928d-e5ac-47ec-a2a2-320ae0359e73 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 96dd928d-e5ac-47ec-a2a2-320ae0359e73 |

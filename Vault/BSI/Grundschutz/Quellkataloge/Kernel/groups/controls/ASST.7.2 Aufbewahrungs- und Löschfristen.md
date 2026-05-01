@@ -5,29 +5,31 @@ tags:
 - archivierung
 - asst72-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.2 Aufbewahrungs- und Löschfristen
-stmt_target_object_category: Daten
-stmt_modal_verb: SOLLTE
+stmt_practice: Informationen und Assets
 stmt_action_word: verankern
+stmt_modal_verb: SOLLTE
+stmt_target_object_category: Daten
 stmt_documentation: Arbeitsanweisung
 control_effort_level: '2'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.7.2 - Aufbewahrungs- und Löschfristen
-Tag: [[tags_Archivierung|Archivierung]]
-Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md)
+Tag: [Archivierung](../../../../namespaces/entries/tags_Archivierung.md)
+Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten.md)
 ---
 
 > [!example]- Untergeordnete Controls
-> [ASST.7.2.1 Langfristige Archivierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/ASST.7.2.1%20Langfristige%20Archivierung.md)### Statement
+> [ASST.7.2.1 Langfristige Archivierung](./ASST.7.2.1%20Langfristige%20Archivierung.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](practices_Informationen_und_Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Aufbewahrung | für {{eine bestimmte Frist}} | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE die Aufbewahrung für {{ insert: param, asst.7.2-prm1 }} verankern.</span>
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](../ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](../../../../namespaces/entries/practices_Informationen_und_Assets_02088622-573d-4225-883c-9afe0c7dc69b.md) | [Daten](../../../../namespaces/entries/target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Aufbewahrung | für {{eine bestimmte Frist}} | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [Arbeitsanweisung](../../../../namespaces/entries/documentation_guidelines_Arbeitsanweisung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE die Aufbewahrung für {{ insert: param, asst.7.2-prm1 }} verankern.</span>
 
 > [!info]- Guidance
 >Klar festgelegte und in Prozessen verankerte Löschfristen helfen Sicherheits- und Compliancerisiken zu minimieren, indem Informationen entsorgt werden, wenn sie nicht mehr benötigt werden. Dies gilt sowohl für Originaldaten als auch für Kopien und archivierte Aufzeichnungen, einschließlich Protokolldateien. Hier besteht ein enger Bezug zu Compliance-Verpflichtungen, sowohl zur Aufbewahrung (z.B. für Nachweispflichten aus dem Steuerrecht) als auch zur Löschung (z.B. aus dem Datenschutzrecht). Die Auswahl der Methode zum Löschen hängt von der Vertraulichkeit der Daten, verwendeten Anwendungen oder Speichermedien und ggf. bestehenden Compliance-Verpflichtungen ab. Eine Herausforderung stellt dabei der Umgang mit Datenkopien in Datensicherungen dar. Da das nachträgliche Herausfiltern bestimmter Daten aus Datensicherungen häufig sehr aufwändig ist, ist es empfehlenswert die Versionierung der Datensicherungen so zu gestalten, dass die Daten zum Ablauf der Löschfrist ohnehin mit neueren Datensicherungen überschrieben wurden oder ältere Kopien der Datensicherung insgesamt gelöscht sind. Für kurzlebige Daten bietet es sich an diese nicht in eine einzige zentrale Datensicherung aufzunehmen, sondern je nach Schutzbedarf an Integrität und Verfügbarkeit dieser Daten gar keine oder eine Datensicherung für kurzlebige Daten, z.B. Diagnosedaten mit Personenbezug, vorzuhalten.
@@ -35,4 +37,4 @@ Gruppe: [ASST.7 Löschen und Vernichten](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 2574ffa3-fa96-4eed-8a9a-e67216d499d9 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [2](effort_level_2) |> | ** Alternate Identifier ** | 2574ffa3-fa96-4eed-8a9a-e67216d499d9 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 2574ffa3-fa96-4eed-8a9a-e67216d499d9 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 2574ffa3-fa96-4eed-8a9a-e67216d499d9 |

@@ -5,28 +5,30 @@ tags:
 - kompetenzmanagement
 - pers41-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.4.1 Qualifikationsbedarf
-stmt_target_object_category: Mitarbeitende
-stmt_modal_verb: SOLLTE
+stmt_practice: Personal
 stmt_action_word: überprüfen
+stmt_modal_verb: SOLLTE
+stmt_target_object_category: Mitarbeitende
 stmt_documentation: Schulungsplan
 control_effort_level: '2'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.4.1 - Qualifikationsbedarf
-Tag: [[tags_Kompetenzmanagement|Kompetenzmanagement]]
-Gruppe: [PERS.4 Personalentwicklung](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.4%20Personalentwicklung.md)
+Tag: [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+Gruppe: [PERS.4 Personalentwicklung](../PERS.4%20Personalentwicklung.md)
 ---
 
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Personal (PERS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](BSI/Grundschutz/Quellkataloge/Kernel/groups/PERS.4%20Personalentwicklung.md) *</div> | [Personal](practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57) | [Mitarbeitende](target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben | {{regelmäßig}} | [überprüfen](action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a) | [Schulungsplan](documentation_guidelines_Schulungsplan) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Mitarbeitende SOLLTE den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben {{ insert: param, pers.4.1-prm1 }} überprüfen.</span>
+| <div style="background:#cccccc">*[Personal (PERS)](../PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](../PERS.4%20Personalentwicklung.md) *</div> | [Personal](../../../../namespaces/entries/practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57.md) | [Mitarbeitende](../../../../namespaces/entries/target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | [Schulungsplan](../../../../namespaces/entries/documentation_guidelines_Schulungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Mitarbeitende SOLLTE den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben {{ insert: param, pers.4.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
 >Qualifikationsmaßnahmen sind z.B. Zertifizierte Weiterbildungen, interne Schulungen oder universitäre Kurse. Prüfen Sie den Bedarf anhand der Aufgaben der Mitarbeitenden und berücksichtigen Sie dabei die in den Geschäftsprozessen verwendeten IT-Produkte. Zweckmäßig ist es hierzu in jedem Team einen Jahresplan zur Teilnahme an Qualifikationsmaßnahmen zu erstellen.
@@ -34,4 +36,4 @@ Gruppe: [PERS.4 Personalentwicklung](BSI/Grundschutz/Quellkataloge/Kernel/groups
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [2](effort_level_2) |> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |

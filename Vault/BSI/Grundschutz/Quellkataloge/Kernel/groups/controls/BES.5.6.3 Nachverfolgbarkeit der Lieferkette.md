@@ -5,29 +5,31 @@ tags:
 - lieferketten
 - bes563-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.6.3 Nachverfolgbarkeit der Lieferkette
 parent_control: BES.5.6 Vergabe von Unteraufträgen
-stmt_target_object_category: IT-Produkte
-stmt_modal_verb: KANN
+stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
+stmt_modal_verb: KANN
+stmt_target_object_category: IT-Produkte
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.6.3 - Nachverfolgbarkeit der Lieferkette
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-** Übergeordnetes Control: ** [BES.5.6 Vergabe von Unteraufträgen](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
+Übergeordnetes Control:<br> [BES.5.6 Vergabe von Unteraufträgen](./BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/Grundschutz/Quellkataloge/Kernel/groups/BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626) | [IT-Produkte](target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller | für {{kritische Komponenten}} | [vereinbaren](action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller für {{ insert: param, bes.5.6.3-prm1 }} vereinbaren.</span>
+| <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [IT-Produkte](../../../../namespaces/entries/target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller | für {{kritische Komponenten}} | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN die Nachverfolgbarkeit der gesamten Lieferkette bis zum Hersteller für {{ insert: param, bes.5.6.3-prm1 }} vereinbaren.</span>
 
 > [!info]- Guidance
 >Kritische Komponenten sind in diesem Kontext Bauteile oder Softwareelemente, deren Kompromittierung erhebliche Auswirkungen auf Sicherheit, Verfügbarkeit oder Integrität der eingesetzten Systeme haben könnte, z. B. kryptographische Module, Firmware von Netzwerkgeräten oder sicherheitsrelevante Steuerungseinheiten. Ohne nachvollziehbare Herkunft könnten Komponenten aus unsicheren Produktionsumgebungen stammen, in denen Hintertüren eingebaut oder Schadcode eingeschleust wurde; ebenso könnten gefälschte Ersatzteile eingesetzt werden, deren Qualität und Funktionssicherheit unzureichend ist. „Nachverfolgbarkeit“ (Traceability) bedeutet in diesem Zusammenhang die Möglichkeit, Herkunft, Transport- und Verarbeitungsschritte einer Komponente lückenlos und verifizierbar zu dokumentieren. Geeignete Maßnahmen können z. B. die Anforderung eines „Chain of Custody“-Protokolls, die Nutzung digital signierter Herkunftszertifikate oder die Einbindung seriöser, auditierter Distributoren sein. Auch der Einsatz von Datenbanken anerkannter Prüfinstanzen, in denen verifizierte Hersteller gelistet sind, kann eine Möglichkeit sein, die Nachverfolgbarkeit zu unterstützen.
@@ -35,4 +37,4 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](BSI/
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 95512f8d-eca6-4928-a56f-1a58e5fcf3f0 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 95512f8d-eca6-4928-a56f-1a58e5fcf3f0 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 95512f8d-eca6-4928-a56f-1a58e5fcf3f0 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 95512f8d-eca6-4928-a56f-1a58e5fcf3f0 |

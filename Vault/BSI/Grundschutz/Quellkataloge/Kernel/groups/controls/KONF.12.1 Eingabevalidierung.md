@@ -5,29 +5,31 @@ tags:
 - produktbeschreibung
 - konf121-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.12.1 Eingabevalidierung
-stmt_target_object_category: Anwendungen
-stmt_modal_verb: SOLLTE
+stmt_practice: Konfiguration
 stmt_action_word: aktivieren
+stmt_modal_verb: SOLLTE
+stmt_target_object_category: Anwendungen
 stmt_documentation: Konfigurationshistorie
 control_effort_level: '3'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.1 - Eingabevalidierung
-Tag: [[tags_Produktbeschreibung|Produktbeschreibung]]
-Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md)
+Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
 > [!example]- Untergeordnete Controls
-> [KONF.12.1.1 Zertifikatsprüfung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.1%20Zertifikatsprüfung.md)> [KONF.12.1.2 Content Security Policy (CSP)](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.2%20Content%20Security%20Policy%20(CSP).md)> [KONF.12.1.3 Same-Origin-Policy](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.3%20Same-Origin-Policy.md)> [KONF.12.1.4 Subresource Integrity-Prüfung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.4%20Subresource%20Integrity-Prüfung.md)> [KONF.12.1.5 HTTP Strict Transport Security (HSTS)](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.5%20HTTP%20Strict%20Transport%20Security%20(HSTS).md)> [KONF.12.1.6 JavaScript](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.6%20JavaScript.md)> [KONF.12.1.7 Filtern schädlicher Webinhalte](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.7%20Filtern%20schädlicher%20Webinhalte.md)> [KONF.12.1.8 Duplikate im Verzeichnisbaum](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.8%20Duplikate%20im%20Verzeichnisbaum.md)> [KONF.12.1.9 Journaling](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.9%20Journaling.md)> [KONF.12.1.10 HTTP-Response-Header](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.10%20HTTP-Response-Header.md)> [KONF.12.1.11 Aktive Dateiinhalte](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/KONF.12.1.11%20Aktive%20Dateiinhalte.md)### Statement
+> [KONF.12.1.1 Zertifikatsprüfung](./KONF.12.1.1%20Zertifikatsprüfung.md)> [KONF.12.1.2 Content Security Policy (CSP)](./KONF.12.1.2%20Content%20Security%20Policy%20(CSP).md)> [KONF.12.1.3 Same-Origin-Policy](./KONF.12.1.3%20Same-Origin-Policy.md)> [KONF.12.1.4 Subresource Integrity-Prüfung](./KONF.12.1.4%20Subresource%20Integrity-Prüfung.md)> [KONF.12.1.5 HTTP Strict Transport Security (HSTS)](./KONF.12.1.5%20HTTP%20Strict%20Transport%20Security%20(HSTS).md)> [KONF.12.1.6 JavaScript](./KONF.12.1.6%20JavaScript.md)> [KONF.12.1.7 Filtern schädlicher Webinhalte](./KONF.12.1.7%20Filtern%20schädlicher%20Webinhalte.md)> [KONF.12.1.8 Duplikate im Verzeichnisbaum](./KONF.12.1.8%20Duplikate%20im%20Verzeichnisbaum.md)> [KONF.12.1.9 Journaling](./KONF.12.1.9%20Journaling.md)> [KONF.12.1.10 HTTP-Response-Header](./KONF.12.1.10%20HTTP-Response-Header.md)> [KONF.12.1.11 Aktive Dateiinhalte](./KONF.12.1.11%20Aktive%20Dateiinhalte.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Konfiguration (KONF)](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](BSI/Grundschutz/Quellkataloge/Kernel/groups/KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09) | [Anwendungen](target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871) | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die Validierung von Eingabedaten | durch {{einen automatisierten Mechanismus}} | [aktivieren](action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414) | [Konfigurationshistorie](documentation_guidelines_Konfigurationshistorie) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen SOLLTE die Validierung von Eingabedaten durch {{ insert: param, konf.12.1-prm1 }} aktivieren.</span>
+| <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Validierung von Eingabedaten | durch {{einen automatisierten Mechanismus}} | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen SOLLTE die Validierung von Eingabedaten durch {{ insert: param, konf.12.1-prm1 }} aktivieren.</span>
 
 > [!info]- Guidance
 >Eingabevalidierung (engl. input validation) ist die technische und logische Überprüfung von Daten, die von Nutzenden, Schnittstellen oder externen Quellen an eine Anwendung übergeben werden. Ziel ist es, sicherzustellen, dass nur erwartete, syntaktisch und semantisch korrekte Eingaben verarbeitet werden – beispielsweise Zahlen in einem numerischen Feld, zulässige Dateiformate bei Uploads oder inhaltlich beschränkte Steuerzeichen in Formularen. Fehlende oder unzureichende Eingabevalidierung könnte es Angreifenden ermöglichen, schadhaften Code einzuschleusen (injection attacks wie SQL Injection oder Command Injection), Geschäftslogik zu manipulieren oder Systeme über Ressourcenmissbrauch lahmzulegen. Eine saubere Validierung kann dagegen die Angriffsfläche deutlich reduzieren und die Verlässlichkeit der Anwendung erhöhen. Dabei hängt die Ausgestaltung stark vom Einsatzzweck ab: Während etwa bei einer Textverarbeitung größere Freiheiten gewährt werden können, erfordern sensible Szenarien wie SQL-Injection bei Datenbankanfragen, die Abwehr von prompt injection bei Large Language Models (LLM) oder die Verarbeitung von Zahlungsdaten sehr strikte Prüfungen. Je nach Anwendung und Risikoprofil können Plausibilitätsprüfungen, die Beschränkung der Eingabedaten auf vordefinierte Werte, Verifikationen der Daten bei einer dritten Stelle (z.B. eines Zahlungsmittels beim Zahlungsanbieter), Regular Expression Entry Patterns, oder Data Escaping als Maßnahmen sinnvoll sein.
@@ -35,6 +37,6 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](BSI/Grundschutz/Quellkataloge/
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4cf4ca7f-0b09-4777-83dc-5569c8e08f63 |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [3](effort_level_3) |> | ** Alternate Identifier ** | 4cf4ca7f-0b09-4777-83dc-5569c8e08f63 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4cf4ca7f-0b09-4777-83dc-5569c8e08f63 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 4cf4ca7f-0b09-4777-83dc-5569c8e08f63 |
 
-> [!info]- Links> > related: [DEV.2.6.1 Eingabevalidierung](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DEV.2.6.1%20Eingabevalidierung.md)
+> [!info]- Links> > related: [DEV.2.6.1 Eingabevalidierung](./DEV.2.6.1%20Eingabevalidierung.md)

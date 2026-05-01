@@ -5,27 +5,29 @@ tags:
 - cryptography
 - ber71-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.7.1 Etablierte Algorithmen bei der Schlüsselerzeugung
-stmt_modal_verb: SOLLTE
+stmt_practice: Berechtigung
 stmt_action_word: verankern
+stmt_modal_verb: SOLLTE
 stmt_documentation: IT-Betriebskonzept
 control_effort_level: '2'
+control_security_level: normal-SdT
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.1 - Etablierte Algorithmen bei der Schlüsselerzeugung
-Tag: [[tags_Cryptography|Cryptography]]
-Gruppe: [BER.7 Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md)
+Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 ---
 
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Berechtigung (BER)](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups/BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709) |  | [SOLLTE](modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf) | die ausschließliche Verwendung etablierter kryptografischer Algorithmen | bei der Schlüsselerzeugung nach {{einem anerkannten Standard}} | [verankern](action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4) | [IT-Betriebskonzept](documentation_guidelines_IT-Betriebskonzept) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die ausschließliche Verwendung etablierter kryptografischer Algorithmen bei der Schlüsselerzeugung nach {{ insert: param, ber.7.1-prm1 }} verankern.</span>
+| <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die ausschließliche Verwendung etablierter kryptografischer Algorithmen | bei der Schlüsselerzeugung nach {{einem anerkannten Standard}} | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [IT-Betriebskonzept](../../../../namespaces/entries/documentation_guidelines_IT-Betriebskonzept.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die ausschließliche Verwendung etablierter kryptografischer Algorithmen bei der Schlüsselerzeugung nach {{ insert: param, ber.7.1-prm1 }} verankern.</span>
 
 > [!info]- Guidance
 >Etablierte kryptografische Algorithmen sind mathematisch fundierte Verschlüsselungsverfahren und Protokolle, die in der aktuellen Praxis nicht mit vertretbarem Aufwand gebrochen werden können. Sie basieren auf mathematisch schwer lösbaren Problemen, bieten Resistenz gegen bekannte kryptanalytische Angriffe, unterstützen ausreichend große Schlüssellängen und wurden von Experten gründlich geprüft und analysiert. Aktuelle etablierte Algorithmen sind in BSI TR-02102 zu finden. Für weitere Details zur Implementierung siehe Detailspezifikation kryptografischer Abläufe und Mechanismen des BSI.
@@ -33,4 +35,4 @@ Gruppe: [BER.7 Schlüsselmanagement](BSI/Grundschutz/Quellkataloge/Kernel/groups
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d9e08db0-484e-4cce-89de-2f29f1a52e4e |> | ** Security Level** | [normal-SdT](security_level_normal-SdT) |> | ** Effort Level ** | [2](effort_level_2) |> | ** Alternate Identifier ** | d9e08db0-484e-4cce-89de-2f29f1a52e4e |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d9e08db0-484e-4cce-89de-2f29f1a52e4e |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | d9e08db0-484e-4cce-89de-2f29f1a52e4e |

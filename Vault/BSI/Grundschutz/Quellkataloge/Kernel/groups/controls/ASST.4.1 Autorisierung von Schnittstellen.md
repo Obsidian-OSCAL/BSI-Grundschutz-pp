@@ -5,28 +5,30 @@ tags:
 - lieferketten
 - asst41-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.4.1 Autorisierung von Schnittstellen
-stmt_target_object_category: Daten
-stmt_modal_verb: KANN
+stmt_practice: Informationen und Assets
 stmt_action_word: autorisieren
+stmt_modal_verb: KANN
+stmt_target_object_category: Daten
 stmt_documentation: Arbeitsanweisung
 control_effort_level: '4'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.4.1 - Autorisierung von Schnittstellen
-Tag: [[tags_Lieferketten|Lieferketten]]
-Gruppe: [ASST.4 Regelungen zum Transfer](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.4%20Regelungen%20zum%20Transfer.md)
+Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+Gruppe: [ASST.4 Regelungen zum Transfer](../ASST.4%20Regelungen%20zum%20Transfer.md)
 ---
 
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Informationen und Assets (ASST)](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Transfer](BSI/Grundschutz/Quellkataloge/Kernel/groups/ASST.4%20Regelungen%20zum%20Transfer.md) *</div> | [Informationen und Assets](practices_Informationen_und_Assets_02088622-573d-4225-883c-9afe0c7dc69b) | [Daten](target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | Schnittstellen, über die Informationen ausgetauscht werden, | durch {{eine zuständige Person oder Rolle}} | [autorisieren](action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad) | [Arbeitsanweisung](documentation_guidelines_Arbeitsanweisung) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten KANN Schnittstellen, über die Informationen ausgetauscht werden, durch {{ insert: param, asst.4.1-prm1 }} autorisieren.</span>
+| <div style="background:#cccccc">*[Informationen und Assets (ASST)](../ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Transfer](../ASST.4%20Regelungen%20zum%20Transfer.md) *</div> | [Informationen und Assets](../../../../namespaces/entries/practices_Informationen_und_Assets_02088622-573d-4225-883c-9afe0c7dc69b.md) | [Daten](../../../../namespaces/entries/target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Schnittstellen, über die Informationen ausgetauscht werden, | durch {{eine zuständige Person oder Rolle}} | [autorisieren](../../../../namespaces/entries/action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad.md) | [Arbeitsanweisung](../../../../namespaces/entries/documentation_guidelines_Arbeitsanweisung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten KANN Schnittstellen, über die Informationen ausgetauscht werden, durch {{ insert: param, asst.4.1-prm1 }} autorisieren.</span>
 
 > [!info]- Guidance
 >Schnittstellen können hier sowohl physikalisch (z.B. Briefversand, regelmäßige Meetings an einem geschützten Ort) als auch virtuell (API, verschlüsselter Cloudspeicher) sein.
@@ -34,4 +36,4 @@ Gruppe: [ASST.4 Regelungen zum Transfer](BSI/Grundschutz/Quellkataloge/Kernel/gr
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ddfc1b03-9014-4317-a7bb-09980b234457 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [4](effort_level_4) |> | ** Alternate Identifier ** | ddfc1b03-9014-4317-a7bb-09980b234457 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ddfc1b03-9014-4317-a7bb-09980b234457 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | ddfc1b03-9014-4317-a7bb-09980b234457 |

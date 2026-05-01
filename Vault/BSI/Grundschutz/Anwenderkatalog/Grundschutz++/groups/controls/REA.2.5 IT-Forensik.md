@@ -5,28 +5,30 @@ tags:
 - advanced_persistent_threats_apt
 - rea25-prm1
 - oscal_control
-created: Mon Apr 13 16:41:09 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: REA.2.5 IT-Forensik
-stmt_modal_verb: KANN
+stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: ausführen
+stmt_modal_verb: KANN
 stmt_documentation: Behandlung von Sicherheitsvorfällen
 control_effort_level: '3'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # REA.2.5 - IT-Forensik
-Tag: [[tags_Advanced_Persistent_Threats_(APT)|Advanced Persistent Threats (APT)]]
-Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md)
+Tag: [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+Gruppe: [REA.2 Reaktion](../REA.2%20Reaktion.md)
 ---
 
 > [!example]- Untergeordnete Controls
-> [REA.2.5.1 Rechtssichere Beweissicherung](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5.1%20Rechtssichere%20Beweissicherung.md)> [REA.2.5.2 Vier-Augen-Prinzip](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5.2%20Vier-Augen-Prinzip.md)> [REA.2.5.3 Forensik-Dienstleister](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/controls/REA.2.5.3%20Forensik-Dienstleister.md)### Statement
+> [REA.2.5.1 Rechtssichere Beweissicherung](./REA.2.5.1%20Rechtssichere%20Beweissicherung.md)> [REA.2.5.2 Vier-Augen-Prinzip](./REA.2.5.2%20Vier-Augen-Prinzip.md)> [REA.2.5.3 Forensik-Dienstleister](./REA.2.5.3%20Forensik-Dienstleister.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04) |  | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | eine forensische Analyse | bei Vorfällen, die {{bestimmte Kriterien}} erfüllen, | [ausführen](action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe) | [Behandlung von Sicherheitsvorfällen](documentation_guidelines_Behandlung_von_Sicherheitsvorfällen) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN eine forensische Analyse bei Vorfällen, die {{ insert: param, rea.2.5-prm1 }} erfüllen, ausführen.</span>
+| <div style="background:#cccccc">*[Sicherheitsvorfallsbehandlung (REA)](../REA%20Sicherheitsvorfallsbehandlung.md)*<br> *  &rarr; [Reaktion](../REA.2%20Reaktion.md) *</div> | [Sicherheitsvorfallsbehandlung](../../../../namespaces/entries/practices_Sicherheitsvorfallsbehandlung_28b2c88b-1a2a-4f9f-81c0-5d46b50c8f04.md) |  | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | eine forensische Analyse | bei Vorfällen, die {{bestimmte Kriterien}} erfüllen, | [ausführen](../../../../namespaces/entries/action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe.md) | [Behandlung von Sicherheitsvorfällen](../../../../namespaces/entries/documentation_guidelines_Behandlung_von_Sicherheitsvorfällen.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sicherheitsvorfallsbehandlung KANN eine forensische Analyse bei Vorfällen, die {{ insert: param, rea.2.5-prm1 }} erfüllen, ausführen.</span>
 
 > [!info]- Guidance
 >Bei einer forensischen Analyse werden Beweise gesichert und Erkenntnisse zur Verbesserung von Schutzmaßnahmen gegen künftige Vorfälle gewonnen. Die Kriterien richten sich nach dem Schutzbedarf der betroffenen Informationen, Compliance-Verpflichtungen und dem Risikoprofil der Institution als Ganzes. Kriterien können, z.B. Anzeichen für einen (auch teilweise) erfolgreichen, gezielten Angriff, eine Straftat im Zusammenhang mit der Informationsverarbeitung oder eine Kompromittierung schützenswerter Informationen sein. Die Forensik kann durch eigenes qualifiziertes Personal oder durch einen im Vorfeld festgelegten, im Ernstfall zu beauftragenden Dienstleister geschehen. Zur Vorgehensweise können sowohl technische Werkzeuge, als auch rechtliche Rahmenbedingungen und Dokumentationsvorgaben gehören. Für Details siehe BSI-Leitfaden „IT-Forensik“.
@@ -34,4 +36,4 @@ Gruppe: [REA.2 Reaktion](BSI/Grundschutz/Anwenderkatalog/Grundschutz++/groups/RE
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 6de9ac83-2280-4fbd-ac54-f570faa7b211 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [3](effort_level_3) |> | ** Alternate Identifier ** | 6de9ac83-2280-4fbd-ac54-f570faa7b211 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 6de9ac83-2280-4fbd-ac54-f570faa7b211 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 6de9ac83-2280-4fbd-ac54-f570faa7b211 |

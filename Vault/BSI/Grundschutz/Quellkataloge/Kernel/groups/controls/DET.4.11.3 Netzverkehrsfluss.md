@@ -5,30 +5,32 @@ tags:
 - lateral_movement
 - det4113-prm1
 - oscal_control
-created: Mon Apr 13 16:41:11 CEST 2026
+created: Fri May 01 21:44:28 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.11.3 Netzverkehrsfluss
 parent_control: DET.4.11 Anomalien in Netzen und am Perimeter
-stmt_target_object_category: Netze
-stmt_modal_verb: KANN
+stmt_practice: Detektion
 stmt_action_word: überwachen
+stmt_modal_verb: KANN
+stmt_target_object_category: Netze
 stmt_documentation: Audit Log
 control_effort_level: '5'
+control_security_level: erhöht
 ---
 
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11.3 - Netzverkehrsfluss
-Tag: [[tags_Lateral_Movement|Lateral Movement]]
-Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md)
+Tag: [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
-** Übergeordnetes Control: ** [DET.4.11 Anomalien in Netzen und am Perimeter](BSI/Grundschutz/Quellkataloge/Kernel/groups/controls/DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
+Übergeordnetes Control:<br> [DET.4.11 Anomalien in Netzen und am Perimeter](./DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
-| <div style="background:#cccccc">*[Detektion (DET)](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kernel/groups/DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed) | [Netze](target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620) | [KANN](modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b) | auf kritische Netzverkehrsflüsse | anhand von {{Kriterien}} | [überwachen](action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63) | [Audit Log](documentation_guidelines_Audit_Log) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Netze KANN auf kritische Netzverkehrsflüsse anhand von {{ insert: param, det.4.11.3-prm1 }} überwachen.</span>
+| <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | auf kritische Netzverkehrsflüsse | anhand von {{Kriterien}} | [überwachen](../../../../namespaces/entries/action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63.md) | [Audit Log](../../../../namespaces/entries/documentation_guidelines_Audit_Log.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Netze KANN auf kritische Netzverkehrsflüsse anhand von {{ insert: param, det.4.11.3-prm1 }} überwachen.</span>
 
 > [!info]- Guidance
 >Ein Netzverkehrsfluss ist eine Aufzeichnung von Verkehrsdaten einer Netzwerkverbindung (wie Quell-/Ziel-IP, Ports, Protokoll, übertragene Datenmenge und Zeitdauer). Die Aufzeichnung des gesamten Verkehrs (Packet Capture) des vollständigen Inhalts aller Datenpakete ist hierzu nicht erforderlich, sodass die zu untersuchende Datenmenge überschaubar bleibt. Allerdings sind hier Compliance-Anforderungen zur Datenspeicherung relevant. Für datenschutzrechtliche Fragen zu Verkehrsdaten kann der BfDI Leitfaden Speicherung Verkehrsdaten als Grundlage genutzt werden. Beispiele für Kriterien sind die Aufzeichnung an wichtigen Netzgrenzen (DMS-Internet), in kritischen Netzen, zwischen Serversystemen oder bei Leistungsproblemen.
@@ -36,4 +38,4 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](BSI/Grundschutz/Quellkataloge/Kern
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 80109af2-9ed7-4aca-807e-aae712dc8e18 |> | ** Security Level** | [erhöht](security_level_erhöht) |> | ** Effort Level ** | [5](effort_level_5) |> | ** Alternate Identifier ** | 80109af2-9ed7-4aca-807e-aae712dc8e18 |
+> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 80109af2-9ed7-4aca-807e-aae712dc8e18 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 80109af2-9ed7-4aca-807e-aae712dc8e18 |

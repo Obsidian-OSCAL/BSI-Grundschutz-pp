@@ -8,7 +8,7 @@ Obsidian ist eine Software für Wissensmanagement basierend auf Notizen, verglei
 
 **Wichtig**: Auch wenn die meisten Dateien in github direkt angezeigt werden und auch die Verlinkung innerhalb von github funktioniert, sind die Dateien für Obsidian mit Plugins optimiert.
 
-**Status (1.5.2026)** : Relative Verlinkung zwischen den Dateien, so dass eine Kopie in ein bestehdes Vault einfacher ist. Weiter Verlinkungen zwsichen Namespaces und Controls/Groups.
+&rarr; [Release Notes](RELEASE_NOTES.md)
 
 <br clear="right"/>
 

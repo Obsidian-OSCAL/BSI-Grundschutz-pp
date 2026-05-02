@@ -8,7 +8,7 @@ tags:
 - insider_threat
 - living_off_the_land
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.6.1 Verhaltensanalyse von Zugangskonten
@@ -25,7 +25,13 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.6.1 - Verhaltensanalyse von Zugangskonten
-> [!example]- Tags:> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)> [Command & Control](../../../../namespaces/entries/tags_Command_&_Control.md)> [Data Exfiltration](../../../../namespaces/entries/tags_Data_Exfiltration.md)> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)> [Living off the land](../../../../namespaces/entries/tags_Living_off_the_land.md)
+> [!example]- Tags:
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [Command & Control](../../../../namespaces/entries/tags_Command_&_Control.md)
+> [Data Exfiltration](../../../../namespaces/entries/tags_Data_Exfiltration.md)
+> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [Living off the land](../../../../namespaces/entries/tags_Living_off_the_land.md)
+
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
@@ -38,9 +44,17 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->User and Entity Behaviour Analytics (UEBA) nutzt moderne Verfahren einschließlich KI, um Anomalien im Verhalten von Zugangskonten oder Systemen zu erkennen, z.B. Anmeldungen zu ungewöhnlichen Zeiten, von ungewöhnlichen Orten, durch Verwendung veralteter Authentifzierungsverfahren wie NTLMv1 oder die Ausführung ungewöhnlicher Anwendungen. Ungewöhnliches Verhalten kann Anzeichen für netzbasierte Angriffe oder Innentäter sein. Allerdings gilt es hierbei auch rechtliche Vorgaben zum Datenschutz und betriebliche Mitbestimmungsrechte zu beachten. Ein sinnvoller Maßstab für die Ausgestaltung von Umfang und Detailltiefe der Überwachung können die Geschäfts- und Sicherheitsziele sein. Sinnvoll ist es hierbei begleitende Maßnahmen zur Compliance einzuführen, beispielsweise das manuelle Analysen nur unter bestimmten Voraussetzungen oder Beteiligungen vorgenommen werden.
+> User and Entity Behaviour Analytics (UEBA) nutzt moderne Verfahren einschließlich KI, um Anomalien im Verhalten von Zugangskonten oder Systemen zu erkennen, z.B. Anmeldungen zu ungewöhnlichen Zeiten, von ungewöhnlichen Orten, durch Verwendung veralteter Authentifzierungsverfahren wie NTLMv1 oder die Ausführung ungewöhnlicher Anwendungen. Ungewöhnliches Verhalten kann Anzeichen für netzbasierte Angriffe oder Innentäter sein. Allerdings gilt es hierbei auch rechtliche Vorgaben zum Datenschutz und betriebliche Mitbestimmungsrechte zu beachten. Ein sinnvoller Maßstab für die Ausgestaltung von Umfang und Detailltiefe der Überwachung können die Geschäfts- und Sicherheitsziele sein. Sinnvoll ist es hierbei begleitende Maßnahmen zur Compliance einzuführen, beispielsweise das manuelle Analysen nur unter bestimmten Voraussetzungen oder Beteiligungen vorgenommen werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | cd3e1fde-3095-4518-b906-ca18824839b8 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | cd3e1fde-3095-4518-b906-ca18824839b8 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | cd3e1fde-3095-4518-b906-ca18824839b8 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | cd3e1fde-3095-4518-b906-ca18824839b8 |
+

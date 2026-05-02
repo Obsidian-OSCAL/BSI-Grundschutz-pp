@@ -5,7 +5,7 @@ tags:
 - bcm
 - privilegierte_rechte
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.21 Notfallzugang
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.21 - Notfallzugang
-> [!example]- Tags:> [BCM](../../../../namespaces/entries/tags_BCM.md)> [Privilegierte Rechte](../../../../namespaces/entries/tags_Privilegierte_Rechte.md)
+> [!example]- Tags:
+> [BCM](../../../../namespaces/entries/tags_BCM.md)
+> [Privilegierte Rechte](../../../../namespaces/entries/tags_Privilegierte_Rechte.md)
+
 Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->Ein Notfallzugangskonto (sog. Break Glass Account) ist ein Zugang mit privilegierten Berechtigungen, der bei Notfällen als letztes Mittel zum Zugang zu wichtigen Systemen verwendet werden kann, z.B. Verzeichnisdienste, Cloud-Infrastrukturen. Es empfiehlt sich für diese Konten die Verwendung langer Passwörter und die Aufbewahrung dieser z.B. in einem Safe oder aufgeteilt auf mehrere Administrierende.
+> Ein Notfallzugangskonto (sog. Break Glass Account) ist ein Zugang mit privilegierten Berechtigungen, der bei Notfällen als letztes Mittel zum Zugang zu wichtigen Systemen verwendet werden kann, z.B. Verzeichnisdienste, Cloud-Infrastrukturen. Es empfiehlt sich für diese Konten die Verwendung langer Passwörter und die Aufbewahrung dieser z.B. in einem Safe oder aufgeteilt auf mehrere Administrierende.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | abdd8f32-ec02-491a-a39b-7b0b25a597ca |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |> | ** Alternate Identifier ** | abdd8f32-ec02-491a-a39b-7b0b25a597ca |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | abdd8f32-ec02-491a-a39b-7b0b25a597ca |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
+> | ** Alternate Identifier ** | abdd8f32-ec02-491a-a39b-7b0b25a597ca |
+

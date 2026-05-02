@@ -5,7 +5,7 @@ tags:
 - hochverfügbarkeit
 - ddos
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.5 Schutz gegen volumetrische DoS-Angriffe
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.5 - Schutz gegen volumetrische DoS-Angriffe
-> [!example]- Tags:> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)> [DDoS](../../../../namespaces/entries/tags_DDoS.md)
+> [!example]- Tags:
+> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+> [DDoS](../../../../namespaces/entries/tags_DDoS.md)
+
 Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Schutzmaßnahmen gegen volumetrische DoS-Angriffe |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze KANN Schutzmaßnahmen gegen volumetrische DoS-Angriffe aktivieren.</span>
 
 > [!info]- Guidance
->Volumetrische Angriffe können z.B. durch die Verwendung von Anycast-DNS, Upstream Rate Limiting, On-Premise- oder Cloud-Scrubbing, BGP FlowSpec-Filter, Auto-Null-Routing oder Remotely Triggered Blackholing abgewehrt werden.
+> Volumetrische Angriffe können z.B. durch die Verwendung von Anycast-DNS, Upstream Rate Limiting, On-Premise- oder Cloud-Scrubbing, BGP FlowSpec-Filter, Auto-Null-Routing oder Remotely Triggered Blackholing abgewehrt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ac441ef0-08de-40c4-b600-8be20d8a55b1 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | ac441ef0-08de-40c4-b600-8be20d8a55b1 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | ac441ef0-08de-40c4-b600-8be20d8a55b1 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | ac441ef0-08de-40c4-b600-8be20d8a55b1 |
+

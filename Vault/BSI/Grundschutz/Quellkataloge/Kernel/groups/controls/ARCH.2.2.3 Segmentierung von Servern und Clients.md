@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.3 Segmentierung von Servern und Clients
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.3 - Segmentierung von Servern und Clients
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Verbindungen zwischen Hostsystemen und Clients |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE Verbindungen zwischen Hostsystemen und Clients einschränken.</span>
 
 > [!info]- Guidance
->Die Anforderung gilt auch, wenn die IT-Systeme nur noch als VMs oder Container existieren. Die Segmentierung kann hier in die virtuelle Netzwerk‑Ebene verlagert werden, sodass die Segmentierung weder vom Hypervisor noch von den Workloads umgangen wird. Die Anforderung kann auch physisch durch dedizierte Infrastruktur für VDI/Client‑VMs umgesetzt werden. Um die klare Trennung sicherzustellen, wird empfohlen kein Bridging zwischen Port‑Groups sowie auf dem virtuellen Switch keinen promiscuous Mode zu verwenden.
+> Die Anforderung gilt auch, wenn die IT-Systeme nur noch als VMs oder Container existieren. Die Segmentierung kann hier in die virtuelle Netzwerk‑Ebene verlagert werden, sodass die Segmentierung weder vom Hypervisor noch von den Workloads umgangen wird. Die Anforderung kann auch physisch durch dedizierte Infrastruktur für VDI/Client‑VMs umgesetzt werden. Um die klare Trennung sicherzustellen, wird empfohlen kein Bridging zwischen Port‑Groups sowie auf dem virtuellen Switch keinen promiscuous Mode zu verwenden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 8af42e9e-5340-4690-9567-88a5309aee3a |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 8af42e9e-5340-4690-9567-88a5309aee3a |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 8af42e9e-5340-4690-9567-88a5309aee3a |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 8af42e9e-5340-4690-9567-88a5309aee3a |
+

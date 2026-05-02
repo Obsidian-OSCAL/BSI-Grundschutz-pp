@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - bes552-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.5.2 Autorisierung der Zugriffsberechtigung
@@ -37,9 +37,17 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../B
 > > | Begriff | Definition |> > | - | - |> > | [Autorisierung](../../../../namespaces/entries/result_Autorisierung_00000000-0000-0000-0000-000000000000.md) | Bei einer Autorisierung wird geprüft, ob eine Person, IT-Komponente oder Anwendung zur Durchführung einer bestimmten Aktion berechtigt ist. |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
->Dies kann beispielsweise durch eine explizite Liste der Personen oder Rollen des Zulieferers, welche berechtigt sind, die Informationen der Institution und andere zugehörige Vermögenswerte zu nutzen, umgesetzt werden.
+> Dies kann beispielsweise durch eine explizite Liste der Personen oder Rollen des Zulieferers, welche berechtigt sind, die Informationen der Institution und andere zugehörige Vermögenswerte zu nutzen, umgesetzt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | adb32e38-f59a-42fa-b1a0-67abd118c585 |
+

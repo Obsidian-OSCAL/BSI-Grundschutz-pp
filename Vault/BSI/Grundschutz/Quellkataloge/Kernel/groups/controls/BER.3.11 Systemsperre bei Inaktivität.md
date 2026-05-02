@@ -6,7 +6,7 @@ tags:
 - zero_trust
 - ber311-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.11 Systemsperre bei Inaktivität
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.11 - Systemsperre bei Inaktivität
-> [!example]- Tags:> [Automatic Session Locking](../../../../namespaces/entries/tags_Automatic_Session_Locking.md)> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [!example]- Tags:
+> [Automatic Session Locking](../../../../namespaces/entries/tags_Automatic_Session_Locking.md)
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+
 Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 ---
 
@@ -32,9 +35,17 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Zugangskonten](../BER.3%20Zugangskonten.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | eine Sperre bei Inaktivität | nach {{einer Frist}} | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung für IT-Systeme SOLLTE eine Sperre bei Inaktivität nach {{ insert: param, ber.3.11-prm1 }} aktivieren.</span>
 
 > [!info]- Guidance
->Kann durch eine Bildschirmsperre oder Abmeldung (Automatic Session Locking) umgesetzt werden. Eine längere Inaktivität kann z.B. 5-15 Minuten lang sein. Verwendet das System keine eigene Authentifizierung, so ist auch diese Anforderung entbehrlich.
+> Kann durch eine Bildschirmsperre oder Abmeldung (Automatic Session Locking) umgesetzt werden. Eine längere Inaktivität kann z.B. 5-15 Minuten lang sein. Verwendet das System keine eigene Authentifizierung, so ist auch diese Anforderung entbehrlich.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | de11e8f3-d1fa-4b11-a6b0-e0d327b42849 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | de11e8f3-d1fa-4b11-a6b0-e0d327b42849 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | de11e8f3-d1fa-4b11-a6b0-e0d327b42849 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | de11e8f3-d1fa-4b11-a6b0-e0d327b42849 |
+

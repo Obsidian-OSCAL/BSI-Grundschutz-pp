@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.6 Rückgewähr von Assets
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.6 - Rückgewähr von Assets
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
@@ -33,11 +36,21 @@ Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6
 > > | Begriff | Definition |> > | - | - |> > | [Asset](../../../../namespaces/entries/result_Asset_00000000-0000-0000-0000-000000000000.md) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
->Rückgewähr bedeutet hier, dass sämtliche von der Institution bereitgestellte Werte – wie etwa IT-Systeme, Datenträger oder Papierkopien – bei Beendigung des Vertragsverhältnisses an die Institution zurückgegeben werden. Der Zweck liegt darin, unkontrollierten Weitergebrauch oder Missbrauch von Informationen und Ressourcen zu verhindern. So könnte etwa ein externer Dienstleister nach einer Kündigung weiterhin Zugriff auf sensible Daten behalten oder unbeabsichtigt alte Backup-Medien in seinem Besitz behalten, was zu Datenabflüssen oder unautorisierten Offenlegungen führen könnte. Eine klare Regelung kann dagegen sicherstellen, dass sämtliche Ressourcen nachvollziehbar wieder unter die alleinige Kontrolle der Institution gelangen und Vertraulichkeit sowie Integrität gewahrt bleiben. Für die Umsetzung kann es hilfreich sein, die Rückgabepflicht vertraglich zu konkretisieren und präzise Abläufe zu definieren. So kann die Institution (1) Inventarlisten führen, in denen alle übergebenen physischen Geräte, Datenträger oder Zutrittsmedien eindeutig aufgeführt werden, (2) Checklisten für die geordnete Rückführung bei Vertragsende einsetzen und (3) eine Rückgabequittung oder Übergabebestätigung durch den Dienstleister einfordern, die den ordnungsgemäßen Erhalt dokumentiert. Ergänzend kann die Institution Rückgabefristen und Verantwortlichkeiten im Vertrag festlegen sowie technische Maßnahmen wie die Sperrung von verlorenen oder nicht zurückgegebenen Zutrittskarten einplanen. Auch kann eine Abnahmeprüfung der zurückgegebenen Assets durch die Institution erfolgen, um sicherzustellen, dass diese vollständig und funktionsfähig übergeben wurden.
+> Rückgewähr bedeutet hier, dass sämtliche von der Institution bereitgestellte Werte – wie etwa IT-Systeme, Datenträger oder Papierkopien – bei Beendigung des Vertragsverhältnisses an die Institution zurückgegeben werden. Der Zweck liegt darin, unkontrollierten Weitergebrauch oder Missbrauch von Informationen und Ressourcen zu verhindern. So könnte etwa ein externer Dienstleister nach einer Kündigung weiterhin Zugriff auf sensible Daten behalten oder unbeabsichtigt alte Backup-Medien in seinem Besitz behalten, was zu Datenabflüssen oder unautorisierten Offenlegungen führen könnte. Eine klare Regelung kann dagegen sicherstellen, dass sämtliche Ressourcen nachvollziehbar wieder unter die alleinige Kontrolle der Institution gelangen und Vertraulichkeit sowie Integrität gewahrt bleiben. Für die Umsetzung kann es hilfreich sein, die Rückgabepflicht vertraglich zu konkretisieren und präzise Abläufe zu definieren. So kann die Institution (1) Inventarlisten führen, in denen alle übergebenen physischen Geräte, Datenträger oder Zutrittsmedien eindeutig aufgeführt werden, (2) Checklisten für die geordnete Rückführung bei Vertragsende einsetzen und (3) eine Rückgabequittung oder Übergabebestätigung durch den Dienstleister einfordern, die den ordnungsgemäßen Erhalt dokumentiert. Ergänzend kann die Institution Rückgabefristen und Verantwortlichkeiten im Vertrag festlegen sowie technische Maßnahmen wie die Sperrung von verlorenen oder nicht zurückgegebenen Zutrittskarten einplanen. Auch kann eine Abnahmeprüfung der zurückgegebenen Assets durch die Institution erfolgen, um sicherzustellen, dass diese vollständig und funktionsfähig übergeben wurden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 005f0ce7-9372-49b6-b78b-c09a5e2f56f0 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 005f0ce7-9372-49b6-b78b-c09a5e2f56f0 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 005f0ce7-9372-49b6-b78b-c09a5e2f56f0 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 005f0ce7-9372-49b6-b78b-c09a5e2f56f0 |
 
-> [!info]- Links> > related: [DLS.4.1 Dekomissionierung](./DLS.4.1%20Dekomissionierung.md)
+
+> [!info]- Links
+> > related: [DLS.4.1 Dekomissionierung](./DLS.4.1%20Dekomissionierung.md)
+

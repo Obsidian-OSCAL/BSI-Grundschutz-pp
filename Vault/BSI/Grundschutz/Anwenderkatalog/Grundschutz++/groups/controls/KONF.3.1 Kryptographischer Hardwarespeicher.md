@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.3.1 Kryptographischer Hardwarespeicher
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.3.1 - Kryptographischer Hardwarespeicher
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Physischer Schutz](../KONF.3%20Physischer%20Schutz.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | einen kryptographischen Hardwarespeicher |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme SOLLTE einen kryptographischen Hardwarespeicher aktivieren.</span>
 
 > [!info]- Guidance
->Ein kryptographischer Hardwarespeicher bezeichnet in diesem Kontext eine gesicherte, hardwarebasierte Komponente, die kryptographische Schlüssel oder andere besonders sensible Geheimnisse in einer isolierten und manipulationsgeschützten Umgebung verwahrt. Der Einsatz solcher Speicher kann das Risiko deutlich reduzieren, dass kryptographische Schlüssel bei einem Softwareangriff kompromittiert werden, und kann gleichzeitig die Integrität sicherheitskritischer Prozesse wie Verschlüsselung, Signatur oder Authentifizierung erhöhen. Als Standards können hierzu etwa eine Trusted Execution Environment (TEE), Secure Elements (SE) or Dedicated Security Components (DSC) infrage kommen. Vgl. ISO/IEC 11889 (TPM 2.0), ISO/IEC 19790 / FIPS 140-3 oder ETSI EN 303 645 (für IoT).
+> Ein kryptographischer Hardwarespeicher bezeichnet in diesem Kontext eine gesicherte, hardwarebasierte Komponente, die kryptographische Schlüssel oder andere besonders sensible Geheimnisse in einer isolierten und manipulationsgeschützten Umgebung verwahrt. Der Einsatz solcher Speicher kann das Risiko deutlich reduzieren, dass kryptographische Schlüssel bei einem Softwareangriff kompromittiert werden, und kann gleichzeitig die Integrität sicherheitskritischer Prozesse wie Verschlüsselung, Signatur oder Authentifizierung erhöhen. Als Standards können hierzu etwa eine Trusted Execution Environment (TEE), Secure Elements (SE) or Dedicated Security Components (DSC) infrage kommen. Vgl. ISO/IEC 11889 (TPM 2.0), ISO/IEC 19790 / FIPS 140-3 oder ETSI EN 303 645 (für IoT).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 5c63c101-f2d6-479c-963c-0280bd2fb8a7 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 5c63c101-f2d6-479c-963c-0280bd2fb8a7 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 5c63c101-f2d6-479c-963c-0280bd2fb8a7 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 5c63c101-f2d6-479c-963c-0280bd2fb8a7 |
+

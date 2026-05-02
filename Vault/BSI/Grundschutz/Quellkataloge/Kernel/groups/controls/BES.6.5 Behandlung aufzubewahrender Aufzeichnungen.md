@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.5 Behandlung aufzubewahrender Aufzeichnungen
@@ -20,7 +20,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.5 - Behandlung aufzubewahrender Aufzeichnungen
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
@@ -30,9 +33,17 @@ Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Kontrollmechanismen zur Behandlung aufzubewahrender Aufzeichnungen | für den Fall einer Kündigung | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE Kontrollmechanismen zur Behandlung aufzubewahrender Aufzeichnungen für den Fall einer Kündigung vereinbaren.</span>
 
 > [!info]- Guidance
->Der Begriff Kontrollmechanismen kann in diesem Kontext verstanden werden als vertraglich vereinbarte Verfahren, technische Maßnahmen oder organisatorische Vorkehrungen, die es der Institution ermöglichen, die Vollständigkeit, Integrität und Vertraulichkeit der betreffenden Aufzeichnungen sicherzustellen. Aufzubewahrende Aufzeichnungen bezeichnet hierbei jede Form von Daten oder Dokumenten – in physischer oder digitaler Form – die aufgrund gesetzlicher, vertraglicher oder interner Vorgaben über das Vertragsende hinaus (zumindest für einen bestimmten Zeitraum) vom Dienstleister aufbewahrt werden. Dabei kann es sich beispielsweise um Vertragsunterlagen, Protokolldateien oder Gesprächsprotokolle handeln, die etwa aus steuerlichen Gründen aufzubewahren sind.
+> Der Begriff Kontrollmechanismen kann in diesem Kontext verstanden werden als vertraglich vereinbarte Verfahren, technische Maßnahmen oder organisatorische Vorkehrungen, die es der Institution ermöglichen, die Vollständigkeit, Integrität und Vertraulichkeit der betreffenden Aufzeichnungen sicherzustellen. Aufzubewahrende Aufzeichnungen bezeichnet hierbei jede Form von Daten oder Dokumenten – in physischer oder digitaler Form – die aufgrund gesetzlicher, vertraglicher oder interner Vorgaben über das Vertragsende hinaus (zumindest für einen bestimmten Zeitraum) vom Dienstleister aufbewahrt werden. Dabei kann es sich beispielsweise um Vertragsunterlagen, Protokolldateien oder Gesprächsprotokolle handeln, die etwa aus steuerlichen Gründen aufzubewahren sind.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | a397ee7e-3766-4454-9805-c2b31ffcb80e |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | a397ee7e-3766-4454-9805-c2b31ffcb80e |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | a397ee7e-3766-4454-9805-c2b31ffcb80e |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | a397ee7e-3766-4454-9805-c2b31ffcb80e |
+

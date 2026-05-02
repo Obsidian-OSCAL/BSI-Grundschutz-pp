@@ -8,7 +8,7 @@ tags:
 - password_policy
 - cryptography
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.6.8 Kriterien für die Qualität von Passwörtern
@@ -23,7 +23,13 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.8 - Kriterien für die Qualität von Passwörtern
-> [!example]- Tags:> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)> [Password Policy](../../../../namespaces/entries/tags_Password_Policy.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- Tags:
+> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)
+> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)
+> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+> [Password Policy](../../../../namespaces/entries/tags_Password_Policy.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 ---
 
@@ -33,9 +39,17 @@ Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Passwortgebrauch](../BER.6%20Passwortgebrauch.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Kriterien für die Qualität von Passwörtern | anhand von Lebensdauer und Angriffsmöglichkeiten | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [IT-Betriebskonzept](../../../../namespaces/entries/documentation_guidelines_IT-Betriebskonzept.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE Kriterien für die Qualität von Passwörtern anhand von Lebensdauer und Angriffsmöglichkeiten verankern.</span>
 
 > [!info]- Guidance
->Kriterien für die Qualität von Passwörtern können z.B. eine minimale Entropie, Passwortlänge oder Verwendung verschiedener Symbole sein. Die Lebensdauer meint die erwartete Nutzungsdauer des Passwortes. Die erforderliche Qualität hängt von den Angriffsmöglichkeiten ab, z.B. Anzahl der Zugangskonten, verwendetes kryptografisches Verfahren (vgl. BSI TR-02102) und begleitenden Sicherheitsmaßnahmen wie maximale Passwortversuche oder Mehr-Faktor-Authentifizierung. Für Zugänge ohne begleitende Maßnahmen ist eine Passwortlänge nicht unter 14 Zeichen empfehlenswert. Die Kriterien können einmalig festgelegt werden oder zwischen Zugängen oder Anwendungen differenzieren.
+> Kriterien für die Qualität von Passwörtern können z.B. eine minimale Entropie, Passwortlänge oder Verwendung verschiedener Symbole sein. Die Lebensdauer meint die erwartete Nutzungsdauer des Passwortes. Die erforderliche Qualität hängt von den Angriffsmöglichkeiten ab, z.B. Anzahl der Zugangskonten, verwendetes kryptografisches Verfahren (vgl. BSI TR-02102) und begleitenden Sicherheitsmaßnahmen wie maximale Passwortversuche oder Mehr-Faktor-Authentifizierung. Für Zugänge ohne begleitende Maßnahmen ist eine Passwortlänge nicht unter 14 Zeichen empfehlenswert. Die Kriterien können einmalig festgelegt werden oder zwischen Zugängen oder Anwendungen differenzieren.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | af5ba77a-8d77-4a4f-8842-23ba9dedb829 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | af5ba77a-8d77-4a4f-8842-23ba9dedb829 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | af5ba77a-8d77-4a4f-8842-23ba9dedb829 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | af5ba77a-8d77-4a4f-8842-23ba9dedb829 |
+

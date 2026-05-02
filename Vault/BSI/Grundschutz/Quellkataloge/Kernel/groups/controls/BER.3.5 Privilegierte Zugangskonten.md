@@ -7,7 +7,7 @@ tags:
 - insider_threat
 - privilegierte_rechte
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.5 Privilegierte Zugangskonten
@@ -24,7 +24,12 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.5 - Privilegierte Zugangskonten
-> [!example]- Tags:> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)> [Privilegierte Rechte](../../../../namespaces/entries/tags_Privilegierte_Rechte.md)
+> [!example]- Tags:
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)
+> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [Privilegierte Rechte](../../../../namespaces/entries/tags_Privilegierte_Rechte.md)
+
 Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 ---
 
@@ -36,11 +41,21 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->Zugangskonten mit privilegierten Rechten (Superuser wie z.B. root) könnten durch menschliche Fehler oder Schadcode weitreichende Probleme verursachen. Bewährt hat es sich daher für administrative Tätigkeiten wie die Installation von Anwendungen dedizierte Zugangskonten einzurichten und diese auch nur für derartige Tätigkeiten zu verwenden. Für normale Geschäftsaktivitäten wie E-Mail oder Webbrowser nutzen auch Administrierende dann ausschließlich Zugangskonten ohne administrative Berechtigungen.
+> Zugangskonten mit privilegierten Rechten (Superuser wie z.B. root) könnten durch menschliche Fehler oder Schadcode weitreichende Probleme verursachen. Bewährt hat es sich daher für administrative Tätigkeiten wie die Installation von Anwendungen dedizierte Zugangskonten einzurichten und diese auch nur für derartige Tätigkeiten zu verwenden. Für normale Geschäftsaktivitäten wie E-Mail oder Webbrowser nutzen auch Administrierende dann ausschließlich Zugangskonten ohne administrative Berechtigungen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4791c533-f811-48cf-9957-6e1d438028f5 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 4791c533-f811-48cf-9957-6e1d438028f5 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 4791c533-f811-48cf-9957-6e1d438028f5 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 4791c533-f811-48cf-9957-6e1d438028f5 |
 
-> [!info]- Links> > related: [SENS.10.5 Systemadministration - Internetnutzung](./SENS.10.5%20Systemadministration%20-%20Internetnutzung.md)
+
+> [!info]- Links
+> > related: [SENS.10.5 Systemadministration - Internetnutzung](./SENS.10.5%20Systemadministration%20-%20Internetnutzung.md)
+

@@ -5,7 +5,7 @@ tags:
 - hochverfügbarkeit
 - failover
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.8.3 Redundante Server
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.8.3 - Redundante Server
-> [!example]- Tags:> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)> [Failover](../../../../namespaces/entries/tags_Failover.md)
+> [!example]- Tags:
+> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+> [Failover](../../../../namespaces/entries/tags_Failover.md)
+
 Gruppe: [ARCH.8 Ausfallsicherheit](../ARCH.8%20Ausfallsicherheit.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [ARCH.8 Ausfallsicherheit](../ARCH.8%20Ausfallsicherheit.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Ausfallsicherheit](../ARCH.8%20Ausfallsicherheit.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | für die Funktionsfähigkeit der Anwendung erforderliche Hostsysteme redundant |  | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN für die Funktionsfähigkeit der Anwendung erforderliche Hostsysteme redundant installieren.</span>
 
 > [!info]- Guidance
->Redundanz ist gegeben, wenn sowohl das System als auch seine Netzanbindung redundant vorhanden sind. Das System selbst ist nur redundant, wenn auch seine Datenspeicher und Stromversorgung redundant ausgelegt sind. Automatische Umschaltung meint das Failover. Die Anforderung kann durch netzbasierte Load Balancer oder serverseitige automatisch Umschaltung umgesetzt werden (z.B. durch Hello-Pakete).
+> Redundanz ist gegeben, wenn sowohl das System als auch seine Netzanbindung redundant vorhanden sind. Das System selbst ist nur redundant, wenn auch seine Datenspeicher und Stromversorgung redundant ausgelegt sind. Automatische Umschaltung meint das Failover. Die Anforderung kann durch netzbasierte Load Balancer oder serverseitige automatisch Umschaltung umgesetzt werden (z.B. durch Hello-Pakete).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d1a0c0ac-dc2e-4d90-b67d-b76eec256915 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | d1a0c0ac-dc2e-4d90-b67d-b76eec256915 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d1a0c0ac-dc2e-4d90-b67d-b76eec256915 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | d1a0c0ac-dc2e-4d90-b67d-b76eec256915 |
+

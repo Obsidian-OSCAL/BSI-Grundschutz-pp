@@ -5,7 +5,7 @@ tags:
 - insider_threat
 - kompetenzmanagement
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.6.1 Vorgehensweise für den Weggang
@@ -21,22 +21,36 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.6.1 - Vorgehensweise für den Weggang
-> [!example]- Tags:> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)> [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+> [!example]- Tags:
+> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+
 Gruppe: [PERS.6 Weggang von Mitarbeitenden](../PERS.6%20Weggang%20von%20Mitarbeitenden.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [PERS.6.1.1 Entzug von Berechtigungen gemäß BER](./PERS.6.1.1%20Entzug%20von%20Berechtigungen%20gemäß%20BER.md)> [PERS.6.1.2 Neubesetzung](./PERS.6.1.2%20Neubesetzung.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Personal (PERS)](../PERS%20Personal.md)*<br> *  &rarr; [Weggang von Mitarbeitenden](../PERS.6%20Weggang%20von%20Mitarbeitenden.md) *</div> | [Personal](../../../../namespaces/entries/practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | eine Vorgehensweise für den Weggang |  | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [Prozess Personalmanagement](../../../../namespaces/entries/documentation_guidelines_Prozess_Personalmanagement.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Nutzende SOLLTE eine Vorgehensweise für den Weggang verankern.</span>
 
 > [!info]- Guidance
->Wenn Nutzende ohne gesteuertes Vorgehen aus dem Informationsverbund ausscheiden, könnten Zugänge oder Aufgaben unkontrolliert zurückgelassen werden, oder Informationen ungewollt an Dritte abfließen. Hierzu gehört z.B. Mitarbeitende an die Wahrung von Betriebs- und Geschäftsgeheimnissen zu erinnern. Außerdem sind von ausscheidenden Mitarbeitenden alle im Rahmen ihrer Tätigkeit erhaltenen Unterlagen, Schlüssel und Geräte sowie Ausweise und Zutrittsberechtigungen einzuziehen. Hierbei besteht ein enger Zusammenhang zum Berechtigungsmanagement.
+> Wenn Nutzende ohne gesteuertes Vorgehen aus dem Informationsverbund ausscheiden, könnten Zugänge oder Aufgaben unkontrolliert zurückgelassen werden, oder Informationen ungewollt an Dritte abfließen. Hierzu gehört z.B. Mitarbeitende an die Wahrung von Betriebs- und Geschäftsgeheimnissen zu erinnern. Außerdem sind von ausscheidenden Mitarbeitenden alle im Rahmen ihrer Tätigkeit erhaltenen Unterlagen, Schlüssel und Geräte sowie Ausweise und Zutrittsberechtigungen einzuziehen. Hierbei besteht ein enger Zusammenhang zum Berechtigungsmanagement.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae |
 
-> [!info]- Links> > related: [BER.2.5 Deaktivierung bei Weggang](./BER.2.5%20Deaktivierung%20bei%20Weggang.md)
+
+> [!info]- Links
+> > related: [BER.2.5 Deaktivierung bei Weggang](./BER.2.5%20Deaktivierung%20bei%20Weggang.md)
+

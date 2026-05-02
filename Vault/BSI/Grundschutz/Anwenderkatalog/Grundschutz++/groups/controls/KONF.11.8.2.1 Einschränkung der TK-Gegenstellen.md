@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - pstn
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.11.8.2.1 Einschränkung der TK-Gegenstellen
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.8.2.1 - Einschränkung der TK-Gegenstellen
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [PSTN](../../../../namespaces/entries/tags_PSTN.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [PSTN](../../../../namespaces/entries/tags_PSTN.md)
+
 Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [TK-Anwendungen](../../../../namespaces/entries/target_object_categories_TK-Anwendungen_67f74abf-162d-4e47-a24a-6ff53e9b124d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Verbindungen mit externen Gegenstellen |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für TK-Anwendungen SOLLTE Verbindungen mit externen Gegenstellen einschränken.</span>
 
 > [!info]- Guidance
->Telekommunikation mit externen Stellen ist essenziell für viele Geschäftsprozesse, aber auch beliebtes Ziel für Social Engineering und technische Angriffe. Kann z.B. durch eine Beschränkung auf europäische Rufnummernkreise oder den Ausschluss unerwünschter IP-Adressbereiche umgesetzt werden.
+> Telekommunikation mit externen Stellen ist essenziell für viele Geschäftsprozesse, aber auch beliebtes Ziel für Social Engineering und technische Angriffe. Kann z.B. durch eine Beschränkung auf europäische Rufnummernkreise oder den Ausschluss unerwünschter IP-Adressbereiche umgesetzt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 756c0796-be3d-492d-a64e-3314f6d83805 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 756c0796-be3d-492d-a64e-3314f6d83805 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 756c0796-be3d-492d-a64e-3314f6d83805 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 756c0796-be3d-492d-a64e-3314f6d83805 |
+

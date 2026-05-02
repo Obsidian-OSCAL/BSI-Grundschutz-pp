@@ -5,7 +5,7 @@ tags:
 - security_by_design
 - produktbeschreibung
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.2.6.2 Ausgabekodierung
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.6.2 - Ausgabekodierung
-> [!example]- Tags:> [Security by Design](../../../../namespaces/entries/tags_Security_by_Design.md)> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- Tags:
+> [Security by Design](../../../../namespaces/entries/tags_Security_by_Design.md)
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](../DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [DEV.2 Softwareentwicklung - Security by Design](../DEV.2%20Softwareentw
 | <div style="background:#cccccc">*[Entwicklung (DEV)](../DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Security by Design](../DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *</div> | [Entwicklung](../../../../namespaces/entries/practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | eine Ausgabekodierung |  | [ausführen](../../../../namespaces/entries/action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe.md) | [Freigabeplan](../../../../namespaces/entries/documentation_guidelines_Freigabeplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE eine Ausgabekodierung ausführen.</span>
 
 > [!info]- Guidance
->Ausgabekodierung (Output Encoding) ist wichtig, da sie spezielle Zeichen neutralisiert und so Angriffe wie Cross-Site Scripting (XSS) oder HTML-Injektionen verhindert, die ansonsten Schadcode ausführen könnten. Empfehlenswert ist kontextabhängiges Encoding und Escaping, basierend auf standardisierten Frameworks wie OWASP ESAPI.
+> Ausgabekodierung (Output Encoding) ist wichtig, da sie spezielle Zeichen neutralisiert und so Angriffe wie Cross-Site Scripting (XSS) oder HTML-Injektionen verhindert, die ansonsten Schadcode ausführen könnten. Empfehlenswert ist kontextabhängiges Encoding und Escaping, basierend auf standardisierten Frameworks wie OWASP ESAPI.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | dee85b12-b7f9-445e-802a-bbe13d67538e |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | dee85b12-b7f9-445e-802a-bbe13d67538e |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | dee85b12-b7f9-445e-802a-bbe13d67538e |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | dee85b12-b7f9-445e-802a-bbe13d67538e |
+

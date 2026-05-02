@@ -5,7 +5,7 @@ tags:
 - authentication_and_authorization
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.4.1 Personengebundene Authentisierungsmittel
@@ -21,22 +21,36 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1 - Personengebundene Authentisierungsmittel
-> [!example]- Tags:> [Authentication and Authorization](../../../../namespaces/entries/tags_Authentication_and_Authorization.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Authentication and Authorization](../../../../namespaces/entries/tags_Authentication_and_Authorization.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [SENS.4 Authentisierung](../SENS.4%20Authentisierung.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [SENS.4.1.1 Verdeckte Eingabe](./SENS.4.1.1%20Verdeckte%20Eingabe.md)> [SENS.4.1.2 Untersagung von Passwort Recycling](./SENS.4.1.2%20Untersagung%20von%20Passwort%20Recycling.md)> [SENS.4.1.3 Wahl von Passwörtern](./SENS.4.1.3%20Wahl%20von%20Passwörtern.md)> [SENS.4.1.4 Passwörter nur im Passwortmanager](./SENS.4.1.4%20Passwörter%20nur%20im%20Passwortmanager.md)> [SENS.4.1.5 Biometrische Authentifikation](./SENS.4.1.5%20Biometrische%20Authentifikation.md)> [SENS.4.1.6 Keine Weitergabe personengebundener Authentisierungsmittel](./SENS.4.1.6%20Keine%20Weitergabe%20personengebundener%20Authentisierungsmittel.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Sensibilisierung (SENS)](../SENS%20Sensibilisierung.md)*<br> *  &rarr; [Authentisierung](../SENS.4%20Authentisierung.md) *</div> | [Sensibilisierung](../../../../namespaces/entries/practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | zum Umgang mit Authentisierungsmitteln | im Einklang mit den zugehörigen Anforderungen des Identitäts- und Berechtigungsmanagements | [sensibilisieren](../../../../namespaces/entries/action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b.md) | [Schulungsplan](../../../../namespaces/entries/documentation_guidelines_Schulungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zum Umgang mit Authentisierungsmitteln im Einklang mit den zugehörigen Anforderungen des Identitäts- und Berechtigungsmanagements sensibilisieren.</span>
 
 > [!info]- Guidance
->Authentisierungsmittel sind alle Methoden oder Technologien, die zur Überprüfung der Identität verwendet werden, z.B. Passwörter, Zugangschipkarte, Ausweis. Um Missbrauch zu vermeiden ist es wichtig, diese (1) geschützt aufzubewahren und niemals weiterzugeben, (2) den Verdacht, dass ein Passwort oder Token kompromittiert sein könnte, sofort zu melden und (3) aufmerksam gegenüber ungewöhnlichen Login-Masken oder Aufforderungen zu sein, die Zugangsdaten außerhalb der gewohnten Systeme einzugeben.
+> Authentisierungsmittel sind alle Methoden oder Technologien, die zur Überprüfung der Identität verwendet werden, z.B. Passwörter, Zugangschipkarte, Ausweis. Um Missbrauch zu vermeiden ist es wichtig, diese (1) geschützt aufzubewahren und niemals weiterzugeben, (2) den Verdacht, dass ein Passwort oder Token kompromittiert sein könnte, sofort zu melden und (3) aufmerksam gegenüber ungewöhnlichen Login-Masken oder Aufforderungen zu sein, die Zugangsdaten außerhalb der gewohnten Systeme einzugeben.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | fbdb73ce-38c5-466f-84a3-218a7d73eda9 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | fbdb73ce-38c5-466f-84a3-218a7d73eda9 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | fbdb73ce-38c5-466f-84a3-218a7d73eda9 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | fbdb73ce-38c5-466f-84a3-218a7d73eda9 |
 
-> [!info]- Links> > required: [BER.7.5 Kriterien für die Qualität von Zufallszahlen](./BER.7.5%20Kriterien%20für%20die%20Qualität%20von%20Zufallszahlen.md)
+
+> [!info]- Links
+> > required: [BER.7.5 Kriterien für die Qualität von Zufallszahlen](./BER.7.5%20Kriterien%20für%20die%20Qualität%20von%20Zufallszahlen.md)
+

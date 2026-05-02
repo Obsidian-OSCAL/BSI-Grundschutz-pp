@@ -6,7 +6,7 @@ tags:
 - phishing
 - denial_of_service
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.15.3 Denial of Service
@@ -21,7 +21,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.15.3 - Denial of Service
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Phishing](../../../../namespaces/entries/tags_Phishing.md)> [Denial of Service](../../../../namespaces/entries/tags_Denial_of_Service.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Phishing](../../../../namespaces/entries/tags_Phishing.md)
+> [Denial of Service](../../../../namespaces/entries/tags_Denial_of_Service.md)
+
 Gruppe: [KONF.15 Ressourcenauslastung](../KONF.15%20Ressourcenauslastung.md)
 ---
 
@@ -31,9 +35,17 @@ Gruppe: [KONF.15 Ressourcenauslastung](../KONF.15%20Ressourcenauslastung.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Ressourcenauslastung](../KONF.15%20Ressourcenauslastung.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | Anwendungen, Hostsysteme | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Schutzmaßnahmen gegen Denial of Service |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen von Hostsystemen KANN Schutzmaßnahmen gegen Denial of Service aktivieren.</span>
 
 > [!info]- Guidance
->Denial-of-Service-Angriffe zielen darauf ab, die Webanwendung für legitime Nutzende nicht mehr erreichbar zu machen. Webanwendungen im öffentlichen Interesse sind häufig Ziel derartiger Angriffe. Mechanismen wie Content Delivery Network und Load Balancer können die Lastfähigkeit der Anwendung erhöhen, während Filterfunktionen Angriffsmuster erkennen und aus den Anfragen herausfiltern können.
+> Denial-of-Service-Angriffe zielen darauf ab, die Webanwendung für legitime Nutzende nicht mehr erreichbar zu machen. Webanwendungen im öffentlichen Interesse sind häufig Ziel derartiger Angriffe. Mechanismen wie Content Delivery Network und Load Balancer können die Lastfähigkeit der Anwendung erhöhen, während Filterfunktionen Angriffsmuster erkennen und aus den Anfragen herausfiltern können.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 51947077-3600-48fc-83b0-5d5ff343d706 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 51947077-3600-48fc-83b0-5d5ff343d706 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 51947077-3600-48fc-83b0-5d5ff343d706 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 51947077-3600-48fc-83b0-5d5ff343d706 |
+

@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.7 Management-Netz
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.7 - Management-Netz
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | ein oder mehrere Management-Netze |  | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE ein oder mehrere Management-Netze installieren.</span>
 
 > [!info]- Guidance
->Ein Management-Netz ist ein physisch oder durch Netzfilter separiertes Netzsegment, das dediziert für die Überwachung, Verwaltung und Wartung von IT-Systemen bestimmt ist. Es ist von anderen Produktions- und Datennetzen getrennt, um den Zugriff auf kritische Verwaltungsfunktionen zu schützen und die Verfügbarkeit dieser Zugänge auch bei Problemen im restlichen Netz zu sichern. Dies gilt auch für virtualisierte Systeme. Im Kontext der Containerisierung empfiehlt es sich, administrative Zugänge auf Applikations-Container immer über die Container-Runtime erfolgen zu lassen.
+> Ein Management-Netz ist ein physisch oder durch Netzfilter separiertes Netzsegment, das dediziert für die Überwachung, Verwaltung und Wartung von IT-Systemen bestimmt ist. Es ist von anderen Produktions- und Datennetzen getrennt, um den Zugriff auf kritische Verwaltungsfunktionen zu schützen und die Verfügbarkeit dieser Zugänge auch bei Problemen im restlichen Netz zu sichern. Dies gilt auch für virtualisierte Systeme. Im Kontext der Containerisierung empfiehlt es sich, administrative Zugänge auf Applikations-Container immer über die Container-Runtime erfolgen zu lassen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d02f23d0-9c15-4811-838f-6440ee744334 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | d02f23d0-9c15-4811-838f-6440ee744334 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d02f23d0-9c15-4811-838f-6440ee744334 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | d02f23d0-9c15-4811-838f-6440ee744334 |
+

@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - living_off_the_land
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.6.4 Privilegierte Systemfunktionen
@@ -21,20 +21,32 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.4 - Privilegierte Systemfunktionen
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Living off the land](../../../../namespaces/entries/tags_Living_off_the_land.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Living off the land](../../../../namespaces/entries/tags_Living_off_the_land.md)
+
 Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [KONF.6.4.1 Rollenbasierte Privilegierung](./KONF.6.4.1%20Rollenbasierte%20Privilegierung.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigungen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | privilegierte Funktionen |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme SOLLTE privilegierte Funktionen einschränken.</span>
 
 > [!info]- Guidance
->Sind privilegierte Funktionen nicht eingeschränkt, so könnten Innentäter oder Angreifer über das Netz unbefugte Manipulationen vornehmen, Fehlkonfigurationen ausgelöst werden oder sich Schadcode automatisch einnisten. Privilegierte Funktionen können z.B. ein lokales Berechtigungsmanagement, die Installation von Anwendungen, der Schreibzugriff auf Systemverzeichnisse oder die Änderung der Systemkonfiguration sein.
+> Sind privilegierte Funktionen nicht eingeschränkt, so könnten Innentäter oder Angreifer über das Netz unbefugte Manipulationen vornehmen, Fehlkonfigurationen ausgelöst werden oder sich Schadcode automatisch einnisten. Privilegierte Funktionen können z.B. ein lokales Berechtigungsmanagement, die Installation von Anwendungen, der Schreibzugriff auf Systemverzeichnisse oder die Änderung der Systemkonfiguration sein.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | f129ae20-1423-4df0-a735-db8365592cd1 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | f129ae20-1423-4df0-a735-db8365592cd1 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | f129ae20-1423-4df0-a735-db8365592cd1 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | f129ae20-1423-4df0-a735-db8365592cd1 |
+

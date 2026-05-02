@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.12 Sprungserver
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.12 - Sprungserver
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -32,9 +35,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) |  | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Sprungserver |  | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur KANN Sprungserver installieren.</span>
 
 > [!info]- Guidance
->Ein Sprungserver (englisch „jump server“ oder „jump host“) ist ein speziell abgesicherter Server, der als einzig vorgesehener Einstiegspunkt in ein Verwaltungsnetz oder zu administrierten Systemen dient. Alle administrativen Sitzungen laufen über diesen zentralen Knotenpunkt, wodurch die Angriffsfläche reduziert und die Nachvollziehbarkeit erhöht wird. Ohne Sprungserver könnte ein Angreifer beispielsweise über kompromittierte Administrator-Notebooks unbemerkt direkt auf zentrale Systeme zugreifen und dort Manipulationen durchführen. Ein Sprungserver kann hingegen alle Management-Zugriffe zentral kanalisieren, sodass verdächtige Aktivitäten leichter erkannt und im Nachhinein nachvollzogen werden können. Praktische Umsetzungen können sein: (1) der Einsatz eines dedizierten, gehärteten Servers mit restriktiven Firewall-Regeln, (2) die Nutzung von Mehrfaktor-Authentisierung und zentralem Benutzer-Management auf dem Sprungserver, (3) eine verpflichtende Session-Aufzeichnung oder Protokollierung sämtlicher Administrationsvorgänge.
+> Ein Sprungserver (englisch „jump server“ oder „jump host“) ist ein speziell abgesicherter Server, der als einzig vorgesehener Einstiegspunkt in ein Verwaltungsnetz oder zu administrierten Systemen dient. Alle administrativen Sitzungen laufen über diesen zentralen Knotenpunkt, wodurch die Angriffsfläche reduziert und die Nachvollziehbarkeit erhöht wird. Ohne Sprungserver könnte ein Angreifer beispielsweise über kompromittierte Administrator-Notebooks unbemerkt direkt auf zentrale Systeme zugreifen und dort Manipulationen durchführen. Ein Sprungserver kann hingegen alle Management-Zugriffe zentral kanalisieren, sodass verdächtige Aktivitäten leichter erkannt und im Nachhinein nachvollzogen werden können. Praktische Umsetzungen können sein: (1) der Einsatz eines dedizierten, gehärteten Servers mit restriktiven Firewall-Regeln, (2) die Nutzung von Mehrfaktor-Authentisierung und zentralem Benutzer-Management auf dem Sprungserver, (3) eine verpflichtende Session-Aufzeichnung oder Protokollierung sämtlicher Administrationsvorgänge.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | c907e5e0-bccc-4467-9962-7f4972b0ad8f |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | c907e5e0-bccc-4467-9962-7f4972b0ad8f |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | c907e5e0-bccc-4467-9962-7f4972b0ad8f |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | c907e5e0-bccc-4467-9962-7f4972b0ad8f |
+

@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.3.3 Unzuverlässige Lieferanten
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.3.3 - Unzuverlässige Lieferanten
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [BES.3 Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.md)
 ---
 
@@ -31,11 +34,21 @@ Gruppe: [BES.3 Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.m
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Beschaffung aus einer unbekannten oder unzuverlässigen Quelle |  | [untersagen](../../../../namespaces/entries/action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed.md) | [Prozess Beschaffung](../../../../namespaces/entries/documentation_guidelines_Prozess_Beschaffung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE die Beschaffung aus einer unbekannten oder unzuverlässigen Quelle untersagen.</span>
 
 > [!info]- Guidance
->Eine Quelle (z.B. ein Softwarelieferant) ist unzuverlässig, wenn zukünftig mit Verstößen gegen die Schutzziele Vertraulichkeit, Verfügbarkeit oder Integrität durch ihn zu rechnen ist (d.h. eine Prognose der Vertrauenswürdigkeit). Dies ist insbesondere der Fall, wenn erhebliche Verstöße gegen die Schutzziele durch ihn begangen worden sind oder Anzeichen dafür vorliegen, dass bei einer Verwendung mit solchen Verstößen zu rechnen ist.
+> Eine Quelle (z.B. ein Softwarelieferant) ist unzuverlässig, wenn zukünftig mit Verstößen gegen die Schutzziele Vertraulichkeit, Verfügbarkeit oder Integrität durch ihn zu rechnen ist (d.h. eine Prognose der Vertrauenswürdigkeit). Dies ist insbesondere der Fall, wenn erhebliche Verstöße gegen die Schutzziele durch ihn begangen worden sind oder Anzeichen dafür vorliegen, dass bei einer Verwendung mit solchen Verstößen zu rechnen ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44 |
 
-> [!info]- Links> > related: [DEV.4.2 Bibliotheksquellen](./DEV.4.2%20Bibliotheksquellen.md)
+
+> [!info]- Links
+> > related: [DEV.4.2 Bibliotheksquellen](./DEV.4.2%20Bibliotheksquellen.md)
+

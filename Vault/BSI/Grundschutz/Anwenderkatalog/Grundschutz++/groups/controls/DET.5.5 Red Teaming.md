@@ -6,7 +6,7 @@ tags:
 - advanced_persistent_threats_apt
 - det55-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.5 Red Teaming
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.5 - Red Teaming
-> [!example]- Tags:> [Pentest](../../../../namespaces/entries/tags_Pentest.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Pentest](../../../../namespaces/entries/tags_Pentest.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schw
 | <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die tatsächliche Abwehrfähigkeit | {{regelmäßig}} durch unabhängig agierende Sicherheitsexperten | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für IT-Systeme KANN die tatsächliche Abwehrfähigkeit {{ insert: param, det.5.5-prm1 }} durch unabhängig agierende Sicherheitsexperten überprüfen.</span>
 
 > [!info]- Guidance
->Red Teaming ist ein strukturierter, realitätsnaher Sicherheitstest, bei dem ein sogenanntes Red Team – also ein unabhängiges, offensiv agierendes Expertenteam – versucht, unter realen Bedingungen in IT-Systeme, Netzwerke oder Anwendungen einzudringen, um Schwachstellen und Reaktionslücken aufzudecken. Dadurch wird nicht nur die technische Abwehr getestet, sondern auch organisatorische und menschliche Faktoren, etwa die Wirksamkeit von Incident-Response-Prozessen, Alarmierungsketten oder die Reaktion des Security Operations Center (SOC). Solche regelmäßigen Überprüfungen durch unabhängige Red Teams ermöglichen einen objektiven und unvoreingenommenen Blick auf die aktuellen Stärken und Schwächen der Sicherheitsmaßnahmen, wodurch Schwachstellen frühzeitig erkannt werden können. Unabhängig ist ein Red Team dabei, wenn es organisatorisch und personell getrennt vom Betriebspersonal und dessen Weisungshierarchie (Blue Team) agiert, sodass keine Interessenkonflikte die objektive Bewertung gefährden.
+> Red Teaming ist ein strukturierter, realitätsnaher Sicherheitstest, bei dem ein sogenanntes Red Team – also ein unabhängiges, offensiv agierendes Expertenteam – versucht, unter realen Bedingungen in IT-Systeme, Netzwerke oder Anwendungen einzudringen, um Schwachstellen und Reaktionslücken aufzudecken. Dadurch wird nicht nur die technische Abwehr getestet, sondern auch organisatorische und menschliche Faktoren, etwa die Wirksamkeit von Incident-Response-Prozessen, Alarmierungsketten oder die Reaktion des Security Operations Center (SOC). Solche regelmäßigen Überprüfungen durch unabhängige Red Teams ermöglichen einen objektiven und unvoreingenommenen Blick auf die aktuellen Stärken und Schwächen der Sicherheitsmaßnahmen, wodurch Schwachstellen frühzeitig erkannt werden können. Unabhängig ist ein Red Team dabei, wenn es organisatorisch und personell getrennt vom Betriebspersonal und dessen Weisungshierarchie (Blue Team) agiert, sodass keine Interessenkonflikte die objektive Bewertung gefährden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ea34243d-adc3-4208-ab4e-25247aa8c009 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | ea34243d-adc3-4208-ab4e-25247aa8c009 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | ea34243d-adc3-4208-ab4e-25247aa8c009 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | ea34243d-adc3-4208-ab4e-25247aa8c009 |
+

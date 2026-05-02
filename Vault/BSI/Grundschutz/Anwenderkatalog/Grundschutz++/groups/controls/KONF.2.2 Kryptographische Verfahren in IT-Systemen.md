@@ -5,7 +5,7 @@ tags:
 - cryptography
 - konf22-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.2.2 Kryptographische Verfahren in IT-Systemen
@@ -31,11 +31,21 @@ Gruppe: [KONF.2 Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Sy
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Systemen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | kryptographische Verfahren | nach {{anerkannten Standards}} im Einklang mit den zugehörigen Anforderungen zum Identitäts- und Berechtigungsmanagement | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme SOLLTE kryptographische Verfahren nach {{ insert: param, konf.2.2-prm1 }} im Einklang mit den zugehörigen Anforderungen zum Identitäts- und Berechtigungsmanagement aktivieren.</span>
 
 > [!info]- Guidance
->Kryptographie wird für die Authentifizierung, Verschlüsselung und Integritätprüfung in Systemen verwendet, z.B. bei der Verschlüsselung von Speichermedien, bei der Anmeldung am System, Transportverschlüsselung von Systemupdates oder Integritätsprüfung von Systemfunktionen. Die Formulierung "im Einklang mit den zugehörigen Anforderungen zum Identitäts- und Berechtigungsmanagement" bedeutet, dass die Funktionen so zu konfigurieren sind, wie in der Praktik Berechtigung (BER) festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist.
+> Kryptographie wird für die Authentifizierung, Verschlüsselung und Integritätprüfung in Systemen verwendet, z.B. bei der Verschlüsselung von Speichermedien, bei der Anmeldung am System, Transportverschlüsselung von Systemupdates oder Integritätsprüfung von Systemfunktionen. Die Formulierung "im Einklang mit den zugehörigen Anforderungen zum Identitäts- und Berechtigungsmanagement" bedeutet, dass die Funktionen so zu konfigurieren sind, wie in der Praktik Berechtigung (BER) festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | e4570c64-4790-4a5c-95e4-4c168d447566 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | e4570c64-4790-4a5c-95e4-4c168d447566 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | e4570c64-4790-4a5c-95e4-4c168d447566 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | e4570c64-4790-4a5c-95e4-4c168d447566 |
 
-> [!info]- Links> > related: [BER.1.1 Verfahren und Regelungen](./BER.1.1%20Verfahren%20und%20Regelungen.md)
+
+> [!info]- Links
+> > related: [BER.1.1 Verfahren und Regelungen](./BER.1.1%20Verfahren%20und%20Regelungen.md)
+

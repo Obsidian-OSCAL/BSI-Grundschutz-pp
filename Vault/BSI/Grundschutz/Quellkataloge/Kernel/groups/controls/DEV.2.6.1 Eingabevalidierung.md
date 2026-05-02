@@ -5,7 +5,7 @@ tags:
 - security_by_design
 - produktbeschreibung
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.2.6.1 Eingabevalidierung
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.2.6.1 - Eingabevalidierung
-> [!example]- Tags:> [Security by Design](../../../../namespaces/entries/tags_Security_by_Design.md)> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- Tags:
+> [Security by Design](../../../../namespaces/entries/tags_Security_by_Design.md)
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](../DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
@@ -33,11 +36,21 @@ Gruppe: [DEV.2 Softwareentwicklung - Security by Design](../DEV.2%20Softwareentw
 | <div style="background:#cccccc">*[Entwicklung (DEV)](../DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Security by Design](../DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md) *</div> | [Entwicklung](../../../../namespaces/entries/practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Eingabedaten | auf eingeschleuste Befehle | [testen](../../../../namespaces/entries/action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165.md) | [Freigabeplan](../../../../namespaces/entries/documentation_guidelines_Freigabeplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE Eingabedaten auf eingeschleuste Befehle testen.</span>
 
 > [!info]- Guidance
->Bei der Eingabevalidierung (Input Validation) wird getestet, ob die Eingabedaten eingeschleuste Befehle enthalten, z.B. SQL-Injection, Kommandozeilenbefehle oder Prompt Injection bei generativer KI.   Welche Eingaben betroffen sein könnten, kann durch eine Taint Analyse herausgefunden werden. Alternativ können auch alle Eingabedaten validiert werden (Server Side Validation).
+> Bei der Eingabevalidierung (Input Validation) wird getestet, ob die Eingabedaten eingeschleuste Befehle enthalten, z.B. SQL-Injection, Kommandozeilenbefehle oder Prompt Injection bei generativer KI.   Welche Eingaben betroffen sein könnten, kann durch eine Taint Analyse herausgefunden werden. Alternativ können auch alle Eingabedaten validiert werden (Server Side Validation).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 467ae9d3-922b-44eb-9527-d617416e5330 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 467ae9d3-922b-44eb-9527-d617416e5330 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 467ae9d3-922b-44eb-9527-d617416e5330 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 467ae9d3-922b-44eb-9527-d617416e5330 |
 
-> [!info]- Links> > related: [KONF.12.1 Eingabevalidierung](./KONF.12.1%20Eingabevalidierung.md)
+
+> [!info]- Links
+> > related: [KONF.12.1 Eingabevalidierung](./KONF.12.1%20Eingabevalidierung.md)
+

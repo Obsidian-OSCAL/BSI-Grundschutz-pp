@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - shared_responsibility_model
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.1.7 Vereinbarung der geteilten Verantwortung
@@ -20,7 +20,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.7 - Vereinbarung der geteilten Verantwortung
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Shared Responsibility Model](../../../../namespaces/entries/tags_Shared_Responsibility_Model.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Shared Responsibility Model](../../../../namespaces/entries/tags_Shared_Responsibility_Model.md)
+
 Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 ---
 
@@ -30,11 +33,21 @@ Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Grundlagen](../BES.1%20Grundlagen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Cloud-Dienste](../../../../namespaces/entries/target_object_categories_Cloud-Dienste_d2a23b62-9c66-4f72-98e2-17518d5dbe0f.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | für jeden Cloud-Dienst mit dem Anbieter die geteilte Verantwortung |  | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Cloud-Dienste SOLLTE für jeden Cloud-Dienst mit dem Anbieter die geteilte Verantwortung vereinbaren.</span>
 
 > [!info]- Guidance
->Die Anforderung ist erst dann umgesetzt, wenn auch zwischen den Vertragspartnern das Bereitstellungsmodell explizit vereinbart ist, so dass die Verteilung der Verantwortlichkeiten (Shared Responsibility) für Schutzmaßnahmen zwischen Institution und Dienstleister klar geregelt ist.
+> Die Anforderung ist erst dann umgesetzt, wenn auch zwischen den Vertragspartnern das Bereitstellungsmodell explizit vereinbart ist, so dass die Verteilung der Verantwortlichkeiten (Shared Responsibility) für Schutzmaßnahmen zwischen Institution und Dienstleister klar geregelt ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 6cc29c32-b75a-4a6f-b260-1e5038f37866 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 6cc29c32-b75a-4a6f-b260-1e5038f37866 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 6cc29c32-b75a-4a6f-b260-1e5038f37866 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 6cc29c32-b75a-4a6f-b260-1e5038f37866 |
 
-> [!info]- Links> > required: [BES.1.5 Autorisierung des Bereitstellungsmodells](./BES.1.5%20Autorisierung%20des%20Bereitstellungsmodells.md)
+
+> [!info]- Links
+> > required: [BES.1.5 Autorisierung des Bereitstellungsmodells](./BES.1.5%20Autorisierung%20des%20Bereitstellungsmodells.md)
+

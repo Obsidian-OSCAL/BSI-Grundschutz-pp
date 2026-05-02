@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - shared_responsibility_model
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.1.6 Dokumentation des Bereitstellungsmodells
@@ -20,7 +20,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.6 - Dokumentation des Bereitstellungsmodells
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Shared Responsibility Model](../../../../namespaces/entries/tags_Shared_Responsibility_Model.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Shared Responsibility Model](../../../../namespaces/entries/tags_Shared_Responsibility_Model.md)
+
 Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 ---
 
@@ -30,9 +33,17 @@ Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Grundlagen](../BES.1%20Grundlagen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Cloud-Dienste](../../../../namespaces/entries/target_object_categories_Cloud-Dienste_d2a23b62-9c66-4f72-98e2-17518d5dbe0f.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | für jeden Cloud-Dienst das gewünschte Bereitstellungsmodell | mit Ausführung der geteilten Verantwortlichkeiten | [dokumentieren](../../../../namespaces/entries/action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Cloud-Dienste SOLLTE für jeden Cloud-Dienst das gewünschte Bereitstellungsmodell mit Ausführung der geteilten Verantwortlichkeiten dokumentieren.</span>
 
 > [!info]- Guidance
->Hiermit ist die bewusste Entscheidung für ein Modell und die konzeptionelle Umsetzung ("Shared Responsibility") dieser Entscheidung gemeint. Bereitstellungsmodelle sind z.B.: Public Cloud, Private Cloud, Community Cloud, Hybrid Cloud. Es kann in der Praxis aber zu dadurch nicht abgedeckten Varianten, wie z. B. "Virtual Private Cloud" kommen.
+> Hiermit ist die bewusste Entscheidung für ein Modell und die konzeptionelle Umsetzung ("Shared Responsibility") dieser Entscheidung gemeint. Bereitstellungsmodelle sind z.B.: Public Cloud, Private Cloud, Community Cloud, Hybrid Cloud. Es kann in der Praxis aber zu dadurch nicht abgedeckten Varianten, wie z. B. "Virtual Private Cloud" kommen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 43e11ef1-4161-444d-ba0d-0fed61d31dd8 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 43e11ef1-4161-444d-ba0d-0fed61d31dd8 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 43e11ef1-4161-444d-ba0d-0fed61d31dd8 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 43e11ef1-4161-444d-ba0d-0fed61d31dd8 |
+

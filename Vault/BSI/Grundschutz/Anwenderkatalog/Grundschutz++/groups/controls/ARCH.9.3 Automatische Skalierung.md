@@ -6,7 +6,7 @@ tags:
 - ddos
 - arch93-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.3 Automatische Skalierung
@@ -22,7 +22,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.3 - Automatische Skalierung
-> [!example]- Tags:> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)> [DDoS](../../../../namespaces/entries/tags_DDoS.md)
+> [!example]- Tags:
+> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+> [DDoS](../../../../namespaces/entries/tags_DDoS.md)
+
 Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 ---
 
@@ -32,9 +35,17 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | eine automatische Skalierung der von der Anwendung verwendeten Computerinstanzen | anhand von {{Schwellwerten}} | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN eine automatische Skalierung der von der Anwendung verwendeten Computerinstanzen anhand von {{ insert: param, arch.9.3-prm1 }} aktivieren.</span>
 
 > [!info]- Guidance
->Automatische Skalierung ist die Fähigkeit einer Anwendungsarchitektur, die Anzahl der von einer Anwendung genutzten Serverinstanzen dynamisch und automatisiert zu erhöhen oder zu verringern. Grundlage für diese Anpassungen sind definierte Schwellwerte, die beispielsweise auf Metriken wie CPU-Auslastung, Speichernutzung oder Antwortzeiten beruhen können. Damit wird festgelegt, bei welchen messbaren Bedingungen zusätzliche Server gestartet oder wieder abgeschaltet werden. Typische Werte für Schwellwerte können etwa „80 % durchschnittliche CPU-Auslastung über 5 Minuten“, „weniger als 500 MB freier Arbeitsspeicher“ oder „Antwortzeit über 2 Sekunden bei mehr als 100 gleichzeitigen Anfragen“ sein. Ohne Auto-Scaling könnte es vorkommen, dass Anwendungen unter hoher Last nicht mehr reagieren, Datenverlust entsteht oder ganze Dienste für Nutzer unerreichbar werden. Umgekehrt kann Auto-Scaling helfen, Kosten und Ressourcen zu optimieren, indem ungenutzte Server wieder abgeschaltet werden. Eine sinnvolle Umsetzung kann beispielsweise durch den Einsatz von cloudbasierten Skalierungsgruppen erfolgen, die auf klar definierte Metriken reagieren, oder durch Virtualisierungsplattformen, die zusätzliche Instanzen automatisch bereitstellen. Praktische Tipps sind etwa (1) die Definition realistischer und getesteter Schwellwerte auf Basis historischer Lastprofile, (2) die Einrichtung von Stresstests, um das Verhalten bei Erreichen der Schwellwerte zu validieren, und (3) die Einführung von Alarmierungen, die Administratoren über ungewöhnlich häufiges Hoch- oder Runterskalieren informieren können. So kann die Institution sicherstellen, dass Auto-Scaling verlässlich funktioniert und gleichzeitig eine ökonomische Ressourcennutzung gewährleistet bleibt.
+> Automatische Skalierung ist die Fähigkeit einer Anwendungsarchitektur, die Anzahl der von einer Anwendung genutzten Serverinstanzen dynamisch und automatisiert zu erhöhen oder zu verringern. Grundlage für diese Anpassungen sind definierte Schwellwerte, die beispielsweise auf Metriken wie CPU-Auslastung, Speichernutzung oder Antwortzeiten beruhen können. Damit wird festgelegt, bei welchen messbaren Bedingungen zusätzliche Server gestartet oder wieder abgeschaltet werden. Typische Werte für Schwellwerte können etwa „80 % durchschnittliche CPU-Auslastung über 5 Minuten“, „weniger als 500 MB freier Arbeitsspeicher“ oder „Antwortzeit über 2 Sekunden bei mehr als 100 gleichzeitigen Anfragen“ sein. Ohne Auto-Scaling könnte es vorkommen, dass Anwendungen unter hoher Last nicht mehr reagieren, Datenverlust entsteht oder ganze Dienste für Nutzer unerreichbar werden. Umgekehrt kann Auto-Scaling helfen, Kosten und Ressourcen zu optimieren, indem ungenutzte Server wieder abgeschaltet werden. Eine sinnvolle Umsetzung kann beispielsweise durch den Einsatz von cloudbasierten Skalierungsgruppen erfolgen, die auf klar definierte Metriken reagieren, oder durch Virtualisierungsplattformen, die zusätzliche Instanzen automatisch bereitstellen. Praktische Tipps sind etwa (1) die Definition realistischer und getesteter Schwellwerte auf Basis historischer Lastprofile, (2) die Einrichtung von Stresstests, um das Verhalten bei Erreichen der Schwellwerte zu validieren, und (3) die Einführung von Alarmierungen, die Administratoren über ungewöhnlich häufiges Hoch- oder Runterskalieren informieren können. So kann die Institution sicherstellen, dass Auto-Scaling verlässlich funktioniert und gleichzeitig eine ökonomische Ressourcennutzung gewährleistet bleibt.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | bbfa749a-99a4-4ff3-9cce-5ceeb3162596 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | bbfa749a-99a4-4ff3-9cce-5ceeb3162596 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | bbfa749a-99a4-4ff3-9cce-5ceeb3162596 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | bbfa749a-99a4-4ff3-9cce-5ceeb3162596 |
+

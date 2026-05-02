@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen
@@ -22,7 +22,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.8.2 - Verfahren zur Übertragung von Geschäftsprozessen
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20Kontrollmechanismen.md)
 ---
 
@@ -34,9 +37,17 @@ Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20K
 > > | Begriff | Definition |> > | - | - |> > | [Geschäftsprozess](../../../../namespaces/entries/result_Geschäftsprozess_00000000-0000-0000-0000-000000000000.md) | Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Arbeitsabläufe), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. |
 
 > [!info]- Guidance
->Es empfiehlt sich diese Alternativen in einem Maßnahmenkatalog zu dokumentieren. Darin können z.B. alternative Dienstleister festgehalten werden, welche über das notwendige Niveau an Informationssicherheit verfügen, um den Prozess, welcher an den bisherigen Dienstleister ausgelagert wird, in gleichem Maße umzusetzen.
+> Es empfiehlt sich diese Alternativen in einem Maßnahmenkatalog zu dokumentieren. Darin können z.B. alternative Dienstleister festgehalten werden, welche über das notwendige Niveau an Informationssicherheit verfügen, um den Prozess, welcher an den bisherigen Dienstleister ausgelagert wird, in gleichem Maße umzusetzen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48 |
+

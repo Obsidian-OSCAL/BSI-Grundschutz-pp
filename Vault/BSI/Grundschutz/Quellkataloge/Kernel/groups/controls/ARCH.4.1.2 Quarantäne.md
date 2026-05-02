@@ -6,7 +6,7 @@ tags:
 - rogue_access_point
 - zero_trust
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.4.1.2 Quarantäne
@@ -23,7 +23,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.4.1.2 - Quarantäne
-> [!example]- Tags:> [Network Access Control](../../../../namespaces/entries/tags_Network_Access_Control.md)> [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [!example]- Tags:
+> [Network Access Control](../../../../namespaces/entries/tags_Network_Access_Control.md)
+> [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+
 Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 ---
 
@@ -34,9 +38,17 @@ Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Interne Netzsegmente](../../../../namespaces/entries/target_object_categories_Interne_Netzsegmente_8ef347e7-ea3f-4624-b0f3-2af728443301.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | ein Quarantänenetz | für nicht authentifizierte IT-Systeme | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Interne Netzsegmente KANN ein Quarantänenetz für nicht authentifizierte IT-Systeme installieren.</span>
 
 > [!info]- Guidance
->Wenn Systeme aufgrund bestimmter Voraussetzungen sich nicht authentifizieren (z.B. installierte Sicherheitsupdates oder weil sie keine 802.1X-Anmeldung unterstützen), kann ein vollständiges blockieren aller Netzverbindungen die Verfügbarkeit erforderlicher Geschäftsprozesse unmöglich machen. Um IT-Systemen einen eingeschränkten Zugang zu Netzressourcen zu ermöglichen – etwa damit diese die Voraussetzungen durch den Download von Updates erfüllen können – kann ein Quarantänenetz eingerichtet werden, das z.B. Zugang zu bestimmten Downloadservern oder eine Meldung des Problems ermöglicht.
+> Wenn Systeme aufgrund bestimmter Voraussetzungen sich nicht authentifizieren (z.B. installierte Sicherheitsupdates oder weil sie keine 802.1X-Anmeldung unterstützen), kann ein vollständiges blockieren aller Netzverbindungen die Verfügbarkeit erforderlicher Geschäftsprozesse unmöglich machen. Um IT-Systemen einen eingeschränkten Zugang zu Netzressourcen zu ermöglichen – etwa damit diese die Voraussetzungen durch den Download von Updates erfüllen können – kann ein Quarantänenetz eingerichtet werden, das z.B. Zugang zu bestimmten Downloadservern oder eine Meldung des Problems ermöglicht.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 5f97efff-4db1-4b26-8ab9-4521108e5c0c |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 5f97efff-4db1-4b26-8ab9-4521108e5c0c |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 5f97efff-4db1-4b26-8ab9-4521108e5c0c |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 5f97efff-4db1-4b26-8ab9-4521108e5c0c |
+

@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - kompetenzmanagement
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.7 Schulung
@@ -20,7 +20,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.7 - Schulung
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
@@ -30,9 +33,17 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../B
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | eine Schulung zur Nutzung gelieferter Sicherheitsmechanismen |  | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe KANN eine Schulung zur Nutzung gelieferter Sicherheitsmechanismen vereinbaren.</span>
 
 > [!info]- Guidance
->Sicherheitsmechanismen sind in diesem Kontext technische oder organisatorische Schutzfunktionen, die in gelieferten Produkten, Systemen oder Diensten bereits vorgesehen sind, beispielsweise Verschlüsselungsfunktionen, Zugriffskontrollen oder Protokollierungsfunktionen. Ziel der Anforderung ist es, dass diese Schutzfunktionen von den Mitarbeitenden der Institution auch tatsächlich verstanden und korrekt angewandt werden. Ohne entsprechende Schulung könnte es passieren, dass vorhandene Sicherheitsfunktionen ungenutzt bleiben oder falsch bedient werden, wodurch Daten kompromittiert oder unbefugt zugänglich werden könnten. Durch gezielte Unterweisungen kann das Potenzial solcher Mechanismen ausgeschöpft und die Widerstandsfähigkeit gegenüber Angriffen oder Fehlbedienungen erhöht werden. Die Umsetzung kann pragmatisch gestaltet werden: (1) Eine Institution kann bei der Lieferung von IT-Systemen mit dem Hersteller oder Dienstleister eine kurze Einweisung in die sicherheitsrelevanten Funktionen vereinbaren, beispielsweise zur richtigen Konfiguration einer Multifaktor-Authentisierung. (2) Bei komplexeren Produkten kann die Institution Trainingsmaterialien wie Handbücher, Videos oder interaktive Tutorials anfordern, die auf den Einsatz der bereitgestellten Sicherheitsfunktionen zugeschnitten sind. (3) Zusätzlich kann es hilfreich sein, eine kurze Praxisübung im Rahmen der Abnahme durchzuführen, in der Schlüsselmechanismen wie sichere Passwortänderung oder Rechtevergabe ausprobiert werden. Die Schulung kann je nach Bedarf als Vor-Ort-Einweisung, Remote-Sitzung oder durch strukturierte E-Learning-Module erfolgen.
+> Sicherheitsmechanismen sind in diesem Kontext technische oder organisatorische Schutzfunktionen, die in gelieferten Produkten, Systemen oder Diensten bereits vorgesehen sind, beispielsweise Verschlüsselungsfunktionen, Zugriffskontrollen oder Protokollierungsfunktionen. Ziel der Anforderung ist es, dass diese Schutzfunktionen von den Mitarbeitenden der Institution auch tatsächlich verstanden und korrekt angewandt werden. Ohne entsprechende Schulung könnte es passieren, dass vorhandene Sicherheitsfunktionen ungenutzt bleiben oder falsch bedient werden, wodurch Daten kompromittiert oder unbefugt zugänglich werden könnten. Durch gezielte Unterweisungen kann das Potenzial solcher Mechanismen ausgeschöpft und die Widerstandsfähigkeit gegenüber Angriffen oder Fehlbedienungen erhöht werden. Die Umsetzung kann pragmatisch gestaltet werden: (1) Eine Institution kann bei der Lieferung von IT-Systemen mit dem Hersteller oder Dienstleister eine kurze Einweisung in die sicherheitsrelevanten Funktionen vereinbaren, beispielsweise zur richtigen Konfiguration einer Multifaktor-Authentisierung. (2) Bei komplexeren Produkten kann die Institution Trainingsmaterialien wie Handbücher, Videos oder interaktive Tutorials anfordern, die auf den Einsatz der bereitgestellten Sicherheitsfunktionen zugeschnitten sind. (3) Zusätzlich kann es hilfreich sein, eine kurze Praxisübung im Rahmen der Abnahme durchzuführen, in der Schlüsselmechanismen wie sichere Passwortänderung oder Rechtevergabe ausprobiert werden. Die Schulung kann je nach Bedarf als Vor-Ort-Einweisung, Remote-Sitzung oder durch strukturierte E-Learning-Module erfolgen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | c95ea1ad-f766-43e2-a07d-1eb50cc58907 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | c95ea1ad-f766-43e2-a07d-1eb50cc58907 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | c95ea1ad-f766-43e2-a07d-1eb50cc58907 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | c95ea1ad-f766-43e2-a07d-1eb50cc58907 |
+

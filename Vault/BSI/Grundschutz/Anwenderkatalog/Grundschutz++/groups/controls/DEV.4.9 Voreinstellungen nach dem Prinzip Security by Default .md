@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - security_by_default
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.4.9 Voreinstellungen nach dem Prinzip "Security by Default"
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.4.9 - Voreinstellungen nach dem Prinzip "Security by Default"
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Security by Default](../../../../namespaces/entries/tags_Security_by_Default.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Security by Default](../../../../namespaces/entries/tags_Security_by_Default.md)
+
 Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20Code.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20
 | <div style="background:#cccccc">*[Entwicklung (DEV)](../DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20Code.md) *</div> | [Entwicklung](../../../../namespaces/entries/practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Voreinstellungen nach dem Prinzip "Security by Default" |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Codehistorie](../../../../namespaces/entries/documentation_guidelines_Codehistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE Voreinstellungen nach dem Prinzip "Security by Default" aktivieren.</span>
 
 > [!info]- Guidance
->Voreinstellungen sind die Parameter der Anwendung, mit denen diese im Auslieferungszustand (oder bei Cloud-Anwendungen beim Anlegen eines neuen Zugangskontos) ausgeführt wird. Welche Parameter hier konkret sicher sind ergibt sich aus der Praktik Konfiguration für die jeweilige Art von Zielobjekten.
+> Voreinstellungen sind die Parameter der Anwendung, mit denen diese im Auslieferungszustand (oder bei Cloud-Anwendungen beim Anlegen eines neuen Zugangskontos) ausgeführt wird. Welche Parameter hier konkret sicher sind ergibt sich aus der Praktik Konfiguration für die jeweilige Art von Zielobjekten.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | fa1f8609-00d9-4d70-84cb-b3616efea279 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |> | ** Alternate Identifier ** | fa1f8609-00d9-4d70-84cb-b3616efea279 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | fa1f8609-00d9-4d70-84cb-b3616efea279 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
+> | ** Alternate Identifier ** | fa1f8609-00d9-4d70-84cb-b3616efea279 |
+

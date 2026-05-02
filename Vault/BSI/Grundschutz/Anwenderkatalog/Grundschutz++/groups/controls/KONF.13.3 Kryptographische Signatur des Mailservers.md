@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.13.3 Kryptographische Signatur des Mailservers
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.13.3 - Kryptographische Signatur des Mailservers
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [E-Mail](../../../../namespaces/entries/target_object_categories_E-Mail_7aa03e0c-a417-4b08-a6d5-b89bd63c6a83.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Kryptographische Signatur des Mailservers |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für E-Mail SOLLTE die Kryptographische Signatur des Mailservers aktivieren.</span>
 
 > [!info]- Guidance
->Die kryptographischen Signatur des Mailservers ist ein digitaler Stempel des versendenden Mailservers selbst, mit dem die Authentizität des sendenden Mailservers belegt wird. Ein bekannter technischer Standard hierfür ist DomainKeys Identified Mail (DKIM). Diese Signatur wird durch den absendenden Mailserver (oder einen vorgeschalteten Dienst) unter Verwendung eines privaten kryptographischen Schlüssels erzeugt. Der Empfänger kann die Signatur mit einem öffentlich zugänglichen Schlüssel, der typischerweise im Domain Name System (DNS) der sendenden Domain hinterlegt ist, verifizieren. Diese Schutzmaßnahme kann die Glaubwürdigkeit der E-Mails erhöhen und trägt zur Prävention von Risiken bei, wie dem Spoofing des Absenders: Ein Angreifer könnte ohne eine solche Signatur die Identität der Institution vortäuschen, was zu Phishing-Vorfällen führen könnte.
+> Die kryptographischen Signatur des Mailservers ist ein digitaler Stempel des versendenden Mailservers selbst, mit dem die Authentizität des sendenden Mailservers belegt wird. Ein bekannter technischer Standard hierfür ist DomainKeys Identified Mail (DKIM). Diese Signatur wird durch den absendenden Mailserver (oder einen vorgeschalteten Dienst) unter Verwendung eines privaten kryptographischen Schlüssels erzeugt. Der Empfänger kann die Signatur mit einem öffentlich zugänglichen Schlüssel, der typischerweise im Domain Name System (DNS) der sendenden Domain hinterlegt ist, verifizieren. Diese Schutzmaßnahme kann die Glaubwürdigkeit der E-Mails erhöhen und trägt zur Prävention von Risiken bei, wie dem Spoofing des Absenders: Ein Angreifer könnte ohne eine solche Signatur die Identität der Institution vortäuschen, was zu Phishing-Vorfällen führen könnte.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 0588d640-bda0-46d7-978e-6c742f098327 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 0588d640-bda0-46d7-978e-6c742f098327 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 0588d640-bda0-46d7-978e-6c742f098327 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 0588d640-bda0-46d7-978e-6c742f098327 |
+

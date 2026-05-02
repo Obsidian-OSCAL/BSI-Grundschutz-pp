@@ -5,7 +5,7 @@ tags:
 - internet_exposure
 - command__control
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.1 Externe Netzanschlüsse
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.1 - Externe Netzanschlüsse
-> [!example]- Tags:> [Internet Exposure](../../../../namespaces/entries/tags_Internet_Exposure.md)> [Command & Control](../../../../namespaces/entries/tags_Command_&_Control.md)
+> [!example]- Tags:
+> [Internet Exposure](../../../../namespaces/entries/tags_Internet_Exposure.md)
+> [Command & Control](../../../../namespaces/entries/tags_Command_&_Control.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Verbindungen über externe Netzanschlüsse |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE Verbindungen über externe Netzanschlüsse einschränken.</span>
 
 > [!info]- Guidance
->Dient dazu, die Angriffsfläche zu reduzieren, unerwünschte Ein- und Ausleitungen zu begrenzen und das Risiko von Datenabflüssen zu minimieren. Für mobile Systeme kann dies z. B. über das Erzwingen einer VPN-Verbindung ins gefilterte Netz der Institution oder über die Verwendung eines direkten Internetzugangs erfolgen, welcher über einen Direct-Internet-Access Agenten abgesichert ist.
+> Dient dazu, die Angriffsfläche zu reduzieren, unerwünschte Ein- und Ausleitungen zu begrenzen und das Risiko von Datenabflüssen zu minimieren. Für mobile Systeme kann dies z. B. über das Erzwingen einer VPN-Verbindung ins gefilterte Netz der Institution oder über die Verwendung eines direkten Internetzugangs erfolgen, welcher über einen Direct-Internet-Access Agenten abgesichert ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 56a54bba-30a4-478f-8464-bc5194cae49f |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 56a54bba-30a4-478f-8464-bc5194cae49f |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 56a54bba-30a4-478f-8464-bc5194cae49f |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 56a54bba-30a4-478f-8464-bc5194cae49f |
+

@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.13.4 Kryptographische Signatur durch Nutzende
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.13.4 - Kryptographische Signatur durch Nutzende
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [E-Mail](../../../../namespaces/entries/target_object_categories_E-Mail_7aa03e0c-a417-4b08-a6d5-b89bd63c6a83.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die kryptographische Signatur durch Nutzende |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für E-Mail KANN die kryptographische Signatur durch Nutzende aktivieren.</span>
 
 > [!info]- Guidance
->Wird eine vom E-Mail vom Sendenden signiert, so können bei Empfang die Authentizität und Integrität der Nachricht verifiziert werden. Dies kann mit S/MIME oder PGP umgesetzt werden.
+> Wird eine vom E-Mail vom Sendenden signiert, so können bei Empfang die Authentizität und Integrität der Nachricht verifiziert werden. Dies kann mit S/MIME oder PGP umgesetzt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 8cda47f9-692a-485d-bc73-a4c3b691c501 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 8cda47f9-692a-485d-bc73-a4c3b691c501 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 8cda47f9-692a-485d-bc73-a4c3b691c501 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 8cda47f9-692a-485d-bc73-a4c3b691c501 |
+

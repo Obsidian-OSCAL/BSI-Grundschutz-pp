@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.8.3 Ressourcensouveränität
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.8.3 - Ressourcensouveränität
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20Kontrollmechanismen.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20K
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20Kontrollmechanismen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Outsourcing](../../../../namespaces/entries/target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | ausreichende interne Ressourcen | für den Fall einer geplanten oder ungeplanten Beendigung des Vertrages | [zuweisen](../../../../namespaces/entries/action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020.md) | [Geschäftsprozesse](../../../../namespaces/entries/documentation_guidelines_Geschäftsprozesse.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing KANN ausreichende interne Ressourcen für den Fall einer geplanten oder ungeplanten Beendigung des Vertrages zuweisen.</span>
 
 > [!info]- Guidance
->Die Bereithaltung ausreichender interner Ressourcen zielt hier darauf ab, für den Fall einer plötzlichen Einstellung der beschafften Dienste ausreichend ausgestattet zu sein, um einer übermäßigen Abhängigkeit gegenüber den Anbietenden von Outsourcing vorzubeugen. Zu den notwendigen Ressourcen gehört sowohl Personal, welches für die bei einem Ausfall des Dienstleisters erforderlichen Aufgaben qualifiziert ist, als auch die für diese Aufgaben erforderliche Infrastruktur (z.B. IT-Systeme, Anwendungslizenzen, Zugänge und Berechtigungen).
+> Die Bereithaltung ausreichender interner Ressourcen zielt hier darauf ab, für den Fall einer plötzlichen Einstellung der beschafften Dienste ausreichend ausgestattet zu sein, um einer übermäßigen Abhängigkeit gegenüber den Anbietenden von Outsourcing vorzubeugen. Zu den notwendigen Ressourcen gehört sowohl Personal, welches für die bei einem Ausfall des Dienstleisters erforderlichen Aufgaben qualifiziert ist, als auch die für diese Aufgaben erforderliche Infrastruktur (z.B. IT-Systeme, Anwendungslizenzen, Zugänge und Berechtigungen).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | c928db22-3ace-445e-b501-7ebb8fbd9c2d |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | c928db22-3ace-445e-b501-7ebb8fbd9c2d |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | c928db22-3ace-445e-b501-7ebb8fbd9c2d |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | c928db22-3ace-445e-b501-7ebb8fbd9c2d |
+

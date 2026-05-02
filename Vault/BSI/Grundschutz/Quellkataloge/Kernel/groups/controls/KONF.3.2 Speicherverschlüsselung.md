@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.3.2 Speicherverschlüsselung
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.3.2 - Speicherverschlüsselung
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Physischer Schutz](../KONF.3%20Physischer%20Schutz.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | integrierte Festspeichermedien |  | [verschlüsseln](../../../../namespaces/entries/action_words_verschlüsseln_4dc9ef92-2124-449a-9a99-61095d271599.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme SOLLTE integrierte Festspeichermedien verschlüsseln.</span>
 
 > [!info]- Guidance
->Die Verschlüsselung von Datenträgern erschwert es Angreifern, Daten von verlorenen oder gestohlenen Geräten auszulesen. Die Verschlüsselung kann in Hard- oder Software (z.B. Windows BitLocker®, Apple FileVault®, Linux® dm-crypt) erfolgen. Für anerkannte kryptographische Algorithmen siehe BSI TR 02102.
+> Die Verschlüsselung von Datenträgern erschwert es Angreifern, Daten von verlorenen oder gestohlenen Geräten auszulesen. Die Verschlüsselung kann in Hard- oder Software (z.B. Windows BitLocker®, Apple FileVault®, Linux® dm-crypt) erfolgen. Für anerkannte kryptographische Algorithmen siehe BSI TR 02102.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | e760f62d-1c68-4665-b07b-5b2846550d59 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | e760f62d-1c68-4665-b07b-5b2846550d59 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | e760f62d-1c68-4665-b07b-5b2846550d59 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | e760f62d-1c68-4665-b07b-5b2846550d59 |
+

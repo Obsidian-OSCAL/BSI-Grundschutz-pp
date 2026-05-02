@@ -6,7 +6,7 @@ tags:
 - privilege_escalation
 - password_policy
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.6.6 Blockieren von Passwort Recycling
@@ -22,7 +22,11 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.6 - Blockieren von Passwort Recycling
-> [!example]- Tags:> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)> [Password Policy](../../../../namespaces/entries/tags_Password_Policy.md)
+> [!example]- Tags:
+> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)
+> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)
+> [Password Policy](../../../../namespaces/entries/tags_Password_Policy.md)
+
 Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 ---
 
@@ -32,9 +36,17 @@ Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Passwortgebrauch](../BER.6%20Passwortgebrauch.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Wiederverwendung von Passwörtern |  | [blockieren](../../../../namespaces/entries/action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung für Nutzende SOLLTE die Wiederverwendung von Passwörtern blockieren.</span>
 
 > [!info]- Guidance
->Die Wiederverwendung von Passwörtern („password reuse“) ist die Nutzung identischer oder bereits früher verwendeter Passwörter für verschiedene Konten, Systeme oder aufeinanderfolgende Authentifizierungsvorgänge. Die Blockierung der Passwortwiederverwendung bedeutet hier, dass das Berechtigungsmanagementsystem („access management system“) technisch verhindert, dass ein neues Passwort mit einem zuvor verwendeten identisch ist oder einer vordefinierten Anzahl früherer Passwörter entspricht. Dies könnte nicht nur bei Wiederverwendung einer Person problematisch sein, sondern auch bei einer systemübergreifenden Fehlkonfiguration: Ein typisches Szenario wäre, dass in einer Institution mehrere Arbeitsplatzrechner mit identischen lokalen Administratorpasswörtern konfiguriert sind („local admin password reuse“). Wird ein einzelner Rechner durch Schadsoftware oder physischen Zugriff kompromittiert, könnte ein Angreifer dieses Passwort anschließend nutzen, um sich mit denselben Anmeldeinformationen lateral auf weitere Systeme auszubreiten. Die Wiederverwendung des lokalen Administratorpassworts könnte somit eine vollständige Kompromittierung der internen IT-Infrastruktur ermöglichen. Diese Anforderung adressiert den Schutz vor solchen Angriffen, die sich aus der Wiederverwendung kompromittierter Anmeldeinformationen ergeben könnten, etwa durch Credential-Stuffing oder Brute-Force-Angriffe auf bekannte Passwortmuster. Blockieren kann das Risiko verringern, dass ein Angreifer durch bekannte Passwörter unbefugten Zugang zu Konten erhält. Hierzu können zum einen eine lokale Passworthistorie oder zum anderen elektronische Passwortmanager genutzt werden, die unabhängige sichere Passwörter generieren, wo die Wahrscheinlichkeit einer Passwortwiederholung ausgeschlossen werden kann.
+> Die Wiederverwendung von Passwörtern („password reuse“) ist die Nutzung identischer oder bereits früher verwendeter Passwörter für verschiedene Konten, Systeme oder aufeinanderfolgende Authentifizierungsvorgänge. Die Blockierung der Passwortwiederverwendung bedeutet hier, dass das Berechtigungsmanagementsystem („access management system“) technisch verhindert, dass ein neues Passwort mit einem zuvor verwendeten identisch ist oder einer vordefinierten Anzahl früherer Passwörter entspricht. Dies könnte nicht nur bei Wiederverwendung einer Person problematisch sein, sondern auch bei einer systemübergreifenden Fehlkonfiguration: Ein typisches Szenario wäre, dass in einer Institution mehrere Arbeitsplatzrechner mit identischen lokalen Administratorpasswörtern konfiguriert sind („local admin password reuse“). Wird ein einzelner Rechner durch Schadsoftware oder physischen Zugriff kompromittiert, könnte ein Angreifer dieses Passwort anschließend nutzen, um sich mit denselben Anmeldeinformationen lateral auf weitere Systeme auszubreiten. Die Wiederverwendung des lokalen Administratorpassworts könnte somit eine vollständige Kompromittierung der internen IT-Infrastruktur ermöglichen. Diese Anforderung adressiert den Schutz vor solchen Angriffen, die sich aus der Wiederverwendung kompromittierter Anmeldeinformationen ergeben könnten, etwa durch Credential-Stuffing oder Brute-Force-Angriffe auf bekannte Passwortmuster. Blockieren kann das Risiko verringern, dass ein Angreifer durch bekannte Passwörter unbefugten Zugang zu Konten erhält. Hierzu können zum einen eine lokale Passworthistorie oder zum anderen elektronische Passwortmanager genutzt werden, die unabhängige sichere Passwörter generieren, wo die Wahrscheinlichkeit einer Passwortwiederholung ausgeschlossen werden kann.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d7c76736-0c1d-4693-92d5-894a8b740204 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | d7c76736-0c1d-4693-92d5-894a8b740204 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d7c76736-0c1d-4693-92d5-894a8b740204 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | d7c76736-0c1d-4693-92d5-894a8b740204 |
+

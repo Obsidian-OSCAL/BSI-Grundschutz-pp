@@ -5,7 +5,7 @@ tags:
 - physical_access_control
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.8.4 Begleitung Externer
@@ -20,20 +20,32 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.8.4 - Begleitung Externer
-> [!example]- Tags:> [Physical Access Control](../../../../namespaces/entries/tags_Physical_Access_Control.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Physical Access Control](../../../../namespaces/entries/tags_Physical_Access_Control.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [SENS.8 Physische Sicherheit](../SENS.8%20Physische%20Sicherheit.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [SENS.8.4.1 Beaufsichtigung Externer](./SENS.8.4.1%20Beaufsichtigung%20Externer.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Sensibilisierung (SENS)](../SENS%20Sensibilisierung.md)*<br> *  &rarr; [Physische Sicherheit](../SENS.8%20Physische%20Sicherheit.md) *</div> | [Sensibilisierung](../../../../namespaces/entries/practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e.md) | Mitarbeitende, Standorte | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | zur Begleitung von Externen |  | [anweisen](../../../../namespaces/entries/action_words_anweisen_15492510-b3c9-48e8-8c5f-1b8fa9ce5498.md) | [Arbeitsanweisung](../../../../namespaces/entries/documentation_guidelines_Arbeitsanweisung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Mitarbeitende von Standorten KANN zur Begleitung von Externen anweisen.</span>
 
 > [!info]- Guidance
->Dies dient in erster Linie dazu, unbefugte oder unbeaufsichtigte Zugriffe auf sensible Bereiche, Informationen oder Systeme zu verhindern. Ohne eine solche Begleitung kann es leicht zu Situationen kommen, in denen Externe absichtlich oder versehentlich sicherheitskritische Bereiche betreten, vertrauliche Informationen einsehen oder technische Geräte unsachgemäß manipulieren. Die Begleitung Externer, die wie Interne sicherheitsüberprüft und geschult wurden, ist entbehrlich.
+> Dies dient in erster Linie dazu, unbefugte oder unbeaufsichtigte Zugriffe auf sensible Bereiche, Informationen oder Systeme zu verhindern. Ohne eine solche Begleitung kann es leicht zu Situationen kommen, in denen Externe absichtlich oder versehentlich sicherheitskritische Bereiche betreten, vertrauliche Informationen einsehen oder technische Geräte unsachgemäß manipulieren. Die Begleitung Externer, die wie Interne sicherheitsüberprüft und geschult wurden, ist entbehrlich.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 1f0a8e0c-33cd-407a-9579-e2dcc6d46515 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 1f0a8e0c-33cd-407a-9579-e2dcc6d46515 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 1f0a8e0c-33cd-407a-9579-e2dcc6d46515 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 1f0a8e0c-33cd-407a-9579-e2dcc6d46515 |
+

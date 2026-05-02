@@ -6,7 +6,7 @@ tags:
 - error_handling
 - produktbeschreibung
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.3.2 Routinen zur Fehlerbehandlung
@@ -22,7 +22,11 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.3.2 - Routinen zur Fehlerbehandlung
-> [!example]- Tags:> [Security by Design](../../../../namespaces/entries/tags_Security_by_Design.md)> [Error Handling](../../../../namespaces/entries/tags_Error_Handling.md)> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- Tags:
+> [Security by Design](../../../../namespaces/entries/tags_Security_by_Design.md)
+> [Error Handling](../../../../namespaces/entries/tags_Error_Handling.md)
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [DEV.3 Softwareentwicklung - Härtung](../DEV.3%20Softwareentwicklung%20-%20Härtung.md)
 ---
 
@@ -32,9 +36,17 @@ Gruppe: [DEV.3 Softwareentwicklung - Härtung](../DEV.3%20Softwareentwicklung%20
 | <div style="background:#cccccc">*[Entwicklung (DEV)](../DEV%20Entwicklung.md)*<br> *  &rarr; [Softwareentwicklung - Härtung](../DEV.3%20Softwareentwicklung%20-%20Härtung.md) *</div> | [Entwicklung](../../../../namespaces/entries/practices_Entwicklung_108b65aa-5964-49d7-b9eb-dc8946a923ca.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | spezifische und allgemeine Routinen zur Fehlerbehandlung |  | [ausführen](../../../../namespaces/entries/action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe.md) | [Freigabeplan](../../../../namespaces/entries/documentation_guidelines_Freigabeplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Entwicklung für Anwendungen SOLLTE spezifische und allgemeine Routinen zur Fehlerbehandlung ausführen.</span>
 
 > [!info]- Guidance
->Behandeln Sie Fehler (Exceptions) möglichst nahe an der Quelle (z.B. Buffer Overflows, fehlende Dateien) und sehen sie eine Routine vor, die unerwartete Fehler abfängt. Geben Sie passende Fehlermeldungen aus und protokollieren Sie Fehler.
+> Behandeln Sie Fehler (Exceptions) möglichst nahe an der Quelle (z.B. Buffer Overflows, fehlende Dateien) und sehen sie eine Routine vor, die unerwartete Fehler abfängt. Geben Sie passende Fehlermeldungen aus und protokollieren Sie Fehler.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | e06f7f69-4c90-4e39-b6be-a9428548e824 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | e06f7f69-4c90-4e39-b6be-a9428548e824 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | e06f7f69-4c90-4e39-b6be-a9428548e824 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | e06f7f69-4c90-4e39-b6be-a9428548e824 |
+

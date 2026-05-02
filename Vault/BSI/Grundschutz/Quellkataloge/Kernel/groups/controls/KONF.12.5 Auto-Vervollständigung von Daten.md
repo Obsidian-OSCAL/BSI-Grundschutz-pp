@@ -6,7 +6,7 @@ tags:
 - phishing
 - data_leak
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.12.5 Auto-Vervollständigung von Daten
@@ -22,7 +22,11 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.5 - Auto-Vervollständigung von Daten
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Phishing](../../../../namespaces/entries/tags_Phishing.md)> [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Phishing](../../../../namespaces/entries/tags_Phishing.md)
+> [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
@@ -32,9 +36,17 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Webbrowser](../../../../namespaces/entries/target_object_categories_Webbrowser_8b64663c-8388-40bc-a68b-473e753ae4d0.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Auto-Vervollständigung von Daten |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Webbrowser SOLLTE die Auto-Vervollständigung von Daten einschränken.</span>
 
 > [!info]- Guidance
->Webseiten können Eingaben auch auslesen, bevor diese abgesendet werden. Die Deaktivierung der Auto-Vervollständigung verhindert, dass der Browser diese Daten automatisch eingibt.
+> Webseiten können Eingaben auch auslesen, bevor diese abgesendet werden. Die Deaktivierung der Auto-Vervollständigung verhindert, dass der Browser diese Daten automatisch eingibt.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 884ebdea-7054-48bf-932a-bb4f704baa8e |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 884ebdea-7054-48bf-932a-bb4f704baa8e |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 884ebdea-7054-48bf-932a-bb4f704baa8e |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 884ebdea-7054-48bf-932a-bb4f704baa8e |
+

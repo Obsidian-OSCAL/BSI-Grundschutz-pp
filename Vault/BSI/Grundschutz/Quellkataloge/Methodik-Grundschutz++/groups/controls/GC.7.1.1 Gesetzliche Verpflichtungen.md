@@ -5,7 +5,7 @@ tags:
 - compliance_management
 - inventories
 - oscal_control
-created: Fri May 01 21:44:29 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: GC.7.1.1 Gesetzliche Verpflichtungen
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # GC.7.1.1 - Gesetzliche Verpflichtungen
-> [!example]- Tags:> [Compliance Management](../../../../namespaces/entries/tags_Compliance_Management.md)> [Inventories](../../../../namespaces/entries/tags_Inventories.md)
+> [!example]- Tags:
+> [Compliance Management](../../../../namespaces/entries/tags_Compliance_Management.md)
+> [Inventories](../../../../namespaces/entries/tags_Inventories.md)
+
 Gruppe: [GC.7 Implementierung des Compliance-Managements](../GC.7%20Implementierung%20des%20Compliance-Managements.md)
 ---
 
@@ -32,9 +35,17 @@ Gruppe: [GC.7 Implementierung des Compliance-Managements](../GC.7%20Implementier
 | <div style="background:#cccccc">*[Governance und Compliance (GC)](../GC%20Governance%20und%20Compliance.md)*<br> *  &rarr; [Implementierung des Compliance-Managements](../GC.7%20Implementierung%20des%20Compliance-Managements.md) *</div> | [Governance und Compliance](../../../../namespaces/entries/practices_Governance_und_Compliance_b843af63-e2a3-4dcd-ab8e-fe66dde9b138.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Analyse der gesetzlichen Verpflichtungen, welche die Verarbeitung von Informationen durch die Institution betreffen, |  | [ausführen](../../../../namespaces/entries/action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe.md) | [Compliance-Verpflichtungen](../../../../namespaces/entries/documentation_guidelines_Compliance-Verpflichtungen.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Governance und Compliance SOLLTE die Analyse der gesetzlichen Verpflichtungen, welche die Verarbeitung von Informationen durch die Institution betreffen, ausführen.</span>
 
 > [!info]- Guidance
->Gesetzliche Verpflichtungen, welche die Verarbeitung von Informationen durch die Institution betreffen, sind dokumentiert. Gesetzliche Verpflichtungen meint alle Pflichten, die sich unmittelbar aus dem Recht ergeben, inklusive des Verfassungsrechts, Europarechts und Verordnungen. Relevante gesetzliche Verpflichtungen können sich je nach Institution z. B. aus Grundrechten, Cyber Resilience Act, Data Act, Data Markets Act, NIS, DSGVO, BDSG, TKG, TDDDG oder GeschGehG ergeben. Beachten Sie dabei auch Verpflichtungen, die sich mittelbar auswirken wie die Arbeitsstättenverordnung oder allgemeine Regelungen zur Fürsorgepflicht.
+> Gesetzliche Verpflichtungen, welche die Verarbeitung von Informationen durch die Institution betreffen, sind dokumentiert. Gesetzliche Verpflichtungen meint alle Pflichten, die sich unmittelbar aus dem Recht ergeben, inklusive des Verfassungsrechts, Europarechts und Verordnungen. Relevante gesetzliche Verpflichtungen können sich je nach Institution z. B. aus Grundrechten, Cyber Resilience Act, Data Act, Data Markets Act, NIS, DSGVO, BDSG, TKG, TDDDG oder GeschGehG ergeben. Beachten Sie dabei auch Verpflichtungen, die sich mittelbar auswirken wie die Arbeitsstättenverordnung oder allgemeine Regelungen zur Fürsorgepflicht.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 02747a0f-cd38-4815-9eec-351ae89dbdfe |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 02747a0f-cd38-4815-9eec-351ae89dbdfe |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 02747a0f-cd38-4815-9eec-351ae89dbdfe |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 02747a0f-cd38-4815-9eec-351ae89dbdfe |
+

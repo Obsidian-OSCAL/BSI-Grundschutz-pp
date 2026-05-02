@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - bes71-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.1 Eingangskontrolle
@@ -26,15 +26,24 @@ Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [BES.7.1.1 Test der Kompatibilität](./BES.7.1.1%20Test%20der%20Kompatibilität.md)> [BES.7.1.2 Netzcheck](./BES.7.1.2%20Netzcheck.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](../BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | erbrachte oder gelieferte Leistungen | anhand von {{Kriterien zur Akzeptanz}} vor der ersten Verwendung | [testen](../../../../namespaces/entries/action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165.md) | [Abnahmeprotokoll](../../../../namespaces/entries/documentation_guidelines_Abnahmeprotokoll.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE erbrachte oder gelieferte Leistungen anhand von {{ insert: param, bes.7.1-prm1 }} vor der ersten Verwendung testen.</span>
 
 > [!info]- Guidance
->Durch eine Prüfung anhand von Akzeptanzkriterien wird sichergestellt, dass die erbrachten Dienstleistungen oder IT-Produkte den geforderten Beschaffungskriterien entsprechen. Die Akzeptanzkriterien können also den Beschaffungskriterien entsprechen oder deren Prüfung konkretisieren. Hierzu können verschiedene Methoden eingesetzt werden, etwa Stichproben, Sicherheitstests oder die Nachverfolgung der Lieferkette anhand von Seriennummern.  Dabei besteht ein enger Zusammenhang zu den Praktiken Dienstleistersteuerung, sowie Änderungen und Tests.
+> Durch eine Prüfung anhand von Akzeptanzkriterien wird sichergestellt, dass die erbrachten Dienstleistungen oder IT-Produkte den geforderten Beschaffungskriterien entsprechen. Die Akzeptanzkriterien können also den Beschaffungskriterien entsprechen oder deren Prüfung konkretisieren. Hierzu können verschiedene Methoden eingesetzt werden, etwa Stichproben, Sicherheitstests oder die Nachverfolgung der Lieferkette anhand von Seriennummern.  Dabei besteht ein enger Zusammenhang zu den Praktiken Dienstleistersteuerung, sowie Änderungen und Tests.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | abea6f59-f58b-47c3-b908-7ae68410fde3 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | abea6f59-f58b-47c3-b908-7ae68410fde3 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | abea6f59-f58b-47c3-b908-7ae68410fde3 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | abea6f59-f58b-47c3-b908-7ae68410fde3 |
+

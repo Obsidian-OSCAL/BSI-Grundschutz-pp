@@ -7,7 +7,7 @@ tags:
 - replay_attacks
 - session_hijacking
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.14.5 Zeitüberschreitung von Netzverbindungen
@@ -23,7 +23,12 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.14.5 - Zeitüberschreitung von Netzverbindungen
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Phishing](../../../../namespaces/entries/tags_Phishing.md)> [Replay Attacks](../../../../namespaces/entries/tags_Replay_Attacks.md)> [Session Hijacking](../../../../namespaces/entries/tags_Session_Hijacking.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Phishing](../../../../namespaces/entries/tags_Phishing.md)
+> [Replay Attacks](../../../../namespaces/entries/tags_Replay_Attacks.md)
+> [Session Hijacking](../../../../namespaces/entries/tags_Session_Hijacking.md)
+
 Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 ---
 
@@ -33,9 +38,17 @@ Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Netzverbindungen bei Zeitüberschreitung |  | [blockieren](../../../../namespaces/entries/action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen SOLLTE Netzverbindungen bei Zeitüberschreitung blockieren.</span>
 
 > [!info]- Guidance
->Dauerhaft aufrecht erhaltene, ungenutzte Verbindungen erhöhen die Gefahr unbefugter Zugriffe auf die Anwendung oder eines Überlaufens von Systemressourcen.
+> Dauerhaft aufrecht erhaltene, ungenutzte Verbindungen erhöhen die Gefahr unbefugter Zugriffe auf die Anwendung oder eines Überlaufens von Systemressourcen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 76f6f959-2505-43b4-9e22-3501e32bc0be |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 76f6f959-2505-43b4-9e22-3501e32bc0be |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 76f6f959-2505-43b4-9e22-3501e32bc0be |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 76f6f959-2505-43b4-9e22-3501e32bc0be |
+

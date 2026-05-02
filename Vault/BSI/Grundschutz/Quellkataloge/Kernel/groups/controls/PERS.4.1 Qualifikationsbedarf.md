@@ -5,7 +5,7 @@ tags:
 - kompetenzmanagement
 - pers41-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.4.1 Qualifikationsbedarf
@@ -31,9 +31,17 @@ Gruppe: [PERS.4 Personalentwicklung](../PERS.4%20Personalentwicklung.md)
 | <div style="background:#cccccc">*[Personal (PERS)](../PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](../PERS.4%20Personalentwicklung.md) *</div> | [Personal](../../../../namespaces/entries/practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57.md) | [Mitarbeitende](../../../../namespaces/entries/target_object_categories_Mitarbeitende_9d0465aa-a31f-465f-99c8-7a383322b2a4.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | [Schulungsplan](../../../../namespaces/entries/documentation_guidelines_Schulungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Mitarbeitende SOLLTE den Bedarf an Qualifikationsmaßnahmen anhand der Aufgaben {{ insert: param, pers.4.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
->Qualifikationsmaßnahmen sind z.B. Zertifizierte Weiterbildungen, interne Schulungen oder universitäre Kurse. Prüfen Sie den Bedarf anhand der Aufgaben der Mitarbeitenden und berücksichtigen Sie dabei die in den Geschäftsprozessen verwendeten IT-Produkte. Zweckmäßig ist es hierzu in jedem Team einen Jahresplan zur Teilnahme an Qualifikationsmaßnahmen zu erstellen.
+> Qualifikationsmaßnahmen sind z.B. Zertifizierte Weiterbildungen, interne Schulungen oder universitäre Kurse. Prüfen Sie den Bedarf anhand der Aufgaben der Mitarbeitenden und berücksichtigen Sie dabei die in den Geschäftsprozessen verwendeten IT-Produkte. Zweckmäßig ist es hierzu in jedem Team einen Jahresplan zur Teilnahme an Qualifikationsmaßnahmen zu erstellen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 9c551357-437f-4662-a8b5-0fac98831755 |
+

@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - konf93-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.9.3 Alternative Komponenten für kritische Funktionen
@@ -31,9 +31,17 @@ Gruppe: [KONF.9 Verfügbarkeit von Ressourcen](../KONF.9%20Verfügbarkeit%20von%
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Verfügbarkeit von Ressourcen](../KONF.9%20Verfügbarkeit%20von%20Ressourcen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | alternative Komponenten | für {{bestimmte kritische Funktionen}} | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme KANN alternative Komponenten für {{ insert: param, konf.9.3-prm1 }} installieren.</span>
 
 > [!info]- Guidance
->Beispiele sind redundante Stromnetzteile, Ethernet-Anschlüsse oder eine Mobilfunkanbindung als Ausfallsicherheit für die kabelgebundene Netzanbindung.
+> Beispiele sind redundante Stromnetzteile, Ethernet-Anschlüsse oder eine Mobilfunkanbindung als Ausfallsicherheit für die kabelgebundene Netzanbindung.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | bd64ca41-01df-48ba-85ea-3241017cf750 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | bd64ca41-01df-48ba-85ea-3241017cf750 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | bd64ca41-01df-48ba-85ea-3241017cf750 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | bd64ca41-01df-48ba-85ea-3241017cf750 |
+

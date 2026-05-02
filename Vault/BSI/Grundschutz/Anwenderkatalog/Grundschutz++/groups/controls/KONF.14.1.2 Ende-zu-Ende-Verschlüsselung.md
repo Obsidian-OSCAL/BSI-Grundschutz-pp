@@ -6,7 +6,7 @@ tags:
 - cryptography
 - zero_trust
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.14.1.2 Ende-zu-Ende-Verschlüsselung
@@ -23,7 +23,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.14.1.2 - Ende-zu-Ende-Verschlüsselung
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+
 Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 ---
 
@@ -34,9 +38,17 @@ Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die Kommunikation Ende-zu-Ende | über Netze | [verschlüsseln](../../../../namespaces/entries/action_words_verschlüsseln_4dc9ef92-2124-449a-9a99-61095d271599.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen KANN die Kommunikation Ende-zu-Ende über Netze verschlüsseln.</span>
 
 > [!info]- Guidance
->Eine Ende-zu-Ende-Verschlüsselung stellt sicher, dass auch Server auf dem Weg zwischen den Endpunkten die Kommunikation nicht auslesen können. Die Unterstützung von Ende-zu-Ende-Verschlüsselung unterscheidet sich zwischen verschiedenen Kommunikationsanwendungen noch immer erheblich: Viele E-Mail-Server verschlüsseln gar nicht oder nur bei Verwendung spezieller Erweiterungen so, während viele Messenger-Apps die Ende-zu-Ende-Verschlüsselung ohne Nutzerinteraktion automatisch erzwingen. Dies kann je nach Anwendung z.B. mittels OpenPGP, S/MIME oder Signal Protocol geschehen. Für aktuelle Verschlüsselungsverfahren siehe BSI TR-02102. Für weitere Details zur Telekommunikation siehe "Kompendium für organisationsinterne Telekommunikationssysteme mit erhöhtem Schutzbedarf".
+> Eine Ende-zu-Ende-Verschlüsselung stellt sicher, dass auch Server auf dem Weg zwischen den Endpunkten die Kommunikation nicht auslesen können. Die Unterstützung von Ende-zu-Ende-Verschlüsselung unterscheidet sich zwischen verschiedenen Kommunikationsanwendungen noch immer erheblich: Viele E-Mail-Server verschlüsseln gar nicht oder nur bei Verwendung spezieller Erweiterungen so, während viele Messenger-Apps die Ende-zu-Ende-Verschlüsselung ohne Nutzerinteraktion automatisch erzwingen. Dies kann je nach Anwendung z.B. mittels OpenPGP, S/MIME oder Signal Protocol geschehen. Für aktuelle Verschlüsselungsverfahren siehe BSI TR-02102. Für weitere Details zur Telekommunikation siehe "Kompendium für organisationsinterne Telekommunikationssysteme mit erhöhtem Schutzbedarf".
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f |
+

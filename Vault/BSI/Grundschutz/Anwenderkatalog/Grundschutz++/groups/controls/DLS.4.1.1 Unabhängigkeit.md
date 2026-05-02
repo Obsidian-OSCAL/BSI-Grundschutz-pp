@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.4.1.1 Unabhängigkeit
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.4.1.1 - Unabhängigkeit
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionier
 | <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](../DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](../../../../namespaces/entries/practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b.md) | [Outsourcing](../../../../namespaces/entries/target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Unabhängigkeit der Verarbeitung schützenswerter Informationen | vor der Außerbetriebnahme | [testen](../../../../namespaces/entries/action_words_testen_db5f9334-97d0-4326-80f0-176348a3f165.md) | [Ergebnisprotokoll](../../../../namespaces/entries/documentation_guidelines_Ergebnisprotokoll.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Outsourcing SOLLTE die Unabhängigkeit der Verarbeitung schützenswerter Informationen vor der Außerbetriebnahme testen.</span>
 
 > [!info]- Guidance
->„Unabhängigkeit der Verarbeitung“ meint hier die Fähigkeit, dass die Nutzung von Informationen in Geschäftsprozessen der Institution nicht von den Systemen, Verfahren oder Interessen des externen Dienstleisters abhängig ist, sodass ihre Integrität, Verfügbarkeit und Vertraulichkeit auch nach einer Außerbetriebnahme des Outsourcings gewährleistet bleibt. Die Vorschrift dient dem Zweck, die Risiken zu minimieren, die entstehen können, wenn ein Dienstleister seine Leistung einstellt, Verträge beendet werden oder ein abruptes Ende der Zusammenarbeit erfolgt. Ohne Vorkehrungen könnte dies dazu führen, dass kritische Daten unzugänglich bleiben, unkontrolliert gelöscht werden oder in Abhängigkeit von proprietären Formaten verloren gehen. Zur Umsetzung kann die Institution verschiedene Maßnahmen prüfen: (1) Ein systematischer Test, ob Daten in standardisierten, portablen Formaten exportierbar sind und in eigenen oder alternativen Systemen fehlerfrei weiterverarbeitet werden können. (2) Ein Probelauf, bei dem die Verbindung zum Dienstleister gezielt getrennt wird, um zu überprüfen, ob die Institution ihre Geschäftsprozesse auch ohne aktive Anbindung fortführen kann. (3) Ein kontrolliertes Abschalten einzelner vom Dienstleister erbrachter Dienste, um zu verifizieren, ob vorbereitete Ersatzprozesse oder interne Systeme die Funktion übernehmen. (4) Eine Teststellung für die Rückgabe von Datenbeständen am Ende der Vertragslaufzeit, bei der die Vollständigkeit, Konsistenz und Nutzbarkeit der gelieferten Daten geprüft wird. Mit solchen Maßnahmen kann die Institution sicherstellen, dass die Verarbeitung schützenswerter Informationen eigenständig aufrechterhalten werden kann.
+> „Unabhängigkeit der Verarbeitung“ meint hier die Fähigkeit, dass die Nutzung von Informationen in Geschäftsprozessen der Institution nicht von den Systemen, Verfahren oder Interessen des externen Dienstleisters abhängig ist, sodass ihre Integrität, Verfügbarkeit und Vertraulichkeit auch nach einer Außerbetriebnahme des Outsourcings gewährleistet bleibt. Die Vorschrift dient dem Zweck, die Risiken zu minimieren, die entstehen können, wenn ein Dienstleister seine Leistung einstellt, Verträge beendet werden oder ein abruptes Ende der Zusammenarbeit erfolgt. Ohne Vorkehrungen könnte dies dazu führen, dass kritische Daten unzugänglich bleiben, unkontrolliert gelöscht werden oder in Abhängigkeit von proprietären Formaten verloren gehen. Zur Umsetzung kann die Institution verschiedene Maßnahmen prüfen: (1) Ein systematischer Test, ob Daten in standardisierten, portablen Formaten exportierbar sind und in eigenen oder alternativen Systemen fehlerfrei weiterverarbeitet werden können. (2) Ein Probelauf, bei dem die Verbindung zum Dienstleister gezielt getrennt wird, um zu überprüfen, ob die Institution ihre Geschäftsprozesse auch ohne aktive Anbindung fortführen kann. (3) Ein kontrolliertes Abschalten einzelner vom Dienstleister erbrachter Dienste, um zu verifizieren, ob vorbereitete Ersatzprozesse oder interne Systeme die Funktion übernehmen. (4) Eine Teststellung für die Rückgabe von Datenbeständen am Ende der Vertragslaufzeit, bei der die Vollständigkeit, Konsistenz und Nutzbarkeit der gelieferten Daten geprüft wird. Mit solchen Maßnahmen kann die Institution sicherstellen, dass die Verarbeitung schützenswerter Informationen eigenständig aufrechterhalten werden kann.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d37125e2-68cd-4e75-9da9-d4af0b4dd051 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | d37125e2-68cd-4e75-9da9-d4af0b4dd051 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d37125e2-68cd-4e75-9da9-d4af0b4dd051 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | d37125e2-68cd-4e75-9da9-d4af0b4dd051 |
+

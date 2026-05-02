@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.11.9 Verschlüsselung schützenswerter Daten (at-rest)
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.9 - Verschlüsselung schützenswerter Daten (at-rest)
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | schützenswerte Daten | bei der Speicherung (at-rest) | [verschlüsseln](../../../../namespaces/entries/action_words_verschlüsseln_4dc9ef92-2124-449a-9a99-61095d271599.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen KANN schützenswerte Daten bei der Speicherung (at-rest) verschlüsseln.</span>
 
 > [!info]- Guidance
->Hierbei ist insbesondere an Zugangsdaten zu denken. Die Anforderung ist auch dann erfüllt, wenn Daten statt einer Verschlüsselung mit Hash und Salt versehen sind. Zur Umsetzung siehe BSI TR-02102.
+> Hierbei ist insbesondere an Zugangsdaten zu denken. Die Anforderung ist auch dann erfüllt, wenn Daten statt einer Verschlüsselung mit Hash und Salt versehen sind. Zur Umsetzung siehe BSI TR-02102.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d3e4416f-e997-4aec-a45b-eade4316d896 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | d3e4416f-e997-4aec-a45b-eade4316d896 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d3e4416f-e997-4aec-a45b-eade4316d896 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | d3e4416f-e997-4aec-a45b-eade4316d896 |
+

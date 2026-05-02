@@ -6,7 +6,7 @@ tags:
 - insider_threat
 - privilegierte_rechte
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.10.5 Systemadministration - Internetnutzung
@@ -23,7 +23,11 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.10.5 - Systemadministration - Internetnutzung
-> [!example]- Tags:> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)> [Privilegierte Rechte](../../../../namespaces/entries/tags_Privilegierte_Rechte.md)
+> [!example]- Tags:
+> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)
+> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [Privilegierte Rechte](../../../../namespaces/entries/tags_Privilegierte_Rechte.md)
+
 Gruppe: [SENS.10 Administration](../SENS.10%20Administration.md)
 ---
 
@@ -35,11 +39,21 @@ Gruppe: [SENS.10 Administration](../SENS.10%20Administration.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
->Administrationskonten sind im konkreten Kontext privilegierte Benutzerkonten, die erweiterte Rechte für Konfigurations-, Installations- oder Wartungsaufgaben besitzen. Internetzugriff bezeichnet dabei das Herstellen von Verbindungen zu externen Diensten oder Webseiten außerhalb der institutionseigenen Netze. Ein solcher Zugriff mit einem Administrationskonto stellt ein erhebliches Risiko dar: Schadsoftware könnte mit denselben hohen Rechten ausgeführt werden oder Anmeldedaten könnten über unsichere Webseiten abgegriffen werden. Hiervon können Zugriffe ausgenommen werden, die zur Administration des Systems mit diesen Rechten erforderlich sind, z.B. Download von Sicherheitsupdates durch Applikationen, die zur Ausführung administrative Rechte benötigen.
+> Administrationskonten sind im konkreten Kontext privilegierte Benutzerkonten, die erweiterte Rechte für Konfigurations-, Installations- oder Wartungsaufgaben besitzen. Internetzugriff bezeichnet dabei das Herstellen von Verbindungen zu externen Diensten oder Webseiten außerhalb der institutionseigenen Netze. Ein solcher Zugriff mit einem Administrationskonto stellt ein erhebliches Risiko dar: Schadsoftware könnte mit denselben hohen Rechten ausgeführt werden oder Anmeldedaten könnten über unsichere Webseiten abgegriffen werden. Hiervon können Zugriffe ausgenommen werden, die zur Administration des Systems mit diesen Rechten erforderlich sind, z.B. Download von Sicherheitsupdates durch Applikationen, die zur Ausführung administrative Rechte benötigen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 888c76ab-d8f0-42ff-a791-8a31f17f6ad0 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 888c76ab-d8f0-42ff-a791-8a31f17f6ad0 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 888c76ab-d8f0-42ff-a791-8a31f17f6ad0 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 888c76ab-d8f0-42ff-a791-8a31f17f6ad0 |
 
-> [!info]- Links> > required: [BER.3.5 Privilegierte Zugangskonten](./BER.3.5%20Privilegierte%20Zugangskonten.md)
+
+> [!info]- Links
+> > required: [BER.3.5 Privilegierte Zugangskonten](./BER.3.5%20Privilegierte%20Zugangskonten.md)
+

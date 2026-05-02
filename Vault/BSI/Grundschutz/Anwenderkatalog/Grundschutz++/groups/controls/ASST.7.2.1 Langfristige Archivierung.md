@@ -5,7 +5,7 @@ tags:
 - archivierung
 - asst721-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.7.2.1 Langfristige Archivierung
@@ -33,11 +33,21 @@ Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten
 | <div style="background:#cccccc">*[Informationen und Assets (ASST)](../ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten.md) *</div> | [Informationen und Assets](../../../../namespaces/entries/practices_Informationen_und_Assets_02088622-573d-4225-883c-9afe0c7dc69b.md) | [Daten](../../../../namespaces/entries/target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die langfristige Archivierung | mindestens für {{eine bestimmte Frist}} | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [Arbeitsanweisung](../../../../namespaces/entries/documentation_guidelines_Arbeitsanweisung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten KANN die langfristige Archivierung mindestens für {{ insert: param, asst.7.2.1-prm1 }} verankern.</span>
 
 > [!info]- Guidance
->Archivierung meint hier die langfristige Aufbewahrung derjenigen Daten, die über längere Zeit benötigt werden, z.B. über mehr als 10 Jahre. Hierbei kann es sich beispielsweise um Nachweise der Einhaltung rechtlicher Verpflichtungen, Daten zur Nachvollziehbarkeit von Angriffen (Audit Log), oder zur Geltendmachung von Ansprüchen handeln. Dabei kann es sich sowohl um analoge Dokumente als auch um digitale Daten handeln. Die meisten Institutionen verarbeiten Daten, die aufgrund von Compliance-Verpflichtungen langfristig gespeichert werden, z.B. handels- und steuerrechtlich relevante Dokumente oder Eigentumsurkunden.
+> Archivierung meint hier die langfristige Aufbewahrung derjenigen Daten, die über längere Zeit benötigt werden, z.B. über mehr als 10 Jahre. Hierbei kann es sich beispielsweise um Nachweise der Einhaltung rechtlicher Verpflichtungen, Daten zur Nachvollziehbarkeit von Angriffen (Audit Log), oder zur Geltendmachung von Ansprüchen handeln. Dabei kann es sich sowohl um analoge Dokumente als auch um digitale Daten handeln. Die meisten Institutionen verarbeiten Daten, die aufgrund von Compliance-Verpflichtungen langfristig gespeichert werden, z.B. handels- und steuerrechtlich relevante Dokumente oder Eigentumsurkunden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d26539e6-62c3-469a-87f3-87ab15fd9213 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | d26539e6-62c3-469a-87f3-87ab15fd9213 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d26539e6-62c3-469a-87f3-87ab15fd9213 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | d26539e6-62c3-469a-87f3-87ab15fd9213 |
 
-> [!info]- Links> > related: [NOT.4.5 Archivierung langfristig benötigter Daten](./NOT.4.5%20Archivierung%20langfristig%20benötigter%20Daten.md)
+
+> [!info]- Links
+> > related: [NOT.4.5 Archivierung langfristig benötigter Daten](./NOT.4.5%20Archivierung%20langfristig%20benötigter%20Daten.md)
+

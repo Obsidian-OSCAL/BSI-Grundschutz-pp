@@ -5,7 +5,7 @@ tags:
 - compliance-management
 - perf21-prm1
 - oscal_control
-created: Fri May 01 21:44:29 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Methodik-Grundschutz-plus-plus
 type: control
 control: PERF.2.1 Überwachung der Einhaltung von Verpflichtungen
@@ -29,11 +29,22 @@ Gruppe: [PERF.2 Überwachung der Compliance](../PERF.2%20Überwachung%20der%20Co
 | <div style="background:#cccccc">*[Monitoring-Evaluation (PERF)](../PERF%20Monitoring-Evaluation.md)*<br> *  &rarr; [Überwachung der Compliance](../PERF.2%20Überwachung%20der%20Compliance.md) *</div> | [Monitoring-Evaluation](../../../../namespaces/entries/practices_Monitoring-Evaluation_929c7c4f-efe1-4092-907e-ba1e767a1ac3.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Einhaltung von Verpflichtungen | {{regelmäßig}} sowie anlassbezogen | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) |  | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Monitoring-Evaluation SOLLTE die Einhaltung von Verpflichtungen {{ insert: param, perf.2.1-prm1 }} sowie anlassbezogen überprüfen.</span>
 
 > [!info]- Guidance
->Im Rahmen der Compliance-Überwachung sollte die Einhaltung von Verpflichtungen regelmäßig sowie anlassbezogen überprüft werden. Dies umfasst regelmäßige Kontrollen zur Überprüfung der Einhaltung dokumentierter gesetzlicher und vertraglicher Anforderungen, anlassbezogene Überprüfungen bei Änderungen des regulatorischen Umfelds, bei Hinweisen auf mögliche Verstöße oder nach durchgeführten Änderungen in relevanten Systemen oder Prozessen, die Identifikation von Compliance-Lücken und deren systematische Dokumentation sowie die Entwicklung und Umsetzung von Maßnahmen zur Schließung identifizierter Compliance-Lücken.
+> Im Rahmen der Compliance-Überwachung sollte die Einhaltung von Verpflichtungen regelmäßig sowie anlassbezogen überprüft werden. Dies umfasst regelmäßige Kontrollen zur Überprüfung der Einhaltung dokumentierter gesetzlicher und vertraglicher Anforderungen, anlassbezogene Überprüfungen bei Änderungen des regulatorischen Umfelds, bei Hinweisen auf mögliche Verstöße oder nach durchgeführten Änderungen in relevanten Systemen oder Prozessen, die Identifikation von Compliance-Lücken und deren systematische Dokumentation sowie die Entwicklung und Umsetzung von Maßnahmen zur Schließung identifizierter Compliance-Lücken.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 9bb16672-4394-4ce9-bd14-12a080233f7a |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 9bb16672-4394-4ce9-bd14-12a080233f7a |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 9bb16672-4394-4ce9-bd14-12a080233f7a |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 9bb16672-4394-4ce9-bd14-12a080233f7a |
 
-> [!info]- Links> > related: [GC.7.1 Verfahren und Regelungen](./GC.7.1%20Verfahren%20und%20Regelungen.md)> > related: [UMS.7.1 Wahrung von Compliance in der Umsetzung](./UMS.7.1%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
+
+> [!info]- Links
+> > related: [GC.7.1 Verfahren und Regelungen](./GC.7.1%20Verfahren%20und%20Regelungen.md)
+> > related: [UMS.7.1 Wahrung von Compliance in der Umsetzung](./UMS.7.1%20Wahrung%20von%20Compliance%20in%20der%20Umsetzung.md)
+

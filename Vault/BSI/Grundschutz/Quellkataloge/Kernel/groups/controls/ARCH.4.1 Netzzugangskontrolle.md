@@ -5,7 +5,7 @@ tags:
 - network_access_control
 - rogue_access_point
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.4.1 Netzzugangskontrolle
@@ -22,11 +22,15 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.4.1 - Netzzugangskontrolle
-> [!example]- Tags:> [Network Access Control](../../../../namespaces/entries/tags_Network_Access_Control.md)> [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)
+> [!example]- Tags:
+> [Network Access Control](../../../../namespaces/entries/tags_Network_Access_Control.md)
+> [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)
+
 Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [ARCH.4.1.1 Dynamische Netzzugangskontrolle](./ARCH.4.1.1%20Dynamische%20Netzzugangskontrolle.md)> [ARCH.4.1.2 Quarantäne](./ARCH.4.1.2%20Quarantäne.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -35,11 +39,22 @@ Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
->Unautorisierte Systeme könnten Ausgangspunkt von Angriffen sein oder zu unbeabsichtigten Störungen im Netz führen. Netzwerkzugangskontrolle (Network Access Control, NAC) bietet eine wirksame Möglichkeit, den Zugriff auf Netzwerke kontrolliert zu steuern, insbesondere in schützenswerten Bereichen wie Management-Netzen, Produktionssystemen oder Forschungsumgebungen. Die Auswahl der Netzbereiche für die Netzzugangskontrolle richtet sich nach dem Schutzbedarf oder Risikoprofil. Dabei empfiehlt sich zu dokumentieren, welche Zonen mit NAC abgesichert werden und warum andere bewusst nicht berücksichtigt werden (z.B. aufgrund technischer Einschränkungen oder fehlender Relevanz). Die Umsetzung kann (1) auf Zertifikaten basieren (X.509, EAP‑TLS or mTLS), (2) auf Zugangskonten basieren (IEEE 802.1X, RADIUS), (3) auf dynamischen Prüfungen basieren (z.B. Sicherheitspatches). Eine Authentifizierung, die nur auf MAC-Adressen basiert, gilt dagegen nicht mehr als zeitgemäß, da MAC-Adressen sehr leicht ausgelesen und auf Systemen eingestellt werden könnten und so unberechtigte IT-Systeme zu leicht auch Zugang erhalten. Wenn Systeme die Netzzugangskontrolle nicht oder nur unzureichend unterstützen, ist für solche Systeme anstelle einer Netzzugangskontrolle die Nutzung eines eigenen Netzsegmentes empfehlenswert. Für die Verbindung zwischen RADIUS-Servern, Switches und Verzeichnisdiensten kommen Protokolle wie RadSec, IPsec oder LDAPS in Betracht. Die Verwendung nur einer einzigen Serverkonfigurationen (z.B. ein gemeinsamer RADIUS-Server für NAC und VPN) führt zu Komplexität und Angriffspunkten. Daher werden getrennte Systeme empfohlen. Dies gilt insbesondere bei unterschiedlichen Schutzklassen im LAN/WLAN oder Büro-/Produktionsnetz. Bei WLANs kann die Umsetzung in größeren Umgebungen mittels 802.1X (WPA3-Enterprise) und an kleineren Zugangspunkten oder Gastnetzen durch SAE (WPA3-Personal) erfolgen. Da es sich um eine automatisierte Sicherheitsrichtlinie handelt, ist hier auch die Anforderung zur Überwachung solcher Richtlinien anwendbar. Überwachungskriterien sind hier z.B. die Erreichbarkeit des RADIUS-Servers, die Antwortzeiten, die Last auf Access-Switches und andere Metriken. Für die Überwachung der Integrität ist insbesondere die Authentifizierung oder deren Fehlschlag relevant, z.B. viele abgelehnte Authentisierungen, plötzliche Deaktivierung eines Supplicants. Durch synthetische Anfragen an Testkonten kann die gesamte Authentisierungskette regelmäßig geprüft werden. Die Formulierung "im Einklang mit den Festlegungen des Identitäts- und Berechtigungsmanagements" bedeutet, dass die Authentifizierung so erfolgt, wie in der Praktik IDM festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist.
+> Unautorisierte Systeme könnten Ausgangspunkt von Angriffen sein oder zu unbeabsichtigten Störungen im Netz führen. Netzwerkzugangskontrolle (Network Access Control, NAC) bietet eine wirksame Möglichkeit, den Zugriff auf Netzwerke kontrolliert zu steuern, insbesondere in schützenswerten Bereichen wie Management-Netzen, Produktionssystemen oder Forschungsumgebungen. Die Auswahl der Netzbereiche für die Netzzugangskontrolle richtet sich nach dem Schutzbedarf oder Risikoprofil. Dabei empfiehlt sich zu dokumentieren, welche Zonen mit NAC abgesichert werden und warum andere bewusst nicht berücksichtigt werden (z.B. aufgrund technischer Einschränkungen oder fehlender Relevanz). Die Umsetzung kann (1) auf Zertifikaten basieren (X.509, EAP‑TLS or mTLS), (2) auf Zugangskonten basieren (IEEE 802.1X, RADIUS), (3) auf dynamischen Prüfungen basieren (z.B. Sicherheitspatches). Eine Authentifizierung, die nur auf MAC-Adressen basiert, gilt dagegen nicht mehr als zeitgemäß, da MAC-Adressen sehr leicht ausgelesen und auf Systemen eingestellt werden könnten und so unberechtigte IT-Systeme zu leicht auch Zugang erhalten. Wenn Systeme die Netzzugangskontrolle nicht oder nur unzureichend unterstützen, ist für solche Systeme anstelle einer Netzzugangskontrolle die Nutzung eines eigenen Netzsegmentes empfehlenswert. Für die Verbindung zwischen RADIUS-Servern, Switches und Verzeichnisdiensten kommen Protokolle wie RadSec, IPsec oder LDAPS in Betracht. Die Verwendung nur einer einzigen Serverkonfigurationen (z.B. ein gemeinsamer RADIUS-Server für NAC und VPN) führt zu Komplexität und Angriffspunkten. Daher werden getrennte Systeme empfohlen. Dies gilt insbesondere bei unterschiedlichen Schutzklassen im LAN/WLAN oder Büro-/Produktionsnetz. Bei WLANs kann die Umsetzung in größeren Umgebungen mittels 802.1X (WPA3-Enterprise) und an kleineren Zugangspunkten oder Gastnetzen durch SAE (WPA3-Personal) erfolgen. Da es sich um eine automatisierte Sicherheitsrichtlinie handelt, ist hier auch die Anforderung zur Überwachung solcher Richtlinien anwendbar. Überwachungskriterien sind hier z.B. die Erreichbarkeit des RADIUS-Servers, die Antwortzeiten, die Last auf Access-Switches und andere Metriken. Für die Überwachung der Integrität ist insbesondere die Authentifizierung oder deren Fehlschlag relevant, z.B. viele abgelehnte Authentisierungen, plötzliche Deaktivierung eines Supplicants. Durch synthetische Anfragen an Testkonten kann die gesamte Authentisierungskette regelmäßig geprüft werden. Die Formulierung "im Einklang mit den Festlegungen des Identitäts- und Berechtigungsmanagements" bedeutet, dass die Authentifizierung so erfolgt, wie in der Praktik IDM festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 9ec9762e-c115-4e56-8b45-b88a872f47ce |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 9ec9762e-c115-4e56-8b45-b88a872f47ce |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 9ec9762e-c115-4e56-8b45-b88a872f47ce |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 9ec9762e-c115-4e56-8b45-b88a872f47ce |
 
-> [!info]- Links> > related: [DET.4.4 Änderungen an Sicherheitsrichtlinien](./DET.4.4%20Änderungen%20an%20Sicherheitsrichtlinien.md)> > related: [DET.3.1.8 Privilegierte Ereignisse](./DET.3.1.8%20Privilegierte%20Ereignisse.md)
+
+> [!info]- Links
+> > related: [DET.4.4 Änderungen an Sicherheitsrichtlinien](./DET.4.4%20Änderungen%20an%20Sicherheitsrichtlinien.md)
+> > related: [DET.3.1.8 Privilegierte Ereignisse](./DET.3.1.8%20Privilegierte%20Ereignisse.md)
+

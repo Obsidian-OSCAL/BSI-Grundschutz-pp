@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - bes7412-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.7.4.12 Software Bill of Materials (SBOM) - Cloud
@@ -33,9 +33,17 @@ Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Abnahme](../BES.7%20Abnahme.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Cloud-Dienste](../../../../namespaces/entries/target_object_categories_Cloud-Dienste_d2a23b62-9c66-4f72-98e2-17518d5dbe0f.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | für jede gelieferte Software-as-a-Service (SaaS) die entsprechende Software Bill of Materials (SBOM) | nach {{einem anerkannten Standard}} | [dokumentieren](../../../../namespaces/entries/action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8.md) | [Betriebshandbuch](../../../../namespaces/entries/documentation_guidelines_Betriebshandbuch.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Cloud-Dienste KANN für jede gelieferte Software-as-a-Service (SaaS) die entsprechende Software Bill of Materials (SBOM) nach {{ insert: param, bes.7.4.12-prm1 }} dokumentieren.</span>
 
 > [!info]- Guidance
->Ein anerkannter Standard für SBOM ist die BSI TR-03183-2.
+> Ein anerkannter Standard für SBOM ist die BSI TR-03183-2.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7a3321a5-9f54-4ada-955d-647aeb0e51b5 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 7a3321a5-9f54-4ada-955d-647aeb0e51b5 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 7a3321a5-9f54-4ada-955d-647aeb0e51b5 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 7a3321a5-9f54-4ada-955d-647aeb0e51b5 |
+

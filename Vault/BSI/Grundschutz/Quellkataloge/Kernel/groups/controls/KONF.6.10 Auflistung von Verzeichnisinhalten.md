@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - data_leak
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.6.10 Auflistung von Verzeichnisinhalten
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.10 - Auflistung von Verzeichnisinhalten
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+
 Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigu
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigungen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Webserver](../../../../namespaces/entries/target_object_categories_Webserver_b1411d0f-ffd1-45b7-837b-cd97ba4ed9e7.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Auflistung von Verzeichnisinhalten |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Webserver SOLLTE die Auflistung von Verzeichnisinhalten einschränken.</span>
 
 > [!info]- Guidance
->Über das Auflisten von Verzeichnisinhalten erhalten Angreifer Einblick in die interne Struktur des Systems und potenziell sensibler Daten. Zur Umsetzung kann in der Konfiguration des Webservers (z.B. Apache, Nginx) die Directory-Listing-Funktion deaktiviert werden. Alternativ kann über Dateien wie .htaccess der Zugriff auf die notwendigen Verzeichnisse eingeschränkt werden.
+> Über das Auflisten von Verzeichnisinhalten erhalten Angreifer Einblick in die interne Struktur des Systems und potenziell sensibler Daten. Zur Umsetzung kann in der Konfiguration des Webservers (z.B. Apache, Nginx) die Directory-Listing-Funktion deaktiviert werden. Alternativ kann über Dateien wie .htaccess der Zugriff auf die notwendigen Verzeichnisse eingeschränkt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ce8d6ad1-d414-48a3-b273-50fa01fd2ee6 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | ce8d6ad1-d414-48a3-b273-50fa01fd2ee6 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | ce8d6ad1-d414-48a3-b273-50fa01fd2ee6 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | ce8d6ad1-d414-48a3-b273-50fa01fd2ee6 |
+

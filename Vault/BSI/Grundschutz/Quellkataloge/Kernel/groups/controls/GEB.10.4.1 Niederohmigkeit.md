@@ -5,7 +5,7 @@ tags:
 - inspektion
 - geb1041-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: GEB.10.4.1 Niederohmigkeit
@@ -32,11 +32,21 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Element
 | <div style="background:#cccccc">*[Gebäudemanagement (GEB)](../GEB%20Gebäudemanagement.md)*<br> *  &rarr; [Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Elementarschäden.md) *</div> | [Gebäudemanagement](../../../../namespaces/entries/practices_Gebäudemanagement_17b37cff-5445-4487-acec-ef18d91cfec2.md) | [Standorte](../../../../namespaces/entries/target_object_categories_Standorte_df3978e8-775d-4aa6-8be7-fd2a6f12315d.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Blitzschutzeinrichtungen | {{regelmäßig}}  auf Niederohmigkeit | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | Übungs- und Prüfplan | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Gebäudemanagement für Standorte KANN Blitzschutzeinrichtungen {{ insert: param, geb.10.4.1-prm1 }}  auf Niederohmigkeit überprüfen.</span>
 
 > [!info]- Guidance
->Eine niedrige Ohmzahl in Erdungs- und Potentialausgleichseinrichtungen gewährleistet, dass Blitzströme schnell und wirksam abgeleitet werden. Siehe DIN VDE 0100-443 u. -534. Beachten Sie dabei auch die Prüfpflicht aus der Betriebssicherheitsverordnung (BetrSichV).
+> Eine niedrige Ohmzahl in Erdungs- und Potentialausgleichseinrichtungen gewährleistet, dass Blitzströme schnell und wirksam abgeleitet werden. Siehe DIN VDE 0100-443 u. -534. Beachten Sie dabei auch die Prüfpflicht aus der Betriebssicherheitsverordnung (BetrSichV).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | a70149a9-75af-4784-8011-e1433c72dcfc |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | a70149a9-75af-4784-8011-e1433c72dcfc |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | a70149a9-75af-4784-8011-e1433c72dcfc |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | a70149a9-75af-4784-8011-e1433c72dcfc |
 
-> [!info]- Links> > related: [GEB.9.4 Überspannungsschutz](./GEB.9.4%20Überspannungsschutz.md)
+
+> [!info]- Links
+> > related: [GEB.9.4 Überspannungsschutz](./GEB.9.4%20Überspannungsschutz.md)
+

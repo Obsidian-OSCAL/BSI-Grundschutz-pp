@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.4 VoIP-Netz
@@ -22,7 +22,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.4 - VoIP-Netz
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Verbindungen zwischen Daten- und VoIP-Systemen |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze KANN Verbindungen zwischen Daten- und VoIP-Systemen einschränken.</span>
 
 > [!info]- Guidance
->Werden sowohl Telefonie als auch andere Daten über dasselbe Netz geführt, so könnte dies bei einem Netzausfall dazu führen, dass keine Kommunikation mehr möglich ist, auch nicht zur Meldung oder Behebung der Störung. Die Wahrscheinlichkeit kann durch getrennt betriebene Voice- und Datennetze verringert werden. Für weitere Details siehe „Kompendium für organisationsinterne Telekommunikationssysteme mit erhöhtem Schutzbedarf".
+> Werden sowohl Telefonie als auch andere Daten über dasselbe Netz geführt, so könnte dies bei einem Netzausfall dazu führen, dass keine Kommunikation mehr möglich ist, auch nicht zur Meldung oder Behebung der Störung. Die Wahrscheinlichkeit kann durch getrennt betriebene Voice- und Datennetze verringert werden. Für weitere Details siehe „Kompendium für organisationsinterne Telekommunikationssysteme mit erhöhtem Schutzbedarf".
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 02cac8a8-60e3-481d-96bf-3fa484afea78 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 02cac8a8-60e3-481d-96bf-3fa484afea78 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 02cac8a8-60e3-481d-96bf-3fa484afea78 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 02cac8a8-60e3-481d-96bf-3fa484afea78 |
+

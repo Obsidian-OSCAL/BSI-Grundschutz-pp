@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.1 Entziehung der Zugangsberechtigungen
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.1 - Entziehung der Zugangsberechtigungen
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
@@ -33,11 +36,21 @@ Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->„Zugangsberechtigungen“ meint hier die Gesamtheit aller physischen, logischen und administrativen Rechte, die externen Dienstleistern den Zugriff auf Systeme, Daten, Gebäude oder digitale Ressourcen der Institution ermöglichen. Dazu gehören sowohl Benutzerkonten und technische Schnittstellen als auch Zutrittskarten oder Remote-Zugänge über VPN. Der Sinn und Zweck der Vorschrift liegt darin, dass unautorisierte Zugriffe nach einer Vertragsbeendigung verhindert werden können. Ein ehemaliger Dienstleister könnte ansonsten weiterhin über aktive Accounts sensible Daten einsehen oder Systeme manipulieren, was zu Datenabfluss, Sabotage oder unbemerkten Veränderungen führen könnte.
+> „Zugangsberechtigungen“ meint hier die Gesamtheit aller physischen, logischen und administrativen Rechte, die externen Dienstleistern den Zugriff auf Systeme, Daten, Gebäude oder digitale Ressourcen der Institution ermöglichen. Dazu gehören sowohl Benutzerkonten und technische Schnittstellen als auch Zutrittskarten oder Remote-Zugänge über VPN. Der Sinn und Zweck der Vorschrift liegt darin, dass unautorisierte Zugriffe nach einer Vertragsbeendigung verhindert werden können. Ein ehemaliger Dienstleister könnte ansonsten weiterhin über aktive Accounts sensible Daten einsehen oder Systeme manipulieren, was zu Datenabfluss, Sabotage oder unbemerkten Veränderungen führen könnte.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 0e6eb46f-3941-4f64-9fd6-709517a01ad1 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 0e6eb46f-3941-4f64-9fd6-709517a01ad1 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 0e6eb46f-3941-4f64-9fd6-709517a01ad1 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 0e6eb46f-3941-4f64-9fd6-709517a01ad1 |
 
-> [!info]- Links> > related: [DLS.4.1 Dekomissionierung](./DLS.4.1%20Dekomissionierung.md)
+
+> [!info]- Links
+> > related: [DLS.4.1 Dekomissionierung](./DLS.4.1%20Dekomissionierung.md)
+

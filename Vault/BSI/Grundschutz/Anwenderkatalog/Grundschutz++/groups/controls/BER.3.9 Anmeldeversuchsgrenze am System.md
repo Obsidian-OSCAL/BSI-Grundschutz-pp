@@ -6,7 +6,7 @@ tags:
 - brute-force-attacke
 - ber39-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.9 Anmeldeversuchsgrenze am System
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.9 - Anmeldeversuchsgrenze am System
-> [!example]- Tags:> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+> [!example]- Tags:
+> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)
+> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+
 Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 ---
 
@@ -32,9 +35,17 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Zugangskonten](../BER.3%20Zugangskonten.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | weitere Anmeldeversuche nach Erreichen von {{einem maximalen Schwellwert an}} fehlgeschlagenen Versuchen | vorübergehend | [blockieren](../../../../namespaces/entries/action_words_blockieren_2abccead-8fc1-4f04-af4b-8c5ff796bd67.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung für IT-Systeme SOLLTE weitere Anmeldeversuche nach Erreichen von {{ insert: param, ber.3.9-prm1 }} fehlgeschlagenen Versuchen vorübergehend blockieren.</span>
 
 > [!info]- Guidance
->Betrifft sowohl die lokale Anmeldung über eine Benutzeroberfläche als auch den Zugriff über Fernwartungsprotokolle oder -anwendungen wie RDP, SNMP, wenn diese vorhanden sind.  Die Umsetzung erfolgt im einfachsten Fall durch ein Login, bzw. eine Bildschirmsperre für das IT-System. Biometrische Daten wie Fingerabdrücke können gefälscht werden und sind nicht so leicht zu ändern wie Passwörter. Setzen Sie Biometrie daher nicht als einzigen Authentifizierungsfaktor ein, sondern wenn, dann nur zur Ergänzung (Mehr-Faktor-Authentifizierung). Die Anforderung ist entbehrlich, wenn das System keinen Zugriff auf schützenswerte Daten erlaubt, z.B. bei Nutzung als Kiosk.
+> Betrifft sowohl die lokale Anmeldung über eine Benutzeroberfläche als auch den Zugriff über Fernwartungsprotokolle oder -anwendungen wie RDP, SNMP, wenn diese vorhanden sind.  Die Umsetzung erfolgt im einfachsten Fall durch ein Login, bzw. eine Bildschirmsperre für das IT-System. Biometrische Daten wie Fingerabdrücke können gefälscht werden und sind nicht so leicht zu ändern wie Passwörter. Setzen Sie Biometrie daher nicht als einzigen Authentifizierungsfaktor ein, sondern wenn, dann nur zur Ergänzung (Mehr-Faktor-Authentifizierung). Die Anforderung ist entbehrlich, wenn das System keinen Zugriff auf schützenswerte Daten erlaubt, z.B. bei Nutzung als Kiosk.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | c37f30d1-8fd7-4497-b3f1-07d8f54b717c |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | c37f30d1-8fd7-4497-b3f1-07d8f54b717c |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | c37f30d1-8fd7-4497-b3f1-07d8f54b717c |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | c37f30d1-8fd7-4497-b3f1-07d8f54b717c |
+

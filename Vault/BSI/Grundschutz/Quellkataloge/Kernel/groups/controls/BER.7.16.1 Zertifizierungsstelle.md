@@ -5,7 +5,7 @@ tags:
 - cryptography
 - ber7161-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.7.16.1 Zertifizierungsstelle
@@ -32,9 +32,17 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Beglaubigung von Schlüsseln | {{einer zuständigen Person oder Rolle}} | [zuweisen](../../../../namespaces/entries/action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020.md) | [IT-Betriebskonzept](../../../../namespaces/entries/documentation_guidelines_IT-Betriebskonzept.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die Beglaubigung von Schlüsseln {{ insert: param, ber.7.16.1-prm1 }} zuweisen.</span>
 
 > [!info]- Guidance
->Die Beglaubigung von Schlüsseln ist technisch komplex. Gleichzeitig hängt von ihr die Vertrauensstellung von Systemen und Anwendungen im Informationsverbund ab. Daher ist es sinnvoll diese Aufgabe konkret bestimmten Personen oder Rollen zuzuweisen.
+> Die Beglaubigung von Schlüsseln ist technisch komplex. Gleichzeitig hängt von ihr die Vertrauensstellung von Systemen und Anwendungen im Informationsverbund ab. Daher ist es sinnvoll diese Aufgabe konkret bestimmten Personen oder Rollen zuzuweisen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7b80290b-5c6d-4e39-857c-0a63a8e2543a |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 7b80290b-5c6d-4e39-857c-0a63a8e2543a |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 7b80290b-5c6d-4e39-857c-0a63a8e2543a |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 7b80290b-5c6d-4e39-857c-0a63a8e2543a |
+

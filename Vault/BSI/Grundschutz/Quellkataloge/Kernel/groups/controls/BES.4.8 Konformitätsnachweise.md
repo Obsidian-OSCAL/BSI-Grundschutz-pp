@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.8 Konformitätsnachweise
@@ -20,20 +20,32 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.8 - Konformitätsnachweise
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [BES.4.8.1 Zertifizierung](./BES.4.8.1%20Zertifizierung.md)> [BES.4.8.2 Cloud-Konformität](./BES.4.8.2%20Cloud-Konformität.md)> [BES.4.8.3 IT-Grundschutz-Analyse der Infrastruktur](./BES.4.8.3%20IT-Grundschutz-Analyse%20der%20Infrastruktur.md)> [BES.4.8.4 Offenlegung der Risikoanalyse](./BES.4.8.4%20Offenlegung%20der%20Risikoanalyse.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Nachweise des Lieferanten zur Erfüllung der Sicherheitskriterien |  | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE Nachweise des Lieferanten zur Erfüllung der Sicherheitskriterien vereinbaren.</span>
 
 > [!info]- Guidance
->Nachweise können z.B. durch eine passende Zertifizierung (etwa nach IT-Grundschutz bei Dienstleistern oder CCRA bei IT-Produkten), ein Testat (z.B. C5-Testat für Cloud-Anbieter), oder durch die Vorlage von Sicherheitskonzepten, Risikoanalysen und Pentesting-Ergebnissen erbracht werden.
+> Nachweise können z.B. durch eine passende Zertifizierung (etwa nach IT-Grundschutz bei Dienstleistern oder CCRA bei IT-Produkten), ein Testat (z.B. C5-Testat für Cloud-Anbieter), oder durch die Vorlage von Sicherheitskonzepten, Risikoanalysen und Pentesting-Ergebnissen erbracht werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3e56f7c0-63b1-4017-8e30-3a78c1f06693 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 3e56f7c0-63b1-4017-8e30-3a78c1f06693 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 3e56f7c0-63b1-4017-8e30-3a78c1f06693 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 3e56f7c0-63b1-4017-8e30-3a78c1f06693 |
+

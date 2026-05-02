@@ -6,7 +6,7 @@ tags:
 - lateral_movement
 - data_exfiltration
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.11 Anomalien in Netzen und am Perimeter
@@ -21,20 +21,33 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11 - Anomalien in Netzen und am Perimeter
-> [!example]- Tags:> [Command & Control](../../../../namespaces/entries/tags_Command_&_Control.md)> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Data Exfiltration](../../../../namespaces/entries/tags_Data_Exfiltration.md)
+> [!example]- Tags:
+> [Command & Control](../../../../namespaces/entries/tags_Command_&_Control.md)
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Data Exfiltration](../../../../namespaces/entries/tags_Data_Exfiltration.md)
+
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [DET.4.11.1 Authentifizierungsversuche an externen Schnittstellen](./DET.4.11.1%20Authentifizierungsversuche%20an%20externen%20Schnittstellen.md)> [DET.4.11.2 Netzwerk-Honeypots](./DET.4.11.2%20Netzwerk-Honeypots.md)> [DET.4.11.3 Netzverkehrsfluss](./DET.4.11.3%20Netzverkehrsfluss.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | den Netzwerkverkehr auf Anomalien |  | [überwachen](../../../../namespaces/entries/action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Netze SOLLTE den Netzwerkverkehr auf Anomalien überwachen.</span>
 
 > [!info]- Guidance
->Beispiele sind ausgehende Netzverbindungen zu als bösartig bekannten oder gänzlich unbekannten DNS-Domains oder IP-Adressen, Anzeichen für DNS-Tunneling (ungewöhnlich lange Subdomains oder Spitzenwerte für TXT-Mengen), ungewöhnlich hohes Datenvolumen zu Cloud-Speicherlösungen, sowie unautorisierte Portscans oder Brute Force Angriffe auf Fernwartungsschnittstellen wie RDP oder SSH sein. Hierdurch können Verbindungen zu Angreiferservern (C2 Beacons), die Ausbreitung von Angriffen über das Netz, oder Datenabflüsse erkannt werden.
+> Beispiele sind ausgehende Netzverbindungen zu als bösartig bekannten oder gänzlich unbekannten DNS-Domains oder IP-Adressen, Anzeichen für DNS-Tunneling (ungewöhnlich lange Subdomains oder Spitzenwerte für TXT-Mengen), ungewöhnlich hohes Datenvolumen zu Cloud-Speicherlösungen, sowie unautorisierte Portscans oder Brute Force Angriffe auf Fernwartungsschnittstellen wie RDP oder SSH sein. Hierdurch können Verbindungen zu Angreiferservern (C2 Beacons), die Ausbreitung von Angriffen über das Netz, oder Datenabflüsse erkannt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | e6cf2c48-c49f-4c10-9cca-252d903b0979 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | e6cf2c48-c49f-4c10-9cca-252d903b0979 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | e6cf2c48-c49f-4c10-9cca-252d903b0979 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | e6cf2c48-c49f-4c10-9cca-252d903b0979 |
+

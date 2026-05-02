@@ -5,7 +5,7 @@ tags:
 - bring_your_own_device
 - insider_threat
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.2.4 Nutzung unautorisierter Assets
@@ -22,11 +22,15 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.2.4 - Nutzung unautorisierter Assets
-> [!example]- Tags:> [Bring Your Own Device](../../../../namespaces/entries/tags_Bring_Your_Own_Device.md)> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [!example]- Tags:
+> [Bring Your Own Device](../../../../namespaces/entries/tags_Bring_Your_Own_Device.md)
+> [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+
 Gruppe: [SENS.2 Grundlegende Sensibilisierung](../SENS.2%20Grundlegende%20Sensibilisierung.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [SENS.2.4.1 Verbindung unautorisierter IT-Systeme](./SENS.2.4.1%20Verbindung%20unautorisierter%20IT-Systeme.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -35,11 +39,22 @@ Gruppe: [SENS.2 Grundlegende Sensibilisierung](../SENS.2%20Grundlegende%20Sensib
 > > | Begriff | Definition |> > | - | - |> > | [Asset](../../../../namespaces/entries/result_Asset_00000000-0000-0000-0000-000000000000.md) | Assets sind alle Werte einer Institution, die schützenswert sind und über einen Besitzer verfügen. Dies umfasst sowohl materielle als auch immaterielle Werte wie Hardware, Software, Daten, geistiges Eigentum, Dokumentationen und Know-how der Mitarbeiter. Assets können sowohl Informationstragende (z. B. Datenträger, Endgeräte, Netzwerkkomponenten, Papierakten, Lizenzen, Domains, Accounts) als auch nicht-informationstragende Betriebsmittel (z.B. Gebäude) sein. |
 
 > [!info]- Guidance
->Die Nutzung unautorisierter Assets bezeichnet hier den Einsatz von IT-Systemen, Datenträgern, Anwendungen oder Cloud-Diensten, die nicht durch die Institution freigegeben und inventarisiert sind. Hierzu gehört auch der Anschluss privater Peripheriegeräte wie Tastaturen oder das Telefonieren mit nicht autorisierten Telefonen. Der Sinn und Zweck der Anforderung liegt darin, unkontrollierte Schatten-IT und damit verbundene Risiken zu reduzieren. So könnte etwa ein unautorisiertes USB-Gerät Schadsoftware einschleusen, oder eine nicht genehmigte Cloud-Anwendung könnte zu unbemerkten Datenabflüssen führen. Besteht ein Bedarf an Assets, dann können die festgelegten Meldewege genutzt werden. Bei der Beschaffung von Assets sind die Verfahren und Regelungen des Assetmanagements zu beachten.
+> Die Nutzung unautorisierter Assets bezeichnet hier den Einsatz von IT-Systemen, Datenträgern, Anwendungen oder Cloud-Diensten, die nicht durch die Institution freigegeben und inventarisiert sind. Hierzu gehört auch der Anschluss privater Peripheriegeräte wie Tastaturen oder das Telefonieren mit nicht autorisierten Telefonen. Der Sinn und Zweck der Anforderung liegt darin, unkontrollierte Schatten-IT und damit verbundene Risiken zu reduzieren. So könnte etwa ein unautorisiertes USB-Gerät Schadsoftware einschleusen, oder eine nicht genehmigte Cloud-Anwendung könnte zu unbemerkten Datenabflüssen führen. Besteht ein Bedarf an Assets, dann können die festgelegten Meldewege genutzt werden. Bei der Beschaffung von Assets sind die Verfahren und Regelungen des Assetmanagements zu beachten.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf |
 
-> [!info]- Links> > required: [ASST.3.11 Autorisierung von Systemen](./ASST.3.11%20Autorisierung%20von%20Systemen.md)> > related: [KONF.3.7 Einschränkung angeschlossener Peripherie](./KONF.3.7%20Einschränkung%20angeschlossener%20Peripherie.md)
+
+> [!info]- Links
+> > required: [ASST.3.11 Autorisierung von Systemen](./ASST.3.11%20Autorisierung%20von%20Systemen.md)
+> > related: [KONF.3.7 Einschränkung angeschlossener Peripherie](./KONF.3.7%20Einschränkung%20angeschlossener%20Peripherie.md)
+

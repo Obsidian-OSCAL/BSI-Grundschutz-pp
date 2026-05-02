@@ -5,7 +5,7 @@ tags:
 - hochverfügbarkeit
 - ddos
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.4 Content Delivery Network
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.4 - Content Delivery Network
-> [!example]- Tags:> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)> [DDoS](../../../../namespaces/entries/tags_DDoS.md)
+> [!example]- Tags:
+> [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+> [DDoS](../../../../namespaces/entries/tags_DDoS.md)
+
 Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | ein Content Delivery Network |  | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN ein Content Delivery Network installieren.</span>
 
 > [!info]- Guidance
->Ein Content Delivery Network (CDN) ist ein Netz geographisch verteilter Server, welches Inhalte wie Webseiten und große Mediendateien auch bei hoher Last skaliert zur Verfügung stellt. CDNs sind sinnvoll für weltweit hochverfügbare Server-Anwendungen, da so Lastspitzen und DDoS-Angriffe abgemildert werden. Ein CDN kann selbst umgesetzt oder durch einen entsprechenden Dienstleister übernommen werden.
+> Ein Content Delivery Network (CDN) ist ein Netz geographisch verteilter Server, welches Inhalte wie Webseiten und große Mediendateien auch bei hoher Last skaliert zur Verfügung stellt. CDNs sind sinnvoll für weltweit hochverfügbare Server-Anwendungen, da so Lastspitzen und DDoS-Angriffe abgemildert werden. Ein CDN kann selbst umgesetzt oder durch einen entsprechenden Dienstleister übernommen werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4b5b81aa-fe5f-47f5-a081-136145f7ccc9 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 4b5b81aa-fe5f-47f5-a081-136145f7ccc9 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 4b5b81aa-fe5f-47f5-a081-136145f7ccc9 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 4b5b81aa-fe5f-47f5-a081-136145f7ccc9 |
+

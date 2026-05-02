@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - dls31-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
@@ -26,15 +26,24 @@ Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienst
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [DLS.3.1.1 Audit oder Zertifikat](./DLS.3.1.1%20Audit%20oder%20Zertifikat.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](../DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](../../../../namespaces/entries/practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Einhaltung der Sicherheitsvorgaben durch den Dienstleister | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | [Liste der Hersteller und Dienstleister](../../../../namespaces/entries/documentation_guidelines_Liste_der_Hersteller_und_Dienstleister.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE die Einhaltung der Sicherheitsvorgaben durch den Dienstleister {{ insert: param, dls.3.1-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
->Hierzu ist zu prüfen, ob Anzeichen vorliegen, dass der Dienstleister die im Vertrag geforderten Vorgaben nicht einhält und falls erforderlich Gegenmaßnahmen einzuleiten. Die Prüfung kann z.B. Zertifikate, regelmäßige Stichproben oder das Monitoring von Datenleaks vorsehen.
+> Hierzu ist zu prüfen, ob Anzeichen vorliegen, dass der Dienstleister die im Vertrag geforderten Vorgaben nicht einhält und falls erforderlich Gegenmaßnahmen einzuleiten. Die Prüfung kann z.B. Zertifikate, regelmäßige Stichproben oder das Monitoring von Datenleaks vorsehen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |
+

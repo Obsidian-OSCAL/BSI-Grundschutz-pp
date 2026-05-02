@@ -5,7 +5,7 @@ tags:
 - physical_access_control
 - shoulder_surfing
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.1 Verarbeitung in der Öffentlichkeit
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.1 - Verarbeitung in der Öffentlichkeit
-> [!example]- Tags:> [Physical Access Control](../../../../namespaces/entries/tags_Physical_Access_Control.md)> [Shoulder Surfing](../../../../namespaces/entries/tags_Shoulder_Surfing.md)
+> [!example]- Tags:
+> [Physical Access Control](../../../../namespaces/entries/tags_Physical_Access_Control.md)
+> [Shoulder Surfing](../../../../namespaces/entries/tags_Shoulder_Surfing.md)
+
 Gruppe: [SENS.9 Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
@@ -31,11 +34,21 @@ Gruppe: [SENS.9 Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md)
 | <div style="background:#cccccc">*[Sensibilisierung (SENS)](../SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](../../../../namespaces/entries/practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | gegen die Verarbeitung von vertraulichen Informationen in der Öffentlichkeit |  | [sensibilisieren](../../../../namespaces/entries/action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b.md) | [Schulungsplan](../../../../namespaces/entries/documentation_guidelines_Schulungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE gegen die Verarbeitung von vertraulichen Informationen in der Öffentlichkeit sensibilisieren.</span>
 
 > [!info]- Guidance
->Die Anforderung zielt darauf ab, das Risiko unbeabsichtigter Informationsabflüsse in öffentlichen Räumen zu reduzieren. Ohne entsprechende Aufmerksamkeit könnte etwa ein unbefugter Dritter vertrauliche Daten über die Schulter mitlesen, Fotos von Bildschirmen aufnehmen oder Gesprächsinhalte mithören, was im schlimmsten Fall zu Identitätsdiebstahl oder geschäftsschädigender Weitergabe von Insiderinformationen führen könnte. Unachtsamkeit könnte dabei z.B. einen Verstoß gegen Arbeitsanweisungen und das Gesetz zum Schutz von Geschäftsgeheimnissen (GeschGehG) darstellen. Im vorliegenden Kontext bedeutet „öffentliche Verarbeitung“ die Nutzung mobiler Geräte wie Laptops, Tablets oder Smartphones in frei zugänglichen Umgebungen, in denen unbekannte Personen mitlesen oder mithören könnten, zum Beispiel in Verkehrsmitteln, Cafés, Flughäfen oder Co-Working-Spaces. Zudem helfen Schutzmaßnahmen wie das Sitzen mit dem Rücken zur Wand oder die Verwendung von Displayschutzfolien und abdeckenden Kopfhörern.
+> Die Anforderung zielt darauf ab, das Risiko unbeabsichtigter Informationsabflüsse in öffentlichen Räumen zu reduzieren. Ohne entsprechende Aufmerksamkeit könnte etwa ein unbefugter Dritter vertrauliche Daten über die Schulter mitlesen, Fotos von Bildschirmen aufnehmen oder Gesprächsinhalte mithören, was im schlimmsten Fall zu Identitätsdiebstahl oder geschäftsschädigender Weitergabe von Insiderinformationen führen könnte. Unachtsamkeit könnte dabei z.B. einen Verstoß gegen Arbeitsanweisungen und das Gesetz zum Schutz von Geschäftsgeheimnissen (GeschGehG) darstellen. Im vorliegenden Kontext bedeutet „öffentliche Verarbeitung“ die Nutzung mobiler Geräte wie Laptops, Tablets oder Smartphones in frei zugänglichen Umgebungen, in denen unbekannte Personen mitlesen oder mithören könnten, zum Beispiel in Verkehrsmitteln, Cafés, Flughäfen oder Co-Working-Spaces. Zudem helfen Schutzmaßnahmen wie das Sitzen mit dem Rücken zur Wand oder die Verwendung von Displayschutzfolien und abdeckenden Kopfhörern.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4d8775fd-52b0-491f-b0ce-7a8ceaba4819 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 4d8775fd-52b0-491f-b0ce-7a8ceaba4819 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 4d8775fd-52b0-491f-b0ce-7a8ceaba4819 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 4d8775fd-52b0-491f-b0ce-7a8ceaba4819 |
 
-> [!info]- Links> > related: [ASST.3.10 Autorisierung von Datenlokationen](./ASST.3.10%20Autorisierung%20von%20Datenlokationen.md)
+
+> [!info]- Links
+> > related: [ASST.3.10 Autorisierung von Datenlokationen](./ASST.3.10%20Autorisierung%20von%20Datenlokationen.md)
+

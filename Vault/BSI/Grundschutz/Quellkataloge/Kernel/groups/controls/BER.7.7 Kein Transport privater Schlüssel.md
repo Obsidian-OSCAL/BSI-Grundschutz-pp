@@ -5,7 +5,7 @@ tags:
 - cryptography
 - ber77-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.7.7 Kein Transport privater Schlüssel
@@ -30,9 +30,17 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) |  | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | den Export privater Schlüssel | durch {{eine zuständige Person oder Rolle}} | [autorisieren](../../../../namespaces/entries/action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad.md) | [IT-Betriebskonzept](../../../../namespaces/entries/documentation_guidelines_IT-Betriebskonzept.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung KANN den Export privater Schlüssel durch {{ insert: param, ber.7.7-prm1 }} autorisieren.</span>
 
 > [!info]- Guidance
->Im Allgemeinen ist es sinnvoll, private Schlüssel nur dort zu erzeugen, wo sie auch genutzt werden. Andernfalls könnten sie durch den Export kompromittiert werden. Hiervon sind allerdings zahlreiche Ausnahmen denkbar, z.B. zur Schlüsselerzeugung auf besonders abgesicherten Systemen, zum Transport auf Redundanzsysteme oder zur Datensicherung. Daher ist eine Abwägung sinnvoll, ob der Export zu genehmigen ist.
+> Im Allgemeinen ist es sinnvoll, private Schlüssel nur dort zu erzeugen, wo sie auch genutzt werden. Andernfalls könnten sie durch den Export kompromittiert werden. Hiervon sind allerdings zahlreiche Ausnahmen denkbar, z.B. zur Schlüsselerzeugung auf besonders abgesicherten Systemen, zum Transport auf Redundanzsysteme oder zur Datensicherung. Daher ist eine Abwägung sinnvoll, ob der Export zu genehmigen ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | c28426cd-d01c-427d-bade-141936177c55 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | c28426cd-d01c-427d-bade-141936177c55 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | c28426cd-d01c-427d-bade-141936177c55 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | c28426cd-d01c-427d-bade-141936177c55 |
+

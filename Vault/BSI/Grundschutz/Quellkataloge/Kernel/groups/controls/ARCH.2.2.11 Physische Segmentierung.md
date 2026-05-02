@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.11 Physische Segmentierung
@@ -23,7 +23,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.11 - Physische Segmentierung
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -36,9 +39,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->Obwohl sich eine virtuelle Vernetzung immer größerer Beliebtheit erfreut, können Konfigurationsfehler oder Sicherheitslücken dabei leichter zu einer Umgehung der Netztrennung führen, als wenn die Netze bereits auf physischer Ebene voneinander getrennt werden.
+> Obwohl sich eine virtuelle Vernetzung immer größerer Beliebtheit erfreut, können Konfigurationsfehler oder Sicherheitslücken dabei leichter zu einer Umgehung der Netztrennung führen, als wenn die Netze bereits auf physischer Ebene voneinander getrennt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 8629ffa8-91c9-4ed3-b7b7-922aba672ab4 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 8629ffa8-91c9-4ed3-b7b7-922aba672ab4 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 8629ffa8-91c9-4ed3-b7b7-922aba672ab4 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 8629ffa8-91c9-4ed3-b7b7-922aba672ab4 |
+

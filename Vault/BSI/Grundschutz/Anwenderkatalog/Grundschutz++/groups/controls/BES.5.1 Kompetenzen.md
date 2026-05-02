@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - kompetenzmanagement
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.5.1 Kompetenzen
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.1 - Kompetenzen
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../B
 > > | Begriff | Definition |> > | - | - |> > | [Kompetenz](../../../../namespaces/entries/result_Kompetenz_00000000-0000-0000-0000-000000000000.md) | Fähigkeit, Wissen und Fertigkeiten anzuwenden, um beabsichtigte Ergebnisse zu erzielen. |
 
 > [!info]- Guidance
->Dient dem Ziel, Risiken durch unzureichend geschultes Personal zu minimieren. Ohne solche Vorgaben könnte es dazu kommen, dass Dienstleister vertrauliche Daten versehentlich preisgeben, schwache Passwörter verwenden oder Phishing-Angriffe nicht erkennen. Durch die Vereinbarung von Mindestkompetenzen kann erreicht werden, dass Dienstleister Sicherheitsrichtlinien verstehen, Bedrohungen frühzeitig identifizieren und im Einklang mit den Schutzinteressen der Institution handeln. Im Kontext bedeutet Kompetenzen in Informationssicherheit, dass Mitarbeiter des Lieferanten über Wissen, Fähigkeiten und Verhalten verfügen, die erforderlich sind, um mit vertraulichen Informationen und IT-Systemen angemessen sicher umzugehen. Dies kann grundlegendes Verständnis für sichere Passwörter und mobile Geräte umfassen, aber auch Kenntnisse zu branchenspezifischen Sicherheitsverfahren oder zum Umgang mit sensiblen Kundendaten. Eine sinnvolle Umsetzung kann zum Beispiel beinhalten, dass die Institution in den Verträgen mit Lieferanten konkrete Mindestanforderungen an Schulungen und Zertifikate definiert, etwa: (1) Einführungsschulungen zu IT-Sicherheitsgrundlagen, (2) regelmäßige Auffrischungen zu Themen wie Social Engineering oder sichere Datennutzung, (3) Nachweise über spezielle Fachkenntnisse, wenn besonders sensible Daten verarbeitet werden. Praktisch kann eine Institution durch standardisierte Schulungsprogramme, die Überprüfung von Zertifikaten (z. B. ISO/IEC- oder BSI-bezogene Qualifikationen) oder durch kurze Wissens-Checks im Rahmen der Dienstleister-Onboarding-Prozesse sicherstellen, dass vereinbarte Kompetenzen tatsächlich vorhanden sind.
+> Dient dem Ziel, Risiken durch unzureichend geschultes Personal zu minimieren. Ohne solche Vorgaben könnte es dazu kommen, dass Dienstleister vertrauliche Daten versehentlich preisgeben, schwache Passwörter verwenden oder Phishing-Angriffe nicht erkennen. Durch die Vereinbarung von Mindestkompetenzen kann erreicht werden, dass Dienstleister Sicherheitsrichtlinien verstehen, Bedrohungen frühzeitig identifizieren und im Einklang mit den Schutzinteressen der Institution handeln. Im Kontext bedeutet Kompetenzen in Informationssicherheit, dass Mitarbeiter des Lieferanten über Wissen, Fähigkeiten und Verhalten verfügen, die erforderlich sind, um mit vertraulichen Informationen und IT-Systemen angemessen sicher umzugehen. Dies kann grundlegendes Verständnis für sichere Passwörter und mobile Geräte umfassen, aber auch Kenntnisse zu branchenspezifischen Sicherheitsverfahren oder zum Umgang mit sensiblen Kundendaten. Eine sinnvolle Umsetzung kann zum Beispiel beinhalten, dass die Institution in den Verträgen mit Lieferanten konkrete Mindestanforderungen an Schulungen und Zertifikate definiert, etwa: (1) Einführungsschulungen zu IT-Sicherheitsgrundlagen, (2) regelmäßige Auffrischungen zu Themen wie Social Engineering oder sichere Datennutzung, (3) Nachweise über spezielle Fachkenntnisse, wenn besonders sensible Daten verarbeitet werden. Praktisch kann eine Institution durch standardisierte Schulungsprogramme, die Überprüfung von Zertifikaten (z. B. ISO/IEC- oder BSI-bezogene Qualifikationen) oder durch kurze Wissens-Checks im Rahmen der Dienstleister-Onboarding-Prozesse sicherstellen, dass vereinbarte Kompetenzen tatsächlich vorhanden sind.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | b06b3614-ed43-4d03-a3af-700d7416f550 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | b06b3614-ed43-4d03-a3af-700d7416f550 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | b06b3614-ed43-4d03-a3af-700d7416f550 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | b06b3614-ed43-4d03-a3af-700d7416f550 |
+

@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - bes42-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.2 Dokumentation der Beschaffungskriterien
@@ -30,11 +30,21 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | {{Kriterien}} für die Beschaffung |  | [dokumentieren](../../../../namespaces/entries/action_words_dokumentieren_1ed72769-e05f-4a97-ad2e-99a70f1480e8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE {{ insert: param, bes.4.2-prm1 }} für die Beschaffung dokumentieren.</span>
 
 > [!info]- Guidance
->Beschaffungskriterien sind nachvollziehbare Bewertungsmaßstäbe, die bei der Anschaffung von IT-Produkten und Dienstleistungen berücksichtigt werden, um sicherzustellen, dass diese den Sicherheitsanforderungen der Institution entsprechen. Sie ergeben sich aus dem erfassten Bedarf (z.B. einer Beschreibung der Funktionen von IT-Produkten oder zu leistenden Diensten), sowie den Sicherheitsanforderungen an das zu beschaffende Produkt oder die Dienstleistung, die über das jeweilige Zielobjekt im Katalog gefiltert werden können. Beispiele für Beschaffungskriterien sind die Erfüllung definierter Sicherheitsstandards, Verschlüsselungsfähigkeiten, Authentifizierungsmechanismen, Autorisierungskonzepte, die Stärke der geforderten Mechanismen (z.B. Mehr-Faktor-Authentifizierung), Verfügbarkeitsgarantien (SLAs), Umfang und Qualität der Dokumentation, Regelungen zur Prüfung oder Überwachung der Sicherheitskontrollen, sowie Einsatzbedingungen wie Temperatur oder mobile Konnektivität. Relevant ist dabei der gesamte Lebenszyklus von Vertragsschluss über Entwicklung von Lösungen bis hin zu Regelungen für Kündigungen. Zu den Kriterien können auch Negativkriterien gehören, die eine Beschaffung verhindern würden (z.B. "Keine Komponenten von der unmittelbaren Konkurrenz oder aus Staaten von denen bekannt ist, dass sie Spionage gegen den Sektor der Institution betreiben"). Je nach Beschaffung kann dafür eine Beschreibung von Informationen und Methoden zur Bereitstellung oder zum Abruf der Informationen relevant sein, sowie eine Beschreibung bestimmter technischer Eigenschaften eines Systems oder einer Anwendung.  Zur Umsetzung bietet es sich an, standardisierte Vertragsvorlagen für neue Verträge zu verwenden. Bei individuellen Verträgen, die einzelne Sicherheitskontrollmechanismen festlegen, bietet sich ein Austausch von Beschreibungen der Mechanismen über strukturierte Datenformate wie OSCAL an.  Weitere Informationen zur Festlegung möglicher Kriterien, inklusive einer Risikobeurteilung, können der ISO/IEC 27036-3 entnommen werden.
+> Beschaffungskriterien sind nachvollziehbare Bewertungsmaßstäbe, die bei der Anschaffung von IT-Produkten und Dienstleistungen berücksichtigt werden, um sicherzustellen, dass diese den Sicherheitsanforderungen der Institution entsprechen. Sie ergeben sich aus dem erfassten Bedarf (z.B. einer Beschreibung der Funktionen von IT-Produkten oder zu leistenden Diensten), sowie den Sicherheitsanforderungen an das zu beschaffende Produkt oder die Dienstleistung, die über das jeweilige Zielobjekt im Katalog gefiltert werden können. Beispiele für Beschaffungskriterien sind die Erfüllung definierter Sicherheitsstandards, Verschlüsselungsfähigkeiten, Authentifizierungsmechanismen, Autorisierungskonzepte, die Stärke der geforderten Mechanismen (z.B. Mehr-Faktor-Authentifizierung), Verfügbarkeitsgarantien (SLAs), Umfang und Qualität der Dokumentation, Regelungen zur Prüfung oder Überwachung der Sicherheitskontrollen, sowie Einsatzbedingungen wie Temperatur oder mobile Konnektivität. Relevant ist dabei der gesamte Lebenszyklus von Vertragsschluss über Entwicklung von Lösungen bis hin zu Regelungen für Kündigungen. Zu den Kriterien können auch Negativkriterien gehören, die eine Beschaffung verhindern würden (z.B. "Keine Komponenten von der unmittelbaren Konkurrenz oder aus Staaten von denen bekannt ist, dass sie Spionage gegen den Sektor der Institution betreiben"). Je nach Beschaffung kann dafür eine Beschreibung von Informationen und Methoden zur Bereitstellung oder zum Abruf der Informationen relevant sein, sowie eine Beschreibung bestimmter technischer Eigenschaften eines Systems oder einer Anwendung.  Zur Umsetzung bietet es sich an, standardisierte Vertragsvorlagen für neue Verträge zu verwenden. Bei individuellen Verträgen, die einzelne Sicherheitskontrollmechanismen festlegen, bietet sich ein Austausch von Beschreibungen der Mechanismen über strukturierte Datenformate wie OSCAL an.  Weitere Informationen zur Festlegung möglicher Kriterien, inklusive einer Risikobeurteilung, können der ISO/IEC 27036-3 entnommen werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 91319f26-75c0-476c-b544-aedd4dbf6e14 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 91319f26-75c0-476c-b544-aedd4dbf6e14 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 91319f26-75c0-476c-b544-aedd4dbf6e14 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 91319f26-75c0-476c-b544-aedd4dbf6e14 |
 
-> [!info]- Links> > related: [BES.2.1 Erfassung des Bedarfes](./BES.2.1%20Erfassung%20des%20Bedarfes.md)
+
+> [!info]- Links
+> > related: [BES.2.1 Erfassung des Bedarfes](./BES.2.1%20Erfassung%20des%20Bedarfes.md)
+

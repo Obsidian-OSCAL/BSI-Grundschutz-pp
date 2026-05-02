@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.3.2 Auswahlkriterien
@@ -20,22 +20,37 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.3.2 - Auswahlkriterien
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [BES.3 Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [BES.3.2.1 Zertifizierte Lieferanten](./BES.3.2.1%20Zertifizierte%20Lieferanten.md)> [BES.3.2.2 Quellendiversifikation](./BES.3.2.2%20Quellendiversifikation.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Einkäufe](../../../../namespaces/entries/target_object_categories_Einkäufe_5f59b23c-8d18-4d5f-ad96-c02ffad10daf.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Auswahl von Lieferanten | anhand von Kriterien zu ihrer Verlässlichkeit | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Einkäufe SOLLTE die Auswahl von Lieferanten anhand von Kriterien zu ihrer Verlässlichkeit verankern.</span>
 
 > [!info]- Guidance
->Beispielsweise durch Marktanalysen, Kundenreferenzen, Zertifizierungen, Begutachtungen oder Audits. Hierzu können z.B. Entwicklungsprozesse, Verschlüsselung oder Anonymisierung vertraulicher Daten, Schlüsselmanagement, Authentifizierung von Zugriffen, Wiederherstellung nach Vorfällen oder die Evaluation der sicheren Verarbeitung gehören. Auch die Prüfung auf finanzielle Stabilität des Lieferanten ist zu empfehlen. Ein finanziell instabiler Lieferant stellt ein erhebliches Risiko für die Geschäftskontinuität dar, da er möglicherweise den Betrieb einstellt, Supportleistungen nicht mehr erbringen kann oder von einem Unternehmen mit unklaren Sicherheitsstandards übernommen wird.
+> Beispielsweise durch Marktanalysen, Kundenreferenzen, Zertifizierungen, Begutachtungen oder Audits. Hierzu können z.B. Entwicklungsprozesse, Verschlüsselung oder Anonymisierung vertraulicher Daten, Schlüsselmanagement, Authentifizierung von Zugriffen, Wiederherstellung nach Vorfällen oder die Evaluation der sicheren Verarbeitung gehören. Auch die Prüfung auf finanzielle Stabilität des Lieferanten ist zu empfehlen. Ein finanziell instabiler Lieferant stellt ein erhebliches Risiko für die Geschäftskontinuität dar, da er möglicherweise den Betrieb einstellt, Supportleistungen nicht mehr erbringen kann oder von einem Unternehmen mit unklaren Sicherheitsstandards übernommen wird.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3f92f682-56ae-447b-996e-a4b5f4bd8963 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 3f92f682-56ae-447b-996e-a4b5f4bd8963 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 3f92f682-56ae-447b-996e-a4b5f4bd8963 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 3f92f682-56ae-447b-996e-a4b5f4bd8963 |
 
-> [!info]- Links> > related: [BES.1.3 Lieferanten- und Dienstleisterverzeichnis](./BES.1.3%20Lieferanten-%20und%20Dienstleisterverzeichnis.md)> > related: [DLS.3.5 Blockierung unzuverlässiger Dienstleister](./DLS.3.5%20Blockierung%20unzuverlässiger%20Dienstleister.md)
+
+> [!info]- Links
+> > related: [BES.1.3 Lieferanten- und Dienstleisterverzeichnis](./BES.1.3%20Lieferanten-%20und%20Dienstleisterverzeichnis.md)
+> > related: [DLS.3.5 Blockierung unzuverlässiger Dienstleister](./DLS.3.5%20Blockierung%20unzuverlässiger%20Dienstleister.md)
+

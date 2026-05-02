@@ -6,7 +6,7 @@ tags:
 - phishing
 - denial_of_service
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.15.2 Begrenzung der Rechenleistung
@@ -21,7 +21,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.15.2 - Begrenzung der Rechenleistung
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Phishing](../../../../namespaces/entries/tags_Phishing.md)> [Denial of Service](../../../../namespaces/entries/tags_Denial_of_Service.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Phishing](../../../../namespaces/entries/tags_Phishing.md)
+> [Denial of Service](../../../../namespaces/entries/tags_Denial_of_Service.md)
+
 Gruppe: [KONF.15 Ressourcenauslastung](../KONF.15%20Ressourcenauslastung.md)
 ---
 
@@ -31,9 +35,17 @@ Gruppe: [KONF.15 Ressourcenauslastung](../KONF.15%20Ressourcenauslastung.md)
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Ressourcenauslastung](../KONF.15%20Ressourcenauslastung.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | Anwendungen, Hostsysteme | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | die Rechenleistung |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Anwendungen von Hostsystemen KANN die Rechenleistung einschränken.</span>
 
 > [!info]- Guidance
->Kann durch eine Beschränkung der Anzahl verwendeter Rechenkerne, der Rechenleistung pro Rechenkern oder durch eine indirekte Beschränkung (z.B. eine begrenzte Menge an Anfragen oder Eingabetoken) umgesetzt werden. Beispielsweise kann in einem Verzeichnisdienst ein maximaler Schwellwert für die Zeit eingestellt werden, die eine Suchanfrage in Anspruch nehmen darf, um die Auslastung des Verzeichnisdienstes durch einzelne Anfragen nicht zu gefährden.
+> Kann durch eine Beschränkung der Anzahl verwendeter Rechenkerne, der Rechenleistung pro Rechenkern oder durch eine indirekte Beschränkung (z.B. eine begrenzte Menge an Anfragen oder Eingabetoken) umgesetzt werden. Beispielsweise kann in einem Verzeichnisdienst ein maximaler Schwellwert für die Zeit eingestellt werden, die eine Suchanfrage in Anspruch nehmen darf, um die Auslastung des Verzeichnisdienstes durch einzelne Anfragen nicht zu gefährden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 62f53764-d215-4e55-9ad1-7790922620af |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 62f53764-d215-4e55-9ad1-7790922620af |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 62f53764-d215-4e55-9ad1-7790922620af |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 62f53764-d215-4e55-9ad1-7790922620af |
+

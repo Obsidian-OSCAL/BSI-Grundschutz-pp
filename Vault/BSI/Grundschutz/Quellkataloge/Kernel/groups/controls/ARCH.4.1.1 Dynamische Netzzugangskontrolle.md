@@ -7,7 +7,7 @@ tags:
 - zero_trust
 - arch411-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.4.1.1 Dynamische Netzzugangskontrolle
@@ -25,7 +25,11 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.4.1.1 - Dynamische Netzzugangskontrolle
-> [!example]- Tags:> [Network Access Control](../../../../namespaces/entries/tags_Network_Access_Control.md)> [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [!example]- Tags:
+> [Network Access Control](../../../../namespaces/entries/tags_Network_Access_Control.md)
+> [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+
 Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 ---
 
@@ -38,9 +42,17 @@ Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
->Bei der dynamischen Netzzugangskontrolle (Posturing oder Dynamic NAC) wird vor dem Netzzugang auch der Zustand des IT-Systems geprüft, z.B. der aktuelle Patchlevel des Systems oder von Erkennungssignaturen. Hierzu gehört auch die softwaredefinierte Netzzugangskontrolle, die dynamisch auf Aktivitäten des Systems oder aktuelle Threat Intelligence reagieren kann. Empfehlenswert ist es hierbei, die Konfiguration der Systeme automatisiert vorzunehmen, z.B. über eine automatische Supplicant-Konfiguration beim Rollout und die Zuweisung von Zertifikaten über Enrollment-Dienste. Die Formulierung "im Einklang mit den Festlegungen des Identitäts- und Berechtigungsmanagements" bedeutet, dass die Authentifizierung so erfolgt, wie in der Praktik IDM festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist.
+> Bei der dynamischen Netzzugangskontrolle (Posturing oder Dynamic NAC) wird vor dem Netzzugang auch der Zustand des IT-Systems geprüft, z.B. der aktuelle Patchlevel des Systems oder von Erkennungssignaturen. Hierzu gehört auch die softwaredefinierte Netzzugangskontrolle, die dynamisch auf Aktivitäten des Systems oder aktuelle Threat Intelligence reagieren kann. Empfehlenswert ist es hierbei, die Konfiguration der Systeme automatisiert vorzunehmen, z.B. über eine automatische Supplicant-Konfiguration beim Rollout und die Zuweisung von Zertifikaten über Enrollment-Dienste. Die Formulierung "im Einklang mit den Festlegungen des Identitäts- und Berechtigungsmanagements" bedeutet, dass die Authentifizierung so erfolgt, wie in der Praktik IDM festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7 |
+

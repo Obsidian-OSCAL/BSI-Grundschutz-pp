@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.2 Löschung von Daten
@@ -20,22 +20,36 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.2 - Löschung von Daten
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [BES.6.2.1 Löschverfahren](./BES.6.2.1%20Löschverfahren.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Löschung aller beim Dienstleister vorhandenen Daten | für den Fall einer Kündigung | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen SOLLTE die Löschung aller beim Dienstleister vorhandenen Daten für den Fall einer Kündigung vereinbaren.</span>
 
 > [!info]- Guidance
->Kündigung meint hier sowohl ordentliche als auch außerordentliche Kündigungen. Hierzu können z.B. die Rückgabe von Authentifizierungstoken oder Löschung aller Auftraggeberdaten nach Ablauf der gesetzlichen Aufbewahrungsfristen gehören. Relevant sind dabei neben Inhaltsdaten auch Metadaten, Lizenzen und weitere Zugriffsrechte.
+> Kündigung meint hier sowohl ordentliche als auch außerordentliche Kündigungen. Hierzu können z.B. die Rückgabe von Authentifizierungstoken oder Löschung aller Auftraggeberdaten nach Ablauf der gesetzlichen Aufbewahrungsfristen gehören. Relevant sind dabei neben Inhaltsdaten auch Metadaten, Lizenzen und weitere Zugriffsrechte.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 90d55cb8-c0ff-4805-8b45-77aac247c786 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 90d55cb8-c0ff-4805-8b45-77aac247c786 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 90d55cb8-c0ff-4805-8b45-77aac247c786 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 90d55cb8-c0ff-4805-8b45-77aac247c786 |
 
-> [!info]- Links> > related: [BES.5.14 Löschregeln](./BES.5.14%20Löschregeln.md)
+
+> [!info]- Links
+> > related: [BES.5.14 Löschregeln](./BES.5.14%20Löschregeln.md)
+

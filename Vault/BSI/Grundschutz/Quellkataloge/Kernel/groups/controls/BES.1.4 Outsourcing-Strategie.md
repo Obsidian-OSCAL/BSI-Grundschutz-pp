@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - shared_responsibility_model
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.1.4 Outsourcing-Strategie
@@ -20,20 +20,32 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.1.4 - Outsourcing-Strategie
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Shared Responsibility Model](../../../../namespaces/entries/tags_Shared_Responsibility_Model.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Shared Responsibility Model](../../../../namespaces/entries/tags_Shared_Responsibility_Model.md)
+
 Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [BES.1.4.1 Freigabe der Strategie](./BES.1.4.1%20Freigabe%20der%20Strategie.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Grundlagen](../BES.1%20Grundlagen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Outsourcing](../../../../namespaces/entries/target_object_categories_Outsourcing_ff3b07f0-1d19-44fb-ac2c-dea97010c5b8.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | eine Strategie | mit Zielen, Chancen und Risiken des Outsourcings | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | Outsourcing Strategie | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Outsourcing KANN eine Strategie mit Zielen, Chancen und Risiken des Outsourcings verankern.</span>
 
 > [!info]- Guidance
->Outsourcing-Strategie bezeichnet hierbei die von der Institution festgelegten Grundsätze, Entscheidungskriterien und Grenzen für die Auslagerung von Leistungen. Die Strategie beinhaltet z.B. die Entscheidung über die Art und den Scope des Outsourcings und welche Arten von Anwendungen/Daten oder Prozessen ausgelagert werden. Bei einem Outsourcing in die Cloud wäre hier z.B. über "cloud only, cloud first, some cloud, no cloud" und bei der Bereitstellungsart über "Saas, PaaS, IaaS" etc. zu entscheiden. Typische Risiken sind versteckte Kosten, unklare Zuständigkeiten ("Verantwortungsdiffusion") durch gemeinsame Verantwortlichkeit mit dem Dienstleister für die Informationssicherheit (Shared Responsibility), Verlust von eigenem Knowhow, Abhängigkeit vom Anbietenden von Outsourcing, Verlust von Kontroll- und Steuerungsmöglichkeiten, Einblicke Dritter in interne Betriebsabläufe und Daten. Ziele beinhalten unter anderem auch die angestrebten Sicherheitsziele, z.B. "bei Bearbeitung von VS-NfD Inhalten die Einhaltung der VSA". Chancen können z.B. in einer schnelleren Einführung neuer Technologien, einer höheren Flexibilität bei Lastspitzen, einer verbesserten Verfügbarkeit durch die Infrastruktur des Dienstleisters oder in Kostenersparnissen durch Skaleneffekte liegen. Im Cloud-Kontext ergeben sich zudem Möglichkeiten wie eine weltweite Standortunabhängigkeit, einfachere Anbindung verteilter Teams oder die Nutzung spezialisierter Sicherheits- und Compliance-Services, die intern nur mit erheblichem Aufwand aufgebaut werden könnten.
+> Outsourcing-Strategie bezeichnet hierbei die von der Institution festgelegten Grundsätze, Entscheidungskriterien und Grenzen für die Auslagerung von Leistungen. Die Strategie beinhaltet z.B. die Entscheidung über die Art und den Scope des Outsourcings und welche Arten von Anwendungen/Daten oder Prozessen ausgelagert werden. Bei einem Outsourcing in die Cloud wäre hier z.B. über "cloud only, cloud first, some cloud, no cloud" und bei der Bereitstellungsart über "Saas, PaaS, IaaS" etc. zu entscheiden. Typische Risiken sind versteckte Kosten, unklare Zuständigkeiten ("Verantwortungsdiffusion") durch gemeinsame Verantwortlichkeit mit dem Dienstleister für die Informationssicherheit (Shared Responsibility), Verlust von eigenem Knowhow, Abhängigkeit vom Anbietenden von Outsourcing, Verlust von Kontroll- und Steuerungsmöglichkeiten, Einblicke Dritter in interne Betriebsabläufe und Daten. Ziele beinhalten unter anderem auch die angestrebten Sicherheitsziele, z.B. "bei Bearbeitung von VS-NfD Inhalten die Einhaltung der VSA". Chancen können z.B. in einer schnelleren Einführung neuer Technologien, einer höheren Flexibilität bei Lastspitzen, einer verbesserten Verfügbarkeit durch die Infrastruktur des Dienstleisters oder in Kostenersparnissen durch Skaleneffekte liegen. Im Cloud-Kontext ergeben sich zudem Möglichkeiten wie eine weltweite Standortunabhängigkeit, einfachere Anbindung verteilter Teams oder die Nutzung spezialisierter Sicherheits- und Compliance-Services, die intern nur mit erheblichem Aufwand aufgebaut werden könnten.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 302952ea-72e1-4104-9cbb-678717a267db |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 302952ea-72e1-4104-9cbb-678717a267db |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 302952ea-72e1-4104-9cbb-678717a267db |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 302952ea-72e1-4104-9cbb-678717a267db |
+

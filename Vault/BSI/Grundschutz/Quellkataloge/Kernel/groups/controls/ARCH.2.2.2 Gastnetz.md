@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.2.2 Gastnetz
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.2.2 - Gastnetz
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Verbindungen zwischen Gastnetz und internem Netz |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE Verbindungen zwischen Gastnetz und internem Netz einschränken.</span>
 
 > [!info]- Guidance
->Wenn Gäste der Institution sich mit dem internen Netz verbinden, könnten Schadprogramme in das Netz gelangen oder unbeabsichtigte Datenflüsse über die Verbindung fließen. Daher ist es sinnvoll, einen vom übrigen Netz getrennten Gastzugang einzurichten, z.B. in Besprechungs-, Veranstaltungs- und Schulungsräumen. Wenn die Einschränkungen von Gastnetzen lockerer sind als die interner Netze am gleichen Standort, so zeigt die Erfahrung, dass auch interne Mitarbeitende gerne auf Gastnetze zurückgreifen. Dadurch könnte es zur Umgehung der internen Schutzmaßnahmen kommen. Daher ist es empfehlenswert, für das Gastnetz gleiche oder strengere Einschränkungen zu wählen oder die Nutzung des Gastnetzes durch Mitarbeitende technisch oder organisatorisch zu beschränken.
+> Wenn Gäste der Institution sich mit dem internen Netz verbinden, könnten Schadprogramme in das Netz gelangen oder unbeabsichtigte Datenflüsse über die Verbindung fließen. Daher ist es sinnvoll, einen vom übrigen Netz getrennten Gastzugang einzurichten, z.B. in Besprechungs-, Veranstaltungs- und Schulungsräumen. Wenn die Einschränkungen von Gastnetzen lockerer sind als die interner Netze am gleichen Standort, so zeigt die Erfahrung, dass auch interne Mitarbeitende gerne auf Gastnetze zurückgreifen. Dadurch könnte es zur Umgehung der internen Schutzmaßnahmen kommen. Daher ist es empfehlenswert, für das Gastnetz gleiche oder strengere Einschränkungen zu wählen oder die Nutzung des Gastnetzes durch Mitarbeitende technisch oder organisatorisch zu beschränken.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 73c9c122-d3f6-42f9-a6f1-6b454a8b1853 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 73c9c122-d3f6-42f9-a6f1-6b454a8b1853 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 73c9c122-d3f6-42f9-a6f1-6b454a8b1853 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 73c9c122-d3f6-42f9-a6f1-6b454a8b1853 |
+

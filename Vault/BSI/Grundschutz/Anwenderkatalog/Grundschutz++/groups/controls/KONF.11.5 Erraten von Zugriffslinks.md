@@ -6,7 +6,7 @@ tags:
 - brute-force-attacke
 - konf115-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.11.5 Erraten von Zugriffslinks
@@ -23,7 +23,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.5 - Erraten von Zugriffslinks
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+
 Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 ---
 
@@ -35,9 +38,17 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
->Ermöglichen Links den Zugriff auf vertrauliche Daten ohne Authentifizierung, so könnten Angreifer versuchen diese zu finden, z.B. mit Durchprobieren von Meeting-Links oder Ressourcen-URLs. Mögliche Maßnahmen sind Nicht-Sequentielle IDs mit hoher Entropie, Rate Limiting von Anfragen oder CAPTCHA. Hierbei bietet sich eine Kombination von Maßnahmen an, die Anzahl erwarteter Zugriffe, Verfügbarkeits- und Usability-Kriterien ebenso beachtet wie das Risikoprofil der Anwendung. Bietet die Webanwendung keinerlei Zugriff auf schützenswerte Informationen ohne Authentifizierung, so ist die Anforderung entbehrlich.
+> Ermöglichen Links den Zugriff auf vertrauliche Daten ohne Authentifizierung, so könnten Angreifer versuchen diese zu finden, z.B. mit Durchprobieren von Meeting-Links oder Ressourcen-URLs. Mögliche Maßnahmen sind Nicht-Sequentielle IDs mit hoher Entropie, Rate Limiting von Anfragen oder CAPTCHA. Hierbei bietet sich eine Kombination von Maßnahmen an, die Anzahl erwarteter Zugriffe, Verfügbarkeits- und Usability-Kriterien ebenso beachtet wie das Risikoprofil der Anwendung. Bietet die Webanwendung keinerlei Zugriff auf schützenswerte Informationen ohne Authentifizierung, so ist die Anforderung entbehrlich.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 951aea5d-e4c2-47c8-9a21-b1d00e3d499f |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 951aea5d-e4c2-47c8-9a21-b1d00e3d499f |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 951aea5d-e4c2-47c8-9a21-b1d00e3d499f |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 951aea5d-e4c2-47c8-9a21-b1d00e3d499f |
+

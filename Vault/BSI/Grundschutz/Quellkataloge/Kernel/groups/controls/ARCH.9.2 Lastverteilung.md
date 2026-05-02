@@ -5,7 +5,7 @@ tags:
 - hochverfügbarkeit
 - arch92-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.9.2 Lastverteilung
@@ -31,9 +31,17 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Anwendungen](../../../../namespaces/entries/target_object_categories_Anwendungen_7e41ecf5-1831-4691-ad0c-4fc7bbc1b871.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | eine {{netzbasierte oder serverbasierte}} automatische Lastverteilung |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Anwendungen KANN eine {{ insert: param, arch.9.2-prm1 }} automatische Lastverteilung aktivieren.</span>
 
 > [!info]- Guidance
->Netzbasierte Lastverteilung bedeutet hier, dass ein dedizierter Netzwerkdienst – z. B. über Load-Balancer oder Layer-4/Layer-7-Komponenten – den eingehenden Datenverkehr dynamisch auf mehrere Server oder Dienste verteilt. Serverbasierte Lastverteilung bedeutet dagegen, dass die beteiligten Systeme selbst Mechanismen bereitstellen, um Anfragen untereinander weiterzugeben oder zu koordinieren, etwa durch eingebaute Proxy- oder Cluster-Funktionalitäten. Der Zweck einer solchen Verteilung liegt in der Absicherung der Verfügbarkeit: Ein plötzlicher Anstieg von Benutzeranfragen könnte ansonsten einzelne Systeme überlasten und zu Ausfällen führen; ebenso könnte ein Defekt in einem Knoten die Gesamtleistung stark beeinträchtigen. Mit geeigneter Lastverteilung kann die Stabilität der Anwendung verbessert und ein unterbrechungsfreier Betrieb unterstützt werden. Zur Umsetzung kann die Institution netzbasierte Verfahren einsetzen, etwa (1) hardware- oder softwaregestützte Load-Balancer, die eingehende Verbindungen nach konfigurierbaren Regeln verteilen, (2) DNS-basierte Verfahren, bei denen Abfragen gezielt auf unterschiedliche Zielsysteme geleitet werden, oder (3) virtuelle Appliances in virtualisierten oder Cloud-nahen Umgebungen. Serverbasierte Verfahren können etwa durch den Einsatz von Cluster-Software, eingebaute Reverse-Proxy-Funktionen in Webservern oder den Einsatz von Message-Queues realisiert werden. Dabei kann eine Institution darauf achten, dass Monitoring-Funktionen integriert sind, um Engpässe frühzeitig zu erkennen, und dass Konfigurationen für Failover-Szenarien getestet werden. Auch ein gestuftes Testen der Lastverteilung unter realitätsnahen Bedingungen kann helfen, die Wirksamkeit sicherzustellen.
+> Netzbasierte Lastverteilung bedeutet hier, dass ein dedizierter Netzwerkdienst – z. B. über Load-Balancer oder Layer-4/Layer-7-Komponenten – den eingehenden Datenverkehr dynamisch auf mehrere Server oder Dienste verteilt. Serverbasierte Lastverteilung bedeutet dagegen, dass die beteiligten Systeme selbst Mechanismen bereitstellen, um Anfragen untereinander weiterzugeben oder zu koordinieren, etwa durch eingebaute Proxy- oder Cluster-Funktionalitäten. Der Zweck einer solchen Verteilung liegt in der Absicherung der Verfügbarkeit: Ein plötzlicher Anstieg von Benutzeranfragen könnte ansonsten einzelne Systeme überlasten und zu Ausfällen führen; ebenso könnte ein Defekt in einem Knoten die Gesamtleistung stark beeinträchtigen. Mit geeigneter Lastverteilung kann die Stabilität der Anwendung verbessert und ein unterbrechungsfreier Betrieb unterstützt werden. Zur Umsetzung kann die Institution netzbasierte Verfahren einsetzen, etwa (1) hardware- oder softwaregestützte Load-Balancer, die eingehende Verbindungen nach konfigurierbaren Regeln verteilen, (2) DNS-basierte Verfahren, bei denen Abfragen gezielt auf unterschiedliche Zielsysteme geleitet werden, oder (3) virtuelle Appliances in virtualisierten oder Cloud-nahen Umgebungen. Serverbasierte Verfahren können etwa durch den Einsatz von Cluster-Software, eingebaute Reverse-Proxy-Funktionen in Webservern oder den Einsatz von Message-Queues realisiert werden. Dabei kann eine Institution darauf achten, dass Monitoring-Funktionen integriert sind, um Engpässe frühzeitig zu erkennen, und dass Konfigurationen für Failover-Szenarien getestet werden. Auch ein gestuftes Testen der Lastverteilung unter realitätsnahen Bedingungen kann helfen, die Wirksamkeit sicherzustellen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 50e54872-271e-41b4-b54a-50e9ebab82bd |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 50e54872-271e-41b4-b54a-50e9ebab82bd |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 50e54872-271e-41b4-b54a-50e9ebab82bd |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 50e54872-271e-41b4-b54a-50e9ebab82bd |
+

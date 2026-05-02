@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - phishing
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.12.1.1 Zertifikatsprüfung
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.1.1 - Zertifikatsprüfung
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Phishing](../../../../namespaces/entries/tags_Phishing.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Phishing](../../../../namespaces/entries/tags_Phishing.md)
+
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
@@ -33,9 +36,17 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [Webbrowser](../../../../namespaces/entries/target_object_categories_Webbrowser_8b64663c-8388-40bc-a68b-473e753ae4d0.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die automatische Validierung des Zertifikates | einschließlich der vollständigen Zertifikatskette | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für Webbrowser SOLLTE die automatische Validierung des Zertifikates einschließlich der vollständigen Zertifikatskette aktivieren.</span>
 
 > [!info]- Guidance
->Zertifikatsprüfung (Certificate Validation) ist eine Funktion, bei der ein Browser das digitale Zertifikat einer Webseite vor dem Verbindungsaufbau verifiziert. Dabei wird sichergestellt, dass das Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle (CA - Certificate Authority) ausgestellt, gültig und nicht abgelaufen oder widerrufen ist. Dabei wird die vollständige Zertifikatskette, einschließlich des Root-Zertifikates verifiziert.  Ist das Zertifikat ungültig, so wird der Aufruf der Seite blockiert. Die korrekte Implementierung dieses Prozesses kann die Vertraulichkeit und Integrität der übertragenen Daten gewährleisten und schützt vor Man-in-the-Middle-Angriffen, bei denen Angreifer versuchen, den Datenverkehr abzufangen. Zur Umsetzung dieser Anforderung können Institutionen die zentrale Konfiguration von Browsern über Gruppenrichtlinien (Group Policies) oder Mobile Device Management (MDM)-Lösungen vornehmen.
+> Zertifikatsprüfung (Certificate Validation) ist eine Funktion, bei der ein Browser das digitale Zertifikat einer Webseite vor dem Verbindungsaufbau verifiziert. Dabei wird sichergestellt, dass das Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle (CA - Certificate Authority) ausgestellt, gültig und nicht abgelaufen oder widerrufen ist. Dabei wird die vollständige Zertifikatskette, einschließlich des Root-Zertifikates verifiziert.  Ist das Zertifikat ungültig, so wird der Aufruf der Seite blockiert. Die korrekte Implementierung dieses Prozesses kann die Vertraulichkeit und Integrität der übertragenen Daten gewährleisten und schützt vor Man-in-the-Middle-Angriffen, bei denen Angreifer versuchen, den Datenverkehr abzufangen. Zur Umsetzung dieser Anforderung können Institutionen die zentrale Konfiguration von Browsern über Gruppenrichtlinien (Group Policies) oder Mobile Device Management (MDM)-Lösungen vornehmen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 0e183da9-8671-492b-ba81-f95ff6d90a26 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |> | ** Alternate Identifier ** | 0e183da9-8671-492b-ba81-f95ff6d90a26 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 0e183da9-8671-492b-ba81-f95ff6d90a26 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
+> | ** Alternate Identifier ** | 0e183da9-8671-492b-ba81-f95ff6d90a26 |
+

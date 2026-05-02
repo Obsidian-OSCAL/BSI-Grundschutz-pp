@@ -6,7 +6,7 @@ tags:
 - advanced_persistent_threats_apt
 - honeypot
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.11.2 Netzwerk-Honeypots
@@ -22,7 +22,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11.2 - Netzwerk-Honeypots
-> [!example]- Tags:> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)> [Honeypot](../../../../namespaces/entries/tags_Honeypot.md)
+> [!example]- Tags:
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [Honeypot](../../../../namespaces/entries/tags_Honeypot.md)
+
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
@@ -33,11 +37,21 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 | <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Netzwerk-Honeypots |  | [installieren](../../../../namespaces/entries/action_words_installieren_8e432bcd-2e41-444d-98d4-c4dbbdc9e575.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Netze KANN Netzwerk-Honeypots installieren.</span>
 
 > [!info]- Guidance
->Honeypots sind Systeme, die das Verhalten eines Betriebsservers simulieren, um bei netzbasierten Angriffen Informationen über den Angriff zu erhalten. Geeignet sind z.B. vermeintliche Rechnungsbearbeitungssysteme oder Datenbank-Server. Alarmierungsereignisse können hier z.B. Login-Versuche oder unerwartete API-Abfragen sein. Allerdings kann es hierbei zu falsch-positiv Vorfallsmeldungen kommen, insbesondere wenn die Honeypots dort platziert werden, wo sie für legitime Nutzende leicht zugänglich sind, oder wenn legitime Netzwerkscans bereits eine Alarmierung auslösen. Daher ist es sinnvoll, die konkreten Einsatzgegebenheiten in einer Risikoanalyse zu betrachten und den möglichen Detektionsmehrwert mit den potenziellen Risiken solcher falsch-positiv Meldungen abzuwägen.
+> Honeypots sind Systeme, die das Verhalten eines Betriebsservers simulieren, um bei netzbasierten Angriffen Informationen über den Angriff zu erhalten. Geeignet sind z.B. vermeintliche Rechnungsbearbeitungssysteme oder Datenbank-Server. Alarmierungsereignisse können hier z.B. Login-Versuche oder unerwartete API-Abfragen sein. Allerdings kann es hierbei zu falsch-positiv Vorfallsmeldungen kommen, insbesondere wenn die Honeypots dort platziert werden, wo sie für legitime Nutzende leicht zugänglich sind, oder wenn legitime Netzwerkscans bereits eine Alarmierung auslösen. Daher ist es sinnvoll, die konkreten Einsatzgegebenheiten in einer Risikoanalyse zu betrachten und den möglichen Detektionsmehrwert mit den potenziellen Risiken solcher falsch-positiv Meldungen abzuwägen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 7715c6ec-8cf9-446c-807a-783d61ebd539 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 7715c6ec-8cf9-446c-807a-783d61ebd539 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 7715c6ec-8cf9-446c-807a-783d61ebd539 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 7715c6ec-8cf9-446c-807a-783d61ebd539 |
 
-> [!info]- Links> > related: [DET.4.10 Host-basierte Köder](./DET.4.10%20Host-basierte%20Köder.md)
+
+> [!info]- Links
+> > related: [DET.4.10 Host-basierte Köder](./DET.4.10%20Host-basierte%20Köder.md)
+

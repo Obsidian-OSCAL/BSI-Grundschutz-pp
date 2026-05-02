@@ -6,7 +6,7 @@ tags:
 - privilege_escalation
 - password_policy
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.4.1.2 Untersagung von Passwort Recycling
@@ -23,7 +23,11 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.4.1.2 - Untersagung von Passwort Recycling
-> [!example]- Tags:> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)> [Password Policy](../../../../namespaces/entries/tags_Password_Policy.md)
+> [!example]- Tags:
+> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)
+> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)
+> [Password Policy](../../../../namespaces/entries/tags_Password_Policy.md)
+
 Gruppe: [SENS.4 Authentisierung](../SENS.4%20Authentisierung.md)
 ---
 
@@ -34,9 +38,17 @@ Gruppe: [SENS.4 Authentisierung](../SENS.4%20Authentisierung.md)
 | <div style="background:#cccccc">*[Sensibilisierung (SENS)](../SENS%20Sensibilisierung.md)*<br> *  &rarr; [Authentisierung](../SENS.4%20Authentisierung.md) *</div> | [Sensibilisierung](../../../../namespaces/entries/practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Wiederverwendung von Passwörtern |  | [untersagen](../../../../namespaces/entries/action_words_untersagen_6789d951-1904-4753-a1db-ee1c4e18aeed.md) | [Arbeitsanweisung](../../../../namespaces/entries/documentation_guidelines_Arbeitsanweisung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE die Wiederverwendung von Passwörtern untersagen.</span>
 
 > [!info]- Guidance
->Wiederverwendung von Passwörtern bezeichnet  die Nutzung identischer Zugangsdaten für verschiedene Systeme, Dienste oder Anwendungen. Werden identische Passwörter auf unterschiedlichen Systemen eingesetzt, steigt die Wahrscheinlichkeit, dass ein Angreifer mit einem einzigen erlangten Passwort Zugriff auf weitere Konten erhält („Credential Stuffing“). Ein Vorfall könnte beispielsweise darin bestehen, dass ein externer Angreifer durch ein Datenleck bei einem Drittanbieter an ein altes Passwort gelangt und damit Zugang zu internen Diensten erhält, wenn die betroffene Person dieses Passwort mehrfach genutzt hat. Auch im internen Umfeld kann die Wiederverwendung von Passwörtern dazu führen, dass unbefugte Dritte über abgefangene oder mitgehörte Anmeldedaten Zugang zu sensiblen Bereichen erhalten. Die Anforderung zielt also auf eine Reduzierung der Angriffsfläche durch Verhinderung von Kettenreaktionen, die aus nur einem kompromittierten Passwort entstehen können. Mit „Wiederverwendung“ ist sowohl die Verwendung desselben Passworts an verschiedenen Zugangskonten oder IT-Systemen, also auch eine zeitlich wiederholte Nutzung früherer Passwörter gemeint.
+> Wiederverwendung von Passwörtern bezeichnet  die Nutzung identischer Zugangsdaten für verschiedene Systeme, Dienste oder Anwendungen. Werden identische Passwörter auf unterschiedlichen Systemen eingesetzt, steigt die Wahrscheinlichkeit, dass ein Angreifer mit einem einzigen erlangten Passwort Zugriff auf weitere Konten erhält („Credential Stuffing“). Ein Vorfall könnte beispielsweise darin bestehen, dass ein externer Angreifer durch ein Datenleck bei einem Drittanbieter an ein altes Passwort gelangt und damit Zugang zu internen Diensten erhält, wenn die betroffene Person dieses Passwort mehrfach genutzt hat. Auch im internen Umfeld kann die Wiederverwendung von Passwörtern dazu führen, dass unbefugte Dritte über abgefangene oder mitgehörte Anmeldedaten Zugang zu sensiblen Bereichen erhalten. Die Anforderung zielt also auf eine Reduzierung der Angriffsfläche durch Verhinderung von Kettenreaktionen, die aus nur einem kompromittierten Passwort entstehen können. Mit „Wiederverwendung“ ist sowohl die Verwendung desselben Passworts an verschiedenen Zugangskonten oder IT-Systemen, also auch eine zeitlich wiederholte Nutzung früherer Passwörter gemeint.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 0573247f-65f3-4768-9d27-6c9c0f42c6cd |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 0573247f-65f3-4768-9d27-6c9c0f42c6cd |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 0573247f-65f3-4768-9d27-6c9c0f42c6cd |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 0573247f-65f3-4768-9d27-6c9c0f42c6cd |
+

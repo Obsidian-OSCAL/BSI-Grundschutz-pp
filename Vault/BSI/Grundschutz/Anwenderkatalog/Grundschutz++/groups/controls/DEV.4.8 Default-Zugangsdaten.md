@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - security_by_default
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DEV.4.8 Default-Zugangsdaten
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.4.8 - Default-Zugangsdaten
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Security by Default](../../../../namespaces/entries/tags_Security_by_Default.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Security by Default](../../../../namespaces/entries/tags_Security_by_Default.md)
+
 Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20Code.md)
 ---
 
@@ -34,9 +37,17 @@ Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->Falls die Software Default-Zugangsdaten wie Passwörter oder Zertifikate enthält, so ist eine sichere Nutzung der Software nur möglich, wenn Nutzende hiervon Kenntnis erhalten um die Zugangsdaten ändern zu können. Sind keine Default-Zugangsdaten erforderlich, so ist die Anforderung entbehrlich.
+> Falls die Software Default-Zugangsdaten wie Passwörter oder Zertifikate enthält, so ist eine sichere Nutzung der Software nur möglich, wenn Nutzende hiervon Kenntnis erhalten um die Zugangsdaten ändern zu können. Sind keine Default-Zugangsdaten erforderlich, so ist die Anforderung entbehrlich.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64 |
+

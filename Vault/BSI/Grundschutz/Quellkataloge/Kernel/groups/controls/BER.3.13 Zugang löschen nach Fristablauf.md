@@ -5,7 +5,7 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.3.13 Zugang löschen nach Fristablauf
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.3.13 - Zugang löschen nach Fristablauf
-> [!example]- Tags:> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+> [!example]- Tags:
+> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)
+> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+
 Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 ---
 
@@ -33,11 +36,21 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugang](../../../../namespaces/entries/result_Zugang_00000000-0000-0000-0000-000000000000.md) | Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen wie IT-Systeme oder System-Komponenten und Netze zu nutzen. |
 
 > [!info]- Guidance
->Die Löschfristen ergeben sich aus gesetzlichen Aufbewahrungs- und Löschfristen, die dem Compliance-Management entnommen werden können. Sicheres Löschen bedeutet, Daten so zu entfernen, dass sie mit vertretbarem Aufwand (auch forensisch) nicht mehr rekonstruierbar sind. Je nach Medium geschieht das z. B. durch verifizierbares Überschreiben, kryptografisches Löschen (Schlüsselvernichtung) oder physische Zerstörung (inklusive zugehöriger Metadaten, Caches und Datensicherungen).
+> Die Löschfristen ergeben sich aus gesetzlichen Aufbewahrungs- und Löschfristen, die dem Compliance-Management entnommen werden können. Sicheres Löschen bedeutet, Daten so zu entfernen, dass sie mit vertretbarem Aufwand (auch forensisch) nicht mehr rekonstruierbar sind. Je nach Medium geschieht das z. B. durch verifizierbares Überschreiben, kryptografisches Löschen (Schlüsselvernichtung) oder physische Zerstörung (inklusive zugehöriger Metadaten, Caches und Datensicherungen).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 04d6a7fe-9e5a-424b-b647-3e95ce943ce9 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |> | ** Alternate Identifier ** | 04d6a7fe-9e5a-424b-b647-3e95ce943ce9 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 04d6a7fe-9e5a-424b-b647-3e95ce943ce9 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
+> | ** Alternate Identifier ** | 04d6a7fe-9e5a-424b-b647-3e95ce943ce9 |
 
-> [!info]- Links> > related: [ASST.7.2 Aufbewahrungs- und Löschfristen](./ASST.7.2%20Aufbewahrungs-%20und%20Löschfristen.md)
+
+> [!info]- Links
+> > related: [ASST.7.2 Aufbewahrungs- und Löschfristen](./ASST.7.2%20Aufbewahrungs-%20und%20Löschfristen.md)
+

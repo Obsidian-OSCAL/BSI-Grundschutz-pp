@@ -5,7 +5,7 @@ tags:
 - data_leak
 - shadow_it
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ASST.3.11.1 Autorisierung von Peripheriegeräten
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.3.11.1 - Autorisierung von Peripheriegeräten
-> [!example]- Tags:> [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)> [Shadow IT](../../../../namespaces/entries/tags_Shadow_IT.md)
+> [!example]- Tags:
+> [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+> [Shadow IT](../../../../namespaces/entries/tags_Shadow_IT.md)
+
 Gruppe: [ASST.3 Regelungen zum Gebrauch](../ASST.3%20Regelungen%20zum%20Gebrauch.md)
 ---
 
@@ -33,11 +36,21 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](../ASST.3%20Regelungen%20zum%20Gebrauch
 | <div style="background:#cccccc">*[Informationen und Assets (ASST)](../ASST%20Informationen%20und%20Assets.md)*<br> *  &rarr; [Regelungen zum Gebrauch](../ASST.3%20Regelungen%20zum%20Gebrauch.md) *</div> | [Informationen und Assets](../../../../namespaces/entries/practices_Informationen_und_Assets_02088622-573d-4225-883c-9afe0c7dc69b.md) | [Daten](../../../../namespaces/entries/target_object_categories_Daten_69d48234-d4c2-463d-9b76-c3a1580edd85.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | auch Peripheriegeräte |  | [autorisieren](../../../../namespaces/entries/action_words_autorisieren_7e32a8ee-3b6b-45c2-a788-d4223d7920ad.md) | [Arbeitsanweisung](../../../../namespaces/entries/documentation_guidelines_Arbeitsanweisung.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Informationen und Assets für Daten SOLLTE auch Peripheriegeräte autorisieren.</span>
 
 > [!info]- Guidance
->Peripheriegeräte sind externe Hardware-Komponenten sowie virtuelle Geräte, die an IT-Systeme angeschlossen oder eingebunden werden, darunter USB-Sticks, externe Festplatten, Drucker, Kameras, Smartphones, Tablets, virtuelle Laufwerke, softwaredefinierte Netzwerkadapter und emulierte Hardware. Die Autorisierung solcher Geräte schützt vor Sicherheitsrisiken, da unkontrollierte Peripherie Malware einschleusen, Daten exfiltrieren oder als Einfallstor für Angriffe dienen kann; so kann ein privater USB-Datenträger Schadsoftware enthalten, die sich beim Anschluss ausbreitet, oder ein nicht autorisierter Drucker vertrauliche Dokumente in ungeschützten Bereichen ausgeben. Die Umsetzung erfolgt zweckmäßig über eine zentrale Geräteregistrierung, in der alle zulässigen Geräte mit eindeutigen Kennungen erfasst werden; abhängig vom Risikoprofil kann die Autorisierung gerätespezifisch oder für ganze Gerätegruppen erfolgen (etwa für alle beschafften Tastaturen und Mäuse). Administrative Prozesse umfassen ein Antragsverfahren für neue Peripheriegeräte mit Sicherheitsbewertung, die regelmäßige Überprüfung und Aktualisierung der Gerätelisten sowie die Definition von Gerätekategorien mit abgestuften Autorisierungsebenen, beispielsweise vollständig gesperrte USB-Ports für externe Nutzer, eingeschränkte Freigaben für Standardarbeitsplätze und erweiterte Berechtigungen für Administratoren. Technisch wird dies durch Device-Control-Lösungen unterstützt, die nur autorisierte Geräte anhand von Hardware-IDs, Herstellerzertifikaten oder digitalen Signaturen erkennen und freischalten; ergänzend erhöhen Logging-Mechanismen zur Nachverfolgung sämtlicher Peripheriegeräte-Aktivitäten die Transparenz und Auditierbarkeit der Prozesse. Die Autorisierung selbst erfolgt durch die Personen oder Rollen, die in der Organisation für die Freigabe der betreffenden Systeme verantwortlich sind.
+> Peripheriegeräte sind externe Hardware-Komponenten sowie virtuelle Geräte, die an IT-Systeme angeschlossen oder eingebunden werden, darunter USB-Sticks, externe Festplatten, Drucker, Kameras, Smartphones, Tablets, virtuelle Laufwerke, softwaredefinierte Netzwerkadapter und emulierte Hardware. Die Autorisierung solcher Geräte schützt vor Sicherheitsrisiken, da unkontrollierte Peripherie Malware einschleusen, Daten exfiltrieren oder als Einfallstor für Angriffe dienen kann; so kann ein privater USB-Datenträger Schadsoftware enthalten, die sich beim Anschluss ausbreitet, oder ein nicht autorisierter Drucker vertrauliche Dokumente in ungeschützten Bereichen ausgeben. Die Umsetzung erfolgt zweckmäßig über eine zentrale Geräteregistrierung, in der alle zulässigen Geräte mit eindeutigen Kennungen erfasst werden; abhängig vom Risikoprofil kann die Autorisierung gerätespezifisch oder für ganze Gerätegruppen erfolgen (etwa für alle beschafften Tastaturen und Mäuse). Administrative Prozesse umfassen ein Antragsverfahren für neue Peripheriegeräte mit Sicherheitsbewertung, die regelmäßige Überprüfung und Aktualisierung der Gerätelisten sowie die Definition von Gerätekategorien mit abgestuften Autorisierungsebenen, beispielsweise vollständig gesperrte USB-Ports für externe Nutzer, eingeschränkte Freigaben für Standardarbeitsplätze und erweiterte Berechtigungen für Administratoren. Technisch wird dies durch Device-Control-Lösungen unterstützt, die nur autorisierte Geräte anhand von Hardware-IDs, Herstellerzertifikaten oder digitalen Signaturen erkennen und freischalten; ergänzend erhöhen Logging-Mechanismen zur Nachverfolgung sämtlicher Peripheriegeräte-Aktivitäten die Transparenz und Auditierbarkeit der Prozesse. Die Autorisierung selbst erfolgt durch die Personen oder Rollen, die in der Organisation für die Freigabe der betreffenden Systeme verantwortlich sind.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 75a9c947-c417-4dc7-a942-c27340f20ade |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 75a9c947-c417-4dc7-a942-c27340f20ade |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 75a9c947-c417-4dc7-a942-c27340f20ade |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 75a9c947-c417-4dc7-a942-c27340f20ade |
 
-> [!info]- Links> > related: [KONF.3.7 Einschränkung angeschlossener Peripherie](./KONF.3.7%20Einschränkung%20angeschlossener%20Peripherie.md)
+
+> [!info]- Links
+> > related: [KONF.3.7 Einschränkung angeschlossener Peripherie](./KONF.3.7%20Einschränkung%20angeschlossener%20Peripherie.md)
+

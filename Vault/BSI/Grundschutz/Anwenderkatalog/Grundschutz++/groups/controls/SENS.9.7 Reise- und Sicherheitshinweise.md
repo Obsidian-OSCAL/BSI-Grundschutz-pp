@@ -5,7 +5,7 @@ tags:
 - auslandsreisen
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: SENS.9.7 Reise- und Sicherheitshinweise
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # SENS.9.7 - Reise- und Sicherheitshinweise
-> [!example]- Tags:> [Auslandsreisen](../../../../namespaces/entries/tags_Auslandsreisen.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Auslandsreisen](../../../../namespaces/entries/tags_Auslandsreisen.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [SENS.9 Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md)
 ---
 
@@ -31,11 +34,21 @@ Gruppe: [SENS.9 Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md)
 | <div style="background:#cccccc">*[Sensibilisierung (SENS)](../SENS%20Sensibilisierung.md)*<br> *  &rarr; [Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md) *</div> | [Sensibilisierung](../../../../namespaces/entries/practices_Sensibilisierung_66da6dfc-8bb3-4dcb-9809-72f3be19845e.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | zu Reise- und Sicherheitshinweisen des Auswärtigen Amtes | bei Auslandsreisen ins außereuropäische Ausland | [sensibilisieren](../../../../namespaces/entries/action_words_sensibilisieren_f1ccced2-5385-4c15-9cb4-3c97c495b76b.md) | [Schulungsplan](../../../../namespaces/entries/documentation_guidelines_Schulungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Sensibilisierung für Nutzende SOLLTE zu Reise- und Sicherheitshinweisen des Auswärtigen Amtes bei Auslandsreisen ins außereuropäische Ausland sensibilisieren.</span>
 
 > [!info]- Guidance
->Dies kann dazu beitragen, frühzeitig potenzielle Gefahren zu erkennen und das Verhalten an die spezifischen Risiken des Ziellandes anzupassen. Dies umfasst unter anderem Hinweise zu politischen Unruhen, Naturkatastrophen, Kriminalitätslagen oder besonderen Einreise- und Sicherheitsbestimmungen. Ohne solche Kenntnisse könnten Reisende unvorbereitet in Situationen geraten, in denen dienstliche Geräte kompromittiert werden, wenn unsichere Netzwerke genutzt werden. Ebenso könnten fehlende Kenntnisse über lokale Gesetze dazu führen, dass mitgeführte elektronische Geräte bei der Einreise beschlagnahmt oder inspiziert werden. Sinnvoll ist es, sich vor der Arbeitsreisen in das außereuropäische Ausland über aktuelle Reise- und Sicherheitshinweise beim [Auswärtigen Amt](https://www.auswaertiges-amt.de/de/reiseundsicherheit/reise-und-sicherheitshinweise) zu informieren. Ist die Nutzung von Informationen oder Assets der Institution im Ausland nicht vorgesehen (vgl. Anforderung Datenlokationen), dann ist die Anforderung entbehrlich.
+> Dies kann dazu beitragen, frühzeitig potenzielle Gefahren zu erkennen und das Verhalten an die spezifischen Risiken des Ziellandes anzupassen. Dies umfasst unter anderem Hinweise zu politischen Unruhen, Naturkatastrophen, Kriminalitätslagen oder besonderen Einreise- und Sicherheitsbestimmungen. Ohne solche Kenntnisse könnten Reisende unvorbereitet in Situationen geraten, in denen dienstliche Geräte kompromittiert werden, wenn unsichere Netzwerke genutzt werden. Ebenso könnten fehlende Kenntnisse über lokale Gesetze dazu führen, dass mitgeführte elektronische Geräte bei der Einreise beschlagnahmt oder inspiziert werden. Sinnvoll ist es, sich vor der Arbeitsreisen in das außereuropäische Ausland über aktuelle Reise- und Sicherheitshinweise beim [Auswärtigen Amt](https://www.auswaertiges-amt.de/de/reiseundsicherheit/reise-und-sicherheitshinweise) zu informieren. Ist die Nutzung von Informationen oder Assets der Institution im Ausland nicht vorgesehen (vgl. Anforderung Datenlokationen), dann ist die Anforderung entbehrlich.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3b4e6be6-5648-468f-bc05-89191c9cdd90 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |> | ** Alternate Identifier ** | 3b4e6be6-5648-468f-bc05-89191c9cdd90 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 3b4e6be6-5648-468f-bc05-89191c9cdd90 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
+> | ** Alternate Identifier ** | 3b4e6be6-5648-468f-bc05-89191c9cdd90 |
 
-> [!info]- Links> > related: [ASST.3.10 Autorisierung von Datenlokationen](./ASST.3.10%20Autorisierung%20von%20Datenlokationen.md)
+
+> [!info]- Links
+> > related: [ASST.3.10 Autorisierung von Datenlokationen](./ASST.3.10%20Autorisierung%20von%20Datenlokationen.md)
+

@@ -5,7 +5,7 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.1 Netzsegmente
@@ -21,7 +21,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.1 - Netzsegmente
-> [!example]- Tags:> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+> [!example]- Tags:
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [Separation of Concerns](../../../../namespaces/entries/tags_Separation_of_Concerns.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [Netze](../../../../namespaces/entries/target_object_categories_Netze_1a4fb57d-1648-4111-979d-6a5f4f848620.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | eine Unterteilung des internen Netzes in Netzsegmente | unter Berücksichtigung der Anforderungen der Institution und des Schutzbedarfes | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für Netze SOLLTE eine Unterteilung des internen Netzes in Netzsegmente unter Berücksichtigung der Anforderungen der Institution und des Schutzbedarfes verankern.</span>
 
 > [!info]- Guidance
->Die Aufteilung in Netzsegmente (auch Netzdomänen oder Subnetze genannt) ermöglicht es, verschiedene Zonen mit unterschiedlichen Schutzanforderungen – z. B. Büro-IT, Produktionsnetz, Managementnetz – getrennt zu betrachten und gezielt zu schützen. Relevant sind dabei (falls vorhanden) auch WLANs/SSIDs, IoT-Geräte wie vernetzte Kühlschränke, Hausleittechnik, operative Technologien, Industrielle Steuerungssysteme oder Netze zum Zugriff auf Speichersysteme (Storage Area Network, SAN). Die Anforderung gilt auch, wenn die Systeme nur noch als VMs oder Container existieren. Die Segmentierung kann hier in die virtuelle Netzwerk‑Ebene verlagert werden, sodass die Segmentierung weder vom Hypervisor noch von den Workloads umgangen wird. Die Einteilung in Segmente kann anhand einer Klassifizierung von Netzen erfolgen (z.B. nach Schutzbedarf der dort verarbeiteten Daten oder nach Risikoklassen angeschlossener Systeme) erfolgen. Beispiele hierfür sind Internet-Domäne, Endgeräte-Domäne, Domäne für zentrale Serverdienste, Domäne für Systeme hoher Vertraulichkeit. Alternativ können auch organisatorische Domänen verwendet werden, z. B. Personalwesen, Marketing, Finanzverwaltung, Innere Verwaltung. Die Filterkriterien können sich nach den Sicherheitsanforderungen der jeweiligen Netze im Einzelnen oder nach einer vorgenommenen Klassifikation der Netze richten. Hierzu gehören insbesondere die Anforderungen zur Authentifizierung und Autorisierung von Assets.
+> Die Aufteilung in Netzsegmente (auch Netzdomänen oder Subnetze genannt) ermöglicht es, verschiedene Zonen mit unterschiedlichen Schutzanforderungen – z. B. Büro-IT, Produktionsnetz, Managementnetz – getrennt zu betrachten und gezielt zu schützen. Relevant sind dabei (falls vorhanden) auch WLANs/SSIDs, IoT-Geräte wie vernetzte Kühlschränke, Hausleittechnik, operative Technologien, Industrielle Steuerungssysteme oder Netze zum Zugriff auf Speichersysteme (Storage Area Network, SAN). Die Anforderung gilt auch, wenn die Systeme nur noch als VMs oder Container existieren. Die Segmentierung kann hier in die virtuelle Netzwerk‑Ebene verlagert werden, sodass die Segmentierung weder vom Hypervisor noch von den Workloads umgangen wird. Die Einteilung in Segmente kann anhand einer Klassifizierung von Netzen erfolgen (z.B. nach Schutzbedarf der dort verarbeiteten Daten oder nach Risikoklassen angeschlossener Systeme) erfolgen. Beispiele hierfür sind Internet-Domäne, Endgeräte-Domäne, Domäne für zentrale Serverdienste, Domäne für Systeme hoher Vertraulichkeit. Alternativ können auch organisatorische Domänen verwendet werden, z. B. Personalwesen, Marketing, Finanzverwaltung, Innere Verwaltung. Die Filterkriterien können sich nach den Sicherheitsanforderungen der jeweiligen Netze im Einzelnen oder nach einer vorgenommenen Klassifikation der Netze richten. Hierzu gehören insbesondere die Anforderungen zur Authentifizierung und Autorisierung von Assets.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18 |
+

@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.4.1.2 Berechtigungen deaktivieren
@@ -22,7 +22,10 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.4.1.2 - Berechtigungen deaktivieren
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md)
 ---
 
@@ -33,11 +36,21 @@ Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionier
 | <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](../DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](../../../../namespaces/entries/practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | für den Vertrag benötigte Berechtigungen | bei Vertragsende unverzüglich | [deaktivieren](../../../../namespaces/entries/action_words_deaktivieren_5f0f5c35-65a5-4db2-9b27-0d86c2d7089b.md) | [Betriebshandbuch](../../../../namespaces/entries/documentation_guidelines_Betriebshandbuch.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE für den Vertrag benötigte Berechtigungen bei Vertragsende unverzüglich deaktivieren.</span>
 
 > [!info]- Guidance
->Berechtigungen sind hier alle Zugangs-, Zutritts- und Zugriffsrechte, die von der Institution für Mitarbeitende, Organisationseinheiten oder Subunternehmer des Dienstleisters eingerichtet oder geändert wurden. Hierzu können diese Rechte gelöscht, deaktiviert oder reduziert werden, soweit sie nicht mehr (z.B. für andere Verträge) benötigt werden.
+> Berechtigungen sind hier alle Zugangs-, Zutritts- und Zugriffsrechte, die von der Institution für Mitarbeitende, Organisationseinheiten oder Subunternehmer des Dienstleisters eingerichtet oder geändert wurden. Hierzu können diese Rechte gelöscht, deaktiviert oder reduziert werden, soweit sie nicht mehr (z.B. für andere Verträge) benötigt werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 3449b68e-a78f-4090-9092-6e1a65dd7c2a |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |> | ** Alternate Identifier ** | 3449b68e-a78f-4090-9092-6e1a65dd7c2a |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 3449b68e-a78f-4090-9092-6e1a65dd7c2a |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
+> | ** Alternate Identifier ** | 3449b68e-a78f-4090-9092-6e1a65dd7c2a |
 
-> [!info]- Links> > related: [BER.1.1 Verfahren und Regelungen](./BER.1.1%20Verfahren%20und%20Regelungen.md)
+
+> [!info]- Links
+> > related: [BER.1.1 Verfahren und Regelungen](./BER.1.1%20Verfahren%20und%20Regelungen.md)
+

@@ -8,7 +8,7 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.6.5 Mehr-Faktor-Authentisierung für weitreichende Berechtigungen
@@ -23,7 +23,13 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.6.5 - Mehr-Faktor-Authentisierung für weitreichende Berechtigungen
-> [!example]- Tags:> [MFA](../../../../namespaces/entries/tags_MFA.md)> [Living off the land](../../../../namespaces/entries/tags_Living_off_the_land.md)> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+> [!example]- Tags:
+> [MFA](../../../../namespaces/entries/tags_MFA.md)
+> [Living off the land](../../../../namespaces/entries/tags_Living_off_the_land.md)
+> [Privilege Escalation](../../../../namespaces/entries/tags_Privilege_Escalation.md)
+> [Credential Stuffing](../../../../namespaces/entries/tags_Credential_Stuffing.md)
+> [Brute-Force-Attacke](../../../../namespaces/entries/tags_Brute-Force-Attacke.md)
+
 Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 ---
 
@@ -33,11 +39,22 @@ Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Passwortgebrauch](../BER.6%20Passwortgebrauch.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | Mehr-Faktor-Authentisierung | für weitreichende Berechtigungen | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [IT-Betriebskonzept](../../../../namespaces/entries/documentation_guidelines_IT-Betriebskonzept.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE Mehr-Faktor-Authentisierung für weitreichende Berechtigungen aktivieren.</span>
 
 > [!info]- Guidance
->Eine Mehr-Faktor-Authentifizierung bei Zugängen mit weitreichenden Berechtigungen, z.B. Administrationskonten, die Zugriff auf wichtige Server wie den Verzeichnisdienst, das MDM, EDR oder DNS haben, erschwert den unberechtigten Zugang zu diesen Zugängen. Auch der Zugriff auch besonders sensible Daten kann eine weitreichende Berechtigung sein.
+> Eine Mehr-Faktor-Authentifizierung bei Zugängen mit weitreichenden Berechtigungen, z.B. Administrationskonten, die Zugriff auf wichtige Server wie den Verzeichnisdienst, das MDM, EDR oder DNS haben, erschwert den unberechtigten Zugang zu diesen Zugängen. Auch der Zugriff auch besonders sensible Daten kann eine weitreichende Berechtigung sein.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 55b70084-f446-42af-908b-0f514a72f380 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 55b70084-f446-42af-908b-0f514a72f380 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 55b70084-f446-42af-908b-0f514a72f380 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 55b70084-f446-42af-908b-0f514a72f380 |
 
-> [!info]- Links> > required: [BER.3.5 Privilegierte Zugangskonten](./BER.3.5%20Privilegierte%20Zugangskonten.md)> > related: [BER.6.4 Mehr-Faktor-Authentisierung am Perimeter](./BER.6.4%20Mehr-Faktor-Authentisierung%20am%20Perimeter.md)
+
+> [!info]- Links
+> > required: [BER.3.5 Privilegierte Zugangskonten](./BER.3.5%20Privilegierte%20Zugangskonten.md)
+> > related: [BER.6.4 Mehr-Faktor-Authentisierung am Perimeter](./BER.6.4%20Mehr-Faktor-Authentisierung%20am%20Perimeter.md)
+

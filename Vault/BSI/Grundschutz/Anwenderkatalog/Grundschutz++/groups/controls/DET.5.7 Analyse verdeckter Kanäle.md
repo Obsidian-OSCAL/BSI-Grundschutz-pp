@@ -6,7 +6,7 @@ tags:
 - advanced_persistent_threats_apt
 - det57-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.5.7 Analyse verdeckter Kanäle
@@ -20,7 +20,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.7 - Analyse verdeckter Kanäle
-> [!example]- Tags:> [Pentest](../../../../namespaces/entries/tags_Pentest.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Pentest](../../../../namespaces/entries/tags_Pentest.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
@@ -30,11 +33,21 @@ Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schw
 | <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) |  | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | den Informationsverbund auf verdeckte Kommunikationskanäle | {{regelmäßig}} | [überprüfen](../../../../namespaces/entries/action_words_überprüfen_907e4ee6-6eb8-4160-902d-5b037f417e6a.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion KANN den Informationsverbund auf verdeckte Kommunikationskanäle {{ insert: param, det.5.7-prm1 }} überprüfen.</span>
 
 > [!info]- Guidance
->Ein verdeckter Kanal (Covert Channel) ist ein heimlicher Kommunikationskanal, mit dem Angreifer legitime Verbindungen ausnutzen, um verdeckt Daten zu übertragen. Viele dieser verdeckten Kanäle können durch darauf spezialisierte Erkennungswerkzeuge (sog. Warden) erkannt werden. Aufgrund der Vielzahl denkbarer verdeckter Kommunikationswege können solche Kanäle jedoch kaum vollständig verhindert werden. Ergänzende Maßnahmen wie Traffic Normalization können sie jedoch ausbremsen oder unerkannt eliminieren. Relevant sind dabei sowohl Speicherkanäle (Storage Channel) als auch Zeitkanäle (Timing Channel).
+> Ein verdeckter Kanal (Covert Channel) ist ein heimlicher Kommunikationskanal, mit dem Angreifer legitime Verbindungen ausnutzen, um verdeckt Daten zu übertragen. Viele dieser verdeckten Kanäle können durch darauf spezialisierte Erkennungswerkzeuge (sog. Warden) erkannt werden. Aufgrund der Vielzahl denkbarer verdeckter Kommunikationswege können solche Kanäle jedoch kaum vollständig verhindert werden. Ergänzende Maßnahmen wie Traffic Normalization können sie jedoch ausbremsen oder unerkannt eliminieren. Relevant sind dabei sowohl Speicherkanäle (Storage Channel) als auch Zeitkanäle (Timing Channel).
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 8f64e735-9870-4a8d-8b7b-220b93baddba |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 8f64e735-9870-4a8d-8b7b-220b93baddba |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 8f64e735-9870-4a8d-8b7b-220b93baddba |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 8f64e735-9870-4a8d-8b7b-220b93baddba |
 
-> [!info]- Links> > related: [DET.5.6 Threat Hunting](./DET.5.6%20Threat%20Hunting.md)
+
+> [!info]- Links
+> > related: [DET.5.6 Threat Hunting](./DET.5.6%20Threat%20Hunting.md)
+

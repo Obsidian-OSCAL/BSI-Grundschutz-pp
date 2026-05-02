@@ -5,7 +5,7 @@ tags:
 - cryptography
 - produktbeschreibung
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.2.8 Abgesicherter und authentisierter Bootprozess
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.2.8 - Abgesicherter und authentisierter Bootprozess
-> [!example]- Tags:> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- Tags:
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.2 Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Systemen.md)
 ---
 
@@ -31,9 +34,17 @@ Gruppe: [KONF.2 Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Sy
 | <div style="background:#cccccc">*[Konfiguration (KONF)](../KONF%20Konfiguration.md)*<br> *  &rarr; [Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Systemen.md) *</div> | [Konfiguration](../../../../namespaces/entries/practices_Konfiguration_8e46d34c-5145-44f8-882e-790e2dcffa09.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | einen abgesicherten und authentisierten Bootprozess |  | [aktivieren](../../../../namespaces/entries/action_words_aktivieren_4d9da359-34e9-41b2-b198-ed53920a0414.md) | [Konfigurationshistorie](../../../../namespaces/entries/documentation_guidelines_Konfigurationshistorie.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Konfiguration für IT-Systeme KANN einen abgesicherten und authentisierten Bootprozess aktivieren.</span>
 
 > [!info]- Guidance
->Dies empfiehlt sich für eingebettete Systeme (Embedded Systems), indem z.B. der Bootloader die Integrität des Betriebssystems überprüft und es nur dann lädt, wenn es als korrekt eingestuft wurde. Ebenso empfiehlt es sich ein mehrstufiges Boot-Konzept mit kryptographisch sicherer Überprüfung der Einzelschritte zu realisieren, sichere Hardware-Vertrauensanker zu verwenden, bei ARM & UEFI-basierten Systemem jeweils (ARM) Secure Boot zu nutzen.
+> Dies empfiehlt sich für eingebettete Systeme (Embedded Systems), indem z.B. der Bootloader die Integrität des Betriebssystems überprüft und es nur dann lädt, wenn es als korrekt eingestuft wurde. Ebenso empfiehlt es sich ein mehrstufiges Boot-Konzept mit kryptographisch sicherer Überprüfung der Einzelschritte zu realisieren, sichere Hardware-Vertrauensanker zu verwenden, bei ARM & UEFI-basierten Systemem jeweils (ARM) Secure Boot zu nutzen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 8d460d82-f7db-42c5-b213-625df4381ff3 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 8d460d82-f7db-42c5-b213-625df4381ff3 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 8d460d82-f7db-42c5-b213-625df4381ff3 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 8d460d82-f7db-42c5-b213-625df4381ff3 |
+

@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DLS.4.1 Dekomissionierung
@@ -21,22 +21,36 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.4.1 - Dekomissionierung
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [DLS.4.1.1 Unabhängigkeit](./DLS.4.1.1%20Unabhängigkeit.md)> [DLS.4.1.2 Berechtigungen deaktivieren](./DLS.4.1.2%20Berechtigungen%20deaktivieren.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Dienstleistersteuerung (DLS)](../DLS%20Dienstleistersteuerung.md)*<br> *  &rarr; [Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md) *</div> | [Dienstleistersteuerung](../../../../namespaces/entries/practices_Dienstleistersteuerung_1291637b-aa0e-4b80-a309-5aca40e1c01b.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | eine Vorgehensweise zur Dekommissionierung | vor Vertragsende | [verankern](../../../../namespaces/entries/action_words_verankern_f8ba5e7f-9eac-4f04-8638-586bdcdc64f4.md) | [Betriebshandbuch](../../../../namespaces/entries/documentation_guidelines_Betriebshandbuch.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Dienstleistersteuerung für Dienstleistungen SOLLTE eine Vorgehensweise zur Dekommissionierung vor Vertragsende verankern.</span>
 
 > [!info]- Guidance
->Der Begriff Dekommissionierung bezeichnet hier das strukturierte und nachweisbare Vorgehen, wie eine Institution die Nutzung eines Dienstes oder die Zusammenarbeit mit einem Dienstleister kontrolliert beendet, ohne dass Informationssicherheit, Verfügbarkeit oder Nachvollziehbarkeit beeinträchtigt werden. Der Sinn dieser Vorgabe liegt darin, Risiken wie den unkontrollierten Verbleib sensibler Daten bei einem Dienstleister oder unerkannte Abhängigkeiten von dessen Infrastruktur zu vermeiden. Ohne ein definiertes Vorgehen könnte etwa ein Anbieter weiterhin Zugriff auf produktive Systeme behalten oder Kopien vertraulicher Daten in seiner Umgebung zurückhalten, was ein erhebliches Risiko darstellen könnte. Die praktische Umsetzung kann in mehreren abgestuften Maßnahmen bestehen: (1) Ein geplanter Abschalttermin kann genutzt werden, um Systeme, Schnittstellen und Berechtigungen kontrolliert zurückzubauen und anschließend durch ein Freigabeprotokoll zu bestätigen. (2) Ein Prozessleitfaden kann die frühzeitige Identifikation von zu dekommissionierenden Schnittstellen, Zugangsdaten und Subdienstleistern vorsehen, damit deren Abschaltung rechtzeitig koordiniert werden kann. (3) Eine Checkliste kann sicherstellen, dass auch weniger offensichtliche Abhängigkeiten – etwa hinterlegte API-Tokens, Support-Zugänge oder im Monitoring integrierte Endpunkte – im Abschlussprozess berücksichtigt werden. (4) Technisch kann die Nutzung von zentral verwalteten Zugriffskonten und Logging-Systemen die Überprüfung erleichtern, ob ein Dienstleister nach der Deaktivierung tatsächlich keinen Zugriff mehr hat. Auf diese Weise kann die Institution die Dienstleistersteuerung auch vorzeitig geordnet beenden, ohne dass Informationssicherheitsrisiken unkontrolliert fortbestehen.
+> Der Begriff Dekommissionierung bezeichnet hier das strukturierte und nachweisbare Vorgehen, wie eine Institution die Nutzung eines Dienstes oder die Zusammenarbeit mit einem Dienstleister kontrolliert beendet, ohne dass Informationssicherheit, Verfügbarkeit oder Nachvollziehbarkeit beeinträchtigt werden. Der Sinn dieser Vorgabe liegt darin, Risiken wie den unkontrollierten Verbleib sensibler Daten bei einem Dienstleister oder unerkannte Abhängigkeiten von dessen Infrastruktur zu vermeiden. Ohne ein definiertes Vorgehen könnte etwa ein Anbieter weiterhin Zugriff auf produktive Systeme behalten oder Kopien vertraulicher Daten in seiner Umgebung zurückhalten, was ein erhebliches Risiko darstellen könnte. Die praktische Umsetzung kann in mehreren abgestuften Maßnahmen bestehen: (1) Ein geplanter Abschalttermin kann genutzt werden, um Systeme, Schnittstellen und Berechtigungen kontrolliert zurückzubauen und anschließend durch ein Freigabeprotokoll zu bestätigen. (2) Ein Prozessleitfaden kann die frühzeitige Identifikation von zu dekommissionierenden Schnittstellen, Zugangsdaten und Subdienstleistern vorsehen, damit deren Abschaltung rechtzeitig koordiniert werden kann. (3) Eine Checkliste kann sicherstellen, dass auch weniger offensichtliche Abhängigkeiten – etwa hinterlegte API-Tokens, Support-Zugänge oder im Monitoring integrierte Endpunkte – im Abschlussprozess berücksichtigt werden. (4) Technisch kann die Nutzung von zentral verwalteten Zugriffskonten und Logging-Systemen die Überprüfung erleichtern, ob ein Dienstleister nach der Deaktivierung tatsächlich keinen Zugriff mehr hat. Auf diese Weise kann die Institution die Dienstleistersteuerung auch vorzeitig geordnet beenden, ohne dass Informationssicherheitsrisiken unkontrolliert fortbestehen.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | a78062a0-7fff-43a7-906a-6db806cf6822 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | a78062a0-7fff-43a7-906a-6db806cf6822 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | a78062a0-7fff-43a7-906a-6db806cf6822 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | a78062a0-7fff-43a7-906a-6db806cf6822 |
 
-> [!info]- Links> > related: [BES.6.1 Entziehung der Zugangsberechtigungen](./BES.6.1%20Entziehung%20der%20Zugangsberechtigungen.md)
+
+> [!info]- Links
+> > related: [BES.6.1 Entziehung der Zugangsberechtigungen](./BES.6.1%20Entziehung%20der%20Zugangsberechtigungen.md)
+

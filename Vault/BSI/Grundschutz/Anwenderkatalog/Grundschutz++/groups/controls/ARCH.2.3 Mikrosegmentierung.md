@@ -6,7 +6,7 @@ tags:
 - advanced_persistent_threats_apt
 - lateral_movement
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: ARCH.2.3 Mikrosegmentierung
@@ -22,7 +22,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.2.3 - Mikrosegmentierung
-> [!example]- Tags:> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [!example]- Tags:
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
@@ -32,9 +36,17 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 | <div style="background:#cccccc">*[Architektur (ARCH)](../ARCH%20Architektur.md)*<br> *  &rarr; [Netzdesign](../ARCH.2%20Netzdesign.md) *</div> | [Architektur](../../../../namespaces/entries/practices_Architektur_6710c63e-bb40-4742-9bae-1779ba21f2a9.md) | [IT-Systeme](../../../../namespaces/entries/target_object_categories_IT-Systeme_427da6dd-d744-4b2b-88b7-f0a695f21e14.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Verbindungen zu allen anderen IT-Systemen |  | [einschränken](../../../../namespaces/entries/action_words_einschränken_c8289ac3-7877-4224-b43b-08e005e461ad.md) | [Netzplan](../../../../namespaces/entries/documentation_guidelines_Netzplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Architektur für IT-Systeme KANN Verbindungen zu allen anderen IT-Systemen einschränken.</span>
 
 > [!info]- Guidance
->Mikrosegmentierung ist die Unterteilung des Netzes in möglichst kleine Segmente (z.B. pro IT-System oder Server-Anwendung). Für jedes dieser Segmente wird die erlaubte Kommunikation definiert und gefiltert. Mikrosegmentierung sorgt dafür, dass z.B. zwei medizinische Geräte mit gleicher Rolle zwar ins gleiche VLAN dürfen, aber nicht direkt miteinander kommunizieren dürfen. Die Umsetzung kann mit dynamischen VLANs, softwaredefinierten Netzwerken (SDN) oder Netzwerk-Firewalls auf Host-Ebene erfolgen. Die Mikrosegmentierung begrenzt Angriffe, die sich lateral ausbreiten.
+> Mikrosegmentierung ist die Unterteilung des Netzes in möglichst kleine Segmente (z.B. pro IT-System oder Server-Anwendung). Für jedes dieser Segmente wird die erlaubte Kommunikation definiert und gefiltert. Mikrosegmentierung sorgt dafür, dass z.B. zwei medizinische Geräte mit gleicher Rolle zwar ins gleiche VLAN dürfen, aber nicht direkt miteinander kommunizieren dürfen. Die Umsetzung kann mit dynamischen VLANs, softwaredefinierten Netzwerken (SDN) oder Netzwerk-Firewalls auf Host-Ebene erfolgen. Die Mikrosegmentierung begrenzt Angriffe, die sich lateral ausbreiten.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 193a28ca-0382-4998-874d-4c08b6326f26 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 193a28ca-0382-4998-874d-4c08b6326f26 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 193a28ca-0382-4998-874d-4c08b6326f26 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 193a28ca-0382-4998-874d-4c08b6326f26 |
+

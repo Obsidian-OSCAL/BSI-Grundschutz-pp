@@ -5,7 +5,7 @@ tags:
 - cryptography
 - ber72-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BER.7.2 Schlüssellänge
@@ -30,9 +30,17 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 | <div style="background:#cccccc">*[Berechtigung (BER)](../BER%20Berechtigung.md)*<br> *  &rarr; [Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md) *</div> | [Berechtigung](../../../../namespaces/entries/practices_Berechtigung_389cd5ad-fb81-4a95-8f7a-8f1fe1881709.md) |  | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | die Schlüssellängen | nach {{einem anerkannten Standard}} bei der Schlüsselerzeugung | [zuweisen](../../../../namespaces/entries/action_words_zuweisen_bdb029e3-9154-4f33-a74b-5055a1ce4020.md) | [Verzeichnis öffentlicher Schlüssel](../../../../namespaces/entries/documentation_guidelines_Verzeichnis_öffentlicher_Schlüssel.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Berechtigung SOLLTE die Schlüssellängen nach {{ insert: param, ber.7.2-prm1 }} bei der Schlüsselerzeugung zuweisen.</span>
 
 > [!info]- Guidance
->Für die Sicherheit von Schlüsseln wie Passwörter oder PINs ist die Länge von Bedeutung. Für Details siehe BSI TR-02102.
+> Für die Sicherheit von Schlüsseln wie Passwörter oder PINs ist die Länge von Bedeutung. Für Details siehe BSI TR-02102.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 39301f7d-20ca-49c0-97e5-a8b048877e68 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | 39301f7d-20ca-49c0-97e5-a8b048877e68 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 39301f7d-20ca-49c0-97e5-a8b048877e68 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | 39301f7d-20ca-49c0-97e5-a8b048877e68 |
+

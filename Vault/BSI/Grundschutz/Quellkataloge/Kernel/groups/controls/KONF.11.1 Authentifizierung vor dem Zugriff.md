@@ -5,7 +5,7 @@ tags:
 - produktbeschreibung
 - zero_trust
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: KONF.11.1 Authentifizierung vor dem Zugriff
@@ -22,11 +22,15 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.11.1 - Authentifizierung vor dem Zugriff
-> [!example]- Tags:> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [!example]- Tags:
+> [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+
 Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [KONF.11.1.1 Authentifizierung von geplanten Konversationen](./KONF.11.1.1%20Authentifizierung%20von%20geplanten%20Konversationen.md)> [KONF.11.1.2 Authentifizierung von Netzverbindungen - clientseitig](./KONF.11.1.2%20Authentifizierung%20von%20Netzverbindungen%20-%20clientseitig.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -35,11 +39,21 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > > | Begriff | Definition |> > | - | - |> > | [Zugriff](../../../../namespaces/entries/result_Zugriff_00000000-0000-0000-0000-000000000000.md) | Mit Zugriff wird die Nutzung von Informationen oder Daten bezeichnet. Über Zugriffsberechtigungen wird geregelt, welche Personen im Rahmen ihrer Funktionen oder welche IT-Anwendungen bevollmächtigt sind, Informationen, Daten oder auch IT-Anwendungen, zu nutzen oder Transaktionen auszuführen. |
 
 > [!info]- Guidance
->Ziel ist es, vertrauliche Daten vor dem Zugriff von Unbefugten zu schützen. Relevant sind hierbei sowohl Frontend-Zugänge wie Webportale, als auch Backend-Datenschnittstellen wie Datenbank-API. Dies kann durch eine anwendungsspezifische Authentifizierung, oder durch Nutzung eines zentralen Identity Providers (Single-Sign-On) erfüllt werden. Für die Authentifizierung kommen z.B. Passwörter, X.509-Zertifikate, OTP-Token in Frage. Zweckmäßig ist hierfür der Einsatz von Standardkomponenten wie OAuth 2.0 und die Verbindung mit einem zentralen Berechtigungsmanagement der Anwendung. Im Einklang mit den Anforderungen des Identitäts- und Berechtigungsmanagements bedeutet, dass für die Anwendung die Anforderungen aus der Praktik Identitäts- und Berechtigungsmanagement erfüllt sind, die dort festgelegt wurden. Hierzu gehört die Art der Authentifizierung (z.B. Passwort, Biometrie, Mehr-Faktor-Authentifizierung) ebenso wie die relevanten Parameter (Passwortkomplexität, etc.). Auf Daten die nicht vertraulich (z.B. öffentlich) sind kann auch ohne Authentifizierung Zugriff erlaubt sein. Die Formulierung "im Einklang mit den zugehörigen Anforderungen zum Identitäts- und Berechtigungsmanagement" bedeutet, dass die Authentifizierung so erfolgt, wie in der Praktik Berechtigung (BER) festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist. Verarbeitet die Anwendung gar keine vertraulichen Daten, dann ist die Anforderung entbehrlich.
+> Ziel ist es, vertrauliche Daten vor dem Zugriff von Unbefugten zu schützen. Relevant sind hierbei sowohl Frontend-Zugänge wie Webportale, als auch Backend-Datenschnittstellen wie Datenbank-API. Dies kann durch eine anwendungsspezifische Authentifizierung, oder durch Nutzung eines zentralen Identity Providers (Single-Sign-On) erfüllt werden. Für die Authentifizierung kommen z.B. Passwörter, X.509-Zertifikate, OTP-Token in Frage. Zweckmäßig ist hierfür der Einsatz von Standardkomponenten wie OAuth 2.0 und die Verbindung mit einem zentralen Berechtigungsmanagement der Anwendung. Im Einklang mit den Anforderungen des Identitäts- und Berechtigungsmanagements bedeutet, dass für die Anwendung die Anforderungen aus der Praktik Identitäts- und Berechtigungsmanagement erfüllt sind, die dort festgelegt wurden. Hierzu gehört die Art der Authentifizierung (z.B. Passwort, Biometrie, Mehr-Faktor-Authentifizierung) ebenso wie die relevanten Parameter (Passwortkomplexität, etc.). Auf Daten die nicht vertraulich (z.B. öffentlich) sind kann auch ohne Authentifizierung Zugriff erlaubt sein. Die Formulierung "im Einklang mit den zugehörigen Anforderungen zum Identitäts- und Berechtigungsmanagement" bedeutet, dass die Authentifizierung so erfolgt, wie in der Praktik Berechtigung (BER) festgelegt. Hierzu gehört insbesondere die Verwendung aktueller kryptographischer Verfahren, wie sie im Thema Kryptographie zu finden ist. Verarbeitet die Anwendung gar keine vertraulichen Daten, dann ist die Anforderung entbehrlich.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 6bcd486c-909c-424c-9f78-35ed96588a5c |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |> | ** Alternate Identifier ** | 6bcd486c-909c-424c-9f78-35ed96588a5c |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 6bcd486c-909c-424c-9f78-35ed96588a5c |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
+> | ** Alternate Identifier ** | 6bcd486c-909c-424c-9f78-35ed96588a5c |
 
-> [!info]- Links> > related: [BER.1.1 Verfahren und Regelungen](./BER.1.1%20Verfahren%20und%20Regelungen.md)
+
+> [!info]- Links
+> > related: [BER.1.1 Verfahren und Regelungen](./BER.1.1%20Verfahren%20und%20Regelungen.md)
+

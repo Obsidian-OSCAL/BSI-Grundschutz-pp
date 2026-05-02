@@ -6,7 +6,7 @@ tags:
 - cryptography
 - advanced_persistent_threats_apt
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.4.6.3 Manipulationsschutz
@@ -22,7 +22,11 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.6.3 - Manipulationsschutz
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
@@ -33,9 +37,17 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [IT-Produkte](../../../../namespaces/entries/target_object_categories_IT-Produkte_23ea0f81-17ed-4b31-be13-955b46b5a905.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | Schutzmechanismen gegen Manipulationen auf dem Lieferweg |  | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für IT-Produkte KANN Schutzmechanismen gegen Manipulationen auf dem Lieferweg vereinbaren.</span>
 
 > [!info]- Guidance
->Bei physischen Produkten können hierfür Siegel oder schwer fälschbare Kennzeichnungen verwendet werden, während bei Software und Daten kryptographische Prüfsummen oder digitale Signaturen eingesetzt werden können.
+> Bei physischen Produkten können hierfür Siegel oder schwer fälschbare Kennzeichnungen verwendet werden, während bei Software und Daten kryptographische Prüfsummen oder digitale Signaturen eingesetzt werden können.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | 4e08941c-a1c7-4718-934f-c1e8c3e17864 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | 4e08941c-a1c7-4718-934f-c1e8c3e17864 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | 4e08941c-a1c7-4718-934f-c1e8c3e17864 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | 4e08941c-a1c7-4718-934f-c1e8c3e17864 |
+

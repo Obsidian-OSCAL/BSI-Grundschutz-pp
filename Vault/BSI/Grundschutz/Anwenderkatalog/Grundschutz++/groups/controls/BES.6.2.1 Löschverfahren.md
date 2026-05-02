@@ -5,7 +5,7 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: BES.6.2.1 Löschverfahren
@@ -21,7 +21,10 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.6.2.1 - Löschverfahren
-> [!example]- Tags:> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+> [!example]- Tags:
+> [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [Exit-Strategie](../../../../namespaces/entries/tags_Exit-Strategie.md)
+
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
@@ -32,11 +35,21 @@ Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6
 | <div style="background:#cccccc">*[Beschaffungsmanagement (BES)](../BES%20Beschaffungsmanagement.md)*<br> *  &rarr; [Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md) *</div> | [Beschaffungsmanagement](../../../../namespaces/entries/practices_Beschaffungsmanagement_cf85fe4e-56dc-4942-9564-aa80aa13a626.md) | [Dienstleistungen](../../../../namespaces/entries/target_object_categories_Dienstleistungen_04d5e0fa-7b1a-48d5-b87c-1ee0060a4c2d.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | ein Verfahren zur nicht wiederherstellbaren Löschung | für den Fall einer Kündigung | [vereinbaren](../../../../namespaces/entries/action_words_vereinbaren_e86734d6-a7a3-4d66-8c64-0d20c5917ed8.md) | Beschaffungskriterien | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Beschaffungsmanagement für Dienstleistungen KANN ein Verfahren zur nicht wiederherstellbaren Löschung für den Fall einer Kündigung vereinbaren.</span>
 
 > [!info]- Guidance
->Ein Verfahren zur nicht wiederherstellbaren Löschung bedeutet in diesem Kontext, dass Daten nach Beendigung einer Dienstleistungsbeziehung so entfernt werden, dass auch mit spezialisierten forensischen Methoden keine Rekonstruktion mehr möglich ist. Typische Verfahren reichen von mehrfachen Überschreibungen mit Zufallswerten über kryptographisches Löschen (Zerstörung der Schlüssel, die zur Entschlüsselung notwendig wären) bis hin zur physikalischen Zerstörung der Speichermedien. Die Regelung zielt darauf ab, das Risiko zu mindern, dass vertrauliche Daten nach einer Vertragskündigung bei einem Dienstleister verbleiben und unbefugt genutzt oder versehentlich offengelegt werden könnten. Ein Datenleck nach einem Providerwechsel könnte beispielsweise zu Identitätsdiebstahl, Industriespionage oder Reputationsschäden führen. Die Vereinbarung einer sicheren, nicht wiederherstellbaren Löschung kann sicherstellen, dass Informationen tatsächlich entfernt sind und keine Restkopien unkontrolliert in Umlauf geraten.
+> Ein Verfahren zur nicht wiederherstellbaren Löschung bedeutet in diesem Kontext, dass Daten nach Beendigung einer Dienstleistungsbeziehung so entfernt werden, dass auch mit spezialisierten forensischen Methoden keine Rekonstruktion mehr möglich ist. Typische Verfahren reichen von mehrfachen Überschreibungen mit Zufallswerten über kryptographisches Löschen (Zerstörung der Schlüssel, die zur Entschlüsselung notwendig wären) bis hin zur physikalischen Zerstörung der Speichermedien. Die Regelung zielt darauf ab, das Risiko zu mindern, dass vertrauliche Daten nach einer Vertragskündigung bei einem Dienstleister verbleiben und unbefugt genutzt oder versehentlich offengelegt werden könnten. Ein Datenleck nach einem Providerwechsel könnte beispielsweise zu Identitätsdiebstahl, Industriespionage oder Reputationsschäden führen. Die Vereinbarung einer sicheren, nicht wiederherstellbaren Löschung kann sicherstellen, dass Informationen tatsächlich entfernt sind und keine Restkopien unkontrolliert in Umlauf geraten.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d0ba4d21-940d-4b06-b446-aeccfdb2b53a |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | d0ba4d21-940d-4b06-b446-aeccfdb2b53a |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d0ba4d21-940d-4b06-b446-aeccfdb2b53a |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | d0ba4d21-940d-4b06-b446-aeccfdb2b53a |
 
-> [!info]- Links> > related: [ASST.7.3.2 Löschverfahren](./ASST.7.3.2%20Löschverfahren.md)
+
+> [!info]- Links
+> > related: [ASST.7.3.2 Löschverfahren](./ASST.7.3.2%20Löschverfahren.md)
+

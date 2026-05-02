@@ -5,7 +5,7 @@ tags:
 - kompetenzmanagement
 - pers42-prm1
 - oscal_control
-created: Fri May 01 21:44:28 CEST 2026
+created: Sat May 02 11:42:33 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
@@ -26,17 +26,29 @@ Gruppe: [PERS.4 Personalentwicklung](../PERS.4%20Personalentwicklung.md)
 ---
 
 > [!example]- Untergeordnete Controls
+
 > [PERS.4.2.1 Produktspezifische Schulungen und Sensibilisierungen](./PERS.4.2.1%20Produktspezifische%20Schulungen%20und%20Sensibilisierungen.md)### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
 | <div style="background:#cccccc">*[Personal (PERS)](../PERS%20Personal.md)*<br> *  &rarr; [Personalentwicklung](../PERS.4%20Personalentwicklung.md) *</div> | [Personal](../../../../namespaces/entries/practices_Personal_8c802b3e-567c-4dd2-a7d0-c915659deb57.md) | [Nutzende](../../../../namespaces/entries/target_object_categories_Nutzende_38125c38-8895-493c-ba73-77ac1029d02d.md) | [SOLLTE](../../../../namespaces/entries/modal_verbs_SOLLTE_a04a4855-3a63-4f06-b2f4-fc4d94aee2cf.md) | rollenspezifische Schulungen und Sensibilisierungen | im Einklang mit den Anforderungen der Praktik Sensibilisierung bei Neuzugang und {{regelmäßig}} | [ausführen](../../../../namespaces/entries/action_words_ausführen_54a1c8e6-043f-411c-8e83-a5a47bb840fe.md) | [Schulungsplan](../../../../namespaces/entries/documentation_guidelines_Schulungsplan.md) | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Personal für Nutzende SOLLTE rollenspezifische Schulungen und Sensibilisierungen im Einklang mit den Anforderungen der Praktik Sensibilisierung bei Neuzugang und {{ insert: param, pers.4.2-prm1 }} ausführen.</span>
 
 > [!info]- Guidance
->Neue Mitarbeitende könnten ohne gezielte Einführung unbewusst vertrauliche Informationen preisgeben, unsichere Passwörter wählen oder Phishing-Mails öffnen, da ihnen relevante Schutzprinzipien oder Gefährdungen im Kontext ihrer Tätigkeit nicht bekannt sind. Ebenso könnte es bei länger Beschäftigten zu einer „Routineblindheit“ kommen, sodass beispielsweise ungewöhnliche Systemmeldungen nicht mehr ernst genommen oder sensible Daten versehentlich an unberechtigte Personen weitergegeben werden. „Rollenspezifisch“ bedeutet in diesem Zusammenhang, dass die Inhalte der Schulung auf die jeweilige Tätigkeit zugeschnitten werden – eine Person im IT-Bereich benötigt z. B. andere Sicherheitskenntnisse als jemand im Vertrieb oder in der Verwaltung. Beispiele für rollenspezifische Schulungen sind Kurse zum sicheren IT-Betrieb für Administrierende, OWASP® Top 10 Training für Webentwickler und Social Engineering Abwehrtraining für die Institutionsleitung. Eine Institution kann diese Anforderung etwa umsetzen, indem sie standardisierte E-Learning-Module bereitstellt, die durch kurze Praxisszenarien ergänzt werden. Hilfreich ist, die Dauer der Formate überschaubar zu halten, um die Akzeptanz hoch zu halten, und die Wirksamkeit regelmäßig durch Feedback oder kleine Tests zu prüfen. Ebenso kann es sinnvoll sein, Fachbereiche in die Ausgestaltung einzubinden, damit Beispiele und Szenarien aus dem tatsächlichen Arbeitsalltag stammen. Mitarbeitende, die bereits eine passende Qualifikation erworben haben, können von der Schulung ausgenommen werden.
+> Neue Mitarbeitende könnten ohne gezielte Einführung unbewusst vertrauliche Informationen preisgeben, unsichere Passwörter wählen oder Phishing-Mails öffnen, da ihnen relevante Schutzprinzipien oder Gefährdungen im Kontext ihrer Tätigkeit nicht bekannt sind. Ebenso könnte es bei länger Beschäftigten zu einer „Routineblindheit“ kommen, sodass beispielsweise ungewöhnliche Systemmeldungen nicht mehr ernst genommen oder sensible Daten versehentlich an unberechtigte Personen weitergegeben werden. „Rollenspezifisch“ bedeutet in diesem Zusammenhang, dass die Inhalte der Schulung auf die jeweilige Tätigkeit zugeschnitten werden – eine Person im IT-Bereich benötigt z. B. andere Sicherheitskenntnisse als jemand im Vertrieb oder in der Verwaltung. Beispiele für rollenspezifische Schulungen sind Kurse zum sicheren IT-Betrieb für Administrierende, OWASP® Top 10 Training für Webentwickler und Social Engineering Abwehrtraining für die Institutionsleitung. Eine Institution kann diese Anforderung etwa umsetzen, indem sie standardisierte E-Learning-Module bereitstellt, die durch kurze Praxisszenarien ergänzt werden. Hilfreich ist, die Dauer der Formate überschaubar zu halten, um die Akzeptanz hoch zu halten, und die Wirksamkeit regelmäßig durch Feedback oder kleine Tests zu prüfen. Ebenso kann es sinnvoll sein, Fachbereiche in die Ausgestaltung einzubinden, damit Beispiele und Szenarien aus dem tatsächlichen Arbeitsalltag stammen. Mitarbeitende, die bereits eine passende Qualifikation erworben haben, können von der Schulung ausgenommen werden.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4 |> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |> | ** Alternate Identifier ** | f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4 |
+> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
+> | ** Alternate Identifier ** | f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4 |
 
-> [!info]- Links> > required: [PERS.2.2 Rollen](./PERS.2.2%20Rollen.md)> > related: [SENS.1.1 Verfahren und Regelungen](./SENS.1.1%20Verfahren%20und%20Regelungen.md)
+
+> [!info]- Links
+> > required: [PERS.2.2 Rollen](./PERS.2.2%20Rollen.md)
+> > related: [SENS.1.1 Verfahren und Regelungen](./SENS.1.1%20Verfahren%20und%20Regelungen.md)
+

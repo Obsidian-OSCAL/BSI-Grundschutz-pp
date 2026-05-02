@@ -5,7 +5,7 @@ tags:
 - rogue_access_point
 - det419-prm1
 - oscal_control
-created: Fri May 01 21:44:27 CEST 2026
+created: Sat May 02 11:42:32 CEST 2026
 class: BSI-Stand-der-Technik-Kernel
 type: control
 control: DET.4.19 Unautorisierte Sendeanlagen
@@ -30,9 +30,17 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 | <div style="background:#cccccc">*[Detektion (DET)](../DET%20Detektion.md)*<br> *  &rarr; [Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md) *</div> | [Detektion](../../../../namespaces/entries/practices_Detektion_f479aa5a-6dd9-4b9b-973e-8c4f85b074ed.md) | [Räume](../../../../namespaces/entries/target_object_categories_Räume_09517106-2c2c-411e-a06c-65736363286f.md) | [KANN](../../../../namespaces/entries/modal_verbs_KANN_1c941e58-72a5-4633-8cca-8efad571932b.md) | diesen nach unautorisierten Sendeanlagen | durch {{einen automatisierten Mechanismus}} | [überwachen](../../../../namespaces/entries/action_words_überwachen_43c9fe35-e725-48b1-85d2-29cdcc69ce63.md) | Detektions-Konzept | &mapsto;<span style="display:inline-block;border:1px solid;margin-left:8pt;padding:8pt;vertical-align:top;max-width:90%;">Detektion für Räume KANN diesen nach unautorisierten Sendeanlagen durch {{ insert: param, det.4.19-prm1 }} überwachen.</span>
 
 > [!info]- Guidance
->Bleiben unautorisierte Sendeanlagen unbemerkt, so könnten hierüber Abhörversuche stattfinden oder Störungen legitimer Sender und Empfänger auftreten. Bedenklich sind beispielsweise versteckte Wanzen in Büromöbeln, manipulierte Peripheriegeräte mit eingebauten Sendern, ohne Erlaubnis mitgebrachte Access Points, modifizierte Smartphones mit verdeckten Fernzugriffsfunktionen oder getarnte IoT-Geräte mit Netzwerkverbindung, die sensible Informationen abgreifen und nach außen übertragen könnten.   Zum Aufspüren können Wireless Intrusion Detection Systems (WIDS) genutzt werden, welche Sendeanagen auffinden und unbekannte Sender melden. Um unautorisierte Sender effektiv zu erkennen sind auch begleitende Maßnahmen sinnvoll:  Die Implementierung von Zugangsbeschränkungen und Mitnahmeverboten für nicht geprüfte elektronische Geräte; die Schulung des Personals zur Erkennung verdächtiger Objekte; sowie die Dokumentation aller autorisierten Geräte in einem Inventar, um unbekannte Signalquellen schnell identifizieren zu können.
+> Bleiben unautorisierte Sendeanlagen unbemerkt, so könnten hierüber Abhörversuche stattfinden oder Störungen legitimer Sender und Empfänger auftreten. Bedenklich sind beispielsweise versteckte Wanzen in Büromöbeln, manipulierte Peripheriegeräte mit eingebauten Sendern, ohne Erlaubnis mitgebrachte Access Points, modifizierte Smartphones mit verdeckten Fernzugriffsfunktionen oder getarnte IoT-Geräte mit Netzwerkverbindung, die sensible Informationen abgreifen und nach außen übertragen könnten.   Zum Aufspüren können Wireless Intrusion Detection Systems (WIDS) genutzt werden, welche Sendeanagen auffinden und unbekannte Sender melden. Um unautorisierte Sender effektiv zu erkennen sind auch begleitende Maßnahmen sinnvoll:  Die Implementierung von Zugangsbeschränkungen und Mitnahmeverboten für nicht geprüfte elektronische Geräte; die Schulung des Personals zur Erkennung verdächtiger Objekte; sowie die Dokumentation aller autorisierten Geräte in einem Inventar, um unbekannte Signalquellen schnell identifizieren zu können.
+
 
 ### Weitere Informationen
 
 
-> [!info]- Properties> |  | |> | - | - |> | ** Alternate Identifier ** | d85d0d64-bc5c-4a11-91d8-7c567abd5b21 |> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |> | ** Alternate Identifier ** | d85d0d64-bc5c-4a11-91d8-7c567abd5b21 |
+> [!info]- Properties
+> |  | |
+> | - | - |
+> | ** Alternate Identifier ** | d85d0d64-bc5c-4a11-91d8-7c567abd5b21 |
+> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
+> | ** Alternate Identifier ** | d85d0d64-bc5c-4a11-91d8-7c567abd5b21 |
+

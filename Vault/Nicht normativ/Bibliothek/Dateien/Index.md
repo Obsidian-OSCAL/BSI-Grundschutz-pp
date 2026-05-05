@@ -31,7 +31,8 @@ dokumente:
       - "BER.7.6 Etablierte Algorithmen beim Transport"
       - "BER.7.8 Etablierte Algorithmen bei der Schlüsselnutzung"
 
-  - name: "Kryptographische Verfahren: Empfehlungen und Schlüssellängen<br>Teil 3 – Verwendung von Internet Protocol Security (IPsec) und Internet Key Exchange (IKEv2)"
+  - name: "Kryptographische Verfahren: Empfehlungen und Schlüssellängen"
+    subtitle: "Teil 3 – Verwendung von Internet Protocol Security (IPsec) und Internet Key Exchange (IKEv2)"
     uuid: "BSI TR-02102-3"
     file: "BSI-TR-02102-3.pdf"
     type: "BSI – Technische Richtlinie"
@@ -46,7 +47,8 @@ dokumente:
       - "BER.7.6 Etablierte Algorithmen beim Transport"
       - "BER.7.8 Etablierte Algorithmen bei der Schlüsselnutzung"
 
-  - name: "Kryptographische Verfahren: Empfehlungen und Schlüssellängen<br>Teil 4 – Verwendung von Secure Shell (SSH)"
+  - name: "Kryptographische Verfahren: Empfehlungen und Schlüssellängen"
+    subtitle: "Teil 4 – Verwendung von Secure Shell (SSH)"
     uuid: "BSI TR-02102-4"
     file: "BSI-TR-02102-4.pdf"
     type: "BSI – Technische Richtlinie"
@@ -60,4 +62,55 @@ dokumente:
       - "BER.7.5 Kriterien für die Qualität von Zufallszahlen"
       - "BER.7.6 Etablierte Algorithmen beim Transport"
       - "BER.7.8 Etablierte Algorithmen bei der Schlüsselnutzung"
+
+  - name: "Technische Richtlinie TR-03125: Sicherer Software-Lebenszyklus"
+    uuid: "BSI TR-03125"
+    file: "BSI_TR_03125_V1_2_1.pdf"
+    type: "BSI – Technische Richtlinie"
+    version: "v1.2.1"
+    stand: "2018-03-15"
+    url: "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_V1_2_1.pdf?__blob=publicationFile&v=2"
+    controls:
+      - "NOT.4.5 Archivierung langfristig benötigter Daten"
+
+  - name: "Technical Guideline BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products"
+    subtitle: "Part 2: Software Bill of Materials (SBOM)"
+    uuid: "BSI TR-03183-2"
+    file: "BSI-TR-03183-2_v2_1_0.pdf"
+    type: "BSI – Technische Richtlinie"
+    version: "v2.1.0"
+    stand: "2025-08-20"
+    url: "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_1_0.pdf?__blob=publicationFile&v=5"
+    controls:
+      - "ASST.2.3.2 Software Bill of Materials (SBOM)"
+      - "BES.7.4.4 Dokumentation der Komponenten"
+      - "BES.7.4.4.1 Software Bill of Materials (SBOM)"
+      - "BES.7.4.12 Software Bill of Materials (SBOM) - Cloud"
+      - "DEV.4.3 Softwarebestandteile (SBOM)"
+
+  - name: "Technical Guideline BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products"
+    subtitle: "Part 3: Vulnerability Reports and Notifications"
+    uuid: "BSI TR-03183-3"
+    file: "BSI-TR-03183-3_v1_0_0.pdf"
+    type: "BSI – Technische Richtlinie"
+    version: "v1.1.0"
+    stand: "2025-08-20"
+    url: "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v1_0_0.pdf?__blob=publicationFile&v=3"
+    controls:
+      - "BES.5.10.3.1 Schwachstellenmeldeprozess"
+
+  - name: "Technische Richtlinie TR-03185: Sicherer Software-Lebenszyklus"
+    uuid: "BSI TR-03185"
+    file: "BSI-TR-03185.pdf"
+    type: "BSI – Technische Richtlinie"
+    version: "v1.0"
+    stand: "2024-08-06"
+    url: "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile&v=3"
+    controls:
+      - "DEV.1.1 Verfahren und Regelungen"
+      - "DEV.2.1 Security by Design Architektur"
+
 ---
+
+Diese Datei enthält die Referenzen für die Dokumentenbibliothek. Die Inhalte sind nur in der Quellenansicht sichtbar. 
+

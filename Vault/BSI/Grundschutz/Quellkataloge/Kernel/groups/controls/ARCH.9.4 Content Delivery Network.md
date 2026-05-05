@@ -5,10 +5,12 @@ tags:
 - hochverfügbarkeit
 - ddos
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.9.4 Content Delivery Network
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.9.4 Content Delivery Network
+uid: 4b5b81aa-fe5f-47f5-a081-136145f7ccc9
+aliases: 4b5b81aa-fe5f-47f5-a081-136145f7ccc9
 stmt_practice: Architektur
 stmt_action_word: installieren
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 4b5b81aa-fe5f-47f5-a081-136145f7ccc9 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 4b5b81aa-fe5f-47f5-a081-136145f7ccc9 |
 

@@ -6,10 +6,12 @@ tags:
 - det35-prm1
 - det35-prm2
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.3.5 Unbestreitbarkeit
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.3.5 Unbestreitbarkeit
+uid: 1d98ecfc-cf7a-4cf5-a108-169802a7b364
+aliases: 1d98ecfc-cf7a-4cf5-a108-169802a7b364
 stmt_practice: Detektion
 stmt_action_word: dokumentieren
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.3.5 - Unbestreitbarkeit
-Tag: [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [!example]- [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+
 Gruppe: [DET.3 Protokollierung](../DET.3%20Protokollierung.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [DET.3 Protokollierung](../DET.3%20Protokollierung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 1d98ecfc-cf7a-4cf5-a108-169802a7b364 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 1d98ecfc-cf7a-4cf5-a108-169802a7b364 |
 

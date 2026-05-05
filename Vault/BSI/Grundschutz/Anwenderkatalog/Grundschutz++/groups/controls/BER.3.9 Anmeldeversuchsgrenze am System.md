@@ -6,10 +6,12 @@ tags:
 - brute-force-attacke
 - ber39-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.3.9 Anmeldeversuchsgrenze am System
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.3.9 Anmeldeversuchsgrenze am System
+uid: c37f30d1-8fd7-4497-b3f1-07d8f54b717c
+aliases: c37f30d1-8fd7-4497-b3f1-07d8f54b717c
 stmt_practice: Berechtigung
 stmt_action_word: blockieren
 stmt_modal_verb: SOLLTE
@@ -45,7 +47,6 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | c37f30d1-8fd7-4497-b3f1-07d8f54b717c |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | c37f30d1-8fd7-4497-b3f1-07d8f54b717c |
 

@@ -6,10 +6,12 @@ tags:
 - shared_responsibility_model
 - bes15-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.1.5 Autorisierung des Bereitstellungsmodells
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.1.5 Autorisierung des Bereitstellungsmodells
+uid: 6d50b322-84b8-4c9b-bd2a-0b48d6b61847
+aliases: 6d50b322-84b8-4c9b-bd2a-0b48d6b61847
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: autorisieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6d50b322-84b8-4c9b-bd2a-0b48d6b61847 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 6d50b322-84b8-4c9b-bd2a-0b48d6b61847 |
 

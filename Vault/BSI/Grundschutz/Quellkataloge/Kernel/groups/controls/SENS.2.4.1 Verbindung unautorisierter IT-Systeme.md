@@ -5,10 +5,12 @@ tags:
 - bring_your_own_device
 - insider_threat
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.2.4.1 Verbindung unautorisierter IT-Systeme
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.2.4.1 Verbindung unautorisierter IT-Systeme
+uid: 06cf0eba-817a-4dfb-8e8b-b51044cb5a90
+aliases: 06cf0eba-817a-4dfb-8e8b-b51044cb5a90
 parent_control: SENS.2.4 Nutzung unautorisierter Assets
 stmt_practice: Sensibilisierung
 stmt_action_word: untersagen
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [SENS.2 Grundlegende Sensibilisierung](../SENS.2%20Grundlegende%20Sensibilisierung.md)
 ---
 
-Übergeordnetes Control:<br> [SENS.2.4 Nutzung unautorisierter Assets](./SENS.2.4%20Nutzung%20unautorisierter%20Assets.md)
+Übergeordnetes Control:<br>[SENS.2.4 Nutzung unautorisierter Assets](./SENS.2.4%20Nutzung%20unautorisierter%20Assets.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [SENS.2 Grundlegende Sensibilisierung](../SENS.2%20Grundlegende%20Sensib
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 06cf0eba-817a-4dfb-8e8b-b51044cb5a90 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 06cf0eba-817a-4dfb-8e8b-b51044cb5a90 |
 

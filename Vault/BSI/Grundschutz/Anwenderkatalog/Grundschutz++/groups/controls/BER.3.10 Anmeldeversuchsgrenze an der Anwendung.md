@@ -5,10 +5,12 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.3.10 Anmeldeversuchsgrenze an der Anwendung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.3.10 Anmeldeversuchsgrenze an der Anwendung
+uid: 265ee5bc-059a-4bde-b480-9bc1611171bf
+aliases: 265ee5bc-059a-4bde-b480-9bc1611171bf
 stmt_practice: Berechtigung
 stmt_action_word: blockieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 265ee5bc-059a-4bde-b480-9bc1611171bf |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 265ee5bc-059a-4bde-b480-9bc1611171bf |
 

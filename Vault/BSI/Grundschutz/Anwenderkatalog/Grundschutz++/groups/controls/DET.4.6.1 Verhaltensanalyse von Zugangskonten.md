@@ -8,10 +8,12 @@ tags:
 - insider_threat
 - living_off_the_land
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.4.6.1 Verhaltensanalyse von Zugangskonten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.4.6.1 Verhaltensanalyse von Zugangskonten
+uid: cd3e1fde-3095-4518-b906-ca18824839b8
+aliases: cd3e1fde-3095-4518-b906-ca18824839b8
 parent_control: DET.4.6 Anomale Nutzung der Anwendung
 stmt_practice: Detektion
 stmt_action_word: überwachen
@@ -35,7 +37,7 @@ control_security_level: erhöht
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
-Übergeordnetes Control:<br> [DET.4.6 Anomale Nutzung der Anwendung](./DET.4.6%20Anomale%20Nutzung%20der%20Anwendung.md)
+Übergeordnetes Control:<br>[DET.4.6 Anomale Nutzung der Anwendung](./DET.4.6%20Anomale%20Nutzung%20der%20Anwendung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -54,7 +56,6 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | cd3e1fde-3095-4518-b906-ca18824839b8 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | cd3e1fde-3095-4518-b906-ca18824839b8 |
 

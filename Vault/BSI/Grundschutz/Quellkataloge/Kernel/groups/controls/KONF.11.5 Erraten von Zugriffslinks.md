@@ -6,10 +6,12 @@ tags:
 - brute-force-attacke
 - konf115-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.11.5 Erraten von Zugriffslinks
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.11.5 Erraten von Zugriffslinks
+uid: 951aea5d-e4c2-47c8-9a21-b1d00e3d499f
+aliases: 951aea5d-e4c2-47c8-9a21-b1d00e3d499f
 stmt_practice: Konfiguration
 stmt_action_word: blockieren
 stmt_modal_verb: SOLLTE
@@ -48,7 +50,6 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 951aea5d-e4c2-47c8-9a21-b1d00e3d499f |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 951aea5d-e4c2-47c8-9a21-b1d00e3d499f |
 

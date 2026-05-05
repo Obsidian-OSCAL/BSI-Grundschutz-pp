@@ -5,10 +5,12 @@ tags:
 - rogue_access_point
 - det419-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.4.19 Unautorisierte Sendeanlagen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.4.19 Unautorisierte Sendeanlagen
+uid: d85d0d64-bc5c-4a11-91d8-7c567abd5b21
+aliases: d85d0d64-bc5c-4a11-91d8-7c567abd5b21
 stmt_practice: Detektion
 stmt_action_word: überwachen
 stmt_modal_verb: KANN
@@ -20,7 +22,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.19 - Unautorisierte Sendeanlagen
-Tag: [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)
+> [!example]- [Rogue Access Point](../../../../namespaces/entries/tags_Rogue_Access_Point.md)
+
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
@@ -40,7 +43,6 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | d85d0d64-bc5c-4a11-91d8-7c567abd5b21 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | d85d0d64-bc5c-4a11-91d8-7c567abd5b21 |
 

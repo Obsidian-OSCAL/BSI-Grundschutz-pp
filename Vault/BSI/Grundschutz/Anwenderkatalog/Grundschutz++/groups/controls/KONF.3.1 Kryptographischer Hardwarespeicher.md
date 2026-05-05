@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.3.1 Kryptographischer Hardwarespeicher
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.3.1 Kryptographischer Hardwarespeicher
+uid: 5c63c101-f2d6-479c-963c-0280bd2fb8a7
+aliases: 5c63c101-f2d6-479c-963c-0280bd2fb8a7
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 5c63c101-f2d6-479c-963c-0280bd2fb8a7 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 5c63c101-f2d6-479c-963c-0280bd2fb8a7 |
 

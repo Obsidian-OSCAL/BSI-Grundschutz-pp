@@ -8,10 +8,12 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.6.5 Mehr-Faktor-Authentisierung für weitreichende Berechtigungen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.6.5 Mehr-Faktor-Authentisierung für weitreichende Berechtigungen
+uid: 55b70084-f446-42af-908b-0f514a72f380
+aliases: 55b70084-f446-42af-908b-0f514a72f380
 stmt_practice: Berechtigung
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -49,9 +51,8 @@ Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 55b70084-f446-42af-908b-0f514a72f380 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 55b70084-f446-42af-908b-0f514a72f380 |
 
 
 > [!info]- Links

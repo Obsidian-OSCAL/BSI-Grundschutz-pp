@@ -5,10 +5,12 @@ tags:
 - compliance_management
 - inventories
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Methodik-Grundschutz-plus-plus
-type: control
-control: GC.7.1.1 Gesetzliche Verpflichtungen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Methodik-Grundschutz-plus-plus
+oscal_type: control
+oscal_control: GC.7.1.1 Gesetzliche Verpflichtungen
+uid: 02747a0f-cd38-4815-9eec-351ae89dbdfe
+aliases: 02747a0f-cd38-4815-9eec-351ae89dbdfe
 parent_control: GC.7.1 Verfahren und Regelungen
 stmt_practice: Governance und Compliance
 stmt_action_word: ausführen
@@ -28,7 +30,7 @@ control_security_level: normal-SdT
 Gruppe: [GC.7 Implementierung des Compliance-Managements](../GC.7%20Implementierung%20des%20Compliance-Managements.md)
 ---
 
-Übergeordnetes Control:<br> [GC.7.1 Verfahren und Regelungen](./GC.7.1%20Verfahren%20und%20Regelungen.md)
+Übergeordnetes Control:<br>[GC.7.1 Verfahren und Regelungen](./GC.7.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -45,7 +47,6 @@ Gruppe: [GC.7 Implementierung des Compliance-Managements](../GC.7%20Implementier
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 02747a0f-cd38-4815-9eec-351ae89dbdfe |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 02747a0f-cd38-4815-9eec-351ae89dbdfe |
 

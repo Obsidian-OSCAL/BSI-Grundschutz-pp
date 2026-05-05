@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - dls32-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.3.2 Checkup
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.3.2 Checkup
+uid: ca07f3db-7a2f-4156-b1de-4fa648393557
+aliases: ca07f3db-7a2f-4156-b1de-4fa648393557
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.2 - Checkup
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
@@ -43,7 +46,6 @@ Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienst
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ca07f3db-7a2f-4156-b1de-4fa648393557 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | ca07f3db-7a2f-4156-b1de-4fa648393557 |
 

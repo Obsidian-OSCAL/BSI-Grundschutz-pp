@@ -12,4 +12,4 @@ UUID:
 | - | - |
 | https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html |  |
 
-_ created at Sat May 02 11:42:30 CEST 2026 _
+_ created at Sun May 03 15:36:10 CEST 2026 _

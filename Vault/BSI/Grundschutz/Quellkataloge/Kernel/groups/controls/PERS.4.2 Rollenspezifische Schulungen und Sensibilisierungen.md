@@ -5,10 +5,12 @@ tags:
 - kompetenzmanagement
 - pers42-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
+uid: f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4
+aliases: f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4
 stmt_practice: Personal
 stmt_action_word: ausführen
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.4.2 - Rollenspezifische Schulungen und Sensibilisierungen
-Tag: [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+> [!example]- [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+
 Gruppe: [PERS.4 Personalentwicklung](../PERS.4%20Personalentwicklung.md)
 ---
 
@@ -43,9 +46,8 @@ Gruppe: [PERS.4 Personalentwicklung](../PERS.4%20Personalentwicklung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4 |
 
 
 > [!info]- Links

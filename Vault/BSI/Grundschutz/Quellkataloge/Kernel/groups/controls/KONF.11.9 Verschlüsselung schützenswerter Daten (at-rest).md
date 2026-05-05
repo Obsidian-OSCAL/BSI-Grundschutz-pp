@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.11.9 Verschlüsselung schützenswerter Daten (at-rest)
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.11.9 Verschlüsselung schützenswerter Daten (at-rest)
+uid: d3e4416f-e997-4aec-a45b-eade4316d896
+aliases: d3e4416f-e997-4aec-a45b-eade4316d896
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | d3e4416f-e997-4aec-a45b-eade4316d896 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | d3e4416f-e997-4aec-a45b-eade4316d896 |
 

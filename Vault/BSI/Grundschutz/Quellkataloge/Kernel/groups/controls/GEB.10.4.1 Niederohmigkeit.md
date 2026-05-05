@@ -5,10 +5,12 @@ tags:
 - inspektion
 - geb1041-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: GEB.10.4.1 Niederohmigkeit
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: GEB.10.4.1 Niederohmigkeit
+uid: a70149a9-75af-4784-8011-e1433c72dcfc
+aliases: a70149a9-75af-4784-8011-e1433c72dcfc
 parent_control: GEB.10.4 Blitzschutzeinrichtungen
 stmt_practice: Gebäudemanagement
 stmt_action_word: überprüfen
@@ -21,11 +23,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # GEB.10.4.1 - Niederohmigkeit
-Tag: [Inspektion](../../../../namespaces/entries/tags_Inspektion.md)
+> [!example]- [Inspektion](../../../../namespaces/entries/tags_Inspektion.md)
+
 Gruppe: [GEB.10 Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Elementarschäden.md)
 ---
 
-Übergeordnetes Control:<br> [GEB.10.4 Blitzschutzeinrichtungen](./GEB.10.4%20Blitzschutzeinrichtungen.md)
+Übergeordnetes Control:<br>[GEB.10.4 Blitzschutzeinrichtungen](./GEB.10.4%20Blitzschutzeinrichtungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,9 +45,8 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Element
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | a70149a9-75af-4784-8011-e1433c72dcfc |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | a70149a9-75af-4784-8011-e1433c72dcfc |
 
 
 > [!info]- Links

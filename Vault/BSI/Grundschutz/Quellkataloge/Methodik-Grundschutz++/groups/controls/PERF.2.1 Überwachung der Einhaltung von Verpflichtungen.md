@@ -5,10 +5,12 @@ tags:
 - compliance-management
 - perf21-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Methodik-Grundschutz-plus-plus
-type: control
-control: PERF.2.1 Überwachung der Einhaltung von Verpflichtungen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Methodik-Grundschutz-plus-plus
+oscal_type: control
+oscal_control: PERF.2.1 Überwachung der Einhaltung von Verpflichtungen
+uid: 9bb16672-4394-4ce9-bd14-12a080233f7a
+aliases: 9bb16672-4394-4ce9-bd14-12a080233f7a
 stmt_practice: Monitoring-Evaluation
 stmt_action_word: überprüfen
 stmt_modal_verb: SOLLTE
@@ -19,7 +21,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Methodik-Grundschutz-plus-plus"
 # PERF.2.1 - Überwachung der Einhaltung von Verpflichtungen
-Tag: [Compliance-Management](../../../../namespaces/entries/tags_Compliance-Management.md)
+> [!example]- [Compliance-Management](../../../../namespaces/entries/tags_Compliance-Management.md)
+
 Gruppe: [PERF.2 Überwachung der Compliance](../PERF.2%20Überwachung%20der%20Compliance.md)
 ---
 
@@ -39,9 +42,8 @@ Gruppe: [PERF.2 Überwachung der Compliance](../PERF.2%20Überwachung%20der%20Co
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 9bb16672-4394-4ce9-bd14-12a080233f7a |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 9bb16672-4394-4ce9-bd14-12a080233f7a |
 
 
 > [!info]- Links

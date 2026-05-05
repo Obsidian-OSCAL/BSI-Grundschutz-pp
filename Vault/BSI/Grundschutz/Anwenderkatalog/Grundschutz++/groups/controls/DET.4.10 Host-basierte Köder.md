@@ -6,10 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - honeypot
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.4.10 Host-basierte Köder
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.4.10 Host-basierte Köder
+uid: dcdb44ac-280a-424b-bd4f-9264137d6895
+aliases: dcdb44ac-280a-424b-bd4f-9264137d6895
 stmt_practice: Detektion
 stmt_action_word: installieren
 stmt_modal_verb: KANN
@@ -45,9 +47,8 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | dcdb44ac-280a-424b-bd4f-9264137d6895 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | dcdb44ac-280a-424b-bd4f-9264137d6895 |
 
 
 > [!info]- Links

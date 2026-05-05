@@ -5,10 +5,12 @@ tags:
 - security_by_design
 - produktbeschreibung
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.2.6.2 Ausgabekodierung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.2.6.2 Ausgabekodierung
+uid: dee85b12-b7f9-445e-802a-bbe13d67538e
+aliases: dee85b12-b7f9-445e-802a-bbe13d67538e
 parent_control: DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster
 stmt_practice: Entwicklung
 stmt_action_word: ausführen
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [DEV.2 Softwareentwicklung - Security by Design](../DEV.2%20Softwareentwicklung%20-%20Security%20by%20Design.md)
 ---
 
-Übergeordnetes Control:<br> [DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster](./DEV.2.6%20Widerstandsfähigkeit%20gegen%20gängige%20Angriffsmuster.md)
+Übergeordnetes Control:<br>[DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster](./DEV.2.6%20Widerstandsfähigkeit%20gegen%20gängige%20Angriffsmuster.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [DEV.2 Softwareentwicklung - Security by Design](../DEV.2%20Softwareentw
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | dee85b12-b7f9-445e-802a-bbe13d67538e |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | dee85b12-b7f9-445e-802a-bbe13d67538e |
 

@@ -5,10 +5,12 @@ tags:
 - advanced_persistent_threats_apt
 - rea25-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: REA.2.5 IT-Forensik
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: REA.2.5 IT-Forensik
+uid: 6de9ac83-2280-4fbd-ac54-f570faa7b211
+aliases: 6de9ac83-2280-4fbd-ac54-f570faa7b211
 stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: ausführen
 stmt_modal_verb: KANN
@@ -20,7 +22,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # REA.2.5 - IT-Forensik
-Tag: [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [REA.2 Reaktion](../REA.2%20Reaktion.md)
 ---
 
@@ -42,7 +45,6 @@ Gruppe: [REA.2 Reaktion](../REA.2%20Reaktion.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6de9ac83-2280-4fbd-ac54-f570faa7b211 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 6de9ac83-2280-4fbd-ac54-f570faa7b211 |
 

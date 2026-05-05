@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.3.3 Unzuverlässige Lieferanten
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.3.3 Unzuverlässige Lieferanten
+uid: 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44
+aliases: 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: untersagen
 stmt_modal_verb: SOLLTE
@@ -44,9 +46,8 @@ Gruppe: [BES.3 Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.m
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 4bcaa246-3ee4-4d39-9998-d9ce1f5faf44 |
 
 
 > [!info]- Links

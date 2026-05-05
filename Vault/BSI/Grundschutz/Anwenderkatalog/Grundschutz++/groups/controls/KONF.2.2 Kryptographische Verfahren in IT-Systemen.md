@@ -5,10 +5,12 @@ tags:
 - cryptography
 - konf22-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.2.2 Kryptographische Verfahren in IT-Systemen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.2.2 Kryptographische Verfahren in IT-Systemen
+uid: e4570c64-4790-4a5c-95e4-4c168d447566
+aliases: e4570c64-4790-4a5c-95e4-4c168d447566
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.2.2 - Kryptographische Verfahren in IT-Systemen
-Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [KONF.2 Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Systemen.md)
 ---
 
@@ -41,9 +44,8 @@ Gruppe: [KONF.2 Konfiguration von Systemen](../KONF.2%20Konfiguration%20von%20Sy
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | e4570c64-4790-4a5c-95e4-4c168d447566 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | e4570c64-4790-4a5c-95e4-4c168d447566 |
 
 
 > [!info]- Links

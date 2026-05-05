@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf35-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.3.5 Standortbestimmung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.3.5 Standortbestimmung
+uid: 4a18939a-0972-4ac7-9584-18fffde38db6
+aliases: 4a18939a-0972-4ac7-9584-18fffde38db6
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.3.5 - Standortbestimmung
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 4a18939a-0972-4ac7-9584-18fffde38db6 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 4a18939a-0972-4ac7-9584-18fffde38db6 |
 

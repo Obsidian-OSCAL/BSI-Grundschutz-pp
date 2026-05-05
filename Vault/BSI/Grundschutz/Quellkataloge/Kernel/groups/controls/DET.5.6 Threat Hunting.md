@@ -5,10 +5,12 @@ tags:
 - advanced_persistent_threats_apt
 - det56-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.5.6 Threat Hunting
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.5.6 Threat Hunting
+uid: ff549367-0992-4b06-a2c0-246915632cb1
+aliases: ff549367-0992-4b06-a2c0-246915632cb1
 stmt_practice: Detektion
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -19,7 +21,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.6 - Threat Hunting
-Tag: [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+> [!example]- [Advanced Persistent Threats (APT)](../../../../namespaces/entries/tags_Advanced_Persistent_Threats_(APT).md)
+
 Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
@@ -39,7 +42,6 @@ Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schw
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ff549367-0992-4b06-a2c0-246915632cb1 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | ff549367-0992-4b06-a2c0-246915632cb1 |
 

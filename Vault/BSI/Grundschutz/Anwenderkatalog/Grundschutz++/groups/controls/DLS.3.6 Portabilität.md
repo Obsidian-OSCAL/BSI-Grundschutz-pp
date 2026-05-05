@@ -6,10 +6,12 @@ tags:
 - exit-strategie
 - dls36-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.3.6 Portabilität
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.3.6 Portabilität
+uid: 2563b59c-b3da-4bdd-99cd-3eedb94c0abb
+aliases: 2563b59c-b3da-4bdd-99cd-3eedb94c0abb
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienst
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 2563b59c-b3da-4bdd-99cd-3eedb94c0abb |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 2563b59c-b3da-4bdd-99cd-3eedb94c0abb |
 

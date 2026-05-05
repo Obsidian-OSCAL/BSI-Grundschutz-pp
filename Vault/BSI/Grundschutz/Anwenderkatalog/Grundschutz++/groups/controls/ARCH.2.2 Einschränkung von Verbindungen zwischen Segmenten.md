@@ -6,10 +6,12 @@ tags:
 - separation_of_concerns
 - arch22-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
+uid: 6ff2de76-4a01-42cc-a794-1a6ec9313f46
+aliases: 6ff2de76-4a01-42cc-a794-1a6ec9313f46
 stmt_practice: Architektur
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -47,7 +49,6 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6ff2de76-4a01-42cc-a794-1a6ec9313f46 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 6ff2de76-4a01-42cc-a794-1a6ec9313f46 |
 

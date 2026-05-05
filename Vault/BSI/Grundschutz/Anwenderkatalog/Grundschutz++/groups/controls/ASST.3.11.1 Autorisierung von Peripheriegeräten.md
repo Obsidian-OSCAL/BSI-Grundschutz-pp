@@ -5,10 +5,12 @@ tags:
 - data_leak
 - shadow_it
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ASST.3.11.1 Autorisierung von Peripheriegeräten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ASST.3.11.1 Autorisierung von Peripheriegeräten
+uid: 75a9c947-c417-4dc7-a942-c27340f20ade
+aliases: 75a9c947-c417-4dc7-a942-c27340f20ade
 parent_control: ASST.3.11 Autorisierung von Systemen
 stmt_practice: Informationen und Assets
 stmt_action_word: autorisieren
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [ASST.3 Regelungen zum Gebrauch](../ASST.3%20Regelungen%20zum%20Gebrauch.md)
 ---
 
-Übergeordnetes Control:<br> [ASST.3.11 Autorisierung von Systemen](./ASST.3.11%20Autorisierung%20von%20Systemen.md)
+Übergeordnetes Control:<br>[ASST.3.11 Autorisierung von Systemen](./ASST.3.11%20Autorisierung%20von%20Systemen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,9 +48,8 @@ Gruppe: [ASST.3 Regelungen zum Gebrauch](../ASST.3%20Regelungen%20zum%20Gebrauch
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 75a9c947-c417-4dc7-a942-c27340f20ade |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 75a9c947-c417-4dc7-a942-c27340f20ade |
 
 
 > [!info]- Links

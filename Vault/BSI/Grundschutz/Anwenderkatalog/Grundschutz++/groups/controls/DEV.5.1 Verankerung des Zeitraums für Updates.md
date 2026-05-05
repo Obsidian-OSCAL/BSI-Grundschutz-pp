@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - dev51-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.5.1 Verankerung des Zeitraums für Updates
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.5.1 Verankerung des Zeitraums für Updates
+uid: 649b5b3b-fd58-4bec-84bb-71c93b264f94
+aliases: 649b5b3b-fd58-4bec-84bb-71c93b264f94
 stmt_practice: Entwicklung
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DEV.5.1 - Verankerung des Zeitraums für Updates
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [DEV.5 Softwareentwicklung - Updates](../DEV.5%20Softwareentwicklung%20-%20Updates.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [DEV.5 Softwareentwicklung - Updates](../DEV.5%20Softwareentwicklung%20-
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 649b5b3b-fd58-4bec-84bb-71c93b264f94 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 649b5b3b-fd58-4bec-84bb-71c93b264f94 |
 

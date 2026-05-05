@@ -5,10 +5,12 @@ tags:
 - inspektion
 - geb1028-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: GEB.10.2.8 Brandschutzprüfung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: GEB.10.2.8 Brandschutzprüfung
+uid: 3b904a6b-c440-4360-ab4a-37b76fc639a7
+aliases: 3b904a6b-c440-4360-ab4a-37b76fc639a7
 parent_control: GEB.10.2 Brandschutz
 stmt_practice: Gebäudemanagement
 stmt_action_word: überprüfen
@@ -21,11 +23,12 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # GEB.10.2.8 - Brandschutzprüfung
-Tag: [Inspektion](../../../../namespaces/entries/tags_Inspektion.md)
+> [!example]- [Inspektion](../../../../namespaces/entries/tags_Inspektion.md)
+
 Gruppe: [GEB.10 Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Elementarschäden.md)
 ---
 
-Übergeordnetes Control:<br> [GEB.10.2 Brandschutz](./GEB.10.2%20Brandschutz.md)
+Übergeordnetes Control:<br>[GEB.10.2 Brandschutz](./GEB.10.2%20Brandschutz.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,7 +45,6 @@ Gruppe: [GEB.10 Schutz vor Elementarschäden](../GEB.10%20Schutz%20vor%20Element
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3b904a6b-c440-4360-ab4a-37b76fc639a7 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 3b904a6b-c440-4360-ab4a-37b76fc639a7 |
 

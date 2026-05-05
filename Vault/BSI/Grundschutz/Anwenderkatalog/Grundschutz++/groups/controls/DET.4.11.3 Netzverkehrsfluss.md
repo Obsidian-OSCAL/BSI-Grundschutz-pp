@@ -5,10 +5,12 @@ tags:
 - lateral_movement
 - det4113-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.4.11.3 Netzverkehrsfluss
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.4.11.3 Netzverkehrsfluss
+uid: 80109af2-9ed7-4aca-807e-aae712dc8e18
+aliases: 80109af2-9ed7-4aca-807e-aae712dc8e18
 parent_control: DET.4.11 Anomalien in Netzen und am Perimeter
 stmt_practice: Detektion
 stmt_action_word: überwachen
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.4.11.3 - Netzverkehrsfluss
-Tag: [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+> [!example]- [Lateral Movement](../../../../namespaces/entries/tags_Lateral_Movement.md)
+
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
-Übergeordnetes Control:<br> [DET.4.11 Anomalien in Netzen und am Perimeter](./DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
+Übergeordnetes Control:<br>[DET.4.11 Anomalien in Netzen und am Perimeter](./DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,7 +46,6 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 80109af2-9ed7-4aca-807e-aae712dc8e18 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 80109af2-9ed7-4aca-807e-aae712dc8e18 |
 

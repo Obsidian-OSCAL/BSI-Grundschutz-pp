@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - dls31-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
+uid: 5b17bd9b-ff38-46eb-a1ef-7b38429f128b
+aliases: 5b17bd9b-ff38-46eb-a1ef-7b38429f128b
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: überprüfen
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.1 - Einhaltung der Sicherheitsvorgaben
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
@@ -43,7 +46,6 @@ Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienst
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 5b17bd9b-ff38-46eb-a1ef-7b38429f128b |
 

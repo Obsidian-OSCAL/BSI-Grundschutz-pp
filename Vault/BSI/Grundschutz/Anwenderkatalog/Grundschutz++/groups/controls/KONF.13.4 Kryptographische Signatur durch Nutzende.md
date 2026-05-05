@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.13.4 Kryptographische Signatur durch Nutzende
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.13.4 Kryptographische Signatur durch Nutzende
+uid: 8cda47f9-692a-485d-bc73-a4c3b691c501
+aliases: 8cda47f9-692a-485d-bc73-a4c3b691c501
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 8cda47f9-692a-485d-bc73-a4c3b691c501 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 8cda47f9-692a-485d-bc73-a4c3b691c501 |
 

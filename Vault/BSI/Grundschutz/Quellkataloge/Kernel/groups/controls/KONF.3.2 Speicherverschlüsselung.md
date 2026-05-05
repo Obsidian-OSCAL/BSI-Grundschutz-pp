@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.3.2 Speicherverschlüsselung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.3.2 Speicherverschlüsselung
+uid: e760f62d-1c68-4665-b07b-5b2846550d59
+aliases: e760f62d-1c68-4665-b07b-5b2846550d59
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | e760f62d-1c68-4665-b07b-5b2846550d59 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | e760f62d-1c68-4665-b07b-5b2846550d59 |
 

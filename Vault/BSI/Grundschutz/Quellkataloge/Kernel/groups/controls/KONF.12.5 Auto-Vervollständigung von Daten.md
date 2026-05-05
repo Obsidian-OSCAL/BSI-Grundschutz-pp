@@ -6,10 +6,12 @@ tags:
 - phishing
 - data_leak
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.12.5 Auto-Vervollständigung von Daten
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.12.5 Auto-Vervollständigung von Daten
+uid: 884ebdea-7054-48bf-932a-bb4f704baa8e
+aliases: 884ebdea-7054-48bf-932a-bb4f704baa8e
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -46,7 +48,6 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 884ebdea-7054-48bf-932a-bb4f704baa8e |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 884ebdea-7054-48bf-932a-bb4f704baa8e |
 

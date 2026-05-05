@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - zero_trust
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.6.5 Dynamische Zugriffskontrolle im System
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.6.5 Dynamische Zugriffskontrolle im System
+uid: ced10fd0-a74e-4376-8dac-f3381c6a9482
+aliases: ced10fd0-a74e-4376-8dac-f3381c6a9482
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: KANN
@@ -47,7 +49,6 @@ Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigu
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ced10fd0-a74e-4376-8dac-f3381c6a9482 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | ced10fd0-a74e-4376-8dac-f3381c6a9482 |
 

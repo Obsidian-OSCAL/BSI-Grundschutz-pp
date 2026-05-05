@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - pstn
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.11.8.2.1 Einschränkung der TK-Gegenstellen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.11.8.2.1 Einschränkung der TK-Gegenstellen
+uid: 756c0796-be3d-492d-a64e-3314f6d83805
+aliases: 756c0796-be3d-492d-a64e-3314f6d83805
 parent_control: KONF.11.8.2 Einschränkung von TK-Verbindungen
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.11.8.2 Einschränkung von TK-Verbindungen](./KONF.11.8.2%20Einschränkung%20von%20TK-Verbindungen.md)
+Übergeordnetes Control:<br>[KONF.11.8.2 Einschränkung von TK-Verbindungen](./KONF.11.8.2%20Einschränkung%20von%20TK-Verbindungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 756c0796-be3d-492d-a64e-3314f6d83805 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 756c0796-be3d-492d-a64e-3314f6d83805 |
 

@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.5.10.5 Konsequenzen bei Verstößen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.5.10.5 Konsequenzen bei Verstößen
+uid: 119a13e9-ea12-41a3-a974-2d1cba295fb8
+aliases: 119a13e9-ea12-41a3-a974-2d1cba295fb8
 parent_control: BES.5.10 Behandlung von Vorfällen
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
@@ -28,7 +30,7 @@ control_security_level: erhöht
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-Übergeordnetes Control:<br> [BES.5.10 Behandlung von Vorfällen](./BES.5.10%20Behandlung%20von%20Vorfällen.md)
+Übergeordnetes Control:<br>[BES.5.10 Behandlung von Vorfällen](./BES.5.10%20Behandlung%20von%20Vorfällen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -45,7 +47,6 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../B
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 119a13e9-ea12-41a3-a974-2d1cba295fb8 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 119a13e9-ea12-41a3-a974-2d1cba295fb8 |
 

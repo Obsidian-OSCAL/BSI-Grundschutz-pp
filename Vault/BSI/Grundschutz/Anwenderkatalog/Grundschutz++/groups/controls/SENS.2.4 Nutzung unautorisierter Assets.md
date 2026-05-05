@@ -5,10 +5,12 @@ tags:
 - bring_your_own_device
 - insider_threat
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.2.4 Nutzung unautorisierter Assets
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.2.4 Nutzung unautorisierter Assets
+uid: 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf
+aliases: 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf
 stmt_practice: Sensibilisierung
 stmt_action_word: untersagen
 stmt_modal_verb: SOLLTE
@@ -49,9 +51,8 @@ Gruppe: [SENS.2 Grundlegende Sensibilisierung](../SENS.2%20Grundlegende%20Sensib
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf |
 
 
 > [!info]- Links

@@ -5,10 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.2.2.9 Segmentierung von IPv4 und IPv6
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.2.2.9 Segmentierung von IPv4 und IPv6
+uid: dabbb234-5678-456b-8db4-4c7ac9ed1e12
+aliases: dabbb234-5678-456b-8db4-4c7ac9ed1e12
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur
 stmt_action_word: einschränken
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
-Übergeordnetes Control:<br> [ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten](./ARCH.2.2%20Einschränkung%20von%20Verbindungen%20zwischen%20Segmenten.md)
+Übergeordnetes Control:<br>[ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten](./ARCH.2.2%20Einschränkung%20von%20Verbindungen%20zwischen%20Segmenten.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | dabbb234-5678-456b-8db4-4c7ac9ed1e12 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | dabbb234-5678-456b-8db4-4c7ac9ed1e12 |
 

@@ -6,10 +6,12 @@ tags:
 - cryptography
 - zero_trust
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.14.1.2 Ende-zu-Ende-Verschlüsselung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.14.1.2 Ende-zu-Ende-Verschlüsselung
+uid: 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f
+aliases: 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f
 parent_control: KONF.14.1 Verschlüsselung beim Transport
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln
@@ -31,7 +33,7 @@ control_security_level: erhöht
 Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.14.1 Verschlüsselung beim Transport](./KONF.14.1%20Verschlüsselung%20beim%20Transport.md)
+Übergeordnetes Control:<br>[KONF.14.1 Verschlüsselung beim Transport](./KONF.14.1%20Verschlüsselung%20beim%20Transport.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -48,7 +50,6 @@ Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f |
 

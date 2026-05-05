@@ -6,10 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - honeypot
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.4.11.2 Netzwerk-Honeypots
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.4.11.2 Netzwerk-Honeypots
+uid: 7715c6ec-8cf9-446c-807a-783d61ebd539
+aliases: 7715c6ec-8cf9-446c-807a-783d61ebd539
 parent_control: DET.4.11 Anomalien in Netzen und am Perimeter
 stmt_practice: Detektion
 stmt_action_word: installieren
@@ -30,7 +32,7 @@ control_security_level: erhöht
 Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Aktivitäten.md)
 ---
 
-Übergeordnetes Control:<br> [DET.4.11 Anomalien in Netzen und am Perimeter](./DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
+Übergeordnetes Control:<br>[DET.4.11 Anomalien in Netzen und am Perimeter](./DET.4.11%20Anomalien%20in%20Netzen%20und%20am%20Perimeter.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -47,9 +49,8 @@ Gruppe: [DET.4 Überwachung von Aktivitäten](../DET.4%20Überwachung%20von%20Ak
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 7715c6ec-8cf9-446c-807a-783d61ebd539 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 7715c6ec-8cf9-446c-807a-783d61ebd539 |
 
 
 > [!info]- Links

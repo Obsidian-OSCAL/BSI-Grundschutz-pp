@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - lateral_movement
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.7.2 Regelmäßige Scans
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.7.2 Regelmäßige Scans
+uid: 3fefd9d3-8925-4c08-b2b3-c92775b0279a
+aliases: 3fefd9d3-8925-4c08-b2b3-c92775b0279a
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -44,9 +46,8 @@ Gruppe: [KONF.7 Schutz vor Schadcode](../KONF.7%20Schutz%20vor%20Schadcode.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3fefd9d3-8925-4c08-b2b3-c92775b0279a |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 3fefd9d3-8925-4c08-b2b3-c92775b0279a |
 
 
 > [!info]- Links

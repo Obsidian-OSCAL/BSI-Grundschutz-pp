@@ -7,10 +7,12 @@ tags:
 - session_hijacking
 - produktbeschreibung
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.3.1 Replay-Angriffe
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.3.1 Replay-Angriffe
+uid: 2eeb41fa-2354-4ea3-a641-c7e5a33a3087
+aliases: 2eeb41fa-2354-4ea3-a641-c7e5a33a3087
 stmt_practice: Entwicklung
 stmt_action_word: blockieren
 stmt_modal_verb: SOLLTE
@@ -48,7 +50,6 @@ Gruppe: [DEV.3 Softwareentwicklung - Härtung](../DEV.3%20Softwareentwicklung%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 2eeb41fa-2354-4ea3-a641-c7e5a33a3087 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 2eeb41fa-2354-4ea3-a641-c7e5a33a3087 |
 

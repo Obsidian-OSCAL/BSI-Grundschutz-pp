@@ -5,10 +5,12 @@ tags:
 - sens12-prm1
 - sens12-prm2
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.1.2 Erfolgsmessung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.1.2 Erfolgsmessung
+uid: 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de
+aliases: 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de
 stmt_practice: Sensibilisierung
 stmt_action_word: überprüfen
 stmt_modal_verb: SOLLTE
@@ -39,7 +41,6 @@ Gruppe: [SENS.1 Grundlagen](../SENS.1%20Grundlagen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de |
 

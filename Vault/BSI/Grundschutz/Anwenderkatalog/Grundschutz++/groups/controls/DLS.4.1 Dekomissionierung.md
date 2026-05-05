@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.4.1 Dekomissionierung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.4.1 Dekomissionierung
+uid: a78062a0-7fff-43a7-906a-6db806cf6822
+aliases: a78062a0-7fff-43a7-906a-6db806cf6822
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -46,9 +48,8 @@ Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionier
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | a78062a0-7fff-43a7-906a-6db806cf6822 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | a78062a0-7fff-43a7-906a-6db806cf6822 |
 
 
 > [!info]- Links

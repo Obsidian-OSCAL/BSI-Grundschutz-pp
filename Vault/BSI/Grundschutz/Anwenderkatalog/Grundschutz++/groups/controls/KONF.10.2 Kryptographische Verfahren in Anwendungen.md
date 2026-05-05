@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf102-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.10.2 Kryptographische Verfahren in Anwendungen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.10.2 Kryptographische Verfahren in Anwendungen
+uid: 94aac721-fbe3-44d0-a0ce-55ebded001ab
+aliases: 94aac721-fbe3-44d0-a0ce-55ebded001ab
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.10.2 - Kryptographische Verfahren in Anwendungen
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.10 Konfiguration von Anwendungen](../KONF.10%20Konfiguration%20von%20Anwendungen.md)
 ---
 
@@ -41,9 +44,8 @@ Gruppe: [KONF.10 Konfiguration von Anwendungen](../KONF.10%20Konfiguration%20von
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 94aac721-fbe3-44d0-a0ce-55ebded001ab |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 94aac721-fbe3-44d0-a0ce-55ebded001ab |
 
 
 > [!info]- Links

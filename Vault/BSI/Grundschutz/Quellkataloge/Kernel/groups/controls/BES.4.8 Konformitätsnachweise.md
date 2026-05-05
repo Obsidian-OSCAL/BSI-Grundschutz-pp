@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.4.8 Konformitätsnachweise
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.4.8 Konformitätsnachweise
+uid: 3e56f7c0-63b1-4017-8e30-3a78c1f06693
+aliases: 3e56f7c0-63b1-4017-8e30-3a78c1f06693
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
 stmt_modal_verb: SOLLTE
@@ -45,7 +47,6 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3e56f7c0-63b1-4017-8e30-3a78c1f06693 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 3e56f7c0-63b1-4017-8e30-3a78c1f06693 |
 

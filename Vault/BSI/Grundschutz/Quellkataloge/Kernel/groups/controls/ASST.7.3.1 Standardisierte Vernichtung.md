@@ -5,10 +5,12 @@ tags:
 - asst731-prm1
 - asst731-prm2
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ASST.7.3.1 Standardisierte Vernichtung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ASST.7.3.1 Standardisierte Vernichtung
+uid: 93178616-6931-48e6-aee7-d51742868d4f
+aliases: 93178616-6931-48e6-aee7-d51742868d4f
 parent_control: ASST.7.3 Geregeltes Löschen oder Vernichten
 stmt_practice: Informationen und Assets
 stmt_action_word: verankern
@@ -25,7 +27,7 @@ control_security_level: normal-SdT
 Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten.md)
 ---
 
-Übergeordnetes Control:<br> [ASST.7.3 Geregeltes Löschen oder Vernichten](./ASST.7.3%20Geregeltes%20Löschen%20oder%20Vernichten.md)
+Übergeordnetes Control:<br>[ASST.7.3 Geregeltes Löschen oder Vernichten](./ASST.7.3%20Geregeltes%20Löschen%20oder%20Vernichten.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,7 +44,6 @@ Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 93178616-6931-48e6-aee7-d51742868d4f |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 93178616-6931-48e6-aee7-d51742868d4f |
 

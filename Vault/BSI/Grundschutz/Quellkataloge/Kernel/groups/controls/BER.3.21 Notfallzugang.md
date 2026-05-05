@@ -5,10 +5,12 @@ tags:
 - bcm
 - privilegierte_rechte
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.3.21 Notfallzugang
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.3.21 Notfallzugang
+uid: abdd8f32-ec02-491a-a39b-7b0b25a597ca
+aliases: abdd8f32-ec02-491a-a39b-7b0b25a597ca
 stmt_practice: Berechtigung
 stmt_action_word: installieren
 stmt_modal_verb: KANN
@@ -46,7 +48,6 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | abdd8f32-ec02-491a-a39b-7b0b25a597ca |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
-> | ** Alternate Identifier ** | abdd8f32-ec02-491a-a39b-7b0b25a597ca |
 

@@ -6,10 +6,12 @@ tags:
 - cryptography
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.4.6.3 Manipulationsschutz
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.4.6.3 Manipulationsschutz
+uid: 4e08941c-a1c7-4718-934f-c1e8c3e17864
+aliases: 4e08941c-a1c7-4718-934f-c1e8c3e17864
 parent_control: BES.4.6 Security by Default
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
@@ -30,7 +32,7 @@ control_security_level: erhöht
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
-Übergeordnetes Control:<br> [BES.4.6 Security by Default](./BES.4.6%20Security%20by%20Default.md)
+Übergeordnetes Control:<br>[BES.4.6 Security by Default](./BES.4.6%20Security%20by%20Default.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -47,7 +49,6 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 4e08941c-a1c7-4718-934f-c1e8c3e17864 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 4e08941c-a1c7-4718-934f-c1e8c3e17864 |
 

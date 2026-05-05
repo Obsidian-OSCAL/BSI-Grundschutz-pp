@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - bes51031-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.5.10.3.1 Schwachstellenmeldeprozess
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.5.10.3.1 Schwachstellenmeldeprozess
+uid: ebc08e41-e728-4447-93fa-233fbad7f2fa
+aliases: ebc08e41-e728-4447-93fa-233fbad7f2fa
 parent_control: BES.5.10.3 Schwachstellenbehebung
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
@@ -21,11 +23,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.10.3.1 - Schwachstellenmeldeprozess
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-Übergeordnetes Control:<br> [BES.5.10.3 Schwachstellenbehebung](./BES.5.10.3%20Schwachstellenbehebung.md)
+Übergeordnetes Control:<br>[BES.5.10.3 Schwachstellenbehebung](./BES.5.10.3%20Schwachstellenbehebung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,7 +45,6 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../B
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ebc08e41-e728-4447-93fa-233fbad7f2fa |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | ebc08e41-e728-4447-93fa-233fbad7f2fa |
 

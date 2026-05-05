@@ -6,10 +6,12 @@ tags:
 - cryptography
 - konf124-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.12.4 Speicherung von Zugangsdaten
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.12.4 Speicherung von Zugangsdaten
+uid: 93d5129d-c905-439f-b7cf-2ddcd92fac5a
+aliases: 93d5129d-c905-439f-b7cf-2ddcd92fac5a
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -48,7 +50,6 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 93d5129d-c905-439f-b7cf-2ddcd92fac5a |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 93d5129d-c905-439f-b7cf-2ddcd92fac5a |
 

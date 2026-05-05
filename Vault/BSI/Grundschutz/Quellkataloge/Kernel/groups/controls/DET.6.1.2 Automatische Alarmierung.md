@@ -5,10 +5,12 @@ tags:
 - det612-prm1
 - det612-prm2
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.6.1.2 Automatische Alarmierung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.6.1.2 Automatische Alarmierung
+uid: f45e08b7-8f42-469a-aa22-63b93daba60e
+aliases: f45e08b7-8f42-469a-aa22-63b93daba60e
 parent_control: DET.6.1 Beurteilung von Ereignissen
 stmt_practice: Detektion
 stmt_action_word: ausführen
@@ -24,7 +26,7 @@ control_security_level: normal-SdT
 Gruppe: [DET.6 Vorfallserkennung](../DET.6%20Vorfallserkennung.md)
 ---
 
-Übergeordnetes Control:<br> [DET.6.1 Beurteilung von Ereignissen](./DET.6.1%20Beurteilung%20von%20Ereignissen.md)
+Übergeordnetes Control:<br>[DET.6.1 Beurteilung von Ereignissen](./DET.6.1%20Beurteilung%20von%20Ereignissen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,9 +45,8 @@ Gruppe: [DET.6 Vorfallserkennung](../DET.6%20Vorfallserkennung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | f45e08b7-8f42-469a-aa22-63b93daba60e |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | f45e08b7-8f42-469a-aa22-63b93daba60e |
 
 
 > [!info]- Links

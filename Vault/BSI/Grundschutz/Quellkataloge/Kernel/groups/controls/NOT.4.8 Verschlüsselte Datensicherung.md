@@ -5,10 +5,12 @@ tags:
 - cryptography
 - not48-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: NOT.4.8 Verschlüsselte Datensicherung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: NOT.4.8 Verschlüsselte Datensicherung
+uid: b443fd60-5e58-454b-8d57-baec8a876d22
+aliases: b443fd60-5e58-454b-8d57-baec8a876d22
 stmt_practice: Notfallplanung
 stmt_action_word: verschlüsseln
 stmt_modal_verb: SOLLTE
@@ -20,7 +22,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # NOT.4.8 - Verschlüsselte Datensicherung
-Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [NOT.4 Datensicherung](../NOT.4%20Datensicherung.md)
 ---
 
@@ -40,7 +43,6 @@ Gruppe: [NOT.4 Datensicherung](../NOT.4%20Datensicherung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | b443fd60-5e58-454b-8d57-baec8a876d22 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | b443fd60-5e58-454b-8d57-baec8a876d22 |
 

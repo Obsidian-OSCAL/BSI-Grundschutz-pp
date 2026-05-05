@@ -5,10 +5,12 @@ tags:
 - langzeitarchivierung
 - geb84-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: GEB.8.4 Überwachung schonender Klimatisierung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: GEB.8.4 Überwachung schonender Klimatisierung
+uid: b76d96fa-3c33-470e-a624-1fe1aff44cc9
+aliases: b76d96fa-3c33-470e-a624-1fe1aff44cc9
 stmt_practice: Gebäudemanagement
 stmt_action_word: überwachen
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # GEB.8.4 - Überwachung schonender Klimatisierung
-Tag: [Langzeitarchivierung](../../../../namespaces/entries/tags_Langzeitarchivierung.md)
+> [!example]- [Langzeitarchivierung](../../../../namespaces/entries/tags_Langzeitarchivierung.md)
+
 Gruppe: [GEB.8 Verwahrung von Speichermedien](../GEB.8%20Verwahrung%20von%20Speichermedien.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [GEB.8 Verwahrung von Speichermedien](../GEB.8%20Verwahrung%20von%20Spei
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | b76d96fa-3c33-470e-a624-1fe1aff44cc9 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | b76d96fa-3c33-470e-a624-1fe1aff44cc9 |
 

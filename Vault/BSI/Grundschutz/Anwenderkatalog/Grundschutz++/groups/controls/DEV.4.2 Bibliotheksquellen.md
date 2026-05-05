@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - secure_compiling_practices
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.4.2 Bibliotheksquellen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.4.2 Bibliotheksquellen
+uid: 54b5a504-5b17-4fea-8514-079d99eb0102
+aliases: 54b5a504-5b17-4fea-8514-079d99eb0102
 stmt_practice: Entwicklung
 stmt_action_word: untersagen
 stmt_modal_verb: SOLLTE
@@ -44,9 +46,8 @@ Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 54b5a504-5b17-4fea-8514-079d99eb0102 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 54b5a504-5b17-4fea-8514-079d99eb0102 |
 
 
 > [!info]- Links

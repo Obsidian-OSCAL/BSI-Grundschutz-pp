@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf361-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.3.6.1 Automatische Fernlöschung oder -sperre
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.3.6.1 Automatische Fernlöschung oder -sperre
+uid: ffc45c05-597f-4be9-9358-124b4a008e50
+aliases: ffc45c05-597f-4be9-9358-124b4a008e50
 parent_control: KONF.3.6 Fernlöschung oder -sperre
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.3.6.1 - Automatische Fernlöschung oder -sperre
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.3.6 Fernlöschung oder -sperre](./KONF.3.6%20Fernlöschung%20oder%20-sperre.md)
+Übergeordnetes Control:<br>[KONF.3.6 Fernlöschung oder -sperre](./KONF.3.6%20Fernlöschung%20oder%20-sperre.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,7 +46,6 @@ Gruppe: [KONF.3 Physischer Schutz](../KONF.3%20Physischer%20Schutz.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ffc45c05-597f-4be9-9358-124b4a008e50 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | ffc45c05-597f-4be9-9358-124b4a008e50 |
 

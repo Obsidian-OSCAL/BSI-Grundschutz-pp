@@ -5,10 +5,12 @@ tags:
 - hochverfügbarkeit
 - arch92-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.9.2 Lastverteilung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.9.2 Lastverteilung
+uid: 50e54872-271e-41b4-b54a-50e9ebab82bd
+aliases: 50e54872-271e-41b4-b54a-50e9ebab82bd
 stmt_practice: Architektur
 stmt_action_word: aktivieren
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ARCH.9.2 - Lastverteilung
-Tag: [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+> [!example]- [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+
 Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 50e54872-271e-41b4-b54a-50e9ebab82bd |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 50e54872-271e-41b4-b54a-50e9ebab82bd |
 

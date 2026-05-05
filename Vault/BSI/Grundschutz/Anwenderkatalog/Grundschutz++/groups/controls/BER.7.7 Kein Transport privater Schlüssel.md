@@ -5,10 +5,12 @@ tags:
 - cryptography
 - ber77-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.7.7 Kein Transport privater Schlüssel
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.7.7 Kein Transport privater Schlüssel
+uid: c28426cd-d01c-427d-bade-141936177c55
+aliases: c28426cd-d01c-427d-bade-141936177c55
 stmt_practice: Berechtigung
 stmt_action_word: autorisieren
 stmt_modal_verb: KANN
@@ -20,7 +22,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.7 - Kein Transport privater Schlüssel
-Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 ---
 
@@ -40,7 +43,6 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | c28426cd-d01c-427d-bade-141936177c55 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | c28426cd-d01c-427d-bade-141936177c55 |
 

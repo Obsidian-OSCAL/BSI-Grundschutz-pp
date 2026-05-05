@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - bes71-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.7.1 Eingangskontrolle
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.7.1 Eingangskontrolle
+uid: abea6f59-f58b-47c3-b908-7ae68410fde3
+aliases: abea6f59-f58b-47c3-b908-7ae68410fde3
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: testen
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.1 - Eingangskontrolle
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 ---
 
@@ -43,7 +46,6 @@ Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | abea6f59-f58b-47c3-b908-7ae68410fde3 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | abea6f59-f58b-47c3-b908-7ae68410fde3 |
 

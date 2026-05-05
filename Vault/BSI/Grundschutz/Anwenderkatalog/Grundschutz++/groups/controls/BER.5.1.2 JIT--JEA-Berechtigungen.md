@@ -5,10 +5,12 @@ tags:
 - zero_trust
 - ber512-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.5.1.2 JIT‑/JEA‑Berechtigungen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.5.1.2 JIT‑/JEA‑Berechtigungen
+uid: e549f464-b2fb-42a1-83b9-21bd3bb0f3cf
+aliases: e549f464-b2fb-42a1-83b9-21bd3bb0f3cf
 parent_control: BER.5.1 Prinzip der geringsten Berechtigungen
 stmt_practice: Berechtigung
 stmt_action_word: aktivieren
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.5.1.2 - JIT‑/JEA‑Berechtigungen
-Tag: [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+> [!example]- [Zero Trust](../../../../namespaces/entries/tags_Zero_Trust.md)
+
 Gruppe: [BER.5 Berechtigungsmanagement](../BER.5%20Berechtigungsmanagement.md)
 ---
 
-Übergeordnetes Control:<br> [BER.5.1 Prinzip der geringsten Berechtigungen](./BER.5.1%20Prinzip%20der%20geringsten%20Berechtigungen.md)
+Übergeordnetes Control:<br>[BER.5.1 Prinzip der geringsten Berechtigungen](./BER.5.1%20Prinzip%20der%20geringsten%20Berechtigungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -45,7 +48,6 @@ Gruppe: [BER.5 Berechtigungsmanagement](../BER.5%20Berechtigungsmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | e549f464-b2fb-42a1-83b9-21bd3bb0f3cf |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | e549f464-b2fb-42a1-83b9-21bd3bb0f3cf |
 

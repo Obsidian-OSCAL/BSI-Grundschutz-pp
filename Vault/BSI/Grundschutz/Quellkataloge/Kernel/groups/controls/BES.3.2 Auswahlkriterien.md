@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.3.2 Auswahlkriterien
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.3.2 Auswahlkriterien
+uid: 3f92f682-56ae-447b-996e-a4b5f4bd8963
+aliases: 3f92f682-56ae-447b-996e-a4b5f4bd8963
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -45,9 +47,8 @@ Gruppe: [BES.3 Auswahl von Lieferanten](../BES.3%20Auswahl%20von%20Lieferanten.m
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3f92f682-56ae-447b-996e-a4b5f4bd8963 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 3f92f682-56ae-447b-996e-a4b5f4bd8963 |
 
 
 > [!info]- Links

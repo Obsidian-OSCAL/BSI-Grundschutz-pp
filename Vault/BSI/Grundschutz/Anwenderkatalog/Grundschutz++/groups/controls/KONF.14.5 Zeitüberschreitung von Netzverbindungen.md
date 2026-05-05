@@ -7,10 +7,12 @@ tags:
 - replay_attacks
 - session_hijacking
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.14.5 Zeitüberschreitung von Netzverbindungen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.14.5 Zeitüberschreitung von Netzverbindungen
+uid: 76f6f959-2505-43b4-9e22-3501e32bc0be
+aliases: 76f6f959-2505-43b4-9e22-3501e32bc0be
 stmt_practice: Konfiguration
 stmt_action_word: blockieren
 stmt_modal_verb: SOLLTE
@@ -48,7 +50,6 @@ Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 76f6f959-2505-43b4-9e22-3501e32bc0be |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 76f6f959-2505-43b4-9e22-3501e32bc0be |
 

@@ -6,10 +6,12 @@ tags:
 - zero_trust
 - ber312-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.3.12 Sperre der Anwendung bei Inaktivität
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.3.12 Sperre der Anwendung bei Inaktivität
+uid: 5c8bb88d-6692-4904-908a-ed3f7a81b34e
+aliases: 5c8bb88d-6692-4904-908a-ed3f7a81b34e
 stmt_practice: Berechtigung
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -45,7 +47,6 @@ Gruppe: [BER.3 Zugangskonten](../BER.3%20Zugangskonten.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 5c8bb88d-6692-4904-908a-ed3f7a81b34e |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 5c8bb88d-6692-4904-908a-ed3f7a81b34e |
 

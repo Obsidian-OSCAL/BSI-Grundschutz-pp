@@ -6,10 +6,12 @@ tags:
 - error_handling
 - produktbeschreibung
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.3.3 Deaktivierung der Ausgabe schützenswerter Daten durch Fehlermeldungen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.3.3 Deaktivierung der Ausgabe schützenswerter Daten durch Fehlermeldungen
+uid: 2b3f6962-b23f-4698-984e-f5b942ab2fdd
+aliases: 2b3f6962-b23f-4698-984e-f5b942ab2fdd
 stmt_practice: Entwicklung
 stmt_action_word: deaktivieren
 stmt_modal_verb: SOLLTE
@@ -46,7 +48,6 @@ Gruppe: [DEV.3 Softwareentwicklung - Härtung](../DEV.3%20Softwareentwicklung%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 2b3f6962-b23f-4698-984e-f5b942ab2fdd |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 2b3f6962-b23f-4698-984e-f5b942ab2fdd |
 

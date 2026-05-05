@@ -5,10 +5,12 @@ tags:
 - auslandsreisen
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.9.7 Reise- und Sicherheitshinweise
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.9.7 Reise- und Sicherheitshinweise
+uid: 3b4e6be6-5648-468f-bc05-89191c9cdd90
+aliases: 3b4e6be6-5648-468f-bc05-89191c9cdd90
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren
 stmt_modal_verb: SOLLTE
@@ -44,9 +46,8 @@ Gruppe: [SENS.9 Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3b4e6be6-5648-468f-bc05-89191c9cdd90 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 3b4e6be6-5648-468f-bc05-89191c9cdd90 |
 
 
 > [!info]- Links

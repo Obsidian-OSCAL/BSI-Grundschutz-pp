@@ -6,10 +6,12 @@ tags:
 - cryptography
 - konf421-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.4.2.1 DNS-Verschlüsselung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.4.2.1 DNS-Verschlüsselung
+uid: ccb6bfb1-1b49-4d03-9705-2d05bca018b5
+aliases: ccb6bfb1-1b49-4d03-9705-2d05bca018b5
 parent_control: KONF.4.2 DNS-Anbindung
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln
@@ -30,7 +32,7 @@ control_security_level: normal-SdT
 Gruppe: [KONF.4 Vertrauenswürdige Basisdienste](../KONF.4%20Vertrauenswürdige%20Basisdienste.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.4.2 DNS-Anbindung](./KONF.4.2%20DNS-Anbindung.md)
+Übergeordnetes Control:<br>[KONF.4.2 DNS-Anbindung](./KONF.4.2%20DNS-Anbindung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -47,7 +49,6 @@ Gruppe: [KONF.4 Vertrauenswürdige Basisdienste](../KONF.4%20Vertrauenswürdige%
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ccb6bfb1-1b49-4d03-9705-2d05bca018b5 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | ccb6bfb1-1b49-4d03-9705-2d05bca018b5 |
 

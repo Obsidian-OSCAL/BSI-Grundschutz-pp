@@ -7,10 +7,12 @@ tags:
 - zero_trust
 - konf141-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.14.1 Verschlüsselung beim Transport
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.14.1 Verschlüsselung beim Transport
+uid: 99806244-514d-43e2-be34-4ac7ab0517ad
+aliases: 99806244-514d-43e2-be34-4ac7ab0517ad
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln
 stmt_modal_verb: SOLLTE
@@ -49,7 +51,6 @@ Gruppe: [KONF.14 Verteilte Anwendungen](../KONF.14%20Verteilte%20Anwendungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 99806244-514d-43e2-be34-4ac7ab0517ad |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 99806244-514d-43e2-be34-4ac7ab0517ad |
 

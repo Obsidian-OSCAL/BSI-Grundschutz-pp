@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - dls22-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.2.2 Transportverschlüsselung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.2.2 Transportverschlüsselung
+uid: c9cd4b7e-8f76-4884-afb7-dcfd3d228624
+aliases: c9cd4b7e-8f76-4884-afb7-dcfd3d228624
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: verschlüsseln
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.2.2 - Transportverschlüsselung
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [DLS.2 Nutzung von digitalen Dienstleistungen](../DLS.2%20Nutzung%20von%20digitalen%20Dienstleistungen.md)
 ---
 
@@ -41,9 +44,8 @@ Gruppe: [DLS.2 Nutzung von digitalen Dienstleistungen](../DLS.2%20Nutzung%20von%
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | c9cd4b7e-8f76-4884-afb7-dcfd3d228624 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | c9cd4b7e-8f76-4884-afb7-dcfd3d228624 |
 
 
 > [!info]- Links

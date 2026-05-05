@@ -5,10 +5,12 @@ tags:
 - not413-prm1
 - not413-prm2
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: NOT.4.13 Datensouveränität
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: NOT.4.13 Datensouveränität
+uid: 13789041-edcf-4270-a8d1-49bdd0d54ab4
+aliases: 13789041-edcf-4270-a8d1-49bdd0d54ab4
 stmt_practice: Notfallplanung
 stmt_action_word: ausführen
 stmt_modal_verb: SOLLTE
@@ -40,7 +42,6 @@ Gruppe: [NOT.4 Datensicherung](../NOT.4%20Datensicherung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 13789041-edcf-4270-a8d1-49bdd0d54ab4 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 13789041-edcf-4270-a8d1-49bdd0d54ab4 |
 

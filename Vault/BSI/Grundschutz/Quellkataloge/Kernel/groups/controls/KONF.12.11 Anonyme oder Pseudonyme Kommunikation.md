@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf1211-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.12.11 Anonyme oder Pseudonyme Kommunikation
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.12.11 Anonyme oder Pseudonyme Kommunikation
+uid: a06eca6b-f142-4808-b04d-c19adf178db4
+aliases: a06eca6b-f142-4808-b04d-c19adf178db4
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.11 - Anonyme oder Pseudonyme Kommunikation
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | a06eca6b-f142-4808-b04d-c19adf178db4 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | a06eca6b-f142-4808-b04d-c19adf178db4 |
 

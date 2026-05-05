@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf138-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.13.8 DMARC-Reports
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.13.8 DMARC-Reports
+uid: 96dd928d-e5ac-47ec-a2a2-320ae0359e73
+aliases: 96dd928d-e5ac-47ec-a2a2-320ae0359e73
 stmt_practice: Konfiguration
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.13.8 - DMARC-Reports
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 96dd928d-e5ac-47ec-a2a2-320ae0359e73 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 96dd928d-e5ac-47ec-a2a2-320ae0359e73 |
 

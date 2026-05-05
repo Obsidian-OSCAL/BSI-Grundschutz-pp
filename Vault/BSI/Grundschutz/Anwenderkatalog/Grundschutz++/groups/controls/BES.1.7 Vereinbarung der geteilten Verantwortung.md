@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - shared_responsibility_model
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.1.7 Vereinbarung der geteilten Verantwortung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.1.7 Vereinbarung der geteilten Verantwortung
+uid: 6cc29c32-b75a-4a6f-b260-1e5038f37866
+aliases: 6cc29c32-b75a-4a6f-b260-1e5038f37866
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
 stmt_modal_verb: SOLLTE
@@ -43,9 +45,8 @@ Gruppe: [BES.1 Grundlagen](../BES.1%20Grundlagen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6cc29c32-b75a-4a6f-b260-1e5038f37866 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 6cc29c32-b75a-4a6f-b260-1e5038f37866 |
 
 
 > [!info]- Links

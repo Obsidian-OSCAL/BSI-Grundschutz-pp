@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.4.1.1 Unabhängigkeit
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.4.1.1 Unabhängigkeit
+uid: d37125e2-68cd-4e75-9da9-d4af0b4dd051
+aliases: d37125e2-68cd-4e75-9da9-d4af0b4dd051
 parent_control: DLS.4.1 Dekomissionierung
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: testen
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionierung%20von%20Dienstleistern.md)
 ---
 
-Übergeordnetes Control:<br> [DLS.4.1 Dekomissionierung](./DLS.4.1%20Dekomissionierung.md)
+Übergeordnetes Control:<br>[DLS.4.1 Dekomissionierung](./DLS.4.1%20Dekomissionierung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [DLS.4 Dekommissionierung von Dienstleistern](../DLS.4%20Dekommissionier
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | d37125e2-68cd-4e75-9da9-d4af0b4dd051 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | d37125e2-68cd-4e75-9da9-d4af0b4dd051 |
 

@@ -6,10 +6,12 @@ tags:
 - privilege_escalation
 - password_policy
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.4.1.2 Untersagung von Passwort Recycling
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.4.1.2 Untersagung von Passwort Recycling
+uid: 0573247f-65f3-4768-9d27-6c9c0f42c6cd
+aliases: 0573247f-65f3-4768-9d27-6c9c0f42c6cd
 parent_control: SENS.4.1 Personengebundene Authentisierungsmittel
 stmt_practice: Sensibilisierung
 stmt_action_word: untersagen
@@ -31,7 +33,7 @@ control_security_level: normal-SdT
 Gruppe: [SENS.4 Authentisierung](../SENS.4%20Authentisierung.md)
 ---
 
-Übergeordnetes Control:<br> [SENS.4.1 Personengebundene Authentisierungsmittel](./SENS.4.1%20Personengebundene%20Authentisierungsmittel.md)
+Übergeordnetes Control:<br>[SENS.4.1 Personengebundene Authentisierungsmittel](./SENS.4.1%20Personengebundene%20Authentisierungsmittel.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -48,7 +50,6 @@ Gruppe: [SENS.4 Authentisierung](../SENS.4%20Authentisierung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 0573247f-65f3-4768-9d27-6c9c0f42c6cd |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 0573247f-65f3-4768-9d27-6c9c0f42c6cd |
 

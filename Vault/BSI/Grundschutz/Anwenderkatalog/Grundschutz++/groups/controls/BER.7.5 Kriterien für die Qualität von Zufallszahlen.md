@@ -5,10 +5,12 @@ tags:
 - cryptography
 - ber75-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.7.5 Kriterien für die Qualität von Zufallszahlen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.7.5 Kriterien für die Qualität von Zufallszahlen
+uid: 426ad852-4455-43a4-b4ff-795ee2caa47b
+aliases: 426ad852-4455-43a4-b4ff-795ee2caa47b
 stmt_practice: Berechtigung
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -20,7 +22,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.5 - Kriterien für die Qualität von Zufallszahlen
-Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 ---
 
@@ -40,7 +43,6 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 426ad852-4455-43a4-b4ff-795ee2caa47b |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 426ad852-4455-43a4-b4ff-795ee2caa47b |
 

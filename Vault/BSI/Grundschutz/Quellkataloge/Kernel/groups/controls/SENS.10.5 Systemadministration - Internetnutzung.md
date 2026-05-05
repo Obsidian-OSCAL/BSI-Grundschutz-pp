@@ -6,10 +6,12 @@ tags:
 - insider_threat
 - privilegierte_rechte
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.10.5 Systemadministration - Internetnutzung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.10.5 Systemadministration - Internetnutzung
+uid: 888c76ab-d8f0-42ff-a791-8a31f17f6ad0
+aliases: 888c76ab-d8f0-42ff-a791-8a31f17f6ad0
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren
 stmt_modal_verb: SOLLTE
@@ -49,9 +51,8 @@ Gruppe: [SENS.10 Administration](../SENS.10%20Administration.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 888c76ab-d8f0-42ff-a791-8a31f17f6ad0 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 888c76ab-d8f0-42ff-a791-8a31f17f6ad0 |
 
 
 > [!info]- Links

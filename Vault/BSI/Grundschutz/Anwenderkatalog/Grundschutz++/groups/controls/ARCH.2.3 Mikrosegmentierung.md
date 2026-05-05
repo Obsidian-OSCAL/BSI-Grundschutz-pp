@@ -6,10 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - lateral_movement
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.2.3 Mikrosegmentierung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.2.3 Mikrosegmentierung
+uid: 193a28ca-0382-4998-874d-4c08b6326f26
+aliases: 193a28ca-0382-4998-874d-4c08b6326f26
 stmt_practice: Architektur
 stmt_action_word: einschränken
 stmt_modal_verb: KANN
@@ -46,7 +48,6 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 193a28ca-0382-4998-874d-4c08b6326f26 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 193a28ca-0382-4998-874d-4c08b6326f26 |
 

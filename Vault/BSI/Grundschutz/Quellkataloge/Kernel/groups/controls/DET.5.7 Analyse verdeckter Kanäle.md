@@ -6,10 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - det57-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.5.7 Analyse verdeckter Kanäle
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.5.7 Analyse verdeckter Kanäle
+uid: 8f64e735-9870-4a8d-8b7b-220b93baddba
+aliases: 8f64e735-9870-4a8d-8b7b-220b93baddba
 stmt_practice: Detektion
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -43,9 +45,8 @@ Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schw
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 8f64e735-9870-4a8d-8b7b-220b93baddba |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 8f64e735-9870-4a8d-8b7b-220b93baddba |
 
 
 > [!info]- Links

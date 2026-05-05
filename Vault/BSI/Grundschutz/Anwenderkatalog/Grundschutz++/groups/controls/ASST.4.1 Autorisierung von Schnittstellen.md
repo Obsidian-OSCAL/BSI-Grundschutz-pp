@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - asst41-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ASST.4.1 Autorisierung von Schnittstellen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ASST.4.1 Autorisierung von Schnittstellen
+uid: ddfc1b03-9014-4317-a7bb-09980b234457
+aliases: ddfc1b03-9014-4317-a7bb-09980b234457
 stmt_practice: Informationen und Assets
 stmt_action_word: autorisieren
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.4.1 - Autorisierung von Schnittstellen
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [ASST.4 Regelungen zum Transfer](../ASST.4%20Regelungen%20zum%20Transfer.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [ASST.4 Regelungen zum Transfer](../ASST.4%20Regelungen%20zum%20Transfer
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ddfc1b03-9014-4317-a7bb-09980b234457 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | ddfc1b03-9014-4317-a7bb-09980b234457 |
 

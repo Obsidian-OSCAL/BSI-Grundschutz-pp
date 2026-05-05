@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf121-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.12.1 Eingabevalidierung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.12.1 Eingabevalidierung
+uid: 4cf4ca7f-0b09-4777-83dc-5569c8e08f63
+aliases: 4cf4ca7f-0b09-4777-83dc-5569c8e08f63
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.12.1 - Eingabevalidierung
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
@@ -43,9 +46,8 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 4cf4ca7f-0b09-4777-83dc-5569c8e08f63 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 4cf4ca7f-0b09-4777-83dc-5569c8e08f63 |
 
 
 > [!info]- Links

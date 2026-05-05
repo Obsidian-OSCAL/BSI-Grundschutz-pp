@@ -5,10 +5,12 @@ tags:
 - physical_access_control
 - shoulder_surfing
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.9.1 Verarbeitung in der Öffentlichkeit
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.9.1 Verarbeitung in der Öffentlichkeit
+uid: 4d8775fd-52b0-491f-b0ce-7a8ceaba4819
+aliases: 4d8775fd-52b0-491f-b0ce-7a8ceaba4819
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren
 stmt_modal_verb: SOLLTE
@@ -44,9 +46,8 @@ Gruppe: [SENS.9 Mobiles Arbeiten](../SENS.9%20Mobiles%20Arbeiten.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 4d8775fd-52b0-491f-b0ce-7a8ceaba4819 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 4d8775fd-52b0-491f-b0ce-7a8ceaba4819 |
 
 
 > [!info]- Links

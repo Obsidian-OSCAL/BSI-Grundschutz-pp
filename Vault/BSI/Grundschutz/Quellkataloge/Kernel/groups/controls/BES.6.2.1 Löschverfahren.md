@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.6.2.1 Löschverfahren
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.6.2.1 Löschverfahren
+uid: d0ba4d21-940d-4b06-b446-aeccfdb2b53a
+aliases: d0ba4d21-940d-4b06-b446-aeccfdb2b53a
 parent_control: BES.6.2 Löschung von Daten
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
@@ -28,7 +30,7 @@ control_security_level: erhöht
 Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Kündigung.md)
 ---
 
-Übergeordnetes Control:<br> [BES.6.2 Löschung von Daten](./BES.6.2%20Löschung%20von%20Daten.md)
+Übergeordnetes Control:<br>[BES.6.2 Löschung von Daten](./BES.6.2%20Löschung%20von%20Daten.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -45,9 +47,8 @@ Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | d0ba4d21-940d-4b06-b446-aeccfdb2b53a |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | d0ba4d21-940d-4b06-b446-aeccfdb2b53a |
 
 
 > [!info]- Links

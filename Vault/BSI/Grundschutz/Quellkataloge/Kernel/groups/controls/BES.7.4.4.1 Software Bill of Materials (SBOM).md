@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - bes7441-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.7.4.4.1 Software Bill of Materials (SBOM)
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.7.4.4.1 Software Bill of Materials (SBOM)
+uid: f89b0154-ccb8-401f-b352-9135e685a4e7
+aliases: f89b0154-ccb8-401f-b352-9135e685a4e7
 parent_control: BES.7.4.4 Dokumentation der Komponenten
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: dokumentieren
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.7.4.4.1 - Software Bill of Materials (SBOM)
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 ---
 
-Übergeordnetes Control:<br> [BES.7.4.4 Dokumentation der Komponenten](./BES.7.4.4%20Dokumentation%20der%20Komponenten.md)
+Übergeordnetes Control:<br>[BES.7.4.4 Dokumentation der Komponenten](./BES.7.4.4%20Dokumentation%20der%20Komponenten.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,9 +46,8 @@ Gruppe: [BES.7 Abnahme](../BES.7%20Abnahme.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | f89b0154-ccb8-401f-b352-9135e685a4e7 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | f89b0154-ccb8-401f-b352-9135e685a4e7 |
 
 
 > [!info]- Links

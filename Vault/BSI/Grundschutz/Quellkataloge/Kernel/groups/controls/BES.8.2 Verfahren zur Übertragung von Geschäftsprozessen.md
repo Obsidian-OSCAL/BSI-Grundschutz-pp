@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen
+uid: e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48
+aliases: e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: verankern
 stmt_modal_verb: KANN
@@ -47,7 +49,6 @@ Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20K
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48 |
 

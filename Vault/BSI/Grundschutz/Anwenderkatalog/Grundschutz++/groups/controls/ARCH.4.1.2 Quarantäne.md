@@ -6,10 +6,12 @@ tags:
 - rogue_access_point
 - zero_trust
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.4.1.2 Quarantäne
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.4.1.2 Quarantäne
+uid: 5f97efff-4db1-4b26-8ab9-4521108e5c0c
+aliases: 5f97efff-4db1-4b26-8ab9-4521108e5c0c
 parent_control: ARCH.4.1 Netzzugangskontrolle
 stmt_practice: Architektur
 stmt_action_word: installieren
@@ -31,7 +33,7 @@ control_security_level: erhöht
 Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 ---
 
-Übergeordnetes Control:<br> [ARCH.4.1 Netzzugangskontrolle](./ARCH.4.1%20Netzzugangskontrolle.md)
+Übergeordnetes Control:<br>[ARCH.4.1 Netzzugangskontrolle](./ARCH.4.1%20Netzzugangskontrolle.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -48,7 +50,6 @@ Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 5f97efff-4db1-4b26-8ab9-4521108e5c0c |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 5f97efff-4db1-4b26-8ab9-4521108e5c0c |
 

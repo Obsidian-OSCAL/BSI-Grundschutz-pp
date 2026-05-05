@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - lieferketten
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.7.11 Einschränkung von Softwarebibliotheken
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.7.11 Einschränkung von Softwarebibliotheken
+uid: 8de44b0e-0241-4519-9dc3-e941800b4168
+aliases: 8de44b0e-0241-4519-9dc3-e941800b4168
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [KONF.7 Schutz vor Schadcode](../KONF.7%20Schutz%20vor%20Schadcode.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 8de44b0e-0241-4519-9dc3-e941800b4168 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 8de44b0e-0241-4519-9dc3-e941800b4168 |
 

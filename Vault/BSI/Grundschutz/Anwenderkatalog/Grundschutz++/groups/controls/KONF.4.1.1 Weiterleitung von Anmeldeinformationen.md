@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - lateral_movement
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.4.1.1 Weiterleitung von Anmeldeinformationen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.4.1.1 Weiterleitung von Anmeldeinformationen
+uid: 6089e247-2518-4c90-b991-df8cbb24585f
+aliases: 6089e247-2518-4c90-b991-df8cbb24585f
 parent_control: KONF.4.1 Anbindung an Verzeichnisdienst
 stmt_practice: Konfiguration
 stmt_action_word: deaktivieren
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [KONF.4 Vertrauenswürdige Basisdienste](../KONF.4%20Vertrauenswürdige%20Basisdienste.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.4.1 Anbindung an Verzeichnisdienst](./KONF.4.1%20Anbindung%20an%20Verzeichnisdienst.md)
+Übergeordnetes Control:<br>[KONF.4.1 Anbindung an Verzeichnisdienst](./KONF.4.1%20Anbindung%20an%20Verzeichnisdienst.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [KONF.4 Vertrauenswürdige Basisdienste](../KONF.4%20Vertrauenswürdige%
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6089e247-2518-4c90-b991-df8cbb24585f |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 6089e247-2518-4c90-b991-df8cbb24585f |
 

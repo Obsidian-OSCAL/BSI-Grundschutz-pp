@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - phishing
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.13.1 Filtern schädlicher Nachrichten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.13.1 Filtern schädlicher Nachrichten
+uid: 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58
+aliases: 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -46,7 +48,6 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58 |
 

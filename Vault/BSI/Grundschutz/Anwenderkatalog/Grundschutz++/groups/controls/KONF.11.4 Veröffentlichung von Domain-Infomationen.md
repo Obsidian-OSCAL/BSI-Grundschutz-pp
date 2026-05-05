@@ -7,10 +7,12 @@ tags:
 - recon
 - konf114-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.11.4 Veröffentlichung von Domain-Infomationen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.11.4 Veröffentlichung von Domain-Infomationen
+uid: 24d7bd4d-9ae9-4871-b6da-4c5186351b46
+aliases: 24d7bd4d-9ae9-4871-b6da-4c5186351b46
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -47,7 +49,6 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 24d7bd4d-9ae9-4871-b6da-4c5186351b46 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 24d7bd4d-9ae9-4871-b6da-4c5186351b46 |
 

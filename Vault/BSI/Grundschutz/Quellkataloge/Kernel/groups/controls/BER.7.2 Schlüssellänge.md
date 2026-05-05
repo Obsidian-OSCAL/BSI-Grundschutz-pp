@@ -5,10 +5,12 @@ tags:
 - cryptography
 - ber72-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.7.2 Schlüssellänge
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.7.2 Schlüssellänge
+uid: 39301f7d-20ca-49c0-97e5-a8b048877e68
+aliases: 39301f7d-20ca-49c0-97e5-a8b048877e68
 stmt_practice: Berechtigung
 stmt_action_word: zuweisen
 stmt_modal_verb: SOLLTE
@@ -20,7 +22,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.2 - Schlüssellänge
-Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 ---
 
@@ -40,7 +43,6 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 39301f7d-20ca-49c0-97e5-a8b048877e68 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 39301f7d-20ca-49c0-97e5-a8b048877e68 |
 

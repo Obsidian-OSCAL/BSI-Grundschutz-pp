@@ -5,10 +5,12 @@ tags:
 - network_access_control
 - rogue_access_point
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.4.1 Netzzugangskontrolle
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.4.1 Netzzugangskontrolle
+uid: 9ec9762e-c115-4e56-8b45-b88a872f47ce
+aliases: 9ec9762e-c115-4e56-8b45-b88a872f47ce
 stmt_practice: Architektur
 stmt_action_word: authentifizieren
 stmt_modal_verb: SOLLTE
@@ -49,9 +51,8 @@ Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 9ec9762e-c115-4e56-8b45-b88a872f47ce |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 9ec9762e-c115-4e56-8b45-b88a872f47ce |
 
 
 > [!info]- Links

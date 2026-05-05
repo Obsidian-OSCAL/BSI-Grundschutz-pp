@@ -8,10 +8,12 @@ tags:
 - password_policy
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.6.8 Kriterien für die Qualität von Passwörtern
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.6.8 Kriterien für die Qualität von Passwörtern
+uid: af5ba77a-8d77-4a4f-8842-23ba9dedb829
+aliases: af5ba77a-8d77-4a4f-8842-23ba9dedb829
 stmt_practice: Berechtigung
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -49,7 +51,6 @@ Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | af5ba77a-8d77-4a4f-8842-23ba9dedb829 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | af5ba77a-8d77-4a4f-8842-23ba9dedb829 |
 

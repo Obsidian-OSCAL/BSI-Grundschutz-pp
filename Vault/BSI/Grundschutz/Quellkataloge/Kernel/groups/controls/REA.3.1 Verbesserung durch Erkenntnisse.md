@@ -5,10 +5,12 @@ tags:
 - kompetenzmanagement
 - rea31-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: REA.3.1 Verbesserung durch Erkenntnisse
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: REA.3.1 Verbesserung durch Erkenntnisse
+uid: eb3880e9-a0da-4372-84a7-7b0b69b8a852
+aliases: eb3880e9-a0da-4372-84a7-7b0b69b8a852
 stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: überprüfen
 stmt_modal_verb: SOLLTE
@@ -20,7 +22,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # REA.3.1 - Verbesserung durch Erkenntnisse
-Tag: [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+> [!example]- [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+
 Gruppe: [REA.3 Nachbereitung](../REA.3%20Nachbereitung.md)
 ---
 
@@ -42,9 +45,8 @@ Gruppe: [REA.3 Nachbereitung](../REA.3%20Nachbereitung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | eb3880e9-a0da-4372-84a7-7b0b69b8a852 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | eb3880e9-a0da-4372-84a7-7b0b69b8a852 |
 
 
 > [!info]- Links

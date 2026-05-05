@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.8.3 Ressourcensouveränität
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.8.3 Ressourcensouveränität
+uid: c928db22-3ace-445e-b501-7ebb8fbd9c2d
+aliases: c928db22-3ace-445e-b501-7ebb8fbd9c2d
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: zuweisen
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20K
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | c928db22-3ace-445e-b501-7ebb8fbd9c2d |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | c928db22-3ace-445e-b501-7ebb8fbd9c2d |
 

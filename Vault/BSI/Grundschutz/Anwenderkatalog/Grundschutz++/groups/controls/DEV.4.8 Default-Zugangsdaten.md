@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - security_by_default
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.4.8 Default-Zugangsdaten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.4.8 Default-Zugangsdaten
+uid: 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64
+aliases: 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64
 stmt_practice: Entwicklung
 stmt_action_word: dokumentieren
 stmt_modal_verb: SOLLTE
@@ -47,7 +49,6 @@ Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64 |
 

@@ -6,10 +6,12 @@ tags:
 - det581-prm1
 - det581-prm2
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.5.8.1 Auswertung öffentlicher Quellen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.5.8.1 Auswertung öffentlicher Quellen
+uid: 42bf3e91-d270-4a79-8ae9-a22918f94ad7
+aliases: 42bf3e91-d270-4a79-8ae9-a22918f94ad7
 parent_control: DET.5.8 Bedrohungsanalyse
 stmt_practice: Detektion
 stmt_action_word: überprüfen
@@ -21,11 +23,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DET.5.8.1 - Auswertung öffentlicher Quellen
-Tag: [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+> [!example]- [Data Leak](../../../../namespaces/entries/tags_Data_Leak.md)
+
 Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schwachstellen.md)
 ---
 
-Übergeordnetes Control:<br> [DET.5.8 Bedrohungsanalyse](./DET.5.8%20Bedrohungsanalyse.md)
+Übergeordnetes Control:<br>[DET.5.8 Bedrohungsanalyse](./DET.5.8%20Bedrohungsanalyse.md)
 > [!example]- Untergeordnete Controls
 
 > [DET.5.8.1.1 Unautorisierte Publikation](./DET.5.8.1.1%20Unautorisierte%20Publikation.md)### Statement
@@ -44,7 +47,6 @@ Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schw
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 42bf3e91-d270-4a79-8ae9-a22918f94ad7 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 42bf3e91-d270-4a79-8ae9-a22918f94ad7 |
 

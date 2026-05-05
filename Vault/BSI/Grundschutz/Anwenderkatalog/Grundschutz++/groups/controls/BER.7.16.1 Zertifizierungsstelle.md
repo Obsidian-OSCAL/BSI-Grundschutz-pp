@@ -5,10 +5,12 @@ tags:
 - cryptography
 - ber7161-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.7.16.1 Zertifizierungsstelle
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.7.16.1 Zertifizierungsstelle
+uid: 7b80290b-5c6d-4e39-857c-0a63a8e2543a
+aliases: 7b80290b-5c6d-4e39-857c-0a63a8e2543a
 parent_control: BER.7.16 Vorgaben für die Schlüsselbeglaubigung
 stmt_practice: Berechtigung
 stmt_action_word: zuweisen
@@ -21,11 +23,12 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BER.7.16.1 - Zertifizierungsstelle
-Tag: [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+> [!example]- [Cryptography](../../../../namespaces/entries/tags_Cryptography.md)
+
 Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 ---
 
-Übergeordnetes Control:<br> [BER.7.16 Vorgaben für die Schlüsselbeglaubigung](./BER.7.16%20Vorgaben%20für%20die%20Schlüsselbeglaubigung.md)
+Übergeordnetes Control:<br>[BER.7.16 Vorgaben für die Schlüsselbeglaubigung](./BER.7.16%20Vorgaben%20für%20die%20Schlüsselbeglaubigung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,7 +45,6 @@ Gruppe: [BER.7 Schlüsselmanagement](../BER.7%20Schlüsselmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 7b80290b-5c6d-4e39-857c-0a63a8e2543a |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 7b80290b-5c6d-4e39-857c-0a63a8e2543a |
 

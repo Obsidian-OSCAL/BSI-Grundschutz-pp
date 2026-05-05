@@ -5,10 +5,12 @@ tags:
 - physical_access_control
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: SENS.8.4 Begleitung Externer
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: SENS.8.4 Begleitung Externer
+uid: 1f0a8e0c-33cd-407a-9579-e2dcc6d46515
+aliases: 1f0a8e0c-33cd-407a-9579-e2dcc6d46515
 stmt_practice: Sensibilisierung
 stmt_action_word: anweisen
 stmt_modal_verb: KANN
@@ -45,7 +47,6 @@ Gruppe: [SENS.8 Physische Sicherheit](../SENS.8%20Physische%20Sicherheit.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 1f0a8e0c-33cd-407a-9579-e2dcc6d46515 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 1f0a8e0c-33cd-407a-9579-e2dcc6d46515 |
 

@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - bes42-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.4.2 Dokumentation der Beschaffungskriterien
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.4.2 Dokumentation der Beschaffungskriterien
+uid: 91319f26-75c0-476c-b544-aedd4dbf6e14
+aliases: 91319f26-75c0-476c-b544-aedd4dbf6e14
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: dokumentieren
 stmt_modal_verb: SOLLTE
@@ -20,7 +22,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.2 - Dokumentation der Beschaffungskriterien
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
@@ -40,9 +43,8 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 91319f26-75c0-476c-b544-aedd4dbf6e14 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 91319f26-75c0-476c-b544-aedd4dbf6e14 |
 
 
 > [!info]- Links

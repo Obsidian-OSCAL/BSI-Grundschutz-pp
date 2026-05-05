@@ -5,10 +5,12 @@ tags:
 - inventories
 - zero_trust
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ASST.2.2 Inventar der Systeme
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ASST.2.2 Inventar der Systeme
+uid: b10fc10c-a3be-4b30-977a-6a2d020760d6
+aliases: b10fc10c-a3be-4b30-977a-6a2d020760d6
 stmt_practice: Informationen und Assets
 stmt_action_word: dokumentieren
 stmt_modal_verb: SOLLTE
@@ -45,7 +47,6 @@ Gruppe: [ASST.2 Inventarisierung](../ASST.2%20Inventarisierung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | b10fc10c-a3be-4b30-977a-6a2d020760d6 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | b10fc10c-a3be-4b30-977a-6a2d020760d6 |
 

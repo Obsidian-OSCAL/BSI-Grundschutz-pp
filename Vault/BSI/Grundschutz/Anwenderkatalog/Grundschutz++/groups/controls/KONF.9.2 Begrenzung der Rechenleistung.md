@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf92-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.9.2 Begrenzung der Rechenleistung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.9.2 Begrenzung der Rechenleistung
+uid: 3b0eb166-07b9-4b51-a1f5-75513b28015c
+aliases: 3b0eb166-07b9-4b51-a1f5-75513b28015c
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.9.2 - Begrenzung der Rechenleistung
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.9 Verfügbarkeit von Ressourcen](../KONF.9%20Verfügbarkeit%20von%20Ressourcen.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [KONF.9 Verfügbarkeit von Ressourcen](../KONF.9%20Verfügbarkeit%20von%
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3b0eb166-07b9-4b51-a1f5-75513b28015c |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 3b0eb166-07b9-4b51-a1f5-75513b28015c |
 

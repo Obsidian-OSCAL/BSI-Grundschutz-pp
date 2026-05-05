@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.13.3 Kryptographische Signatur des Mailservers
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.13.3 Kryptographische Signatur des Mailservers
+uid: 0588d640-bda0-46d7-978e-6c742f098327
+aliases: 0588d640-bda0-46d7-978e-6c742f098327
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 0588d640-bda0-46d7-978e-6c742f098327 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 0588d640-bda0-46d7-978e-6c742f098327 |
 

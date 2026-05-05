@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf137-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.13.7 TLS-Reports
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.13.7 TLS-Reports
+uid: becbeefc-417d-42e4-b2a0-7a296c23fa9c
+aliases: becbeefc-417d-42e4-b2a0-7a296c23fa9c
 stmt_practice: Konfiguration
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -21,7 +23,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.13.7 - TLS-Reports
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und%20Empfangen%20von%20Nachrichten.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [KONF.13 Senden und Empfangen von Nachrichten](../KONF.13%20Senden%20und
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | becbeefc-417d-42e4-b2a0-7a296c23fa9c |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | becbeefc-417d-42e4-b2a0-7a296c23fa9c |
 

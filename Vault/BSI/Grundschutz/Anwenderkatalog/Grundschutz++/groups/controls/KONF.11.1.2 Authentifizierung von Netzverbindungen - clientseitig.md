@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - zero_trust
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.11.1.2 Authentifizierung von Netzverbindungen - clientseitig
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.11.1.2 Authentifizierung von Netzverbindungen - clientseitig
+uid: 7bf1392f-5c43-43da-bb36-498b8a678e28
+aliases: 7bf1392f-5c43-43da-bb36-498b8a678e28
 parent_control: KONF.11.1 Authentifizierung vor dem Zugriff
 stmt_practice: Konfiguration
 stmt_action_word: authentifizieren
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.11.1 Authentifizierung vor dem Zugriff](./KONF.11.1%20Authentifizierung%20vor%20dem%20Zugriff.md)
+Übergeordnetes Control:<br>[KONF.11.1 Authentifizierung vor dem Zugriff](./KONF.11.1%20Authentifizierung%20vor%20dem%20Zugriff.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,9 +48,8 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 7bf1392f-5c43-43da-bb36-498b8a678e28 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 7bf1392f-5c43-43da-bb36-498b8a678e28 |
 
 
 > [!info]- Links

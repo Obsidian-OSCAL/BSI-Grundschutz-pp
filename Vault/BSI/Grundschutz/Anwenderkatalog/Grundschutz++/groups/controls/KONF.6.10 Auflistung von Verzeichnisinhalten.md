@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - data_leak
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.6.10 Auflistung von Verzeichnisinhalten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.6.10 Auflistung von Verzeichnisinhalten
+uid: ce8d6ad1-d414-48a3-b273-50fa01fd2ee6
+aliases: ce8d6ad1-d414-48a3-b273-50fa01fd2ee6
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigu
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ce8d6ad1-d414-48a3-b273-50fa01fd2ee6 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | ce8d6ad1-d414-48a3-b273-50fa01fd2ee6 |
 

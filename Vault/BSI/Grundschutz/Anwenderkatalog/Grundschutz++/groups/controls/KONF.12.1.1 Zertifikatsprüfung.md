@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - phishing
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.12.1.1 Zertifikatsprüfung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.12.1.1 Zertifikatsprüfung
+uid: 0e183da9-8671-492b-ba81-f95ff6d90a26
+aliases: 0e183da9-8671-492b-ba81-f95ff6d90a26
 parent_control: KONF.12.1 Eingabevalidierung
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20Datenverarbeitung.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.12.1 Eingabevalidierung](./KONF.12.1%20Eingabevalidierung.md)
+Übergeordnetes Control:<br>[KONF.12.1 Eingabevalidierung](./KONF.12.1%20Eingabevalidierung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [KONF.12 Kontrollierte Datenverarbeitung](../KONF.12%20Kontrollierte%20D
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 0e183da9-8671-492b-ba81-f95ff6d90a26 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
-> | ** Alternate Identifier ** | 0e183da9-8671-492b-ba81-f95ff6d90a26 |
 

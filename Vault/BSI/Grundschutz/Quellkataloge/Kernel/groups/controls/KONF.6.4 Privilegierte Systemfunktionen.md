@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - living_off_the_land
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.6.4 Privilegierte Systemfunktionen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.6.4 Privilegierte Systemfunktionen
+uid: f129ae20-1423-4df0-a735-db8365592cd1
+aliases: f129ae20-1423-4df0-a735-db8365592cd1
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -46,7 +48,6 @@ Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigu
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | f129ae20-1423-4df0-a735-db8365592cd1 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | f129ae20-1423-4df0-a735-db8365592cd1 |
 

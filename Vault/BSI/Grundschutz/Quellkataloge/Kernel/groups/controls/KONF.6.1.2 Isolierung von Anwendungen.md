@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - konf612-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.6.1.2 Isolierung von Anwendungen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.6.1.2 Isolierung von Anwendungen
+uid: d380c6d8-1ab0-4e4b-bcca-2e620b40d934
+aliases: d380c6d8-1ab0-4e4b-bcca-2e620b40d934
 parent_control: KONF.6.1 Minimal erforderliche Berechtigungen für Anwendungen
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # KONF.6.1.2 - Isolierung von Anwendungen
-Tag: [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+> [!example]- [Produktbeschreibung](../../../../namespaces/entries/tags_Produktbeschreibung.md)
+
 Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigungen.md)
 ---
 
-Übergeordnetes Control:<br> [KONF.6.1 Minimal erforderliche Berechtigungen für Anwendungen](./KONF.6.1%20Minimal%20erforderliche%20Berechtigungen%20für%20Anwendungen.md)
+Übergeordnetes Control:<br>[KONF.6.1 Minimal erforderliche Berechtigungen für Anwendungen](./KONF.6.1%20Minimal%20erforderliche%20Berechtigungen%20für%20Anwendungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,7 +46,6 @@ Gruppe: [KONF.6 Rollen und Berechtigungen](../KONF.6%20Rollen%20und%20Berechtigu
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | d380c6d8-1ab0-4e4b-bcca-2e620b40d934 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | d380c6d8-1ab0-4e4b-bcca-2e620b40d934 |
 

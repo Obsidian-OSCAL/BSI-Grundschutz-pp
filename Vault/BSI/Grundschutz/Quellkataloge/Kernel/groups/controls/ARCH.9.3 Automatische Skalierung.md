@@ -6,10 +6,12 @@ tags:
 - ddos
 - arch93-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.9.3 Automatische Skalierung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.9.3 Automatische Skalierung
+uid: bbfa749a-99a4-4ff3-9cce-5ceeb3162596
+aliases: bbfa749a-99a4-4ff3-9cce-5ceeb3162596
 stmt_practice: Architektur
 stmt_action_word: aktivieren
 stmt_modal_verb: KANN
@@ -45,7 +47,6 @@ Gruppe: [ARCH.9 Kapazitätsmanagement](../ARCH.9%20Kapazitätsmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | bbfa749a-99a4-4ff3-9cce-5ceeb3162596 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | bbfa749a-99a4-4ff3-9cce-5ceeb3162596 |
 

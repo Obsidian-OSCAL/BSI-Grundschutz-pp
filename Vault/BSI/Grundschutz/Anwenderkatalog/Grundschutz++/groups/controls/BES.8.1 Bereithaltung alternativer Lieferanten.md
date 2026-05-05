@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.8.1 Bereithaltung alternativer Lieferanten
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.8.1 Bereithaltung alternativer Lieferanten
+uid: 7a7af54d-83c0-4a32-900f-e4ff9ac02450
+aliases: 7a7af54d-83c0-4a32-900f-e4ff9ac02450
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: verankern
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [BES.8 Kompensierende Kontrollmechanismen](../BES.8%20Kompensierende%20K
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 7a7af54d-83c0-4a32-900f-e4ff9ac02450 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 7a7af54d-83c0-4a32-900f-e4ff9ac02450 |
 

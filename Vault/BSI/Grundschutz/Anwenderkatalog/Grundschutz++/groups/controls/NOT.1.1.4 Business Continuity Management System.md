@@ -5,10 +5,12 @@ tags:
 - not114-prm1
 - not114-prm2
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: NOT.1.1.4 Business Continuity Management System
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: NOT.1.1.4 Business Continuity Management System
+uid: 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7
+aliases: 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7
 parent_control: NOT.1.1 Verfahren und Regelungen
 stmt_practice: Notfallplanung
 stmt_action_word: verankern
@@ -24,7 +26,7 @@ control_security_level: erhöht
 Gruppe: [NOT.1 Grundlagen](../NOT.1%20Grundlagen.md)
 ---
 
-Übergeordnetes Control:<br> [NOT.1.1 Verfahren und Regelungen](./NOT.1.1%20Verfahren%20und%20Regelungen.md)
+Übergeordnetes Control:<br>[NOT.1.1 Verfahren und Regelungen](./NOT.1.1%20Verfahren%20und%20Regelungen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -41,7 +43,6 @@ Gruppe: [NOT.1 Grundlagen](../NOT.1%20Grundlagen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7 |
 

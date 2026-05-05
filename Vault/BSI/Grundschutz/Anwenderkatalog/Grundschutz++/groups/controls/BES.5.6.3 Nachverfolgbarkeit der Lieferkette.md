@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - bes563-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.5.6.3 Nachverfolgbarkeit der Lieferkette
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.5.6.3 Nachverfolgbarkeit der Lieferkette
+uid: 95512f8d-eca6-4928-a56f-1a58e5fcf3f0
+aliases: 95512f8d-eca6-4928-a56f-1a58e5fcf3f0
 parent_control: BES.5.6 Vergabe von Unteraufträgen
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
@@ -21,11 +23,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.5.6.3 - Nachverfolgbarkeit der Lieferkette
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../BES.5%20Auswahl%20von%20Produkten%20und%20Dienstleistungen%20-%20Zusammenarbeit.md)
 ---
 
-Übergeordnetes Control:<br> [BES.5.6 Vergabe von Unteraufträgen](./BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
+Übergeordnetes Control:<br>[BES.5.6 Vergabe von Unteraufträgen](./BES.5.6%20Vergabe%20von%20Unteraufträgen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,7 +45,6 @@ Gruppe: [BES.5 Auswahl von Produkten und Dienstleistungen - Zusammenarbeit](../B
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 95512f8d-eca6-4928-a56f-1a58e5fcf3f0 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 95512f8d-eca6-4928-a56f-1a58e5fcf3f0 |
 

@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - living_off_the_land
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.7.10 Einschränkung der Ausführung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.7.10 Einschränkung der Ausführung
+uid: 02df7412-74de-45a2-abfd-aa8cf94ff93d
+aliases: 02df7412-74de-45a2-abfd-aa8cf94ff93d
 stmt_practice: Konfiguration
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [KONF.7 Schutz vor Schadcode](../KONF.7%20Schutz%20vor%20Schadcode.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 02df7412-74de-45a2-abfd-aa8cf94ff93d |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 02df7412-74de-45a2-abfd-aa8cf94ff93d |
 

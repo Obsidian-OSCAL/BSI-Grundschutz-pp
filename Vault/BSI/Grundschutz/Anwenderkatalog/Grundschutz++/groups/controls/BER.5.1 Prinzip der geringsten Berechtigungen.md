@@ -5,10 +5,12 @@ tags:
 - security_by_default
 - privilegierte_rechte
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.5.1 Prinzip der geringsten Berechtigungen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.5.1 Prinzip der geringsten Berechtigungen
+uid: 0e1f4190-44ad-48f0-9504-781aef585ba0
+aliases: 0e1f4190-44ad-48f0-9504-781aef585ba0
 stmt_practice: Berechtigung
 stmt_action_word: einschränken
 stmt_modal_verb: SOLLTE
@@ -45,7 +47,6 @@ Gruppe: [BER.5 Berechtigungsmanagement](../BER.5%20Berechtigungsmanagement.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 0e1f4190-44ad-48f0-9504-781aef585ba0 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
-> | ** Alternate Identifier ** | 0e1f4190-44ad-48f0-9504-781aef585ba0 |
 

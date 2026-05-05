@@ -6,10 +6,12 @@ tags:
 - pers53-prm1
 - pers53-prm2
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: PERS.5.3 Vertrauens-Check sicherheitskritischer Rollen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: PERS.5.3 Vertrauens-Check sicherheitskritischer Rollen
+uid: 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88
+aliases: 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88
 stmt_practice: Personal
 stmt_action_word: überprüfen
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # PERS.5.3 - Vertrauens-Check sicherheitskritischer Rollen
-Tag: [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+> [!example]- [Insider Threat](../../../../namespaces/entries/tags_Insider_Threat.md)
+
 Gruppe: [PERS.5 Personalbetreuung](../PERS.5%20Personalbetreuung.md)
 ---
 
@@ -41,7 +44,6 @@ Gruppe: [PERS.5 Personalbetreuung](../PERS.5%20Personalbetreuung.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88 |
 

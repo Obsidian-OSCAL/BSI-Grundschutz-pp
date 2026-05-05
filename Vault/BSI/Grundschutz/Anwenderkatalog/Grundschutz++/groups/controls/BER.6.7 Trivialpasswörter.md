@@ -5,10 +5,12 @@ tags:
 - credential_stuffing
 - password_policy
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BER.6.7 Trivialpasswörter
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BER.6.7 Trivialpasswörter
+uid: f0722999-f8c4-4c75-810b-94d7563dd698
+aliases: f0722999-f8c4-4c75-810b-94d7563dd698
 stmt_practice: Berechtigung
 stmt_action_word: blockieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [BER.6 Passwortgebrauch](../BER.6%20Passwortgebrauch.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | f0722999-f8c4-4c75-810b-94d7563dd698 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | f0722999-f8c4-4c75-810b-94d7563dd698 |
 

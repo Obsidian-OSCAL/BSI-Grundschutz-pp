@@ -5,10 +5,12 @@ tags:
 - insider_threat
 - kompetenzmanagement
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: PERS.6.1 Vorgehensweise für den Weggang
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: PERS.6.1 Vorgehensweise für den Weggang
+uid: 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae
+aliases: 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae
 stmt_practice: Personal
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -46,9 +48,8 @@ Gruppe: [PERS.6 Weggang von Mitarbeitenden](../PERS.6%20Weggang%20von%20Mitarbei
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae |
 
 
 > [!info]- Links

@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - zero_trust
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: KONF.11.1 Authentifizierung vor dem Zugriff
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: KONF.11.1 Authentifizierung vor dem Zugriff
+uid: 6bcd486c-909c-424c-9f78-35ed96588a5c
+aliases: 6bcd486c-909c-424c-9f78-35ed96588a5c
 stmt_practice: Konfiguration
 stmt_action_word: authentifizieren
 stmt_modal_verb: SOLLTE
@@ -49,9 +51,8 @@ Gruppe: [KONF.11 Vertrauensbeziehungen](../KONF.11%20Vertrauensbeziehungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6bcd486c-909c-424c-9f78-35ed96588a5c |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
-> | ** Alternate Identifier ** | 6bcd486c-909c-424c-9f78-35ed96588a5c |
 
 
 > [!info]- Links

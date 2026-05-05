@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.6.5 Behandlung aufzubewahrender Aufzeichnungen
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.6.5 Behandlung aufzubewahrender Aufzeichnungen
+uid: a397ee7e-3766-4454-9805-c2b31ffcb80e
+aliases: a397ee7e-3766-4454-9805-c2b31ffcb80e
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
 stmt_modal_verb: SOLLTE
@@ -43,7 +45,6 @@ Gruppe: [BES.6 Auswahl von Produkten und Dienstleistungen - Kündigung](../BES.6
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | a397ee7e-3766-4454-9805-c2b31ffcb80e |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | a397ee7e-3766-4454-9805-c2b31ffcb80e |
 

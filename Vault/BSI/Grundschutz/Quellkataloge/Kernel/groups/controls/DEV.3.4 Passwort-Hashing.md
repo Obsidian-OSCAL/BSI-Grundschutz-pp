@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.3.4 Passwort-Hashing
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.3.4 Passwort-Hashing
+uid: 6b7d5613-a32c-4a47-8a4f-766053da0e74
+aliases: 6b7d5613-a32c-4a47-8a4f-766053da0e74
 stmt_practice: Entwicklung
 stmt_action_word: aktivieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [DEV.3 Softwareentwicklung - Härtung](../DEV.3%20Softwareentwicklung%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6b7d5613-a32c-4a47-8a4f-766053da0e74 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [1](../../../../namespaces/entries/effort_level_1.md) |
-> | ** Alternate Identifier ** | 6b7d5613-a32c-4a47-8a4f-766053da0e74 |
 

@@ -5,10 +5,12 @@ tags:
 - lieferketten
 - bes481-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: BES.4.8.1 Zertifizierung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: BES.4.8.1 Zertifizierung
+uid: 6cecab39-d08d-49a1-922e-b3f9ea7d5af4
+aliases: 6cecab39-d08d-49a1-922e-b3f9ea7d5af4
 parent_control: BES.4.8 Konformitätsnachweise
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren
@@ -21,11 +23,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # BES.4.8.1 - Zertifizierung
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20von%20Produkten%20und%20Dienstleistungen.md)
 ---
 
-Übergeordnetes Control:<br> [BES.4.8 Konformitätsnachweise](./BES.4.8%20Konformitätsnachweise.md)
+Übergeordnetes Control:<br>[BES.4.8 Konformitätsnachweise](./BES.4.8%20Konformitätsnachweise.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -42,7 +45,6 @@ Gruppe: [BES.4 Auswahl von Produkten und Dienstleistungen](../BES.4%20Auswahl%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 6cecab39-d08d-49a1-922e-b3f9ea7d5af4 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 6cecab39-d08d-49a1-922e-b3f9ea7d5af4 |
 

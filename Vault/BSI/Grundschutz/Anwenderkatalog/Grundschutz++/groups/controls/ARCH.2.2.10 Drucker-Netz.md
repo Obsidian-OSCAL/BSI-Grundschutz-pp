@@ -5,10 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.2.2.10 Drucker-Netz
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.2.2.10 Drucker-Netz
+uid: 48013e9f-7f90-495c-8cbd-aaf33f5060fb
+aliases: 48013e9f-7f90-495c-8cbd-aaf33f5060fb
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur
 stmt_action_word: einschränken
@@ -29,7 +31,7 @@ control_security_level: normal-SdT
 Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 ---
 
-Übergeordnetes Control:<br> [ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten](./ARCH.2.2%20Einschränkung%20von%20Verbindungen%20zwischen%20Segmenten.md)
+Übergeordnetes Control:<br>[ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten](./ARCH.2.2%20Einschränkung%20von%20Verbindungen%20zwischen%20Segmenten.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -46,7 +48,6 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 48013e9f-7f90-495c-8cbd-aaf33f5060fb |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 48013e9f-7f90-495c-8cbd-aaf33f5060fb |
 

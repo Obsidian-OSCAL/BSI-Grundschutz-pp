@@ -5,10 +5,12 @@ tags:
 - archivierung
 - asst721-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ASST.7.2.1 Langfristige Archivierung
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ASST.7.2.1 Langfristige Archivierung
+uid: d26539e6-62c3-469a-87f3-87ab15fd9213
+aliases: d26539e6-62c3-469a-87f3-87ab15fd9213
 parent_control: ASST.7.2 Aufbewahrungs- und Löschfristen
 stmt_practice: Informationen und Assets
 stmt_action_word: verankern
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.7.2.1 - Langfristige Archivierung
-Tag: [Archivierung](../../../../namespaces/entries/tags_Archivierung.md)
+> [!example]- [Archivierung](../../../../namespaces/entries/tags_Archivierung.md)
+
 Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten.md)
 ---
 
-Übergeordnetes Control:<br> [ASST.7.2 Aufbewahrungs- und Löschfristen](./ASST.7.2%20Aufbewahrungs-%20und%20Löschfristen.md)
+Übergeordnetes Control:<br>[ASST.7.2 Aufbewahrungs- und Löschfristen](./ASST.7.2%20Aufbewahrungs-%20und%20Löschfristen.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,9 +46,8 @@ Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | d26539e6-62c3-469a-87f3-87ab15fd9213 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | d26539e6-62c3-469a-87f3-87ab15fd9213 |
 
 
 > [!info]- Links

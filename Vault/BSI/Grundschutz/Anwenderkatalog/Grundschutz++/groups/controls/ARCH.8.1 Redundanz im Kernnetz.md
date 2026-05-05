@@ -5,10 +5,12 @@ tags:
 - hochverfügbarkeit
 - failover
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.8.1 Redundanz im Kernnetz
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.8.1 Redundanz im Kernnetz
+uid: 37f932b2-e132-4bf0-b8c3-eed73eadc680
+aliases: 37f932b2-e132-4bf0-b8c3-eed73eadc680
 stmt_practice: Architektur
 stmt_action_word: installieren
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [ARCH.8 Ausfallsicherheit](../ARCH.8%20Ausfallsicherheit.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 37f932b2-e132-4bf0-b8c3-eed73eadc680 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 37f932b2-e132-4bf0-b8c3-eed73eadc680 |
 

@@ -5,10 +5,12 @@ tags:
 - hochverfügbarkeit
 - geb913-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: GEB.9.1.3 Redundante Stromversorgung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: GEB.9.1.3 Redundante Stromversorgung
+uid: eeaa8977-05e5-4eaa-a5b7-ea490eb543cd
+aliases: eeaa8977-05e5-4eaa-a5b7-ea490eb543cd
 parent_control: GEB.9.1 Normgerechte Stromversorgung
 stmt_practice: Gebäudemanagement
 stmt_action_word: installieren
@@ -22,11 +24,12 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # GEB.9.1.3 - Redundante Stromversorgung
-Tag: [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+> [!example]- [Hochverfügbarkeit](../../../../namespaces/entries/tags_Hochverfügbarkeit.md)
+
 Gruppe: [GEB.9 Versorgungseinrichtungen](../GEB.9%20Versorgungseinrichtungen.md)
 ---
 
-Übergeordnetes Control:<br> [GEB.9.1 Normgerechte Stromversorgung](./GEB.9.1%20Normgerechte%20Stromversorgung.md)
+Übergeordnetes Control:<br>[GEB.9.1 Normgerechte Stromversorgung](./GEB.9.1%20Normgerechte%20Stromversorgung.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -43,7 +46,6 @@ Gruppe: [GEB.9 Versorgungseinrichtungen](../GEB.9%20Versorgungseinrichtungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | eeaa8977-05e5-4eaa-a5b7-ea490eb543cd |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | eeaa8977-05e5-4eaa-a5b7-ea490eb543cd |
 

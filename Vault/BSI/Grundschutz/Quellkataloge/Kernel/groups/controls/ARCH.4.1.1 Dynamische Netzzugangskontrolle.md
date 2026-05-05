@@ -7,10 +7,12 @@ tags:
 - zero_trust
 - arch411-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.4.1.1 Dynamische Netzzugangskontrolle
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.4.1.1 Dynamische Netzzugangskontrolle
+uid: fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7
+aliases: fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7
 parent_control: ARCH.4.1 Netzzugangskontrolle
 stmt_practice: Architektur
 stmt_action_word: authentifizieren
@@ -33,7 +35,7 @@ control_security_level: normal-SdT
 Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 ---
 
-Übergeordnetes Control:<br> [ARCH.4.1 Netzzugangskontrolle](./ARCH.4.1%20Netzzugangskontrolle.md)
+Übergeordnetes Control:<br>[ARCH.4.1 Netzzugangskontrolle](./ARCH.4.1%20Netzzugangskontrolle.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -52,7 +54,6 @@ Gruppe: [ARCH.4 Zugangsbeschränkungen](../ARCH.4%20Zugangsbeschränkungen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7 |
 

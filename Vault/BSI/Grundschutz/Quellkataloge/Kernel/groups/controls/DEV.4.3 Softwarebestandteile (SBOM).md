@@ -5,10 +5,12 @@ tags:
 - produktbeschreibung
 - lieferketten
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DEV.4.3 Softwarebestandteile (SBOM)
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DEV.4.3 Softwarebestandteile (SBOM)
+uid: 5b695087-3a35-441a-b8c9-9937a681a996
+aliases: 5b695087-3a35-441a-b8c9-9937a681a996
 stmt_practice: Entwicklung
 stmt_action_word: dokumentieren
 stmt_modal_verb: SOLLTE
@@ -44,9 +46,8 @@ Gruppe: [DEV.4 Softwareentwicklung - Code](../DEV.4%20Softwareentwicklung%20-%20
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 5b695087-3a35-441a-b8c9-9937a681a996 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [3](../../../../namespaces/entries/effort_level_3.md) |
-> | ** Alternate Identifier ** | 5b695087-3a35-441a-b8c9-9937a681a996 |
 
 
 > [!info]- Links

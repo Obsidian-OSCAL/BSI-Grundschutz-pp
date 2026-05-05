@@ -6,10 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - det55-prm1
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DET.5.5 Red Teaming
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DET.5.5 Red Teaming
+uid: ea34243d-adc3-4208-ab4e-25247aa8c009
+aliases: ea34243d-adc3-4208-ab4e-25247aa8c009
 stmt_practice: Detektion
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -44,7 +46,6 @@ Gruppe: [DET.5 Management von Schwachstellen](../DET.5%20Management%20von%20Schw
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ea34243d-adc3-4208-ab4e-25247aa8c009 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | ea34243d-adc3-4208-ab4e-25247aa8c009 |
 

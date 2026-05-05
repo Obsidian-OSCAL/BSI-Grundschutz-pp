@@ -5,10 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ARCH.2.1 Netzsegmente
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ARCH.2.1 Netzsegmente
+uid: ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18
+aliases: ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18
 stmt_practice: Architektur
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -44,7 +46,6 @@ Gruppe: [ARCH.2 Netzdesign](../ARCH.2%20Netzdesign.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18 |
 

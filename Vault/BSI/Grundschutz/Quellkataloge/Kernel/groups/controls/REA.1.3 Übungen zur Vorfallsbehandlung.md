@@ -5,10 +5,12 @@ tags:
 - kompetenzmanagement
 - rea13-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: REA.1.3 Übungen zur Vorfallsbehandlung
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: REA.1.3 Übungen zur Vorfallsbehandlung
+uid: 3dc90c0b-c5bb-49e1-bb56-10397acc8be9
+aliases: 3dc90c0b-c5bb-49e1-bb56-10397acc8be9
 stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: überprüfen
 stmt_modal_verb: KANN
@@ -20,7 +22,8 @@ control_security_level: erhöht
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # REA.1.3 - Übungen zur Vorfallsbehandlung
-Tag: [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+> [!example]- [Kompetenzmanagement](../../../../namespaces/entries/tags_Kompetenzmanagement.md)
+
 Gruppe: [REA.1 Grundlagen](../REA.1%20Grundlagen.md)
 ---
 
@@ -40,7 +43,6 @@ Gruppe: [REA.1 Grundlagen](../REA.1%20Grundlagen.md)
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 3dc90c0b-c5bb-49e1-bb56-10397acc8be9 |
-> | ** Security Level** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
+> | ** Security Level ** | [erhöht](../../../../namespaces/entries/security_level_erhöht.md) |
 > | ** Effort Level ** | [5](../../../../namespaces/entries/effort_level_5.md) |
-> | ** Alternate Identifier ** | 3dc90c0b-c5bb-49e1-bb56-10397acc8be9 |
 

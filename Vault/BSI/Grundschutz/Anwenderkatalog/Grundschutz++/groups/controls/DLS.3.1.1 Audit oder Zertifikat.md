@@ -6,10 +6,12 @@ tags:
 - dls311-prm1
 - dls311-prm2
 - oscal_control
-created: Sat May 02 11:42:32 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: DLS.3.1.1 Audit oder Zertifikat
+created: Sun May 03 15:36:12 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: DLS.3.1.1 Audit oder Zertifikat
+uid: 12c2c250-86b8-46a0-bccd-d0b2f59b6bae
+aliases: 12c2c250-86b8-46a0-bccd-d0b2f59b6bae
 parent_control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: überprüfen
@@ -23,11 +25,12 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # DLS.3.1.1 - Audit oder Zertifikat
-Tag: [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+> [!example]- [Lieferketten](../../../../namespaces/entries/tags_Lieferketten.md)
+
 Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienstleistern.md)
 ---
 
-Übergeordnetes Control:<br> [DLS.3.1 Einhaltung der Sicherheitsvorgaben](./DLS.3.1%20Einhaltung%20der%20Sicherheitsvorgaben.md)
+Übergeordnetes Control:<br>[DLS.3.1 Einhaltung der Sicherheitsvorgaben](./DLS.3.1%20Einhaltung%20der%20Sicherheitsvorgaben.md)
 ### Statement
 |  Gruppe | Praktik | Zielobjekt | Modalverb | Ergebnis | Präzisierung Ergebnis | Handlungswort | Dokumentation |
 | - | - | - | - | - | - | - | - |
@@ -44,7 +47,6 @@ Gruppe: [DLS.3 Kontrolle von Dienstleistern](../DLS.3%20Kontrolle%20von%20Dienst
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 12c2c250-86b8-46a0-bccd-d0b2f59b6bae |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [4](../../../../namespaces/entries/effort_level_4.md) |
-> | ** Alternate Identifier ** | 12c2c250-86b8-46a0-bccd-d0b2f59b6bae |
 

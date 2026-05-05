@@ -5,10 +5,12 @@ tags:
 - archivierung
 - asst72-prm1
 - oscal_control
-created: Sat May 02 11:42:33 CEST 2026
-class: BSI-Stand-der-Technik-Kernel
-type: control
-control: ASST.7.2 Aufbewahrungs- und Löschfristen
+created: Sun May 03 15:36:13 CEST 2026
+oscal_class: BSI-Stand-der-Technik-Kernel
+oscal_type: control
+oscal_control: ASST.7.2 Aufbewahrungs- und Löschfristen
+uid: 2574ffa3-fa96-4eed-8a9a-e67216d499d9
+aliases: 2574ffa3-fa96-4eed-8a9a-e67216d499d9
 stmt_practice: Informationen und Assets
 stmt_action_word: verankern
 stmt_modal_verb: SOLLTE
@@ -21,7 +23,8 @@ control_security_level: normal-SdT
 
 ** Control ** der Klasse "BSI-Stand-der-Technik-Kernel"
 # ASST.7.2 - Aufbewahrungs- und Löschfristen
-Tag: [Archivierung](../../../../namespaces/entries/tags_Archivierung.md)
+> [!example]- [Archivierung](../../../../namespaces/entries/tags_Archivierung.md)
+
 Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten.md)
 ---
 
@@ -43,7 +46,6 @@ Gruppe: [ASST.7 Löschen und Vernichten](../ASST.7%20Löschen%20und%20Vernichten
 > |  | |
 > | - | - |
 > | ** Alternate Identifier ** | 2574ffa3-fa96-4eed-8a9a-e67216d499d9 |
-> | ** Security Level** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
+> | ** Security Level ** | [normal-SdT](../../../../namespaces/entries/security_level_normal-SdT.md) |
 > | ** Effort Level ** | [2](../../../../namespaces/entries/effort_level_2.md) |
-> | ** Alternate Identifier ** | 2574ffa3-fa96-4eed-8a9a-e67216d499d9 |
 

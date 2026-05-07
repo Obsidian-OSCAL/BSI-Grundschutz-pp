@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - lieferketten
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.7.11 Einschränkung von Softwarebibliotheken
-uid: 8de44b0e-0241-4519-9dc3-e941800b4168
+bsi_title: KONF.7.11 Einschränkung von Softwarebibliotheken
+uuid: 8de44b0e-0241-4519-9dc3-e941800b4168
 aliases: 8de44b0e-0241-4519-9dc3-e941800b4168
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

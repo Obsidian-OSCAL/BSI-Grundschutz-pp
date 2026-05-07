@@ -5,11 +5,12 @@ tags:
 - not114-prm1
 - not114-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: NOT.1.1.4 Business Continuity Management System
-uid: 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7
+bsi_title: NOT.1.1.4 Business Continuity Management System
+uuid: 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7
 aliases: 9cfedbf2-6dc8-4ca5-8d93-26610884e3b7
 parent_control: NOT.1.1 Verfahren und Regelungen
 stmt_practice: Notfallplanung

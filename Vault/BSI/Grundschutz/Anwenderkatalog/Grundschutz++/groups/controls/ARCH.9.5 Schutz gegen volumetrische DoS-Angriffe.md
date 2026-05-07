@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - ddos
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.9.5 Schutz gegen volumetrische DoS-Angriffe
-uid: ac441ef0-08de-40c4-b600-8be20d8a55b1
+bsi_title: ARCH.9.5 Schutz gegen volumetrische DoS-Angriffe
+uuid: ac441ef0-08de-40c4-b600-8be20d8a55b1
 aliases: ac441ef0-08de-40c4-b600-8be20d8a55b1
 stmt_practice: Architektur
 stmt_action_word: aktivieren

@@ -5,11 +5,12 @@ tags:
 - authentication_and_authorization
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.4.1 Personengebundene Authentisierungsmittel
-uid: fbdb73ce-38c5-466f-84a3-218a7d73eda9
+bsi_title: SENS.4.1 Personengebundene Authentisierungsmittel
+uuid: fbdb73ce-38c5-466f-84a3-218a7d73eda9
 aliases: fbdb73ce-38c5-466f-84a3-218a7d73eda9
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren

@@ -6,11 +6,12 @@ tags:
 - phishing
 - data_leak
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.12.5 Auto-Vervollständigung von Daten
-uid: 884ebdea-7054-48bf-932a-bb4f704baa8e
+bsi_title: KONF.12.5 Auto-Vervollständigung von Daten
+uuid: 884ebdea-7054-48bf-932a-bb4f704baa8e
 aliases: 884ebdea-7054-48bf-932a-bb4f704baa8e
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf138-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.13.8 DMARC-Reports
-uid: 96dd928d-e5ac-47ec-a2a2-320ae0359e73
+bsi_title: KONF.13.8 DMARC-Reports
+uuid: 96dd928d-e5ac-47ec-a2a2-320ae0359e73
 aliases: 96dd928d-e5ac-47ec-a2a2-320ae0359e73
 stmt_practice: Konfiguration
 stmt_action_word: überprüfen

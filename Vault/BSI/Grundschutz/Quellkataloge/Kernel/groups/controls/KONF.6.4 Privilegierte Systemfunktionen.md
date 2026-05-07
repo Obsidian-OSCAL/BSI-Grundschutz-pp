@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - living_off_the_land
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.6.4 Privilegierte Systemfunktionen
-uid: f129ae20-1423-4df0-a735-db8365592cd1
+bsi_title: KONF.6.4 Privilegierte Systemfunktionen
+uuid: f129ae20-1423-4df0-a735-db8365592cd1
 aliases: f129ae20-1423-4df0-a735-db8365592cd1
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

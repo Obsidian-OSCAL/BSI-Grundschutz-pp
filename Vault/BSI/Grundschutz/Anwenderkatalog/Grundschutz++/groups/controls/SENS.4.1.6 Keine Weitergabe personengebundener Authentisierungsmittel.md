@@ -5,11 +5,12 @@ tags:
 - authentication_and_authorization
 - password_policy
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.4.1.6 Keine Weitergabe personengebundener Authentisierungsmittel
-uid: b25f3f5e-0738-4794-b130-cc9a1e29084f
+bsi_title: SENS.4.1.6 Keine Weitergabe personengebundener Authentisierungsmittel
+uuid: b25f3f5e-0738-4794-b130-cc9a1e29084f
 aliases: b25f3f5e-0738-4794-b130-cc9a1e29084f
 parent_control: SENS.4.1 Personengebundene Authentisierungsmittel
 stmt_practice: Sensibilisierung

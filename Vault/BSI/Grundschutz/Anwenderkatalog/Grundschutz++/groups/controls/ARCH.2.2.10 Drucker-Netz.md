@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.2.10 Drucker-Netz
-uid: 48013e9f-7f90-495c-8cbd-aaf33f5060fb
+bsi_title: ARCH.2.2.10 Drucker-Netz
+uuid: 48013e9f-7f90-495c-8cbd-aaf33f5060fb
 aliases: 48013e9f-7f90-495c-8cbd-aaf33f5060fb
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur

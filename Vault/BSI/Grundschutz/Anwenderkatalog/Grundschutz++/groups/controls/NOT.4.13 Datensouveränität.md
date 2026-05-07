@@ -5,11 +5,12 @@ tags:
 - not413-prm1
 - not413-prm2
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: NOT.4.13 Datensouveränität
-uid: 13789041-edcf-4270-a8d1-49bdd0d54ab4
+bsi_title: NOT.4.13 Datensouveränität
+uuid: 13789041-edcf-4270-a8d1-49bdd0d54ab4
 aliases: 13789041-edcf-4270-a8d1-49bdd0d54ab4
 stmt_practice: Notfallplanung
 stmt_action_word: ausführen

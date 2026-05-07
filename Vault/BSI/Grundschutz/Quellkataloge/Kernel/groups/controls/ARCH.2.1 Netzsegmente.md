@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.1 Netzsegmente
-uid: ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18
+bsi_title: ARCH.2.1 Netzsegmente
+uuid: ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18
 aliases: ec31da4c-f5bd-43f5-b94f-f0fb7a5e1a18
 stmt_practice: Architektur
 stmt_action_word: verankern

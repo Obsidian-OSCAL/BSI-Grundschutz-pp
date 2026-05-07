@@ -5,11 +5,12 @@ tags:
 - inspektion
 - geb1041-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: GEB.10.4.1 Niederohmigkeit
-uid: a70149a9-75af-4784-8011-e1433c72dcfc
+bsi_title: GEB.10.4.1 Niederohmigkeit
+uuid: a70149a9-75af-4784-8011-e1433c72dcfc
 aliases: a70149a9-75af-4784-8011-e1433c72dcfc
 parent_control: GEB.10.4 Blitzschutzeinrichtungen
 stmt_practice: Gebäudemanagement

@@ -5,11 +5,12 @@ tags:
 - det611-prm1
 - det611-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.6.1.1 Automatisierte Feststellung
-uid: 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb
+bsi_title: DET.6.1.1 Automatisierte Feststellung
+uuid: 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb
 aliases: 92f55893-595b-4d3d-80eb-ef8e7b5ed1cb
 parent_control: DET.6.1 Beurteilung von Ereignissen
 stmt_practice: Detektion

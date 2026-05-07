@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.3.4 Passwort-Hashing
-uid: 6b7d5613-a32c-4a47-8a4f-766053da0e74
+bsi_title: DEV.3.4 Passwort-Hashing
+uuid: 6b7d5613-a32c-4a47-8a4f-766053da0e74
 aliases: 6b7d5613-a32c-4a47-8a4f-766053da0e74
 stmt_practice: Entwicklung
 stmt_action_word: aktivieren

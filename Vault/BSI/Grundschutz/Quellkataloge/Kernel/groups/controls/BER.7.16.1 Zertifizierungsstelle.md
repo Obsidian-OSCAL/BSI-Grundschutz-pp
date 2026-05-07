@@ -5,11 +5,12 @@ tags:
 - cryptography
 - ber7161-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.7.16.1 Zertifizierungsstelle
-uid: 7b80290b-5c6d-4e39-857c-0a63a8e2543a
+bsi_title: BER.7.16.1 Zertifizierungsstelle
+uuid: 7b80290b-5c6d-4e39-857c-0a63a8e2543a
 aliases: 7b80290b-5c6d-4e39-857c-0a63a8e2543a
 parent_control: BER.7.16 Vorgaben für die Schlüsselbeglaubigung
 stmt_practice: Berechtigung

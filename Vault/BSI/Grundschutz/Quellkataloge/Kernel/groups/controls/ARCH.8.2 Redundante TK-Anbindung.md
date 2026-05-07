@@ -6,11 +6,12 @@ tags:
 - failover
 - pstn
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.8.2 Redundante TK-Anbindung
-uid: 11904e1d-22f5-4855-b2b4-5b82a423c2d7
+bsi_title: ARCH.8.2 Redundante TK-Anbindung
+uuid: 11904e1d-22f5-4855-b2b4-5b82a423c2d7
 aliases: 11904e1d-22f5-4855-b2b4-5b82a423c2d7
 stmt_practice: Architektur
 stmt_action_word: installieren

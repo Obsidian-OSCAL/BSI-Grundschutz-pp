@@ -5,11 +5,12 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.3.13 Zugang löschen nach Fristablauf
-uid: 04d6a7fe-9e5a-424b-b647-3e95ce943ce9
+bsi_title: BER.3.13 Zugang löschen nach Fristablauf
+uuid: 04d6a7fe-9e5a-424b-b647-3e95ce943ce9
 aliases: 04d6a7fe-9e5a-424b-b647-3e95ce943ce9
 stmt_practice: Berechtigung
 stmt_action_word: löschen

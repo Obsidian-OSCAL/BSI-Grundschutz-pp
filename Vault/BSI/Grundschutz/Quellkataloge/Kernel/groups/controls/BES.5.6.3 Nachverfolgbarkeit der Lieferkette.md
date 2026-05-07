@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes563-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.6.3 Nachverfolgbarkeit der Lieferkette
-uid: 95512f8d-eca6-4928-a56f-1a58e5fcf3f0
+bsi_title: BES.5.6.3 Nachverfolgbarkeit der Lieferkette
+uuid: 95512f8d-eca6-4928-a56f-1a58e5fcf3f0
 aliases: 95512f8d-eca6-4928-a56f-1a58e5fcf3f0
 parent_control: BES.5.6 Vergabe von Unteraufträgen
 stmt_practice: Beschaffungsmanagement

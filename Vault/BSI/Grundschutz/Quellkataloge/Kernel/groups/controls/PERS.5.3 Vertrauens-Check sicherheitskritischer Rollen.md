@@ -6,11 +6,12 @@ tags:
 - pers53-prm1
 - pers53-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: PERS.5.3 Vertrauens-Check sicherheitskritischer Rollen
-uid: 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88
+bsi_title: PERS.5.3 Vertrauens-Check sicherheitskritischer Rollen
+uuid: 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88
 aliases: 76a4233a-f1b4-4e5c-9c53-8c6b7d10ec88
 stmt_practice: Personal
 stmt_action_word: überprüfen

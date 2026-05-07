@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - lateral_movement
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.7.3 Host-basierte Angriffserkennung
-uid: c6ea1218-1fc7-472f-96e5-df42b2acafa9
+bsi_title: KONF.7.3 Host-basierte Angriffserkennung
+uuid: c6ea1218-1fc7-472f-96e5-df42b2acafa9
 aliases: c6ea1218-1fc7-472f-96e5-df42b2acafa9
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

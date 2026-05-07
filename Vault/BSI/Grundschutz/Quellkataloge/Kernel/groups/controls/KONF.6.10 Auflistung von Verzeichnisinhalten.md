@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - data_leak
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.6.10 Auflistung von Verzeichnisinhalten
-uid: ce8d6ad1-d414-48a3-b273-50fa01fd2ee6
+bsi_title: KONF.6.10 Auflistung von Verzeichnisinhalten
+uuid: ce8d6ad1-d414-48a3-b273-50fa01fd2ee6
 aliases: ce8d6ad1-d414-48a3-b273-50fa01fd2ee6
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

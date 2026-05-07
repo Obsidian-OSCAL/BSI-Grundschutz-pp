@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - det4113-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.4.11.3 Netzverkehrsfluss
-uid: 80109af2-9ed7-4aca-807e-aae712dc8e18
+bsi_title: DET.4.11.3 Netzverkehrsfluss
+uuid: 80109af2-9ed7-4aca-807e-aae712dc8e18
 aliases: 80109af2-9ed7-4aca-807e-aae712dc8e18
 parent_control: DET.4.11 Anomalien in Netzen und am Perimeter
 stmt_practice: Detektion

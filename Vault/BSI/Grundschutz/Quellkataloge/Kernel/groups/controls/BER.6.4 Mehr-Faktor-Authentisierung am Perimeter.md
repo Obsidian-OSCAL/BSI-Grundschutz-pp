@@ -6,11 +6,12 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.6.4 Mehr-Faktor-Authentisierung am Perimeter
-uid: 2b9ddd3e-5233-46f5-abca-1793b89e2809
+bsi_title: BER.6.4 Mehr-Faktor-Authentisierung am Perimeter
+uuid: 2b9ddd3e-5233-46f5-abca-1793b89e2809
 aliases: 2b9ddd3e-5233-46f5-abca-1793b89e2809
 stmt_practice: Berechtigung
 stmt_action_word: aktivieren

@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - asst41-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.4.1 Autorisierung von Schnittstellen
-uid: ddfc1b03-9014-4317-a7bb-09980b234457
+bsi_title: ASST.4.1 Autorisierung von Schnittstellen
+uuid: ddfc1b03-9014-4317-a7bb-09980b234457
 aliases: ddfc1b03-9014-4317-a7bb-09980b234457
 stmt_practice: Informationen und Assets
 stmt_action_word: autorisieren

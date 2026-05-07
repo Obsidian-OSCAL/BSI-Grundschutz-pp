@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - geb914-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: GEB.9.1.4 Langanhaltende Sekundärversorgung
-uid: 9de758ff-88f1-4350-b937-354a5e4e5fc5
+bsi_title: GEB.9.1.4 Langanhaltende Sekundärversorgung
+uuid: 9de758ff-88f1-4350-b937-354a5e4e5fc5
 aliases: 9de758ff-88f1-4350-b937-354a5e4e5fc5
 parent_control: GEB.9.1 Normgerechte Stromversorgung
 stmt_practice: Gebäudemanagement

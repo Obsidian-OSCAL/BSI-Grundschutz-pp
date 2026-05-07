@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - lieferketten
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.4.3 Softwarebestandteile (SBOM)
-uid: 5b695087-3a35-441a-b8c9-9937a681a996
+bsi_title: DEV.4.3 Softwarebestandteile (SBOM)
+uuid: 5b695087-3a35-441a-b8c9-9937a681a996
 aliases: 5b695087-3a35-441a-b8c9-9937a681a996
 stmt_practice: Entwicklung
 stmt_action_word: dokumentieren

@@ -6,11 +6,12 @@ tags:
 - brute-force-attacke
 - konf115-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.11.5 Erraten von Zugriffslinks
-uid: 951aea5d-e4c2-47c8-9a21-b1d00e3d499f
+bsi_title: KONF.11.5 Erraten von Zugriffslinks
+uuid: 951aea5d-e4c2-47c8-9a21-b1d00e3d499f
 aliases: 951aea5d-e4c2-47c8-9a21-b1d00e3d499f
 stmt_practice: Konfiguration
 stmt_action_word: blockieren

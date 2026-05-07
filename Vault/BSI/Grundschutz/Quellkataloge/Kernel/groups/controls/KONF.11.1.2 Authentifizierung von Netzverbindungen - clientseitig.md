@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - zero_trust
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.11.1.2 Authentifizierung von Netzverbindungen - clientseitig
-uid: 7bf1392f-5c43-43da-bb36-498b8a678e28
+bsi_title: KONF.11.1.2 Authentifizierung von Netzverbindungen - clientseitig
+uuid: 7bf1392f-5c43-43da-bb36-498b8a678e28
 aliases: 7bf1392f-5c43-43da-bb36-498b8a678e28
 parent_control: KONF.11.1 Authentifizierung vor dem Zugriff
 stmt_practice: Konfiguration

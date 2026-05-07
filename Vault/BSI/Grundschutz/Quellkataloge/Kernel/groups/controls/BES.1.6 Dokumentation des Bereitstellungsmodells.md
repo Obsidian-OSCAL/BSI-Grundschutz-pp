@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - shared_responsibility_model
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.1.6 Dokumentation des Bereitstellungsmodells
-uid: 43e11ef1-4161-444d-ba0d-0fed61d31dd8
+bsi_title: BES.1.6 Dokumentation des Bereitstellungsmodells
+uuid: 43e11ef1-4161-444d-ba0d-0fed61d31dd8
 aliases: 43e11ef1-4161-444d-ba0d-0fed61d31dd8
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: dokumentieren

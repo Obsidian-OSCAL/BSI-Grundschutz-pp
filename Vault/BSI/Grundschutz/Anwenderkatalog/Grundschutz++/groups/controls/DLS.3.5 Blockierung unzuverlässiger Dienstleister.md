@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DLS.3.5 Blockierung unzuverlässiger Dienstleister
-uid: b2b77218-8ec2-415d-8f12-06c7f4cb3f7a
+bsi_title: DLS.3.5 Blockierung unzuverlässiger Dienstleister
+uuid: b2b77218-8ec2-415d-8f12-06c7f4cb3f7a
 aliases: b2b77218-8ec2-415d-8f12-06c7f4cb3f7a
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: blockieren

@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.6.5 Behandlung aufzubewahrender Aufzeichnungen
-uid: a397ee7e-3766-4454-9805-c2b31ffcb80e
+bsi_title: BES.6.5 Behandlung aufzubewahrender Aufzeichnungen
+uuid: a397ee7e-3766-4454-9805-c2b31ffcb80e
 aliases: a397ee7e-3766-4454-9805-c2b31ffcb80e
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

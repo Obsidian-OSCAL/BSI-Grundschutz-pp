@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen
-uid: e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48
+bsi_title: BES.8.2 Verfahren zur Übertragung von Geschäftsprozessen
+uuid: e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48
 aliases: e69b2846-6b36-4b3e-8fbc-e1ccd17f4f48
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: verankern

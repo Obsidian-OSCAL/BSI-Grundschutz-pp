@@ -6,11 +6,12 @@ tags:
 - cryptography
 - zero_trust
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.14.1.2 Ende-zu-Ende-Verschlüsselung
-uid: 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f
+bsi_title: KONF.14.1.2 Ende-zu-Ende-Verschlüsselung
+uuid: 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f
 aliases: 3e17d0bd-cdec-4d89-b6a6-b2e018009e8f
 parent_control: KONF.14.1 Verschlüsselung beim Transport
 stmt_practice: Konfiguration

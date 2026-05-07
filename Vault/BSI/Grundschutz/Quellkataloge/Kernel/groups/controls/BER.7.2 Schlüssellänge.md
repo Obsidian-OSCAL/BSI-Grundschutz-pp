@@ -5,11 +5,12 @@ tags:
 - cryptography
 - ber72-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.7.2 Schlüssellänge
-uid: 39301f7d-20ca-49c0-97e5-a8b048877e68
+bsi_title: BER.7.2 Schlüssellänge
+uuid: 39301f7d-20ca-49c0-97e5-a8b048877e68
 aliases: 39301f7d-20ca-49c0-97e5-a8b048877e68
 stmt_practice: Berechtigung
 stmt_action_word: zuweisen

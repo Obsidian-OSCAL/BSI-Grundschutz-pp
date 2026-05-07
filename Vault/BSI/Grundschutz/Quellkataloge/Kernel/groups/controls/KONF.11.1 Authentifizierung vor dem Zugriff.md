@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - zero_trust
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.11.1 Authentifizierung vor dem Zugriff
-uid: 6bcd486c-909c-424c-9f78-35ed96588a5c
+bsi_title: KONF.11.1 Authentifizierung vor dem Zugriff
+uuid: 6bcd486c-909c-424c-9f78-35ed96588a5c
 aliases: 6bcd486c-909c-424c-9f78-35ed96588a5c
 stmt_practice: Konfiguration
 stmt_action_word: authentifizieren

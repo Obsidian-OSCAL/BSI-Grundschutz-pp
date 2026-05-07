@@ -7,11 +7,12 @@ tags:
 - replay_attacks
 - session_hijacking
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.14.5 Zeitüberschreitung von Netzverbindungen
-uid: 76f6f959-2505-43b4-9e22-3501e32bc0be
+bsi_title: KONF.14.5 Zeitüberschreitung von Netzverbindungen
+uuid: 76f6f959-2505-43b4-9e22-3501e32bc0be
 aliases: 76f6f959-2505-43b4-9e22-3501e32bc0be
 stmt_practice: Konfiguration
 stmt_action_word: blockieren

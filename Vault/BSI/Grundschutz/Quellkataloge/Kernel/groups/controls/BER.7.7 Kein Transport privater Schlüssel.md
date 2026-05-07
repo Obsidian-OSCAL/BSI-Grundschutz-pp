@@ -5,11 +5,12 @@ tags:
 - cryptography
 - ber77-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.7.7 Kein Transport privater Schlüssel
-uid: c28426cd-d01c-427d-bade-141936177c55
+bsi_title: BER.7.7 Kein Transport privater Schlüssel
+uuid: c28426cd-d01c-427d-bade-141936177c55
 aliases: c28426cd-d01c-427d-bade-141936177c55
 stmt_practice: Berechtigung
 stmt_action_word: autorisieren

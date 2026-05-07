@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.2.3 Segmentierung von Servern und Clients
-uid: 8af42e9e-5340-4690-9567-88a5309aee3a
+bsi_title: ARCH.2.2.3 Segmentierung von Servern und Clients
+uuid: 8af42e9e-5340-4690-9567-88a5309aee3a
 aliases: 8af42e9e-5340-4690-9567-88a5309aee3a
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur

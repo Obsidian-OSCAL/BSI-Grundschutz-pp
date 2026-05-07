@@ -5,11 +5,12 @@ tags:
 - insider_threat
 - kompetenzmanagement
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: PERS.6.1 Vorgehensweise für den Weggang
-uid: 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae
+bsi_title: PERS.6.1 Vorgehensweise für den Weggang
+uuid: 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae
 aliases: 3ad14c05-a8e1-45de-99bf-c3eecd11f3ae
 stmt_practice: Personal
 stmt_action_word: verankern

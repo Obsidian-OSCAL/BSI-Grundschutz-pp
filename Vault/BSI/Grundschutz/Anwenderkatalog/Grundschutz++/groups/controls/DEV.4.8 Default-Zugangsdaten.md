@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - security_by_default
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.4.8 Default-Zugangsdaten
-uid: 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64
+bsi_title: DEV.4.8 Default-Zugangsdaten
+uuid: 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64
 aliases: 00fa92b3-76a1-40ac-b7ad-d4c0a4e0ae64
 stmt_practice: Entwicklung
 stmt_action_word: dokumentieren

@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.13.3 Kryptographische Signatur des Mailservers
-uid: 0588d640-bda0-46d7-978e-6c742f098327
+bsi_title: KONF.13.3 Kryptographische Signatur des Mailservers
+uuid: 0588d640-bda0-46d7-978e-6c742f098327
 aliases: 0588d640-bda0-46d7-978e-6c742f098327
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

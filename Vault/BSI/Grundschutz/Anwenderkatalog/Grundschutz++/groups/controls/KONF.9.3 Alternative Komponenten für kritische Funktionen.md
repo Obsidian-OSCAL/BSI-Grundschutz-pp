@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf93-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.9.3 Alternative Komponenten für kritische Funktionen
-uid: bd64ca41-01df-48ba-85ea-3241017cf750
+bsi_title: KONF.9.3 Alternative Komponenten für kritische Funktionen
+uuid: bd64ca41-01df-48ba-85ea-3241017cf750
 aliases: bd64ca41-01df-48ba-85ea-3241017cf750
 stmt_practice: Konfiguration
 stmt_action_word: installieren

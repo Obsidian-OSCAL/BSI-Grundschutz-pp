@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - dls31-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
-uid: 5b17bd9b-ff38-46eb-a1ef-7b38429f128b
+bsi_title: DLS.3.1 Einhaltung der Sicherheitsvorgaben
+uuid: 5b17bd9b-ff38-46eb-a1ef-7b38429f128b
 aliases: 5b17bd9b-ff38-46eb-a1ef-7b38429f128b
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: überprüfen

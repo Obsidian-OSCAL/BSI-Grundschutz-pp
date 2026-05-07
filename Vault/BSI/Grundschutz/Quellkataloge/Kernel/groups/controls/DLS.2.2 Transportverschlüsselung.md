@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - dls22-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DLS.2.2 Transportverschlüsselung
-uid: c9cd4b7e-8f76-4884-afb7-dcfd3d228624
+bsi_title: DLS.2.2 Transportverschlüsselung
+uuid: c9cd4b7e-8f76-4884-afb7-dcfd3d228624
 aliases: c9cd4b7e-8f76-4884-afb7-dcfd3d228624
 stmt_practice: Dienstleistersteuerung
 stmt_action_word: verschlüsseln

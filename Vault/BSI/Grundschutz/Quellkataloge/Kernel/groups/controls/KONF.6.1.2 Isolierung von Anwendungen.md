@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf612-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.6.1.2 Isolierung von Anwendungen
-uid: d380c6d8-1ab0-4e4b-bcca-2e620b40d934
+bsi_title: KONF.6.1.2 Isolierung von Anwendungen
+uuid: d380c6d8-1ab0-4e4b-bcca-2e620b40d934
 aliases: d380c6d8-1ab0-4e4b-bcca-2e620b40d934
 parent_control: KONF.6.1 Minimal erforderliche Berechtigungen für Anwendungen
 stmt_practice: Konfiguration

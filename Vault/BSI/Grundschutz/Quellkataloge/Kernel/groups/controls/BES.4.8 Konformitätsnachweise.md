@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.4.8 Konformitätsnachweise
-uid: 3e56f7c0-63b1-4017-8e30-3a78c1f06693
+bsi_title: BES.4.8 Konformitätsnachweise
+uuid: 3e56f7c0-63b1-4017-8e30-3a78c1f06693
 aliases: 3e56f7c0-63b1-4017-8e30-3a78c1f06693
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

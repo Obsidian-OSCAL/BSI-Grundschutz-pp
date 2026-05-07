@@ -5,11 +5,12 @@ tags:
 - cryptography
 - ber71-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.7.1 Etablierte Algorithmen bei der Schlüsselerzeugung
-uid: d9e08db0-484e-4cce-89de-2f29f1a52e4e
+bsi_title: BER.7.1 Etablierte Algorithmen bei der Schlüsselerzeugung
+uuid: d9e08db0-484e-4cce-89de-2f29f1a52e4e
 aliases: d9e08db0-484e-4cce-89de-2f29f1a52e4e
 stmt_practice: Berechtigung
 stmt_action_word: verankern

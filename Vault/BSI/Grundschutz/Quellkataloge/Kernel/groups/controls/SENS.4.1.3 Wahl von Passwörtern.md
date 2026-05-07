@@ -5,11 +5,12 @@ tags:
 - authentication_and_authorization
 - password_policy
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.4.1.3 Wahl von Passwörtern
-uid: 48c3a712-943d-403e-8e04-cfc11d92a387
+bsi_title: SENS.4.1.3 Wahl von Passwörtern
+uuid: 48c3a712-943d-403e-8e04-cfc11d92a387
 aliases: 48c3a712-943d-403e-8e04-cfc11d92a387
 parent_control: SENS.4.1 Personengebundene Authentisierungsmittel
 stmt_practice: Sensibilisierung

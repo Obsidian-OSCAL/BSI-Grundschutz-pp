@@ -6,11 +6,12 @@ tags:
 - lateral_movement
 - data_exfiltration
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.4.11 Anomalien in Netzen und am Perimeter
-uid: e6cf2c48-c49f-4c10-9cca-252d903b0979
+bsi_title: DET.4.11 Anomalien in Netzen und am Perimeter
+uuid: e6cf2c48-c49f-4c10-9cca-252d903b0979
 aliases: e6cf2c48-c49f-4c10-9cca-252d903b0979
 stmt_practice: Detektion
 stmt_action_word: überwachen

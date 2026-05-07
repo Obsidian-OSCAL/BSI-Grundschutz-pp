@@ -6,11 +6,12 @@ tags:
 - cryptography
 - konf421-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.4.2.1 DNS-Verschlüsselung
-uid: ccb6bfb1-1b49-4d03-9705-2d05bca018b5
+bsi_title: KONF.4.2.1 DNS-Verschlüsselung
+uuid: ccb6bfb1-1b49-4d03-9705-2d05bca018b5
 aliases: ccb6bfb1-1b49-4d03-9705-2d05bca018b5
 parent_control: KONF.4.2 DNS-Anbindung
 stmt_practice: Konfiguration

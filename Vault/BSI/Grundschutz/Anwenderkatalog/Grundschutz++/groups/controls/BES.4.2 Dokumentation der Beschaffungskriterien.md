@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes42-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.4.2 Dokumentation der Beschaffungskriterien
-uid: 91319f26-75c0-476c-b544-aedd4dbf6e14
+bsi_title: BES.4.2 Dokumentation der Beschaffungskriterien
+uuid: 91319f26-75c0-476c-b544-aedd4dbf6e14
 aliases: 91319f26-75c0-476c-b544-aedd4dbf6e14
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: dokumentieren

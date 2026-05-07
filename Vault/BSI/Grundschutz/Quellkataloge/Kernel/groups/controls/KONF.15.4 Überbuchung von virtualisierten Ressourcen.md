@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - hochverfügbarkeit
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.15.4 Überbuchung von virtualisierten Ressourcen
-uid: 6cf041a5-163d-4faa-b817-42b35ad681c2
+bsi_title: KONF.15.4 Überbuchung von virtualisierten Ressourcen
+uuid: 6cf041a5-163d-4faa-b817-42b35ad681c2
 aliases: 6cf041a5-163d-4faa-b817-42b35ad681c2
 stmt_practice: Konfiguration
 stmt_action_word: deaktivieren

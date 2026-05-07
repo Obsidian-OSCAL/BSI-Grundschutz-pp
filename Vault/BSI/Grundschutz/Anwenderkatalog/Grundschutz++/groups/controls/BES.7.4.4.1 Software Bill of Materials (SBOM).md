@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes7441-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.7.4.4.1 Software Bill of Materials (SBOM)
-uid: f89b0154-ccb8-401f-b352-9135e685a4e7
+bsi_title: BES.7.4.4.1 Software Bill of Materials (SBOM)
+uuid: f89b0154-ccb8-401f-b352-9135e685a4e7
 aliases: f89b0154-ccb8-401f-b352-9135e685a4e7
 parent_control: BES.7.4.4 Dokumentation der Komponenten
 stmt_practice: Beschaffungsmanagement

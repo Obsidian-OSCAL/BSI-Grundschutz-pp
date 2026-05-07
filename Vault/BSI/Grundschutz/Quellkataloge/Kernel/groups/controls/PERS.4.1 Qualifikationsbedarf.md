@@ -5,11 +5,12 @@ tags:
 - kompetenzmanagement
 - pers41-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: PERS.4.1 Qualifikationsbedarf
-uid: 9c551357-437f-4662-a8b5-0fac98831755
+bsi_title: PERS.4.1 Qualifikationsbedarf
+uuid: 9c551357-437f-4662-a8b5-0fac98831755
 aliases: 9c551357-437f-4662-a8b5-0fac98831755
 stmt_practice: Personal
 stmt_action_word: überprüfen

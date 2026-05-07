@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DLS.4.1.1 Unabhängigkeit
-uid: d37125e2-68cd-4e75-9da9-d4af0b4dd051
+bsi_title: DLS.4.1.1 Unabhängigkeit
+uuid: d37125e2-68cd-4e75-9da9-d4af0b4dd051
 aliases: d37125e2-68cd-4e75-9da9-d4af0b4dd051
 parent_control: DLS.4.1 Dekomissionierung
 stmt_practice: Dienstleistersteuerung

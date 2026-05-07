@@ -7,11 +7,12 @@ tags:
 - command__control
 - det4111-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.4.11.1 Authentifizierungsversuche an externen Schnittstellen
-uid: 1fc84b56-0931-439d-9b5a-4642926e0d04
+bsi_title: DET.4.11.1 Authentifizierungsversuche an externen Schnittstellen
+uuid: 1fc84b56-0931-439d-9b5a-4642926e0d04
 aliases: 1fc84b56-0931-439d-9b5a-4642926e0d04
 parent_control: DET.4.11 Anomalien in Netzen und am Perimeter
 stmt_practice: Detektion

@@ -5,11 +5,12 @@ tags:
 - kompetenzmanagement
 - rea13-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: REA.1.3 Übungen zur Vorfallsbehandlung
-uid: 3dc90c0b-c5bb-49e1-bb56-10397acc8be9
+bsi_title: REA.1.3 Übungen zur Vorfallsbehandlung
+uuid: 3dc90c0b-c5bb-49e1-bb56-10397acc8be9
 aliases: 3dc90c0b-c5bb-49e1-bb56-10397acc8be9
 stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: überprüfen

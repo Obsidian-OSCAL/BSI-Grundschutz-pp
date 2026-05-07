@@ -5,11 +5,12 @@ tags:
 - network_access_control
 - rogue_access_point
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.4.1 Netzzugangskontrolle
-uid: 9ec9762e-c115-4e56-8b45-b88a872f47ce
+bsi_title: ARCH.4.1 Netzzugangskontrolle
+uuid: 9ec9762e-c115-4e56-8b45-b88a872f47ce
 aliases: 9ec9762e-c115-4e56-8b45-b88a872f47ce
 stmt_practice: Architektur
 stmt_action_word: authentifizieren

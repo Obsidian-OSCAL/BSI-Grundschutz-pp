@@ -6,11 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - det57-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.5.7 Analyse verdeckter Kanäle
-uid: 8f64e735-9870-4a8d-8b7b-220b93baddba
+bsi_title: DET.5.7 Analyse verdeckter Kanäle
+uuid: 8f64e735-9870-4a8d-8b7b-220b93baddba
 aliases: 8f64e735-9870-4a8d-8b7b-220b93baddba
 stmt_practice: Detektion
 stmt_action_word: überprüfen

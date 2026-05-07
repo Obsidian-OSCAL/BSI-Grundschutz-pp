@@ -6,11 +6,12 @@ tags:
 - cryptography
 - konf124-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.12.4 Speicherung von Zugangsdaten
-uid: 93d5129d-c905-439f-b7cf-2ddcd92fac5a
+bsi_title: KONF.12.4 Speicherung von Zugangsdaten
+uuid: 93d5129d-c905-439f-b7cf-2ddcd92fac5a
 aliases: 93d5129d-c905-439f-b7cf-2ddcd92fac5a
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

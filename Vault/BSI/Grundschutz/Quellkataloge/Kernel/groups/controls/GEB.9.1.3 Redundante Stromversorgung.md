@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - geb913-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: GEB.9.1.3 Redundante Stromversorgung
-uid: eeaa8977-05e5-4eaa-a5b7-ea490eb543cd
+bsi_title: GEB.9.1.3 Redundante Stromversorgung
+uuid: eeaa8977-05e5-4eaa-a5b7-ea490eb543cd
 aliases: eeaa8977-05e5-4eaa-a5b7-ea490eb543cd
 parent_control: GEB.9.1 Normgerechte Stromversorgung
 stmt_practice: Gebäudemanagement

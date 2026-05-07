@@ -6,11 +6,12 @@ tags:
 - privilege_escalation
 - password_policy
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.6.6 Blockieren von Passwort Recycling
-uid: d7c76736-0c1d-4693-92d5-894a8b740204
+bsi_title: BER.6.6 Blockieren von Passwort Recycling
+uuid: d7c76736-0c1d-4693-92d5-894a8b740204
 aliases: d7c76736-0c1d-4693-92d5-894a8b740204
 stmt_practice: Berechtigung
 stmt_action_word: blockieren

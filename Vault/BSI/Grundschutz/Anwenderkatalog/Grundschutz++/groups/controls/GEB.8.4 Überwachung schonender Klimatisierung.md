@@ -5,11 +5,12 @@ tags:
 - langzeitarchivierung
 - geb84-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: GEB.8.4 Überwachung schonender Klimatisierung
-uid: b76d96fa-3c33-470e-a624-1fe1aff44cc9
+bsi_title: GEB.8.4 Überwachung schonender Klimatisierung
+uuid: b76d96fa-3c33-470e-a624-1fe1aff44cc9
 aliases: b76d96fa-3c33-470e-a624-1fe1aff44cc9
 stmt_practice: Gebäudemanagement
 stmt_action_word: überwachen

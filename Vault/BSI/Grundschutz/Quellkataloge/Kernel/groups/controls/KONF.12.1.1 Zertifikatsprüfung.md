@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - phishing
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.12.1.1 Zertifikatsprüfung
-uid: 0e183da9-8671-492b-ba81-f95ff6d90a26
+bsi_title: KONF.12.1.1 Zertifikatsprüfung
+uuid: 0e183da9-8671-492b-ba81-f95ff6d90a26
 aliases: 0e183da9-8671-492b-ba81-f95ff6d90a26
 parent_control: KONF.12.1 Eingabevalidierung
 stmt_practice: Konfiguration

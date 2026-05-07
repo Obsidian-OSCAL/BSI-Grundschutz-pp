@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes552-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.5.2 Autorisierung der Zugriffsberechtigung
-uid: adb32e38-f59a-42fa-b1a0-67abd118c585
+bsi_title: BES.5.5.2 Autorisierung der Zugriffsberechtigung
+uuid: adb32e38-f59a-42fa-b1a0-67abd118c585
 aliases: adb32e38-f59a-42fa-b1a0-67abd118c585
 parent_control: BES.5.5 Nutzungsregelungen
 stmt_practice: Beschaffungsmanagement

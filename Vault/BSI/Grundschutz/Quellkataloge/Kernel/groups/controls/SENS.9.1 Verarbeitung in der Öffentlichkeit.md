@@ -5,11 +5,12 @@ tags:
 - physical_access_control
 - shoulder_surfing
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.9.1 Verarbeitung in der Öffentlichkeit
-uid: 4d8775fd-52b0-491f-b0ce-7a8ceaba4819
+bsi_title: SENS.9.1 Verarbeitung in der Öffentlichkeit
+uuid: 4d8775fd-52b0-491f-b0ce-7a8ceaba4819
 aliases: 4d8775fd-52b0-491f-b0ce-7a8ceaba4819
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren

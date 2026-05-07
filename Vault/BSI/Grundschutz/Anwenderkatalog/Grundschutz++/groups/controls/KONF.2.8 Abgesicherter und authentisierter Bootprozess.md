@@ -5,11 +5,12 @@ tags:
 - cryptography
 - produktbeschreibung
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.2.8 Abgesicherter und authentisierter Bootprozess
-uid: 8d460d82-f7db-42c5-b213-625df4381ff3
+bsi_title: KONF.2.8 Abgesicherter und authentisierter Bootprozess
+uuid: 8d460d82-f7db-42c5-b213-625df4381ff3
 aliases: 8d460d82-f7db-42c5-b213-625df4381ff3
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

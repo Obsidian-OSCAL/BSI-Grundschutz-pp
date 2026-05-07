@@ -5,11 +5,12 @@ tags:
 - det612-prm1
 - det612-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.6.1.2 Automatische Alarmierung
-uid: f45e08b7-8f42-469a-aa22-63b93daba60e
+bsi_title: DET.6.1.2 Automatische Alarmierung
+uuid: f45e08b7-8f42-469a-aa22-63b93daba60e
 aliases: f45e08b7-8f42-469a-aa22-63b93daba60e
 parent_control: DET.6.1 Beurteilung von Ereignissen
 stmt_practice: Detektion

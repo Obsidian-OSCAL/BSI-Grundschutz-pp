@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.6.6 Rückgewähr von Assets
-uid: 005f0ce7-9372-49b6-b78b-c09a5e2f56f0
+bsi_title: BES.6.6 Rückgewähr von Assets
+uuid: 005f0ce7-9372-49b6-b78b-c09a5e2f56f0
 aliases: 005f0ce7-9372-49b6-b78b-c09a5e2f56f0
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

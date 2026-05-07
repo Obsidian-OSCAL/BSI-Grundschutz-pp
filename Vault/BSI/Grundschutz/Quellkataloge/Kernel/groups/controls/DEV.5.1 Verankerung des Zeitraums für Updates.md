@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - dev51-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.5.1 Verankerung des Zeitraums für Updates
-uid: 649b5b3b-fd58-4bec-84bb-71c93b264f94
+bsi_title: DEV.5.1 Verankerung des Zeitraums für Updates
+uuid: 649b5b3b-fd58-4bec-84bb-71c93b264f94
 aliases: 649b5b3b-fd58-4bec-84bb-71c93b264f94
 stmt_practice: Entwicklung
 stmt_action_word: verankern

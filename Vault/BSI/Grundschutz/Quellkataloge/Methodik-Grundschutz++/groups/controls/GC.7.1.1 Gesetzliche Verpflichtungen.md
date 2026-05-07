@@ -5,11 +5,12 @@ tags:
 - compliance_management
 - inventories
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Methodik-Grundschutz-plus-plus
 oscal_type: control
-oscal_control: GC.7.1.1 Gesetzliche Verpflichtungen
-uid: 02747a0f-cd38-4815-9eec-351ae89dbdfe
+bsi_title: GC.7.1.1 Gesetzliche Verpflichtungen
+uuid: 02747a0f-cd38-4815-9eec-351ae89dbdfe
 aliases: 02747a0f-cd38-4815-9eec-351ae89dbdfe
 parent_control: GC.7.1 Verfahren und Regelungen
 stmt_practice: Governance und Compliance

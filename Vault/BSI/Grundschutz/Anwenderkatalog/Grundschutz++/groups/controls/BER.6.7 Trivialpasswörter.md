@@ -5,11 +5,12 @@ tags:
 - credential_stuffing
 - password_policy
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.6.7 Trivialpasswörter
-uid: f0722999-f8c4-4c75-810b-94d7563dd698
+bsi_title: BER.6.7 Trivialpasswörter
+uuid: f0722999-f8c4-4c75-810b-94d7563dd698
 aliases: f0722999-f8c4-4c75-810b-94d7563dd698
 stmt_practice: Berechtigung
 stmt_action_word: blockieren

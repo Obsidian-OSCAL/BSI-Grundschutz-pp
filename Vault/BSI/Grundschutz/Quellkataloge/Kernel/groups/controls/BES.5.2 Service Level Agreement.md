@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes52-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.2 Service Level Agreement
-uid: 31fea405-1180-4c99-b080-a90a2ee6f574
+bsi_title: BES.5.2 Service Level Agreement
+uuid: 31fea405-1180-4c99-b080-a90a2ee6f574
 aliases: 31fea405-1180-4c99-b080-a90a2ee6f574
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

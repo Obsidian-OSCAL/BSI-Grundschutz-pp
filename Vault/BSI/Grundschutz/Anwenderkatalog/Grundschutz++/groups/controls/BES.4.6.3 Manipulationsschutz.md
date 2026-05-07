@@ -6,11 +6,12 @@ tags:
 - cryptography
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.4.6.3 Manipulationsschutz
-uid: 4e08941c-a1c7-4718-934f-c1e8c3e17864
+bsi_title: BES.4.6.3 Manipulationsschutz
+uuid: 4e08941c-a1c7-4718-934f-c1e8c3e17864
 aliases: 4e08941c-a1c7-4718-934f-c1e8c3e17864
 parent_control: BES.4.6 Security by Default
 stmt_practice: Beschaffungsmanagement

@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.10.4 Konfliktlösungsprozesse
-uid: 3535784d-dd78-4fd2-be25-4a2e183087b2
+bsi_title: BES.5.10.4 Konfliktlösungsprozesse
+uuid: 3535784d-dd78-4fd2-be25-4a2e183087b2
 aliases: 3535784d-dd78-4fd2-be25-4a2e183087b2
 parent_control: BES.5.10 Behandlung von Vorfällen
 stmt_practice: Beschaffungsmanagement

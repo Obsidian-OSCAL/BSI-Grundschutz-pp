@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.3.1 Kryptographischer Hardwarespeicher
-uid: 5c63c101-f2d6-479c-963c-0280bd2fb8a7
+bsi_title: KONF.3.1 Kryptographischer Hardwarespeicher
+uuid: 5c63c101-f2d6-479c-963c-0280bd2fb8a7
 aliases: 5c63c101-f2d6-479c-963c-0280bd2fb8a7
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

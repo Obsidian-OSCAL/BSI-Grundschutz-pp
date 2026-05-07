@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes51031-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.10.3.1 Schwachstellenmeldeprozess
-uid: ebc08e41-e728-4447-93fa-233fbad7f2fa
+bsi_title: BES.5.10.3.1 Schwachstellenmeldeprozess
+uuid: ebc08e41-e728-4447-93fa-233fbad7f2fa
 aliases: ebc08e41-e728-4447-93fa-233fbad7f2fa
 parent_control: BES.5.10.3 Schwachstellenbehebung
 stmt_practice: Beschaffungsmanagement

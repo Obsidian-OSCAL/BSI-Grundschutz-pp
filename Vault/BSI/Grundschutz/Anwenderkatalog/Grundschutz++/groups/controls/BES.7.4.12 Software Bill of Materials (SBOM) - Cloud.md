@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes7412-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.7.4.12 Software Bill of Materials (SBOM) - Cloud
-uid: 7a3321a5-9f54-4ada-955d-647aeb0e51b5
+bsi_title: BES.7.4.12 Software Bill of Materials (SBOM) - Cloud
+uuid: 7a3321a5-9f54-4ada-955d-647aeb0e51b5
 aliases: 7a3321a5-9f54-4ada-955d-647aeb0e51b5
 parent_control: BES.7.4 Vollständigkeit der Unterlagen
 stmt_practice: Beschaffungsmanagement

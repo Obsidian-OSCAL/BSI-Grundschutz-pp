@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.3.2 Speicherverschlüsselung
-uid: e760f62d-1c68-4665-b07b-5b2846550d59
+bsi_title: KONF.3.2 Speicherverschlüsselung
+uuid: e760f62d-1c68-4665-b07b-5b2846550d59
 aliases: e760f62d-1c68-4665-b07b-5b2846550d59
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln

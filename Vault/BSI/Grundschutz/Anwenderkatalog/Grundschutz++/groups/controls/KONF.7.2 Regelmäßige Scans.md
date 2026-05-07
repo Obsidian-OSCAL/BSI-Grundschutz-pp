@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - lateral_movement
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.7.2 Regelmäßige Scans
-uid: 3fefd9d3-8925-4c08-b2b3-c92775b0279a
+bsi_title: KONF.7.2 Regelmäßige Scans
+uuid: 3fefd9d3-8925-4c08-b2b3-c92775b0279a
 aliases: 3fefd9d3-8925-4c08-b2b3-c92775b0279a
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

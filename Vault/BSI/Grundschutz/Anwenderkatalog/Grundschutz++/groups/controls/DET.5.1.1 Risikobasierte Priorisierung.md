@@ -6,11 +6,12 @@ tags:
 - det511-prm1
 - det511-prm2
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.5.1.1 Risikobasierte Priorisierung
-uid: a9af82d7-44b8-412c-b8a0-becbda9b1da9
+bsi_title: DET.5.1.1 Risikobasierte Priorisierung
+uuid: a9af82d7-44b8-412c-b8a0-becbda9b1da9
 aliases: a9af82d7-44b8-412c-b8a0-becbda9b1da9
 parent_control: DET.5.1 Zeitnahes Schwachstellenmanagement
 stmt_practice: Detektion

@@ -5,11 +5,12 @@ tags:
 - asst731-prm1
 - asst731-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.7.3.1 Standardisierte Vernichtung
-uid: 93178616-6931-48e6-aee7-d51742868d4f
+bsi_title: ASST.7.3.1 Standardisierte Vernichtung
+uuid: 93178616-6931-48e6-aee7-d51742868d4f
 aliases: 93178616-6931-48e6-aee7-d51742868d4f
 parent_control: ASST.7.3 Geregeltes Löschen oder Vernichten
 stmt_practice: Informationen und Assets

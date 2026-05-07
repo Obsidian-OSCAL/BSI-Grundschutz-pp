@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.2.4 VoIP-Netz
-uid: 02cac8a8-60e3-481d-96bf-3fa484afea78
+bsi_title: ARCH.2.2.4 VoIP-Netz
+uuid: 02cac8a8-60e3-481d-96bf-3fa484afea78
 aliases: 02cac8a8-60e3-481d-96bf-3fa484afea78
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur

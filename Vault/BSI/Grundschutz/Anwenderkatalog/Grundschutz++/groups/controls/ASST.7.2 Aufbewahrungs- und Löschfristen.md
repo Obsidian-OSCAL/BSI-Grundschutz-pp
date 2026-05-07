@@ -5,11 +5,12 @@ tags:
 - archivierung
 - asst72-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.7.2 Aufbewahrungs- und Löschfristen
-uid: 2574ffa3-fa96-4eed-8a9a-e67216d499d9
+bsi_title: ASST.7.2 Aufbewahrungs- und Löschfristen
+uuid: 2574ffa3-fa96-4eed-8a9a-e67216d499d9
 aliases: 2574ffa3-fa96-4eed-8a9a-e67216d499d9
 stmt_practice: Informationen und Assets
 stmt_action_word: verankern

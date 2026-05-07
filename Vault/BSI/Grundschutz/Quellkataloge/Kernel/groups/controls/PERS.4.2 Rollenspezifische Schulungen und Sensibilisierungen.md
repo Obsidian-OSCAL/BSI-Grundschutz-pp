@@ -5,11 +5,12 @@ tags:
 - kompetenzmanagement
 - pers42-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
-uid: f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4
+bsi_title: PERS.4.2 Rollenspezifische Schulungen und Sensibilisierungen
+uuid: f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4
 aliases: f5c0d014-bafa-4672-ad7d-fdb1fb16f3c4
 stmt_practice: Personal
 stmt_action_word: ausführen

@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf137-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.13.7 TLS-Reports
-uid: becbeefc-417d-42e4-b2a0-7a296c23fa9c
+bsi_title: KONF.13.7 TLS-Reports
+uuid: becbeefc-417d-42e4-b2a0-7a296c23fa9c
 aliases: becbeefc-417d-42e4-b2a0-7a296c23fa9c
 stmt_practice: Konfiguration
 stmt_action_word: überprüfen

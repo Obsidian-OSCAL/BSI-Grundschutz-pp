@@ -5,11 +5,12 @@ tags:
 - bring_your_own_device
 - insider_threat
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.2.4 Nutzung unautorisierter Assets
-uid: 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf
+bsi_title: SENS.2.4 Nutzung unautorisierter Assets
+uuid: 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf
 aliases: 1ca19eb8-f4a2-42b5-85f1-ce96fce606bf
 stmt_practice: Sensibilisierung
 stmt_action_word: untersagen

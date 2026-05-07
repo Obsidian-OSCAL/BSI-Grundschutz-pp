@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf35-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.3.5 Standortbestimmung
-uid: 4a18939a-0972-4ac7-9584-18fffde38db6
+bsi_title: KONF.3.5 Standortbestimmung
+uuid: 4a18939a-0972-4ac7-9584-18fffde38db6
 aliases: 4a18939a-0972-4ac7-9584-18fffde38db6
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

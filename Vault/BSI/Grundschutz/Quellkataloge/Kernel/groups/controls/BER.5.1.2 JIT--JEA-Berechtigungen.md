@@ -5,11 +5,12 @@ tags:
 - zero_trust
 - ber512-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.5.1.2 JIT‑/JEA‑Berechtigungen
-uid: e549f464-b2fb-42a1-83b9-21bd3bb0f3cf
+bsi_title: BER.5.1.2 JIT‑/JEA‑Berechtigungen
+uuid: e549f464-b2fb-42a1-83b9-21bd3bb0f3cf
 aliases: e549f464-b2fb-42a1-83b9-21bd3bb0f3cf
 parent_control: BER.5.1 Prinzip der geringsten Berechtigungen
 stmt_practice: Berechtigung

@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - ddos
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.9.4 Content Delivery Network
-uid: 4b5b81aa-fe5f-47f5-a081-136145f7ccc9
+bsi_title: ARCH.9.4 Content Delivery Network
+uuid: 4b5b81aa-fe5f-47f5-a081-136145f7ccc9
 aliases: 4b5b81aa-fe5f-47f5-a081-136145f7ccc9
 stmt_practice: Architektur
 stmt_action_word: installieren

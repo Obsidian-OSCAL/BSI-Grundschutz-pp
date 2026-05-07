@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - kompetenzmanagement
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.7 Schulung
-uid: c95ea1ad-f766-43e2-a07d-1eb50cc58907
+bsi_title: BES.5.7 Schulung
+uuid: c95ea1ad-f766-43e2-a07d-1eb50cc58907
 aliases: c95ea1ad-f766-43e2-a07d-1eb50cc58907
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

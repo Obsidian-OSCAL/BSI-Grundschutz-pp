@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes71-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.7.1 Eingangskontrolle
-uid: abea6f59-f58b-47c3-b908-7ae68410fde3
+bsi_title: BES.7.1 Eingangskontrolle
+uuid: abea6f59-f58b-47c3-b908-7ae68410fde3
 aliases: abea6f59-f58b-47c3-b908-7ae68410fde3
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: testen

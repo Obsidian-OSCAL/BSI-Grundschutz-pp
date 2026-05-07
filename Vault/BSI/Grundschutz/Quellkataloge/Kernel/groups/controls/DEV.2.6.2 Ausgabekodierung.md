@@ -5,11 +5,12 @@ tags:
 - security_by_design
 - produktbeschreibung
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.2.6.2 Ausgabekodierung
-uid: dee85b12-b7f9-445e-802a-bbe13d67538e
+bsi_title: DEV.2.6.2 Ausgabekodierung
+uuid: dee85b12-b7f9-445e-802a-bbe13d67538e
 aliases: dee85b12-b7f9-445e-802a-bbe13d67538e
 parent_control: DEV.2.6 Widerstandsfähigkeit gegen gängige Angriffsmuster
 stmt_practice: Entwicklung

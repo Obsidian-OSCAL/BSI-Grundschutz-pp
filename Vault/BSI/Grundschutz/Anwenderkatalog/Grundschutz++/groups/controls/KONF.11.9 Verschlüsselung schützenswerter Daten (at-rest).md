@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.11.9 Verschlüsselung schützenswerter Daten (at-rest)
-uid: d3e4416f-e997-4aec-a45b-eade4316d896
+bsi_title: KONF.11.9 Verschlüsselung schützenswerter Daten (at-rest)
+uuid: d3e4416f-e997-4aec-a45b-eade4316d896
 aliases: d3e4416f-e997-4aec-a45b-eade4316d896
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln

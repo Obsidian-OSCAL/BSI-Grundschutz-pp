@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf121-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.12.1 Eingabevalidierung
-uid: 4cf4ca7f-0b09-4777-83dc-5569c8e08f63
+bsi_title: KONF.12.1 Eingabevalidierung
+uuid: 4cf4ca7f-0b09-4777-83dc-5569c8e08f63
 aliases: 4cf4ca7f-0b09-4777-83dc-5569c8e08f63
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

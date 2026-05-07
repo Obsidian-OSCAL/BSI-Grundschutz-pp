@@ -7,11 +7,12 @@ tags:
 - zero_trust
 - konf141-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.14.1 Verschlüsselung beim Transport
-uid: 99806244-514d-43e2-be34-4ac7ab0517ad
+bsi_title: KONF.14.1 Verschlüsselung beim Transport
+uuid: 99806244-514d-43e2-be34-4ac7ab0517ad
 aliases: 99806244-514d-43e2-be34-4ac7ab0517ad
 stmt_practice: Konfiguration
 stmt_action_word: verschlüsseln

@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - living_off_the_land
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.7.10 Einschränkung der Ausführung
-uid: 02df7412-74de-45a2-abfd-aa8cf94ff93d
+bsi_title: KONF.7.10 Einschränkung der Ausführung
+uuid: 02df7412-74de-45a2-abfd-aa8cf94ff93d
 aliases: 02df7412-74de-45a2-abfd-aa8cf94ff93d
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

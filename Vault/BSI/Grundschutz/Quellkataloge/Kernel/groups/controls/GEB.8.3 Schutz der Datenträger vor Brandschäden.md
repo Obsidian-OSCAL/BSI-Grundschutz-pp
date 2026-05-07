@@ -5,11 +5,12 @@ tags:
 - langzeitarchivierung
 - geb83-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: GEB.8.3 Schutz der Datenträger vor Brandschäden
-uid: 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be
+bsi_title: GEB.8.3 Schutz der Datenträger vor Brandschäden
+uuid: 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be
 aliases: 7fa6a340-5f12-41a3-b9df-a44dfcc6e0be
 stmt_practice: Gebäudemanagement
 stmt_action_word: installieren

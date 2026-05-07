@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - security_by_default
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.4.9 Voreinstellungen nach dem Prinzip "Security by Default"
-uid: fa1f8609-00d9-4d70-84cb-b3616efea279
+bsi_title: DEV.4.9 Voreinstellungen nach dem Prinzip "Security by Default"
+uuid: fa1f8609-00d9-4d70-84cb-b3616efea279
 aliases: fa1f8609-00d9-4d70-84cb-b3616efea279
 stmt_practice: Entwicklung
 stmt_action_word: aktivieren

@@ -7,11 +7,12 @@ tags:
 - recon
 - konf114-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.11.4 Veröffentlichung von Domain-Infomationen
-uid: 24d7bd4d-9ae9-4871-b6da-4c5186351b46
+bsi_title: KONF.11.4 Veröffentlichung von Domain-Infomationen
+uuid: 24d7bd4d-9ae9-4871-b6da-4c5186351b46
 aliases: 24d7bd4d-9ae9-4871-b6da-4c5186351b46
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

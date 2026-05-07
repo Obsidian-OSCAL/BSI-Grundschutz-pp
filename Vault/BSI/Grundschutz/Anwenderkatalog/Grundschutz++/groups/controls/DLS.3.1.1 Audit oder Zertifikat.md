@@ -6,11 +6,12 @@ tags:
 - dls311-prm1
 - dls311-prm2
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DLS.3.1.1 Audit oder Zertifikat
-uid: 12c2c250-86b8-46a0-bccd-d0b2f59b6bae
+bsi_title: DLS.3.1.1 Audit oder Zertifikat
+uuid: 12c2c250-86b8-46a0-bccd-d0b2f59b6bae
 aliases: 12c2c250-86b8-46a0-bccd-d0b2f59b6bae
 parent_control: DLS.3.1 Einhaltung der Sicherheitsvorgaben
 stmt_practice: Dienstleistersteuerung

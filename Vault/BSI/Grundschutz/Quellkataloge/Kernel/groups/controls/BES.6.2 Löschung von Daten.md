@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.6.2 Löschung von Daten
-uid: 90d55cb8-c0ff-4805-8b45-77aac247c786
+bsi_title: BES.6.2 Löschung von Daten
+uuid: 90d55cb8-c0ff-4805-8b45-77aac247c786
 aliases: 90d55cb8-c0ff-4805-8b45-77aac247c786
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.6.1 Entziehung der Zugangsberechtigungen
-uid: 0e6eb46f-3941-4f64-9fd6-709517a01ad1
+bsi_title: BES.6.1 Entziehung der Zugangsberechtigungen
+uuid: 0e6eb46f-3941-4f64-9fd6-709517a01ad1
 aliases: 0e6eb46f-3941-4f64-9fd6-709517a01ad1
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

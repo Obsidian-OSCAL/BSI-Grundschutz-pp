@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.8.3 Ressourcensouveränität
-uid: c928db22-3ace-445e-b501-7ebb8fbd9c2d
+bsi_title: BES.8.3 Ressourcensouveränität
+uuid: c928db22-3ace-445e-b501-7ebb8fbd9c2d
 aliases: c928db22-3ace-445e-b501-7ebb8fbd9c2d
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: zuweisen

@@ -6,11 +6,12 @@ tags:
 - phishing
 - denial_of_service
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.15.2 Begrenzung der Rechenleistung
-uid: 62f53764-d215-4e55-9ad1-7790922620af
+bsi_title: KONF.15.2 Begrenzung der Rechenleistung
+uuid: 62f53764-d215-4e55-9ad1-7790922620af
 aliases: 62f53764-d215-4e55-9ad1-7790922620af
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

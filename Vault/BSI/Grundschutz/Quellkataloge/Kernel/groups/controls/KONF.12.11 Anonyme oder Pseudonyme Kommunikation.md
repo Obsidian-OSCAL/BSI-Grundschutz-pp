@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf1211-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.12.11 Anonyme oder Pseudonyme Kommunikation
-uid: a06eca6b-f142-4808-b04d-c19adf178db4
+bsi_title: KONF.12.11 Anonyme oder Pseudonyme Kommunikation
+uuid: a06eca6b-f142-4808-b04d-c19adf178db4
 aliases: a06eca6b-f142-4808-b04d-c19adf178db4
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

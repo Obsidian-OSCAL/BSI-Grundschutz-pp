@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.2.7 Management-Netz
-uid: d02f23d0-9c15-4811-838f-6440ee744334
+bsi_title: ARCH.2.2.7 Management-Netz
+uuid: d02f23d0-9c15-4811-838f-6440ee744334
 aliases: d02f23d0-9c15-4811-838f-6440ee744334
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur

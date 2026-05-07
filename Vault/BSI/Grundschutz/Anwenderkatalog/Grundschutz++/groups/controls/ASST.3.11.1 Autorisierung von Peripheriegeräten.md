@@ -5,11 +5,12 @@ tags:
 - data_leak
 - shadow_it
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.3.11.1 Autorisierung von Peripheriegeräten
-uid: 75a9c947-c417-4dc7-a942-c27340f20ade
+bsi_title: ASST.3.11.1 Autorisierung von Peripheriegeräten
+uuid: 75a9c947-c417-4dc7-a942-c27340f20ade
 aliases: 75a9c947-c417-4dc7-a942-c27340f20ade
 parent_control: ASST.3.11 Autorisierung von Systemen
 stmt_practice: Informationen und Assets

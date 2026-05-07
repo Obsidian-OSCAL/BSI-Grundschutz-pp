@@ -7,11 +7,12 @@ tags:
 - zero_trust
 - arch411-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.4.1.1 Dynamische Netzzugangskontrolle
-uid: fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7
+bsi_title: ARCH.4.1.1 Dynamische Netzzugangskontrolle
+uuid: fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7
 aliases: fec4fcdf-13e7-4a32-a3e1-52dce90ea1d7
 parent_control: ARCH.4.1 Netzzugangskontrolle
 stmt_practice: Architektur

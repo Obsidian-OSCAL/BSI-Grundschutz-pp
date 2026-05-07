@@ -7,11 +7,12 @@ tags:
 - insider_threat
 - privilegierte_rechte
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.3.5 Privilegierte Zugangskonten
-uid: 4791c533-f811-48cf-9957-6e1d438028f5
+bsi_title: BER.3.5 Privilegierte Zugangskonten
+uuid: 4791c533-f811-48cf-9957-6e1d438028f5
 aliases: 4791c533-f811-48cf-9957-6e1d438028f5
 stmt_practice: Berechtigung
 stmt_action_word: verankern

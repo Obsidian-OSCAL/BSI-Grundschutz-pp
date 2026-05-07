@@ -5,11 +5,12 @@ tags:
 - inspektion
 - geb1028-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: GEB.10.2.8 Brandschutzprüfung
-uid: 3b904a6b-c440-4360-ab4a-37b76fc639a7
+bsi_title: GEB.10.2.8 Brandschutzprüfung
+uuid: 3b904a6b-c440-4360-ab4a-37b76fc639a7
 aliases: 3b904a6b-c440-4360-ab4a-37b76fc639a7
 parent_control: GEB.10.2 Brandschutz
 stmt_practice: Gebäudemanagement

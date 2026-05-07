@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf77-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.7.7 Regelmäßiger Funktionstest
-uid: 3cc8cb7f-eeb1-4d12-a87b-3081587e4b93
+bsi_title: KONF.7.7 Regelmäßiger Funktionstest
+uuid: 3cc8cb7f-eeb1-4d12-a87b-3081587e4b93
 aliases: 3cc8cb7f-eeb1-4d12-a87b-3081587e4b93
 stmt_practice: Konfiguration
 stmt_action_word: überprüfen

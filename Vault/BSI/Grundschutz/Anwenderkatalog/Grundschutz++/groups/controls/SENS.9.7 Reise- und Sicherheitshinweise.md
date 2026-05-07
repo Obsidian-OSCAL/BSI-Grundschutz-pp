@@ -5,11 +5,12 @@ tags:
 - auslandsreisen
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.9.7 Reise- und Sicherheitshinweise
-uid: 3b4e6be6-5648-468f-bc05-89191c9cdd90
+bsi_title: SENS.9.7 Reise- und Sicherheitshinweise
+uuid: 3b4e6be6-5648-468f-bc05-89191c9cdd90
 aliases: 3b4e6be6-5648-468f-bc05-89191c9cdd90
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren

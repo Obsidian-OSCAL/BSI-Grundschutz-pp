@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.6.4 Übertragung von Supportdienstleistungen
-uid: 4a487564-f53e-420d-bcc3-e7e35edcf162
+bsi_title: BES.6.4 Übertragung von Supportdienstleistungen
+uuid: 4a487564-f53e-420d-bcc3-e7e35edcf162
 aliases: 4a487564-f53e-420d-bcc3-e7e35edcf162
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: vereinbaren

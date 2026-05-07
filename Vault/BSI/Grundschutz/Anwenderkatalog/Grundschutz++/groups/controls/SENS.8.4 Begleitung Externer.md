@@ -5,11 +5,12 @@ tags:
 - physical_access_control
 - advanced_persistent_threats_apt
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.8.4 Begleitung Externer
-uid: 1f0a8e0c-33cd-407a-9579-e2dcc6d46515
+bsi_title: SENS.8.4 Begleitung Externer
+uuid: 1f0a8e0c-33cd-407a-9579-e2dcc6d46515
 aliases: 1f0a8e0c-33cd-407a-9579-e2dcc6d46515
 stmt_practice: Sensibilisierung
 stmt_action_word: anweisen

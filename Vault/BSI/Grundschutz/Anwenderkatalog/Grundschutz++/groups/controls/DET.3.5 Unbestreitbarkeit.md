@@ -6,11 +6,12 @@ tags:
 - det35-prm1
 - det35-prm2
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.3.5 Unbestreitbarkeit
-uid: 1d98ecfc-cf7a-4cf5-a108-169802a7b364
+bsi_title: DET.3.5 Unbestreitbarkeit
+uuid: 1d98ecfc-cf7a-4cf5-a108-169802a7b364
 aliases: 1d98ecfc-cf7a-4cf5-a108-169802a7b364
 stmt_practice: Detektion
 stmt_action_word: dokumentieren

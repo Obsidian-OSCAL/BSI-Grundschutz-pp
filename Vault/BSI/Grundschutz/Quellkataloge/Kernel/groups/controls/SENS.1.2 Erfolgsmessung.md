@@ -5,11 +5,12 @@ tags:
 - sens12-prm1
 - sens12-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.1.2 Erfolgsmessung
-uid: 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de
+bsi_title: SENS.1.2 Erfolgsmessung
+uuid: 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de
 aliases: 9d6cd1f9-6aa0-4042-a9dd-9d696a75a6de
 stmt_practice: Sensibilisierung
 stmt_action_word: überprüfen

@@ -6,11 +6,12 @@ tags:
 - password_policy
 - ber610-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.6.10 Monitoring von Zugangsdaten
-uid: 4785649d-561d-4757-9421-4d0db14ee4df
+bsi_title: BER.6.10 Monitoring von Zugangsdaten
+uuid: 4785649d-561d-4757-9421-4d0db14ee4df
 aliases: 4785649d-561d-4757-9421-4d0db14ee4df
 stmt_practice: Berechtigung
 stmt_action_word: überwachen

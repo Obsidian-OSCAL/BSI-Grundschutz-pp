@@ -5,11 +5,12 @@ tags:
 - advanced_persistent_threats_apt
 - rea25-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: REA.2.5 IT-Forensik
-uid: 6de9ac83-2280-4fbd-ac54-f570faa7b211
+bsi_title: REA.2.5 IT-Forensik
+uuid: 6de9ac83-2280-4fbd-ac54-f570faa7b211
 aliases: 6de9ac83-2280-4fbd-ac54-f570faa7b211
 stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: ausführen

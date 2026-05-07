@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - shared_responsibility_model
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.1.4 Outsourcing-Strategie
-uid: 302952ea-72e1-4104-9cbb-678717a267db
+bsi_title: BES.1.4 Outsourcing-Strategie
+uuid: 302952ea-72e1-4104-9cbb-678717a267db
 aliases: 302952ea-72e1-4104-9cbb-678717a267db
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: verankern

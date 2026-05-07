@@ -7,11 +7,12 @@ tags:
 - det54-prm1
 - det54-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.5.4 Regelmäßige Penetrationstests
-uid: 622f98fa-a211-4c1e-b655-5e9dd6c0d507
+bsi_title: DET.5.4 Regelmäßige Penetrationstests
+uuid: 622f98fa-a211-4c1e-b655-5e9dd6c0d507
 aliases: 622f98fa-a211-4c1e-b655-5e9dd6c0d507
 stmt_practice: Detektion
 stmt_action_word: überprüfen

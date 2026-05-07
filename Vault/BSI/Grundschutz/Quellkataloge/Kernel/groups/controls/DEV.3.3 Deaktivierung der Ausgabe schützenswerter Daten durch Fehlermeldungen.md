@@ -6,11 +6,12 @@ tags:
 - error_handling
 - produktbeschreibung
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.3.3 Deaktivierung der Ausgabe schützenswerter Daten durch Fehlermeldungen
-uid: 2b3f6962-b23f-4698-984e-f5b942ab2fdd
+bsi_title: DEV.3.3 Deaktivierung der Ausgabe schützenswerter Daten durch Fehlermeldungen
+uuid: 2b3f6962-b23f-4698-984e-f5b942ab2fdd
 aliases: 2b3f6962-b23f-4698-984e-f5b942ab2fdd
 stmt_practice: Entwicklung
 stmt_action_word: deaktivieren

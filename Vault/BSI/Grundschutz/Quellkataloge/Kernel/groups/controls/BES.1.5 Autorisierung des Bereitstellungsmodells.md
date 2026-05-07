@@ -6,11 +6,12 @@ tags:
 - shared_responsibility_model
 - bes15-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.1.5 Autorisierung des Bereitstellungsmodells
-uid: 6d50b322-84b8-4c9b-bd2a-0b48d6b61847
+bsi_title: BES.1.5 Autorisierung des Bereitstellungsmodells
+uuid: 6d50b322-84b8-4c9b-bd2a-0b48d6b61847
 aliases: 6d50b322-84b8-4c9b-bd2a-0b48d6b61847
 stmt_practice: Beschaffungsmanagement
 stmt_action_word: autorisieren

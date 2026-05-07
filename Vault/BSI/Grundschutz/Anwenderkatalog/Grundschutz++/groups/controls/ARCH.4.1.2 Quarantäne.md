@@ -6,11 +6,12 @@ tags:
 - rogue_access_point
 - zero_trust
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.4.1.2 Quarantäne
-uid: 5f97efff-4db1-4b26-8ab9-4521108e5c0c
+bsi_title: ARCH.4.1.2 Quarantäne
+uuid: 5f97efff-4db1-4b26-8ab9-4521108e5c0c
 aliases: 5f97efff-4db1-4b26-8ab9-4521108e5c0c
 parent_control: ARCH.4.1 Netzzugangskontrolle
 stmt_practice: Architektur

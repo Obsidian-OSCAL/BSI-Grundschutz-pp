@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.13.4 Kryptographische Signatur durch Nutzende
-uid: 8cda47f9-692a-485d-bc73-a4c3b691c501
+bsi_title: KONF.13.4 Kryptographische Signatur durch Nutzende
+uuid: 8cda47f9-692a-485d-bc73-a4c3b691c501
 aliases: 8cda47f9-692a-485d-bc73-a4c3b691c501
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

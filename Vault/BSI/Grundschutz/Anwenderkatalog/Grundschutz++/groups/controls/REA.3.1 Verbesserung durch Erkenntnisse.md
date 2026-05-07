@@ -5,11 +5,12 @@ tags:
 - kompetenzmanagement
 - rea31-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: REA.3.1 Verbesserung durch Erkenntnisse
-uid: eb3880e9-a0da-4372-84a7-7b0b69b8a852
+bsi_title: REA.3.1 Verbesserung durch Erkenntnisse
+uuid: eb3880e9-a0da-4372-84a7-7b0b69b8a852
 aliases: eb3880e9-a0da-4372-84a7-7b0b69b8a852
 stmt_practice: Sicherheitsvorfallsbehandlung
 stmt_action_word: überprüfen

@@ -5,11 +5,12 @@ tags:
 - inventories
 - zero_trust
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.2.2 Inventar der Systeme
-uid: b10fc10c-a3be-4b30-977a-6a2d020760d6
+bsi_title: ASST.2.2 Inventar der Systeme
+uuid: b10fc10c-a3be-4b30-977a-6a2d020760d6
 aliases: b10fc10c-a3be-4b30-977a-6a2d020760d6
 stmt_practice: Informationen und Assets
 stmt_action_word: dokumentieren

@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - phishing
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.13.1 Filtern schädlicher Nachrichten
-uid: 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58
+bsi_title: KONF.13.1 Filtern schädlicher Nachrichten
+uuid: 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58
 aliases: 0571ae85-f5f8-485c-b3d7-44f8ddfa2d58
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

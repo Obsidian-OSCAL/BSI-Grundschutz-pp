@@ -6,11 +6,12 @@ tags:
 - shadow_it
 - asst310-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.3.10 Autorisierung von Datenlokationen
-uid: 52eee4a3-f5cf-444d-ad0c-9c83c693481b
+bsi_title: ASST.3.10 Autorisierung von Datenlokationen
+uuid: 52eee4a3-f5cf-444d-ad0c-9c83c693481b
 aliases: 52eee4a3-f5cf-444d-ad0c-9c83c693481b
 stmt_practice: Informationen und Assets
 stmt_action_word: autorisieren

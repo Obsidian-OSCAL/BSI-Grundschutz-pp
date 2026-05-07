@@ -5,11 +5,12 @@ tags:
 - cryptography
 - ber714-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.7.14 Schlüssel vor Ablauf prüfen
-uid: 681822fa-f526-4580-9436-7c7d4c94edf3
+bsi_title: BER.7.14 Schlüssel vor Ablauf prüfen
+uuid: 681822fa-f526-4580-9436-7c7d4c94edf3
 aliases: 681822fa-f526-4580-9436-7c7d4c94edf3
 stmt_practice: Berechtigung
 stmt_action_word: überprüfen

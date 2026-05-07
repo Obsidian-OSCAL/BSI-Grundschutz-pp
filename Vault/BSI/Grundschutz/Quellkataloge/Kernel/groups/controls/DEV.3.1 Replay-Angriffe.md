@@ -7,11 +7,12 @@ tags:
 - session_hijacking
 - produktbeschreibung
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.3.1 Replay-Angriffe
-uid: 2eeb41fa-2354-4ea3-a641-c7e5a33a3087
+bsi_title: DEV.3.1 Replay-Angriffe
+uuid: 2eeb41fa-2354-4ea3-a641-c7e5a33a3087
 aliases: 2eeb41fa-2354-4ea3-a641-c7e5a33a3087
 stmt_practice: Entwicklung
 stmt_action_word: blockieren

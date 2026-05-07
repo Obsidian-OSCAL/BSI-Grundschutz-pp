@@ -6,11 +6,12 @@ tags:
 - insider_threat
 - privilegierte_rechte
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.10.5 Systemadministration - Internetnutzung
-uid: 888c76ab-d8f0-42ff-a791-8a31f17f6ad0
+bsi_title: SENS.10.5 Systemadministration - Internetnutzung
+uuid: 888c76ab-d8f0-42ff-a791-8a31f17f6ad0
 aliases: 888c76ab-d8f0-42ff-a791-8a31f17f6ad0
 stmt_practice: Sensibilisierung
 stmt_action_word: sensibilisieren

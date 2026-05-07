@@ -5,11 +5,12 @@ tags:
 - cryptography
 - ber75-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.7.5 Kriterien für die Qualität von Zufallszahlen
-uid: 426ad852-4455-43a4-b4ff-795ee2caa47b
+bsi_title: BER.7.5 Kriterien für die Qualität von Zufallszahlen
+uuid: 426ad852-4455-43a4-b4ff-795ee2caa47b
 aliases: 426ad852-4455-43a4-b4ff-795ee2caa47b
 stmt_practice: Berechtigung
 stmt_action_word: verankern

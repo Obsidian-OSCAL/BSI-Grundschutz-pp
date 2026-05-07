@@ -7,11 +7,12 @@ tags:
 - konf151-prm1
 - konf151-prm2
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.15.1 Begrenzung des Speicherplatzes
-uid: 15596e08-6978-4e61-bf6c-63e24575788f
+bsi_title: KONF.15.1 Begrenzung des Speicherplatzes
+uuid: 15596e08-6978-4e61-bf6c-63e24575788f
 aliases: 15596e08-6978-4e61-bf6c-63e24575788f
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

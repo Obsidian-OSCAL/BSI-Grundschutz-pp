@@ -5,11 +5,12 @@ tags:
 - lateral_movement
 - separation_of_concerns
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.2.9 Segmentierung von IPv4 und IPv6
-uid: dabbb234-5678-456b-8db4-4c7ac9ed1e12
+bsi_title: ARCH.2.2.9 Segmentierung von IPv4 und IPv6
+uuid: dabbb234-5678-456b-8db4-4c7ac9ed1e12
 aliases: dabbb234-5678-456b-8db4-4c7ac9ed1e12
 parent_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
 stmt_practice: Architektur

@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - failover
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.8.1 Redundanz im Kernnetz
-uid: 37f932b2-e132-4bf0-b8c3-eed73eadc680
+bsi_title: ARCH.8.1 Redundanz im Kernnetz
+uuid: 37f932b2-e132-4bf0-b8c3-eed73eadc680
 aliases: 37f932b2-e132-4bf0-b8c3-eed73eadc680
 stmt_practice: Architektur
 stmt_action_word: installieren

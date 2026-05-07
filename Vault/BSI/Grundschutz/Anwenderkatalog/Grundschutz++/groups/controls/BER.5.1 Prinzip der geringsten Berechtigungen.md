@@ -5,11 +5,12 @@ tags:
 - security_by_default
 - privilegierte_rechte
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.5.1 Prinzip der geringsten Berechtigungen
-uid: 0e1f4190-44ad-48f0-9504-781aef585ba0
+bsi_title: BER.5.1 Prinzip der geringsten Berechtigungen
+uuid: 0e1f4190-44ad-48f0-9504-781aef585ba0
 aliases: 0e1f4190-44ad-48f0-9504-781aef585ba0
 stmt_practice: Berechtigung
 stmt_action_word: einschränken

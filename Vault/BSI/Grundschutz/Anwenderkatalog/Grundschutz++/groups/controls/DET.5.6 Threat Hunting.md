@@ -5,11 +5,12 @@ tags:
 - advanced_persistent_threats_apt
 - det56-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.5.6 Threat Hunting
-uid: ff549367-0992-4b06-a2c0-246915632cb1
+bsi_title: DET.5.6 Threat Hunting
+uuid: ff549367-0992-4b06-a2c0-246915632cb1
 aliases: ff549367-0992-4b06-a2c0-246915632cb1
 stmt_practice: Detektion
 stmt_action_word: überprüfen

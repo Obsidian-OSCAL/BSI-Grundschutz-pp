@@ -6,11 +6,12 @@ tags:
 - privilege_escalation
 - password_policy
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: SENS.4.1.2 Untersagung von Passwort Recycling
-uid: 0573247f-65f3-4768-9d27-6c9c0f42c6cd
+bsi_title: SENS.4.1.2 Untersagung von Passwort Recycling
+uuid: 0573247f-65f3-4768-9d27-6c9c0f42c6cd
 aliases: 0573247f-65f3-4768-9d27-6c9c0f42c6cd
 parent_control: SENS.4.1 Personengebundene Authentisierungsmittel
 stmt_practice: Sensibilisierung

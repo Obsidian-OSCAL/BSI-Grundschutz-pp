@@ -6,11 +6,12 @@ tags:
 - error_handling
 - produktbeschreibung
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.3.2 Routinen zur Fehlerbehandlung
-uid: e06f7f69-4c90-4e39-b6be-a9428548e824
+bsi_title: DEV.3.2 Routinen zur Fehlerbehandlung
+uuid: e06f7f69-4c90-4e39-b6be-a9428548e824
 aliases: e06f7f69-4c90-4e39-b6be-a9428548e824
 stmt_practice: Entwicklung
 stmt_action_word: ausführen

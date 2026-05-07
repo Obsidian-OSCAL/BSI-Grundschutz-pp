@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf361-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.3.6.1 Automatische Fernlöschung oder -sperre
-uid: ffc45c05-597f-4be9-9358-124b4a008e50
+bsi_title: KONF.3.6.1 Automatische Fernlöschung oder -sperre
+uuid: ffc45c05-597f-4be9-9358-124b4a008e50
 aliases: ffc45c05-597f-4be9-9358-124b4a008e50
 parent_control: KONF.3.6 Fernlöschung oder -sperre
 stmt_practice: Konfiguration

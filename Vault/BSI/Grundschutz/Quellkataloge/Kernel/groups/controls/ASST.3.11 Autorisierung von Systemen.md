@@ -6,11 +6,12 @@ tags:
 - shadow_it
 - asst311-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.3.11 Autorisierung von Systemen
-uid: 65e6f130-1000-47a4-a551-386d23f6f188
+bsi_title: ASST.3.11 Autorisierung von Systemen
+uuid: 65e6f130-1000-47a4-a551-386d23f6f188
 aliases: 65e6f130-1000-47a4-a551-386d23f6f188
 stmt_practice: Informationen und Assets
 stmt_action_word: autorisieren

@@ -5,11 +5,12 @@ tags:
 - archivierung
 - asst721-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ASST.7.2.1 Langfristige Archivierung
-uid: d26539e6-62c3-469a-87f3-87ab15fd9213
+bsi_title: ASST.7.2.1 Langfristige Archivierung
+uuid: d26539e6-62c3-469a-87f3-87ab15fd9213
 aliases: d26539e6-62c3-469a-87f3-87ab15fd9213
 parent_control: ASST.7.2 Aufbewahrungs- und Löschfristen
 stmt_practice: Informationen und Assets

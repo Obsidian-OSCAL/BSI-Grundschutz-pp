@@ -5,11 +5,12 @@ tags:
 - rogue_access_point
 - det419-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.4.19 Unautorisierte Sendeanlagen
-uid: d85d0d64-bc5c-4a11-91d8-7c567abd5b21
+bsi_title: DET.4.19 Unautorisierte Sendeanlagen
+uuid: d85d0d64-bc5c-4a11-91d8-7c567abd5b21
 aliases: d85d0d64-bc5c-4a11-91d8-7c567abd5b21
 stmt_practice: Detektion
 stmt_action_word: überwachen

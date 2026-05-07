@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - failover
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.8.3 Redundante Server
-uid: d1a0c0ac-dc2e-4d90-b67d-b76eec256915
+bsi_title: ARCH.8.3 Redundante Server
+uuid: d1a0c0ac-dc2e-4d90-b67d-b76eec256915
 aliases: d1a0c0ac-dc2e-4d90-b67d-b76eec256915
 stmt_practice: Architektur
 stmt_action_word: installieren

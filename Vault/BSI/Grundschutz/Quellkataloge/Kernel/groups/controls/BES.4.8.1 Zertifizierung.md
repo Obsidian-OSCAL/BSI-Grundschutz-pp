@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - bes481-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.4.8.1 Zertifizierung
-uid: 6cecab39-d08d-49a1-922e-b3f9ea7d5af4
+bsi_title: BES.4.8.1 Zertifizierung
+uuid: 6cecab39-d08d-49a1-922e-b3f9ea7d5af4
 aliases: 6cecab39-d08d-49a1-922e-b3f9ea7d5af4
 parent_control: BES.4.8 Konformitätsnachweise
 stmt_practice: Beschaffungsmanagement

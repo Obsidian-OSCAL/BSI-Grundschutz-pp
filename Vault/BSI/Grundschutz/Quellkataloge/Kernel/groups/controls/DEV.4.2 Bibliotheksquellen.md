@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - secure_compiling_practices
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DEV.4.2 Bibliotheksquellen
-uid: 54b5a504-5b17-4fea-8514-079d99eb0102
+bsi_title: DEV.4.2 Bibliotheksquellen
+uuid: 54b5a504-5b17-4fea-8514-079d99eb0102
 aliases: 54b5a504-5b17-4fea-8514-079d99eb0102
 stmt_practice: Entwicklung
 stmt_action_word: untersagen

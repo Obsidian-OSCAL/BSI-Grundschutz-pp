@@ -6,11 +6,12 @@ tags:
 - separation_of_concerns
 - arch22-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
-uid: 6ff2de76-4a01-42cc-a794-1a6ec9313f46
+bsi_title: ARCH.2.2 Einschränkung von Verbindungen zwischen Segmenten
+uuid: 6ff2de76-4a01-42cc-a794-1a6ec9313f46
 aliases: 6ff2de76-4a01-42cc-a794-1a6ec9313f46
 stmt_practice: Architektur
 stmt_action_word: einschränken

@@ -5,11 +5,12 @@ tags:
 - lieferketten
 - exit-strategie
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BES.5.10.5 Konsequenzen bei Verstößen
-uid: 119a13e9-ea12-41a3-a974-2d1cba295fb8
+bsi_title: BES.5.10.5 Konsequenzen bei Verstößen
+uuid: 119a13e9-ea12-41a3-a974-2d1cba295fb8
 aliases: 119a13e9-ea12-41a3-a974-2d1cba295fb8
 parent_control: BES.5.10 Behandlung von Vorfällen
 stmt_practice: Beschaffungsmanagement

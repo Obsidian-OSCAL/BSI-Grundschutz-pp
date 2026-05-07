@@ -5,11 +5,12 @@ tags:
 - cryptography
 - not48-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: NOT.4.8 Verschlüsselte Datensicherung
-uid: b443fd60-5e58-454b-8d57-baec8a876d22
+bsi_title: NOT.4.8 Verschlüsselte Datensicherung
+uuid: b443fd60-5e58-454b-8d57-baec8a876d22
 aliases: b443fd60-5e58-454b-8d57-baec8a876d22
 stmt_practice: Notfallplanung
 stmt_action_word: verschlüsseln

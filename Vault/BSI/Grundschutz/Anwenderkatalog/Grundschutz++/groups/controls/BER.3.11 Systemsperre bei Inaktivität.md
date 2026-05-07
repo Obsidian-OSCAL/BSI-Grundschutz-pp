@@ -6,11 +6,12 @@ tags:
 - zero_trust
 - ber311-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.3.11 Systemsperre bei Inaktivität
-uid: de11e8f3-d1fa-4b11-a6b0-e0d327b42849
+bsi_title: BER.3.11 Systemsperre bei Inaktivität
+uuid: de11e8f3-d1fa-4b11-a6b0-e0d327b42849
 aliases: de11e8f3-d1fa-4b11-a6b0-e0d327b42849
 stmt_practice: Berechtigung
 stmt_action_word: aktivieren

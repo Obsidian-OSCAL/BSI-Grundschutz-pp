@@ -8,11 +8,12 @@ tags:
 - insider_threat
 - living_off_the_land
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.4.6.1 Verhaltensanalyse von Zugangskonten
-uid: cd3e1fde-3095-4518-b906-ca18824839b8
+bsi_title: DET.4.6.1 Verhaltensanalyse von Zugangskonten
+uuid: cd3e1fde-3095-4518-b906-ca18824839b8
 aliases: cd3e1fde-3095-4518-b906-ca18824839b8
 parent_control: DET.4.6 Anomale Nutzung der Anwendung
 stmt_practice: Detektion

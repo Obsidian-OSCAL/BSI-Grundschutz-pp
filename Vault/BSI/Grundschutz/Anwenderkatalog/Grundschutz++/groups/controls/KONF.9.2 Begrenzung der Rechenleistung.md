@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - konf92-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.9.2 Begrenzung der Rechenleistung
-uid: 3b0eb166-07b9-4b51-a1f5-75513b28015c
+bsi_title: KONF.9.2 Begrenzung der Rechenleistung
+uuid: 3b0eb166-07b9-4b51-a1f5-75513b28015c
 aliases: 3b0eb166-07b9-4b51-a1f5-75513b28015c
 stmt_practice: Konfiguration
 stmt_action_word: einschränken

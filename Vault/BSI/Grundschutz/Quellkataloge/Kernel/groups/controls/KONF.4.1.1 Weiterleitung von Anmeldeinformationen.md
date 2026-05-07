@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - lateral_movement
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.4.1.1 Weiterleitung von Anmeldeinformationen
-uid: 6089e247-2518-4c90-b991-df8cbb24585f
+bsi_title: KONF.4.1.1 Weiterleitung von Anmeldeinformationen
+uuid: 6089e247-2518-4c90-b991-df8cbb24585f
 aliases: 6089e247-2518-4c90-b991-df8cbb24585f
 parent_control: KONF.4.1 Anbindung an Verzeichnisdienst
 stmt_practice: Konfiguration

@@ -6,11 +6,12 @@ tags:
 - phishing
 - denial_of_service
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.15.3 Denial of Service
-uid: 51947077-3600-48fc-83b0-5d5ff343d706
+bsi_title: KONF.15.3 Denial of Service
+uuid: 51947077-3600-48fc-83b0-5d5ff343d706
 aliases: 51947077-3600-48fc-83b0-5d5ff343d706
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

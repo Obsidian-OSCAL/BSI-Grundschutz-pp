@@ -6,11 +6,12 @@ tags:
 - det581-prm1
 - det581-prm2
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.5.8.1 Auswertung öffentlicher Quellen
-uid: 42bf3e91-d270-4a79-8ae9-a22918f94ad7
+bsi_title: DET.5.8.1 Auswertung öffentlicher Quellen
+uuid: 42bf3e91-d270-4a79-8ae9-a22918f94ad7
 aliases: 42bf3e91-d270-4a79-8ae9-a22918f94ad7
 parent_control: DET.5.8 Bedrohungsanalyse
 stmt_practice: Detektion

@@ -6,11 +6,12 @@ tags:
 - brute-force-attacke
 - ber39-prm1
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.3.9 Anmeldeversuchsgrenze am System
-uid: c37f30d1-8fd7-4497-b3f1-07d8f54b717c
+bsi_title: BER.3.9 Anmeldeversuchsgrenze am System
+uuid: c37f30d1-8fd7-4497-b3f1-07d8f54b717c
 aliases: c37f30d1-8fd7-4497-b3f1-07d8f54b717c
 stmt_practice: Berechtigung
 stmt_action_word: blockieren

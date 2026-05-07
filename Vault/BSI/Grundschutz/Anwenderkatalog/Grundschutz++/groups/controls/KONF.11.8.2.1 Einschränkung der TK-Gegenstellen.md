@@ -5,11 +5,12 @@ tags:
 - produktbeschreibung
 - pstn
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.11.8.2.1 Einschränkung der TK-Gegenstellen
-uid: 756c0796-be3d-492d-a64e-3314f6d83805
+bsi_title: KONF.11.8.2.1 Einschränkung der TK-Gegenstellen
+uuid: 756c0796-be3d-492d-a64e-3314f6d83805
 aliases: 756c0796-be3d-492d-a64e-3314f6d83805
 parent_control: KONF.11.8.2 Einschränkung von TK-Verbindungen
 stmt_practice: Konfiguration

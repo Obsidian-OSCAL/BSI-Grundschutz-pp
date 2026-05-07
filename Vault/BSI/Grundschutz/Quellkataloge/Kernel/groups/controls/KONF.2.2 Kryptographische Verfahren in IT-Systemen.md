@@ -5,11 +5,12 @@ tags:
 - cryptography
 - konf22-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: KONF.2.2 Kryptographische Verfahren in IT-Systemen
-uid: e4570c64-4790-4a5c-95e4-4c168d447566
+bsi_title: KONF.2.2 Kryptographische Verfahren in IT-Systemen
+uuid: e4570c64-4790-4a5c-95e4-4c168d447566
 aliases: e4570c64-4790-4a5c-95e4-4c168d447566
 stmt_practice: Konfiguration
 stmt_action_word: aktivieren

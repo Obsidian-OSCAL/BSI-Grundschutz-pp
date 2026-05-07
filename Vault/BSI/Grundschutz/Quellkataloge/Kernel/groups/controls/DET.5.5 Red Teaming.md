@@ -6,11 +6,12 @@ tags:
 - advanced_persistent_threats_apt
 - det55-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: DET.5.5 Red Teaming
-uid: ea34243d-adc3-4208-ab4e-25247aa8c009
+bsi_title: DET.5.5 Red Teaming
+uuid: ea34243d-adc3-4208-ab4e-25247aa8c009
 aliases: ea34243d-adc3-4208-ab4e-25247aa8c009
 stmt_practice: Detektion
 stmt_action_word: überprüfen

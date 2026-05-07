@@ -5,11 +5,12 @@ tags:
 - hochverfügbarkeit
 - arch92-prm1
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: ARCH.9.2 Lastverteilung
-uid: 50e54872-271e-41b4-b54a-50e9ebab82bd
+bsi_title: ARCH.9.2 Lastverteilung
+uuid: 50e54872-271e-41b4-b54a-50e9ebab82bd
 aliases: 50e54872-271e-41b4-b54a-50e9ebab82bd
 stmt_practice: Architektur
 stmt_action_word: aktivieren

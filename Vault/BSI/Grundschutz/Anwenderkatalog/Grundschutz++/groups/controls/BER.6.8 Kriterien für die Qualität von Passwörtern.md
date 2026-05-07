@@ -8,11 +8,12 @@ tags:
 - password_policy
 - cryptography
 - oscal_control
-created: Sun May 03 15:36:12 CEST 2026
+created: Thu May 07 15:19:59 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.6.8 Kriterien für die Qualität von Passwörtern
-uid: af5ba77a-8d77-4a4f-8842-23ba9dedb829
+bsi_title: BER.6.8 Kriterien für die Qualität von Passwörtern
+uuid: af5ba77a-8d77-4a4f-8842-23ba9dedb829
 aliases: af5ba77a-8d77-4a4f-8842-23ba9dedb829
 stmt_practice: Berechtigung
 stmt_action_word: verankern

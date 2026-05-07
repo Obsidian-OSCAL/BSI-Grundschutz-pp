@@ -5,11 +5,12 @@ tags:
 - credential_stuffing
 - brute-force-attacke
 - oscal_control
-created: Sun May 03 15:36:13 CEST 2026
+created: Thu May 07 15:20:00 CEST 2026
+bsi_type: control
 oscal_class: BSI-Stand-der-Technik-Kernel
 oscal_type: control
-oscal_control: BER.3.7 Hinweise bei Anmeldefehlern
-uid: dd5fcc0c-d602-4d15-839c-5adb4fef150e
+bsi_title: BER.3.7 Hinweise bei Anmeldefehlern
+uuid: dd5fcc0c-d602-4d15-839c-5adb4fef150e
 aliases: dd5fcc0c-d602-4d15-839c-5adb4fef150e
 stmt_practice: Berechtigung
 stmt_action_word: deaktivieren

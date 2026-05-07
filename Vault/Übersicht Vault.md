@@ -1,3 +1,11 @@
+Bitte beachten Sie die Angaben im Repository zur Verwendung und Nutzung
+- [[https://github.com/Obsidian-OSCAL/BSI-Grundschutz-pp/blob/main/README.md|README]]
+- [[https://github.com/Obsidian-OSCAL/BSI-Grundschutz-pp/blob/main/LICENSE|LICENSE]]
+
+Sollten Ihnen Fehler auffallen, öffnen Sie bitte ein Issue im Repository:
+[[https://github.com/Obsidian-OSCAL/BSI-Grundschutz-pp/issues]]
+
+
 # Übersicht und Struktur des Vaults
 
 Dieses Vault ist in zwei klar getrennte Bereiche gegliedert, um eine saubere Unterscheidung zwischen **verbindlichen Inhalten** und **ergänzenden Informationen** zu gewährleisten:

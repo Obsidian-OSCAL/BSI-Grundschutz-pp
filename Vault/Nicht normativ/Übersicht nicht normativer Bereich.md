@@ -4,6 +4,8 @@ Dieser Bereich dient der Sammlung von **Kommentaren, Erläuterungen und ergänze
 
 Aktuelle Inhalte:
 - [[Bibliothek/Bibliothek referenzierter Dokumente|Bibliothek referenzierter Dokumente]]
+- Technische Aspekte / Verwendung:
+	- [[Vault Verwendung/Frontmatter Aufbau|Frontmatter Aufbau]] - beschreibt die Frontmatter Tags, die für eigene Abfragen verwendet werden können (z.B. über dataview.js)
 
 ### Disclaimer
 

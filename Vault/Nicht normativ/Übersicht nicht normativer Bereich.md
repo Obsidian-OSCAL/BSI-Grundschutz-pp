@@ -5,6 +5,7 @@ Dieser Bereich dient der Sammlung von **Kommentaren, Erläuterungen und ergänze
 Aktuelle Inhalte:
 - [[Bibliothek/Bibliothek referenzierter Dokumente|Bibliothek referenzierter Dokumente]]
 - Technische Aspekte / Verwendung:
+    - [[Vault Verwendung/Allgemeine Anmerkungen|Allgemeine Anmerkungen]] 
 	- [[Vault Verwendung/Frontmatter Aufbau|Frontmatter Aufbau]] - beschreibt die Frontmatter Tags, die für eigene Abfragen verwendet werden können (z.B. über dataview.js)
 
 ### Disclaimer
@@ -13,4 +14,4 @@ Die Inhalte dieses Bereichs sind **nicht normativ und nicht verbindlich**. Sie s
 
 Dieser Abschnitt ist bewusst als **separater, eigenständiger Bereich** geführt. Er kann bei Bedarf individuell erweitert, angepasst oder neu strukturiert werden. Insbesondere ist er dafür geeignet, **eigene Inhalte und Notizen aufzunehmen**, beispielsweise wenn dieses Vault kopiert oder in einem anderen Kontext weiterverwendet wird.
 
-Für formale oder verbindliche Aussagen ist ausschließlich der normative Teil [[../BSI/Willkommen|Willkommen]] maßgeblich.
+Für formale oder verbindliche Aussagen ist ausschließlich der normative Teil s. "[[../BSI/Willkommen|Willkommen]]" maßgeblich.
